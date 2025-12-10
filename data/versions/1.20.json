@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "cherry_log",
-                "name": "Cherry Log"
+                "name": "Cherry Log",
+                "wiki": "https://minecraft.wiki/w/Log#Cherry"
             },
             {
                 "types": [
@@ -512,7 +513,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "pitcher_pod",
-                "name": "Pitcher Pod"
+                "name": "Pitcher Pod",
+                "wiki": "https://minecraft.wiki/w/Pitcher_Pod"
             },
             {
                 "types": [
@@ -521,7 +523,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "torchflower_seeds",
-                "name": "Torchflower Seeds"
+                "name": "Torchflower Seeds",
+                "wiki": "https://minecraft.wiki/w/Torchflower_Seeds"
             },
             {
                 "types": [
@@ -529,7 +532,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "angler_pottery_sherd",
-                "name": "Angler Pottery Sherd"
+                "name": "Angler Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Angler_Pottery_Sherd"
             },
             {
                 "types": [
@@ -537,7 +541,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "archer_pottery_sherd",
-                "name": "Archer Pottery Sherd"
+                "name": "Archer Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Archer_Pottery_Sherd"
             },
             {
                 "types": [
@@ -545,7 +550,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "arms_up_pottery_sherd",
-                "name": "Arms Up Pottery Sherd"
+                "name": "Arms Up Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Arms_Up_Pottery_Sherd"
             },
             {
                 "types": [
@@ -553,7 +559,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "blade_pottery_sherd",
-                "name": "Blade Pottery Sherd"
+                "name": "Blade Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Blade_Pottery_Sherd"
             },
             {
                 "types": [
@@ -561,7 +568,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "brewer_pottery_sherd",
-                "name": "Brewer Pottery Sherd"
+                "name": "Brewer Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Brewer_Pottery_Sherd"
             },
             {
                 "types": [
@@ -569,7 +577,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "burn_pottery_sherd",
-                "name": "Burn Pottery Sherd"
+                "name": "Burn Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Burn_Pottery_Sherd"
             },
             {
                 "types": [
@@ -577,7 +586,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "danger_pottery_sherd",
-                "name": "Danger Pottery Sherd"
+                "name": "Danger Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Danger_Pottery_Sherd"
             },
             {
                 "types": [
@@ -585,7 +595,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "explorer_pottery_sherd",
-                "name": "Explorer Pottery Sherd"
+                "name": "Explorer Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Explorer_Pottery_Sherd"
             },
             {
                 "types": [
@@ -593,7 +604,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "friend_pottery_sherd",
-                "name": "Friend Pottery Sherd"
+                "name": "Friend Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Friend_Pottery_Sherd"
             },
             {
                 "types": [
@@ -601,7 +613,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "heart_pottery_sherd",
-                "name": "Heart Pottery Sherd"
+                "name": "Heart Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Heart_Pottery_Sherd"
             },
             {
                 "types": [
@@ -609,7 +622,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "heartbreak_pottery_sherd",
-                "name": "Heartbreak Pottery Sherd"
+                "name": "Heartbreak Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Heartbreak_Pottery_Sherd"
             },
             {
                 "types": [
@@ -617,7 +631,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "howl_pottery_sherd",
-                "name": "Howl Pottery Sherd"
+                "name": "Howl Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Howl_Pottery_Sherd"
             },
             {
                 "types": [
@@ -625,7 +640,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "miner_pottery_sherd",
-                "name": "Miner Pottery Sherd"
+                "name": "Miner Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Miner_Pottery_Sherd"
             },
             {
                 "types": [
@@ -633,7 +649,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "mourner_pottery_sherd",
-                "name": "Mourner Pottery Sherd"
+                "name": "Mourner Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Mourner_Pottery_Sherd"
             },
             {
                 "types": [
@@ -641,7 +658,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "plenty_pottery_sherd",
-                "name": "Plenty Pottery Sherd"
+                "name": "Plenty Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Plenty_Pottery_Sherd"
             },
             {
                 "types": [
@@ -649,7 +667,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "prize_pottery_sherd",
-                "name": "Prize Pottery Sherd"
+                "name": "Prize Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Prize_Pottery_Sherd"
             },
             {
                 "types": [
@@ -657,7 +676,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "sheaf_pottery_sherd",
-                "name": "Sheaf Pottery Sherd"
+                "name": "Sheaf Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Sheaf_Pottery_Sherd"
             },
             {
                 "types": [
@@ -665,7 +685,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "shelter_pottery_sherd",
-                "name": "Shelter Pottery Sherd"
+                "name": "Shelter Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Shelter_Pottery_Sherd"
             },
             {
                 "types": [
@@ -673,7 +694,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "skull_pottery_sherd",
-                "name": "Skull Pottery Sherd"
+                "name": "Skull Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Skull_Pottery_Sherd"
             },
             {
                 "types": [
@@ -681,7 +703,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "snort_pottery_sherd",
-                "name": "Snort Pottery Sherd"
+                "name": "Snort Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Snort_Pottery_Sherd"
             },
             {
                 "types": [
@@ -689,7 +712,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "coast_armor_trim_smithing_template",
-                "name": "Coast Armor Trim"
+                "name": "Coast Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim"
             },
             {
                 "types": [
@@ -697,7 +721,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "dune_armor_trim_smithing_template",
-                "name": "Dune Armor Trim"
+                "name": "Dune Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
             },
             {
                 "types": [
@@ -705,7 +730,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "eye_armor_trim_smithing_template",
-                "name": "Eye Armor Trim"
+                "name": "Eye Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim"
             },
             {
                 "types": [
@@ -713,7 +739,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "host_armor_trim_smithing_template",
-                "name": "Host Armor Trim"
+                "name": "Host Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
             },
             {
                 "types": [
@@ -721,7 +748,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "raiser_armor_trim_smithing_template",
-                "name": "Raiser Armor Trim"
+                "name": "Raiser Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
             },
             {
                 "types": [
@@ -729,7 +757,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "rib_armor_trim_smithing_template",
-                "name": "Rib Armor Trim"
+                "name": "Rib Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
             },
             {
                 "types": [
@@ -737,7 +766,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "sentry_armor_trim_smithing_template",
-                "name": "Sentry Armor Trim"
+                "name": "Sentry Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
             },
             {
                 "types": [
@@ -745,7 +775,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "shaper_armor_trim_smithing_template",
-                "name": "Shaper Armor Trim"
+                "name": "Shaper Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
             },
             {
                 "types": [
@@ -753,7 +784,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "silence_armor_trim_smithing_template",
-                "name": "Silence Armor Trim"
+                "name": "Silence Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
             },
             {
                 "types": [
@@ -761,7 +793,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "snout_armor_trim_smithing_template",
-                "name": "Snout Armor Trim"
+                "name": "Snout Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim"
             },
             {
                 "types": [
@@ -769,7 +802,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "spire_armor_trim_smithing_template",
-                "name": "Spire Armor Trim"
+                "name": "Spire Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
             },
             {
                 "types": [
@@ -777,7 +811,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "tide_armor_trim_smithing_template",
-                "name": "Tide Armor Trim"
+                "name": "Tide Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
             },
             {
                 "types": [
@@ -785,7 +820,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "vex_armor_trim_smithing_template",
-                "name": "Vex Armor Trim"
+                "name": "Vex Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim"
             },
             {
                 "types": [
@@ -793,7 +829,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "ward_armor_trim_smithing_template",
-                "name": "Ward Armor Trim"
+                "name": "Ward Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
             },
             {
                 "types": [
@@ -801,7 +838,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "wayfinder_armor_trim_smithing_template",
-                "name": "Wayfinder Armor Trim"
+                "name": "Wayfinder Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
             },
             {
                 "types": [
@@ -809,7 +847,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "wild_armor_trim_smithing_template",
-                "name": "Wild Armor Trim"
+                "name": "Wild Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
             },
             {
                 "types": [
@@ -817,7 +856,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "netherite_upgrade_smithing_template",
-                "name": "Netherite Upgrade"
+                "name": "Netherite Upgrade",
+                "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
             },
             {
                 "types": [
@@ -825,7 +865,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_relic",
-                "name": "Music Disc Relic"
+                "name": "Music Disc Relic",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Relic"
             },
             {
                 "types": [
@@ -957,7 +998,8 @@
                     "icon": {
                         "identifier": "dune_armor_trim_smithing_template",
                         "element_type": "item",
-                        "name": "Dune Armor Trim"
+                        "name": "Dune Armor Trim",
+                        "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
                     }
                 }
             },
@@ -986,7 +1028,8 @@
                     "icon": {
                         "identifier": "silence_armor_trim_smithing_template",
                         "element_type": "item",
-                        "name": "Silence Armor Trim"
+                        "name": "Silence Armor Trim",
+                        "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
                     }
                 }
             },
@@ -1030,7 +1073,8 @@
                     "icon": {
                         "identifier": "torchflower_seeds",
                         "element_type": "item",
-                        "name": "Torchflower Seeds"
+                        "name": "Torchflower Seeds",
+                        "wiki": "https://minecraft.wiki/w/Torchflower_Seeds"
                     }
                 }
             },
@@ -1044,7 +1088,8 @@
                     "icon": {
                         "identifier": "pitcher_pod",
                         "element_type": "item",
-                        "name": "Pitcher Pod"
+                        "name": "Pitcher Pod",
+                        "wiki": "https://minecraft.wiki/w/Pitcher_Pod"
                     }
                 }
             }

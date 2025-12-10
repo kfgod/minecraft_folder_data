@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "crimson_stem",
-                "name": "Crimson Stem"
+                "name": "Crimson Stem",
+                "wiki": "https://minecraft.wiki/w/Log#Crimson"
             },
             {
                 "types": [
@@ -17,7 +18,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "warped_stem",
-                "name": "Warped Stem"
+                "name": "Warped Stem",
+                "wiki": "https://minecraft.wiki/w/Log#Warped"
             },
             {
                 "types": [
@@ -625,7 +627,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_pigstep",
-                "name": "Music Disc Pigstep"
+                "name": "Music Disc Pigstep",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Pigstep"
             },
             {
                 "types": [],

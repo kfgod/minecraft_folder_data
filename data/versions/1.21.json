@@ -827,7 +827,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "flow_pottery_sherd",
-                "name": "Flow Pottery Sherd"
+                "name": "Flow Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Flow_Pottery_Sherd"
             },
             {
                 "types": [
@@ -835,7 +836,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "guster_pottery_sherd",
-                "name": "Guster Pottery Sherd"
+                "name": "Guster Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Guster_Pottery_Sherd"
             },
             {
                 "types": [
@@ -843,7 +845,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "scrape_pottery_sherd",
-                "name": "Scrape Pottery Sherd"
+                "name": "Scrape Pottery Sherd",
+                "wiki": "https://minecraft.wiki/w/Scrape_Pottery_Sherd"
             },
             {
                 "types": [
@@ -851,7 +854,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "bolt_armor_trim_smithing_template",
-                "name": "Bolt Armor Trim"
+                "name": "Bolt Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim"
             },
             {
                 "types": [
@@ -859,7 +863,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "flow_armor_trim_smithing_template",
-                "name": "Flow Armor Trim"
+                "name": "Flow Armor Trim",
+                "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim"
             },
             {
                 "types": [
@@ -867,7 +872,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_creator",
-                "name": "Music Disc Creator"
+                "name": "Music Disc Creator",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Creator"
             },
             {
                 "types": [
@@ -875,7 +881,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_creator_music_box",
-                "name": "Music Disc Creator (Music Box)"
+                "name": "Music Disc Creator (Music Box)",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Creator_(Music_Box)"
             },
             {
                 "types": [
@@ -883,7 +890,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_precipice",
-                "name": "Music Disc Precipice"
+                "name": "Music Disc Precipice",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Precipice"
             },
             {
                 "types": [

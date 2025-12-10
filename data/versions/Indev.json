@@ -59,7 +59,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "wheat_seeds",
-                "name": "Wheat Seeds"
+                "name": "Wheat Seeds",
+                "wiki": "https://minecraft.wiki/w/Wheat_Seeds"
             },
             {
                 "types": [

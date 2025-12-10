@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "acacia_log",
-                "name": "Acacia Log"
+                "name": "Acacia Log",
+                "wiki": "https://minecraft.wiki/w/Log#Acacia"
             },
             {
                 "types": [
@@ -17,7 +18,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "dark_oak_log",
-                "name": "Dark Oak Log"
+                "name": "Dark Oak Log",
+                "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
             },
             {
                 "types": [

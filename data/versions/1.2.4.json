@@ -5,13 +5,15 @@
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "cut_sandstone",
-                "name": "Cut Sandstone"
+                "name": "Cut Sandstone",
+                "wiki": "https://minecraft.wiki/w/Cut_Sandstone"
             },
             {
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "chiseled_sandstone",
-                "name": "Chiseled Sandstone"
+                "name": "Chiseled Sandstone",
+                "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone"
             },
             {
                 "types": [

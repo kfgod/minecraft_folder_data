@@ -137,7 +137,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "golden_carrot",
-                "name": "Golden Carrot"
+                "name": "Golden Carrot",
+                "wiki": "https://minecraft.wiki/w/Golden_Carrot"
             },
             {
                 "types": [
@@ -147,7 +148,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "carrot",
-                "name": "Carrot"
+                "name": "Carrot",
+                "wiki": "https://minecraft.wiki/w/Carrot"
             },
             {
                 "types": [
@@ -157,7 +159,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "potato",
-                "name": "Potato"
+                "name": "Potato",
+                "wiki": "https://minecraft.wiki/w/Potato"
             },
             {
                 "types": [
@@ -166,7 +169,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "baked_potato",
-                "name": "Baked Potato"
+                "name": "Baked Potato",
+                "wiki": "https://minecraft.wiki/w/Baked_Potato"
             },
             {
                 "types": [
@@ -175,7 +179,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "poisonous_potato",
-                "name": "Poisonous Potato"
+                "name": "Poisonous Potato",
+                "wiki": "https://minecraft.wiki/w/Poisonous_Potato"
             },
             {
                 "types": [],

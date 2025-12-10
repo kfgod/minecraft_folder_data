@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "mangrove_log",
-                "name": "Mangrove Log"
+                "name": "Mangrove Log",
+                "wiki": "https://minecraft.wiki/w/Log#Mangrove"
             },
             {
                 "types": [
@@ -345,7 +346,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_5",
-                "name": "Music Disc 5"
+                "name": "Music Disc 5",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_5"
             },
             {
                 "types": [

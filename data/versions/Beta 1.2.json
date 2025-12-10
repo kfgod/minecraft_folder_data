@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "spruce_log",
-                "name": "Spruce Log"
+                "name": "Spruce Log",
+                "wiki": "https://minecraft.wiki/w/Log#Spruce"
             },
             {
                 "types": [
@@ -17,7 +18,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "birch_log",
-                "name": "Birch Log"
+                "name": "Birch Log",
+                "wiki": "https://minecraft.wiki/w/Log#Birch"
             },
             {
                 "types": [
@@ -212,7 +214,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "cocoa_beans",
-                "name": "Cocoa Beans"
+                "name": "Cocoa Beans",
+                "wiki": "https://minecraft.wiki/w/Cocoa_Beans"
             },
             {
                 "types": [],

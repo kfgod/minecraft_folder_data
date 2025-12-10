@@ -12,7 +12,8 @@
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "redstone_lamp",
-                "name": "Redstone Lamp"
+                "name": "Redstone Lamp",
+                "wiki": "https://minecraft.wiki/w/Redstone_Lamp"
             },
             {
                 "types": [
@@ -21,7 +22,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "jungle_log",
-                "name": "Jungle Log"
+                "name": "Jungle Log",
+                "wiki": "https://minecraft.wiki/w/Log#Jungle"
             },
             {
                 "types": [
@@ -52,13 +54,15 @@
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "experience_bottle",
-                "name": "Bottle o' Enchanting"
+                "name": "Bottle o' Enchanting",
+                "wiki": "https://minecraft.wiki/w/Bottle_o'_Enchanting"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "fire_charge",
-                "name": "Fire Charge"
+                "name": "Fire Charge",
+                "wiki": "https://minecraft.wiki/w/Fire_Charge"
             },
             {
                 "types": [
@@ -66,7 +70,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "ocelot_spawn_egg",
-                "name": "Ocelot Spawn Egg"
+                "name": "Ocelot Spawn Egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
             }
         ],
         "mobs": [
@@ -100,7 +105,8 @@
                     "spawn_egg": {
                         "identifier": "ocelot_spawn_egg",
                         "element_type": "item",
-                        "name": "Ocelot Spawn Egg"
+                        "name": "Ocelot Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
                     },
                     "health": 10
                 }

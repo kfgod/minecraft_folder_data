@@ -8,7 +8,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "oak_log",
-                "name": "Oak Log"
+                "name": "Oak Log",
+                "wiki": "https://minecraft.wiki/w/Log#Oak"
             },
             {
                 "types": [

@@ -155,7 +155,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "enchanted_golden_apple",
-                "name": "Enchanted Golden Apple"
+                "name": "Enchanted Golden Apple",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
             },
             {
                 "types": [],

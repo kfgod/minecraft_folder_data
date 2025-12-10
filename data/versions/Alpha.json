@@ -203,7 +203,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_cat",
-                "name": "Music Disc cat"
+                "name": "Music Disc cat",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_cat"
             },
             {
                 "types": [
@@ -211,7 +212,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_13",
-                "name": "Music Disc 13"
+                "name": "Music Disc 13",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_13"
             },
             {
                 "types": [],

@@ -7,13 +7,15 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "brewing_stand",
-                "name": "Brewing Stand"
+                "name": "Brewing Stand",
+                "wiki": "https://minecraft.wiki/w/Brewing_Stand"
             },
             {
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "cauldron",
-                "name": "Cauldron"
+                "name": "Cauldron",
+                "wiki": "https://minecraft.wiki/w/Cauldron"
             },
             {
                 "types": [
@@ -21,7 +23,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "dragon_egg",
-                "name": "Dragon Egg"
+                "name": "Dragon Egg",
+                "wiki": "https://minecraft.wiki/w/Dragon_Egg"
             },
             {
                 "types": [
@@ -29,7 +32,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "enchanting_table",
-                "name": "Enchanting Table"
+                "name": "Enchanting Table",
+                "wiki": "https://minecraft.wiki/w/Enchanting_Table"
             },
             {
                 "types": [
@@ -37,7 +41,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "end_portal_frame",
-                "name": "End Portal Frame"
+                "name": "End Portal Frame",
+                "wiki": "https://minecraft.wiki/w/End_Portal_Frame"
             },
             {
                 "types": [
@@ -45,7 +50,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "end_stone",
-                "name": "End Stone"
+                "name": "End Stone",
+                "wiki": "https://minecraft.wiki/w/End_Stone"
             },
             {
                 "types": [
@@ -53,19 +59,22 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "lily_pad",
-                "name": "Lily Pad"
+                "name": "Lily Pad",
+                "wiki": "https://minecraft.wiki/w/Lily_Pad"
             },
             {
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "mycelium",
-                "name": "Mycelium"
+                "name": "Mycelium",
+                "wiki": "https://minecraft.wiki/w/Mycelium"
             },
             {
                 "types": [],
                 "element_type": "block",
                 "minecraft_identifier": "nether_bricks",
-                "name": "Nether Bricks"
+                "name": "Nether Bricks",
+                "wiki": "https://minecraft.wiki/w/Nether_Bricks"
             },
             {
                 "types": [
@@ -73,7 +82,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "nether_brick_stairs",
-                "name": "Nether Brick Stairs"
+                "name": "Nether Brick Stairs",
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs"
             },
             {
                 "types": [
@@ -81,7 +91,8 @@
                 ],
                 "element_type": "block",
                 "minecraft_identifier": "nether_brick_fence",
-                "name": "Nether Brick Fence"
+                "name": "Nether Brick Fence",
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Fence"
             }
         ],
         "items": [
@@ -92,7 +103,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "nether_wart",
-                "name": "Nether Wart"
+                "name": "Nether Wart",
+                "wiki": "https://minecraft.wiki/w/Nether_Wart"
             },
             {
                 "types": [
@@ -101,7 +113,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "spider_eye",
-                "name": "Spider Eye"
+                "name": "Spider Eye",
+                "wiki": "https://minecraft.wiki/w/Spider_Eye"
             },
             {
                 "types": [
@@ -109,7 +122,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_blocks",
-                "name": "Music Disc blocks"
+                "name": "Music Disc blocks",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_blocks"
             },
             {
                 "types": [
@@ -117,7 +131,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_chirp",
-                "name": "Music Disc chirp"
+                "name": "Music Disc chirp",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_chirp"
             },
             {
                 "types": [
@@ -125,7 +140,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_far",
-                "name": "Music Disc far"
+                "name": "Music Disc far",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_far"
             },
             {
                 "types": [
@@ -133,7 +149,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_mall",
-                "name": "Music Disc mall"
+                "name": "Music Disc mall",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_mall"
             },
             {
                 "types": [
@@ -141,7 +158,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_mellohi",
-                "name": "Music Disc mellohi"
+                "name": "Music Disc mellohi",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_mellohi"
             },
             {
                 "types": [
@@ -149,7 +167,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_stal",
-                "name": "Music Disc stal"
+                "name": "Music Disc stal",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_stal"
             },
             {
                 "types": [
@@ -157,7 +176,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_strad",
-                "name": "Music Disc strad"
+                "name": "Music Disc strad",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_strad"
             },
             {
                 "types": [
@@ -165,7 +185,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_ward",
-                "name": "Music Disc ward"
+                "name": "Music Disc ward",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_ward"
             },
             {
                 "types": [
@@ -173,49 +194,57 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "music_disc_11",
-                "name": "Music Disc 11"
+                "name": "Music Disc 11",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_11"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "blaze_powder",
-                "name": "Blaze Powder"
+                "name": "Blaze Powder",
+                "wiki": "https://minecraft.wiki/w/Blaze_Powder"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "blaze_rod",
-                "name": "Blaze Rod"
+                "name": "Blaze Rod",
+                "wiki": "https://minecraft.wiki/w/Blaze_Rod"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "ender_eye",
-                "name": "Eye of Ender"
+                "name": "Eye of Ender",
+                "wiki": "https://minecraft.wiki/w/Eye_of_Ender"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "fermented_spider_eye",
-                "name": "Fermented Spider Eye"
+                "name": "Fermented Spider Eye",
+                "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "ghast_tear",
-                "name": "Ghast Tear"
+                "name": "Ghast Tear",
+                "wiki": "https://minecraft.wiki/w/Ghast_Tear"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "glistering_melon_slice",
-                "name": "Glistering Melon Slice"
+                "name": "Glistering Melon Slice",
+                "wiki": "https://minecraft.wiki/w/Glistering_Melon_Slice"
             },
             {
                 "types": [],
                 "element_type": "item",
                 "minecraft_identifier": "gold_nugget",
-                "name": "Gold Nugget"
+                "name": "Gold Nugget",
+                "wiki": "https://minecraft.wiki/w/Gold_Nugget"
             },
             {
                 "types": [],

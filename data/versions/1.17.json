@@ -924,7 +924,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "glow_berries",
-                "name": "Glow Berries"
+                "name": "Glow Berries",
+                "wiki": "https://minecraft.wiki/w/Glow_Berries"
             },
             {
                 "types": [],

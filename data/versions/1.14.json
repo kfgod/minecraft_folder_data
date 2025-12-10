@@ -600,7 +600,8 @@
                 ],
                 "element_type": "item",
                 "minecraft_identifier": "sweet_berries",
-                "name": "Sweet Berries"
+                "name": "Sweet Berries",
+                "wiki": "https://minecraft.wiki/w/Sweet_Berries"
             },
             {
                 "types": [
