@@ -3473,6 +3473,198 @@
               "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab"
             }
           }
+        },
+        {
+          "group": "copper_block",
+          "group_name": "Copper Block",
+          "material": {
+            "identifier": "copper_block",
+            "element_type": "block",
+            "name": "Block of Copper",
+            "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+          },
+          "items": {
+            "cut": {
+              "identifier": "cut_copper",
+              "element_type": "block",
+              "name": "Cut Copper",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+            },
+            "chiseled": {
+              "identifier": "chiseled_copper",
+              "element_type": "block",
+              "name": "Chiseled Copper",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized"
+            }
+          }
+        },
+        {
+          "group": "exposed_copper",
+          "group_name": "Exposed Copper",
+          "material": {
+            "identifier": "exposed_copper",
+            "element_type": "block",
+            "name": "Exposed Copper",
+            "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+          },
+          "items": {
+            "cut": {
+              "identifier": "exposed_cut_copper",
+              "element_type": "block",
+              "name": "Exposed Cut Copper",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed"
+            },
+            "chiseled": {
+              "identifier": "exposed_chiseled_copper",
+              "element_type": "block",
+              "name": "Exposed Chiseled Copper",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed"
+            }
+          }
+        },
+        {
+          "group": "weathered_copper",
+          "group_name": "Weathered Copper",
+          "material": {
+            "identifier": "weathered_copper",
+            "element_type": "block",
+            "name": "Weathered Copper",
+            "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+          },
+          "items": {
+            "cut": {
+              "identifier": "weathered_cut_copper",
+              "element_type": "block",
+              "name": "Weathered Cut Copper",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered"
+            },
+            "chiseled": {
+              "identifier": "weathered_chiseled_copper",
+              "element_type": "block",
+              "name": "Weathered Chiseled Copper",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Weathered"
+            }
+          }
+        },
+        {
+          "group": "oxidized_copper",
+          "group_name": "Oxidized Copper",
+          "material": {
+            "identifier": "oxidized_copper",
+            "element_type": "block",
+            "name": "Oxidized Copper",
+            "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+          },
+          "items": {
+            "cut": {
+              "identifier": "oxidized_cut_copper",
+              "element_type": "block",
+              "name": "Oxidized Cut Copper",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized"
+            },
+            "chiseled": {
+              "identifier": "oxidized_chiseled_copper",
+              "element_type": "block",
+              "name": "Oxidized Chiseled Copper",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized"
+            }
+          }
+        },
+        {
+          "group": "cut_copper",
+          "group_name": "Cut Copper",
+          "material": {
+            "identifier": "cut_copper",
+            "element_type": "block",
+            "name": "Cut Copper",
+            "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "cut_copper_stairs",
+              "element_type": "block",
+              "name": "Cut Copper Stairs",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized"
+            },
+            "slab": {
+              "identifier": "cut_copper_slab",
+              "element_type": "block",
+              "name": "Cut Copper Slab",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized"
+            }
+          }
+        },
+        {
+          "group": "exposed_cut_copper",
+          "group_name": "Exposed Cut Copper",
+          "material": {
+            "identifier": "exposed_cut_copper",
+            "element_type": "block",
+            "name": "Exposed Cut Copper",
+            "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "exposed_cut_copper_stairs",
+              "element_type": "block",
+              "name": "Exposed Cut Copper Stairs",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed"
+            },
+            "slab": {
+              "identifier": "exposed_cut_copper_slab",
+              "element_type": "block",
+              "name": "Exposed Cut Copper Slab",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed"
+            }
+          }
+        },
+        {
+          "group": "weathered_cut_copper",
+          "group_name": "Weathered Cut Copper",
+          "material": {
+            "identifier": "weathered_cut_copper",
+            "element_type": "block",
+            "name": "Weathered Cut Copper",
+            "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "weathered_cut_copper_stairs",
+              "element_type": "block",
+              "name": "Weathered Cut Copper Stairs",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Weathered"
+            },
+            "slab": {
+              "identifier": "weathered_cut_copper_slab",
+              "element_type": "block",
+              "name": "Weathered Cut Copper Slab",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Weathered"
+            }
+          }
+        },
+        {
+          "group": "oxidized_cut_copper",
+          "group_name": "Oxidized Cut Copper",
+          "material": {
+            "identifier": "oxidized_cut_copper",
+            "element_type": "block",
+            "name": "Oxidized Cut Copper",
+            "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "oxidized_cut_copper_stairs",
+              "element_type": "block",
+              "name": "Oxidized Cut Copper Stairs",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Oxidized"
+            },
+            "slab": {
+              "identifier": "oxidized_cut_copper_slab",
+              "element_type": "block",
+              "name": "Oxidized Cut Copper Slab",
+              "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized"
+            }
+          }
         }
       ]
     }
