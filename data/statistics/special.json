@@ -2496,6 +2496,372 @@
               "wiki": "https://minecraft.wiki/w/Polished_Andesite_Slab"
             }
           }
+        },
+        {
+          "group": "cobbled_deepslate",
+          "group_name": "Cobbled Deepslate",
+          "material": {
+            "identifier": "cobbled_deepslate",
+            "element_type": "block",
+            "name": "Cobbled Deepslate",
+            "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "cobbled_deepslate_stairs",
+              "element_type": "block",
+              "name": "Cobbled Deepslate Stairs",
+              "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Stairs"
+            },
+            "slab": {
+              "identifier": "cobbled_deepslate_slab",
+              "element_type": "block",
+              "name": "Cobbled Deepslate Slab",
+              "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab"
+            },
+            "wall": {
+              "identifier": "cobbled_deepslate_wall",
+              "element_type": "block",
+              "name": "Cobbled Deepslate Wall",
+              "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Wall"
+            },
+            "polished": {
+              "identifier": "polished_deepslate",
+              "element_type": "block",
+              "name": "Polished Deepslate",
+              "wiki": "https://minecraft.wiki/w/Polished_Deepslate"
+            },
+            "chiseled": {
+              "identifier": "chiseled_deepslate",
+              "element_type": "block",
+              "name": "Chiseled Deepslate",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Deepslate"
+            }
+          }
+        },
+        {
+          "group": "polished_deepslate",
+          "group_name": "Polished Deepslate",
+          "material": {
+            "identifier": "polished_deepslate",
+            "element_type": "block",
+            "name": "Polished Deepslate",
+            "wiki": "https://minecraft.wiki/w/Polished_Deepslate"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "polished_deepslate_stairs",
+              "element_type": "block",
+              "name": "Polished Deepslate Stairs",
+              "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Stairs"
+            },
+            "slab": {
+              "identifier": "polished_deepslate_slab",
+              "element_type": "block",
+              "name": "Polished Deepslate Slab",
+              "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Slab"
+            },
+            "wall": {
+              "identifier": "polished_deepslate_wall",
+              "element_type": "block",
+              "name": "Polished Deepslate Wall",
+              "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Wall"
+            },
+            "bricks": {
+              "identifier": "deepslate_bricks",
+              "element_type": "block",
+              "name": "Deepslate Bricks",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Bricks"
+            }
+          }
+        },
+        {
+          "group": "deepslate_bricks",
+          "group_name": "Deepslate Bricks",
+          "material": {
+            "identifier": "deepslate_bricks",
+            "element_type": "block",
+            "name": "Deepslate Bricks",
+            "wiki": "https://minecraft.wiki/w/Deepslate_Bricks"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "deepslate_brick_stairs",
+              "element_type": "block",
+              "name": "Deepslate Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Stairs"
+            },
+            "slab": {
+              "identifier": "deepslate_brick_slab",
+              "element_type": "block",
+              "name": "Deepslate Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Slab"
+            },
+            "wall": {
+              "identifier": "deepslate_brick_wall",
+              "element_type": "block",
+              "name": "Deepslate Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Wall"
+            },
+            "tiles": {
+              "identifier": "deepslate_tiles",
+              "element_type": "block",
+              "name": "Deepslate Tiles",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Tiles"
+            },
+            "cracked": {
+              "identifier": "cracked_deepslate_bricks",
+              "element_type": "block",
+              "name": "Cracked Deepslate Bricks",
+              "wiki": "https://minecraft.wiki/w/Cracked_Deepslate_Bricks"
+            }
+          }
+        },
+        {
+          "group": "deepslate_tiles",
+          "group_name": "Deepslate Tiles",
+          "material": {
+            "identifier": "deepslate_tiles",
+            "element_type": "block",
+            "name": "Deepslate Tiles",
+            "wiki": "https://minecraft.wiki/w/Deepslate_Tiles"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "deepslate_tile_stairs",
+              "element_type": "block",
+              "name": "Deepslate Tile Stairs",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Stairs"
+            },
+            "slab": {
+              "identifier": "deepslate_tile_slab",
+              "element_type": "block",
+              "name": "Deepslate Tile Slab",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Slab"
+            },
+            "wall": {
+              "identifier": "deepslate_tile_wall",
+              "element_type": "block",
+              "name": "Deepslate Tile Wall",
+              "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Wall"
+            },
+            "cracked": {
+              "identifier": "cracked_deepslate_tiles",
+              "element_type": "block",
+              "name": "Cracked Deepslate Tiles",
+              "wiki": "https://minecraft.wiki/w/Cracked_Deepslate_Tiles"
+            }
+          }
+        },
+        {
+          "group": "tuff",
+          "group_name": "Tuff",
+          "material": {
+            "identifier": "tuff",
+            "element_type": "block",
+            "name": "Tuff",
+            "wiki": "https://minecraft.wiki/w/Tuff"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "tuff_stairs",
+              "element_type": "block",
+              "name": "Tuff Stairs",
+              "wiki": "https://minecraft.wiki/w/Tuff_Stairs"
+            },
+            "slab": {
+              "identifier": "tuff_slab",
+              "element_type": "block",
+              "name": "Tuff Slab",
+              "wiki": "https://minecraft.wiki/w/Tuff_Slab"
+            },
+            "wall": {
+              "identifier": "tuff_wall",
+              "element_type": "block",
+              "name": "Tuff Wall",
+              "wiki": "https://minecraft.wiki/w/Tuff_Wall"
+            },
+            "chiseled": {
+              "identifier": "chiseled_tuff",
+              "element_type": "block",
+              "name": "Chiseled Tuff",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Stairs"
+            },
+            "bricks": {
+              "identifier": "tuff_bricks",
+              "element_type": "block",
+              "name": "Tuff Bricks",
+              "wiki": "https://minecraft.wiki/w/Tuff_Bricks"
+            },
+            "polished": {
+              "identifier": "polished_tuff",
+              "element_type": "block",
+              "name": "Polished Tuff",
+              "wiki": "https://minecraft.wiki/w/Polished_Tuff"
+            }
+          }
+        },
+        {
+          "group": "polished_tuff",
+          "group_name": "Polished Tuff",
+          "material": {
+            "identifier": "polished_tuff",
+            "element_type": "block",
+            "name": "Polished Tuff",
+            "wiki": "https://minecraft.wiki/w/Polished_Tuff"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "polished_tuff_stairs",
+              "element_type": "block",
+              "name": "Polished Tuff Stairs",
+              "wiki": "https://minecraft.wiki/w/Polished_Tuff_Stairs"
+            },
+            "slab": {
+              "identifier": "polished_tuff_slab",
+              "element_type": "block",
+              "name": "Polished Tuff Slab",
+              "wiki": "https://minecraft.wiki/w/Polished_Tuff_Slab"
+            },
+            "wall": {
+              "identifier": "polished_tuff_wall",
+              "element_type": "block",
+              "name": "Polished Tuff Wall",
+              "wiki": "https://minecraft.wiki/w/Polished_Tuff_Wall"
+            }
+          }
+        },
+        {
+          "group": "tuff_bricks",
+          "group_name": "Tuff Bricks",
+          "material": {
+            "identifier": "tuff_bricks",
+            "element_type": "block",
+            "name": "Tuff Bricks",
+            "wiki": "https://minecraft.wiki/w/Tuff_Bricks"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "tuff_brick_stairs",
+              "element_type": "block",
+              "name": "Tuff Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Tuff_Brick_Stairs"
+            },
+            "slab": {
+              "identifier": "tuff_brick_slab",
+              "element_type": "block",
+              "name": "Tuff Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Tuff_Brick_Slab"
+            },
+            "wall": {
+              "identifier": "tuff_brick_wall",
+              "element_type": "block",
+              "name": "Tuff Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Tuff_Brick_Wall"
+            },
+            "chiseled": {
+              "identifier": "chiseled_tuff_bricks",
+              "element_type": "block",
+              "name": "Chiseled Tuff Bricks",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Bricks"
+            }
+          }
+        },
+        {
+          "group": "bricks",
+          "group_name": "Bricks",
+          "material": {
+            "identifier": "bricks",
+            "element_type": "block",
+            "name": "Bricks",
+            "wiki": "https://minecraft.wiki/w/Bricks"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "brick_stairs",
+              "element_type": "block",
+              "name": "Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Brick_Stairs"
+            },
+            "slab": {
+              "identifier": "brick_slab",
+              "element_type": "block",
+              "name": "Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Brick_Slab"
+            },
+            "wall": {
+              "identifier": "brick_wall",
+              "element_type": "block",
+              "name": "Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Brick_Wall"
+            }
+          }
+        },
+        {
+          "group": "mud_bricks",
+          "group_name": "Mud Bricks",
+          "material": {
+            "identifier": "mud_bricks",
+            "element_type": "block",
+            "name": "Mud Bricks",
+            "wiki": "https://minecraft.wiki/w/Mud_Bricks"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "mud_brick_stairs",
+              "element_type": "block",
+              "name": "Mud Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Mud_Brick_Stairs"
+            },
+            "slab": {
+              "identifier": "mud_brick_slab",
+              "element_type": "block",
+              "name": "Mud Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Mud_Brick_Slab"
+            },
+            "wall": {
+              "identifier": "mud_brick_wall",
+              "element_type": "block",
+              "name": "Mud Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Mud_Brick_Wall"
+            }
+          }
+        },
+        {
+          "group": "resin_bricks",
+          "group_name": "Resin Bricks",
+          "material": {
+            "identifier": "resin_bricks",
+            "element_type": "block",
+            "name": "Resin Bricks",
+            "wiki": "https://minecraft.wiki/w/Resin_Bricks"
+          },
+          "items": {
+            "stairs": {
+              "identifier": "resin_brick_stairs",
+              "element_type": "block",
+              "name": "Resin Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Resin_Brick_Stairs"
+            },
+            "slab": {
+              "identifier": "resin_brick_slab",
+              "element_type": "block",
+              "name": "Resin Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Resin_Brick_Slab"
+            },
+            "wall": {
+              "identifier": "resin_brick_wall",
+              "element_type": "block",
+              "name": "Resin Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Resin_Brick_Wall"
+            },
+            "chiseled": {
+              "identifier": "chiseled_resin_bricks",
+              "element_type": "block",
+              "name": "Chiseled Resin Bricks",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Resin_Bricks"
+            }
+          }
         }
       ]
     }
