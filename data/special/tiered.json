@@ -1,0 +1,564 @@
+{
+  "name": "Tiered Materials",
+  "groups": [
+    {
+      "group": "wooden",
+      "group_name": "Wooden",
+      "material": {
+        "identifier": "oak_planks",
+        "element_type": "block",
+        "name": "Oak Planks",
+        "wiki": "https://minecraft.wiki/w/Planks#Oak"
+      },
+      "items": {
+        "axe": {
+          "identifier": "wooden_axe",
+          "element_type": "item",
+          "name": "Wooden Axe",
+          "wiki": "https://minecraft.wiki/w/Wooden_Axe"
+        },
+        "hoe": {
+          "identifier": "wooden_hoe",
+          "element_type": "item",
+          "name": "Wooden Hoe",
+          "wiki": "https://minecraft.wiki/w/Wooden_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "wooden_pickaxe",
+          "element_type": "item",
+          "name": "Wooden Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "wooden_shovel",
+          "element_type": "item",
+          "name": "Wooden Shovel",
+          "wiki": "https://minecraft.wiki/w/Wooden_Shovel"
+        },
+        "spear": {
+          "identifier": "wooden_spear",
+          "element_type": "item",
+          "name": "Wooden Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Wooden"
+        },
+        "sword": {
+          "identifier": "wooden_sword",
+          "element_type": "item",
+          "name": "Wooden Sword",
+          "wiki": "https://minecraft.wiki/w/Wooden_Sword"
+        }
+      }
+    },
+    {
+      "group": "stone",
+      "group_name": "Stone",
+      "material": {
+        "identifier": "stone",
+        "element_type": "block",
+        "name": "Stone",
+        "wiki": "https://minecraft.wiki/w/Stone"
+      },
+      "items": {
+        "axe": {
+          "identifier": "stone_axe",
+          "element_type": "item",
+          "name": "Stone Axe",
+          "wiki": "https://minecraft.wiki/w/Stone_Axe"
+        },
+        "hoe": {
+          "identifier": "stone_hoe",
+          "element_type": "item",
+          "name": "Stone Hoe",
+          "wiki": "https://minecraft.wiki/w/Stone_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "stone_pickaxe",
+          "element_type": "item",
+          "name": "Stone Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Stone_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "stone_shovel",
+          "element_type": "item",
+          "name": "Stone Shovel",
+          "wiki": "https://minecraft.wiki/w/Stone_Shovel"
+        },
+        "spear": {
+          "identifier": "stone_spear",
+          "element_type": "item",
+          "name": "Stone Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Stone"
+        },
+        "sword": {
+          "identifier": "stone_sword",
+          "element_type": "item",
+          "name": "Stone Sword",
+          "wiki": "https://minecraft.wiki/w/Stone_Sword"
+        }
+      }
+    },
+    {
+      "group": "leather",
+      "group_name": "Leather",
+      "material": {
+        "identifier": "leather",
+        "element_type": "item",
+        "name": "Leather",
+        "wiki": "https://minecraft.wiki/w/Leather"
+      },
+      "items": {
+        "helmet": {
+          "identifier": "leather_helmet",
+          "element_type": "item",
+          "name": "Leather Cap",
+          "wiki": "https://minecraft.wiki/w/Leather_Cap"
+        },
+        "chestplate": {
+          "identifier": "leather_chestplate",
+          "element_type": "item",
+          "name": "Leather Tunic",
+          "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+        },
+        "leggings": {
+          "identifier": "leather_leggings",
+          "element_type": "item",
+          "name": "Leather Pants",
+          "wiki": "https://minecraft.wiki/w/Leather_Pants"
+        },
+        "boots": {
+          "identifier": "leather_boots",
+          "element_type": "item",
+          "name": "Leather Boots",
+          "wiki": "https://minecraft.wiki/w/Leather_Boots"
+        },
+        "horse_armor": {
+          "identifier": "leather_horse_armor",
+          "element_type": "item",
+          "name": "Leather Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor"
+        }
+      }
+    },
+    {
+      "group": "copper",
+      "group_name": "Copper",
+      "material": {
+        "identifier": "copper_ingot",
+        "element_type": "item",
+        "name": "Copper Ingot",
+        "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+      },
+      "items": {
+        "axe": {
+          "identifier": "copper_axe",
+          "element_type": "item",
+          "name": "Copper Axe",
+          "wiki": "https://minecraft.wiki/w/Copper_Axe"
+        },
+        "hoe": {
+          "identifier": "copper_hoe",
+          "element_type": "item",
+          "name": "Copper Hoe",
+          "wiki": "https://minecraft.wiki/w/Copper_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "copper_pickaxe",
+          "element_type": "item",
+          "name": "Copper Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Copper_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "copper_shovel",
+          "element_type": "item",
+          "name": "Copper Shovel",
+          "wiki": "https://minecraft.wiki/w/Copper_Shovel"
+        },
+        "spear": {
+          "identifier": "copper_spear",
+          "element_type": "item",
+          "name": "Copper Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Copper"
+        },
+        "sword": {
+          "identifier": "copper_sword",
+          "element_type": "item",
+          "name": "Copper Sword",
+          "wiki": "https://minecraft.wiki/w/Copper_Sword"
+        },
+        "helmet": {
+          "identifier": "copper_helmet",
+          "element_type": "item",
+          "name": "Copper Helmet",
+          "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+        },
+        "chestplate": {
+          "identifier": "copper_chestplate",
+          "element_type": "item",
+          "name": "Copper Chestplate",
+          "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+        },
+        "leggings": {
+          "identifier": "copper_leggings",
+          "element_type": "item",
+          "name": "Copper Leggings",
+          "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+        },
+        "boots": {
+          "identifier": "copper_boots",
+          "element_type": "item",
+          "name": "Copper Boots",
+          "wiki": "https://minecraft.wiki/w/Copper_Boots"
+        },
+        "nautilus_armor": {
+          "identifier": "copper_nautilus_armor",
+          "element_type": "item",
+          "name": "Copper Nautilus Armor",
+          "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor"
+        },
+        "horse_armor": {
+          "identifier": "copper_horse_armor",
+          "element_type": "item",
+          "name": "Copper Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Copper_Horse_Armor"
+        }
+      }
+    },
+    {
+      "group": "gold",
+      "group_name": "Gold",
+      "material": {
+        "identifier": "gold_ingot",
+        "element_type": "item",
+        "name": "Gold Ingot",
+        "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+      },
+      "items": {
+        "axe": {
+          "identifier": "golden_axe",
+          "element_type": "item",
+          "name": "Golden Axe",
+          "wiki": "https://minecraft.wiki/w/Golden_Axe"
+        },
+        "hoe": {
+          "identifier": "golden_hoe",
+          "element_type": "item",
+          "name": "Golden Hoe",
+          "wiki": "https://minecraft.wiki/w/Golden_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "golden_pickaxe",
+          "element_type": "item",
+          "name": "Golden Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Golden_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "golden_shovel",
+          "element_type": "item",
+          "name": "Golden Shovel",
+          "wiki": "https://minecraft.wiki/w/Golden_Shovel"
+        },
+        "spear": {
+          "identifier": "golden_spear",
+          "element_type": "item",
+          "name": "Golden Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Golden"
+        },
+        "sword": {
+          "identifier": "golden_sword",
+          "element_type": "item",
+          "name": "Golden Sword",
+          "wiki": "https://minecraft.wiki/w/Golden_Sword"
+        },
+        "helmet": {
+          "identifier": "golden_helmet",
+          "element_type": "item",
+          "name": "Golden Helmet",
+          "wiki": "https://minecraft.wiki/w/Golden_Helmet"
+        },
+        "chestplate": {
+          "identifier": "golden_chestplate",
+          "element_type": "item",
+          "name": "Golden Chestplate",
+          "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+        },
+        "leggings": {
+          "identifier": "golden_leggings",
+          "element_type": "item",
+          "name": "Golden Leggings",
+          "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+        },
+        "boots": {
+          "identifier": "golden_boots",
+          "element_type": "item",
+          "name": "Golden Boots",
+          "wiki": "https://minecraft.wiki/w/Golden_Boots"
+        },
+        "nautilus_armor": {
+          "identifier": "golden_nautilus_armor",
+          "element_type": "item",
+          "name": "Golden Nautilus Armor",
+          "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor"
+        },
+        "horse_armor": {
+          "identifier": "golden_horse_armor",
+          "element_type": "item",
+          "name": "Golden Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor"
+        }
+      }
+    },
+    {
+      "group": "iron",
+      "group_name": "Iron",
+      "material": {
+        "identifier": "iron_ingot",
+        "element_type": "item",
+        "name": "Iron Ingot",
+        "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+      },
+      "items": {
+        "axe": {
+          "identifier": "iron_axe",
+          "element_type": "item",
+          "name": "Iron Axe",
+          "wiki": "https://minecraft.wiki/w/Iron_Axe"
+        },
+        "hoe": {
+          "identifier": "iron_hoe",
+          "element_type": "item",
+          "name": "Iron Hoe",
+          "wiki": "https://minecraft.wiki/w/Iron_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "iron_pickaxe",
+          "element_type": "item",
+          "name": "Iron Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Iron_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "iron_shovel",
+          "element_type": "item",
+          "name": "Iron Shovel",
+          "wiki": "https://minecraft.wiki/w/Iron_Shovel"
+        },
+        "spear": {
+          "identifier": "iron_spear",
+          "element_type": "item",
+          "name": "Iron Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Iron"
+        },
+        "sword": {
+          "identifier": "iron_sword",
+          "element_type": "item",
+          "name": "Iron Sword",
+          "wiki": "https://minecraft.wiki/w/Iron_Sword"
+        },
+        "helmet": {
+          "identifier": "iron_helmet",
+          "element_type": "item",
+          "name": "Iron Helmet",
+          "wiki": "https://minecraft.wiki/w/Iron_Helmet"
+        },
+        "chestplate": {
+          "identifier": "iron_chestplate",
+          "element_type": "item",
+          "name": "Iron Chestplate",
+          "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+        },
+        "leggings": {
+          "identifier": "iron_leggings",
+          "element_type": "item",
+          "name": "Iron Leggings",
+          "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+        },
+        "boots": {
+          "identifier": "iron_boots",
+          "element_type": "item",
+          "name": "Iron Boots",
+          "wiki": "https://minecraft.wiki/w/Iron_Boots"
+        },
+        "nautilus_armor": {
+          "identifier": "iron_nautilus_armor",
+          "element_type": "item",
+          "name": "Iron Nautilus Armor",
+          "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor"
+        },
+        "horse_armor": {
+          "identifier": "iron_horse_armor",
+          "element_type": "item",
+          "name": "Iron Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor"
+        }
+      }
+    },
+    {
+      "group": "diamond",
+      "group_name": "Diamond",
+      "material": {
+        "identifier": "diamond",
+        "element_type": "item",
+        "name": "Diamond",
+        "wiki": "https://minecraft.wiki/w/Diamond"
+      },
+      "items": {
+        "axe": {
+          "identifier": "diamond_axe",
+          "element_type": "item",
+          "name": "Diamond Axe",
+          "wiki": "https://minecraft.wiki/w/Diamond_Axe"
+        },
+        "hoe": {
+          "identifier": "diamond_hoe",
+          "element_type": "item",
+          "name": "Diamond Hoe",
+          "wiki": "https://minecraft.wiki/w/Diamond_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "diamond_pickaxe",
+          "element_type": "item",
+          "name": "Diamond Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "diamond_shovel",
+          "element_type": "item",
+          "name": "Diamond Shovel",
+          "wiki": "https://minecraft.wiki/w/Diamond_Shovel"
+        },
+        "spear": {
+          "identifier": "diamond_spear",
+          "element_type": "item",
+          "name": "Diamond Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Diamond"
+        },
+        "sword": {
+          "identifier": "diamond_sword",
+          "element_type": "item",
+          "name": "Diamond Sword",
+          "wiki": "https://minecraft.wiki/w/Diamond_Sword"
+        },
+        "helmet": {
+          "identifier": "diamond_helmet",
+          "element_type": "item",
+          "name": "Diamond Helmet",
+          "wiki": "https://minecraft.wiki/w/Diamond_Helmet"
+        },
+        "chestplate": {
+          "identifier": "diamond_chestplate",
+          "element_type": "item",
+          "name": "Diamond Chestplate",
+          "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+        },
+        "leggings": {
+          "identifier": "diamond_leggings",
+          "element_type": "item",
+          "name": "Diamond Leggings",
+          "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+        },
+        "boots": {
+          "identifier": "diamond_boots",
+          "element_type": "item",
+          "name": "Diamond Boots",
+          "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+        },
+        "nautilus_armor": {
+          "identifier": "diamond_nautilus_armor",
+          "element_type": "item",
+          "name": "Diamond Nautilus Armor",
+          "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor"
+        },
+        "horse_armor": {
+          "identifier": "diamond_horse_armor",
+          "element_type": "item",
+          "name": "Diamond Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Diamond_Horse_Armor"
+        }
+      }
+    },
+    {
+      "group": "netherite",
+      "group_name": "Netherite",
+      "material": {
+        "identifier": "netherite_ingot",
+        "element_type": "item",
+        "name": "Netherite Ingot",
+        "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+      },
+      "items": {
+        "axe": {
+          "identifier": "netherite_axe",
+          "element_type": "item",
+          "name": "Netherite Axe",
+          "wiki": "https://minecraft.wiki/w/Netherite_Axe"
+        },
+        "hoe": {
+          "identifier": "netherite_hoe",
+          "element_type": "item",
+          "name": "Netherite Hoe",
+          "wiki": "https://minecraft.wiki/w/Netherite_Hoe"
+        },
+        "pickaxe": {
+          "identifier": "netherite_pickaxe",
+          "element_type": "item",
+          "name": "Netherite Pickaxe",
+          "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe"
+        },
+        "shovel": {
+          "identifier": "netherite_shovel",
+          "element_type": "item",
+          "name": "Netherite Shovel",
+          "wiki": "https://minecraft.wiki/w/Netherite_Shovel"
+        },
+        "spear": {
+          "identifier": "netherite_spear",
+          "element_type": "item",
+          "name": "Netherite Spear",
+          "wiki": "https://minecraft.wiki/w/Spear#Netherite"
+        },
+        "sword": {
+          "identifier": "netherite_sword",
+          "element_type": "item",
+          "name": "Netherite Sword",
+          "wiki": "https://minecraft.wiki/w/Netherite_Sword"
+        },
+        "helmet": {
+          "identifier": "netherite_helmet",
+          "element_type": "item",
+          "name": "Netherite Helmet",
+          "wiki": "https://minecraft.wiki/w/Netherite_Helmet"
+        },
+        "chestplate": {
+          "identifier": "netherite_chestplate",
+          "element_type": "item",
+          "name": "Netherite Chestplate",
+          "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+        },
+        "leggings": {
+          "identifier": "netherite_leggings",
+          "element_type": "item",
+          "name": "Netherite Leggings",
+          "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+        },
+        "boots": {
+          "identifier": "netherite_boots",
+          "element_type": "item",
+          "name": "Netherite Boots",
+          "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+        },
+        "nautilus_armor": {
+          "identifier": "netherite_nautilus_armor",
+          "element_type": "item",
+          "name": "Netherite Nautilus Armor",
+          "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor"
+        },
+        "horse_armor": {
+          "identifier": "netherite_horse_armor",
+          "element_type": "item",
+          "name": "Netherite Horse Armor",
+          "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor"
+        }
+      }
+    }
+  ],
+  "order": 0
+}
