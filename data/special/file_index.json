@@ -2,7 +2,8 @@
     "files": [
         "data/special/tiered.json",
         "data/special/colors.json",
-        "data/special/block_forms.json"
+        "data/special/block_forms.json",
+        "data/special/wood.json"
     ],
-    "total_count": 3
+    "total_count": 4
 }
