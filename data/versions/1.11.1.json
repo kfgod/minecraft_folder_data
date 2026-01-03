@@ -5,19 +5,17 @@
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Sweeping Edge I-III",
                 "identifier": "sweeping_edge_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Sweeping Edge I-III",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "iron_nugget",
+                "wiki": "https://minecraft.wiki/w/Iron_Nugget",
                 "name": "Iron Nugget",
-                "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+                "identifier": "iron_nugget",
+                "imagePath": "/item/iron_nugget/latest.png"
             }
         ],
         "enchantments": [
@@ -25,10 +23,9 @@
                 "types": [
                     "enchantments/melee/sword"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "sweeping_edge",
+                "wiki": "https://minecraft.wiki/w/Sweeping_Edge",
                 "name": "Sweeping Edge",
-                "wiki": "https://minecraft.wiki/w/Sweeping_Edge"
+                "identifier": "sweeping_edge"
             }
         ]
     },

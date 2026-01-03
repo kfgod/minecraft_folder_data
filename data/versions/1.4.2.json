@@ -6,127 +6,125 @@
                     "woodset/oak",
                     "buttons"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_button",
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak",
                 "name": "Oak Button",
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak"
+                "identifier": "oak_button",
+                "imagePath": "/block/oak_button/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "zombie_head",
+                "wiki": "https://minecraft.wiki/w/Zombie_Head",
                 "name": "Zombie Head",
-                "wiki": "https://minecraft.wiki/w/Zombie_Head"
+                "identifier": "zombie_head",
+                "imagePath": "/block/zombie_head/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "skeleton_skull",
+                "wiki": "https://minecraft.wiki/w/Skeleton_Skull",
                 "name": "Skeleton Skull",
-                "wiki": "https://minecraft.wiki/w/Skeleton_Skull"
+                "identifier": "skeleton_skull",
+                "imagePath": "/block/skeleton_skull/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "wither_skeleton_skull",
+                "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull",
                 "name": "Wither Skeleton Skull",
-                "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+                "identifier": "wither_skeleton_skull",
+                "imagePath": "/block/wither_skeleton_skull/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "creeper_head",
+                "wiki": "https://minecraft.wiki/w/Creeper_Head",
                 "name": "Creeper Head",
-                "wiki": "https://minecraft.wiki/w/Creeper_Head"
+                "identifier": "creeper_head",
+                "imagePath": "/block/creeper_head/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "command_block",
+                "wiki": "https://minecraft.wiki/w/Command_Block#Impulse",
                 "name": "Command Block",
-                "wiki": "https://minecraft.wiki/w/Command_Block#Impulse"
+                "identifier": "command_block",
+                "imagePath": "/block/command_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "player_head",
+                "wiki": "https://minecraft.wiki/w/Player_Head",
                 "name": "Player Head",
-                "wiki": "https://minecraft.wiki/w/Player_Head"
+                "identifier": "player_head",
+                "imagePath": "/block/player_head/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "beacon",
+                "wiki": "https://minecraft.wiki/w/Beacon",
                 "name": "Beacon",
-                "wiki": "https://minecraft.wiki/w/Beacon"
+                "identifier": "beacon",
+                "imagePath": "/block/beacon/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "flower_pot",
+                "wiki": "https://minecraft.wiki/w/Flower_Pot",
                 "name": "Flower Pot",
-                "wiki": "https://minecraft.wiki/w/Flower_Pot"
+                "identifier": "flower_pot",
+                "imagePath": "/block/flower_pot/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "item_frame",
+                "wiki": "https://minecraft.wiki/w/Item_Frame",
                 "name": "Item Frame",
-                "wiki": "https://minecraft.wiki/w/Item_Frame"
+                "identifier": "item_frame",
+                "imagePath": "/block/item_frame/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cobblestone_wall",
+                "wiki": "https://minecraft.wiki/w/Cobblestone_Wall",
                 "name": "Cobblestone Wall",
-                "wiki": "https://minecraft.wiki/w/Cobblestone_Wall"
+                "identifier": "cobblestone_wall",
+                "imagePath": "/block/cobblestone_wall/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "mossy_cobblestone_wall",
+                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Wall",
                 "name": "Mossy Cobblestone Wall",
-                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Wall"
+                "identifier": "mossy_cobblestone_wall",
+                "imagePath": "/block/mossy_cobblestone_wall/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "anvil",
+                "wiki": "https://minecraft.wiki/w/Anvil#Undamaged",
                 "name": "Anvil",
-                "wiki": "https://minecraft.wiki/w/Anvil#Undamaged"
+                "identifier": "anvil",
+                "imagePath": "/block/anvil/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chipped_anvil",
+                "wiki": "https://minecraft.wiki/w/Anvil#Chipped",
                 "name": "Chipped Anvil",
-                "wiki": "https://minecraft.wiki/w/Anvil#Chipped"
+                "identifier": "chipped_anvil",
+                "imagePath": "/block/chipped_anvil/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "damaged_anvil",
+                "wiki": "https://minecraft.wiki/w/Anvil#Damaged",
                 "name": "Damaged Anvil",
-                "wiki": "https://minecraft.wiki/w/Anvil#Damaged"
+                "identifier": "damaged_anvil",
+                "imagePath": "/block/damaged_anvil/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Wither",
                 "identifier": "wither_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Wither",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             }
         ],
         "items": [
@@ -135,10 +133,10 @@
                     "food",
                     "food/supernatural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "golden_carrot",
+                "wiki": "https://minecraft.wiki/w/Golden_Carrot",
                 "name": "Golden Carrot",
-                "wiki": "https://minecraft.wiki/w/Golden_Carrot"
+                "identifier": "golden_carrot",
+                "imagePath": "/item/golden_carrot/latest.png"
             },
             {
                 "types": [
@@ -146,10 +144,10 @@
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "carrot",
+                "wiki": "https://minecraft.wiki/w/Carrot",
                 "name": "Carrot",
-                "wiki": "https://minecraft.wiki/w/Carrot"
+                "identifier": "carrot",
+                "imagePath": "/item/carrot/latest.png"
             },
             {
                 "types": [
@@ -157,122 +155,118 @@
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "potato",
+                "wiki": "https://minecraft.wiki/w/Potato",
                 "name": "Potato",
-                "wiki": "https://minecraft.wiki/w/Potato"
+                "identifier": "potato",
+                "imagePath": "/item/potato/latest.png"
             },
             {
                 "types": [
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "baked_potato",
+                "wiki": "https://minecraft.wiki/w/Baked_Potato",
                 "name": "Baked Potato",
-                "wiki": "https://minecraft.wiki/w/Baked_Potato"
+                "identifier": "baked_potato",
+                "imagePath": "/item/baked_potato/latest.png"
             },
             {
                 "types": [
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "poisonous_potato",
+                "wiki": "https://minecraft.wiki/w/Poisonous_Potato",
                 "name": "Poisonous Potato",
-                "wiki": "https://minecraft.wiki/w/Poisonous_Potato"
+                "identifier": "poisonous_potato",
+                "imagePath": "/item/poisonous_potato/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "nether_star",
+                "wiki": "https://minecraft.wiki/w/Nether_Star",
                 "name": "Nether Star",
-                "wiki": "https://minecraft.wiki/w/Nether_Star"
+                "identifier": "nether_star",
+                "imagePath": "/item/nether_star/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "carrot_on_a_stick",
+                "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick",
                 "name": "Carrot on a Stick",
-                "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick"
+                "identifier": "carrot_on_a_stick",
+                "imagePath": "/item/carrot_on_a_stick/latest.png"
             },
             {
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pumpkin_pie",
+                "wiki": "https://minecraft.wiki/w/Pumpkin_Pie",
                 "name": "Pumpkin Pie",
-                "wiki": "https://minecraft.wiki/w/Pumpkin_Pie"
+                "identifier": "pumpkin_pie",
+                "imagePath": "/item/pumpkin_pie/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bat_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Bat Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "bat_spawn_egg",
+                "imagePath": "/item/bat_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "witch_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Witch Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "witch_spawn_egg",
+                "imagePath": "/item/witch_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "effect/night_vision"
                 ],
-                "element_type": "item",
-                "identifier": "potion_of_night_vision",
-                "minecraft_identifier": "potion",
-                "name": "Potion of Night Vision",
                 "image_identifier": "potion_of_night_vision",
-                "wiki": "https://minecraft.wiki/w/Potion"
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Night Vision",
+                "identifier": "potion_of_night_vision",
+                "imagePath": "/item/potion_of_night_vision/latest.png"
             },
             {
                 "types": [
                     "effect/night_vision"
                 ],
-                "element_type": "item",
-                "identifier": "splash_potion_of_night_vision",
-                "minecraft_identifier": "splash_potion",
-                "name": "Splash Potion of Night Vision",
                 "image_identifier": "splash_potion_of_night_vision",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Night Vision",
+                "identifier": "splash_potion_of_night_vision",
+                "imagePath": "/item/splash_potion_of_night_vision/latest.png"
             },
             {
                 "types": [
                     "effect/invisibility"
                 ],
-                "element_type": "item",
-                "identifier": "potion_of_invisibility",
-                "minecraft_identifier": "potion",
-                "name": "Potion of Invisibility",
                 "image_identifier": "potion_of_invisibility",
-                "wiki": "https://minecraft.wiki/w/Potion"
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Invisibility",
+                "identifier": "potion_of_invisibility",
+                "imagePath": "/item/potion_of_invisibility/latest.png"
             },
             {
                 "types": [
                     "effect/invisibility"
                 ],
-                "element_type": "item",
-                "identifier": "splash_potion_of_invisibility",
-                "minecraft_identifier": "splash_potion",
-                "name": "Splash Potion of Invisibility",
                 "image_identifier": "splash_potion_of_invisibility",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Invisibility",
+                "identifier": "splash_potion_of_invisibility",
+                "imagePath": "/item/splash_potion_of_invisibility/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "map",
+                "wiki": "https://minecraft.wiki/w/Map",
                 "name": "Empty Map",
-                "wiki": "https://minecraft.wiki/w/Map"
+                "identifier": "map",
+                "imagePath": "/item/map/latest.png"
             }
         ],
         "mobs": [
@@ -280,91 +274,91 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "bat",
-                "name": "Bat",
                 "wiki": "https://minecraft.wiki/w/Bat",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "bat_spawn_egg",
-                        "element_type": "item",
                         "name": "Bat Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/bat_spawn_egg/latest.png"
                     },
                     "health": 6
-                }
+                },
+                "name": "Bat",
+                "identifier": "bat",
+                "imagePath": "/mob/bat/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "witch",
-                "name": "Witch",
                 "wiki": "https://minecraft.wiki/w/Witch",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "witch_spawn_egg",
-                        "element_type": "item",
                         "name": "Witch Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/witch_spawn_egg/latest.png"
                     },
                     "health": 26
-                }
+                },
+                "name": "Witch",
+                "identifier": "witch",
+                "imagePath": "/mob/witch/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "wither_skeleton",
-                "name": "Wither Skeleton",
                 "wiki": "https://minecraft.wiki/w/Wither_Skeleton",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "wither_skeleton_spawn_egg",
-                        "element_type": "item",
                         "name": "Wither Skeleton Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wither_skeleton_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Wither Skeleton",
+                "identifier": "wither_skeleton",
+                "imagePath": "/mob/wither_skeleton/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "zombie_villager",
-                "name": "Zombie Villager",
                 "wiki": "https://minecraft.wiki/w/Zombie_Villager",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombie_villager_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombie Villager Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombie_villager_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Zombie Villager",
+                "identifier": "zombie_villager",
+                "imagePath": "/mob/zombie_villager/latest.png"
             },
             {
                 "types": [
                     "mobs/boss"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "wither",
-                "name": "Wither",
                 "wiki": "https://minecraft.wiki/w/Wither",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "wither_spawn_egg",
-                        "element_type": "item",
                         "name": "Wither Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wither_spawn_egg/latest.png"
                     },
                     "health": 300
-                }
+                },
+                "name": "Wither",
+                "identifier": "wither",
+                "imagePath": "/mob/wither/latest.png"
             }
         ],
         "effects": [
@@ -372,10 +366,10 @@
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "wither",
+                "wiki": "https://minecraft.wiki/w/Wither_(effect)",
                 "name": "Wither",
-                "wiki": "https://minecraft.wiki/w/Wither_(effect)"
+                "identifier": "wither",
+                "imagePath": "/effect/wither/latest.png"
             }
         ],
         "paintings": [
@@ -383,11 +377,10 @@
                 "types": [
                     "paintings/2x2"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "wither",
-                "name": "Wither",
-                "display_name": "Wither – Jens Bergensten",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Wither – Jens Bergensten",
+                "identifier": "wither",
+                "imagePath": "/painting/wither/latest.png"
             }
         ]
     },

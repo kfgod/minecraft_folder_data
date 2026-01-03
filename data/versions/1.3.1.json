@@ -6,145 +6,145 @@
                     "woodset/oak",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Oak",
                 "name": "Oak Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Oak"
+                "identifier": "oak_wood",
+                "imagePath": "/block/oak_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Spruce",
                 "name": "Spruce Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Spruce"
+                "identifier": "spruce_wood",
+                "imagePath": "/block/spruce_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Birch",
                 "name": "Birch Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Birch"
+                "identifier": "birch_wood",
+                "imagePath": "/block/birch_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Jungle",
                 "name": "Jungle Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Jungle"
+                "identifier": "jungle_wood",
+                "imagePath": "/block/jungle_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce",
                 "name": "Spruce Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce"
+                "identifier": "spruce_stairs",
+                "imagePath": "/block/spruce_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
                 "name": "Birch Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch"
+                "identifier": "birch_stairs",
+                "imagePath": "/block/birch_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
                 "name": "Jungle Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle"
+                "identifier": "jungle_stairs",
+                "imagePath": "/block/jungle_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
                 "name": "Oak Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+                "identifier": "oak_slab",
+                "imagePath": "/block/oak_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce",
                 "name": "Spruce Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+                "identifier": "spruce_slab",
+                "imagePath": "/block/spruce_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch",
                 "name": "Birch Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+                "identifier": "birch_slab",
+                "imagePath": "/block/birch_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle",
                 "name": "Jungle Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+                "identifier": "jungle_slab",
+                "imagePath": "/block/jungle_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "emerald_ore",
+                "wiki": "https://minecraft.wiki/w/Emerald_Ore",
                 "name": "Emerald Ore",
-                "wiki": "https://minecraft.wiki/w/Emerald_Ore"
+                "identifier": "emerald_ore",
+                "imagePath": "/block/emerald_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "ender_chest",
+                "wiki": "https://minecraft.wiki/w/Ender_Chest",
                 "name": "Ender Chest",
-                "wiki": "https://minecraft.wiki/w/Ender_Chest"
+                "identifier": "ender_chest",
+                "imagePath": "/block/ender_chest/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sandstone_stairs",
+                "wiki": "https://minecraft.wiki/w/Sandstone_Stairs",
                 "name": "Sandstone Stairs",
-                "wiki": "https://minecraft.wiki/w/Sandstone_Stairs"
+                "identifier": "sandstone_stairs",
+                "imagePath": "/block/sandstone_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "tripwire_hook",
+                "wiki": "https://minecraft.wiki/w/Tripwire_Hook",
                 "name": "Tripwire Hook",
-                "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+                "identifier": "tripwire_hook",
+                "imagePath": "/block/tripwire_hook/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "emerald_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Emerald",
                 "name": "Block of Emerald",
-                "wiki": "https://minecraft.wiki/w/Block_of_Emerald"
+                "identifier": "emerald_block",
+                "imagePath": "/block/emerald_block/latest.png"
             }
         ],
         "items": [
@@ -153,31 +153,31 @@
                     "food",
                     "food/supernatural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "enchanted_golden_apple",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple",
                 "name": "Enchanted Golden Apple",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+                "identifier": "enchanted_golden_apple",
+                "imagePath": "/item/enchanted_golden_apple/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "writable_book",
+                "wiki": "https://minecraft.wiki/w/Book_and_Quill",
                 "name": "Book and Quill",
-                "wiki": "https://minecraft.wiki/w/Book_and_Quill"
+                "identifier": "writable_book",
+                "imagePath": "/item/writable_book/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "written_book",
+                "wiki": "https://minecraft.wiki/w/Written_Book",
                 "name": "Written Book",
-                "wiki": "https://minecraft.wiki/w/Written_Book"
+                "identifier": "written_book",
+                "imagePath": "/item/written_book/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "emerald",
+                "wiki": "https://minecraft.wiki/w/Emerald",
                 "name": "Emerald",
-                "wiki": "https://minecraft.wiki/w/Emerald"
+                "identifier": "emerald",
+                "imagePath": "/item/emerald/latest.png"
             }
         ]
     },

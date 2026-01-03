@@ -6,10 +6,10 @@
                     "woodset/oak",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Oak",
                 "name": "Oak Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Oak"
+                "identifier": "oak_planks",
+                "imagePath": "/block/oak_planks/latest.png"
             },
             {
                 "types": [
@@ -18,38 +18,38 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Oak",
                 "name": "Oak Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Oak"
+                "identifier": "oak_sapling",
+                "imagePath": "/block/oak_sapling/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "grass_block",
+                "wiki": "https://minecraft.wiki/w/Grass_Block",
                 "name": "Grass Block",
-                "wiki": "https://minecraft.wiki/w/Grass_Block"
+                "identifier": "grass_block",
+                "imagePath": "/block/grass_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone",
+                "wiki": "https://minecraft.wiki/w/Stone",
                 "name": "Stone",
-                "wiki": "https://minecraft.wiki/w/Stone"
+                "identifier": "stone",
+                "imagePath": "/block/stone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dirt",
+                "wiki": "https://minecraft.wiki/w/Dirt",
                 "name": "Dirt",
-                "wiki": "https://minecraft.wiki/w/Dirt"
+                "identifier": "dirt",
+                "imagePath": "/block/dirt/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cobblestone",
+                "wiki": "https://minecraft.wiki/w/Cobblestone",
                 "name": "Cobblestone",
-                "wiki": "https://minecraft.wiki/w/Cobblestone"
+                "identifier": "cobblestone",
+                "imagePath": "/block/cobblestone/latest.png"
             }
         ]
     },

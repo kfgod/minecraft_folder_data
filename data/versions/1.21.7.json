@@ -5,12 +5,10 @@
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Dennis",
                 "identifier": "dennis_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Dennis",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             }
         ],
         "items": [
@@ -18,10 +16,10 @@
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_lava_chicken",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Lava_Chicken",
                 "name": "Music Disc Lava Chicken",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_Lava_Chicken"
+                "identifier": "music_disc_lava_chicken",
+                "imagePath": "/item/music_disc_lava_chicken/latest.png"
             }
         ],
         "paintings": [
@@ -29,11 +27,10 @@
                 "types": [
                     "paintings/3x3"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "dennis",
-                "name": "Dennis",
-                "display_name": "Dennis – Sarah Boeving",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Dennis – Sarah Boeving",
+                "identifier": "dennis",
+                "imagePath": "/painting/dennis/latest.png"
             }
         ]
     },

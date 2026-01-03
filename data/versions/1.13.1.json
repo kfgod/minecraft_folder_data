@@ -3,38 +3,38 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_tube_coral",
+                "wiki": "https://minecraft.wiki/w/Dead_Coral#Tube",
                 "name": "Dead Tube Coral",
-                "wiki": "https://minecraft.wiki/w/Dead_Coral#Tube"
+                "identifier": "dead_tube_coral",
+                "imagePath": "/block/dead_tube_coral/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_brain_coral",
+                "wiki": "https://minecraft.wiki/w/Dead_Coral#Brain",
                 "name": "Dead Brain Coral",
-                "wiki": "https://minecraft.wiki/w/Dead_Coral#Brain"
+                "identifier": "dead_brain_coral",
+                "imagePath": "/block/dead_brain_coral/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_bubble_coral",
+                "wiki": "https://minecraft.wiki/w/Dead_Coral#Bubble",
                 "name": "Dead Bubble Coral",
-                "wiki": "https://minecraft.wiki/w/Dead_Coral#Bubble"
+                "identifier": "dead_bubble_coral",
+                "imagePath": "/block/dead_bubble_coral/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_fire_coral",
+                "wiki": "https://minecraft.wiki/w/Dead_Coral#Fire",
                 "name": "Dead Fire Coral",
-                "wiki": "https://minecraft.wiki/w/Dead_Coral#Fire"
+                "identifier": "dead_fire_coral",
+                "imagePath": "/block/dead_fire_coral/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_horn_coral",
+                "wiki": "https://minecraft.wiki/w/Dead_Coral#Horn",
                 "name": "Dead Horn Coral",
-                "wiki": "https://minecraft.wiki/w/Dead_Coral#Horn"
+                "identifier": "dead_horn_coral",
+                "imagePath": "/block/dead_horn_coral/latest.png"
             }
         ]
     },

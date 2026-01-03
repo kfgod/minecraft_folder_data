@@ -5,179 +5,179 @@
                 "types": [
                     "banner_pattern"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "field_masoned_banner_pattern",
+                "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
                 "name": "Field Masoned Banner Pattern",
-                "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern"
+                "identifier": "field_masoned_banner_pattern",
+                "imagePath": "/item/field_masoned_banner_pattern/latest.png"
             },
             {
                 "types": [
                     "banner_pattern"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bordure_indented_banner_pattern",
+                "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern",
                 "name": "Bordure Indented Banner Pattern",
-                "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern"
+                "identifier": "bordure_indented_banner_pattern",
+                "imagePath": "/item/bordure_indented_banner_pattern/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "white_bundle",
-                "name": "White Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#White",
-                "color": "white"
+                "color": "white",
+                "name": "White Bundle",
+                "identifier": "white_bundle",
+                "imagePath": "/item/white_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "orange_bundle",
-                "name": "Orange Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Orange",
-                "color": "orange"
+                "color": "orange",
+                "name": "Orange Bundle",
+                "identifier": "orange_bundle",
+                "imagePath": "/item/orange_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "magenta_bundle",
-                "name": "Magenta Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Magenta",
-                "color": "magenta"
+                "color": "magenta",
+                "name": "Magenta Bundle",
+                "identifier": "magenta_bundle",
+                "imagePath": "/item/magenta_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "light_blue_bundle",
-                "name": "Light Blue Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue",
-                "color": "light_blue"
+                "color": "light_blue",
+                "name": "Light Blue Bundle",
+                "identifier": "light_blue_bundle",
+                "imagePath": "/item/light_blue_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "yellow_bundle",
-                "name": "Yellow Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Yellow",
-                "color": "yellow"
+                "color": "yellow",
+                "name": "Yellow Bundle",
+                "identifier": "yellow_bundle",
+                "imagePath": "/item/yellow_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "lime_bundle",
-                "name": "Lime Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Lime",
-                "color": "lime"
+                "color": "lime",
+                "name": "Lime Bundle",
+                "identifier": "lime_bundle",
+                "imagePath": "/item/lime_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pink_bundle",
-                "name": "Pink Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Pink",
-                "color": "pink"
+                "color": "pink",
+                "name": "Pink Bundle",
+                "identifier": "pink_bundle",
+                "imagePath": "/item/pink_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "gray_bundle",
-                "name": "Gray Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Gray",
-                "color": "gray"
+                "color": "gray",
+                "name": "Gray Bundle",
+                "identifier": "gray_bundle",
+                "imagePath": "/item/gray_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "light_gray_bundle",
-                "name": "Light Gray Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray",
-                "color": "light_gray"
+                "color": "light_gray",
+                "name": "Light Gray Bundle",
+                "identifier": "light_gray_bundle",
+                "imagePath": "/item/light_gray_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cyan_bundle",
-                "name": "Cyan Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Cyan",
-                "color": "cyan"
+                "color": "cyan",
+                "name": "Cyan Bundle",
+                "identifier": "cyan_bundle",
+                "imagePath": "/item/cyan_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "purple_bundle",
-                "name": "Purple Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Purple",
-                "color": "purple"
+                "color": "purple",
+                "name": "Purple Bundle",
+                "identifier": "purple_bundle",
+                "imagePath": "/item/purple_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "blue_bundle",
-                "name": "Blue Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Blue",
-                "color": "blue"
+                "color": "blue",
+                "name": "Blue Bundle",
+                "identifier": "blue_bundle",
+                "imagePath": "/item/blue_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "brown_bundle",
-                "name": "Brown Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Brown",
-                "color": "brown"
+                "color": "brown",
+                "name": "Brown Bundle",
+                "identifier": "brown_bundle",
+                "imagePath": "/item/brown_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "green_bundle",
-                "name": "Green Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Green",
-                "color": "green"
+                "color": "green",
+                "name": "Green Bundle",
+                "identifier": "green_bundle",
+                "imagePath": "/item/green_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "red_bundle",
-                "name": "Red Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Red",
-                "color": "red"
+                "color": "red",
+                "name": "Red Bundle",
+                "identifier": "red_bundle",
+                "imagePath": "/item/red_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "black_bundle",
-                "name": "Black Bundle",
                 "wiki": "https://minecraft.wiki/w/Bundle#Black",
-                "color": "black"
+                "color": "black",
+                "name": "Black Bundle",
+                "identifier": "black_bundle",
+                "imagePath": "/item/black_bundle/latest.png"
             }
         ]
     },

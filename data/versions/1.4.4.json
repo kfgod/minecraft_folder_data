@@ -5,10 +5,10 @@
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_wait",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_wait",
                 "name": "Music Disc wait",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_wait"
+                "identifier": "music_disc_wait",
+                "imagePath": "/item/music_disc_wait/latest.png"
             }
         ]
     },

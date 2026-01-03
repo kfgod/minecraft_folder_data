@@ -5,181 +5,181 @@
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "creeper_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Creeper Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "creeper_spawn_egg",
+                "imagePath": "/item/creeper_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cave_spider_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Cave Spider Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "cave_spider_spawn_egg",
+                "imagePath": "/item/cave_spider_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "skeleton_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Skeleton Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "skeleton_spawn_egg",
+                "imagePath": "/item/skeleton_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "zombie_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombie Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "zombie_spawn_egg",
+                "imagePath": "/item/zombie_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "spider_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Spider Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "spider_spawn_egg",
+                "imagePath": "/item/spider_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "enderman_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Enderman Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "enderman_spawn_egg",
+                "imagePath": "/item/enderman_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "slime_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Slime Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "slime_spawn_egg",
+                "imagePath": "/item/slime_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "ghast_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Ghast Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "ghast_spawn_egg",
+                "imagePath": "/item/ghast_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "zombified_piglin_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombified Piglin Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "zombified_piglin_spawn_egg",
+                "imagePath": "/item/zombified_piglin_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "blaze_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Blaze Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "blaze_spawn_egg",
+                "imagePath": "/item/blaze_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "chicken_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Chicken Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "chicken_spawn_egg",
+                "imagePath": "/item/chicken_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "magma_cube_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Magma Cube Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "magma_cube_spawn_egg",
+                "imagePath": "/item/magma_cube_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "mooshroom_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Mooshroom Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "mooshroom_spawn_egg",
+                "imagePath": "/item/mooshroom_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pig_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Pig Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "pig_spawn_egg",
+                "imagePath": "/item/pig_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "sheep_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Sheep Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "sheep_spawn_egg",
+                "imagePath": "/item/sheep_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "silverfish_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Silverfish Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "silverfish_spawn_egg",
+                "imagePath": "/item/silverfish_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "squid_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Squid Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "squid_spawn_egg",
+                "imagePath": "/item/squid_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "villager_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Villager Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "villager_spawn_egg",
+                "imagePath": "/item/villager_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "wolf_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Wolf Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "wolf_spawn_egg",
+                "imagePath": "/item/wolf_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cow_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Cow Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "cow_spawn_egg",
+                "imagePath": "/item/cow_spawn_egg/latest.png"
             }
         ],
         "enchantments": [
@@ -187,37 +187,33 @@
                 "types": [
                     "enchantments/bow"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "flame",
+                "wiki": "https://minecraft.wiki/w/Flame",
                 "name": "Flame",
-                "wiki": "https://minecraft.wiki/w/Flame"
+                "identifier": "flame"
             },
             {
                 "types": [
                     "enchantments/bow"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "infinity",
+                "wiki": "https://minecraft.wiki/w/Infinity",
                 "name": "Infinity",
-                "wiki": "https://minecraft.wiki/w/Infinity"
+                "identifier": "infinity"
             },
             {
                 "types": [
                     "enchantments/bow"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "power",
+                "wiki": "https://minecraft.wiki/w/Power",
                 "name": "Power",
-                "wiki": "https://minecraft.wiki/w/Power"
+                "identifier": "power"
             },
             {
                 "types": [
                     "enchantments/bow"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "punch",
+                "wiki": "https://minecraft.wiki/w/Punch",
                 "name": "Punch",
-                "wiki": "https://minecraft.wiki/w/Punch"
+                "identifier": "punch"
             }
         ],
         "biomes": [
@@ -225,10 +221,10 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "beach",
+                "wiki": "https://minecraft.wiki/w/Beach",
                 "name": "Beach",
-                "wiki": "https://minecraft.wiki/w/Beach"
+                "identifier": "beach",
+                "imagePath": "/biome/beach/latest.png"
             }
         ]
     },

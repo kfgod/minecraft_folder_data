@@ -3,38 +3,38 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "nether_wart_block",
+                "wiki": "https://minecraft.wiki/w/Nether_Wart_Block",
                 "name": "Nether Wart Block",
-                "wiki": "https://minecraft.wiki/w/Nether_Wart_Block"
+                "identifier": "nether_wart_block",
+                "imagePath": "/block/nether_wart_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "bone_block",
+                "wiki": "https://minecraft.wiki/w/Bone_Block",
                 "name": "Bone Block",
-                "wiki": "https://minecraft.wiki/w/Bone_Block"
+                "identifier": "bone_block",
+                "imagePath": "/block/bone_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magma_block",
+                "wiki": "https://minecraft.wiki/w/Magma_Block",
                 "name": "Magma Block",
-                "wiki": "https://minecraft.wiki/w/Magma_Block"
+                "identifier": "magma_block",
+                "imagePath": "/block/magma_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_nether_bricks",
+                "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks",
                 "name": "Red Nether Bricks",
-                "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks"
+                "identifier": "red_nether_bricks",
+                "imagePath": "/block/red_nether_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "structure_void",
+                "wiki": "https://minecraft.wiki/w/Structure_Void",
                 "name": "Structure Void",
-                "wiki": "https://minecraft.wiki/w/Structure_Void"
+                "identifier": "structure_void",
+                "imagePath": "/block/structure_void/latest.png"
             }
         ],
         "items": [
@@ -42,10 +42,10 @@
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "polar_bear_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Polar Bear Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "polar_bear_spawn_egg",
+                "imagePath": "/item/polar_bear_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -53,55 +53,55 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "polar_bear",
-                "name": "Polar Bear",
                 "wiki": "https://minecraft.wiki/w/Polar_Bear",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "polar_bear_spawn_egg",
-                        "element_type": "item",
                         "name": "Polar Bear Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/polar_bear_spawn_egg/latest.png"
                     },
                     "health": 30
-                }
+                },
+                "name": "Polar Bear",
+                "identifier": "polar_bear",
+                "imagePath": "/mob/polar_bear/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "husk",
-                "name": "Husk",
                 "wiki": "https://minecraft.wiki/w/Husk",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "husk_spawn_egg",
-                        "element_type": "item",
                         "name": "Husk Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/husk_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Husk",
+                "identifier": "husk",
+                "imagePath": "/mob/husk/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "stray",
-                "name": "Stray",
                 "wiki": "https://minecraft.wiki/w/Stray",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "stray_spawn_egg",
-                        "element_type": "item",
                         "name": "Stray Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/stray_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Stray",
+                "identifier": "stray",
+                "imagePath": "/mob/stray/latest.png"
             }
         ]
     },

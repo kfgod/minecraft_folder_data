@@ -6,20 +6,20 @@
                     "woodset/spruce",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_log",
+                "wiki": "https://minecraft.wiki/w/Log#Spruce",
                 "name": "Spruce Log",
-                "wiki": "https://minecraft.wiki/w/Log#Spruce"
+                "identifier": "spruce_log",
+                "imagePath": "/block/spruce_log/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_log",
+                "wiki": "https://minecraft.wiki/w/Log#Birch",
                 "name": "Birch Log",
-                "wiki": "https://minecraft.wiki/w/Log#Birch"
+                "identifier": "birch_log",
+                "imagePath": "/block/birch_log/latest.png"
             },
             {
                 "types": [
@@ -27,10 +27,10 @@
                     "woodset/spruce",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Spruce",
                 "name": "Spruce Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Spruce"
+                "identifier": "spruce_leaves",
+                "imagePath": "/block/spruce_leaves/latest.png"
             },
             {
                 "types": [
@@ -38,52 +38,52 @@
                     "woodset/birch",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Birch",
                 "name": "Birch Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Birch"
+                "identifier": "birch_leaves",
+                "imagePath": "/block/birch_leaves/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lapis_ore",
+                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
                 "name": "Lapis Lazuli Ore",
-                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore"
+                "identifier": "lapis_ore",
+                "imagePath": "/block/lapis_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sandstone",
+                "wiki": "https://minecraft.wiki/w/Sandstone",
                 "name": "Sandstone",
-                "wiki": "https://minecraft.wiki/w/Sandstone"
+                "identifier": "sandstone",
+                "imagePath": "/block/sandstone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lapis_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli",
                 "name": "Block of Lapis Lazuli",
-                "wiki": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli"
+                "identifier": "lapis_block",
+                "imagePath": "/block/lapis_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cake",
+                "wiki": "https://minecraft.wiki/w/Cake",
                 "name": "Cake",
-                "wiki": "https://minecraft.wiki/w/Cake"
+                "identifier": "cake",
+                "imagePath": "/block/cake/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dispenser",
+                "wiki": "https://minecraft.wiki/w/Dispenser",
                 "name": "Dispenser",
-                "wiki": "https://minecraft.wiki/w/Dispenser"
+                "identifier": "dispenser",
+                "imagePath": "/block/dispenser/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "note_block",
+                "wiki": "https://minecraft.wiki/w/Note_Block",
                 "name": "Note Block",
-                "wiki": "https://minecraft.wiki/w/Note_Block"
+                "identifier": "note_block",
+                "imagePath": "/block/note_block/latest.png"
             }
         ],
         "items": [
@@ -91,173 +91,173 @@
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "light_gray_dye",
-                "name": "Light Gray Dye",
                 "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+                "wiki": "https://minecraft.wiki/w/Light_Gray_Dye",
+                "name": "Light Gray Dye",
+                "identifier": "light_gray_dye",
+                "imagePath": "/item/light_gray_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "gray_dye",
-                "name": "Gray Dye",
                 "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Gray_Dye"
+                "wiki": "https://minecraft.wiki/w/Gray_Dye",
+                "name": "Gray Dye",
+                "identifier": "gray_dye",
+                "imagePath": "/item/gray_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "red_dye",
-                "name": "Red Dye",
                 "color": "red",
-                "wiki": "https://minecraft.wiki/w/Red_Dye"
+                "wiki": "https://minecraft.wiki/w/Red_Dye",
+                "name": "Red Dye",
+                "identifier": "red_dye",
+                "imagePath": "/item/red_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "orange_dye",
-                "name": "Orange Dye",
                 "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Orange_Dye"
+                "wiki": "https://minecraft.wiki/w/Orange_Dye",
+                "name": "Orange Dye",
+                "identifier": "orange_dye",
+                "imagePath": "/item/orange_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "yellow_dye",
-                "name": "Yellow Dye",
                 "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+                "wiki": "https://minecraft.wiki/w/Yellow_Dye",
+                "name": "Yellow Dye",
+                "identifier": "yellow_dye",
+                "imagePath": "/item/yellow_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "lime_dye",
-                "name": "Lime Dye",
                 "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Lime_Dye"
+                "wiki": "https://minecraft.wiki/w/Lime_Dye",
+                "name": "Lime Dye",
+                "identifier": "lime_dye",
+                "imagePath": "/item/lime_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "green_dye",
-                "name": "Green Dye",
                 "color": "green",
-                "wiki": "https://minecraft.wiki/w/Green_Dye"
+                "wiki": "https://minecraft.wiki/w/Green_Dye",
+                "name": "Green Dye",
+                "identifier": "green_dye",
+                "imagePath": "/item/green_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cyan_dye",
-                "name": "Cyan Dye",
                 "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+                "wiki": "https://minecraft.wiki/w/Cyan_Dye",
+                "name": "Cyan Dye",
+                "identifier": "cyan_dye",
+                "imagePath": "/item/cyan_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "light_blue_dye",
-                "name": "Light Blue Dye",
                 "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+                "wiki": "https://minecraft.wiki/w/Light_Blue_Dye",
+                "name": "Light Blue Dye",
+                "identifier": "light_blue_dye",
+                "imagePath": "/item/light_blue_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "purple_dye",
-                "name": "Purple Dye",
                 "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Purple_Dye"
+                "wiki": "https://minecraft.wiki/w/Purple_Dye",
+                "name": "Purple Dye",
+                "identifier": "purple_dye",
+                "imagePath": "/item/purple_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "magenta_dye",
-                "name": "Magenta Dye",
                 "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+                "wiki": "https://minecraft.wiki/w/Magenta_Dye",
+                "name": "Magenta Dye",
+                "identifier": "magenta_dye",
+                "imagePath": "/item/magenta_dye/latest.png"
             },
             {
                 "types": [
                     "dye"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pink_dye",
-                "name": "Pink Dye",
                 "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Pink_Dye"
+                "wiki": "https://minecraft.wiki/w/Pink_Dye",
+                "name": "Pink Dye",
+                "identifier": "pink_dye",
+                "imagePath": "/item/pink_dye/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cocoa_beans",
+                "wiki": "https://minecraft.wiki/w/Cocoa_Beans",
                 "name": "Cocoa Beans",
-                "wiki": "https://minecraft.wiki/w/Cocoa_Beans"
+                "identifier": "cocoa_beans",
+                "imagePath": "/item/cocoa_beans/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "ink_sac",
+                "wiki": "https://minecraft.wiki/w/Ink_Sac",
                 "name": "Ink Sac",
-                "wiki": "https://minecraft.wiki/w/Ink_Sac"
+                "identifier": "ink_sac",
+                "imagePath": "/item/ink_sac/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "charcoal",
+                "wiki": "https://minecraft.wiki/w/Charcoal",
                 "name": "Charcoal",
-                "wiki": "https://minecraft.wiki/w/Charcoal"
+                "identifier": "charcoal",
+                "imagePath": "/item/charcoal/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "bone",
+                "wiki": "https://minecraft.wiki/w/Bone",
                 "name": "Bone",
-                "wiki": "https://minecraft.wiki/w/Bone"
+                "identifier": "bone",
+                "imagePath": "/item/bone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "bone_meal",
+                "wiki": "https://minecraft.wiki/w/Bone_Meal",
                 "name": "Bone Meal",
-                "wiki": "https://minecraft.wiki/w/Bone_Meal"
+                "identifier": "bone_meal",
+                "imagePath": "/item/bone_meal/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "lapis_lazuli",
+                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli",
                 "name": "Lapis Lazuli",
-                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+                "identifier": "lapis_lazuli",
+                "imagePath": "/item/lapis_lazuli/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "sugar",
+                "wiki": "https://minecraft.wiki/w/Sugar",
                 "name": "Sugar",
-                "wiki": "https://minecraft.wiki/w/Sugar"
+                "identifier": "sugar",
+                "imagePath": "/item/sugar/latest.png"
             }
         ],
         "mobs": [
@@ -265,19 +265,19 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "squid",
-                "name": "Squid",
                 "wiki": "https://minecraft.wiki/w/Squid",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "squid_spawn_egg",
-                        "element_type": "item",
                         "name": "Squid Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/squid_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Squid",
+                "identifier": "squid",
+                "imagePath": "/mob/squid/latest.png"
             }
         ]
     },

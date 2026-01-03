@@ -3,47 +3,47 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cut_sandstone",
+                "wiki": "https://minecraft.wiki/w/Cut_Sandstone",
                 "name": "Cut Sandstone",
-                "wiki": "https://minecraft.wiki/w/Cut_Sandstone"
+                "identifier": "cut_sandstone",
+                "imagePath": "/block/cut_sandstone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chiseled_sandstone",
+                "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone",
                 "name": "Chiseled Sandstone",
-                "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone"
+                "identifier": "chiseled_sandstone",
+                "imagePath": "/block/chiseled_sandstone/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Spruce",
                 "name": "Spruce Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+                "identifier": "spruce_planks",
+                "imagePath": "/block/spruce_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Birch",
                 "name": "Birch Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Birch"
+                "identifier": "birch_planks",
+                "imagePath": "/block/birch_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Jungle",
                 "name": "Jungle Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+                "identifier": "jungle_planks",
+                "imagePath": "/block/jungle_planks/latest.png"
             }
         ]
     },

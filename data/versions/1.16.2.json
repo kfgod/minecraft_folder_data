@@ -5,10 +5,10 @@
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "piglin_brute_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Piglin Brute Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "piglin_brute_spawn_egg",
+                "imagePath": "/item/piglin_brute_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -16,19 +16,19 @@
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "piglin_brute",
-                "name": "Piglin Brute",
                 "wiki": "https://minecraft.wiki/w/Piglin_Brute",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "piglin_brute_spawn_egg",
-                        "element_type": "item",
                         "name": "Piglin Brute Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/piglin_brute_spawn_egg/latest.png"
                     },
                     "health": 50
-                }
+                },
+                "name": "Piglin Brute",
+                "identifier": "piglin_brute",
+                "imagePath": "/mob/piglin_brute/latest.png"
             }
         ]
     },

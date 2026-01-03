@@ -3,26 +3,26 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "piston",
+                "wiki": "https://minecraft.wiki/w/Piston",
                 "name": "Piston",
-                "wiki": "https://minecraft.wiki/w/Piston"
+                "identifier": "piston",
+                "imagePath": "/block/piston/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sticky_piston",
+                "wiki": "https://minecraft.wiki/w/Sticky_Piston",
                 "name": "Sticky Piston",
-                "wiki": "https://minecraft.wiki/w/Sticky_Piston"
+                "identifier": "sticky_piston",
+                "imagePath": "/block/sticky_piston/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "shears",
+                "wiki": "https://minecraft.wiki/w/Shears",
                 "name": "Shears",
-                "wiki": "https://minecraft.wiki/w/Shears"
+                "identifier": "shears",
+                "imagePath": "/item/shears/latest.png"
             }
         ]
     },

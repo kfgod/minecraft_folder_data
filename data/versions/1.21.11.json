@@ -3,141 +3,139 @@
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "wooden_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Wooden",
                 "name": "Wooden Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Wooden"
+                "identifier": "wooden_spear",
+                "imagePath": "/item/wooden_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "stone_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Stone",
                 "name": "Stone Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Stone"
+                "identifier": "stone_spear",
+                "imagePath": "/item/stone_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "copper_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Copper",
                 "name": "Copper Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Copper"
+                "identifier": "copper_spear",
+                "imagePath": "/item/copper_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "iron_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Iron",
                 "name": "Iron Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Iron"
+                "identifier": "iron_spear",
+                "imagePath": "/item/iron_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "golden_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Golden",
                 "name": "Golden Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Golden"
+                "identifier": "golden_spear",
+                "imagePath": "/item/golden_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "diamond_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Diamond",
                 "name": "Diamond Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Diamond"
+                "identifier": "diamond_spear",
+                "imagePath": "/item/diamond_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "netherite_spear",
+                "wiki": "https://minecraft.wiki/w/Spear#Netherite",
                 "name": "Netherite Spear",
-                "wiki": "https://minecraft.wiki/w/Spear#Netherite"
+                "identifier": "netherite_spear",
+                "imagePath": "/item/netherite_spear/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "copper_nautilus_armor",
+                "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
                 "name": "Copper Nautilus Armor",
-                "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor"
+                "identifier": "copper_nautilus_armor",
+                "imagePath": "/item/copper_nautilus_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "iron_nautilus_armor",
+                "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor",
                 "name": "Iron Nautilus Armor",
-                "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor"
+                "identifier": "iron_nautilus_armor",
+                "imagePath": "/item/iron_nautilus_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "golden_nautilus_armor",
+                "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor",
                 "name": "Golden Nautilus Armor",
-                "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor"
+                "identifier": "golden_nautilus_armor",
+                "imagePath": "/item/golden_nautilus_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "diamond_nautilus_armor",
+                "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor",
                 "name": "Diamond Nautilus Armor",
-                "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor"
+                "identifier": "diamond_nautilus_armor",
+                "imagePath": "/item/diamond_nautilus_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "netherite_nautilus_armor",
+                "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor",
                 "name": "Netherite Nautilus Armor",
-                "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor"
+                "identifier": "netherite_nautilus_armor",
+                "imagePath": "/item/netherite_nautilus_armor/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "nautilus_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Nautilus Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "nautilus_spawn_egg",
+                "imagePath": "/item/nautilus_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "zombie_nautilus_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombie Nautilus Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "zombie_nautilus_spawn_egg",
+                "imagePath": "/item/zombie_nautilus_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Lunge I-III",
                 "identifier": "lunge_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Lunge I-III",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "camel_husk_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Camel Husk Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "camel_husk_spawn_egg",
+                "imagePath": "/item/camel_husk_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "parched_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Parched Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "parched_spawn_egg",
+                "imagePath": "/item/parched_spawn_egg/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "netherite_horse_armor",
+                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
                 "name": "Netherite Horse Armor",
-                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor"
+                "identifier": "netherite_horse_armor",
+                "imagePath": "/item/netherite_horse_armor/latest.png"
             }
         ],
         "mobs": [
@@ -145,73 +143,73 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "nautilus",
-                "name": "Nautilus",
                 "wiki": "https://minecraft.wiki/w/Nautilus",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "nautilus_spawn_egg",
-                        "element_type": "item",
                         "name": "Nautilus Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/nautilus_spawn_egg/latest.png"
                     },
                     "health": 15
-                }
+                },
+                "name": "Nautilus",
+                "identifier": "nautilus",
+                "imagePath": "/mob/nautilus/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "zombie_nautilus",
-                "name": "Zombie Nautilus",
                 "wiki": "https://minecraft.wiki/w/Zombie_Nautilus",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombie_nautilus_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombie Nautilus Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombie_nautilus_spawn_egg/latest.png"
                     },
                     "health": 15
-                }
+                },
+                "name": "Zombie Nautilus",
+                "identifier": "zombie_nautilus",
+                "imagePath": "/mob/zombie_nautilus/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "parched",
-                "name": "Parched",
                 "wiki": "https://minecraft.wiki/w/Parched",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "parched_spawn_egg",
-                        "element_type": "item",
                         "name": "Parched Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/parched_spawn_egg/latest.png"
                     },
                     "health": 16
-                }
+                },
+                "name": "Parched",
+                "identifier": "parched",
+                "imagePath": "/mob/parched/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "camel_husk",
-                "name": "Camel Husk",
                 "wiki": "https://minecraft.wiki/w/Camel_Husk",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "camel_husk_spawn_egg",
-                        "element_type": "item",
                         "name": "Camel Husk Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/camel_husk_spawn_egg/latest.png"
                     },
                     "health": 32
-                }
+                },
+                "name": "Camel Husk",
+                "identifier": "camel_husk",
+                "imagePath": "/mob/camel_husk/latest.png"
             }
         ],
         "effects": [
@@ -219,10 +217,10 @@
                 "types": [
                     "effects/underwater"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "breath_of_the_nautilus",
+                "wiki": "https://minecraft.wiki/w/Breath_of_the_Nautilus",
                 "name": "Breath of the Nautilus",
-                "wiki": "https://minecraft.wiki/w/Breath_of_the_Nautilus"
+                "identifier": "breath_of_the_nautilus",
+                "imagePath": "/effect/breath_of_the_nautilus/latest.png"
             }
         ],
         "enchantments": [
@@ -230,27 +228,25 @@
                 "types": [
                     "enchantments/melee/spear"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "lunge",
+                "wiki": "https://minecraft.wiki/w/Lunge",
                 "name": "Lunge",
-                "wiki": "https://minecraft.wiki/w/Lunge"
+                "identifier": "lunge"
             }
         ],
         "advancements": [
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/spear_many_mobs",
-                "name": "Mob Kabob​",
                 "wiki": "https://minecraft.wiki/w/Advancement#Mob_Kabob",
                 "meta": {
                     "icon": {
                         "identifier": "iron_spear",
-                        "element_type": "item",
                         "name": "Iron Spear",
-                        "wiki": "https://minecraft.wiki/w/Spear#Iron"
+                        "wiki": "https://minecraft.wiki/w/Spear#Iron",
+                        "imagePath": "/item/iron_spear/latest.png"
                     }
-                }
+                },
+                "name": "Mob Kabob​",
+                "identifier": "adventure/spear_many_mobs"
             }
         ],
         "mob_variants": [
@@ -258,27 +254,25 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob_variant",
-                "minecraft_identifier": "zombie_nautilus",
-                "identifier": "coral_zombie_nautilus",
-                "name": "Zombie Nautilus",
-                "display_name": "Coral Zombie Nautilus",
                 "wiki": "https://minecraft.wiki/w/Zombie_Nautilus#Coral",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombie_nautilus_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombie Nautilus Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombie_nautilus_spawn_egg/latest.png"
                     },
                     "parent_mob": {
                         "identifier": "zombie_nautilus",
-                        "element_type": "mob",
                         "name": "Zombie Nautilus",
                         "wiki": "https://minecraft.wiki/w/Zombie_Nautilus",
-                        "health": 15
+                        "health": 15,
+                        "imagePath": "/mob/zombie_nautilus/latest.png"
                     }
-                }
+                },
+                "name": "Coral Zombie Nautilus",
+                "identifier": "coral_zombie_nautilus",
+                "imagePath": "/mob_variant/coral_zombie_nautilus/latest.png"
             }
         ]
     },

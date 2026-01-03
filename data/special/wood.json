@@ -6,123 +6,123 @@
       "group_name": "Oak Log",
       "material": {
         "identifier": "oak_log",
-        "element_type": "block",
         "name": "Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Oak"
+        "wiki": "https://minecraft.wiki/w/Log#Oak",
+        "imagePath": "/block/oak_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_oak_log",
-          "element_type": "block",
-          "name": "Stripped Oak Log"
+          "name": "Stripped Oak Log",
+          "imagePath": "/block/stripped_oak_log/latest.png"
         },
         "wood": {
           "identifier": "oak_wood",
-          "element_type": "block",
           "name": "Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Oak"
+          "wiki": "https://minecraft.wiki/w/Wood#Oak",
+          "imagePath": "/block/oak_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_oak_wood",
-          "element_type": "block",
           "name": "Stripped Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak",
+          "imagePath": "/block/stripped_oak_wood/latest.png"
         },
         "planks": {
           "identifier": "oak_planks",
-          "element_type": "block",
           "name": "Oak Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Oak"
+          "wiki": "https://minecraft.wiki/w/Planks#Oak",
+          "imagePath": "/block/oak_planks/latest.png"
         },
         "stairs": {
           "identifier": "oak_stairs",
-          "element_type": "block",
           "name": "Oak Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak",
+          "imagePath": "/block/oak_stairs/latest.png"
         },
         "slab": {
           "identifier": "oak_slab",
-          "element_type": "block",
           "name": "Oak Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
+          "imagePath": "/block/oak_slab/latest.png"
         },
         "fence": {
           "identifier": "oak_fence",
-          "element_type": "block",
           "name": "Oak Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak",
+          "imagePath": "/block/oak_fence/latest.png"
         },
         "gate": {
           "identifier": "oak_fence_gate",
-          "element_type": "block",
           "name": "Oak Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak",
+          "imagePath": "/block/oak_fence_gate/latest.png"
         },
         "door": {
           "identifier": "oak_door",
-          "element_type": "block",
           "name": "Oak Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak",
+          "imagePath": "/block/oak_door/latest.png"
         },
         "trapdoor": {
           "identifier": "oak_trapdoor",
-          "element_type": "block",
           "name": "Oak Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak",
+          "imagePath": "/block/oak_trapdoor/latest.png"
         },
         "button": {
           "identifier": "oak_button",
-          "element_type": "block",
           "name": "Oak Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak",
+          "imagePath": "/block/oak_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "oak_pressure_plate",
-          "element_type": "block",
           "name": "Oak Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak",
+          "imagePath": "/block/oak_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "oak_sign",
-          "element_type": "block",
           "name": "Oak Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Oak"
+          "wiki": "https://minecraft.wiki/w/Sign#Oak",
+          "imagePath": "/block/oak_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "oak_hanging_sign",
-          "element_type": "block",
           "name": "Oak Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak",
+          "imagePath": "/block/oak_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "oak_shelf",
-          "element_type": "block",
           "name": "Oak Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Oak"
+          "wiki": "https://minecraft.wiki/w/Shelf#Oak",
+          "imagePath": "/block/oak_shelf/latest.png"
         },
         "boat": {
           "identifier": "oak_boat",
-          "element_type": "item",
           "name": "Oak Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Oak"
+          "wiki": "https://minecraft.wiki/w/Boat#Oak",
+          "imagePath": "/item/oak_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "oak_chest_boat",
-          "element_type": "item",
           "name": "Oak Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak",
+          "imagePath": "/item/oak_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "oak_sapling",
-          "element_type": "block",
           "name": "Oak Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Oak"
+          "wiki": "https://minecraft.wiki/w/Sapling#Oak",
+          "imagePath": "/block/oak_sapling/latest.png"
         },
         "leaves": {
           "identifier": "oak_leaves",
-          "element_type": "block",
           "name": "Oak Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Oak"
+          "wiki": "https://minecraft.wiki/w/Leaves#Oak",
+          "imagePath": "/block/oak_leaves/latest.png"
         }
       }
     },
@@ -131,123 +131,123 @@
       "group_name": "Spruce Log",
       "material": {
         "identifier": "spruce_log",
-        "element_type": "block",
         "name": "Spruce Log",
-        "wiki": "https://minecraft.wiki/w/Log#Spruce"
+        "wiki": "https://minecraft.wiki/w/Log#Spruce",
+        "imagePath": "/block/spruce_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_spruce_log",
-          "element_type": "block",
-          "name": "Stripped Spruce Log"
+          "name": "Stripped Spruce Log",
+          "imagePath": "/block/stripped_spruce_log/latest.png"
         },
         "wood": {
           "identifier": "spruce_wood",
-          "element_type": "block",
           "name": "Spruce Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wood#Spruce",
+          "imagePath": "/block/spruce_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_spruce_wood",
-          "element_type": "block",
           "name": "Stripped Spruce Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Spruce"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Spruce",
+          "imagePath": "/block/stripped_spruce_wood/latest.png"
         },
         "planks": {
           "identifier": "spruce_planks",
-          "element_type": "block",
           "name": "Spruce Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+          "wiki": "https://minecraft.wiki/w/Planks#Spruce",
+          "imagePath": "/block/spruce_planks/latest.png"
         },
         "stairs": {
           "identifier": "spruce_stairs",
-          "element_type": "block",
           "name": "Spruce Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce",
+          "imagePath": "/block/spruce_stairs/latest.png"
         },
         "slab": {
           "identifier": "spruce_slab",
-          "element_type": "block",
           "name": "Spruce Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce",
+          "imagePath": "/block/spruce_slab/latest.png"
         },
         "fence": {
           "identifier": "spruce_fence",
-          "element_type": "block",
           "name": "Spruce Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce",
+          "imagePath": "/block/spruce_fence/latest.png"
         },
         "gate": {
           "identifier": "spruce_fence_gate",
-          "element_type": "block",
           "name": "Spruce Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce",
+          "imagePath": "/block/spruce_fence_gate/latest.png"
         },
         "door": {
           "identifier": "spruce_door",
-          "element_type": "block",
           "name": "Spruce Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Spruce",
+          "imagePath": "/block/spruce_door/latest.png"
         },
         "trapdoor": {
           "identifier": "spruce_trapdoor",
-          "element_type": "block",
           "name": "Spruce Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce",
+          "imagePath": "/block/spruce_trapdoor/latest.png"
         },
         "button": {
           "identifier": "spruce_button",
-          "element_type": "block",
           "name": "Spruce Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Spruce",
+          "imagePath": "/block/spruce_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "spruce_pressure_plate",
-          "element_type": "block",
           "name": "Spruce Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce",
+          "imagePath": "/block/spruce_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "spruce_sign",
-          "element_type": "block",
           "name": "Spruce Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Spruce"
+          "wiki": "https://minecraft.wiki/w/Sign#Spruce",
+          "imagePath": "/block/spruce_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "spruce_hanging_sign",
-          "element_type": "block",
           "name": "Spruce Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce",
+          "imagePath": "/block/spruce_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "spruce_shelf",
-          "element_type": "block",
           "name": "Spruce Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Spruce"
+          "wiki": "https://minecraft.wiki/w/Shelf#Spruce",
+          "imagePath": "/block/spruce_shelf/latest.png"
         },
         "boat": {
           "identifier": "spruce_boat",
-          "element_type": "item",
           "name": "Spruce Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Spruce"
+          "wiki": "https://minecraft.wiki/w/Boat#Spruce",
+          "imagePath": "/item/spruce_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "spruce_chest_boat",
-          "element_type": "item",
           "name": "Spruce Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce",
+          "imagePath": "/item/spruce_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "spruce_sapling",
-          "element_type": "block",
           "name": "Spruce Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Spruce"
+          "wiki": "https://minecraft.wiki/w/Sapling#Spruce",
+          "imagePath": "/block/spruce_sapling/latest.png"
         },
         "leaves": {
           "identifier": "spruce_leaves",
-          "element_type": "block",
           "name": "Spruce Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Spruce"
+          "wiki": "https://minecraft.wiki/w/Leaves#Spruce",
+          "imagePath": "/block/spruce_leaves/latest.png"
         }
       }
     },
@@ -256,123 +256,123 @@
       "group_name": "Birch Log",
       "material": {
         "identifier": "birch_log",
-        "element_type": "block",
         "name": "Birch Log",
-        "wiki": "https://minecraft.wiki/w/Log#Birch"
+        "wiki": "https://minecraft.wiki/w/Log#Birch",
+        "imagePath": "/block/birch_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_birch_log",
-          "element_type": "block",
-          "name": "Stripped Birch Log"
+          "name": "Stripped Birch Log",
+          "imagePath": "/block/stripped_birch_log/latest.png"
         },
         "wood": {
           "identifier": "birch_wood",
-          "element_type": "block",
           "name": "Birch Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Birch"
+          "wiki": "https://minecraft.wiki/w/Wood#Birch",
+          "imagePath": "/block/birch_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_birch_wood",
-          "element_type": "block",
           "name": "Stripped Birch Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch",
+          "imagePath": "/block/stripped_birch_wood/latest.png"
         },
         "planks": {
           "identifier": "birch_planks",
-          "element_type": "block",
           "name": "Birch Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Birch"
+          "wiki": "https://minecraft.wiki/w/Planks#Birch",
+          "imagePath": "/block/birch_planks/latest.png"
         },
         "stairs": {
           "identifier": "birch_stairs",
-          "element_type": "block",
           "name": "Birch Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
+          "imagePath": "/block/birch_stairs/latest.png"
         },
         "slab": {
           "identifier": "birch_slab",
-          "element_type": "block",
           "name": "Birch Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch",
+          "imagePath": "/block/birch_slab/latest.png"
         },
         "fence": {
           "identifier": "birch_fence",
-          "element_type": "block",
           "name": "Birch Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch",
+          "imagePath": "/block/birch_fence/latest.png"
         },
         "gate": {
           "identifier": "birch_fence_gate",
-          "element_type": "block",
           "name": "Birch Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch",
+          "imagePath": "/block/birch_fence_gate/latest.png"
         },
         "door": {
           "identifier": "birch_door",
-          "element_type": "block",
           "name": "Birch Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Birch",
+          "imagePath": "/block/birch_door/latest.png"
         },
         "trapdoor": {
           "identifier": "birch_trapdoor",
-          "element_type": "block",
           "name": "Birch Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch",
+          "imagePath": "/block/birch_trapdoor/latest.png"
         },
         "button": {
           "identifier": "birch_button",
-          "element_type": "block",
           "name": "Birch Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch",
+          "imagePath": "/block/birch_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "birch_pressure_plate",
-          "element_type": "block",
           "name": "Birch Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch",
+          "imagePath": "/block/birch_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "birch_sign",
-          "element_type": "block",
           "name": "Birch Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Birch"
+          "wiki": "https://minecraft.wiki/w/Sign#Birch",
+          "imagePath": "/block/birch_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "birch_hanging_sign",
-          "element_type": "block",
           "name": "Birch Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch",
+          "imagePath": "/block/birch_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "birch_shelf",
-          "element_type": "block",
           "name": "Birch Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Birch"
+          "wiki": "https://minecraft.wiki/w/Shelf#Birch",
+          "imagePath": "/block/birch_shelf/latest.png"
         },
         "boat": {
           "identifier": "birch_boat",
-          "element_type": "item",
           "name": "Birch Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Birch"
+          "wiki": "https://minecraft.wiki/w/Boat#Birch",
+          "imagePath": "/item/birch_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "birch_chest_boat",
-          "element_type": "item",
           "name": "Birch Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch",
+          "imagePath": "/item/birch_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "birch_sapling",
-          "element_type": "block",
           "name": "Birch Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Birch"
+          "wiki": "https://minecraft.wiki/w/Sapling#Birch",
+          "imagePath": "/block/birch_sapling/latest.png"
         },
         "leaves": {
           "identifier": "birch_leaves",
-          "element_type": "block",
           "name": "Birch Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Birch"
+          "wiki": "https://minecraft.wiki/w/Leaves#Birch",
+          "imagePath": "/block/birch_leaves/latest.png"
         }
       }
     },
@@ -381,123 +381,123 @@
       "group_name": "Jungle Log",
       "material": {
         "identifier": "jungle_log",
-        "element_type": "block",
         "name": "Jungle Log",
-        "wiki": "https://minecraft.wiki/w/Log#Jungle"
+        "wiki": "https://minecraft.wiki/w/Log#Jungle",
+        "imagePath": "/block/jungle_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_jungle_log",
-          "element_type": "block",
-          "name": "Stripped Jungle Log"
+          "name": "Stripped Jungle Log",
+          "imagePath": "/block/stripped_jungle_log/latest.png"
         },
         "wood": {
           "identifier": "jungle_wood",
-          "element_type": "block",
           "name": "Jungle Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wood#Jungle",
+          "imagePath": "/block/jungle_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_jungle_wood",
-          "element_type": "block",
           "name": "Stripped Jungle Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle",
+          "imagePath": "/block/stripped_jungle_wood/latest.png"
         },
         "planks": {
           "identifier": "jungle_planks",
-          "element_type": "block",
           "name": "Jungle Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+          "wiki": "https://minecraft.wiki/w/Planks#Jungle",
+          "imagePath": "/block/jungle_planks/latest.png"
         },
         "stairs": {
           "identifier": "jungle_stairs",
-          "element_type": "block",
           "name": "Jungle Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
+          "imagePath": "/block/jungle_stairs/latest.png"
         },
         "slab": {
           "identifier": "jungle_slab",
-          "element_type": "block",
           "name": "Jungle Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle",
+          "imagePath": "/block/jungle_slab/latest.png"
         },
         "fence": {
           "identifier": "jungle_fence",
-          "element_type": "block",
           "name": "Jungle Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle",
+          "imagePath": "/block/jungle_fence/latest.png"
         },
         "gate": {
           "identifier": "jungle_fence_gate",
-          "element_type": "block",
           "name": "Jungle Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle",
+          "imagePath": "/block/jungle_fence_gate/latest.png"
         },
         "door": {
           "identifier": "jungle_door",
-          "element_type": "block",
           "name": "Jungle Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Jungle",
+          "imagePath": "/block/jungle_door/latest.png"
         },
         "trapdoor": {
           "identifier": "jungle_trapdoor",
-          "element_type": "block",
           "name": "Jungle Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle",
+          "imagePath": "/block/jungle_trapdoor/latest.png"
         },
         "button": {
           "identifier": "jungle_button",
-          "element_type": "block",
           "name": "Jungle Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle",
+          "imagePath": "/block/jungle_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "jungle_pressure_plate",
-          "element_type": "block",
           "name": "Jungle Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle",
+          "imagePath": "/block/jungle_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "jungle_sign",
-          "element_type": "block",
           "name": "Jungle Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Jungle"
+          "wiki": "https://minecraft.wiki/w/Sign#Jungle",
+          "imagePath": "/block/jungle_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "jungle_hanging_sign",
-          "element_type": "block",
           "name": "Jungle Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle",
+          "imagePath": "/block/jungle_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "jungle_shelf",
-          "element_type": "block",
           "name": "Jungle Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Jungle"
+          "wiki": "https://minecraft.wiki/w/Shelf#Jungle",
+          "imagePath": "/block/jungle_shelf/latest.png"
         },
         "boat": {
           "identifier": "jungle_boat",
-          "element_type": "item",
           "name": "Jungle Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Jungle"
+          "wiki": "https://minecraft.wiki/w/Boat#Jungle",
+          "imagePath": "/item/jungle_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "jungle_chest_boat",
-          "element_type": "item",
           "name": "Jungle Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle",
+          "imagePath": "/item/jungle_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "jungle_sapling",
-          "element_type": "block",
           "name": "Jungle Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Jungle"
+          "wiki": "https://minecraft.wiki/w/Sapling#Jungle",
+          "imagePath": "/block/jungle_sapling/latest.png"
         },
         "leaves": {
           "identifier": "jungle_leaves",
-          "element_type": "block",
           "name": "Jungle Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Jungle"
+          "wiki": "https://minecraft.wiki/w/Leaves#Jungle",
+          "imagePath": "/block/jungle_leaves/latest.png"
         }
       }
     },
@@ -506,123 +506,123 @@
       "group_name": "Acacia Log",
       "material": {
         "identifier": "acacia_log",
-        "element_type": "block",
         "name": "Acacia Log",
-        "wiki": "https://minecraft.wiki/w/Log#Acacia"
+        "wiki": "https://minecraft.wiki/w/Log#Acacia",
+        "imagePath": "/block/acacia_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_acacia_log",
-          "element_type": "block",
-          "name": "Stripped Acacia Log"
+          "name": "Stripped Acacia Log",
+          "imagePath": "/block/stripped_acacia_log/latest.png"
         },
         "wood": {
           "identifier": "acacia_wood",
-          "element_type": "block",
           "name": "Acacia Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wood#Acacia",
+          "imagePath": "/block/acacia_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_acacia_wood",
-          "element_type": "block",
           "name": "Stripped Acacia Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
+          "imagePath": "/block/stripped_acacia_wood/latest.png"
         },
         "planks": {
           "identifier": "acacia_planks",
-          "element_type": "block",
           "name": "Acacia Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+          "wiki": "https://minecraft.wiki/w/Planks#Acacia",
+          "imagePath": "/block/acacia_planks/latest.png"
         },
         "stairs": {
           "identifier": "acacia_stairs",
-          "element_type": "block",
           "name": "Acacia Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Acacia",
+          "imagePath": "/block/acacia_stairs/latest.png"
         },
         "slab": {
           "identifier": "acacia_slab",
-          "element_type": "block",
           "name": "Acacia Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia",
+          "imagePath": "/block/acacia_slab/latest.png"
         },
         "fence": {
           "identifier": "acacia_fence",
-          "element_type": "block",
           "name": "Acacia Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia",
+          "imagePath": "/block/acacia_fence/latest.png"
         },
         "gate": {
           "identifier": "acacia_fence_gate",
-          "element_type": "block",
           "name": "Acacia Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia",
+          "imagePath": "/block/acacia_fence_gate/latest.png"
         },
         "door": {
           "identifier": "acacia_door",
-          "element_type": "block",
           "name": "Acacia Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Acacia",
+          "imagePath": "/block/acacia_door/latest.png"
         },
         "trapdoor": {
           "identifier": "acacia_trapdoor",
-          "element_type": "block",
           "name": "Acacia Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Acacia",
+          "imagePath": "/block/acacia_trapdoor/latest.png"
         },
         "button": {
           "identifier": "acacia_button",
-          "element_type": "block",
           "name": "Acacia Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia",
+          "imagePath": "/block/acacia_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "acacia_pressure_plate",
-          "element_type": "block",
           "name": "Acacia Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia",
+          "imagePath": "/block/acacia_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "acacia_sign",
-          "element_type": "block",
           "name": "Acacia Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Acacia"
+          "wiki": "https://minecraft.wiki/w/Sign#Acacia",
+          "imagePath": "/block/acacia_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "acacia_hanging_sign",
-          "element_type": "block",
           "name": "Acacia Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia",
+          "imagePath": "/block/acacia_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "acacia_shelf",
-          "element_type": "block",
           "name": "Acacia Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Acacia"
+          "wiki": "https://minecraft.wiki/w/Shelf#Acacia",
+          "imagePath": "/block/acacia_shelf/latest.png"
         },
         "boat": {
           "identifier": "acacia_boat",
-          "element_type": "item",
           "name": "Acacia Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Acacia"
+          "wiki": "https://minecraft.wiki/w/Boat#Acacia",
+          "imagePath": "/item/acacia_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "acacia_chest_boat",
-          "element_type": "item",
           "name": "Acacia Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia",
+          "imagePath": "/item/acacia_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "acacia_sapling",
-          "element_type": "block",
           "name": "Acacia Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Acacia"
+          "wiki": "https://minecraft.wiki/w/Sapling#Acacia",
+          "imagePath": "/block/acacia_sapling/latest.png"
         },
         "leaves": {
           "identifier": "acacia_leaves",
-          "element_type": "block",
           "name": "Acacia Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Acacia"
+          "wiki": "https://minecraft.wiki/w/Leaves#Acacia",
+          "imagePath": "/block/acacia_leaves/latest.png"
         }
       }
     },
@@ -631,123 +631,123 @@
       "group_name": "Dark Oak Log",
       "material": {
         "identifier": "dark_oak_log",
-        "element_type": "block",
         "name": "Dark Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
+        "wiki": "https://minecraft.wiki/w/Log#Dark_Oak",
+        "imagePath": "/block/dark_oak_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_dark_oak_log",
-          "element_type": "block",
-          "name": "Stripped Dark Oak Log"
+          "name": "Stripped Dark Oak Log",
+          "imagePath": "/block/stripped_dark_oak_log/latest.png"
         },
         "wood": {
           "identifier": "dark_oak_wood",
-          "element_type": "block",
           "name": "Dark Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak",
+          "imagePath": "/block/dark_oak_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_dark_oak_wood",
-          "element_type": "block",
           "name": "Stripped Dark Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak",
+          "imagePath": "/block/stripped_dark_oak_wood/latest.png"
         },
         "planks": {
           "identifier": "dark_oak_planks",
-          "element_type": "block",
           "name": "Dark Oak Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak",
+          "imagePath": "/block/dark_oak_planks/latest.png"
         },
         "stairs": {
           "identifier": "dark_oak_stairs",
-          "element_type": "block",
           "name": "Dark Oak Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Dark_Oak",
+          "imagePath": "/block/dark_oak_stairs/latest.png"
         },
         "slab": {
           "identifier": "dark_oak_slab",
-          "element_type": "block",
           "name": "Dark Oak Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak",
+          "imagePath": "/block/dark_oak_slab/latest.png"
         },
         "fence": {
           "identifier": "dark_oak_fence",
-          "element_type": "block",
           "name": "Dark Oak Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak",
+          "imagePath": "/block/dark_oak_fence/latest.png"
         },
         "gate": {
           "identifier": "dark_oak_fence_gate",
-          "element_type": "block",
           "name": "Dark Oak Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Dark_Oak",
+          "imagePath": "/block/dark_oak_fence_gate/latest.png"
         },
         "door": {
           "identifier": "dark_oak_door",
-          "element_type": "block",
           "name": "Dark Oak Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak",
+          "imagePath": "/block/dark_oak_door/latest.png"
         },
         "trapdoor": {
           "identifier": "dark_oak_trapdoor",
-          "element_type": "block",
           "name": "Dark Oak Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Dark_Oak",
+          "imagePath": "/block/dark_oak_trapdoor/latest.png"
         },
         "button": {
           "identifier": "dark_oak_button",
-          "element_type": "block",
           "name": "Dark Oak Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak",
+          "imagePath": "/block/dark_oak_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "dark_oak_pressure_plate",
-          "element_type": "block",
           "name": "Dark Oak Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak",
+          "imagePath": "/block/dark_oak_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "dark_oak_sign",
-          "element_type": "block",
           "name": "Dark Oak Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Sign#Dark_Oak",
+          "imagePath": "/block/dark_oak_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "dark_oak_hanging_sign",
-          "element_type": "block",
           "name": "Dark Oak Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak",
+          "imagePath": "/block/dark_oak_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "dark_oak_shelf",
-          "element_type": "block",
           "name": "Dark Oak Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Shelf#Dark_Oak",
+          "imagePath": "/block/dark_oak_shelf/latest.png"
         },
         "boat": {
           "identifier": "dark_oak_boat",
-          "element_type": "item",
           "name": "Dark Oak Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak",
+          "imagePath": "/item/dark_oak_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "dark_oak_chest_boat",
-          "element_type": "item",
           "name": "Dark Oak Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak",
+          "imagePath": "/item/dark_oak_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "dark_oak_sapling",
-          "element_type": "block",
           "name": "Dark Oak Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Sapling#Dark_Oak",
+          "imagePath": "/block/dark_oak_sapling/latest.png"
         },
         "leaves": {
           "identifier": "dark_oak_leaves",
-          "element_type": "block",
           "name": "Dark Oak Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak"
+          "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak",
+          "imagePath": "/block/dark_oak_leaves/latest.png"
         }
       }
     },
@@ -756,123 +756,123 @@
       "group_name": "Mangrove Log",
       "material": {
         "identifier": "mangrove_log",
-        "element_type": "block",
         "name": "Mangrove Log",
-        "wiki": "https://minecraft.wiki/w/Log#Mangrove"
+        "wiki": "https://minecraft.wiki/w/Log#Mangrove",
+        "imagePath": "/block/mangrove_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_mangrove_log",
-          "element_type": "block",
-          "name": "Stripped Mangrove Log"
+          "name": "Stripped Mangrove Log",
+          "imagePath": "/block/stripped_mangrove_log/latest.png"
         },
         "wood": {
           "identifier": "mangrove_wood",
-          "element_type": "block",
           "name": "Mangrove Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wood#Mangrove",
+          "imagePath": "/block/mangrove_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_mangrove_wood",
-          "element_type": "block",
           "name": "Stripped Mangrove Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Mangrove",
+          "imagePath": "/block/stripped_mangrove_wood/latest.png"
         },
         "planks": {
           "identifier": "mangrove_planks",
-          "element_type": "block",
           "name": "Mangrove Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Planks#Mangrove",
+          "imagePath": "/block/mangrove_planks/latest.png"
         },
         "stairs": {
           "identifier": "mangrove_stairs",
-          "element_type": "block",
           "name": "Mangrove Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Mangrove",
+          "imagePath": "/block/mangrove_stairs/latest.png"
         },
         "slab": {
           "identifier": "mangrove_slab",
-          "element_type": "block",
           "name": "Mangrove Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove",
+          "imagePath": "/block/mangrove_slab/latest.png"
         },
         "fence": {
           "identifier": "mangrove_fence",
-          "element_type": "block",
           "name": "Mangrove Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Mangrove",
+          "imagePath": "/block/mangrove_fence/latest.png"
         },
         "gate": {
           "identifier": "mangrove_fence_gate",
-          "element_type": "block",
           "name": "Mangrove Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Mangrove",
+          "imagePath": "/block/mangrove_fence_gate/latest.png"
         },
         "door": {
           "identifier": "mangrove_door",
-          "element_type": "block",
           "name": "Mangrove Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Mangrove",
+          "imagePath": "/block/mangrove_door/latest.png"
         },
         "trapdoor": {
           "identifier": "mangrove_trapdoor",
-          "element_type": "block",
           "name": "Mangrove Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Mangrove",
+          "imagePath": "/block/mangrove_trapdoor/latest.png"
         },
         "button": {
           "identifier": "mangrove_button",
-          "element_type": "block",
           "name": "Mangrove Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Mangrove",
+          "imagePath": "/block/mangrove_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "mangrove_pressure_plate",
-          "element_type": "block",
           "name": "Mangrove Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove",
+          "imagePath": "/block/mangrove_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "mangrove_sign",
-          "element_type": "block",
           "name": "Mangrove Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Sign#Mangrove",
+          "imagePath": "/block/mangrove_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "mangrove_hanging_sign",
-          "element_type": "block",
           "name": "Mangrove Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove",
+          "imagePath": "/block/mangrove_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "mangrove_shelf",
-          "element_type": "block",
           "name": "Mangrove Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Shelf#Mangrove",
+          "imagePath": "/block/mangrove_shelf/latest.png"
         },
         "boat": {
           "identifier": "mangrove_boat",
-          "element_type": "item",
           "name": "Mangrove Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Boat#Mangrove",
+          "imagePath": "/item/mangrove_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "mangrove_chest_boat",
-          "element_type": "item",
           "name": "Mangrove Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove",
+          "imagePath": "/item/mangrove_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "mangrove_propagule",
-          "element_type": "block",
           "name": "Mangrove Propagule",
-          "wiki": "https://minecraft.wiki/w/Mangrove_Propagule"
+          "wiki": "https://minecraft.wiki/w/Mangrove_Propagule",
+          "imagePath": "/block/mangrove_propagule/latest.png"
         },
         "leaves": {
           "identifier": "mangrove_leaves",
-          "element_type": "block",
           "name": "Mangrove Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Mangrove"
+          "wiki": "https://minecraft.wiki/w/Leaves#Mangrove",
+          "imagePath": "/block/mangrove_leaves/latest.png"
         }
       }
     },
@@ -881,123 +881,123 @@
       "group_name": "Cherry Log",
       "material": {
         "identifier": "cherry_log",
-        "element_type": "block",
         "name": "Cherry Log",
-        "wiki": "https://minecraft.wiki/w/Log#Cherry"
+        "wiki": "https://minecraft.wiki/w/Log#Cherry",
+        "imagePath": "/block/cherry_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_cherry_log",
-          "element_type": "block",
-          "name": "Stripped Cherry Log"
+          "name": "Stripped Cherry Log",
+          "imagePath": "/block/stripped_cherry_log/latest.png"
         },
         "wood": {
           "identifier": "cherry_wood",
-          "element_type": "block",
           "name": "Cherry Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wood#Cherry",
+          "imagePath": "/block/cherry_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_cherry_wood",
-          "element_type": "block",
           "name": "Stripped Cherry Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry",
+          "imagePath": "/block/stripped_cherry_wood/latest.png"
         },
         "planks": {
           "identifier": "cherry_planks",
-          "element_type": "block",
           "name": "Cherry Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+          "wiki": "https://minecraft.wiki/w/Planks#Cherry",
+          "imagePath": "/block/cherry_planks/latest.png"
         },
         "stairs": {
           "identifier": "cherry_stairs",
-          "element_type": "block",
           "name": "Cherry Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry",
+          "imagePath": "/block/cherry_stairs/latest.png"
         },
         "slab": {
           "identifier": "cherry_slab",
-          "element_type": "block",
           "name": "Cherry Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry",
+          "imagePath": "/block/cherry_slab/latest.png"
         },
         "fence": {
           "identifier": "cherry_fence",
-          "element_type": "block",
           "name": "Cherry Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry",
+          "imagePath": "/block/cherry_fence/latest.png"
         },
         "gate": {
           "identifier": "cherry_fence_gate",
-          "element_type": "block",
           "name": "Cherry Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry",
+          "imagePath": "/block/cherry_fence_gate/latest.png"
         },
         "door": {
           "identifier": "cherry_door",
-          "element_type": "block",
           "name": "Cherry Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry",
+          "imagePath": "/block/cherry_door/latest.png"
         },
         "trapdoor": {
           "identifier": "cherry_trapdoor",
-          "element_type": "block",
           "name": "Cherry Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry",
+          "imagePath": "/block/cherry_trapdoor/latest.png"
         },
         "button": {
           "identifier": "cherry_button",
-          "element_type": "block",
           "name": "Cherry Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry",
+          "imagePath": "/block/cherry_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "cherry_pressure_plate",
-          "element_type": "block",
           "name": "Cherry Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry",
+          "imagePath": "/block/cherry_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "cherry_sign",
-          "element_type": "block",
           "name": "Cherry Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Cherry"
+          "wiki": "https://minecraft.wiki/w/Sign#Cherry",
+          "imagePath": "/block/cherry_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "cherry_hanging_sign",
-          "element_type": "block",
           "name": "Cherry Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry",
+          "imagePath": "/block/cherry_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "cherry_shelf",
-          "element_type": "block",
           "name": "Cherry Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Cherry"
+          "wiki": "https://minecraft.wiki/w/Shelf#Cherry",
+          "imagePath": "/block/cherry_shelf/latest.png"
         },
         "boat": {
           "identifier": "cherry_boat",
-          "element_type": "item",
           "name": "Cherry Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Cherry"
+          "wiki": "https://minecraft.wiki/w/Boat#Cherry",
+          "imagePath": "/item/cherry_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "cherry_chest_boat",
-          "element_type": "item",
           "name": "Cherry Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry",
+          "imagePath": "/item/cherry_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "cherry_sapling",
-          "element_type": "block",
           "name": "Cherry Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Cherry"
+          "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
+          "imagePath": "/block/cherry_sapling/latest.png"
         },
         "leaves": {
           "identifier": "cherry_leaves",
-          "element_type": "block",
           "name": "Cherry Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Cherry"
+          "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
+          "imagePath": "/block/cherry_leaves/latest.png"
         }
       }
     },
@@ -1006,124 +1006,124 @@
       "group_name": "Pale Oak Log",
       "material": {
         "identifier": "pale_oak_log",
-        "element_type": "block",
         "name": "Pale Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Pale_Oak"
+        "wiki": "https://minecraft.wiki/w/Log#Pale_Oak",
+        "imagePath": "/block/pale_oak_log/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_pale_oak_log",
-          "element_type": "block",
           "name": "Stripped Pale Oak Log",
-          "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak",
+          "imagePath": "/block/stripped_pale_oak_log/latest.png"
         },
         "wood": {
           "identifier": "pale_oak_wood",
-          "element_type": "block",
           "name": "Pale Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak",
+          "imagePath": "/block/pale_oak_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_pale_oak_wood",
-          "element_type": "block",
           "name": "Stripped Pale Oak Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak",
+          "imagePath": "/block/stripped_pale_oak_wood/latest.png"
         },
         "planks": {
           "identifier": "pale_oak_planks",
-          "element_type": "block",
           "name": "Pale Oak Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak",
+          "imagePath": "/block/pale_oak_planks/latest.png"
         },
         "stairs": {
           "identifier": "pale_oak_stairs",
-          "element_type": "block",
           "name": "Pale Oak Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Pale_Oak",
+          "imagePath": "/block/pale_oak_stairs/latest.png"
         },
         "slab": {
           "identifier": "pale_oak_slab",
-          "element_type": "block",
           "name": "Pale Oak Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak",
+          "imagePath": "/block/pale_oak_slab/latest.png"
         },
         "fence": {
           "identifier": "pale_oak_fence",
-          "element_type": "block",
           "name": "Pale Oak Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak",
+          "imagePath": "/block/pale_oak_fence/latest.png"
         },
         "gate": {
           "identifier": "pale_oak_fence_gate",
-          "element_type": "block",
           "name": "Pale Oak Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak",
+          "imagePath": "/block/pale_oak_fence_gate/latest.png"
         },
         "door": {
           "identifier": "pale_oak_door",
-          "element_type": "block",
           "name": "Pale Oak Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak",
+          "imagePath": "/block/pale_oak_door/latest.png"
         },
         "trapdoor": {
           "identifier": "pale_oak_trapdoor",
-          "element_type": "block",
           "name": "Pale Oak Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak",
+          "imagePath": "/block/pale_oak_trapdoor/latest.png"
         },
         "button": {
           "identifier": "pale_oak_button",
-          "element_type": "block",
           "name": "Pale Oak Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak",
+          "imagePath": "/block/pale_oak_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "pale_oak_pressure_plate",
-          "element_type": "block",
           "name": "Pale Oak Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak",
+          "imagePath": "/block/pale_oak_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "pale_oak_sign",
-          "element_type": "block",
           "name": "Pale Oak Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak",
+          "imagePath": "/block/pale_oak_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "pale_oak_hanging_sign",
-          "element_type": "block",
           "name": "Pale Oak Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
+          "imagePath": "/block/pale_oak_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "pale_oak_shelf",
-          "element_type": "block",
           "name": "Pale Oak Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Shelf#Pale_Oak",
+          "imagePath": "/block/pale_oak_shelf/latest.png"
         },
         "boat": {
           "identifier": "pale_oak_boat",
-          "element_type": "item",
           "name": "Pale Oak Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
+          "imagePath": "/item/pale_oak_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "pale_oak_chest_boat",
-          "element_type": "item",
           "name": " Pale Oak Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
+          "imagePath": "/item/pale_oak_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "pale_oak_sapling",
-          "element_type": "block",
           "name": "Pale Oak Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak",
+          "imagePath": "/block/pale_oak_sapling/latest.png"
         },
         "leaves": {
           "identifier": "pale_oak_leaves",
-          "element_type": "block",
           "name": "Pale Oak Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak"
+          "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
+          "imagePath": "/block/pale_oak_leaves/latest.png"
         }
       }
     },
@@ -1132,106 +1132,106 @@
       "group_name": "Bamboo Block",
       "material": {
         "identifier": "bamboo_block",
-        "element_type": "block",
         "name": "Block of Bamboo",
-        "wiki": "https://minecraft.wiki/w/Block_of_Bamboo"
+        "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
+        "imagePath": "/block/bamboo_block/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_bamboo_block",
-          "element_type": "block",
           "name": "Block of Stripped Bamboo",
-          "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo"
+          "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo",
+          "imagePath": "/block/stripped_bamboo_block/latest.png"
         },
         "planks": {
           "identifier": "bamboo_planks",
-          "element_type": "block",
           "name": "Bamboo Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Planks#Bamboo",
+          "imagePath": "/block/bamboo_planks/latest.png"
         },
         "stairs": {
           "identifier": "bamboo_stairs",
-          "element_type": "block",
           "name": "Bamboo Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo",
+          "imagePath": "/block/bamboo_stairs/latest.png"
         },
         "slab": {
           "identifier": "bamboo_slab",
-          "element_type": "block",
           "name": "Bamboo Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo",
+          "imagePath": "/block/bamboo_slab/latest.png"
         },
         "fence": {
           "identifier": "bamboo_fence",
-          "element_type": "block",
           "name": "Bamboo Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo",
+          "imagePath": "/block/bamboo_fence/latest.png"
         },
         "gate": {
           "identifier": "bamboo_fence_gate",
-          "element_type": "block",
           "name": "Bamboo Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo",
+          "imagePath": "/block/bamboo_fence_gate/latest.png"
         },
         "door": {
           "identifier": "bamboo_door",
-          "element_type": "block",
           "name": "Bamboo Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo",
+          "imagePath": "/block/bamboo_door/latest.png"
         },
         "trapdoor": {
           "identifier": "bamboo_trapdoor",
-          "element_type": "block",
           "name": "Bamboo Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo",
+          "imagePath": "/block/bamboo_trapdoor/latest.png"
         },
         "button": {
           "identifier": "bamboo_button",
-          "element_type": "block",
           "name": "Bamboo Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo",
+          "imagePath": "/block/bamboo_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "bamboo_pressure_plate",
-          "element_type": "block",
           "name": "Bamboo Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo",
+          "imagePath": "/block/bamboo_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "bamboo_sign",
-          "element_type": "block",
           "name": "Bamboo Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
+          "imagePath": "/block/bamboo_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "bamboo_hanging_sign",
-          "element_type": "block",
           "name": "Bamboo Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo",
+          "imagePath": "/block/bamboo_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "bamboo_shelf",
-          "element_type": "block",
           "name": "Bamboo Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Shelf#Bamboo",
+          "imagePath": "/block/bamboo_shelf/latest.png"
         },
         "boat": {
           "identifier": "bamboo_raft",
-          "element_type": "item",
           "name": "Bamboo Raft",
-          "wiki": "https://minecraft.wiki/w/Boat#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Boat#Bamboo",
+          "imagePath": "/item/bamboo_raft/latest.png"
         },
         "chest_boat": {
           "identifier": "bamboo_chest_raft",
-          "element_type": "item",
           "name": "Bamboo Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo",
+          "imagePath": "/item/bamboo_chest_raft/latest.png"
         },
         "sapling": {
           "identifier": "bamboo",
-          "element_type": "block",
           "name": "Bamboo",
-          "wiki": "https://minecraft.wiki/w/Bamboo"
+          "wiki": "https://minecraft.wiki/w/Bamboo",
+          "imagePath": "/block/bamboo/latest.png"
         }
       }
     },
@@ -1240,111 +1240,111 @@
       "group_name": "Crimson Stem",
       "material": {
         "identifier": "crimson_stem",
-        "element_type": "block",
         "name": "Crimson Stem",
-        "wiki": "https://minecraft.wiki/w/Log#Crimson"
+        "wiki": "https://minecraft.wiki/w/Log#Crimson",
+        "imagePath": "/block/crimson_stem/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_crimson_stem",
-          "element_type": "block",
-          "name": "Stripped Crimson Stem"
+          "name": "Stripped Crimson Stem",
+          "imagePath": "/block/stripped_crimson_stem/latest.png"
         },
         "wood": {
           "identifier": "crimson_hyphae",
-          "element_type": "block",
           "name": "Crimson Hyphae",
-          "wiki": "https://minecraft.wiki/w/Wood#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wood#Crimson",
+          "imagePath": "/block/crimson_hyphae/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_crimson_hyphae",
-          "element_type": "block",
           "name": "Stripped Crimson Hyphae",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Crimson"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Crimson",
+          "imagePath": "/block/stripped_crimson_hyphae/latest.png"
         },
         "planks": {
           "identifier": "crimson_planks",
-          "element_type": "block",
           "name": "Crimson Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+          "wiki": "https://minecraft.wiki/w/Planks#Crimson",
+          "imagePath": "/block/crimson_planks/latest.png"
         },
         "stairs": {
           "identifier": "crimson_stairs",
-          "element_type": "block",
           "name": "Crimson Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Crimson",
+          "imagePath": "/block/crimson_stairs/latest.png"
         },
         "slab": {
           "identifier": "crimson_slab",
-          "element_type": "block",
           "name": "Crimson Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson",
+          "imagePath": "/block/crimson_slab/latest.png"
         },
         "fence": {
           "identifier": "crimson_fence",
-          "element_type": "block",
           "name": "Crimson Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson",
+          "imagePath": "/block/crimson_fence/latest.png"
         },
         "gate": {
           "identifier": "crimson_fence_gate",
-          "element_type": "block",
           "name": "Crimson Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson",
+          "imagePath": "/block/crimson_fence_gate/latest.png"
         },
         "door": {
           "identifier": "crimson_door",
-          "element_type": "block",
           "name": "Crimson Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson",
+          "imagePath": "/block/crimson_door/latest.png"
         },
         "trapdoor": {
           "identifier": "crimson_trapdoor",
-          "element_type": "block",
           "name": "Crimson Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson",
+          "imagePath": "/block/crimson_trapdoor/latest.png"
         },
         "button": {
           "identifier": "crimson_button",
-          "element_type": "block",
           "name": "Crimson Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson",
+          "imagePath": "/block/crimson_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "crimson_pressure_plate",
-          "element_type": "block",
           "name": "Crimson Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson",
+          "imagePath": "/block/crimson_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "crimson_sign",
-          "element_type": "block",
           "name": "Crimson Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Crimson"
+          "wiki": "https://minecraft.wiki/w/Sign#Crimson",
+          "imagePath": "/block/crimson_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "crimson_hanging_sign",
-          "element_type": "block",
           "name": "Crimson Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson",
+          "imagePath": "/block/crimson_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "crimson_shelf",
-          "element_type": "block",
           "name": "Crimson Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Crimson"
+          "wiki": "https://minecraft.wiki/w/Shelf#Crimson",
+          "imagePath": "/block/crimson_shelf/latest.png"
         },
         "sapling": {
           "identifier": "crimson_fungus",
-          "element_type": "block",
           "name": "Crimson Fungus",
-          "wiki": "https://minecraft.wiki/w/Crimson_Fungus"
+          "wiki": "https://minecraft.wiki/w/Crimson_Fungus",
+          "imagePath": "/block/crimson_fungus/latest.png"
         },
         "leaves": {
           "identifier": "nether_wart_block",
-          "element_type": "block",
           "name": "Nether Wart Block",
-          "wiki": "https://minecraft.wiki/w/Nether_Wart_Block"
+          "wiki": "https://minecraft.wiki/w/Nether_Wart_Block",
+          "imagePath": "/block/nether_wart_block/latest.png"
         }
       }
     },
@@ -1353,111 +1353,111 @@
       "group_name": "Warped Stem",
       "material": {
         "identifier": "warped_stem",
-        "element_type": "block",
         "name": "Warped Stem",
-        "wiki": "https://minecraft.wiki/w/Log#Warped"
+        "wiki": "https://minecraft.wiki/w/Log#Warped",
+        "imagePath": "/block/warped_stem/latest.png"
       },
       "items": {
         "stripped_log": {
           "identifier": "stripped_warped_stem",
-          "element_type": "block",
-          "name": "Stripped Warped Stem"
+          "name": "Stripped Warped Stem",
+          "imagePath": "/block/stripped_warped_stem/latest.png"
         },
         "wood": {
           "identifier": "warped_hyphae",
-          "element_type": "block",
           "name": "Warped Hyphae",
-          "wiki": "https://minecraft.wiki/w/Wood#Warped"
+          "wiki": "https://minecraft.wiki/w/Wood#Warped",
+          "imagePath": "/block/warped_hyphae/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_warped_hyphae",
-          "element_type": "block",
           "name": "Stripped Warped Hyphae",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped",
+          "imagePath": "/block/stripped_warped_hyphae/latest.png"
         },
         "planks": {
           "identifier": "warped_planks",
-          "element_type": "block",
           "name": "Warped Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Warped"
+          "wiki": "https://minecraft.wiki/w/Planks#Warped",
+          "imagePath": "/block/warped_planks/latest.png"
         },
         "stairs": {
           "identifier": "warped_stairs",
-          "element_type": "block",
           "name": "Warped Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped",
+          "imagePath": "/block/warped_stairs/latest.png"
         },
         "slab": {
           "identifier": "warped_slab",
-          "element_type": "block",
           "name": "Warped Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped",
+          "imagePath": "/block/warped_slab/latest.png"
         },
         "fence": {
           "identifier": "warped_fence",
-          "element_type": "block",
           "name": "Warped Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped",
+          "imagePath": "/block/warped_fence/latest.png"
         },
         "gate": {
           "identifier": "warped_fence_gate",
-          "element_type": "block",
           "name": "Warped Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped",
+          "imagePath": "/block/warped_fence_gate/latest.png"
         },
         "door": {
           "identifier": "warped_door",
-          "element_type": "block",
           "name": "Warped Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped",
+          "imagePath": "/block/warped_door/latest.png"
         },
         "trapdoor": {
           "identifier": "warped_trapdoor",
-          "element_type": "block",
           "name": "Warped Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped",
+          "imagePath": "/block/warped_trapdoor/latest.png"
         },
         "button": {
           "identifier": "warped_button",
-          "element_type": "block",
           "name": "Warped Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
+          "imagePath": "/block/warped_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "warped_pressure_plate",
-          "element_type": "block",
           "name": "Warped Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped",
+          "imagePath": "/block/warped_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "warped_sign",
-          "element_type": "block",
           "name": "Warped Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Warped"
+          "wiki": "https://minecraft.wiki/w/Sign#Warped",
+          "imagePath": "/block/warped_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "warped_hanging_sign",
-          "element_type": "block",
           "name": "Warped Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped",
+          "imagePath": "/block/warped_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "warped_shelf",
-          "element_type": "block",
           "name": "Warped Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Warped"
+          "wiki": "https://minecraft.wiki/w/Shelf#Warped",
+          "imagePath": "/block/warped_shelf/latest.png"
         },
         "sapling": {
           "identifier": "warped_fungus",
-          "element_type": "block",
           "name": "Warped Fungus",
-          "wiki": "https://minecraft.wiki/w/Warped_Fungus"
+          "wiki": "https://minecraft.wiki/w/Warped_Fungus",
+          "imagePath": "/block/warped_fungus/latest.png"
         },
         "leaves": {
           "identifier": "warped_wart_block",
-          "element_type": "block",
           "name": "Warped Wart Block",
-          "wiki": "https://minecraft.wiki/w/Warped_Wart_Block"
+          "wiki": "https://minecraft.wiki/w/Warped_Wart_Block",
+          "imagePath": "/block/warped_wart_block/latest.png"
         }
       }
     }

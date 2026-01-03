@@ -3,152 +3,152 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "nether_quartz_ore",
+                "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore",
                 "name": "Nether Quartz Ore",
-                "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore"
+                "identifier": "nether_quartz_ore",
+                "imagePath": "/block/nether_quartz_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "redstone_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Redstone",
                 "name": "Block of Redstone",
-                "wiki": "https://minecraft.wiki/w/Block_of_Redstone"
+                "identifier": "redstone_block",
+                "imagePath": "/block/redstone_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "daylight_detector",
+                "wiki": "https://minecraft.wiki/w/Daylight_Detector",
                 "name": "Daylight Detector",
-                "wiki": "https://minecraft.wiki/w/Daylight_Detector"
+                "identifier": "daylight_detector",
+                "imagePath": "/block/daylight_detector/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "hopper",
+                "wiki": "https://minecraft.wiki/w/Hopper",
                 "name": "Hopper",
-                "wiki": "https://minecraft.wiki/w/Hopper"
+                "identifier": "hopper",
+                "imagePath": "/block/hopper/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "comparator",
+                "wiki": "https://minecraft.wiki/w/Redstone_Comparator",
                 "name": "Redstone Comparator",
-                "wiki": "https://minecraft.wiki/w/Redstone_Comparator"
+                "identifier": "comparator",
+                "imagePath": "/block/comparator/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "trapped_chest",
+                "wiki": "https://minecraft.wiki/w/Trapped_Chest",
                 "name": "Trapped Chest",
-                "wiki": "https://minecraft.wiki/w/Trapped_Chest"
+                "identifier": "trapped_chest",
+                "imagePath": "/block/trapped_chest/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_weighted_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate",
                 "name": "Light Weighted Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate"
+                "identifier": "light_weighted_pressure_plate",
+                "imagePath": "/block/light_weighted_pressure_plate/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "heavy_weighted_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate",
                 "name": "Heavy Weighted Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate"
+                "identifier": "heavy_weighted_pressure_plate",
+                "imagePath": "/block/heavy_weighted_pressure_plate/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "quartz_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Quartz",
                 "name": "Block of Quartz",
-                "wiki": "https://minecraft.wiki/w/Block_of_Quartz"
+                "identifier": "quartz_block",
+                "imagePath": "/block/quartz_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chiseled_quartz_block",
+                "wiki": "https://minecraft.wiki/w/Chiseled_Quartz_Block",
                 "name": "Chiseled Quartz Block",
-                "wiki": "https://minecraft.wiki/w/Chiseled_Quartz_Block"
+                "identifier": "chiseled_quartz_block",
+                "imagePath": "/block/chiseled_quartz_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "quartz_pillar",
+                "wiki": "https://minecraft.wiki/w/Quartz_Pillar",
                 "name": "Quartz Pillar",
-                "wiki": "https://minecraft.wiki/w/Quartz_Pillar"
+                "identifier": "quartz_pillar",
+                "imagePath": "/block/quartz_pillar/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "quartz_slab",
+                "wiki": "https://minecraft.wiki/w/Quartz_Slab",
                 "name": "Quartz Slab",
-                "wiki": "https://minecraft.wiki/w/Quartz_Slab"
+                "identifier": "quartz_slab",
+                "imagePath": "/block/quartz_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "quartz_stairs",
+                "wiki": "https://minecraft.wiki/w/Quartz_Stairs",
                 "name": "Quartz Stairs",
-                "wiki": "https://minecraft.wiki/w/Quartz_Stairs"
+                "identifier": "quartz_stairs",
+                "imagePath": "/block/quartz_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "activator_rail",
+                "wiki": "https://minecraft.wiki/w/Activator_Rail",
                 "name": "Activator Rail",
-                "wiki": "https://minecraft.wiki/w/Activator_Rail"
+                "identifier": "activator_rail",
+                "imagePath": "/block/activator_rail/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dropper",
+                "wiki": "https://minecraft.wiki/w/Dropper",
                 "name": "Dropper",
-                "wiki": "https://minecraft.wiki/w/Dropper"
+                "identifier": "dropper",
+                "imagePath": "/block/dropper/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "smooth_sandstone",
+                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone",
                 "name": "Smooth Sandstone",
-                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone"
+                "identifier": "smooth_sandstone",
+                "imagePath": "/block/smooth_sandstone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "smooth_quartz",
+                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block",
                 "name": "Smooth Quartz Block",
-                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block"
+                "identifier": "smooth_quartz",
+                "imagePath": "/block/smooth_quartz/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "quartz",
+                "wiki": "https://minecraft.wiki/w/Nether_Quartz",
                 "name": "Nether Quartz",
-                "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+                "identifier": "quartz",
+                "imagePath": "/item/quartz/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "nether_brick",
+                "wiki": "https://minecraft.wiki/w/Nether_Brick",
                 "name": "Nether Brick",
-                "wiki": "https://minecraft.wiki/w/Nether_Brick"
+                "identifier": "nether_brick",
+                "imagePath": "/item/nether_brick/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "tnt_minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart_with_TNT",
                 "name": "Minecart with TNT",
-                "wiki": "https://minecraft.wiki/w/Minecart_with_TNT"
+                "identifier": "tnt_minecart",
+                "imagePath": "/item/tnt_minecart/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "hopper_minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart_with_Hopper",
                 "name": "Minecart with Hopper",
-                "wiki": "https://minecraft.wiki/w/Minecart_with_Hopper"
+                "identifier": "hopper_minecart",
+                "imagePath": "/item/hopper_minecart/latest.png"
             }
         ]
     },

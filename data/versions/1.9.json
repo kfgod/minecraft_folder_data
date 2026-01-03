@@ -6,105 +6,105 @@
                     "vegetation",
                     "flower/other"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "chorus_flower",
+                "wiki": "https://minecraft.wiki/w/Chorus_Flower",
                 "name": "Chorus Flower",
-                "wiki": "https://minecraft.wiki/w/Chorus_Flower"
+                "identifier": "chorus_flower",
+                "imagePath": "/block/chorus_flower/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dragon_head",
+                "wiki": "https://minecraft.wiki/w/Dragon_Head",
                 "name": "Dragon Head",
-                "wiki": "https://minecraft.wiki/w/Dragon_Head"
+                "identifier": "dragon_head",
+                "imagePath": "/block/dragon_head/latest.png"
             },
             {
                 "types": [
                     "vegetation"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "chorus_plant",
+                "wiki": "https://minecraft.wiki/w/Chorus_Plant",
                 "name": "Chorus Plant",
-                "wiki": "https://minecraft.wiki/w/Chorus_Plant"
+                "identifier": "chorus_plant",
+                "imagePath": "/block/chorus_plant/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "end_rod",
+                "wiki": "https://minecraft.wiki/w/End_Rod",
                 "name": "End Rod",
-                "wiki": "https://minecraft.wiki/w/End_Rod"
+                "identifier": "end_rod",
+                "imagePath": "/block/end_rod/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "end_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/End_Stone_Bricks",
                 "name": "End Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/End_Stone_Bricks"
+                "identifier": "end_stone_bricks",
+                "imagePath": "/block/end_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dirt_path",
+                "wiki": "https://minecraft.wiki/w/Dirt_Path",
                 "name": "Dirt Path",
-                "wiki": "https://minecraft.wiki/w/Dirt_Path"
+                "identifier": "dirt_path",
+                "imagePath": "/block/dirt_path/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purpur_block",
+                "wiki": "https://minecraft.wiki/w/Purpur_Block",
                 "name": "Purpur Block",
-                "wiki": "https://minecraft.wiki/w/Purpur_Block"
+                "identifier": "purpur_block",
+                "imagePath": "/block/purpur_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purpur_pillar",
+                "wiki": "https://minecraft.wiki/w/Purpur_Pillar",
                 "name": "Purpur Pillar",
-                "wiki": "https://minecraft.wiki/w/Purpur_Pillar"
+                "identifier": "purpur_pillar",
+                "imagePath": "/block/purpur_pillar/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purpur_slab",
+                "wiki": "https://minecraft.wiki/w/Purpur_Slab",
                 "name": "Purpur Slab",
-                "wiki": "https://minecraft.wiki/w/Purpur_Slab"
+                "identifier": "purpur_slab",
+                "imagePath": "/block/purpur_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purpur_stairs",
+                "wiki": "https://minecraft.wiki/w/Purpur_Stairs",
                 "name": "Purpur Stairs",
-                "wiki": "https://minecraft.wiki/w/Purpur_Stairs"
+                "identifier": "purpur_stairs",
+                "imagePath": "/block/purpur_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "structure_block",
+                "wiki": "https://minecraft.wiki/w/Structure_Block",
                 "name": "Structure Block",
-                "wiki": "https://minecraft.wiki/w/Structure_Block"
+                "identifier": "structure_block",
+                "imagePath": "/block/structure_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chain_command_block",
+                "wiki": "https://minecraft.wiki/w/Command_Block#Chain",
                 "name": "Chain Command Block",
-                "wiki": "https://minecraft.wiki/w/Command_Block#Chain"
+                "identifier": "chain_command_block",
+                "imagePath": "/block/chain_command_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "repeating_command_block",
+                "wiki": "https://minecraft.wiki/w/Command_Block#Repeat",
                 "name": "Repeating Command Block",
-                "wiki": "https://minecraft.wiki/w/Command_Block#Repeat"
+                "identifier": "repeating_command_block",
+                "imagePath": "/block/repeating_command_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "end_crystal",
+                "wiki": "https://minecraft.wiki/w/End_Crystal",
                 "name": "End Crystal",
-                "wiki": "https://minecraft.wiki/w/End_Crystal"
+                "identifier": "end_crystal",
+                "imagePath": "/block/end_crystal/latest.png"
             }
         ],
         "items": [
@@ -113,10 +113,10 @@
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "beetroot_seeds",
+                "wiki": "https://minecraft.wiki/w/Beetroot_Seeds",
                 "name": "Beetroot Seeds",
-                "wiki": "https://minecraft.wiki/w/Beetroot_Seeds"
+                "identifier": "beetroot_seeds",
+                "imagePath": "/item/beetroot_seeds/latest.png"
             },
             {
                 "types": [
@@ -124,10 +124,10 @@
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "beetroot",
+                "wiki": "https://minecraft.wiki/w/Beetroot",
                 "name": "Beetroot",
-                "wiki": "https://minecraft.wiki/w/Beetroot"
+                "identifier": "beetroot",
+                "imagePath": "/item/beetroot/latest.png"
             },
             {
                 "types": [
@@ -135,518 +135,479 @@
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "chorus_fruit",
+                "wiki": "https://minecraft.wiki/w/Chorus_Fruit",
                 "name": "Chorus Fruit",
-                "wiki": "https://minecraft.wiki/w/Chorus_Fruit"
+                "identifier": "chorus_fruit",
+                "imagePath": "/item/chorus_fruit/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "spruce_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Spruce",
                 "name": "Spruce Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Spruce"
+                "identifier": "spruce_boat",
+                "imagePath": "/item/spruce_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "birch_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Birch",
                 "name": "Birch Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Birch"
+                "identifier": "birch_boat",
+                "imagePath": "/item/birch_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "jungle_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Jungle",
                 "name": "Jungle Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Jungle"
+                "identifier": "jungle_boat",
+                "imagePath": "/item/jungle_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "acacia_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Acacia",
                 "name": "Acacia Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Acacia"
+                "identifier": "acacia_boat",
+                "imagePath": "/item/acacia_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "dark_oak_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak",
                 "name": "Dark Oak Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak"
+                "identifier": "dark_oak_boat",
+                "imagePath": "/item/dark_oak_boat/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "spectral_arrow",
+                "wiki": "https://minecraft.wiki/w/Spectral_Arrow",
                 "name": "Spectral Arrow",
-                "wiki": "https://minecraft.wiki/w/Spectral_Arrow"
+                "identifier": "spectral_arrow",
+                "imagePath": "/item/spectral_arrow/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Tipped Arrow",
                 "image_identifier": "tipped_arrow",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Tipped Arrow",
+                "identifier": "tipped_arrow",
+                "imagePath": "/item/tipped_arrow/latest.png"
             },
             {
                 "types": [
                     "effect/night_vision"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_night_vision",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Night Vision",
                 "image_identifier": "arrow_of_night_vision",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Night Vision",
+                "identifier": "arrow_of_night_vision",
+                "imagePath": "/item/arrow_of_night_vision/latest.png"
             },
             {
                 "types": [
                     "effect/invisibility"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_invisibility",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Invisibility",
                 "image_identifier": "arrow_of_invisibility",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Invisibility",
+                "identifier": "arrow_of_invisibility",
+                "imagePath": "/item/arrow_of_invisibility/latest.png"
             },
             {
                 "types": [
                     "effect/leaping"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_leaping",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Leaping",
                 "image_identifier": "arrow_of_leaping",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Leaping",
+                "identifier": "arrow_of_leaping",
+                "imagePath": "/item/arrow_of_leaping/latest.png"
             },
             {
                 "types": [
                     "effect/fire_resistance"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_fire_resistance",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Fire Resistance",
                 "image_identifier": "arrow_of_fire_resistance",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Fire Resistance",
+                "identifier": "arrow_of_fire_resistance",
+                "imagePath": "/item/arrow_of_fire_resistance/latest.png"
             },
             {
                 "types": [
                     "effect/swiftness"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_swiftness",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Swiftness",
                 "image_identifier": "arrow_of_swiftness",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Swiftness",
+                "identifier": "arrow_of_swiftness",
+                "imagePath": "/item/arrow_of_swiftness/latest.png"
             },
             {
                 "types": [
                     "effect/slowness"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_slowness",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Slowness",
                 "image_identifier": "arrow_of_slowness",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Slowness",
+                "identifier": "arrow_of_slowness",
+                "imagePath": "/item/arrow_of_slowness/latest.png"
             },
             {
                 "types": [
                     "effect/water_breathing"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_water_breathing",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Water Breathing",
                 "image_identifier": "arrow_of_water_breathing",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Water Breathing",
+                "identifier": "arrow_of_water_breathing",
+                "imagePath": "/item/arrow_of_water_breathing/latest.png"
             },
             {
                 "types": [
                     "effect/healing"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_healing",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Healing",
                 "image_identifier": "arrow_of_healing",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Healing",
+                "identifier": "arrow_of_healing",
+                "imagePath": "/item/arrow_of_healing/latest.png"
             },
             {
                 "types": [
                     "effect/harming"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_harming",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Harming",
                 "image_identifier": "arrow_of_harming",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Harming",
+                "identifier": "arrow_of_harming",
+                "imagePath": "/item/arrow_of_harming/latest.png"
             },
             {
                 "types": [
                     "effect/poison"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_poison",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Poison",
                 "image_identifier": "arrow_of_poison",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Poison",
+                "identifier": "arrow_of_poison",
+                "imagePath": "/item/arrow_of_poison/latest.png"
             },
             {
                 "types": [
                     "effect/regeneration"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_regeneration",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Regeneration",
                 "image_identifier": "arrow_of_regeneration",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Regeneration",
+                "identifier": "arrow_of_regeneration",
+                "imagePath": "/item/arrow_of_regeneration/latest.png"
             },
             {
                 "types": [
                     "effect/strength"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_strength",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Strength",
                 "image_identifier": "arrow_of_strength",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Strength",
+                "identifier": "arrow_of_strength",
+                "imagePath": "/item/arrow_of_strength/latest.png"
             },
             {
                 "types": [
                     "effect/weakness"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_weakness",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Weakness",
                 "image_identifier": "arrow_of_weakness",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Weakness",
+                "identifier": "arrow_of_weakness",
+                "imagePath": "/item/arrow_of_weakness/latest.png"
             },
             {
                 "types": [
                     "effect/luck"
                 ],
-                "element_type": "item",
-                "identifier": "arrow_of_luck",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Luck",
                 "image_identifier": "arrow_of_luck",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Luck",
+                "identifier": "arrow_of_luck",
+                "imagePath": "/item/arrow_of_luck/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "identifier": "arrow_of_splashing",
-                "minecraft_identifier": "tipped_arrow",
-                "name": "Arrow of Splashing",
                 "image_identifier": "arrow_of_splashing",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Splashing",
+                "identifier": "arrow_of_splashing",
+                "imagePath": "/item/arrow_of_splashing/latest.png"
             },
             {
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "beetroot_soup",
+                "wiki": "https://minecraft.wiki/w/Beetroot_Soup",
                 "name": "Beetroot Soup",
-                "wiki": "https://minecraft.wiki/w/Beetroot_Soup"
+                "identifier": "beetroot_soup",
+                "imagePath": "/item/beetroot_soup/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "popped_chorus_fruit",
+                "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit",
                 "name": "Popped Chorus Fruit",
-                "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+                "identifier": "popped_chorus_fruit",
+                "imagePath": "/item/popped_chorus_fruit/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "dragon_breath",
+                "wiki": "https://minecraft.wiki/w/Dragon%27s_Breath",
                 "name": "Dragon's Breath",
-                "wiki": "https://minecraft.wiki/w/Dragon%27s_Breath"
+                "identifier": "dragon_breath",
+                "imagePath": "/item/dragon_breath/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "shield",
+                "wiki": "https://minecraft.wiki/w/Shield",
                 "name": "Shield",
-                "wiki": "https://minecraft.wiki/w/Shield"
+                "identifier": "shield",
+                "imagePath": "/item/shield/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "elytra",
+                "wiki": "https://minecraft.wiki/w/Elytra",
                 "name": "Elytra",
-                "wiki": "https://minecraft.wiki/w/Elytra"
+                "identifier": "elytra",
+                "imagePath": "/item/elytra/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "shulker_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Shulker Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "shulker_spawn_egg",
+                "imagePath": "/item/shulker_spawn_egg/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "identifier": "lingering_water_bottle",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Water Bottle",
                 "image_identifier": "lingering_water_bottle",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Water Bottle",
+                "identifier": "lingering_water_bottle",
+                "imagePath": "/item/lingering_water_bottle/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "identifier": "mundane_lingering_potion",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Mundane Lingering Potion",
                 "image_identifier": "mundane_lingering_potion",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Mundane Lingering Potion",
+                "identifier": "mundane_lingering_potion",
+                "imagePath": "/item/mundane_lingering_potion/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "identifier": "thick_lingering_potion",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Thick Lingering Potion",
                 "image_identifier": "thick_lingering_potion",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Thick Lingering Potion",
+                "identifier": "thick_lingering_potion",
+                "imagePath": "/item/thick_lingering_potion/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "identifier": "awkward_lingering_potion",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Awkward Lingering Potion",
                 "image_identifier": "awkward_lingering_potion",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Awkward Lingering Potion",
+                "identifier": "awkward_lingering_potion",
+                "imagePath": "/item/awkward_lingering_potion/latest.png"
             },
             {
                 "types": [
                     "effect/night_vision"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_night_vision",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Night Vision",
                 "image_identifier": "lingering_potion_of_night_vision",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Night Vision",
+                "identifier": "lingering_potion_of_night_vision",
+                "imagePath": "/item/lingering_potion_of_night_vision/latest.png"
             },
             {
                 "types": [
                     "effect/invisibility"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_invisibility",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Invisibility",
                 "image_identifier": "lingering_potion_of_invisibility",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Invisibility",
+                "identifier": "lingering_potion_of_invisibility",
+                "imagePath": "/item/lingering_potion_of_invisibility/latest.png"
             },
             {
                 "types": [
                     "effect/leaping"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_leaping",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Leaping",
                 "image_identifier": "lingering_potion_of_leaping",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Leaping",
+                "identifier": "lingering_potion_of_leaping",
+                "imagePath": "/item/lingering_potion_of_leaping/latest.png"
             },
             {
                 "types": [
                     "effect/fire_resistance"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_fire_resistance",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Fire Resistance",
                 "image_identifier": "lingering_potion_of_fire_resistance",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Fire Resistance",
+                "identifier": "lingering_potion_of_fire_resistance",
+                "imagePath": "/item/lingering_potion_of_fire_resistance/latest.png"
             },
             {
                 "types": [
                     "effect/swiftness"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_swiftness",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Swiftness",
                 "image_identifier": "lingering_potion_of_swiftness",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Swiftness",
+                "identifier": "lingering_potion_of_swiftness",
+                "imagePath": "/item/lingering_potion_of_swiftness/latest.png"
             },
             {
                 "types": [
                     "effect/slowness"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_slowness",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Slowness",
                 "image_identifier": "lingering_potion_of_slowness",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Slowness",
+                "identifier": "lingering_potion_of_slowness",
+                "imagePath": "/item/lingering_potion_of_slowness/latest.png"
             },
             {
                 "types": [
                     "effect/water_breathing"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_water_breathing",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Water Breathing",
                 "image_identifier": "lingering_potion_of_water_breathing",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Water Breathing",
+                "identifier": "lingering_potion_of_water_breathing",
+                "imagePath": "/item/lingering_potion_of_water_breathing/latest.png"
             },
             {
                 "types": [
                     "effect/healing"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_healing",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Healing",
                 "image_identifier": "lingering_potion_of_healing",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Healing",
+                "identifier": "lingering_potion_of_healing",
+                "imagePath": "/item/lingering_potion_of_healing/latest.png"
             },
             {
                 "types": [
                     "effect/harming"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_harming",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Harming",
                 "image_identifier": "lingering_potion_of_harming",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Harming",
+                "identifier": "lingering_potion_of_harming",
+                "imagePath": "/item/lingering_potion_of_harming/latest.png"
             },
             {
                 "types": [
                     "effect/poison"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_poison",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Poison",
                 "image_identifier": "lingering_potion_of_poison",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Poison",
+                "identifier": "lingering_potion_of_poison",
+                "imagePath": "/item/lingering_potion_of_poison/latest.png"
             },
             {
                 "types": [
                     "effect/regeneration"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_regeneration",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Regeneration",
                 "image_identifier": "lingering_potion_of_regeneration",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Regeneration",
+                "identifier": "lingering_potion_of_regeneration",
+                "imagePath": "/item/lingering_potion_of_regeneration/latest.png"
             },
             {
                 "types": [
                     "effect/strength"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_strength",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Strength",
                 "image_identifier": "lingering_potion_of_strength",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Strength",
+                "identifier": "lingering_potion_of_strength",
+                "imagePath": "/item/lingering_potion_of_strength/latest.png"
             },
             {
                 "types": [
                     "effect/weakness"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_weakness",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Weakness",
                 "image_identifier": "lingering_potion_of_weakness",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Weakness",
+                "identifier": "lingering_potion_of_weakness",
+                "imagePath": "/item/lingering_potion_of_weakness/latest.png"
             },
             {
                 "types": [
                     "effect/luck"
                 ],
-                "element_type": "item",
-                "identifier": "lingering_potion_of_luck",
-                "minecraft_identifier": "lingering_potion",
-                "name": "Lingering Potion of Luck",
                 "image_identifier": "lingering_potion_of_luck",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion"
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Luck",
+                "identifier": "lingering_potion_of_luck",
+                "imagePath": "/item/lingering_potion_of_luck/latest.png"
             },
             {
                 "types": [
                     "effect/luck"
                 ],
-                "element_type": "item",
-                "identifier": "potion_of_luck",
-                "minecraft_identifier": "potion",
-                "name": "Potion of Luck",
                 "image_identifier": "potion_of_luck",
-                "wiki": "https://minecraft.wiki/w/Potion"
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Luck",
+                "identifier": "potion_of_luck",
+                "imagePath": "/item/potion_of_luck/latest.png"
             },
             {
                 "types": [
                     "effect/luck"
                 ],
-                "element_type": "item",
-                "identifier": "splash_potion_of_luck",
-                "minecraft_identifier": "splash_potion",
-                "name": "Splash Potion of Luck",
                 "image_identifier": "splash_potion_of_luck",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Luck",
+                "identifier": "splash_potion_of_luck",
+                "imagePath": "/item/splash_potion_of_luck/latest.png"
             },
             {
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Frost Walker I-II",
                 "identifier": "frost_walker_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Frost Walker I-II",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Mending",
                 "identifier": "mending_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Mending",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
         "mobs": [
@@ -654,19 +615,19 @@
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "shulker",
-                "name": "Shulker",
                 "wiki": "https://minecraft.wiki/w/Shulker",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "shulker_spawn_egg",
-                        "element_type": "item",
                         "name": "Shulker Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/shulker_spawn_egg/latest.png"
                     },
                     "health": 30
-                }
+                },
+                "name": "Shulker",
+                "identifier": "shulker",
+                "imagePath": "/mob/shulker/latest.png"
             }
         ],
         "effects": [
@@ -674,37 +635,37 @@
                 "types": [
                     "effects/movement"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "levitation",
+                "wiki": "https://minecraft.wiki/w/Levitation",
                 "name": "Levitation",
-                "wiki": "https://minecraft.wiki/w/Levitation"
+                "identifier": "levitation",
+                "imagePath": "/effect/levitation/latest.png"
             },
             {
                 "types": [
                     "effects/visibility"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "glowing",
+                "wiki": "https://minecraft.wiki/w/Glowing",
                 "name": "Glowing",
-                "wiki": "https://minecraft.wiki/w/Glowing"
+                "identifier": "glowing",
+                "imagePath": "/effect/glowing/latest.png"
             },
             {
                 "types": [
                     "effects/unused"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "unluck",
+                "wiki": "https://minecraft.wiki/w/Bad_Luck",
                 "name": "Bad Luck",
-                "wiki": "https://minecraft.wiki/w/Bad_Luck"
+                "identifier": "unluck",
+                "imagePath": "/effect/unluck/latest.png"
             },
             {
                 "types": [
                     "effects/unused"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "luck",
+                "wiki": "https://minecraft.wiki/w/Luck",
                 "name": "Luck",
-                "wiki": "https://minecraft.wiki/w/Luck"
+                "identifier": "luck",
+                "imagePath": "/effect/luck/latest.png"
             }
         ],
         "enchantments": [
@@ -712,19 +673,17 @@
                 "types": [
                     "enchantments/durability"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "mending",
+                "wiki": "https://minecraft.wiki/w/Mending",
                 "name": "Mending",
-                "wiki": "https://minecraft.wiki/w/Mending"
+                "identifier": "mending"
             },
             {
                 "types": [
                     "enchantments/armor/boots"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "frost_walker",
+                "wiki": "https://minecraft.wiki/w/Frost_Walker",
                 "name": "Frost Walker",
-                "wiki": "https://minecraft.wiki/w/Frost_Walker"
+                "identifier": "frost_walker"
             }
         ],
         "biomes": [
@@ -732,37 +691,37 @@
                 "types": [
                     "biome/end"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "end_barrens",
+                "wiki": "https://minecraft.wiki/w/End_Barrens",
                 "name": "End Barrens",
-                "wiki": "https://minecraft.wiki/w/End_Barrens"
+                "identifier": "end_barrens",
+                "imagePath": "/biome/end_barrens/latest.png"
             },
             {
                 "types": [
                     "biome/end"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "end_highlands",
+                "wiki": "https://minecraft.wiki/w/End_Highlands",
                 "name": "End Highlands",
-                "wiki": "https://minecraft.wiki/w/End_Highlands"
+                "identifier": "end_highlands",
+                "imagePath": "/biome/end_highlands/latest.png"
             },
             {
                 "types": [
                     "biome/end"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "end_midlands",
+                "wiki": "https://minecraft.wiki/w/End_Midlands",
                 "name": "End Midlands",
-                "wiki": "https://minecraft.wiki/w/End_Midlands"
+                "identifier": "end_midlands",
+                "imagePath": "/biome/end_midlands/latest.png"
             },
             {
                 "types": [
                     "biome/end"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "small_end_islands",
+                "wiki": "https://minecraft.wiki/w/Small_End_Islands",
                 "name": "Small End Islands",
-                "wiki": "https://minecraft.wiki/w/Small_End_Islands"
+                "identifier": "small_end_islands",
+                "imagePath": "/biome/small_end_islands/latest.png"
             }
         ]
     },

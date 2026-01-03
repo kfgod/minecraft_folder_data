@@ -3,142 +3,142 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dried_ghast",
+                "wiki": "https://minecraft.wiki/w/Dried_Ghast",
                 "name": "Dried Ghast",
-                "wiki": "https://minecraft.wiki/w/Dried_Ghast"
+                "identifier": "dried_ghast",
+                "imagePath": "/block/dried_ghast/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "white_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#White",
                 "name": "White Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#White"
+                "identifier": "white_harness",
+                "imagePath": "/item/white_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "light_gray_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Light_Gray",
                 "name": "Light Gray Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+                "identifier": "light_gray_harness",
+                "imagePath": "/item/light_gray_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "gray_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Gray",
                 "name": "Gray Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Gray"
+                "identifier": "gray_harness",
+                "imagePath": "/item/gray_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "black_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Black",
                 "name": "Black Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Black"
+                "identifier": "black_harness",
+                "imagePath": "/item/black_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "brown_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Brown",
                 "name": "Brown Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Brown"
+                "identifier": "brown_harness",
+                "imagePath": "/item/brown_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "red_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Red",
                 "name": "Red Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Red"
+                "identifier": "red_harness",
+                "imagePath": "/item/red_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "orange_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Orange",
                 "name": "Orange Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Orange"
+                "identifier": "orange_harness",
+                "imagePath": "/item/orange_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "yellow_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Yellow",
                 "name": "Yellow Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+                "identifier": "yellow_harness",
+                "imagePath": "/item/yellow_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "lime_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Lime",
                 "name": "Lime Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Lime"
+                "identifier": "lime_harness",
+                "imagePath": "/item/lime_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "green_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Green",
                 "name": "Green Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Green"
+                "identifier": "green_harness",
+                "imagePath": "/item/green_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cyan_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Cyan",
                 "name": "Cyan Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+                "identifier": "cyan_harness",
+                "imagePath": "/item/cyan_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "light_blue_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Light_Blue",
                 "name": "Light Blue Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+                "identifier": "light_blue_harness",
+                "imagePath": "/item/light_blue_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "blue_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Blue",
                 "name": "Blue Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Blue"
+                "identifier": "blue_harness",
+                "imagePath": "/item/blue_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "purple_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Purple",
                 "name": "Purple Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Purple"
+                "identifier": "purple_harness",
+                "imagePath": "/item/purple_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "magenta_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Magenta",
                 "name": "Magenta Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+                "identifier": "magenta_harness",
+                "imagePath": "/item/magenta_harness/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "pink_harness",
+                "wiki": "https://minecraft.wiki/w/Harness#Pink",
                 "name": "Pink Harness",
-                "wiki": "https://minecraft.wiki/w/Harness#Pink"
+                "identifier": "pink_harness",
+                "imagePath": "/item/pink_harness/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "happy_ghast_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Happy Ghast Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "happy_ghast_spawn_egg",
+                "imagePath": "/item/happy_ghast_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_tears",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Tears",
                 "name": "Music Disc - Tears",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_Tears"
+                "identifier": "music_disc_tears",
+                "imagePath": "/item/music_disc_tears/latest.png"
             }
         ],
         "mobs": [
@@ -146,51 +146,49 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "happy_ghast",
-                "name": "Happy Ghast",
                 "wiki": "https://minecraft.wiki/w/Happy_Ghast#Default",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "happy_ghast_spawn_egg",
-                        "element_type": "item",
                         "name": "Happy Ghast Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/happy_ghast_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Happy Ghast",
+                "identifier": "happy_ghast",
+                "imagePath": "/mob/happy_ghast/latest.png"
             }
         ],
         "advancements": [
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/place_dried_ghast_in_water",
-                "name": "Stay Hydrated!",
                 "wiki": "https://minecraft.wiki/w/Advancement#Stay_Hydrated!",
                 "meta": {
                     "icon": {
                         "identifier": "dried_ghast",
-                        "element_type": "block",
                         "name": "Dried Ghast",
-                        "wiki": "https://minecraft.wiki/w/Dried_Ghast"
+                        "wiki": "https://minecraft.wiki/w/Dried_Ghast",
+                        "imagePath": "/block/dried_ghast/latest.png"
                     }
-                }
+                },
+                "name": "Stay Hydrated!",
+                "identifier": "husbandry/place_dried_ghast_in_water"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/heart_transplanter",
-                "name": "Heart Transplanter",
                 "wiki": "https://minecraft.wiki/w/Advancement#Heart_Transplanter",
                 "meta": {
                     "icon": {
                         "identifier": "creaking_heart",
-                        "element_type": "block",
                         "name": "Creaking Heart",
-                        "wiki": "https://minecraft.wiki/w/Creaking_Heart"
+                        "wiki": "https://minecraft.wiki/w/Creaking_Heart",
+                        "imagePath": "/block/creaking_heart/latest.png"
                     }
-                }
+                },
+                "name": "Heart Transplanter",
+                "identifier": "adventure/heart_transplanter"
             }
         ]
     },

@@ -3,31 +3,31 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "bee_nest",
+                "wiki": "https://minecraft.wiki/w/Bee_Nest",
                 "name": "Bee Nest",
-                "wiki": "https://minecraft.wiki/w/Bee_Nest"
+                "identifier": "bee_nest",
+                "imagePath": "/block/bee_nest/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "beehive",
+                "wiki": "https://minecraft.wiki/w/Beehive",
                 "name": "Beehive",
-                "wiki": "https://minecraft.wiki/w/Beehive"
+                "identifier": "beehive",
+                "imagePath": "/block/beehive/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "honey_block",
+                "wiki": "https://minecraft.wiki/w/Honey_Block",
                 "name": "Honey Block",
-                "wiki": "https://minecraft.wiki/w/Honey_Block"
+                "identifier": "honey_block",
+                "imagePath": "/block/honey_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "honeycomb_block",
+                "wiki": "https://minecraft.wiki/w/Honeycomb_Block",
                 "name": "Honeycomb Block",
-                "wiki": "https://minecraft.wiki/w/Honeycomb_Block"
+                "identifier": "honeycomb_block",
+                "imagePath": "/block/honeycomb_block/latest.png"
             }
         ],
         "items": [
@@ -35,26 +35,26 @@
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "honey_bottle",
+                "wiki": "https://minecraft.wiki/w/Honey_Bottle",
                 "name": "Honey Bottle",
-                "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+                "identifier": "honey_bottle",
+                "imagePath": "/item/honey_bottle/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "honeycomb",
+                "wiki": "https://minecraft.wiki/w/Honeycomb",
                 "name": "Honeycomb",
-                "wiki": "https://minecraft.wiki/w/Honeycomb"
+                "identifier": "honeycomb",
+                "imagePath": "/item/honeycomb/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bee_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Bee Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "bee_spawn_egg",
+                "imagePath": "/item/bee_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -62,66 +62,63 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "bee",
-                "name": "Bee",
                 "wiki": "https://minecraft.wiki/w/Bee",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "bee_spawn_egg",
-                        "element_type": "item",
                         "name": "Bee Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/bee_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Bee",
+                "identifier": "bee",
+                "imagePath": "/mob/bee/latest.png"
             }
         ],
         "advancements": [
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/honey_block_slide",
-                "name": "Sticky Situation",
                 "wiki": "https://minecraft.wiki/w/Advancement#Sticky_Situation",
                 "meta": {
                     "icon": {
                         "identifier": "honey_block",
-                        "element_type": "block",
                         "name": "Honey Block",
-                        "wiki": "https://minecraft.wiki/w/Honey_Block"
+                        "wiki": "https://minecraft.wiki/w/Honey_Block",
+                        "imagePath": "/block/honey_block/latest.png"
                     }
-                }
+                },
+                "name": "Sticky Situation",
+                "identifier": "adventure/honey_block_slide"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/safely_harvest_honey",
-                "name": "Bee Our Guest",
                 "wiki": "https://minecraft.wiki/w/Advancement#Bee_Our_Guest",
                 "meta": {
                     "icon": {
                         "identifier": "honey_bottle",
-                        "element_type": "item",
                         "name": "Honey Bottle",
-                        "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+                        "wiki": "https://minecraft.wiki/w/Honey_Bottle",
+                        "imagePath": "/item/honey_bottle/latest.png"
                     }
-                }
+                },
+                "name": "Bee Our Guest",
+                "identifier": "husbandry/safely_harvest_honey"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/silk_touch_nest",
-                "name": "Total Beelocation",
                 "wiki": "https://minecraft.wiki/w/Advancement#Total_Beelocation",
                 "meta": {
                     "icon": {
                         "identifier": "beehive",
-                        "element_type": "block",
                         "name": "Beehive",
-                        "wiki": "https://minecraft.wiki/w/Beehive"
+                        "wiki": "https://minecraft.wiki/w/Beehive",
+                        "imagePath": "/block/beehive/latest.png"
                     }
-                }
+                },
+                "name": "Total Beelocation",
+                "identifier": "husbandry/silk_touch_nest"
             }
         ]
     },

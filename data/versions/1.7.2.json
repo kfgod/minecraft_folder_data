@@ -6,220 +6,220 @@
                     "woodset/acacia",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_log",
+                "wiki": "https://minecraft.wiki/w/Log#Acacia",
                 "name": "Acacia Log",
-                "wiki": "https://minecraft.wiki/w/Log#Acacia"
+                "identifier": "acacia_log",
+                "imagePath": "/block/acacia_log/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_log",
+                "wiki": "https://minecraft.wiki/w/Log#Dark_Oak",
                 "name": "Dark Oak Log",
-                "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
+                "identifier": "dark_oak_log",
+                "imagePath": "/block/dark_oak_log/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "blue_orchid",
+                "wiki": "https://minecraft.wiki/w/Blue_Orchid",
                 "name": "Blue Orchid",
-                "wiki": "https://minecraft.wiki/w/Blue_Orchid"
+                "identifier": "blue_orchid",
+                "imagePath": "/block/blue_orchid/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "allium",
+                "wiki": "https://minecraft.wiki/w/Allium",
                 "name": "Allium",
-                "wiki": "https://minecraft.wiki/w/Allium"
+                "identifier": "allium",
+                "imagePath": "/block/allium/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "azure_bluet",
+                "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Azure Bluet",
-                "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+                "identifier": "azure_bluet",
+                "imagePath": "/block/azure_bluet/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oxeye_daisy",
+                "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Oxeye Daisy",
-                "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+                "identifier": "oxeye_daisy",
+                "imagePath": "/block/oxeye_daisy/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "white_tulip",
+                "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "White Tulip",
-                "wiki": "https://minecraft.wiki/w/Tulip"
+                "identifier": "white_tulip",
+                "imagePath": "/block/white_tulip/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "orange_tulip",
+                "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Orange Tulip",
-                "wiki": "https://minecraft.wiki/w/Tulip"
+                "identifier": "orange_tulip",
+                "imagePath": "/block/orange_tulip/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "pink_tulip",
+                "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Pink Tulip",
-                "wiki": "https://minecraft.wiki/w/Tulip"
+                "identifier": "pink_tulip",
+                "imagePath": "/block/pink_tulip/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "red_tulip",
+                "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Red Tulip",
-                "wiki": "https://minecraft.wiki/w/Tulip"
+                "identifier": "red_tulip",
+                "imagePath": "/block/red_tulip/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tall"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "rose_bush",
+                "wiki": "https://minecraft.wiki/w/Rose_Bush",
                 "name": "Rose Bush",
-                "wiki": "https://minecraft.wiki/w/Rose_Bush"
+                "identifier": "rose_bush",
+                "imagePath": "/block/rose_bush/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tall"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "lilac",
+                "wiki": "https://minecraft.wiki/w/Lilac",
                 "name": "Lilac",
-                "wiki": "https://minecraft.wiki/w/Lilac"
+                "identifier": "lilac",
+                "imagePath": "/block/lilac/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tall"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "peony",
+                "wiki": "https://minecraft.wiki/w/Peony",
                 "name": "Peony",
-                "wiki": "https://minecraft.wiki/w/Peony"
+                "identifier": "peony",
+                "imagePath": "/block/peony/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tall"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "sunflower",
+                "wiki": "https://minecraft.wiki/w/Sunflower",
                 "name": "Sunflower",
-                "wiki": "https://minecraft.wiki/w/Sunflower"
+                "identifier": "sunflower",
+                "imagePath": "/block/sunflower/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Acacia",
                 "name": "Acacia Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Acacia"
+                "identifier": "acacia_wood",
+                "imagePath": "/block/acacia_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak",
                 "name": "Dark Oak Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak"
+                "identifier": "dark_oak_wood",
+                "imagePath": "/block/dark_oak_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Acacia",
                 "name": "Acacia Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+                "identifier": "acacia_planks",
+                "imagePath": "/block/acacia_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak",
                 "name": "Dark Oak Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+                "identifier": "dark_oak_planks",
+                "imagePath": "/block/dark_oak_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Acacia",
                 "name": "Acacia Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Acacia"
+                "identifier": "acacia_stairs",
+                "imagePath": "/block/acacia_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Dark_Oak",
                 "name": "Dark Oak Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Dark_Oak"
+                "identifier": "dark_oak_stairs",
+                "imagePath": "/block/dark_oak_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia",
                 "name": "Acacia Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+                "identifier": "acacia_slab",
+                "imagePath": "/block/acacia_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak",
                 "name": "Dark Oak Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+                "identifier": "dark_oak_slab",
+                "imagePath": "/block/dark_oak_slab/latest.png"
             },
             {
                 "types": [
@@ -228,10 +228,10 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Acacia",
                 "name": "Acacia Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Acacia"
+                "identifier": "acacia_sapling",
+                "imagePath": "/block/acacia_sapling/latest.png"
             },
             {
                 "types": [
@@ -240,10 +240,10 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Dark_Oak",
                 "name": "Dark Oak Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Dark_Oak"
+                "identifier": "dark_oak_sapling",
+                "imagePath": "/block/dark_oak_sapling/latest.png"
             },
             {
                 "types": [
@@ -251,10 +251,10 @@
                     "woodset/acacia",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Acacia",
                 "name": "Acacia Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Acacia"
+                "identifier": "acacia_leaves",
+                "imagePath": "/block/acacia_leaves/latest.png"
             },
             {
                 "types": [
@@ -262,413 +262,407 @@
                     "woodset/dark_oak",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak",
                 "name": "Dark Oak Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak"
+                "identifier": "dark_oak_leaves",
+                "imagePath": "/block/dark_oak_leaves/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "white_stained_glass",
+                "color": "white",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#White",
                 "name": "White Stained Glass",
-                "color": "white",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#White"
+                "identifier": "white_stained_glass",
+                "imagePath": "/block/white_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_gray_stained_glass",
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray",
                 "name": "Light Gray Stained Glass",
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray"
+                "identifier": "light_gray_stained_glass",
+                "imagePath": "/block/light_gray_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gray_stained_glass",
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray",
                 "name": "Gray Stained Glass",
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray"
+                "identifier": "gray_stained_glass",
+                "imagePath": "/block/gray_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "black_stained_glass",
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Black",
                 "name": "Black Stained Glass",
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Black"
+                "identifier": "black_stained_glass",
+                "imagePath": "/block/black_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_stained_glass",
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown",
                 "name": "Brown Stained Glass",
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown"
+                "identifier": "brown_stained_glass",
+                "imagePath": "/block/brown_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_stained_glass",
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Red",
                 "name": "Red Stained Glass",
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Red"
+                "identifier": "red_stained_glass",
+                "imagePath": "/block/red_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "orange_stained_glass",
+                "color": "orange",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange",
                 "name": "Orange Stained Glass",
-                "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange"
+                "identifier": "orange_stained_glass",
+                "imagePath": "/block/orange_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "yellow_stained_glass",
+                "color": "yellow",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow",
                 "name": "Yellow Stained Glass",
-                "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow"
+                "identifier": "yellow_stained_glass",
+                "imagePath": "/block/yellow_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lime_stained_glass",
+                "color": "lime",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime",
                 "name": "Lime Stained Glass",
-                "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime"
+                "identifier": "lime_stained_glass",
+                "imagePath": "/block/lime_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "green_stained_glass",
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Green",
                 "name": "Green Stained Glass",
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Green"
+                "identifier": "green_stained_glass",
+                "imagePath": "/block/green_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cyan_stained_glass",
+                "color": "cyan",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan",
                 "name": "Cyan Stained Glass",
-                "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan"
+                "identifier": "cyan_stained_glass",
+                "imagePath": "/block/cyan_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_blue_stained_glass",
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue",
                 "name": "Light Blue Stained Glass",
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue"
+                "identifier": "light_blue_stained_glass",
+                "imagePath": "/block/light_blue_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "blue_stained_glass",
+                "color": "blue",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue",
                 "name": "Blue Stained Glass",
-                "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue"
+                "identifier": "blue_stained_glass",
+                "imagePath": "/block/blue_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purple_stained_glass",
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple",
                 "name": "Purple Stained Glass",
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple"
+                "identifier": "purple_stained_glass",
+                "imagePath": "/block/purple_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magenta_stained_glass",
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta",
                 "name": "Magenta Stained Glass",
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta"
+                "identifier": "magenta_stained_glass",
+                "imagePath": "/block/magenta_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "pink_stained_glass",
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink",
                 "name": "Pink Stained Glass",
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink"
+                "identifier": "pink_stained_glass",
+                "imagePath": "/block/pink_stained_glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "white_stained_glass_pane",
-                "name": "White Stained Glass Pane",
                 "color": "white",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White",
+                "name": "White Stained Glass Pane",
+                "identifier": "white_stained_glass_pane",
+                "imagePath": "/block/white_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_gray_stained_glass_pane",
-                "name": "Light Gray Stained Glass Pane",
                 "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray",
+                "name": "Light Gray Stained Glass Pane",
+                "identifier": "light_gray_stained_glass_pane",
+                "imagePath": "/block/light_gray_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gray_stained_glass_pane",
-                "name": "Gray Stained Glass Pane",
                 "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray",
+                "name": "Gray Stained Glass Pane",
+                "identifier": "gray_stained_glass_pane",
+                "imagePath": "/block/gray_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "black_stained_glass_pane",
-                "name": "Black Stained Glass Pane",
                 "color": "black",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black",
+                "name": "Black Stained Glass Pane",
+                "identifier": "black_stained_glass_pane",
+                "imagePath": "/block/black_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_stained_glass_pane",
-                "name": "Brown Stained Glass Pane",
                 "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown",
+                "name": "Brown Stained Glass Pane",
+                "identifier": "brown_stained_glass_pane",
+                "imagePath": "/block/brown_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_stained_glass_pane",
-                "name": "Red Stained Glass Pane",
                 "color": "red",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red",
+                "name": "Red Stained Glass Pane",
+                "identifier": "red_stained_glass_pane",
+                "imagePath": "/block/red_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "orange_stained_glass_pane",
-                "name": "Orange Stained Glass Pane",
                 "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange",
+                "name": "Orange Stained Glass Pane",
+                "identifier": "orange_stained_glass_pane",
+                "imagePath": "/block/orange_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "yellow_stained_glass_pane",
-                "name": "Yellow Stained Glass Pane",
                 "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow",
+                "name": "Yellow Stained Glass Pane",
+                "identifier": "yellow_stained_glass_pane",
+                "imagePath": "/block/yellow_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lime_stained_glass_pane",
-                "name": "Lime Stained Glass Pane",
                 "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime",
+                "name": "Lime Stained Glass Pane",
+                "identifier": "lime_stained_glass_pane",
+                "imagePath": "/block/lime_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "green_stained_glass_pane",
-                "name": "Green Stained Glass Pane",
                 "color": "green",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green",
+                "name": "Green Stained Glass Pane",
+                "identifier": "green_stained_glass_pane",
+                "imagePath": "/block/green_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cyan_stained_glass_pane",
-                "name": "Cyan Stained Glass Pane",
                 "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan",
+                "name": "Cyan Stained Glass Pane",
+                "identifier": "cyan_stained_glass_pane",
+                "imagePath": "/block/cyan_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_blue_stained_glass_pane",
-                "name": "Light Blue Stained Glass Pane",
                 "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue",
+                "name": "Light Blue Stained Glass Pane",
+                "identifier": "light_blue_stained_glass_pane",
+                "imagePath": "/block/light_blue_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "blue_stained_glass_pane",
-                "name": "Blue Stained Glass Pane",
                 "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue",
+                "name": "Blue Stained Glass Pane",
+                "identifier": "blue_stained_glass_pane",
+                "imagePath": "/block/blue_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purple_stained_glass_pane",
-                "name": "Purple Stained Glass Pane",
                 "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple",
+                "name": "Purple Stained Glass Pane",
+                "identifier": "purple_stained_glass_pane",
+                "imagePath": "/block/purple_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magenta_stained_glass_pane",
-                "name": "Magenta Stained Glass Pane",
                 "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta",
+                "name": "Magenta Stained Glass Pane",
+                "identifier": "magenta_stained_glass_pane",
+                "imagePath": "/block/magenta_stained_glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "pink_stained_glass_pane",
-                "name": "Pink Stained Glass Pane",
                 "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink"
+                "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink",
+                "name": "Pink Stained Glass Pane",
+                "identifier": "pink_stained_glass_pane",
+                "imagePath": "/block/pink_stained_glass_pane/latest.png"
             },
             {
                 "types": [
                     "vegetation"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "tall_grass",
+                "wiki": "https://minecraft.wiki/w/Tall_Grass",
                 "name": "Tall Grass",
-                "wiki": "https://minecraft.wiki/w/Tall_Grass"
+                "identifier": "tall_grass",
+                "imagePath": "/block/tall_grass/latest.png"
             },
             {
                 "types": [
                     "vegetation"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "large_fern",
+                "wiki": "https://minecraft.wiki/w/Large_Fern",
                 "name": "Large Fern",
-                "wiki": "https://minecraft.wiki/w/Large_Fern"
+                "identifier": "large_fern",
+                "imagePath": "/block/large_fern/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "packed_ice",
+                "wiki": "https://minecraft.wiki/w/Packed_Ice",
                 "name": "Packed Ice",
-                "wiki": "https://minecraft.wiki/w/Packed_Ice"
+                "identifier": "packed_ice",
+                "imagePath": "/block/packed_ice/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "podzol",
+                "wiki": "https://minecraft.wiki/w/Podzol",
                 "name": "Podzol",
-                "wiki": "https://minecraft.wiki/w/Podzol"
+                "identifier": "podzol",
+                "imagePath": "/block/podzol/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_cracked_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Cracked_Stone_Bricks",
                 "name": "Infested Cracked Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Cracked_Stone_Bricks"
+                "identifier": "infested_cracked_stone_bricks",
+                "imagePath": "/block/infested_cracked_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_mossy_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Mossy_Stone_Bricks",
                 "name": "Infested Mossy Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Mossy_Stone_Bricks"
+                "identifier": "infested_mossy_stone_bricks",
+                "imagePath": "/block/infested_mossy_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_chiseled_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Chiseled_Stone_Bricks",
                 "name": "Infested Chiseled Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Chiseled_Stone_Bricks"
+                "identifier": "infested_chiseled_stone_bricks",
+                "imagePath": "/block/infested_chiseled_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_sand",
+                "wiki": "https://minecraft.wiki/w/Red_Sand",
                 "name": "Red Sand",
-                "wiki": "https://minecraft.wiki/w/Red_Sand"
+                "identifier": "red_sand",
+                "imagePath": "/block/red_sand/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "tropical_fish",
+                "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)",
                 "name": "Tropical Fish",
-                "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)"
+                "identifier": "tropical_fish",
+                "imagePath": "/item/tropical_fish/latest.png"
             },
             {
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "salmon",
+                "wiki": "https://minecraft.wiki/w/Raw_Salmon",
                 "name": "Raw Salmon",
-                "wiki": "https://minecraft.wiki/w/Raw_Salmon"
+                "identifier": "salmon",
+                "imagePath": "/item/salmon/latest.png"
             },
             {
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cooked_salmon",
+                "wiki": "https://minecraft.wiki/w/Cooked_Salmon",
                 "name": "Cooked Salmon",
-                "wiki": "https://minecraft.wiki/w/Cooked_Salmon"
+                "identifier": "cooked_salmon",
+                "imagePath": "/item/cooked_salmon/latest.png"
             },
             {
                 "types": [
                     "food"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pufferfish",
+                "wiki": "https://minecraft.wiki/w/Pufferfish_(item)",
                 "name": "Pufferfish",
-                "wiki": "https://minecraft.wiki/w/Pufferfish_(item)"
+                "identifier": "pufferfish",
+                "imagePath": "/item/pufferfish/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "command_block_minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart_with_Command_Block",
                 "name": "Minecart with Command Block",
-                "wiki": "https://minecraft.wiki/w/Minecart_with_Command_Block"
+                "identifier": "command_block_minecart",
+                "imagePath": "/item/command_block_minecart/latest.png"
             },
             {
                 "types": [
                     "effect/water_breathing"
                 ],
-                "element_type": "item",
-                "identifier": "potion_of_water_breathing",
-                "minecraft_identifier": "potion",
-                "name": "Potion of Water Breathing",
                 "image_identifier": "potion_of_water_breathing",
-                "wiki": "https://minecraft.wiki/w/Potion"
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Water Breathing",
+                "identifier": "potion_of_water_breathing",
+                "imagePath": "/item/potion_of_water_breathing/latest.png"
             },
             {
                 "types": [
                     "effect/water_breathing"
                 ],
-                "element_type": "item",
-                "identifier": "splash_potion_of_water_breathing",
-                "minecraft_identifier": "splash_potion",
-                "name": "Splash Potion of Water Breathing",
                 "image_identifier": "splash_potion_of_water_breathing",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Water Breathing",
+                "identifier": "splash_potion_of_water_breathing",
+                "imagePath": "/item/splash_potion_of_water_breathing/latest.png"
             },
             {
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Luck of the Sea I-III",
                 "identifier": "luck_of_the_sea_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Luck of the Sea I-III",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [
                     "enchantments"
                 ],
-                "element_type": "item",
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Lure I-III",
                 "identifier": "lure_enchanted_book",
-                "minecraft_identifier": "enchanted_book",
-                "name": "Enchanted Book",
-                "display_name": "Enchanted Book – Lure I-III",
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book"
+                "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
         "enchantments": [
@@ -676,19 +670,17 @@
                 "types": [
                     "enchantments/fishing_rod"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "luck_of_the_sea",
+                "wiki": "https://minecraft.wiki/w/Luck_of_the_Sea",
                 "name": "Luck of the Sea",
-                "wiki": "https://minecraft.wiki/w/Luck_of_the_Sea"
+                "identifier": "luck_of_the_sea"
             },
             {
                 "types": [
                     "enchantments/fishing_rod"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "lure",
+                "wiki": "https://minecraft.wiki/w/Lure",
                 "name": "Lure",
-                "wiki": "https://minecraft.wiki/w/Lure"
+                "identifier": "lure"
             }
         ],
         "biomes": [
@@ -696,190 +688,190 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "badlands",
+                "wiki": "https://minecraft.wiki/w/Badlands",
                 "name": "Badlands",
-                "wiki": "https://minecraft.wiki/w/Badlands"
+                "identifier": "badlands",
+                "imagePath": "/biome/badlands/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "birch_forest",
+                "wiki": "https://minecraft.wiki/w/Birch_Forest",
                 "name": "Birch Forest",
-                "wiki": "https://minecraft.wiki/w/Birch_Forest"
+                "identifier": "birch_forest",
+                "imagePath": "/biome/birch_forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "dark_forest",
+                "wiki": "https://minecraft.wiki/w/Dark_Forest",
                 "name": "Dark Forest",
-                "wiki": "https://minecraft.wiki/w/Dark_Forest"
+                "identifier": "dark_forest",
+                "imagePath": "/biome/dark_forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "deep_ocean",
+                "wiki": "https://minecraft.wiki/w/Deep_Ocean",
                 "name": "Deep Ocean",
-                "wiki": "https://minecraft.wiki/w/Deep_Ocean"
+                "identifier": "deep_ocean",
+                "imagePath": "/biome/deep_ocean/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "eroded_badlands",
+                "wiki": "https://minecraft.wiki/w/Eroded_Badlands",
                 "name": "Eroded Badlands",
-                "wiki": "https://minecraft.wiki/w/Eroded_Badlands"
+                "identifier": "eroded_badlands",
+                "imagePath": "/biome/eroded_badlands/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "flower_forest",
+                "wiki": "https://minecraft.wiki/w/Flower_Forest",
                 "name": "Flower Forest",
-                "wiki": "https://minecraft.wiki/w/Flower_Forest"
+                "identifier": "flower_forest",
+                "imagePath": "/biome/flower_forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "ice_spikes",
+                "wiki": "https://minecraft.wiki/w/Ice_Spikes",
                 "name": "Ice Spikes",
-                "wiki": "https://minecraft.wiki/w/Ice_Spikes"
+                "identifier": "ice_spikes",
+                "imagePath": "/biome/ice_spikes/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "old_growth_birch_forest",
+                "wiki": "https://minecraft.wiki/w/Old_Growth_Birch_Forest",
                 "name": "Old Growth Birch Forest",
-                "wiki": "https://minecraft.wiki/w/Old_Growth_Birch_Forest"
+                "identifier": "old_growth_birch_forest",
+                "imagePath": "/biome/old_growth_birch_forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "old_growth_pine_taiga",
+                "wiki": "https://minecraft.wiki/w/Old_Growth_Pine_Taiga",
                 "name": "Old Growth Pine Taiga",
-                "wiki": "https://minecraft.wiki/w/Old_Growth_Pine_Taiga"
+                "identifier": "old_growth_pine_taiga",
+                "imagePath": "/biome/old_growth_pine_taiga/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "old_growth_spruce_taiga",
+                "wiki": "https://minecraft.wiki/w/Old_Growth_Spruce_Taiga",
                 "name": "Old Growth Spruce Taiga",
-                "wiki": "https://minecraft.wiki/w/Old_Growth_Spruce_Taiga"
+                "identifier": "old_growth_spruce_taiga",
+                "imagePath": "/biome/old_growth_spruce_taiga/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "savanna",
+                "wiki": "https://minecraft.wiki/w/Savanna",
                 "name": "Savanna",
-                "wiki": "https://minecraft.wiki/w/Savanna"
+                "identifier": "savanna",
+                "imagePath": "/biome/savanna/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "savanna_plateau",
+                "wiki": "https://minecraft.wiki/w/Savanna_Plateau",
                 "name": "Savanna Plateau",
-                "wiki": "https://minecraft.wiki/w/Savanna_Plateau"
+                "identifier": "savanna_plateau",
+                "imagePath": "/biome/savanna_plateau/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "snowy_beach",
+                "wiki": "https://minecraft.wiki/w/Snowy_Beach",
                 "name": "Snowy Beach",
-                "wiki": "https://minecraft.wiki/w/Snowy_Beach"
+                "identifier": "snowy_beach",
+                "imagePath": "/biome/snowy_beach/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "snowy_taiga",
+                "wiki": "https://minecraft.wiki/w/Snowy_Taiga",
                 "name": "Snowy Taiga",
-                "wiki": "https://minecraft.wiki/w/Snowy_Taiga"
+                "identifier": "snowy_taiga",
+                "imagePath": "/biome/snowy_taiga/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "sparse_jungle",
+                "wiki": "https://minecraft.wiki/w/Sparse_Jungle",
                 "name": "Sparse Jungle",
-                "wiki": "https://minecraft.wiki/w/Sparse_Jungle"
+                "identifier": "sparse_jungle",
+                "imagePath": "/biome/sparse_jungle/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "stony_shore",
+                "wiki": "https://minecraft.wiki/w/Stony_Shore",
                 "name": "Stony Shore",
-                "wiki": "https://minecraft.wiki/w/Stony_Shore"
+                "identifier": "stony_shore",
+                "imagePath": "/biome/stony_shore/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "sunflower_plains",
+                "wiki": "https://minecraft.wiki/w/Sunflower_Plains",
                 "name": "Sunflower Plains",
-                "wiki": "https://minecraft.wiki/w/Sunflower_Plains"
+                "identifier": "sunflower_plains",
+                "imagePath": "/biome/sunflower_plains/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "windswept_forest",
+                "wiki": "https://minecraft.wiki/w/Windswept_Forest",
                 "name": "Windswept Forest",
-                "wiki": "https://minecraft.wiki/w/Windswept_Forest"
+                "identifier": "windswept_forest",
+                "imagePath": "/biome/windswept_forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "windswept_gravelly_hills",
+                "wiki": "https://minecraft.wiki/w/Windswept_Gravelly_Hills",
                 "name": "Windswept Gravelly Hills",
-                "wiki": "https://minecraft.wiki/w/Windswept_Gravelly_Hills"
+                "identifier": "windswept_gravelly_hills",
+                "imagePath": "/biome/windswept_gravelly_hills/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "windswept_savanna",
+                "wiki": "https://minecraft.wiki/w/Windswept_Savanna",
                 "name": "Windswept Savanna",
-                "wiki": "https://minecraft.wiki/w/Windswept_Savanna"
+                "identifier": "windswept_savanna",
+                "imagePath": "/biome/windswept_savanna/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "wooded_badlands",
+                "wiki": "https://minecraft.wiki/w/Wooded_Badlands",
                 "name": "Wooded Badlands",
-                "wiki": "https://minecraft.wiki/w/Wooded_Badlands"
+                "identifier": "wooded_badlands",
+                "imagePath": "/biome/wooded_badlands/latest.png"
             }
         ]
     },

@@ -6,94 +6,94 @@
       "group_name": "White",
       "material": {
         "identifier": "white_dye",
-        "element_type": "item",
         "name": "White Dye",
-        "wiki": "https://minecraft.wiki/w/White_Dye"
+        "wiki": "https://minecraft.wiki/w/White_Dye",
+        "imagePath": "/item/white_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "white_wool",
-          "element_type": "block",
           "name": "White Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#White"
+          "wiki": "https://minecraft.wiki/w/Wool#White",
+          "imagePath": "/block/white_wool/latest.png"
         },
         "carpet": {
           "identifier": "white_carpet",
-          "element_type": "block",
           "name": "White Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#White"
+          "wiki": "https://minecraft.wiki/w/Carpet#White",
+          "imagePath": "/block/white_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "white_terracotta",
-          "element_type": "block",
           "name": "White Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White",
+          "imagePath": "/block/white_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "white_glazed_terracotta",
-          "element_type": "block",
           "name": "White Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#White"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#White",
+          "imagePath": "/block/white_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "white_concrete_powder",
-          "element_type": "block",
           "name": "White Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#White"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#White",
+          "imagePath": "/block/white_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "white_concrete",
-          "element_type": "block",
           "name": "White Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#White"
+          "wiki": "https://minecraft.wiki/w/Concrete#White",
+          "imagePath": "/block/white_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "white_stained_glass",
-          "element_type": "block",
           "name": "White Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#White"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#White",
+          "imagePath": "/block/white_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "white_stained_glass_pane",
-          "element_type": "block",
           "name": "White Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White",
+          "imagePath": "/block/white_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "white_shulker_box",
-          "element_type": "block",
           "name": "White Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#White"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#White",
+          "imagePath": "/block/white_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "white_bed",
-          "element_type": "block",
           "name": "White Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#White"
+          "wiki": "https://minecraft.wiki/w/Bed#White",
+          "imagePath": "/block/white_bed/latest.png"
         },
         "candle": {
           "identifier": "white_candle",
-          "element_type": "block",
           "name": "White Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#White"
+          "wiki": "https://minecraft.wiki/w/Candle#White",
+          "imagePath": "/block/white_candle/latest.png"
         },
         "banner": {
           "identifier": "white_banner",
-          "element_type": "block",
           "name": "White Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#White"
+          "wiki": "https://minecraft.wiki/w/Banner#White",
+          "imagePath": "/block/white_banner/latest.png"
         },
         "bundle": {
           "identifier": "white_bundle",
-          "element_type": "item",
           "name": "White Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#White"
+          "wiki": "https://minecraft.wiki/w/Bundle#White",
+          "imagePath": "/item/white_bundle/latest.png"
         },
         "harness": {
           "identifier": "white_harness",
-          "element_type": "item",
           "name": "White Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#White"
+          "wiki": "https://minecraft.wiki/w/Harness#White",
+          "imagePath": "/item/white_harness/latest.png"
         }
       }
     },
@@ -102,94 +102,94 @@
       "group_name": "Light Gray",
       "material": {
         "identifier": "light_gray_dye",
-        "element_type": "item",
         "name": "Light Gray Dye",
-        "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+        "wiki": "https://minecraft.wiki/w/Light_Gray_Dye",
+        "imagePath": "/item/light_gray_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "light_gray_wool",
-          "element_type": "block",
           "name": "Light Gray Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Wool#Light_Gray",
+          "imagePath": "/block/light_gray_wool/latest.png"
         },
         "carpet": {
           "identifier": "light_gray_carpet",
-          "element_type": "block",
           "name": "Light Gray Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray",
+          "imagePath": "/block/light_gray_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "light_gray_terracotta",
-          "element_type": "block",
           "name": "Light Gray Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray",
+          "imagePath": "/block/light_gray_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "light_gray_glazed_terracotta",
-          "element_type": "block",
           "name": "Light Gray Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Gray",
+          "imagePath": "/block/light_gray_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "light_gray_concrete_powder",
-          "element_type": "block",
           "name": "Light Gray Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Gray",
+          "imagePath": "/block/light_gray_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "light_gray_concrete",
-          "element_type": "block",
           "name": "Light Gray Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Concrete#Light_Gray",
+          "imagePath": "/block/light_gray_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "light_gray_stained_glass",
-          "element_type": "block",
           "name": "Light Gray Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray",
+          "imagePath": "/block/light_gray_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "light_gray_stained_glass_pane",
-          "element_type": "block",
           "name": "Light Gray Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray",
+          "imagePath": "/block/light_gray_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "light_gray_shulker_box",
-          "element_type": "block",
           "name": "Light Gray Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray",
+          "imagePath": "/block/light_gray_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "light_gray_bed",
-          "element_type": "block",
           "name": "Light Gray Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Bed#Light_Gray",
+          "imagePath": "/block/light_gray_bed/latest.png"
         },
         "candle": {
           "identifier": "light_gray_candle",
-          "element_type": "block",
           "name": "Light Gray Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Candle#Light_Gray",
+          "imagePath": "/block/light_gray_candle/latest.png"
         },
         "banner": {
           "identifier": "light_gray_banner",
-          "element_type": "block",
           "name": "Light Gray Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Banner#Light_Gray",
+          "imagePath": "/block/light_gray_banner/latest.png"
         },
         "bundle": {
           "identifier": "light_gray_bundle",
-          "element_type": "item",
           "name": "Light Gray Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray",
+          "imagePath": "/item/light_gray_bundle/latest.png"
         },
         "harness": {
           "identifier": "light_gray_harness",
-          "element_type": "item",
           "name": "Light Gray Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+          "wiki": "https://minecraft.wiki/w/Harness#Light_Gray",
+          "imagePath": "/item/light_gray_harness/latest.png"
         }
       }
     },
@@ -198,94 +198,94 @@
       "group_name": "Gray",
       "material": {
         "identifier": "gray_dye",
-        "element_type": "item",
         "name": "Gray Dye",
-        "wiki": "https://minecraft.wiki/w/Gray_Dye"
+        "wiki": "https://minecraft.wiki/w/Gray_Dye",
+        "imagePath": "/item/gray_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "gray_wool",
-          "element_type": "block",
           "name": "Gray Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Gray"
+          "wiki": "https://minecraft.wiki/w/Wool#Gray",
+          "imagePath": "/block/gray_wool/latest.png"
         },
         "carpet": {
           "identifier": "gray_carpet",
-          "element_type": "block",
           "name": "Gray Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Gray"
+          "wiki": "https://minecraft.wiki/w/Carpet#Gray",
+          "imagePath": "/block/gray_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "gray_terracotta",
-          "element_type": "block",
           "name": "Gray Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray",
+          "imagePath": "/block/gray_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "gray_glazed_terracotta",
-          "element_type": "block",
           "name": "Gray Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Gray"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Gray",
+          "imagePath": "/block/gray_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "gray_concrete_powder",
-          "element_type": "block",
           "name": "Gray Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Gray"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Gray",
+          "imagePath": "/block/gray_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "gray_concrete",
-          "element_type": "block",
           "name": "Gray Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Gray"
+          "wiki": "https://minecraft.wiki/w/Concrete#Gray",
+          "imagePath": "/block/gray_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "gray_stained_glass",
-          "element_type": "block",
           "name": "Gray Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray",
+          "imagePath": "/block/gray_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "gray_stained_glass_pane",
-          "element_type": "block",
           "name": "Gray Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray",
+          "imagePath": "/block/gray_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "gray_shulker_box",
-          "element_type": "block",
           "name": "Gray Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray",
+          "imagePath": "/block/gray_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "gray_bed",
-          "element_type": "block",
           "name": "Gray Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Gray"
+          "wiki": "https://minecraft.wiki/w/Bed#Gray",
+          "imagePath": "/block/gray_bed/latest.png"
         },
         "candle": {
           "identifier": "gray_candle",
-          "element_type": "block",
           "name": "Gray Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Gray"
+          "wiki": "https://minecraft.wiki/w/Candle#Gray",
+          "imagePath": "/block/gray_candle/latest.png"
         },
         "banner": {
           "identifier": "gray_banner",
-          "element_type": "block",
           "name": "Gray Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Gray"
+          "wiki": "https://minecraft.wiki/w/Banner#Gray",
+          "imagePath": "/block/gray_banner/latest.png"
         },
         "bundle": {
           "identifier": "gray_bundle",
-          "element_type": "item",
           "name": "Gray Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Gray"
+          "wiki": "https://minecraft.wiki/w/Bundle#Gray",
+          "imagePath": "/item/gray_bundle/latest.png"
         },
         "harness": {
           "identifier": "gray_harness",
-          "element_type": "item",
           "name": "Gray Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Gray"
+          "wiki": "https://minecraft.wiki/w/Harness#Gray",
+          "imagePath": "/item/gray_harness/latest.png"
         }
       }
     },
@@ -294,94 +294,94 @@
       "group_name": "Black",
       "material": {
         "identifier": "black_dye",
-        "element_type": "item",
         "name": "Black Dye",
-        "wiki": "https://minecraft.wiki/w/Black_Dye"
+        "wiki": "https://minecraft.wiki/w/Black_Dye",
+        "imagePath": "/item/black_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "black_wool",
-          "element_type": "block",
           "name": "Black Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Black"
+          "wiki": "https://minecraft.wiki/w/Wool#Black",
+          "imagePath": "/block/black_wool/latest.png"
         },
         "carpet": {
           "identifier": "black_carpet",
-          "element_type": "block",
           "name": "Black Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Black"
+          "wiki": "https://minecraft.wiki/w/Carpet#Black",
+          "imagePath": "/block/black_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "black_terracotta",
-          "element_type": "block",
           "name": "Black Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black",
+          "imagePath": "/block/black_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "black_glazed_terracotta",
-          "element_type": "block",
           "name": "Black Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Black"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Black",
+          "imagePath": "/block/black_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "black_concrete_powder",
-          "element_type": "block",
           "name": "Black Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Black"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Black",
+          "imagePath": "/block/black_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "black_concrete",
-          "element_type": "block",
           "name": "Black Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Black"
+          "wiki": "https://minecraft.wiki/w/Concrete#Black",
+          "imagePath": "/block/black_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "black_stained_glass",
-          "element_type": "block",
           "name": "Black Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Black"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Black",
+          "imagePath": "/block/black_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "black_stained_glass_pane",
-          "element_type": "block",
           "name": "Black Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black",
+          "imagePath": "/block/black_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "black_shulker_box",
-          "element_type": "block",
           "name": "Black Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Black"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Black",
+          "imagePath": "/block/black_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "black_bed",
-          "element_type": "block",
           "name": "Black Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Black"
+          "wiki": "https://minecraft.wiki/w/Bed#Black",
+          "imagePath": "/block/black_bed/latest.png"
         },
         "candle": {
           "identifier": "black_candle",
-          "element_type": "block",
           "name": "Black Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Black"
+          "wiki": "https://minecraft.wiki/w/Candle#Black",
+          "imagePath": "/block/black_candle/latest.png"
         },
         "banner": {
           "identifier": "black_banner",
-          "element_type": "block",
           "name": "Black Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Black"
+          "wiki": "https://minecraft.wiki/w/Banner#Black",
+          "imagePath": "/block/black_banner/latest.png"
         },
         "bundle": {
           "identifier": "black_bundle",
-          "element_type": "item",
           "name": "Black Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Black"
+          "wiki": "https://minecraft.wiki/w/Bundle#Black",
+          "imagePath": "/item/black_bundle/latest.png"
         },
         "harness": {
           "identifier": "black_harness",
-          "element_type": "item",
           "name": "Black Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Black"
+          "wiki": "https://minecraft.wiki/w/Harness#Black",
+          "imagePath": "/item/black_harness/latest.png"
         }
       }
     },
@@ -390,94 +390,94 @@
       "group_name": "Brown",
       "material": {
         "identifier": "brown_dye",
-        "element_type": "item",
         "name": "Brown Dye",
-        "wiki": "https://minecraft.wiki/w/Brown_Dye"
+        "wiki": "https://minecraft.wiki/w/Brown_Dye",
+        "imagePath": "/item/brown_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "brown_wool",
-          "element_type": "block",
           "name": "Brown Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Brown"
+          "wiki": "https://minecraft.wiki/w/Wool#Brown",
+          "imagePath": "/block/brown_wool/latest.png"
         },
         "carpet": {
           "identifier": "brown_carpet",
-          "element_type": "block",
           "name": "Brown Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Brown"
+          "wiki": "https://minecraft.wiki/w/Carpet#Brown",
+          "imagePath": "/block/brown_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "brown_terracotta",
-          "element_type": "block",
           "name": "Brown Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown",
+          "imagePath": "/block/brown_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "brown_glazed_terracotta",
-          "element_type": "block",
           "name": "Brown Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Brown"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Brown",
+          "imagePath": "/block/brown_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "brown_concrete_powder",
-          "element_type": "block",
           "name": "Brown Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown",
+          "imagePath": "/block/brown_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "brown_concrete",
-          "element_type": "block",
           "name": "Brown Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Brown"
+          "wiki": "https://minecraft.wiki/w/Concrete#Brown",
+          "imagePath": "/block/brown_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "brown_stained_glass",
-          "element_type": "block",
           "name": "Brown Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown",
+          "imagePath": "/block/brown_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "brown_stained_glass_pane",
-          "element_type": "block",
           "name": "Brown Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown",
+          "imagePath": "/block/brown_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "brown_shulker_box",
-          "element_type": "block",
           "name": "Brown Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown",
+          "imagePath": "/block/brown_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "brown_bed",
-          "element_type": "block",
           "name": "Brown Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Brown"
+          "wiki": "https://minecraft.wiki/w/Bed#Brown",
+          "imagePath": "/block/brown_bed/latest.png"
         },
         "candle": {
           "identifier": "brown_candle",
-          "element_type": "block",
           "name": "Brown Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Brown"
+          "wiki": "https://minecraft.wiki/w/Candle#Brown",
+          "imagePath": "/block/brown_candle/latest.png"
         },
         "banner": {
           "identifier": "brown_banner",
-          "element_type": "block",
           "name": "Brown Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Brown"
+          "wiki": "https://minecraft.wiki/w/Banner#Brown",
+          "imagePath": "/block/brown_banner/latest.png"
         },
         "bundle": {
           "identifier": "brown_bundle",
-          "element_type": "item",
           "name": "Brown Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Brown"
+          "wiki": "https://minecraft.wiki/w/Bundle#Brown",
+          "imagePath": "/item/brown_bundle/latest.png"
         },
         "harness": {
           "identifier": "brown_harness",
-          "element_type": "item",
           "name": "Brown Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Brown"
+          "wiki": "https://minecraft.wiki/w/Harness#Brown",
+          "imagePath": "/item/brown_harness/latest.png"
         }
       }
     },
@@ -486,94 +486,94 @@
       "group_name": "Red",
       "material": {
         "identifier": "red_dye",
-        "element_type": "item",
         "name": "Red Dye",
-        "wiki": "https://minecraft.wiki/w/Red_Dye"
+        "wiki": "https://minecraft.wiki/w/Red_Dye",
+        "imagePath": "/item/red_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "red_wool",
-          "element_type": "block",
           "name": "Red Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Red"
+          "wiki": "https://minecraft.wiki/w/Wool#Red",
+          "imagePath": "/block/red_wool/latest.png"
         },
         "carpet": {
           "identifier": "red_carpet",
-          "element_type": "block",
           "name": "Red Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Red"
+          "wiki": "https://minecraft.wiki/w/Carpet#Red",
+          "imagePath": "/block/red_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "red_terracotta",
-          "element_type": "block",
           "name": "Red Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red",
+          "imagePath": "/block/red_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "red_glazed_terracotta",
-          "element_type": "block",
           "name": "Red Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Red"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Red",
+          "imagePath": "/block/red_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "red_concrete_powder",
-          "element_type": "block",
           "name": "Red Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Red"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Red",
+          "imagePath": "/block/red_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "red_concrete",
-          "element_type": "block",
           "name": "Red Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Red"
+          "wiki": "https://minecraft.wiki/w/Concrete#Red",
+          "imagePath": "/block/red_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "red_stained_glass",
-          "element_type": "block",
           "name": "Red Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Red"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Red",
+          "imagePath": "/block/red_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "red_stained_glass_pane",
-          "element_type": "block",
           "name": "Red Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red",
+          "imagePath": "/block/red_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "red_shulker_box",
-          "element_type": "block",
           "name": "Red Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Red"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Red",
+          "imagePath": "/block/red_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "red_bed",
-          "element_type": "block",
           "name": "Red Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Red"
+          "wiki": "https://minecraft.wiki/w/Bed#Red",
+          "imagePath": "/block/red_bed/latest.png"
         },
         "candle": {
           "identifier": "red_candle",
-          "element_type": "block",
           "name": "Red Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Red"
+          "wiki": "https://minecraft.wiki/w/Candle#Red",
+          "imagePath": "/block/red_candle/latest.png"
         },
         "banner": {
           "identifier": "red_banner",
-          "element_type": "block",
           "name": "Red Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Red"
+          "wiki": "https://minecraft.wiki/w/Banner#Red",
+          "imagePath": "/block/red_banner/latest.png"
         },
         "bundle": {
           "identifier": "red_bundle",
-          "element_type": "item",
           "name": "Red Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Red"
+          "wiki": "https://minecraft.wiki/w/Bundle#Red",
+          "imagePath": "/item/red_bundle/latest.png"
         },
         "harness": {
           "identifier": "red_harness",
-          "element_type": "item",
           "name": "Red Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Red"
+          "wiki": "https://minecraft.wiki/w/Harness#Red",
+          "imagePath": "/item/red_harness/latest.png"
         }
       }
     },
@@ -582,94 +582,94 @@
       "group_name": "Orange",
       "material": {
         "identifier": "orange_dye",
-        "element_type": "item",
         "name": "Orange Dye",
-        "wiki": "https://minecraft.wiki/w/Orange_Dye"
+        "wiki": "https://minecraft.wiki/w/Orange_Dye",
+        "imagePath": "/item/orange_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "orange_wool",
-          "element_type": "block",
           "name": "Orange Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Orange"
+          "wiki": "https://minecraft.wiki/w/Wool#Orange",
+          "imagePath": "/block/orange_wool/latest.png"
         },
         "carpet": {
           "identifier": "orange_carpet",
-          "element_type": "block",
           "name": "Orange Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Orange"
+          "wiki": "https://minecraft.wiki/w/Carpet#Orange",
+          "imagePath": "/block/orange_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "orange_terracotta",
-          "element_type": "block",
           "name": "Orange Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange",
+          "imagePath": "/block/orange_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "orange_glazed_terracotta",
-          "element_type": "block",
           "name": "Orange Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Orange"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Orange",
+          "imagePath": "/block/orange_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "orange_concrete_powder",
-          "element_type": "block",
           "name": "Orange Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Orange"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Orange",
+          "imagePath": "/block/orange_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "orange_concrete",
-          "element_type": "block",
           "name": "Orange Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Orange"
+          "wiki": "https://minecraft.wiki/w/Concrete#Orange",
+          "imagePath": "/block/orange_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "orange_stained_glass",
-          "element_type": "block",
           "name": "Orange Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange",
+          "imagePath": "/block/orange_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "orange_stained_glass_pane",
-          "element_type": "block",
           "name": "Orange Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange",
+          "imagePath": "/block/orange_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "orange_shulker_box",
-          "element_type": "block",
           "name": "Orange Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange",
+          "imagePath": "/block/orange_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "orange_bed",
-          "element_type": "block",
           "name": "Orange Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Orange"
+          "wiki": "https://minecraft.wiki/w/Bed#Orange",
+          "imagePath": "/block/orange_bed/latest.png"
         },
         "candle": {
           "identifier": "orange_candle",
-          "element_type": "block",
           "name": "Orange Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Orange"
+          "wiki": "https://minecraft.wiki/w/Candle#Orange",
+          "imagePath": "/block/orange_candle/latest.png"
         },
         "banner": {
           "identifier": "orange_banner",
-          "element_type": "block",
           "name": "Orange Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Orange"
+          "wiki": "https://minecraft.wiki/w/Banner#Orange",
+          "imagePath": "/block/orange_banner/latest.png"
         },
         "bundle": {
           "identifier": "orange_bundle",
-          "element_type": "item",
           "name": "Orange Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Orange"
+          "wiki": "https://minecraft.wiki/w/Bundle#Orange",
+          "imagePath": "/item/orange_bundle/latest.png"
         },
         "harness": {
           "identifier": "orange_harness",
-          "element_type": "item",
           "name": "Orange Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Orange"
+          "wiki": "https://minecraft.wiki/w/Harness#Orange",
+          "imagePath": "/item/orange_harness/latest.png"
         }
       }
     },
@@ -678,94 +678,94 @@
       "group_name": "Yellow",
       "material": {
         "identifier": "yellow_dye",
-        "element_type": "item",
         "name": "Yellow Dye",
-        "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+        "wiki": "https://minecraft.wiki/w/Yellow_Dye",
+        "imagePath": "/item/yellow_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "yellow_wool",
-          "element_type": "block",
           "name": "Yellow Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+          "wiki": "https://minecraft.wiki/w/Wool#Yellow",
+          "imagePath": "/block/yellow_wool/latest.png"
         },
         "carpet": {
           "identifier": "yellow_carpet",
-          "element_type": "block",
           "name": "Yellow Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Yellow"
+          "wiki": "https://minecraft.wiki/w/Carpet#Yellow",
+          "imagePath": "/block/yellow_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "yellow_terracotta",
-          "element_type": "block",
           "name": "Yellow Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow",
+          "imagePath": "/block/yellow_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "yellow_glazed_terracotta",
-          "element_type": "block",
           "name": "Yellow Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Yellow"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Yellow",
+          "imagePath": "/block/yellow_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "yellow_concrete_powder",
-          "element_type": "block",
           "name": "Yellow Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Yellow"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Yellow",
+          "imagePath": "/block/yellow_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "yellow_concrete",
-          "element_type": "block",
           "name": "Yellow Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Yellow"
+          "wiki": "https://minecraft.wiki/w/Concrete#Yellow",
+          "imagePath": "/block/yellow_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "yellow_stained_glass",
-          "element_type": "block",
           "name": "Yellow Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow",
+          "imagePath": "/block/yellow_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "yellow_stained_glass_pane",
-          "element_type": "block",
           "name": "Yellow Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow",
+          "imagePath": "/block/yellow_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "yellow_shulker_box",
-          "element_type": "block",
           "name": "Yellow Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow",
+          "imagePath": "/block/yellow_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "yellow_bed",
-          "element_type": "block",
           "name": "Yellow Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Yellow"
+          "wiki": "https://minecraft.wiki/w/Bed#Yellow",
+          "imagePath": "/block/yellow_bed/latest.png"
         },
         "candle": {
           "identifier": "yellow_candle",
-          "element_type": "block",
           "name": "Yellow Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Yellow"
+          "wiki": "https://minecraft.wiki/w/Candle#Yellow",
+          "imagePath": "/block/yellow_candle/latest.png"
         },
         "banner": {
           "identifier": "yellow_banner",
-          "element_type": "block",
           "name": "Yellow Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Yellow"
+          "wiki": "https://minecraft.wiki/w/Banner#Yellow",
+          "imagePath": "/block/yellow_banner/latest.png"
         },
         "bundle": {
           "identifier": "yellow_bundle",
-          "element_type": "item",
           "name": "Yellow Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Yellow"
+          "wiki": "https://minecraft.wiki/w/Bundle#Yellow",
+          "imagePath": "/item/yellow_bundle/latest.png"
         },
         "harness": {
           "identifier": "yellow_harness",
-          "element_type": "item",
           "name": "Yellow Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+          "wiki": "https://minecraft.wiki/w/Harness#Yellow",
+          "imagePath": "/item/yellow_harness/latest.png"
         }
       }
     },
@@ -774,94 +774,94 @@
       "group_name": "Lime",
       "material": {
         "identifier": "lime_dye",
-        "element_type": "item",
         "name": "Lime Dye",
-        "wiki": "https://minecraft.wiki/w/Lime_Dye"
+        "wiki": "https://minecraft.wiki/w/Lime_Dye",
+        "imagePath": "/item/lime_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "lime_wool",
-          "element_type": "block",
           "name": "Lime Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Lime"
+          "wiki": "https://minecraft.wiki/w/Wool#Lime",
+          "imagePath": "/block/lime_wool/latest.png"
         },
         "carpet": {
           "identifier": "lime_carpet",
-          "element_type": "block",
           "name": "Lime Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Lime"
+          "wiki": "https://minecraft.wiki/w/Carpet#Lime",
+          "imagePath": "/block/lime_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "lime_terracotta",
-          "element_type": "block",
           "name": "Lime Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime",
+          "imagePath": "/block/lime_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "lime_glazed_terracotta",
-          "element_type": "block",
           "name": "Lime Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime",
+          "imagePath": "/block/lime_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "lime_concrete_powder",
-          "element_type": "block",
           "name": "Lime Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Lime"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Lime",
+          "imagePath": "/block/lime_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "lime_concrete",
-          "element_type": "block",
           "name": "Lime Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Lime"
+          "wiki": "https://minecraft.wiki/w/Concrete#Lime",
+          "imagePath": "/block/lime_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "lime_stained_glass",
-          "element_type": "block",
           "name": "Lime Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime",
+          "imagePath": "/block/lime_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "lime_stained_glass_pane",
-          "element_type": "block",
           "name": "Lime Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime",
+          "imagePath": "/block/lime_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "lime_shulker_box",
-          "element_type": "block",
           "name": "Lime Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime",
+          "imagePath": "/block/lime_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "lime_bed",
-          "element_type": "block",
           "name": "Lime Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Lime"
+          "wiki": "https://minecraft.wiki/w/Bed#Lime",
+          "imagePath": "/block/lime_bed/latest.png"
         },
         "candle": {
           "identifier": "lime_candle",
-          "element_type": "block",
           "name": "Lime Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Lime"
+          "wiki": "https://minecraft.wiki/w/Candle#Lime",
+          "imagePath": "/block/lime_candle/latest.png"
         },
         "banner": {
           "identifier": "lime_banner",
-          "element_type": "block",
           "name": "Lime Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Lime"
+          "wiki": "https://minecraft.wiki/w/Banner#Lime",
+          "imagePath": "/block/lime_banner/latest.png"
         },
         "bundle": {
           "identifier": "lime_bundle",
-          "element_type": "item",
           "name": "Lime Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Lime"
+          "wiki": "https://minecraft.wiki/w/Bundle#Lime",
+          "imagePath": "/item/lime_bundle/latest.png"
         },
         "harness": {
           "identifier": "lime_harness",
-          "element_type": "item",
           "name": "Lime Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Lime"
+          "wiki": "https://minecraft.wiki/w/Harness#Lime",
+          "imagePath": "/item/lime_harness/latest.png"
         }
       }
     },
@@ -870,94 +870,94 @@
       "group_name": "Green",
       "material": {
         "identifier": "green_dye",
-        "element_type": "item",
         "name": "Green Dye",
-        "wiki": "https://minecraft.wiki/w/Green_Dye"
+        "wiki": "https://minecraft.wiki/w/Green_Dye",
+        "imagePath": "/item/green_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "green_wool",
-          "element_type": "block",
           "name": "Green Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Green"
+          "wiki": "https://minecraft.wiki/w/Wool#Green",
+          "imagePath": "/block/green_wool/latest.png"
         },
         "carpet": {
           "identifier": "green_carpet",
-          "element_type": "block",
           "name": "Green Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Green"
+          "wiki": "https://minecraft.wiki/w/Carpet#Green",
+          "imagePath": "/block/green_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "green_terracotta",
-          "element_type": "block",
           "name": "Green Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green",
+          "imagePath": "/block/green_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "green_glazed_terracotta",
-          "element_type": "block",
           "name": "Green Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Green"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Green",
+          "imagePath": "/block/green_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "green_concrete_powder",
-          "element_type": "block",
           "name": "Green Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Green"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Green",
+          "imagePath": "/block/green_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "green_concrete",
-          "element_type": "block",
           "name": "Green Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Green"
+          "wiki": "https://minecraft.wiki/w/Concrete#Green",
+          "imagePath": "/block/green_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "green_stained_glass",
-          "element_type": "block",
           "name": "Green Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Green"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Green",
+          "imagePath": "/block/green_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "green_stained_glass_pane",
-          "element_type": "block",
           "name": "Green Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green",
+          "imagePath": "/block/green_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "green_shulker_box",
-          "element_type": "block",
           "name": "Green Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Green"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Green",
+          "imagePath": "/block/green_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "green_bed",
-          "element_type": "block",
           "name": "Green Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Green"
+          "wiki": "https://minecraft.wiki/w/Bed#Green",
+          "imagePath": "/block/green_bed/latest.png"
         },
         "candle": {
           "identifier": "green_candle",
-          "element_type": "block",
           "name": "Green Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Green"
+          "wiki": "https://minecraft.wiki/w/Candle#Green",
+          "imagePath": "/block/green_candle/latest.png"
         },
         "banner": {
           "identifier": "green_banner",
-          "element_type": "block",
           "name": "Green Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Green"
+          "wiki": "https://minecraft.wiki/w/Banner#Green",
+          "imagePath": "/block/green_banner/latest.png"
         },
         "bundle": {
           "identifier": "green_bundle",
-          "element_type": "item",
           "name": "Green Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Green"
+          "wiki": "https://minecraft.wiki/w/Bundle#Green",
+          "imagePath": "/item/green_bundle/latest.png"
         },
         "harness": {
           "identifier": "green_harness",
-          "element_type": "item",
           "name": "Green Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Green"
+          "wiki": "https://minecraft.wiki/w/Harness#Green",
+          "imagePath": "/item/green_harness/latest.png"
         }
       }
     },
@@ -966,94 +966,94 @@
       "group_name": "Cyan",
       "material": {
         "identifier": "cyan_dye",
-        "element_type": "item",
         "name": "Cyan Dye",
-        "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+        "wiki": "https://minecraft.wiki/w/Cyan_Dye",
+        "imagePath": "/item/cyan_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "cyan_wool",
-          "element_type": "block",
           "name": "Cyan Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+          "wiki": "https://minecraft.wiki/w/Wool#Cyan",
+          "imagePath": "/block/cyan_wool/latest.png"
         },
         "carpet": {
           "identifier": "cyan_carpet",
-          "element_type": "block",
           "name": "Cyan Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Cyan"
+          "wiki": "https://minecraft.wiki/w/Carpet#Cyan",
+          "imagePath": "/block/cyan_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "cyan_terracotta",
-          "element_type": "block",
           "name": "Cyan Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan",
+          "imagePath": "/block/cyan_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "cyan_glazed_terracotta",
-          "element_type": "block",
           "name": "Cyan Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Cyan"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Cyan",
+          "imagePath": "/block/cyan_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "cyan_concrete_powder",
-          "element_type": "block",
           "name": "Cyan Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Cyan"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Cyan",
+          "imagePath": "/block/cyan_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "cyan_concrete",
-          "element_type": "block",
           "name": "Cyan Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Cyan"
+          "wiki": "https://minecraft.wiki/w/Concrete#Cyan",
+          "imagePath": "/block/cyan_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "cyan_stained_glass",
-          "element_type": "block",
           "name": "Cyan Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan",
+          "imagePath": "/block/cyan_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "cyan_stained_glass_pane",
-          "element_type": "block",
           "name": "Cyan Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan",
+          "imagePath": "/block/cyan_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "cyan_shulker_box",
-          "element_type": "block",
           "name": "Cyan Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan",
+          "imagePath": "/block/cyan_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "cyan_bed",
-          "element_type": "block",
           "name": "Cyan Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Cyan"
+          "wiki": "https://minecraft.wiki/w/Bed#Cyan",
+          "imagePath": "/block/cyan_bed/latest.png"
         },
         "candle": {
           "identifier": "cyan_candle",
-          "element_type": "block",
           "name": "Cyan Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Cyan"
+          "wiki": "https://minecraft.wiki/w/Candle#Cyan",
+          "imagePath": "/block/cyan_candle/latest.png"
         },
         "banner": {
           "identifier": "cyan_banner",
-          "element_type": "block",
           "name": "Cyan Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Cyan"
+          "wiki": "https://minecraft.wiki/w/Banner#Cyan",
+          "imagePath": "/block/cyan_banner/latest.png"
         },
         "bundle": {
           "identifier": "cyan_bundle",
-          "element_type": "item",
           "name": "Cyan Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Cyan"
+          "wiki": "https://minecraft.wiki/w/Bundle#Cyan",
+          "imagePath": "/item/cyan_bundle/latest.png"
         },
         "harness": {
           "identifier": "cyan_harness",
-          "element_type": "item",
           "name": "Cyan Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+          "wiki": "https://minecraft.wiki/w/Harness#Cyan",
+          "imagePath": "/item/cyan_harness/latest.png"
         }
       }
     },
@@ -1062,94 +1062,94 @@
       "group_name": "Light Blue",
       "material": {
         "identifier": "light_blue_dye",
-        "element_type": "item",
         "name": "Light Blue Dye",
-        "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+        "wiki": "https://minecraft.wiki/w/Light_Blue_Dye",
+        "imagePath": "/item/light_blue_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "light_blue_wool",
-          "element_type": "block",
           "name": "Light Blue Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Wool#Light_Blue",
+          "imagePath": "/block/light_blue_wool/latest.png"
         },
         "carpet": {
           "identifier": "light_blue_carpet",
-          "element_type": "block",
           "name": "Light Blue Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue",
+          "imagePath": "/block/light_blue_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "light_blue_terracotta",
-          "element_type": "block",
           "name": "Light Blue Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue",
+          "imagePath": "/block/light_blue_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "light_blue_glazed_terracotta",
-          "element_type": "block",
           "name": "Light Blue Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Blue",
+          "imagePath": "/block/light_blue_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "light_blue_concrete_powder",
-          "element_type": "block",
           "name": "Light Blue Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Blue",
+          "imagePath": "/block/light_blue_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "light_blue_concrete",
-          "element_type": "block",
           "name": "Light Blue Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Concrete#Light_Blue",
+          "imagePath": "/block/light_blue_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "light_blue_stained_glass",
-          "element_type": "block",
           "name": "Light Blue Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue",
+          "imagePath": "/block/light_blue_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "light_blue_stained_glass_pane",
-          "element_type": "block",
           "name": "Light Blue Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue",
+          "imagePath": "/block/light_blue_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "light_blue_shulker_box",
-          "element_type": "block",
           "name": "Light Blue Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue",
+          "imagePath": "/block/light_blue_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "light_blue_bed",
-          "element_type": "block",
           "name": "Light Blue Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Bed#Light_Blue",
+          "imagePath": "/block/light_blue_bed/latest.png"
         },
         "candle": {
           "identifier": "light_blue_candle",
-          "element_type": "block",
           "name": "Light Blue Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Candle#Light_Blue",
+          "imagePath": "/block/light_blue_candle/latest.png"
         },
         "banner": {
           "identifier": "light_blue_banner",
-          "element_type": "block",
           "name": "Light Blue Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Banner#Light_Blue",
+          "imagePath": "/block/light_blue_banner/latest.png"
         },
         "bundle": {
           "identifier": "light_blue_bundle",
-          "element_type": "item",
           "name": "Light Blue Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue",
+          "imagePath": "/item/light_blue_bundle/latest.png"
         },
         "harness": {
           "identifier": "light_blue_harness",
-          "element_type": "item",
           "name": "Light Blue Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+          "wiki": "https://minecraft.wiki/w/Harness#Light_Blue",
+          "imagePath": "/item/light_blue_harness/latest.png"
         }
       }
     },
@@ -1158,94 +1158,94 @@
       "group_name": "Blue",
       "material": {
         "identifier": "blue_dye",
-        "element_type": "item",
         "name": "Blue Dye",
-        "wiki": "https://minecraft.wiki/w/Blue_Dye"
+        "wiki": "https://minecraft.wiki/w/Blue_Dye",
+        "imagePath": "/item/blue_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "blue_wool",
-          "element_type": "block",
           "name": "Blue Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Blue"
+          "wiki": "https://minecraft.wiki/w/Wool#Blue",
+          "imagePath": "/block/blue_wool/latest.png"
         },
         "carpet": {
           "identifier": "blue_carpet",
-          "element_type": "block",
           "name": "Blue Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Blue"
+          "wiki": "https://minecraft.wiki/w/Carpet#Blue",
+          "imagePath": "/block/blue_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "blue_terracotta",
-          "element_type": "block",
           "name": "Blue Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue",
+          "imagePath": "/block/blue_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "blue_glazed_terracotta",
-          "element_type": "block",
           "name": "Blue Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Blue"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Blue",
+          "imagePath": "/block/blue_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "blue_concrete_powder",
-          "element_type": "block",
           "name": "Blue Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Blue"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Blue",
+          "imagePath": "/block/blue_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "blue_concrete",
-          "element_type": "block",
           "name": "Blue Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Blue"
+          "wiki": "https://minecraft.wiki/w/Concrete#Blue",
+          "imagePath": "/block/blue_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "blue_stained_glass",
-          "element_type": "block",
           "name": "Blue Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue",
+          "imagePath": "/block/blue_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "blue_stained_glass_pane",
-          "element_type": "block",
           "name": "Blue Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue",
+          "imagePath": "/block/blue_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "blue_shulker_box",
-          "element_type": "block",
           "name": "Blue Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue",
+          "imagePath": "/block/blue_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "blue_bed",
-          "element_type": "block",
           "name": "Blue Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Blue"
+          "wiki": "https://minecraft.wiki/w/Bed#Blue",
+          "imagePath": "/block/blue_bed/latest.png"
         },
         "candle": {
           "identifier": "blue_candle",
-          "element_type": "block",
           "name": "Blue Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Blue"
+          "wiki": "https://minecraft.wiki/w/Candle#Blue",
+          "imagePath": "/block/blue_candle/latest.png"
         },
         "banner": {
           "identifier": "blue_banner",
-          "element_type": "block",
           "name": "Blue Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Blue"
+          "wiki": "https://minecraft.wiki/w/Banner#Blue",
+          "imagePath": "/block/blue_banner/latest.png"
         },
         "bundle": {
           "identifier": "blue_bundle",
-          "element_type": "item",
           "name": "Blue Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Blue"
+          "wiki": "https://minecraft.wiki/w/Bundle#Blue",
+          "imagePath": "/item/blue_bundle/latest.png"
         },
         "harness": {
           "identifier": "blue_harness",
-          "element_type": "item",
           "name": "Blue Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Blue"
+          "wiki": "https://minecraft.wiki/w/Harness#Blue",
+          "imagePath": "/item/blue_harness/latest.png"
         }
       }
     },
@@ -1254,94 +1254,94 @@
       "group_name": "Purple",
       "material": {
         "identifier": "purple_dye",
-        "element_type": "item",
         "name": "Purple Dye",
-        "wiki": "https://minecraft.wiki/w/Purple_Dye"
+        "wiki": "https://minecraft.wiki/w/Purple_Dye",
+        "imagePath": "/item/purple_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "purple_wool",
-          "element_type": "block",
           "name": "Purple Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Purple"
+          "wiki": "https://minecraft.wiki/w/Wool#Purple",
+          "imagePath": "/block/purple_wool/latest.png"
         },
         "carpet": {
           "identifier": "purple_carpet",
-          "element_type": "block",
           "name": "Purple Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Purple"
+          "wiki": "https://minecraft.wiki/w/Carpet#Purple",
+          "imagePath": "/block/purple_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "purple_terracotta",
-          "element_type": "block",
           "name": "Purple Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple",
+          "imagePath": "/block/purple_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "purple_glazed_terracotta",
-          "element_type": "block",
           "name": "Purple Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Purple"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Purple",
+          "imagePath": "/block/purple_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "purple_concrete_powder",
-          "element_type": "block",
           "name": "Purple Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Purple"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Purple",
+          "imagePath": "/block/purple_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "purple_concrete",
-          "element_type": "block",
           "name": "Purple Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Purple"
+          "wiki": "https://minecraft.wiki/w/Concrete#Purple",
+          "imagePath": "/block/purple_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "purple_stained_glass",
-          "element_type": "block",
           "name": "Purple Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple",
+          "imagePath": "/block/purple_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "purple_stained_glass_pane",
-          "element_type": "block",
           "name": "Purple Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple",
+          "imagePath": "/block/purple_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "purple_shulker_box",
-          "element_type": "block",
           "name": "Purple Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple",
+          "imagePath": "/block/purple_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "purple_bed",
-          "element_type": "block",
           "name": "Purple Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Purple"
+          "wiki": "https://minecraft.wiki/w/Bed#Purple",
+          "imagePath": "/block/purple_bed/latest.png"
         },
         "candle": {
           "identifier": "purple_candle",
-          "element_type": "block",
           "name": "Purple Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Purple"
+          "wiki": "https://minecraft.wiki/w/Candle#Purple",
+          "imagePath": "/block/purple_candle/latest.png"
         },
         "banner": {
           "identifier": "purple_banner",
-          "element_type": "block",
           "name": "Purple Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Purple"
+          "wiki": "https://minecraft.wiki/w/Banner#Purple",
+          "imagePath": "/block/purple_banner/latest.png"
         },
         "bundle": {
           "identifier": "purple_bundle",
-          "element_type": "item",
           "name": "Purple Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Purple"
+          "wiki": "https://minecraft.wiki/w/Bundle#Purple",
+          "imagePath": "/item/purple_bundle/latest.png"
         },
         "harness": {
           "identifier": "purple_harness",
-          "element_type": "item",
           "name": "Purple Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Purple"
+          "wiki": "https://minecraft.wiki/w/Harness#Purple",
+          "imagePath": "/item/purple_harness/latest.png"
         }
       }
     },
@@ -1350,94 +1350,94 @@
       "group_name": "Magenta",
       "material": {
         "identifier": "magenta_dye",
-        "element_type": "item",
         "name": "Magenta Dye",
-        "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+        "wiki": "https://minecraft.wiki/w/Magenta_Dye",
+        "imagePath": "/item/magenta_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "magenta_wool",
-          "element_type": "block",
           "name": "Magenta Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+          "wiki": "https://minecraft.wiki/w/Wool#Magenta",
+          "imagePath": "/block/magenta_wool/latest.png"
         },
         "carpet": {
           "identifier": "magenta_carpet",
-          "element_type": "block",
           "name": "Magenta Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Magenta"
+          "wiki": "https://minecraft.wiki/w/Carpet#Magenta",
+          "imagePath": "/block/magenta_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "magenta_terracotta",
-          "element_type": "block",
           "name": "Magenta Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta",
+          "imagePath": "/block/magenta_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "magenta_glazed_terracotta",
-          "element_type": "block",
           "name": "Magenta Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Magenta"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Magenta",
+          "imagePath": "/block/magenta_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "magenta_concrete_powder",
-          "element_type": "block",
           "name": "Magenta Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta",
+          "imagePath": "/block/magenta_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "magenta_concrete",
-          "element_type": "block",
           "name": "Magenta Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Magenta"
+          "wiki": "https://minecraft.wiki/w/Concrete#Magenta",
+          "imagePath": "/block/magenta_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "magenta_stained_glass",
-          "element_type": "block",
           "name": "Magenta Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta",
+          "imagePath": "/block/magenta_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "magenta_stained_glass_pane",
-          "element_type": "block",
           "name": "Magenta Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta",
+          "imagePath": "/block/magenta_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "magenta_shulker_box",
-          "element_type": "block",
           "name": "Magenta Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta",
+          "imagePath": "/block/magenta_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "magenta_bed",
-          "element_type": "block",
           "name": "Magenta Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Magenta"
+          "wiki": "https://minecraft.wiki/w/Bed#Magenta",
+          "imagePath": "/block/magenta_bed/latest.png"
         },
         "candle": {
           "identifier": "magenta_candle",
-          "element_type": "block",
           "name": "Magenta Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Magenta"
+          "wiki": "https://minecraft.wiki/w/Candle#Magenta",
+          "imagePath": "/block/magenta_candle/latest.png"
         },
         "banner": {
           "identifier": "magenta_banner",
-          "element_type": "block",
           "name": "Magenta Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Magenta"
+          "wiki": "https://minecraft.wiki/w/Banner#Magenta",
+          "imagePath": "/block/magenta_banner/latest.png"
         },
         "bundle": {
           "identifier": "magenta_bundle",
-          "element_type": "item",
           "name": "Magenta Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Magenta"
+          "wiki": "https://minecraft.wiki/w/Bundle#Magenta",
+          "imagePath": "/item/magenta_bundle/latest.png"
         },
         "harness": {
           "identifier": "magenta_harness",
-          "element_type": "item",
           "name": "Magenta Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+          "wiki": "https://minecraft.wiki/w/Harness#Magenta",
+          "imagePath": "/item/magenta_harness/latest.png"
         }
       }
     },
@@ -1446,94 +1446,94 @@
       "group_name": "Pink",
       "material": {
         "identifier": "pink_dye",
-        "element_type": "item",
         "name": "Pink Dye",
-        "wiki": "https://minecraft.wiki/w/Pink_Dye"
+        "wiki": "https://minecraft.wiki/w/Pink_Dye",
+        "imagePath": "/item/pink_dye/latest.png"
       },
       "items": {
         "wool": {
           "identifier": "pink_wool",
-          "element_type": "block",
           "name": "Pink Wool",
-          "wiki": "https://minecraft.wiki/w/Wool#Pink"
+          "wiki": "https://minecraft.wiki/w/Wool#Pink",
+          "imagePath": "/block/pink_wool/latest.png"
         },
         "carpet": {
           "identifier": "pink_carpet",
-          "element_type": "block",
           "name": "Pink Carpet",
-          "wiki": "https://minecraft.wiki/w/Carpet#Pink"
+          "wiki": "https://minecraft.wiki/w/Carpet#Pink",
+          "imagePath": "/block/pink_carpet/latest.png"
         },
         "stained_terracotta": {
           "identifier": "pink_terracotta",
-          "element_type": "block",
           "name": "Pink Terracotta",
-          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink"
+          "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink",
+          "imagePath": "/block/pink_terracotta/latest.png"
         },
         "glazed_terracotta": {
           "identifier": "pink_glazed_terracotta",
-          "element_type": "block",
           "name": "Pink Glazed Terracotta",
-          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Pink"
+          "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Pink",
+          "imagePath": "/block/pink_glazed_terracotta/latest.png"
         },
         "concrete_powder": {
           "identifier": "pink_concrete_powder",
-          "element_type": "block",
           "name": "Pink Concrete Powder",
-          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Pink"
+          "wiki": "https://minecraft.wiki/w/Concrete_Powder#Pink",
+          "imagePath": "/block/pink_concrete_powder/latest.png"
         },
         "concrete": {
           "identifier": "pink_concrete",
-          "element_type": "block",
           "name": "Pink Concrete",
-          "wiki": "https://minecraft.wiki/w/Concrete#Pink"
+          "wiki": "https://minecraft.wiki/w/Concrete#Pink",
+          "imagePath": "/block/pink_concrete/latest.png"
         },
         "stained_glass": {
           "identifier": "pink_stained_glass",
-          "element_type": "block",
           "name": "Pink Stained Glass",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink",
+          "imagePath": "/block/pink_stained_glass/latest.png"
         },
         "stained_glass_pane": {
           "identifier": "pink_stained_glass_pane",
-          "element_type": "block",
           "name": "Pink Stained Glass Pane",
-          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink"
+          "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink",
+          "imagePath": "/block/pink_stained_glass_pane/latest.png"
         },
         "shulker_box": {
           "identifier": "pink_shulker_box",
-          "element_type": "block",
           "name": "Pink Shulker Box",
-          "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink"
+          "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink",
+          "imagePath": "/block/pink_shulker_box/latest.png"
         },
         "bed": {
           "identifier": "pink_bed",
-          "element_type": "block",
           "name": "Pink Bed",
-          "wiki": "https://minecraft.wiki/w/Bed#Pink"
+          "wiki": "https://minecraft.wiki/w/Bed#Pink",
+          "imagePath": "/block/pink_bed/latest.png"
         },
         "candle": {
           "identifier": "pink_candle",
-          "element_type": "block",
           "name": "Pink Candle",
-          "wiki": "https://minecraft.wiki/w/Candle#Pink"
+          "wiki": "https://minecraft.wiki/w/Candle#Pink",
+          "imagePath": "/block/pink_candle/latest.png"
         },
         "banner": {
           "identifier": "pink_banner",
-          "element_type": "block",
           "name": "Pink Banner",
-          "wiki": "https://minecraft.wiki/w/Banner#Pink"
+          "wiki": "https://minecraft.wiki/w/Banner#Pink",
+          "imagePath": "/block/pink_banner/latest.png"
         },
         "bundle": {
           "identifier": "pink_bundle",
-          "element_type": "item",
           "name": "Pink Bundle",
-          "wiki": "https://minecraft.wiki/w/Bundle#Pink"
+          "wiki": "https://minecraft.wiki/w/Bundle#Pink",
+          "imagePath": "/item/pink_bundle/latest.png"
         },
         "harness": {
           "identifier": "pink_harness",
-          "element_type": "item",
           "name": "Pink Harness",
-          "wiki": "https://minecraft.wiki/w/Harness#Pink"
+          "wiki": "https://minecraft.wiki/w/Harness#Pink",
+          "imagePath": "/item/pink_harness/latest.png"
         }
       }
     }

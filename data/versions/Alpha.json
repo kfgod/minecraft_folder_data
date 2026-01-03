@@ -6,194 +6,184 @@
                     "woodset/oak",
                     "pressure_plates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak",
                 "name": "Oak Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak"
+                "identifier": "oak_pressure_plate",
+                "imagePath": "/block/oak_pressure_plate/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "fences"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_fence",
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak",
                 "name": "Oak Fence",
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak"
+                "identifier": "oak_fence",
+                "imagePath": "/block/oak_fence/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "redstone_ore",
+                "wiki": "https://minecraft.wiki/w/Redstone_Ore",
                 "name": "Redstone Ore",
-                "wiki": "https://minecraft.wiki/w/Redstone_Ore"
+                "identifier": "redstone_ore",
+                "imagePath": "/block/redstone_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "redstone_torch",
+                "wiki": "https://minecraft.wiki/w/Redstone_Torch",
                 "name": "Redstone Torch",
-                "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+                "identifier": "redstone_torch",
+                "imagePath": "/block/redstone_torch/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate",
                 "name": "Stone Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate"
+                "identifier": "stone_pressure_plate",
+                "imagePath": "/block/stone_pressure_plate/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone_button",
+                "wiki": "https://minecraft.wiki/w/Stone_Button",
                 "name": "Stone Button",
-                "wiki": "https://minecraft.wiki/w/Stone_Button"
+                "identifier": "stone_button",
+                "imagePath": "/block/stone_button/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lever",
+                "wiki": "https://minecraft.wiki/w/Lever",
                 "name": "Lever",
-                "wiki": "https://minecraft.wiki/w/Lever"
+                "identifier": "lever",
+                "imagePath": "/block/lever/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "iron_door",
+                "wiki": "https://minecraft.wiki/w/Iron_Door",
                 "name": "Iron Door",
-                "wiki": "https://minecraft.wiki/w/Iron_Door"
+                "identifier": "iron_door",
+                "imagePath": "/block/iron_door/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "snow",
+                "wiki": "https://minecraft.wiki/w/Snow",
                 "name": "Snow",
-                "wiki": "https://minecraft.wiki/w/Snow"
+                "identifier": "snow",
+                "imagePath": "/block/snow/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "ice",
+                "wiki": "https://minecraft.wiki/w/Ice",
                 "name": "Ice",
-                "wiki": "https://minecraft.wiki/w/Ice"
+                "identifier": "ice",
+                "imagePath": "/block/ice/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "snow_block",
+                "wiki": "https://minecraft.wiki/w/Snow_Block",
                 "name": "Snow Block",
-                "wiki": "https://minecraft.wiki/w/Snow_Block"
+                "identifier": "snow_block",
+                "imagePath": "/block/snow_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cactus",
+                "wiki": "https://minecraft.wiki/w/Cactus",
                 "name": "Cactus",
-                "wiki": "https://minecraft.wiki/w/Cactus"
+                "identifier": "cactus",
+                "imagePath": "/block/cactus/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "clay",
+                "wiki": "https://minecraft.wiki/w/Clay",
                 "name": "Clay",
-                "wiki": "https://minecraft.wiki/w/Clay"
+                "identifier": "clay",
+                "imagePath": "/block/clay/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "jukebox",
+                "wiki": "https://minecraft.wiki/w/Jukebox",
                 "name": "Jukebox",
-                "wiki": "https://minecraft.wiki/w/Jukebox"
+                "identifier": "jukebox",
+                "imagePath": "/block/jukebox/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "netherrack",
+                "wiki": "https://minecraft.wiki/w/Netherrack",
                 "name": "Netherrack",
-                "wiki": "https://minecraft.wiki/w/Netherrack"
+                "identifier": "netherrack",
+                "imagePath": "/block/netherrack/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "soul_sand",
+                "wiki": "https://minecraft.wiki/w/Soul_Sand",
                 "name": "Soul Sand",
-                "wiki": "https://minecraft.wiki/w/Soul_Sand"
+                "identifier": "soul_sand",
+                "imagePath": "/block/soul_sand/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "glowstone",
+                "wiki": "https://minecraft.wiki/w/Glowstone",
                 "name": "Glowstone",
-                "wiki": "https://minecraft.wiki/w/Glowstone"
+                "identifier": "glowstone",
+                "imagePath": "/block/glowstone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "carved_pumpkin",
+                "wiki": "https://minecraft.wiki/w/Carved_Pumpkin",
                 "name": "Carved Pumpkin",
-                "wiki": "https://minecraft.wiki/w/Carved_Pumpkin"
+                "identifier": "carved_pumpkin",
+                "imagePath": "/block/carved_pumpkin/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "jack_o_lantern",
+                "wiki": "https://minecraft.wiki/w/Jack_o%27Lantern",
                 "name": "Jack o'Lantern",
-                "wiki": "https://minecraft.wiki/w/Jack_o%27Lantern"
+                "identifier": "jack_o_lantern",
+                "imagePath": "/block/jack_o_lantern/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Graham",
                 "identifier": "graham_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Graham",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Creebet",
                 "identifier": "creebet_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Creebet",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Kong",
                 "identifier": "kong_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Kong",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Mortal Coil",
                 "identifier": "mortal_coil_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Mortal Coil",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Pigscene",
                 "identifier": "pigscene_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Pigscene",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             }
         ],
         "items": [
@@ -201,164 +191,164 @@
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_cat",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_cat",
                 "name": "Music Disc cat",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_cat"
+                "identifier": "music_disc_cat",
+                "imagePath": "/item/music_disc_cat/latest.png"
             },
             {
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_13",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_13",
                 "name": "Music Disc 13",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_13"
+                "identifier": "music_disc_13",
+                "imagePath": "/item/music_disc_13/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "egg",
+                "wiki": "https://minecraft.wiki/w/Egg",
                 "name": "Egg",
-                "wiki": "https://minecraft.wiki/w/Egg"
+                "identifier": "egg",
+                "imagePath": "/item/egg/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "oak_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Oak",
                 "name": "Oak Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Oak"
+                "identifier": "oak_boat",
+                "imagePath": "/item/oak_boat/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "sugar_cane",
+                "wiki": "https://minecraft.wiki/w/Sugar_Cane",
                 "name": "Sugar Cane",
-                "wiki": "https://minecraft.wiki/w/Sugar_Cane"
+                "identifier": "sugar_cane",
+                "imagePath": "/item/sugar_cane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "redstone",
+                "wiki": "https://minecraft.wiki/w/Redstone_Dust",
                 "name": "Redstone Dust",
-                "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+                "identifier": "redstone",
+                "imagePath": "/item/redstone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "snowball",
+                "wiki": "https://minecraft.wiki/w/Snowball",
                 "name": "Snowball",
-                "wiki": "https://minecraft.wiki/w/Snowball"
+                "identifier": "snowball",
+                "imagePath": "/item/snowball/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "leather",
+                "wiki": "https://minecraft.wiki/w/Leather",
                 "name": "Leather",
-                "wiki": "https://minecraft.wiki/w/Leather"
+                "identifier": "leather",
+                "imagePath": "/item/leather/latest.png"
             },
             {
                 "types": [
                     "buckets"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "milk_bucket",
+                "wiki": "https://minecraft.wiki/w/Milk_Bucket",
                 "name": "Milk Bucket",
-                "wiki": "https://minecraft.wiki/w/Milk_Bucket"
+                "identifier": "milk_bucket",
+                "imagePath": "/item/milk_bucket/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "paper",
+                "wiki": "https://minecraft.wiki/w/Paper",
                 "name": "Paper",
-                "wiki": "https://minecraft.wiki/w/Paper"
+                "identifier": "paper",
+                "imagePath": "/item/paper/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "book",
+                "wiki": "https://minecraft.wiki/w/Book",
                 "name": "Book",
-                "wiki": "https://minecraft.wiki/w/Book"
+                "identifier": "book",
+                "imagePath": "/item/book/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "clay_ball",
+                "wiki": "https://minecraft.wiki/w/Clay_Ball",
                 "name": "Clay Ball",
-                "wiki": "https://minecraft.wiki/w/Clay_Ball"
+                "identifier": "clay_ball",
+                "imagePath": "/item/clay_ball/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "brick",
+                "wiki": "https://minecraft.wiki/w/Brick",
                 "name": "Brick",
-                "wiki": "https://minecraft.wiki/w/Brick"
+                "identifier": "brick",
+                "imagePath": "/item/brick/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "slime_ball",
+                "wiki": "https://minecraft.wiki/w/Slimeball",
                 "name": "Slimeball",
-                "wiki": "https://minecraft.wiki/w/Slimeball"
+                "identifier": "slime_ball",
+                "imagePath": "/item/slime_ball/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "furnace_minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart_with_Furnace",
                 "name": "Minecart with Furnace",
-                "wiki": "https://minecraft.wiki/w/Minecart_with_Furnace"
+                "identifier": "furnace_minecart",
+                "imagePath": "/item/furnace_minecart/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "chest_minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart_with_Chest",
                 "name": "Minecart with Chest",
-                "wiki": "https://minecraft.wiki/w/Minecart_with_Chest"
+                "identifier": "chest_minecart",
+                "imagePath": "/item/chest_minecart/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "compass",
+                "wiki": "https://minecraft.wiki/w/Compass",
                 "name": "Compass",
-                "wiki": "https://minecraft.wiki/w/Compass"
+                "identifier": "compass",
+                "imagePath": "/item/compass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "fishing_rod",
+                "wiki": "https://minecraft.wiki/w/Fishing_Rod",
                 "name": "Fishing Rod",
-                "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+                "identifier": "fishing_rod",
+                "imagePath": "/item/fishing_rod/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "clock",
+                "wiki": "https://minecraft.wiki/w/Clock",
                 "name": "Clock",
-                "wiki": "https://minecraft.wiki/w/Clock"
+                "identifier": "clock",
+                "imagePath": "/item/clock/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "glowstone_dust",
+                "wiki": "https://minecraft.wiki/w/Glowstone_Dust",
                 "name": "Glowstone Dust",
-                "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+                "identifier": "glowstone_dust",
+                "imagePath": "/item/glowstone_dust/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cooked_cod",
+                "wiki": "https://minecraft.wiki/w/Cooked_Cod",
                 "name": "Cooked Cod",
-                "wiki": "https://minecraft.wiki/w/Cooked_Cod"
+                "identifier": "cooked_cod",
+                "imagePath": "/item/cooked_cod/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cod",
+                "wiki": "https://minecraft.wiki/w/Raw_Cod",
                 "name": "Raw Cod",
-                "wiki": "https://minecraft.wiki/w/Raw_Cod"
+                "identifier": "cod",
+                "imagePath": "/item/cod/latest.png"
             }
         ],
         "mobs": [
@@ -366,90 +356,90 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "chicken",
-                "name": "Chicken",
                 "wiki": "https://minecraft.wiki/w/Chicken",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "chicken_spawn_egg",
-                        "element_type": "item",
                         "name": "Chicken Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/chicken_spawn_egg/latest.png"
                     },
                     "health": 4
-                }
+                },
+                "name": "Chicken",
+                "identifier": "chicken",
+                "imagePath": "/mob/chicken/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "cow",
-                "name": "Cow",
                 "wiki": "https://minecraft.wiki/w/Cow",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "cow_spawn_egg",
-                        "element_type": "item",
                         "name": "Cow Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/cow_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Cow",
+                "identifier": "cow",
+                "imagePath": "/mob/cow/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "zombified_piglin",
-                "name": "Zombified Piglin",
                 "wiki": "https://minecraft.wiki/w/Zombified_Piglin",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombified_piglin_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombified Piglin Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombified_piglin_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Zombified Piglin",
+                "identifier": "zombified_piglin",
+                "imagePath": "/mob/zombified_piglin/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "ghast",
-                "name": "Ghast",
                 "wiki": "https://minecraft.wiki/w/Ghast",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "ghast_spawn_egg",
-                        "element_type": "item",
                         "name": "Ghast Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/ghast_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Ghast",
+                "identifier": "ghast",
+                "imagePath": "/mob/ghast/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "slime",
-                "name": "Slime",
                 "wiki": "https://minecraft.wiki/w/Slime",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "slime_spawn_egg",
-                        "element_type": "item",
                         "name": "Slime Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/slime_spawn_egg/latest.png"
                     }
-                }
+                },
+                "name": "Slime",
+                "identifier": "slime",
+                "imagePath": "/mob/slime/latest.png"
             }
         ],
         "paintings": [
@@ -457,51 +447,46 @@
                 "types": [
                     "paintings/4x4"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "pigscene",
-                "name": "Pigscene",
-                "display_name": "Pigscene – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Pigscene – Kristoffer Zetterstrand",
+                "identifier": "pigscene",
+                "imagePath": "/painting/pigscene/latest.png"
             },
             {
                 "types": [
                     "paintings/4x3"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "skeleton",
-                "name": "Mortal Coil",
-                "display_name": "Mortal Coil – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Mortal Coil – Kristoffer Zetterstrand",
+                "identifier": "skeleton",
+                "imagePath": "/painting/skeleton/latest.png"
             },
             {
                 "types": [
                     "paintings/4x3"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "donkey_kong",
-                "name": "Kong",
-                "display_name": "Kong – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Kong – Kristoffer Zetterstrand",
+                "identifier": "donkey_kong",
+                "imagePath": "/painting/donkey_kong/latest.png"
             },
             {
                 "types": [
                     "paintings/2x1"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "creebet",
-                "name": "Creebet",
-                "display_name": "Creebet – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Creebet – Kristoffer Zetterstrand",
+                "identifier": "creebet",
+                "imagePath": "/painting/creebet/latest.png"
             },
             {
                 "types": [
                     "paintings/1x2"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "graham",
-                "name": "Graham",
-                "display_name": "Graham – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Graham – Kristoffer Zetterstrand",
+                "identifier": "graham",
+                "imagePath": "/painting/graham/latest.png"
             }
         ],
         "biomes": [
@@ -509,46 +494,46 @@
                 "types": [
                     "biome/nether"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "nether_wastes",
+                "wiki": "https://minecraft.wiki/w/Nether_Wastes",
                 "name": "Nether Wastes",
-                "wiki": "https://minecraft.wiki/w/Nether_Wastes"
+                "identifier": "nether_wastes",
+                "imagePath": "/biome/nether_wastes/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "desert",
+                "wiki": "https://minecraft.wiki/w/Desert",
                 "name": "Desert",
-                "wiki": "https://minecraft.wiki/w/Desert"
+                "identifier": "desert",
+                "imagePath": "/biome/desert/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "forest",
+                "wiki": "https://minecraft.wiki/w/Forest",
                 "name": "Forest",
-                "wiki": "https://minecraft.wiki/w/Forest"
+                "identifier": "forest",
+                "imagePath": "/biome/forest/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "plains",
+                "wiki": "https://minecraft.wiki/w/Plains",
                 "name": "Plains",
-                "wiki": "https://minecraft.wiki/w/Plains"
+                "identifier": "plains",
+                "imagePath": "/biome/plains/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "taiga",
+                "wiki": "https://minecraft.wiki/w/Taiga",
                 "name": "Taiga",
-                "wiki": "https://minecraft.wiki/w/Taiga"
+                "identifier": "taiga",
+                "imagePath": "/biome/taiga/latest.png"
             }
         ]
     },

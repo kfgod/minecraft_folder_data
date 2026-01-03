@@ -6,129 +6,129 @@
                     "woodset/cherry",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_log",
+                "wiki": "https://minecraft.wiki/w/Log#Cherry",
                 "name": "Cherry Log",
-                "wiki": "https://minecraft.wiki/w/Log#Cherry"
+                "identifier": "cherry_log",
+                "imagePath": "/block/cherry_log/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "stripped_logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "stripped_cherry_log",
-                "name": "Stripped Cherry Log"
+                "name": "Stripped Cherry Log",
+                "identifier": "stripped_cherry_log",
+                "imagePath": "/block/stripped_cherry_log/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tiny"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "pink_petals",
+                "wiki": "https://minecraft.wiki/w/Pink_Petals",
                 "name": "Pink Petals",
-                "wiki": "https://minecraft.wiki/w/Pink_Petals"
+                "identifier": "pink_petals",
+                "imagePath": "/block/pink_petals/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "torchflower",
+                "wiki": "https://minecraft.wiki/w/Torchflower",
                 "name": "Torchflower",
-                "wiki": "https://minecraft.wiki/w/Torchflower"
+                "identifier": "torchflower",
+                "imagePath": "/block/torchflower/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/tall"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "pitcher_plant",
+                "wiki": "https://minecraft.wiki/w/Pitcher_Plant",
                 "name": "Pitcher Plant",
-                "wiki": "https://minecraft.wiki/w/Pitcher_Plant"
+                "identifier": "pitcher_plant",
+                "imagePath": "/block/pitcher_plant/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_wood",
+                "wiki": "https://minecraft.wiki/w/Wood#Cherry",
                 "name": "Cherry Wood",
-                "wiki": "https://minecraft.wiki/w/Wood#Cherry"
+                "identifier": "cherry_wood",
+                "imagePath": "/block/cherry_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "stripped_woods"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "stripped_cherry_wood",
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry",
                 "name": "Stripped Cherry Wood",
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry"
+                "identifier": "stripped_cherry_wood",
+                "imagePath": "/block/stripped_cherry_wood/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Cherry",
                 "name": "Cherry Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+                "identifier": "cherry_planks",
+                "imagePath": "/block/cherry_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "planks"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_planks",
+                "wiki": "https://minecraft.wiki/w/Planks#Bamboo",
                 "name": "Bamboo Planks",
-                "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+                "identifier": "bamboo_planks",
+                "imagePath": "/block/bamboo_planks/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry",
                 "name": "Cherry Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry"
+                "identifier": "cherry_stairs",
+                "imagePath": "/block/cherry_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo",
                 "name": "Bamboo Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo"
+                "identifier": "bamboo_stairs",
+                "imagePath": "/block/bamboo_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry",
                 "name": "Cherry Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+                "identifier": "cherry_slab",
+                "imagePath": "/block/cherry_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_slab",
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo",
                 "name": "Bamboo Slab",
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+                "identifier": "bamboo_slab",
+                "imagePath": "/block/bamboo_slab/latest.png"
             },
             {
                 "types": [
@@ -137,10 +137,10 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
                 "name": "Cherry Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Cherry"
+                "identifier": "cherry_sapling",
+                "imagePath": "/block/cherry_sapling/latest.png"
             },
             {
                 "types": [
@@ -149,360 +149,360 @@
                     "woodset/cherry",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
                 "name": "Cherry Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Cherry"
+                "identifier": "cherry_leaves",
+                "imagePath": "/block/cherry_leaves/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_sign",
+                "wiki": "https://minecraft.wiki/w/Sign#Cherry",
                 "name": "Cherry Sign",
-                "wiki": "https://minecraft.wiki/w/Sign#Cherry"
+                "identifier": "cherry_sign",
+                "imagePath": "/block/cherry_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_sign",
+                "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
                 "name": "Bamboo Sign",
-                "wiki": "https://minecraft.wiki/w/Sign#Bamboo"
+                "identifier": "bamboo_sign",
+                "imagePath": "/block/bamboo_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak",
                 "name": "Oak Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak"
+                "identifier": "oak_hanging_sign",
+                "imagePath": "/block/oak_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/spruce",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce",
                 "name": "Spruce Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce"
+                "identifier": "spruce_hanging_sign",
+                "imagePath": "/block/spruce_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/birch",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch",
                 "name": "Birch Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch"
+                "identifier": "birch_hanging_sign",
+                "imagePath": "/block/birch_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle",
                 "name": "Jungle Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle"
+                "identifier": "jungle_hanging_sign",
+                "imagePath": "/block/jungle_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "acacia_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia",
                 "name": "Acacia Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia"
+                "identifier": "acacia_hanging_sign",
+                "imagePath": "/block/acacia_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/dark_oak",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dark_oak_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak",
                 "name": "Dark Oak Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak"
+                "identifier": "dark_oak_hanging_sign",
+                "imagePath": "/block/dark_oak_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/mangrove",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "mangrove_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove",
                 "name": "Mangrove Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove"
+                "identifier": "mangrove_hanging_sign",
+                "imagePath": "/block/mangrove_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry",
                 "name": "Cherry Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry"
+                "identifier": "cherry_hanging_sign",
+                "imagePath": "/block/cherry_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo",
                 "name": "Bamboo Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo"
+                "identifier": "bamboo_hanging_sign",
+                "imagePath": "/block/bamboo_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/crimson",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "crimson_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson",
                 "name": "Crimson Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson"
+                "identifier": "crimson_hanging_sign",
+                "imagePath": "/block/crimson_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/warped",
                     "hanging_signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "warped_hanging_sign",
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped",
                 "name": "Warped Hanging Sign",
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped"
+                "identifier": "warped_hanging_sign",
+                "imagePath": "/block/warped_hanging_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "buttons"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_button",
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry",
                 "name": "Cherry Button",
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry"
+                "identifier": "cherry_button",
+                "imagePath": "/block/cherry_button/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "buttons"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_button",
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo",
                 "name": "Bamboo Button",
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo"
+                "identifier": "bamboo_button",
+                "imagePath": "/block/bamboo_button/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "pressure_plates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry",
                 "name": "Cherry Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry"
+                "identifier": "cherry_pressure_plate",
+                "imagePath": "/block/cherry_pressure_plate/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "pressure_plates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_pressure_plate",
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo",
                 "name": "Bamboo Pressure Plate",
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo"
+                "identifier": "bamboo_pressure_plate",
+                "imagePath": "/block/bamboo_pressure_plate/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "trapdoors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_trapdoor",
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry",
                 "name": "Cherry Trapdoor",
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry"
+                "identifier": "cherry_trapdoor",
+                "imagePath": "/block/cherry_trapdoor/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "trapdoors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_trapdoor",
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo",
                 "name": "Bamboo Trapdoor",
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo"
+                "identifier": "bamboo_trapdoor",
+                "imagePath": "/block/bamboo_trapdoor/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "doors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_door",
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry",
                 "name": "Cherry Door",
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry"
+                "identifier": "cherry_door",
+                "imagePath": "/block/cherry_door/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "doors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_door",
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo",
                 "name": "Bamboo Door",
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo"
+                "identifier": "bamboo_door",
+                "imagePath": "/block/bamboo_door/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "fences"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_fence",
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry",
                 "name": "Cherry Fence",
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry"
+                "identifier": "cherry_fence",
+                "imagePath": "/block/cherry_fence/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "fences"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_fence",
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo",
                 "name": "Bamboo Fence",
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo"
+                "identifier": "bamboo_fence",
+                "imagePath": "/block/bamboo_fence/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "gates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "cherry_fence_gate",
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry",
                 "name": "Cherry Fence Gate",
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry"
+                "identifier": "cherry_fence_gate",
+                "imagePath": "/block/cherry_fence_gate/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "gates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_fence_gate",
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo",
                 "name": "Bamboo Fence Gate",
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo"
+                "identifier": "bamboo_fence_gate",
+                "imagePath": "/block/bamboo_fence_gate/latest.png"
             },
             {
                 "types": [
                     "heads"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "piglin_head",
+                "wiki": "https://minecraft.wiki/w/Piglin_Head",
                 "name": "Piglin Head",
-                "wiki": "https://minecraft.wiki/w/Piglin_Head"
+                "identifier": "piglin_head",
+                "imagePath": "/block/piglin_head/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_mosaic",
+                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic",
                 "name": "Bamboo Mosaic",
-                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic"
+                "identifier": "bamboo_mosaic",
+                "imagePath": "/block/bamboo_mosaic/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_mosaic_stairs",
+                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Stairs",
                 "name": "Bamboo Mosaic Stairs",
-                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Stairs"
+                "identifier": "bamboo_mosaic_stairs",
+                "imagePath": "/block/bamboo_mosaic_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "slabs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_mosaic_slab",
+                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Slab",
                 "name": "Bamboo Mosaic Slab",
-                "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Slab"
+                "identifier": "bamboo_mosaic_slab",
+                "imagePath": "/block/bamboo_mosaic_slab/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "bamboo_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
                 "name": "Block of Bamboo",
-                "wiki": "https://minecraft.wiki/w/Block_of_Bamboo"
+                "identifier": "bamboo_block",
+                "imagePath": "/block/bamboo_block/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "stripped_logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "stripped_bamboo_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo",
                 "name": "Block of Stripped Bamboo",
-                "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo"
+                "identifier": "stripped_bamboo_block",
+                "imagePath": "/block/stripped_bamboo_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "calibrated_sculk_sensor",
+                "wiki": "https://minecraft.wiki/w/Calibrated_Sculk_Sensor",
                 "name": "Calibrated Sculk Sensor",
-                "wiki": "https://minecraft.wiki/w/Calibrated_Sculk_Sensor"
+                "identifier": "calibrated_sculk_sensor",
+                "imagePath": "/block/calibrated_sculk_sensor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chiseled_bookshelf",
+                "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf",
                 "name": "Chiseled Bookshelf",
-                "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf"
+                "identifier": "chiseled_bookshelf",
+                "imagePath": "/block/chiseled_bookshelf/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "decorated_pot",
+                "wiki": "https://minecraft.wiki/w/Decorated_Pot",
                 "name": "Decorated Pot",
-                "wiki": "https://minecraft.wiki/w/Decorated_Pot"
+                "identifier": "decorated_pot",
+                "imagePath": "/block/decorated_pot/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sniffer_egg",
+                "wiki": "https://minecraft.wiki/w/Sniffer_Egg",
                 "name": "Sniffer Egg",
-                "wiki": "https://minecraft.wiki/w/Sniffer_Egg"
+                "identifier": "sniffer_egg",
+                "imagePath": "/block/sniffer_egg/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "suspicious_sand",
+                "wiki": "https://minecraft.wiki/w/Suspicious_Sand",
                 "name": "Suspicious Sand",
-                "wiki": "https://minecraft.wiki/w/Suspicious_Sand"
+                "identifier": "suspicious_sand",
+                "imagePath": "/block/suspicious_sand/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "suspicious_gravel",
+                "wiki": "https://minecraft.wiki/w/Suspicious_Gravel",
                 "name": "Suspicious Gravel",
-                "wiki": "https://minecraft.wiki/w/Suspicious_Gravel"
+                "identifier": "suspicious_gravel",
+                "imagePath": "/block/suspicious_gravel/latest.png"
             }
         ],
         "items": [
@@ -511,427 +511,427 @@
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pitcher_pod",
+                "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
                 "name": "Pitcher Pod",
-                "wiki": "https://minecraft.wiki/w/Pitcher_Pod"
+                "identifier": "pitcher_pod",
+                "imagePath": "/item/pitcher_pod/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "torchflower_seeds",
+                "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
                 "name": "Torchflower Seeds",
-                "wiki": "https://minecraft.wiki/w/Torchflower_Seeds"
+                "identifier": "torchflower_seeds",
+                "imagePath": "/item/torchflower_seeds/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "angler_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Angler_Pottery_Sherd",
                 "name": "Angler Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Angler_Pottery_Sherd"
+                "identifier": "angler_pottery_sherd",
+                "imagePath": "/item/angler_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "archer_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Archer_Pottery_Sherd",
                 "name": "Archer Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Archer_Pottery_Sherd"
+                "identifier": "archer_pottery_sherd",
+                "imagePath": "/item/archer_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "arms_up_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Arms_Up_Pottery_Sherd",
                 "name": "Arms Up Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Arms_Up_Pottery_Sherd"
+                "identifier": "arms_up_pottery_sherd",
+                "imagePath": "/item/arms_up_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "blade_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Blade_Pottery_Sherd",
                 "name": "Blade Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Blade_Pottery_Sherd"
+                "identifier": "blade_pottery_sherd",
+                "imagePath": "/item/blade_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "brewer_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Brewer_Pottery_Sherd",
                 "name": "Brewer Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Brewer_Pottery_Sherd"
+                "identifier": "brewer_pottery_sherd",
+                "imagePath": "/item/brewer_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "burn_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Burn_Pottery_Sherd",
                 "name": "Burn Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Burn_Pottery_Sherd"
+                "identifier": "burn_pottery_sherd",
+                "imagePath": "/item/burn_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "danger_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Danger_Pottery_Sherd",
                 "name": "Danger Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Danger_Pottery_Sherd"
+                "identifier": "danger_pottery_sherd",
+                "imagePath": "/item/danger_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "explorer_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Explorer_Pottery_Sherd",
                 "name": "Explorer Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Explorer_Pottery_Sherd"
+                "identifier": "explorer_pottery_sherd",
+                "imagePath": "/item/explorer_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "friend_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Friend_Pottery_Sherd",
                 "name": "Friend Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Friend_Pottery_Sherd"
+                "identifier": "friend_pottery_sherd",
+                "imagePath": "/item/friend_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "heart_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Heart_Pottery_Sherd",
                 "name": "Heart Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Heart_Pottery_Sherd"
+                "identifier": "heart_pottery_sherd",
+                "imagePath": "/item/heart_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "heartbreak_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Heartbreak_Pottery_Sherd",
                 "name": "Heartbreak Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Heartbreak_Pottery_Sherd"
+                "identifier": "heartbreak_pottery_sherd",
+                "imagePath": "/item/heartbreak_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "howl_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Howl_Pottery_Sherd",
                 "name": "Howl Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Howl_Pottery_Sherd"
+                "identifier": "howl_pottery_sherd",
+                "imagePath": "/item/howl_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "miner_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Miner_Pottery_Sherd",
                 "name": "Miner Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Miner_Pottery_Sherd"
+                "identifier": "miner_pottery_sherd",
+                "imagePath": "/item/miner_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "mourner_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Mourner_Pottery_Sherd",
                 "name": "Mourner Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Mourner_Pottery_Sherd"
+                "identifier": "mourner_pottery_sherd",
+                "imagePath": "/item/mourner_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "plenty_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Plenty_Pottery_Sherd",
                 "name": "Plenty Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Plenty_Pottery_Sherd"
+                "identifier": "plenty_pottery_sherd",
+                "imagePath": "/item/plenty_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "prize_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Prize_Pottery_Sherd",
                 "name": "Prize Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Prize_Pottery_Sherd"
+                "identifier": "prize_pottery_sherd",
+                "imagePath": "/item/prize_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "sheaf_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Sheaf_Pottery_Sherd",
                 "name": "Sheaf Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Sheaf_Pottery_Sherd"
+                "identifier": "sheaf_pottery_sherd",
+                "imagePath": "/item/sheaf_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "shelter_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Shelter_Pottery_Sherd",
                 "name": "Shelter Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Shelter_Pottery_Sherd"
+                "identifier": "shelter_pottery_sherd",
+                "imagePath": "/item/shelter_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "skull_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Skull_Pottery_Sherd",
                 "name": "Skull Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Skull_Pottery_Sherd"
+                "identifier": "skull_pottery_sherd",
+                "imagePath": "/item/skull_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "pottery_sherd"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "snort_pottery_sherd",
+                "wiki": "https://minecraft.wiki/w/Snort_Pottery_Sherd",
                 "name": "Snort Pottery Sherd",
-                "wiki": "https://minecraft.wiki/w/Snort_Pottery_Sherd"
+                "identifier": "snort_pottery_sherd",
+                "imagePath": "/item/snort_pottery_sherd/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "coast_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim",
                 "name": "Coast Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim"
+                "identifier": "coast_armor_trim_smithing_template",
+                "imagePath": "/item/coast_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "dune_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim",
                 "name": "Dune Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+                "identifier": "dune_armor_trim_smithing_template",
+                "imagePath": "/item/dune_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "eye_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim",
                 "name": "Eye Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim"
+                "identifier": "eye_armor_trim_smithing_template",
+                "imagePath": "/item/eye_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "host_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Host_Armor_Trim",
                 "name": "Host Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
+                "identifier": "host_armor_trim_smithing_template",
+                "imagePath": "/item/host_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "raiser_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim",
                 "name": "Raiser Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+                "identifier": "raiser_armor_trim_smithing_template",
+                "imagePath": "/item/raiser_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "rib_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim",
                 "name": "Rib Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
+                "identifier": "rib_armor_trim_smithing_template",
+                "imagePath": "/item/rib_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "sentry_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim",
                 "name": "Sentry Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+                "identifier": "sentry_armor_trim_smithing_template",
+                "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "shaper_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim",
                 "name": "Shaper Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+                "identifier": "shaper_armor_trim_smithing_template",
+                "imagePath": "/item/shaper_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "silence_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim",
                 "name": "Silence Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+                "identifier": "silence_armor_trim_smithing_template",
+                "imagePath": "/item/silence_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "snout_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim",
                 "name": "Snout Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim"
+                "identifier": "snout_armor_trim_smithing_template",
+                "imagePath": "/item/snout_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "spire_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim",
                 "name": "Spire Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
+                "identifier": "spire_armor_trim_smithing_template",
+                "imagePath": "/item/spire_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "tide_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim",
                 "name": "Tide Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
+                "identifier": "tide_armor_trim_smithing_template",
+                "imagePath": "/item/tide_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "vex_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim",
                 "name": "Vex Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim"
+                "identifier": "vex_armor_trim_smithing_template",
+                "imagePath": "/item/vex_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "ward_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim",
                 "name": "Ward Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
+                "identifier": "ward_armor_trim_smithing_template",
+                "imagePath": "/item/ward_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "wayfinder_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim",
                 "name": "Wayfinder Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+                "identifier": "wayfinder_armor_trim_smithing_template",
+                "imagePath": "/item/wayfinder_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "wild_armor_trim_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim",
                 "name": "Wild Armor Trim",
-                "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
+                "identifier": "wild_armor_trim_smithing_template",
+                "imagePath": "/item/wild_armor_trim_smithing_template/latest.png"
             },
             {
                 "types": [
                     "smithing_template"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "netherite_upgrade_smithing_template",
+                "wiki": "https://minecraft.wiki/w/Netherite_Upgrade",
                 "name": "Netherite Upgrade",
-                "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+                "identifier": "netherite_upgrade_smithing_template",
+                "imagePath": "/item/netherite_upgrade_smithing_template/latest.png"
             },
             {
                 "types": [
                     "music_disc"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "music_disc_relic",
+                "wiki": "https://minecraft.wiki/w/Music_Disc_Relic",
                 "name": "Music Disc Relic",
-                "wiki": "https://minecraft.wiki/w/Music_Disc_Relic"
+                "identifier": "music_disc_relic",
+                "imagePath": "/item/music_disc_relic/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cherry_boat",
+                "wiki": "https://minecraft.wiki/w/Boat#Cherry",
                 "name": "Cherry Boat",
-                "wiki": "https://minecraft.wiki/w/Boat#Cherry"
+                "identifier": "cherry_boat",
+                "imagePath": "/item/cherry_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bamboo_raft",
+                "wiki": "https://minecraft.wiki/w/Boat#Bamboo",
                 "name": "Bamboo Raft",
-                "wiki": "https://minecraft.wiki/w/Boat#Bamboo"
+                "identifier": "bamboo_raft",
+                "imagePath": "/item/bamboo_raft/latest.png"
             },
             {
                 "types": [
                     "woodset/cherry",
                     "chest_boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "cherry_chest_boat",
+                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry",
                 "name": "Cherry Boat with Chest",
-                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry"
+                "identifier": "cherry_chest_boat",
+                "imagePath": "/item/cherry_chest_boat/latest.png"
             },
             {
                 "types": [
                     "woodset/bamboo",
                     "chest_boats"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bamboo_chest_raft",
+                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo",
                 "name": "Bamboo Boat with Chest",
-                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo"
+                "identifier": "bamboo_chest_raft",
+                "imagePath": "/item/bamboo_chest_raft/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "brush",
+                "wiki": "https://minecraft.wiki/w/Brush",
                 "name": "Brush",
-                "wiki": "https://minecraft.wiki/w/Brush"
+                "identifier": "brush",
+                "imagePath": "/item/brush/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "camel_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Camel Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "camel_spawn_egg",
+                "imagePath": "/item/camel_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "sniffer_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Sniffer Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "sniffer_spawn_egg",
+                "imagePath": "/item/sniffer_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -939,159 +939,151 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "camel",
-                "name": "Camel",
                 "wiki": "https://minecraft.wiki/w/Camel",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "camel_spawn_egg",
-                        "element_type": "item",
                         "name": "Camel Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/camel_spawn_egg/latest.png"
                     },
                     "health": 32
-                }
+                },
+                "name": "Camel",
+                "identifier": "camel",
+                "imagePath": "/mob/camel/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "sniffer",
-                "name": "Sniffer",
                 "wiki": "https://minecraft.wiki/w/Sniffer",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "sniffer_spawn_egg",
-                        "element_type": "item",
                         "name": "Sniffer Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/sniffer_spawn_egg/latest.png"
                     },
                     "health": 14
-                }
+                },
+                "name": "Sniffer",
+                "identifier": "sniffer",
+                "imagePath": "/mob/sniffer/latest.png"
             }
         ],
         "advancements": [
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/read_power_of_chiseled_bookshelf",
-                "name": "The Power of Books",
                 "wiki": "https://minecraft.wiki/w/Advancement#The_Power_of_Books",
                 "meta": {
                     "icon": {
                         "identifier": "chiseled_bookshelf",
-                        "element_type": "block",
                         "name": "Chiseled Bookshelf",
-                        "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf"
+                        "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf",
+                        "imagePath": "/block/chiseled_bookshelf/latest.png"
                     }
-                }
+                },
+                "name": "The Power of Books",
+                "identifier": "adventure/read_power_of_chiseled_bookshelf"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/trim_with_any_armor_pattern",
-                "name": "Crafting a New Look",
                 "wiki": "https://minecraft.wiki/w/Advancement#Crafting_a_New_Look",
                 "meta": {
                     "icon": {
                         "identifier": "dune_armor_trim_smithing_template",
-                        "element_type": "item",
                         "name": "Dune Armor Trim",
-                        "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+                        "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim",
+                        "imagePath": "/item/dune_armor_trim_smithing_template/latest.png"
                     }
-                }
+                },
+                "name": "Crafting a New Look",
+                "identifier": "adventure/trim_with_any_armor_pattern"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/salvage_sherd",
-                "name": "Respecting the Remnants",
                 "wiki": "https://minecraft.wiki/w/Advancement#Respecting_the_Remnants",
                 "meta": {
                     "icon": {
                         "identifier": "brush",
-                        "element_type": "item",
                         "name": "Brush",
-                        "wiki": "https://minecraft.wiki/w/Brush"
+                        "wiki": "https://minecraft.wiki/w/Brush",
+                        "imagePath": "/item/brush/latest.png"
                     }
-                }
+                },
+                "name": "Respecting the Remnants",
+                "identifier": "adventure/salvage_sherd"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/trim_with_all_exclusive_armor_patterns",
-                "name": "Smithing with Style",
                 "wiki": "https://minecraft.wiki/w/Advancement#Smithing_with_Style",
                 "meta": {
                     "icon": {
                         "identifier": "silence_armor_trim_smithing_template",
-                        "element_type": "item",
                         "name": "Silence Armor Trim",
-                        "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+                        "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim",
+                        "imagePath": "/item/silence_armor_trim_smithing_template/latest.png"
                     }
-                }
+                },
+                "name": "Smithing with Style",
+                "identifier": "adventure/trim_with_all_exclusive_armor_patterns"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "adventure/craft_decorated_pot_using_only_sherds",
-                "name": "Careful Restoration",
                 "wiki": "https://minecraft.wiki/w/Advancement#Careful_Restoration",
                 "meta": {
                     "icon": {
                         "identifier": "decorated_pot",
-                        "element_type": "block",
                         "name": "Decorated Pot",
-                        "wiki": "https://minecraft.wiki/w/Decorated_Pot"
+                        "wiki": "https://minecraft.wiki/w/Decorated_Pot",
+                        "imagePath": "/block/decorated_pot/latest.png"
                     }
-                }
+                },
+                "name": "Careful Restoration",
+                "identifier": "adventure/craft_decorated_pot_using_only_sherds"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/obtain_sniffer_egg",
-                "name": "Smells Interesting",
                 "wiki": "https://minecraft.wiki/w/Advancement#Smells_Interesting",
                 "meta": {
                     "icon": {
                         "identifier": "sniffer_egg",
-                        "element_type": "block",
                         "name": "Sniffer Egg",
-                        "wiki": "https://minecraft.wiki/w/Sniffer_Egg"
+                        "wiki": "https://minecraft.wiki/w/Sniffer_Egg",
+                        "imagePath": "/block/sniffer_egg/latest.png"
                     }
-                }
+                },
+                "name": "Smells Interesting",
+                "identifier": "husbandry/obtain_sniffer_egg"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/feed_snifflet",
-                "name": "Little Sniffs",
                 "wiki": "https://minecraft.wiki/w/Advancement#Little_Sniffs",
                 "meta": {
                     "icon": {
                         "identifier": "torchflower_seeds",
-                        "element_type": "item",
                         "name": "Torchflower Seeds",
-                        "wiki": "https://minecraft.wiki/w/Torchflower_Seeds"
+                        "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
+                        "imagePath": "/item/torchflower_seeds/latest.png"
                     }
-                }
+                },
+                "name": "Little Sniffs",
+                "identifier": "husbandry/feed_snifflet"
             },
             {
                 "types": [],
-                "element_type": "advancement",
-                "minecraft_identifier": "husbandry/plant_any_sniffer_seed",
-                "name": "Planting the Past",
                 "wiki": "https://minecraft.wiki/w/Advancement#Planting_the_Past",
                 "meta": {
                     "icon": {
                         "identifier": "pitcher_pod",
-                        "element_type": "item",
                         "name": "Pitcher Pod",
-                        "wiki": "https://minecraft.wiki/w/Pitcher_Pod"
+                        "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
+                        "imagePath": "/item/pitcher_pod/latest.png"
                     }
-                }
+                },
+                "name": "Planting the Past",
+                "identifier": "husbandry/plant_any_sniffer_seed"
             }
         ],
         "biomes": [
@@ -1099,10 +1091,10 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "cherry_grove",
+                "wiki": "https://minecraft.wiki/w/Cherry_Grove",
                 "name": "Cherry Grove",
-                "wiki": "https://minecraft.wiki/w/Cherry_Grove"
+                "identifier": "cherry_grove",
+                "imagePath": "/biome/cherry_grove/latest.png"
             }
         ]
     },

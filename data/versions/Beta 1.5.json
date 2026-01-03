@@ -8,10 +8,10 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "spruce_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Spruce",
                 "name": "Spruce Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Spruce"
+                "identifier": "spruce_sapling",
+                "imagePath": "/block/spruce_sapling/latest.png"
             },
             {
                 "types": [
@@ -20,31 +20,31 @@
                     "saplings",
                     "plants"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "birch_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Birch",
                 "name": "Birch Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Birch"
+                "identifier": "birch_sapling",
+                "imagePath": "/block/birch_sapling/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "detector_rail",
+                "wiki": "https://minecraft.wiki/w/Detector_Rail",
                 "name": "Detector Rail",
-                "wiki": "https://minecraft.wiki/w/Detector_Rail"
+                "identifier": "detector_rail",
+                "imagePath": "/block/detector_rail/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "powered_rail",
+                "wiki": "https://minecraft.wiki/w/Powered_Rail",
                 "name": "Powered Rail",
-                "wiki": "https://minecraft.wiki/w/Powered_Rail"
+                "identifier": "powered_rail",
+                "imagePath": "/block/powered_rail/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cobweb",
+                "wiki": "https://minecraft.wiki/w/Cobweb",
                 "name": "Cobweb",
-                "wiki": "https://minecraft.wiki/w/Cobweb"
+                "identifier": "cobweb",
+                "imagePath": "/block/cobweb/latest.png"
             }
         ]
     },

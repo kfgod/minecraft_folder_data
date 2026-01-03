@@ -3,27 +3,27 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "chiseled_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks",
                 "name": "Chiseled Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks"
+                "identifier": "chiseled_stone_bricks",
+                "imagePath": "/block/chiseled_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "redstone_lamp",
+                "wiki": "https://minecraft.wiki/w/Redstone_Lamp",
                 "name": "Redstone Lamp",
-                "wiki": "https://minecraft.wiki/w/Redstone_Lamp"
+                "identifier": "redstone_lamp",
+                "imagePath": "/block/redstone_lamp/latest.png"
             },
             {
                 "types": [
                     "woodset/jungle",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_log",
+                "wiki": "https://minecraft.wiki/w/Log#Jungle",
                 "name": "Jungle Log",
-                "wiki": "https://minecraft.wiki/w/Log#Jungle"
+                "identifier": "jungle_log",
+                "imagePath": "/block/jungle_log/latest.png"
             },
             {
                 "types": [
@@ -32,10 +32,10 @@
                     "plant",
                     "saplings"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_sapling",
+                "wiki": "https://minecraft.wiki/w/Sapling#Jungle",
                 "name": "Jungle Sapling",
-                "wiki": "https://minecraft.wiki/w/Sapling#Jungle"
+                "identifier": "jungle_sapling",
+                "imagePath": "/block/jungle_sapling/latest.png"
             },
             {
                 "types": [
@@ -43,35 +43,35 @@
                     "woodset/jungle",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "jungle_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Jungle",
                 "name": "Jungle Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Jungle"
+                "identifier": "jungle_leaves",
+                "imagePath": "/block/jungle_leaves/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "experience_bottle",
+                "wiki": "https://minecraft.wiki/w/Bottle_o'_Enchanting",
                 "name": "Bottle o' Enchanting",
-                "wiki": "https://minecraft.wiki/w/Bottle_o'_Enchanting"
+                "identifier": "experience_bottle",
+                "imagePath": "/item/experience_bottle/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "fire_charge",
+                "wiki": "https://minecraft.wiki/w/Fire_Charge",
                 "name": "Fire Charge",
-                "wiki": "https://minecraft.wiki/w/Fire_Charge"
+                "identifier": "fire_charge",
+                "imagePath": "/item/fire_charge/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "ocelot_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Ocelot Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "ocelot_spawn_egg",
+                "imagePath": "/item/ocelot_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -79,54 +79,54 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "cat",
-                "name": "Cat",
                 "wiki": "https://minecraft.wiki/w/Cat",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "cat_spawn_egg",
-                        "element_type": "item",
                         "name": "Cat Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/cat_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Cat",
+                "identifier": "cat",
+                "imagePath": "/mob/cat/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "ocelot",
-                "name": "Ocelot",
                 "wiki": "https://minecraft.wiki/w/Ocelot",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "ocelot_spawn_egg",
-                        "element_type": "item",
                         "name": "Ocelot Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/ocelot_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Ocelot",
+                "identifier": "ocelot",
+                "imagePath": "/mob/ocelot/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "iron_golem",
-                "name": "Iron Golem",
                 "wiki": "https://minecraft.wiki/w/Iron_Golem",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "iron_golem_spawn_egg",
-                        "element_type": "item",
                         "name": "Iron Golem Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/iron_golem_spawn_egg/latest.png"
                     }
-                }
+                },
+                "name": "Iron Golem",
+                "identifier": "iron_golem",
+                "imagePath": "/mob/iron_golem/latest.png"
             }
         ],
         "biomes": [
@@ -134,10 +134,10 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "jungle",
+                "wiki": "https://minecraft.wiki/w/Jungle",
                 "name": "Jungle",
-                "wiki": "https://minecraft.wiki/w/Jungle"
+                "identifier": "jungle",
+                "imagePath": "/biome/jungle/latest.png"
             }
         ]
     },

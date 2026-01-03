@@ -3,326 +3,326 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "white_carpet",
+                "color": "white",
+                "wiki": "https://minecraft.wiki/w/Carpet#White",
                 "name": "White Carpet",
-                "color": "white",
-                "wiki": "https://minecraft.wiki/w/Carpet#White"
+                "identifier": "white_carpet",
+                "imagePath": "/block/white_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "orange_carpet",
+                "color": "orange",
+                "wiki": "https://minecraft.wiki/w/Carpet#Orange",
                 "name": "Orange Carpet",
-                "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Carpet#Orange"
+                "identifier": "orange_carpet",
+                "imagePath": "/block/orange_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magenta_carpet",
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Carpet#Magenta",
                 "name": "Magenta Carpet",
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Carpet#Magenta"
+                "identifier": "magenta_carpet",
+                "imagePath": "/block/magenta_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_blue_carpet",
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue",
                 "name": "Light Blue Carpet",
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue"
+                "identifier": "light_blue_carpet",
+                "imagePath": "/block/light_blue_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "yellow_carpet",
+                "color": "yellow",
+                "wiki": "https://minecraft.wiki/w/Carpet#Yellow",
                 "name": "Yellow Carpet",
-                "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Carpet#Yellow"
+                "identifier": "yellow_carpet",
+                "imagePath": "/block/yellow_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lime_carpet",
+                "color": "lime",
+                "wiki": "https://minecraft.wiki/w/Carpet#Lime",
                 "name": "Lime Carpet",
-                "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Carpet#Lime"
+                "identifier": "lime_carpet",
+                "imagePath": "/block/lime_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "pink_carpet",
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Carpet#Pink",
                 "name": "Pink Carpet",
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Carpet#Pink"
+                "identifier": "pink_carpet",
+                "imagePath": "/block/pink_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gray_carpet",
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Carpet#Gray",
                 "name": "Gray Carpet",
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Carpet#Gray"
+                "identifier": "gray_carpet",
+                "imagePath": "/block/gray_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_gray_carpet",
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray",
                 "name": "Light Gray Carpet",
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray"
+                "identifier": "light_gray_carpet",
+                "imagePath": "/block/light_gray_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cyan_carpet",
+                "color": "cyan",
+                "wiki": "https://minecraft.wiki/w/Carpet#Cyan",
                 "name": "Cyan Carpet",
-                "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Carpet#Cyan"
+                "identifier": "cyan_carpet",
+                "imagePath": "/block/cyan_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purple_carpet",
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Carpet#Purple",
                 "name": "Purple Carpet",
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Carpet#Purple"
+                "identifier": "purple_carpet",
+                "imagePath": "/block/purple_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "blue_carpet",
+                "color": "blue",
+                "wiki": "https://minecraft.wiki/w/Carpet#Blue",
                 "name": "Blue Carpet",
-                "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Carpet#Blue"
+                "identifier": "blue_carpet",
+                "imagePath": "/block/blue_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_carpet",
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Carpet#Brown",
                 "name": "Brown Carpet",
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Carpet#Brown"
+                "identifier": "brown_carpet",
+                "imagePath": "/block/brown_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "green_carpet",
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Carpet#Green",
                 "name": "Green Carpet",
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Carpet#Green"
+                "identifier": "green_carpet",
+                "imagePath": "/block/green_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_carpet",
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Carpet#Red",
                 "name": "Red Carpet",
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Carpet#Red"
+                "identifier": "red_carpet",
+                "imagePath": "/block/red_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "black_carpet",
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Carpet#Black",
                 "name": "Black Carpet",
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Carpet#Black"
+                "identifier": "black_carpet",
+                "imagePath": "/block/black_carpet/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "terracotta",
+                "wiki": "https://minecraft.wiki/w/Terracotta",
                 "name": "Terracotta",
-                "wiki": "https://minecraft.wiki/w/Terracotta"
+                "identifier": "terracotta",
+                "imagePath": "/block/terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "white_terracotta",
-                "name": "White Terracotta",
                 "color": "white",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White",
+                "name": "White Terracotta",
+                "identifier": "white_terracotta",
+                "imagePath": "/block/white_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "orange_terracotta",
-                "name": "Orange Terracotta",
                 "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange",
+                "name": "Orange Terracotta",
+                "identifier": "orange_terracotta",
+                "imagePath": "/block/orange_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magenta_terracotta",
-                "name": "Magenta Terracotta",
                 "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta",
+                "name": "Magenta Terracotta",
+                "identifier": "magenta_terracotta",
+                "imagePath": "/block/magenta_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_blue_terracotta",
-                "name": "Light Blue Terracotta",
                 "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue",
+                "name": "Light Blue Terracotta",
+                "identifier": "light_blue_terracotta",
+                "imagePath": "/block/light_blue_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "yellow_terracotta",
-                "name": "Yellow Terracotta",
                 "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow",
+                "name": "Yellow Terracotta",
+                "identifier": "yellow_terracotta",
+                "imagePath": "/block/yellow_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lime_terracotta",
-                "name": "Lime Terracotta",
                 "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime",
+                "name": "Lime Terracotta",
+                "identifier": "lime_terracotta",
+                "imagePath": "/block/lime_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "pink_terracotta",
-                "name": "Pink Terracotta",
                 "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink",
+                "name": "Pink Terracotta",
+                "identifier": "pink_terracotta",
+                "imagePath": "/block/pink_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gray_terracotta",
-                "name": "Gray Terracotta",
                 "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray",
+                "name": "Gray Terracotta",
+                "identifier": "gray_terracotta",
+                "imagePath": "/block/gray_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_gray_terracotta",
-                "name": "Light Gray Terracotta",
                 "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray",
+                "name": "Light Gray Terracotta",
+                "identifier": "light_gray_terracotta",
+                "imagePath": "/block/light_gray_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cyan_terracotta",
-                "name": "Cyan Terracotta",
                 "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan",
+                "name": "Cyan Terracotta",
+                "identifier": "cyan_terracotta",
+                "imagePath": "/block/cyan_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purple_terracotta",
-                "name": "Purple Terracotta",
                 "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple",
+                "name": "Purple Terracotta",
+                "identifier": "purple_terracotta",
+                "imagePath": "/block/purple_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "blue_terracotta",
-                "name": "Blue Terracotta",
                 "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue",
+                "name": "Blue Terracotta",
+                "identifier": "blue_terracotta",
+                "imagePath": "/block/blue_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_terracotta",
-                "name": "Brown Terracotta",
                 "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown",
+                "name": "Brown Terracotta",
+                "identifier": "brown_terracotta",
+                "imagePath": "/block/brown_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "green_terracotta",
-                "name": "Green Terracotta",
                 "color": "green",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green",
+                "name": "Green Terracotta",
+                "identifier": "green_terracotta",
+                "imagePath": "/block/green_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_terracotta",
-                "name": "Red Terracotta",
                 "color": "red",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red",
+                "name": "Red Terracotta",
+                "identifier": "red_terracotta",
+                "imagePath": "/block/red_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "black_terracotta",
-                "name": "Black Terracotta",
                 "color": "black",
-                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black"
+                "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black",
+                "name": "Black Terracotta",
+                "identifier": "black_terracotta",
+                "imagePath": "/block/black_terracotta/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "coal_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Coal",
                 "name": "Block of Coal",
-                "wiki": "https://minecraft.wiki/w/Block_of_Coal"
+                "identifier": "coal_block",
+                "imagePath": "/block/coal_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "hay_block",
+                "wiki": "https://minecraft.wiki/w/Hay_Bale",
                 "name": "Hay Bale",
-                "wiki": "https://minecraft.wiki/w/Hay_Bale"
+                "identifier": "hay_block",
+                "imagePath": "/block/hay_block/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "diamond_horse_armor",
+                "wiki": "https://minecraft.wiki/w/Diamond_Horse_Armor",
                 "name": "Diamond Horse Armor",
-                "wiki": "https://minecraft.wiki/w/Diamond_Horse_Armor"
+                "identifier": "diamond_horse_armor",
+                "imagePath": "/item/diamond_horse_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "golden_horse_armor",
+                "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor",
                 "name": "Golden Horse Armor",
-                "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor"
+                "identifier": "golden_horse_armor",
+                "imagePath": "/item/golden_horse_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "iron_horse_armor",
+                "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor",
                 "name": "Iron Horse Armor",
-                "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor"
+                "identifier": "iron_horse_armor",
+                "imagePath": "/item/iron_horse_armor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "lead",
+                "wiki": "https://minecraft.wiki/w/Lead",
                 "name": "Lead",
-                "wiki": "https://minecraft.wiki/w/Lead"
+                "identifier": "lead",
+                "imagePath": "/item/lead/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "name_tag",
+                "wiki": "https://minecraft.wiki/w/Name_Tag",
                 "name": "Name Tag",
-                "wiki": "https://minecraft.wiki/w/Name_Tag"
+                "identifier": "name_tag",
+                "imagePath": "/item/name_tag/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "horse_spawn_egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Horse Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                "identifier": "horse_spawn_egg",
+                "imagePath": "/item/horse_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -330,88 +330,88 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "donkey",
-                "name": "Donkey",
                 "wiki": "https://minecraft.wiki/w/Donkey",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "donkey_spawn_egg",
-                        "element_type": "item",
                         "name": "Donkey Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/donkey_spawn_egg/latest.png"
                     }
-                }
+                },
+                "name": "Donkey",
+                "identifier": "donkey",
+                "imagePath": "/mob/donkey/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "horse",
-                "name": "Horse",
                 "wiki": "https://minecraft.wiki/w/Horse",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "horse_spawn_egg",
-                        "element_type": "item",
                         "name": "Horse Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/horse_spawn_egg/latest.png"
                     }
-                }
+                },
+                "name": "Horse",
+                "identifier": "horse",
+                "imagePath": "/mob/horse/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "mule",
-                "name": "Mule",
                 "wiki": "https://minecraft.wiki/w/Mule",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "mule_spawn_egg",
-                        "element_type": "item",
                         "name": "Mule Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/mule_spawn_egg/latest.png"
                     }
-                }
+                },
+                "name": "Mule",
+                "identifier": "mule",
+                "imagePath": "/mob/mule/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "skeleton_horse",
-                "name": "Skeleton Horse",
                 "wiki": "https://minecraft.wiki/w/Skeleton_Horse",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "skeleton_horse_spawn_egg",
-                        "element_type": "item",
                         "name": "Skeleton Horse Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/skeleton_horse_spawn_egg/latest.png"
                     },
                     "health": 15
-                }
+                },
+                "name": "Skeleton Horse",
+                "identifier": "skeleton_horse",
+                "imagePath": "/mob/skeleton_horse/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "zombie_horse",
-                "name": "Zombie Horse",
                 "wiki": "https://minecraft.wiki/w/Zombie_Horse",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombie_horse_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombie Horse Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombie_horse_spawn_egg/latest.png"
                     },
                     "health": 25
-                }
+                },
+                "name": "Zombie Horse",
+                "identifier": "zombie_horse",
+                "imagePath": "/mob/zombie_horse/latest.png"
             }
         ],
         "effects": [
@@ -419,28 +419,28 @@
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "absorption",
+                "wiki": "https://minecraft.wiki/w/Absorption",
                 "name": "Absorption",
-                "wiki": "https://minecraft.wiki/w/Absorption"
+                "identifier": "absorption",
+                "imagePath": "/effect/absorption/latest.png"
             },
             {
                 "types": [
                     "effects/hunger"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "saturation",
+                "wiki": "https://minecraft.wiki/w/Saturation",
                 "name": "Saturation",
-                "wiki": "https://minecraft.wiki/w/Saturation"
+                "identifier": "saturation",
+                "imagePath": "/effect/saturation/latest.png"
             },
             {
                 "types": [
                     "effects/unused"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "health_boost",
+                "wiki": "https://minecraft.wiki/w/Health_Boost",
                 "name": "Health Boost",
-                "wiki": "https://minecraft.wiki/w/Health_Boost"
+                "identifier": "health_boost",
+                "imagePath": "/effect/health_boost/latest.png"
             }
         ]
     },

@@ -3,10 +3,10 @@
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cookie",
+                "wiki": "https://minecraft.wiki/w/Cookie",
                 "name": "Cookie",
-                "wiki": "https://minecraft.wiki/w/Cookie"
+                "identifier": "cookie",
+                "imagePath": "/item/cookie/latest.png"
             }
         ],
         "mobs": [
@@ -14,19 +14,19 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "wolf",
-                "name": "Wolf",
                 "wiki": "https://minecraft.wiki/w/Wolf",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "wolf_spawn_egg",
-                        "element_type": "item",
                         "name": "Wolf Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wolf_spawn_egg/latest.png"
                     },
                     "health": 8
-                }
+                },
+                "name": "Wolf",
+                "identifier": "wolf",
+                "imagePath": "/mob/wolf/latest.png"
             }
         ]
     },

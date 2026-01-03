@@ -6,40 +6,40 @@
                     "woodset/oak",
                     "trapdoors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_trapdoor",
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak",
                 "name": "Oak Trapdoor",
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak"
+                "identifier": "oak_trapdoor",
+                "imagePath": "/block/oak_trapdoor/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "dead_bush",
+                "wiki": "https://minecraft.wiki/w/Dead_Bush",
                 "name": "Dead Bush",
-                "wiki": "https://minecraft.wiki/w/Dead_Bush"
+                "identifier": "dead_bush",
+                "imagePath": "/block/dead_bush/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "short_grass",
+                "wiki": "https://minecraft.wiki/w/Short_Grass",
                 "name": "Short Grass",
-                "wiki": "https://minecraft.wiki/w/Short_Grass"
+                "identifier": "short_grass",
+                "imagePath": "/block/short_grass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "fern",
+                "wiki": "https://minecraft.wiki/w/Fern",
                 "name": "Fern",
-                "wiki": "https://minecraft.wiki/w/Fern"
+                "identifier": "fern",
+                "imagePath": "/block/fern/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "filled_map",
+                "wiki": "https://minecraft.wiki/w/Map",
                 "name": "Map",
-                "wiki": "https://minecraft.wiki/w/Map"
+                "identifier": "filled_map",
+                "imagePath": "/item/filled_map/latest.png"
             }
         ]
     },

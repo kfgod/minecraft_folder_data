@@ -3,57 +3,55 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_bed",
-                "name": "Red Bed",
                 "color": "red",
-                "wiki": "https://minecraft.wiki/w/Bed#Red"
+                "wiki": "https://minecraft.wiki/w/Bed#Red",
+                "name": "Red Bed",
+                "identifier": "red_bed",
+                "imagePath": "/block/red_bed/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "petrified_oak_slab",
+                "wiki": "https://minecraft.wiki/w/Petrified_Oak_Slab",
                 "name": "Petrified Oak Slab",
-                "wiki": "https://minecraft.wiki/w/Petrified_Oak_Slab"
+                "identifier": "petrified_oak_slab",
+                "imagePath": "/block/petrified_oak_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cobblestone_slab",
+                "wiki": "https://minecraft.wiki/w/Cobblestone_Slab",
                 "name": "Cobblestone Slab",
-                "wiki": "https://minecraft.wiki/w/Cobblestone_Slab"
+                "identifier": "cobblestone_slab",
+                "imagePath": "/block/cobblestone_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sandstone_slab",
+                "wiki": "https://minecraft.wiki/w/Sandstone_Slab",
                 "name": "Sandstone Slab",
-                "wiki": "https://minecraft.wiki/w/Sandstone_Slab"
+                "identifier": "sandstone_slab",
+                "imagePath": "/block/sandstone_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "smooth_stone",
+                "wiki": "https://minecraft.wiki/w/Smooth_Stone",
                 "name": "Smooth Stone",
-                "wiki": "https://minecraft.wiki/w/Smooth_Stone"
+                "identifier": "smooth_stone",
+                "imagePath": "/block/smooth_stone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "repeater",
+                "wiki": "https://minecraft.wiki/w/Redstone_Repeater",
                 "name": "Redstone Repeater",
-                "wiki": "https://minecraft.wiki/w/Redstone_Repeater"
+                "identifier": "repeater",
+                "imagePath": "/block/repeater/latest.png"
             },
             {
                 "types": [
                     "paintings"
                 ],
-                "element_type": "block",
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Painting – Skull on Fire",
                 "identifier": "skull_on_fire_painting",
-                "minecraft_identifier": "painting",
-                "name": "Painting",
-                "display_name": "Painting – Skull on Fire",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "imagePath": "/block/painting/latest.png"
             }
         ],
         "paintings": [
@@ -61,11 +59,10 @@
                 "types": [
                     "paintings/4x4"
                 ],
-                "element_type": "painting",
-                "minecraft_identifier": "burning_skull",
-                "name": "Skull On Fire",
-                "display_name": "Skull On Fire – Kristoffer Zetterstrand",
-                "wiki": "https://minecraft.wiki/w/Painting"
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Skull On Fire – Kristoffer Zetterstrand",
+                "identifier": "burning_skull",
+                "imagePath": "/painting/burning_skull/latest.png"
             }
         ]
     },

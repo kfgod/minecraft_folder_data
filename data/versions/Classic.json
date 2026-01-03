@@ -6,30 +6,30 @@
                     "woodset/oak",
                     "logs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_log",
+                "wiki": "https://minecraft.wiki/w/Log#Oak",
                 "name": "Oak Log",
-                "wiki": "https://minecraft.wiki/w/Log#Oak"
+                "identifier": "oak_log",
+                "imagePath": "/block/oak_log/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "dandelion",
+                "wiki": "https://minecraft.wiki/w/Dandelion",
                 "name": "Dandelion",
-                "wiki": "https://minecraft.wiki/w/Dandelion"
+                "identifier": "dandelion",
+                "imagePath": "/block/dandelion/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "flower/normal"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "poppy",
+                "wiki": "https://minecraft.wiki/w/Poppy",
                 "name": "Poppy",
-                "wiki": "https://minecraft.wiki/w/Poppy"
+                "identifier": "poppy",
+                "imagePath": "/block/poppy/latest.png"
             },
             {
                 "types": [
@@ -37,277 +37,277 @@
                     "woodset/oak",
                     "leaves"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_leaves",
+                "wiki": "https://minecraft.wiki/w/Leaves#Oak",
                 "name": "Oak Leaves",
-                "wiki": "https://minecraft.wiki/w/Leaves#Oak"
+                "identifier": "oak_leaves",
+                "imagePath": "/block/oak_leaves/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "white_wool",
-                "name": "White Wool",
                 "color": "white",
-                "wiki": "https://minecraft.wiki/w/Wool#White"
+                "wiki": "https://minecraft.wiki/w/Wool#White",
+                "name": "White Wool",
+                "identifier": "white_wool",
+                "imagePath": "/block/white_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_gray_wool",
-                "name": "Light Gray Wool",
                 "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+                "wiki": "https://minecraft.wiki/w/Wool#Light_Gray",
+                "name": "Light Gray Wool",
+                "identifier": "light_gray_wool",
+                "imagePath": "/block/light_gray_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gray_wool",
-                "name": "Gray Wool",
                 "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Wool#Gray"
+                "wiki": "https://minecraft.wiki/w/Wool#Gray",
+                "name": "Gray Wool",
+                "identifier": "gray_wool",
+                "imagePath": "/block/gray_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "black_wool",
-                "name": "Black Wool",
                 "color": "black",
-                "wiki": "https://minecraft.wiki/w/Wool#Black"
+                "wiki": "https://minecraft.wiki/w/Wool#Black",
+                "name": "Black Wool",
+                "identifier": "black_wool",
+                "imagePath": "/block/black_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_wool",
-                "name": "Brown Wool",
                 "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Wool#Brown"
+                "wiki": "https://minecraft.wiki/w/Wool#Brown",
+                "name": "Brown Wool",
+                "identifier": "brown_wool",
+                "imagePath": "/block/brown_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_wool",
-                "name": "Red Wool",
                 "color": "red",
-                "wiki": "https://minecraft.wiki/w/Wool#Red"
+                "wiki": "https://minecraft.wiki/w/Wool#Red",
+                "name": "Red Wool",
+                "identifier": "red_wool",
+                "imagePath": "/block/red_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "orange_wool",
-                "name": "Orange Wool",
                 "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Wool#Orange"
+                "wiki": "https://minecraft.wiki/w/Wool#Orange",
+                "name": "Orange Wool",
+                "identifier": "orange_wool",
+                "imagePath": "/block/orange_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "yellow_wool",
-                "name": "Yellow Wool",
                 "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+                "wiki": "https://minecraft.wiki/w/Wool#Yellow",
+                "name": "Yellow Wool",
+                "identifier": "yellow_wool",
+                "imagePath": "/block/yellow_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "lime_wool",
-                "name": "Lime Wool",
                 "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Wool#Lime"
+                "wiki": "https://minecraft.wiki/w/Wool#Lime",
+                "name": "Lime Wool",
+                "identifier": "lime_wool",
+                "imagePath": "/block/lime_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "green_wool",
-                "name": "Green Wool",
                 "color": "green",
-                "wiki": "https://minecraft.wiki/w/Wool#Green"
+                "wiki": "https://minecraft.wiki/w/Wool#Green",
+                "name": "Green Wool",
+                "identifier": "green_wool",
+                "imagePath": "/block/green_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cyan_wool",
-                "name": "Cyan Wool",
                 "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+                "wiki": "https://minecraft.wiki/w/Wool#Cyan",
+                "name": "Cyan Wool",
+                "identifier": "cyan_wool",
+                "imagePath": "/block/cyan_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "light_blue_wool",
-                "name": "Light Blue Wool",
                 "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+                "wiki": "https://minecraft.wiki/w/Wool#Light_Blue",
+                "name": "Light Blue Wool",
+                "identifier": "light_blue_wool",
+                "imagePath": "/block/light_blue_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "blue_wool",
-                "name": "Blue Wool",
                 "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Wool#Blue"
+                "wiki": "https://minecraft.wiki/w/Wool#Blue",
+                "name": "Blue Wool",
+                "identifier": "blue_wool",
+                "imagePath": "/block/blue_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "purple_wool",
-                "name": "Purple Wool",
                 "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Wool#Purple"
+                "wiki": "https://minecraft.wiki/w/Wool#Purple",
+                "name": "Purple Wool",
+                "identifier": "purple_wool",
+                "imagePath": "/block/purple_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "magenta_wool",
-                "name": "Magenta Wool",
                 "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+                "wiki": "https://minecraft.wiki/w/Wool#Magenta",
+                "name": "Magenta Wool",
+                "identifier": "magenta_wool",
+                "imagePath": "/block/magenta_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "pink_wool",
-                "name": "Pink Wool",
                 "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Wool#Pink"
+                "wiki": "https://minecraft.wiki/w/Wool#Pink",
+                "name": "Pink Wool",
+                "identifier": "pink_wool",
+                "imagePath": "/block/pink_wool/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "glass",
+                "wiki": "https://minecraft.wiki/w/Glass",
                 "name": "Glass",
-                "wiki": "https://minecraft.wiki/w/Glass"
+                "identifier": "glass",
+                "imagePath": "/block/glass/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sponge",
+                "wiki": "https://minecraft.wiki/w/Sponge",
                 "name": "Sponge",
-                "wiki": "https://minecraft.wiki/w/Sponge"
+                "identifier": "sponge",
+                "imagePath": "/block/sponge/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gold_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Gold",
                 "name": "Block of Gold",
-                "wiki": "https://minecraft.wiki/w/Block_of_Gold"
+                "identifier": "gold_block",
+                "imagePath": "/block/gold_block/latest.png"
             },
             {
                 "types": [
                     "vegetation"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "red_mushroom",
+                "wiki": "https://minecraft.wiki/w/Mushroom",
                 "name": "Red Mushroom",
-                "wiki": "https://minecraft.wiki/w/Mushroom"
+                "identifier": "red_mushroom",
+                "imagePath": "/block/red_mushroom/latest.png"
             },
             {
                 "types": [
                     "vegetation"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "brown_mushroom",
+                "wiki": "https://minecraft.wiki/w/Mushroom",
                 "name": "Brown Mushroom",
-                "wiki": "https://minecraft.wiki/w/Mushroom"
+                "identifier": "brown_mushroom",
+                "imagePath": "/block/brown_mushroom/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "smooth_stone_slab",
+                "wiki": "https://minecraft.wiki/w/Smooth_Stone_Slab",
                 "name": "Smooth Stone Slab",
-                "wiki": "https://minecraft.wiki/w/Smooth_Stone_Slab"
+                "identifier": "smooth_stone_slab",
+                "imagePath": "/block/smooth_stone_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "iron_block",
+                "wiki": "https://minecraft.wiki/w/Block_of_Iron",
                 "name": "Block of Iron",
-                "wiki": "https://minecraft.wiki/w/Block_of_Iron"
+                "identifier": "iron_block",
+                "imagePath": "/block/iron_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "tnt",
+                "wiki": "https://minecraft.wiki/w/TNT",
                 "name": "TNT",
-                "wiki": "https://minecraft.wiki/w/TNT"
+                "identifier": "tnt",
+                "imagePath": "/block/tnt/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "mossy_cobblestone",
+                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone",
                 "name": "Mossy Cobblestone",
-                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone"
+                "identifier": "mossy_cobblestone",
+                "imagePath": "/block/mossy_cobblestone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "bricks",
+                "wiki": "https://minecraft.wiki/w/Bricks",
                 "name": "Bricks",
-                "wiki": "https://minecraft.wiki/w/Bricks"
+                "identifier": "bricks",
+                "imagePath": "/block/bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "bookshelf",
+                "wiki": "https://minecraft.wiki/w/Bookshelf",
                 "name": "Bookshelf",
-                "wiki": "https://minecraft.wiki/w/Bookshelf"
+                "identifier": "bookshelf",
+                "imagePath": "/block/bookshelf/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "obsidian",
+                "wiki": "https://minecraft.wiki/w/Obsidian",
                 "name": "Obsidian",
-                "wiki": "https://minecraft.wiki/w/Obsidian"
+                "identifier": "obsidian",
+                "imagePath": "/block/obsidian/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "coal_ore",
+                "wiki": "https://minecraft.wiki/w/Coal_Ore",
                 "name": "Coal Ore",
-                "wiki": "https://minecraft.wiki/w/Coal_Ore"
+                "identifier": "coal_ore",
+                "imagePath": "/block/coal_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "iron_ore",
+                "wiki": "https://minecraft.wiki/w/Iron_Ore",
                 "name": "Iron Ore",
-                "wiki": "https://minecraft.wiki/w/Iron_Ore"
+                "identifier": "iron_ore",
+                "imagePath": "/block/iron_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gold_ore",
+                "wiki": "https://minecraft.wiki/w/Gold_Ore",
                 "name": "Gold Ore",
-                "wiki": "https://minecraft.wiki/w/Gold_Ore"
+                "identifier": "gold_ore",
+                "imagePath": "/block/gold_ore/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "sand",
+                "wiki": "https://minecraft.wiki/w/Sand",
                 "name": "Sand",
-                "wiki": "https://minecraft.wiki/w/Sand"
+                "identifier": "sand",
+                "imagePath": "/block/sand/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "gravel",
+                "wiki": "https://minecraft.wiki/w/Gravel",
                 "name": "Gravel",
-                "wiki": "https://minecraft.wiki/w/Gravel"
+                "identifier": "gravel",
+                "imagePath": "/block/gravel/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "bedrock",
+                "wiki": "https://minecraft.wiki/w/Bedrock",
                 "name": "Bedrock",
-                "wiki": "https://minecraft.wiki/w/Bedrock"
+                "identifier": "bedrock",
+                "imagePath": "/block/bedrock/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "arrow",
+                "wiki": "https://minecraft.wiki/w/Arrow",
                 "name": "Arrow",
-                "wiki": "https://minecraft.wiki/w/Arrow"
+                "identifier": "arrow",
+                "imagePath": "/item/arrow/latest.png"
             }
         ],
         "mobs": [
@@ -315,109 +315,109 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "pig",
-                "name": "Pig",
                 "wiki": "https://minecraft.wiki/w/Pig",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "pig_spawn_egg",
-                        "element_type": "item",
                         "name": "Pig Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/pig_spawn_egg/latest.png"
                     },
                     "health": 10
-                }
+                },
+                "name": "Pig",
+                "identifier": "pig",
+                "imagePath": "/mob/pig/latest.png"
             },
             {
                 "types": [
                     "mobs/passive"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "sheep",
-                "name": "Sheep",
                 "wiki": "https://minecraft.wiki/w/Sheep",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "sheep_spawn_egg",
-                        "element_type": "item",
                         "name": "Sheep Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/sheep_spawn_egg/latest.png"
                     },
                     "health": 8
-                }
+                },
+                "name": "Sheep",
+                "identifier": "sheep",
+                "imagePath": "/mob/sheep/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "spider",
-                "name": "Spider",
                 "wiki": "https://minecraft.wiki/w/Spider",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "spider_spawn_egg",
-                        "element_type": "item",
                         "name": "Spider Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/spider_spawn_egg/latest.png"
                     },
                     "health": 16
-                }
+                },
+                "name": "Spider",
+                "identifier": "spider",
+                "imagePath": "/mob/spider/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "creeper",
-                "name": "Creeper",
                 "wiki": "https://minecraft.wiki/w/Creeper",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "creeper_spawn_egg",
-                        "element_type": "item",
                         "name": "Creeper Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/creeper_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Creeper",
+                "identifier": "creeper",
+                "imagePath": "/mob/creeper/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "skeleton",
-                "name": "Skeleton",
                 "wiki": "https://minecraft.wiki/w/Skeleton",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "skeleton_spawn_egg",
-                        "element_type": "item",
                         "name": "Skeleton Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/skeleton_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Skeleton",
+                "identifier": "skeleton",
+                "imagePath": "/mob/skeleton/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "zombie",
-                "name": "Zombie",
                 "wiki": "https://minecraft.wiki/w/Zombie",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "zombie_spawn_egg",
-                        "element_type": "item",
                         "name": "Zombie Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/zombie_spawn_egg/latest.png"
                     },
                     "health": 20
-                }
+                },
+                "name": "Zombie",
+                "identifier": "zombie",
+                "imagePath": "/mob/zombie/latest.png"
             }
         ]
     },

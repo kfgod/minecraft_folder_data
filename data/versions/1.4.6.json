@@ -3,26 +3,26 @@
         "blocks": [
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "nether_brick_slab",
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Slab",
                 "name": "Nether Brick Slab",
-                "wiki": "https://minecraft.wiki/w/Nether_Brick_Slab"
+                "identifier": "nether_brick_slab",
+                "imagePath": "/block/nether_brick_slab/latest.png"
             }
         ],
         "items": [
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "firework_star",
+                "wiki": "https://minecraft.wiki/w/Firework_Star",
                 "name": "Firework Star",
-                "wiki": "https://minecraft.wiki/w/Firework_Star"
+                "identifier": "firework_star",
+                "imagePath": "/item/firework_star/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "firework_rocket",
+                "wiki": "https://minecraft.wiki/w/Firework_Rocket",
                 "name": "Firework Rocket",
-                "wiki": "https://minecraft.wiki/w/Firework_Rocket"
+                "identifier": "firework_rocket",
+                "imagePath": "/item/firework_rocket/latest.png"
             }
         ],
         "enchantments": [
@@ -30,10 +30,9 @@
                 "types": [
                     "enchantments/armor"
                 ],
-                "element_type": "enchantment",
-                "minecraft_identifier": "thorns",
+                "wiki": "https://minecraft.wiki/w/Thorns",
                 "name": "Thorns",
-                "wiki": "https://minecraft.wiki/w/Thorns"
+                "identifier": "thorns"
             }
         ]
     },

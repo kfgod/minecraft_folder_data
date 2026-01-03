@@ -6,58 +6,58 @@
                     "woodset/oak",
                     "stairs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_stairs",
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak",
                 "name": "Oak Stairs",
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak"
+                "identifier": "oak_stairs",
+                "imagePath": "/block/oak_stairs/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "signs"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_sign",
+                "wiki": "https://minecraft.wiki/w/Sign#Oak",
                 "name": "Oak Sign",
-                "wiki": "https://minecraft.wiki/w/Sign#Oak"
+                "identifier": "oak_sign",
+                "imagePath": "/block/oak_sign/latest.png"
             },
             {
                 "types": [
                     "woodset/oak",
                     "doors"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_door",
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak",
                 "name": "Oak Door",
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak"
+                "identifier": "oak_door",
+                "imagePath": "/block/oak_door/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "ladder",
+                "wiki": "https://minecraft.wiki/w/Ladder",
                 "name": "Ladder",
-                "wiki": "https://minecraft.wiki/w/Ladder"
+                "identifier": "ladder",
+                "imagePath": "/block/ladder/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "spawner",
+                "wiki": "https://minecraft.wiki/w/Monster_Spawner",
                 "name": "Monster Spawner",
-                "wiki": "https://minecraft.wiki/w/Monster_Spawner"
+                "identifier": "spawner",
+                "imagePath": "/block/spawner/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cobblestone_stairs",
+                "wiki": "https://minecraft.wiki/w/Cobblestone_Stairs",
                 "name": "Cobblestone Stairs",
-                "wiki": "https://minecraft.wiki/w/Cobblestone_Stairs"
+                "identifier": "cobblestone_stairs",
+                "imagePath": "/block/cobblestone_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "rail",
+                "wiki": "https://minecraft.wiki/w/Rail",
                 "name": "Rail",
-                "wiki": "https://minecraft.wiki/w/Rail"
+                "identifier": "rail",
+                "imagePath": "/block/rail/latest.png"
             }
         ],
         "items": [
@@ -66,51 +66,51 @@
                     "food",
                     "food/supernatural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "golden_apple",
+                "wiki": "https://minecraft.wiki/w/Golden_Apple",
                 "name": "Golden Apple",
-                "wiki": "https://minecraft.wiki/w/Golden_Apple"
+                "identifier": "golden_apple",
+                "imagePath": "/item/golden_apple/latest.png"
             },
             {
                 "types": [
                     "buckets"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "bucket",
+                "wiki": "https://minecraft.wiki/w/Bucket",
                 "name": "Bucket",
-                "wiki": "https://minecraft.wiki/w/Bucket"
+                "identifier": "bucket",
+                "imagePath": "/item/bucket/latest.png"
             },
             {
                 "types": [
                     "buckets"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "water_bucket",
+                "wiki": "https://minecraft.wiki/w/Water_Bucket",
                 "name": "Water Bucket",
-                "wiki": "https://minecraft.wiki/w/Water_Bucket"
+                "identifier": "water_bucket",
+                "imagePath": "/item/water_bucket/latest.png"
             },
             {
                 "types": [
                     "buckets"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "lava_bucket",
+                "wiki": "https://minecraft.wiki/w/Lava_Bucket",
                 "name": "Lava Bucket",
-                "wiki": "https://minecraft.wiki/w/Lava_Bucket"
+                "identifier": "lava_bucket",
+                "imagePath": "/item/lava_bucket/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "saddle",
+                "wiki": "https://minecraft.wiki/w/Saddle",
                 "name": "Saddle",
-                "wiki": "https://minecraft.wiki/w/Saddle"
+                "identifier": "saddle",
+                "imagePath": "/item/saddle/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "minecart",
+                "wiki": "https://minecraft.wiki/w/Minecart",
                 "name": "Minecart",
-                "wiki": "https://minecraft.wiki/w/Minecart"
+                "identifier": "minecart",
+                "imagePath": "/item/minecart/latest.png"
             }
         ]
     },

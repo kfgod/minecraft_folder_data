@@ -6,129 +6,129 @@
                     "woodset/oak",
                     "gates"
                 ],
-                "element_type": "block",
-                "minecraft_identifier": "oak_fence_gate",
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak",
                 "name": "Oak Fence Gate",
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak"
+                "identifier": "oak_fence_gate",
+                "imagePath": "/block/oak_fence_gate/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Stone_Bricks",
                 "name": "Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Stone_Bricks"
+                "identifier": "stone_bricks",
+                "imagePath": "/block/stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "cracked_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Cracked_Stone_Bricks",
                 "name": "Cracked Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
+                "identifier": "cracked_stone_bricks",
+                "imagePath": "/block/cracked_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "mossy_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks",
                 "name": "Mossy Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
+                "identifier": "mossy_stone_bricks",
+                "imagePath": "/block/mossy_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_stone",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Stone",
                 "name": "Infested Stone",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Stone"
+                "identifier": "infested_stone",
+                "imagePath": "/block/infested_stone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_cobblestone",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Cobblestone",
                 "name": "Infested Cobblestone",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Cobblestone"
+                "identifier": "infested_cobblestone",
+                "imagePath": "/block/infested_cobblestone/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "infested_stone_bricks",
+                "wiki": "https://minecraft.wiki/w/Infested_Block#Stone_Bricks",
                 "name": "Infested Stone Bricks",
-                "wiki": "https://minecraft.wiki/w/Infested_Block#Stone_Bricks"
+                "identifier": "infested_stone_bricks",
+                "imagePath": "/block/infested_stone_bricks/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brick_slab",
+                "wiki": "https://minecraft.wiki/w/Brick_Slab",
                 "name": "Brick Slab",
-                "wiki": "https://minecraft.wiki/w/Brick_Slab"
+                "identifier": "brick_slab",
+                "imagePath": "/block/brick_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone_brick_slab",
+                "wiki": "https://minecraft.wiki/w/Stone_Brick_Slab",
                 "name": "Stone Brick Slab",
-                "wiki": "https://minecraft.wiki/w/Stone_Brick_Slab"
+                "identifier": "stone_brick_slab",
+                "imagePath": "/block/stone_brick_slab/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brick_stairs",
+                "wiki": "https://minecraft.wiki/w/Brick_Stairs",
                 "name": "Brick Stairs",
-                "wiki": "https://minecraft.wiki/w/Brick_Stairs"
+                "identifier": "brick_stairs",
+                "imagePath": "/block/brick_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "stone_brick_stairs",
+                "wiki": "https://minecraft.wiki/w/Stone_Brick_Stairs",
                 "name": "Stone Brick Stairs",
-                "wiki": "https://minecraft.wiki/w/Stone_Brick_Stairs"
+                "identifier": "stone_brick_stairs",
+                "imagePath": "/block/stone_brick_stairs/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "glass_pane",
+                "wiki": "https://minecraft.wiki/w/Glass_Pane",
                 "name": "Glass Pane",
-                "wiki": "https://minecraft.wiki/w/Glass_Pane"
+                "identifier": "glass_pane",
+                "imagePath": "/block/glass_pane/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "iron_bars",
+                "wiki": "https://minecraft.wiki/w/Iron_Bars",
                 "name": "Iron Bars",
-                "wiki": "https://minecraft.wiki/w/Iron_Bars"
+                "identifier": "iron_bars",
+                "imagePath": "/block/iron_bars/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "vine",
+                "wiki": "https://minecraft.wiki/w/Vines",
                 "name": "Vines",
-                "wiki": "https://minecraft.wiki/w/Vines"
+                "identifier": "vine",
+                "imagePath": "/block/vine/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "red_mushroom_block",
+                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Red",
                 "name": "Red Mushroom Block",
-                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Red"
+                "identifier": "red_mushroom_block",
+                "imagePath": "/block/red_mushroom_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "brown_mushroom_block",
+                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Brown",
                 "name": "Brown Mushroom Block",
-                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Brown"
+                "identifier": "brown_mushroom_block",
+                "imagePath": "/block/brown_mushroom_block/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "mushroom_stem",
+                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Stem",
                 "name": "Mushroom Stem",
-                "wiki": "https://minecraft.wiki/w/Mushroom_Block#Stem"
+                "identifier": "mushroom_stem",
+                "imagePath": "/block/mushroom_stem/latest.png"
             },
             {
                 "types": [],
-                "element_type": "block",
-                "minecraft_identifier": "melon",
+                "wiki": "https://minecraft.wiki/w/Melon",
                 "name": "Melon",
-                "wiki": "https://minecraft.wiki/w/Melon"
+                "identifier": "melon",
+                "imagePath": "/block/melon/latest.png"
             }
         ],
         "items": [
@@ -137,20 +137,20 @@
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "melon_seeds",
+                "wiki": "https://minecraft.wiki/w/Melon_Seeds",
                 "name": "Melon Seeds",
-                "wiki": "https://minecraft.wiki/w/Melon_Seeds"
+                "identifier": "melon_seeds",
+                "imagePath": "/item/melon_seeds/latest.png"
             },
             {
                 "types": [
                     "vegetation",
                     "seeds"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "pumpkin_seeds",
+                "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds",
                 "name": "Pumpkin Seeds",
-                "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds"
+                "identifier": "pumpkin_seeds",
+                "imagePath": "/item/pumpkin_seeds/latest.png"
             },
             {
                 "types": [
@@ -158,52 +158,52 @@
                     "food",
                     "food/natural"
                 ],
-                "element_type": "item",
-                "minecraft_identifier": "melon_slice",
+                "wiki": "https://minecraft.wiki/w/Melon_Slice",
                 "name": "Melon Slice",
-                "wiki": "https://minecraft.wiki/w/Melon_Slice"
+                "identifier": "melon_slice",
+                "imagePath": "/item/melon_slice/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "chicken",
+                "wiki": "https://minecraft.wiki/w/Raw_Chicken",
                 "name": "Raw Chicken",
-                "wiki": "https://minecraft.wiki/w/Raw_Chicken"
+                "identifier": "chicken",
+                "imagePath": "/item/chicken/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cooked_chicken",
+                "wiki": "https://minecraft.wiki/w/Cooked_Chicken",
                 "name": "Cooked Chicken",
-                "wiki": "https://minecraft.wiki/w/Cooked_Chicken"
+                "identifier": "cooked_chicken",
+                "imagePath": "/item/cooked_chicken/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "beef",
+                "wiki": "https://minecraft.wiki/w/Raw_Beef",
                 "name": "Raw Beef",
-                "wiki": "https://minecraft.wiki/w/Raw_Beef"
+                "identifier": "beef",
+                "imagePath": "/item/beef/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "cooked_beef",
+                "wiki": "https://minecraft.wiki/w/Steak",
                 "name": "Steak",
-                "wiki": "https://minecraft.wiki/w/Steak"
+                "identifier": "cooked_beef",
+                "imagePath": "/item/cooked_beef/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "rotten_flesh",
+                "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
                 "name": "Rotten Flesh",
-                "wiki": "https://minecraft.wiki/w/Rotten_Flesh"
+                "identifier": "rotten_flesh",
+                "imagePath": "/item/rotten_flesh/latest.png"
             },
             {
                 "types": [],
-                "element_type": "item",
-                "minecraft_identifier": "ender_pearl",
+                "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
                 "name": "Ender Pearl",
-                "wiki": "https://minecraft.wiki/w/Rotten_Flesh"
+                "identifier": "ender_pearl",
+                "imagePath": "/item/ender_pearl/latest.png"
             }
         ],
         "mobs": [
@@ -211,55 +211,55 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "cave_spider",
-                "name": "Cave Spider",
                 "wiki": "https://minecraft.wiki/w/Cave_Spider",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "cave_spider_spawn_egg",
-                        "element_type": "item",
                         "name": "Cave Spider Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/cave_spider_spawn_egg/latest.png"
                     },
                     "health": 12
-                }
+                },
+                "name": "Cave Spider",
+                "identifier": "cave_spider",
+                "imagePath": "/mob/cave_spider/latest.png"
             },
             {
                 "types": [
                     "mobs/neutral"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "enderman",
-                "name": "Enderman",
                 "wiki": "https://minecraft.wiki/w/Enderman",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "enderman_spawn_egg",
-                        "element_type": "item",
                         "name": "Enderman Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/enderman_spawn_egg/latest.png"
                     },
                     "health": 40
-                }
+                },
+                "name": "Enderman",
+                "identifier": "enderman",
+                "imagePath": "/mob/enderman/latest.png"
             },
             {
                 "types": [
                     "mobs/hostile"
                 ],
-                "element_type": "mob",
-                "minecraft_identifier": "silverfish",
-                "name": "Silverfish",
                 "wiki": "https://minecraft.wiki/w/Silverfish",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "silverfish_spawn_egg",
-                        "element_type": "item",
                         "name": "Silverfish Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg"
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/silverfish_spawn_egg/latest.png"
                     },
                     "health": 8
-                }
+                },
+                "name": "Silverfish",
+                "identifier": "silverfish",
+                "imagePath": "/mob/silverfish/latest.png"
             }
         ],
         "effects": [
@@ -267,172 +267,172 @@
                 "types": [
                     "effects/movement"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "jump_boost",
+                "wiki": "https://minecraft.wiki/w/Jump_Boost",
                 "name": "Jump Boost",
-                "wiki": "https://minecraft.wiki/w/Jump_Boost"
+                "identifier": "jump_boost",
+                "imagePath": "/effect/jump_boost/latest.png"
             },
             {
                 "types": [
                     "effects/movement"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "slowness",
+                "wiki": "https://minecraft.wiki/w/Slowness",
                 "name": "Slowness",
-                "wiki": "https://minecraft.wiki/w/Slowness"
+                "identifier": "slowness",
+                "imagePath": "/effect/slowness/latest.png"
             },
             {
                 "types": [
                     "effects/movement"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "speed",
+                "wiki": "https://minecraft.wiki/w/Speed",
                 "name": "Speed",
-                "wiki": "https://minecraft.wiki/w/Speed"
+                "identifier": "speed",
+                "imagePath": "/effect/speed/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "fire_resistance",
+                "wiki": "https://minecraft.wiki/w/Fire_Resistance",
                 "name": "Fire Resistance",
-                "wiki": "https://minecraft.wiki/w/Fire_Resistance"
+                "identifier": "fire_resistance",
+                "imagePath": "/effect/fire_resistance/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "instant_damage",
+                "wiki": "https://minecraft.wiki/w/Instant_Damage",
                 "name": "Instant Damage",
-                "wiki": "https://minecraft.wiki/w/Instant_Damage"
+                "identifier": "instant_damage",
+                "imagePath": "/effect/instant_damage/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "instant_health",
+                "wiki": "https://minecraft.wiki/w/Instant_Health",
                 "name": "Instant Health",
-                "wiki": "https://minecraft.wiki/w/Instant_Health"
+                "identifier": "instant_health",
+                "imagePath": "/effect/instant_health/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "poison",
+                "wiki": "https://minecraft.wiki/w/Poison",
                 "name": "Poison",
-                "wiki": "https://minecraft.wiki/w/Poison"
+                "identifier": "poison",
+                "imagePath": "/effect/poison/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "regeneration",
+                "wiki": "https://minecraft.wiki/w/Regeneration",
                 "name": "Regeneration",
-                "wiki": "https://minecraft.wiki/w/Regeneration"
+                "identifier": "regeneration",
+                "imagePath": "/effect/regeneration/latest.png"
             },
             {
                 "types": [
                     "effects/health"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "resistance",
+                "wiki": "https://minecraft.wiki/w/Resistance",
                 "name": "Resistance",
-                "wiki": "https://minecraft.wiki/w/Resistance"
+                "identifier": "resistance",
+                "imagePath": "/effect/resistance/latest.png"
             },
             {
                 "types": [
                     "effects/combat"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "strength",
+                "wiki": "https://minecraft.wiki/w/Strength",
                 "name": "Strength",
-                "wiki": "https://minecraft.wiki/w/Strength"
+                "identifier": "strength",
+                "imagePath": "/effect/strength/latest.png"
             },
             {
                 "types": [
                     "effects/combat"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "weakness",
+                "wiki": "https://minecraft.wiki/w/Weakness",
                 "name": "Weakness",
-                "wiki": "https://minecraft.wiki/w/Weakness"
+                "identifier": "weakness",
+                "imagePath": "/effect/weakness/latest.png"
             },
             {
                 "types": [
                     "effects/hunger"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "hunger",
+                "wiki": "https://minecraft.wiki/w/Hunger_(effect)",
                 "name": "Hunger",
-                "wiki": "https://minecraft.wiki/w/Hunger_(effect)"
+                "identifier": "hunger",
+                "imagePath": "/effect/hunger/latest.png"
             },
             {
                 "types": [
                     "effects/breaking"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "haste",
+                "wiki": "https://minecraft.wiki/w/Haste",
                 "name": "Haste",
-                "wiki": "https://minecraft.wiki/w/Haste"
+                "identifier": "haste",
+                "imagePath": "/effect/haste/latest.png"
             },
             {
                 "types": [
                     "effects/breaking"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "mining_fatigue",
+                "wiki": "https://minecraft.wiki/w/Mining_Fatigue",
                 "name": "Mining Fatigue",
-                "wiki": "https://minecraft.wiki/w/Mining_Fatigue"
+                "identifier": "mining_fatigue",
+                "imagePath": "/effect/mining_fatigue/latest.png"
             },
             {
                 "types": [
                     "effects/underwater"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "water_breathing",
+                "wiki": "https://minecraft.wiki/w/Water_Breathing",
                 "name": "Water Breathing",
-                "wiki": "https://minecraft.wiki/w/Water_Breathing"
+                "identifier": "water_breathing",
+                "imagePath": "/effect/water_breathing/latest.png"
             },
             {
                 "types": [
                     "effects/visibility"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "blindness",
+                "wiki": "https://minecraft.wiki/w/Blindness",
                 "name": "Blindness",
-                "wiki": "https://minecraft.wiki/w/Blindness"
+                "identifier": "blindness",
+                "imagePath": "/effect/blindness/latest.png"
             },
             {
                 "types": [
                     "effects/visibility"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "invisibility",
+                "wiki": "https://minecraft.wiki/w/Invisibility",
                 "name": "Invisibility",
-                "wiki": "https://minecraft.wiki/w/Invisibility"
+                "identifier": "invisibility",
+                "imagePath": "/effect/invisibility/latest.png"
             },
             {
                 "types": [
                     "effects/visibility"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "nausea",
+                "wiki": "https://minecraft.wiki/w/Nausea",
                 "name": "Nausea",
-                "wiki": "https://minecraft.wiki/w/Nausea"
+                "identifier": "nausea",
+                "imagePath": "/effect/nausea/latest.png"
             },
             {
                 "types": [
                     "effects/visibility"
                 ],
-                "element_type": "effect",
-                "minecraft_identifier": "night_vision",
+                "wiki": "https://minecraft.wiki/w/Night_Vision",
                 "name": "Night Vision",
-                "wiki": "https://minecraft.wiki/w/Night_Vision"
+                "identifier": "night_vision",
+                "imagePath": "/effect/night_vision/latest.png"
             }
         ],
         "biomes": [
@@ -440,37 +440,37 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "ocean",
+                "wiki": "https://minecraft.wiki/w/Ocean",
                 "name": "Ocean",
-                "wiki": "https://minecraft.wiki/w/Ocean"
+                "identifier": "ocean",
+                "imagePath": "/biome/ocean/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "river",
+                "wiki": "https://minecraft.wiki/w/River",
                 "name": "River",
-                "wiki": "https://minecraft.wiki/w/River"
+                "identifier": "river",
+                "imagePath": "/biome/river/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "swamp",
+                "wiki": "https://minecraft.wiki/w/Swamp",
                 "name": "Swamp",
-                "wiki": "https://minecraft.wiki/w/Swamp"
+                "identifier": "swamp",
+                "imagePath": "/biome/swamp/latest.png"
             },
             {
                 "types": [
                     "biome/overworld"
                 ],
-                "element_type": "biome",
-                "minecraft_identifier": "windswept_hills",
+                "wiki": "https://minecraft.wiki/w/Windswept_Hills",
                 "name": "Windswept Hills",
-                "wiki": "https://minecraft.wiki/w/Windswept_Hills"
+                "identifier": "windswept_hills",
+                "imagePath": "/biome/windswept_hills/latest.png"
             }
         ]
     },
