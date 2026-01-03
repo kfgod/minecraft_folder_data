@@ -382,6 +382,18 @@
                 "identifier": "wither",
                 "imagePath": "/painting/wither/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Swamp_Hut",
+                "name": "Swamp Hut",
+                "identifier": "swamp_hut",
+                "imagePath": "/structure/swamp_hut/latest.png"
+            }
         ]
     },
     "image": null,

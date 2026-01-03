@@ -102,5 +102,15 @@
       "identifier": "pale_garden"
     },
     "release_date": "2024-12-03T10:12:57+00:00"
+  },
+  "last_structure": {
+    "version": "1.21",
+    "version_name": "Tricky Trials",
+    "element": {
+      "name": "Trial Chambers",
+      "wiki": "https://minecraft.wiki/w/Trial_Chambers",
+      "identifier": "trial_chambers"
+    },
+    "release_date": "2024-06-13T08:24:03+00:00"
   }
 }

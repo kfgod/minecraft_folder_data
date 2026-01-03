@@ -398,6 +398,18 @@
                 "name": "Curse of Vanishing",
                 "identifier": "vanishing_curse"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Woodland_Mansion",
+                "name": "Woodland Mansion",
+                "identifier": "woodland_mansion",
+                "imagePath": "/structure/woodland_mansion/latest.png"
+            }
         ]
     },
     "image": null,

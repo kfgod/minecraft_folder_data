@@ -1526,6 +1526,18 @@
                 "name": "Over-Overkill",
                 "identifier": "adventure/overoverkill"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Trial_Chambers",
+                "name": "Trial Chambers",
+                "identifier": "trial_chambers",
+                "imagePath": "/structure/trial_chambers/latest.png"
+            }
         ]
     },
     "image": null,

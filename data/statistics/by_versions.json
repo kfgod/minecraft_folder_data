@@ -13,6 +13,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 6
     }
   },
@@ -30,6 +31,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 45
     }
   },
@@ -47,6 +49,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 89
     }
   },
@@ -64,6 +67,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 13
     }
   },
@@ -81,6 +85,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 5,
+      "structures": 0,
       "total": 61
     }
   },
@@ -98,6 +103,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 30
     }
   },
@@ -115,6 +121,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 8
     }
   },
@@ -132,6 +139,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 2
     }
   },
@@ -149,6 +157,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 5
     }
   },
@@ -166,6 +175,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 5
     }
   },
@@ -183,6 +193,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 3
     }
   },
@@ -200,7 +211,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 4,
-      "total": 53
+      "structures": 3,
+      "total": 56
     }
   },
   {
@@ -217,7 +229,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 5,
-      "total": 85
+      "structures": 1,
+      "total": 86
     }
   },
   {
@@ -234,6 +247,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 1,
+      "structures": 0,
       "total": 25
     }
   },
@@ -251,6 +265,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 1,
+      "structures": 0,
       "total": 12
     }
   },
@@ -268,6 +283,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 5
     }
   },
@@ -285,7 +301,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 20
+      "structures": 2,
+      "total": 22
     }
   },
   {
@@ -302,7 +319,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 38
+      "structures": 1,
+      "total": 39
     }
   },
   {
@@ -319,6 +337,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 1
     }
   },
@@ -336,6 +355,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 4
     }
   },
@@ -353,6 +373,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 21
     }
   },
@@ -370,6 +391,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 49
     }
   },
@@ -387,6 +409,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 21,
+      "structures": 0,
       "total": 98
     }
   },
@@ -404,7 +427,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 73
+      "structures": 1,
+      "total": 74
     }
   },
   {
@@ -421,7 +445,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 4,
-      "total": 78
+      "structures": 2,
+      "total": 80
     }
   },
   {
@@ -438,6 +463,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 9
     }
   },
@@ -455,7 +481,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 42
+      "structures": 1,
+      "total": 43
     }
   },
   {
@@ -472,6 +499,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 3
     }
   },
@@ -489,6 +517,7 @@
       "advancements": 0,
       "mob_variants": 4,
       "biomes": 0,
+      "structures": 0,
       "total": 70
     }
   },
@@ -506,7 +535,8 @@
       "advancements": 4,
       "mob_variants": 0,
       "biomes": 6,
-      "total": 125
+      "structures": 3,
+      "total": 128
     }
   },
   {
@@ -523,6 +553,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 5
     }
   },
@@ -540,7 +571,8 @@
       "advancements": 7,
       "mob_variants": 7,
       "biomes": 1,
-      "total": 118
+      "structures": 1,
+      "total": 119
     }
   },
   {
@@ -557,6 +589,7 @@
       "advancements": 3,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 11
     }
   },
@@ -574,7 +607,8 @@
       "advancements": 11,
       "mob_variants": 0,
       "biomes": 4,
-      "total": 112
+      "structures": 2,
+      "total": 114
     }
   },
   {
@@ -591,6 +625,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 2
     }
   },
@@ -608,6 +643,7 @@
       "advancements": 11,
       "mob_variants": 4,
       "biomes": 0,
+      "structures": 0,
       "total": 142
     }
   },
@@ -625,6 +661,7 @@
       "advancements": 4,
       "mob_variants": 0,
       "biomes": 8,
+      "structures": 0,
       "total": 13
     }
   },
@@ -642,7 +679,8 @@
       "advancements": 7,
       "mob_variants": 2,
       "biomes": 2,
-      "total": 84
+      "structures": 1,
+      "total": 85
     }
   },
   {
@@ -659,6 +697,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 4
     }
   },
@@ -676,7 +715,8 @@
       "advancements": 8,
       "mob_variants": 0,
       "biomes": 1,
-      "total": 110
+      "structures": 1,
+      "total": 111
     }
   },
   {
@@ -693,6 +733,7 @@
       "advancements": 4,
       "mob_variants": 8,
       "biomes": 0,
+      "structures": 0,
       "total": 16
     }
   },
@@ -710,7 +751,8 @@
       "advancements": 8,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 156
+      "structures": 1,
+      "total": 157
     }
   },
   {
@@ -727,6 +769,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 18
     }
   },
@@ -744,6 +787,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 1,
+      "structures": 0,
       "total": 36
     }
   },
@@ -761,6 +805,7 @@
       "advancements": 0,
       "mob_variants": 6,
       "biomes": 0,
+      "structures": 0,
       "total": 27
     }
   },
@@ -778,6 +823,7 @@
       "advancements": 2,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 22
     }
   },
@@ -795,6 +841,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 3
     }
   },
@@ -812,6 +859,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 73
     }
   },
@@ -829,6 +877,7 @@
       "advancements": 1,
       "mob_variants": 1,
       "biomes": 0,
+      "structures": 0,
       "total": 26
     }
   }

@@ -648,6 +648,18 @@
                 "name": "Depth Strider",
                 "identifier": "depth_strider"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underwater",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ocean_Monument",
+                "name": "Ocean Monument",
+                "identifier": "ocean_monument",
+                "imagePath": "/structure/ocean_monument/latest.png"
+            }
         ]
     },
     "image": null,

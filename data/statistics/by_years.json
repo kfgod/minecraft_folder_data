@@ -11,6 +11,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
+      "structures": 0,
       "total": 51
     }
   },
@@ -26,6 +27,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 5,
+      "structures": 0,
       "total": 163
     }
   },
@@ -41,7 +43,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 9,
-      "total": 191
+      "structures": 4,
+      "total": 195
     }
   },
   {
@@ -56,7 +59,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 2,
-      "total": 105
+      "structures": 3,
+      "total": 108
     }
   },
   {
@@ -71,6 +75,7 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 21,
+      "structures": 0,
       "total": 168
     }
   },
@@ -86,7 +91,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 0,
-      "total": 73
+      "structures": 1,
+      "total": 74
     }
   },
   {
@@ -101,7 +107,8 @@
       "advancements": 0,
       "mob_variants": 0,
       "biomes": 4,
-      "total": 132
+      "structures": 3,
+      "total": 135
     }
   },
   {
@@ -116,6 +123,7 @@
       "advancements": 0,
       "mob_variants": 4,
       "biomes": 0,
+      "structures": 0,
       "total": 70
     }
   },
@@ -131,7 +139,8 @@
       "advancements": 4,
       "mob_variants": 0,
       "biomes": 6,
-      "total": 130
+      "structures": 3,
+      "total": 133
     }
   },
   {
@@ -146,7 +155,8 @@
       "advancements": 10,
       "mob_variants": 7,
       "biomes": 1,
-      "total": 129
+      "structures": 1,
+      "total": 130
     }
   },
   {
@@ -161,7 +171,8 @@
       "advancements": 11,
       "mob_variants": 0,
       "biomes": 4,
-      "total": 114
+      "structures": 2,
+      "total": 116
     }
   },
   {
@@ -176,6 +187,7 @@
       "advancements": 15,
       "mob_variants": 4,
       "biomes": 8,
+      "structures": 0,
       "total": 155
     }
   },
@@ -191,7 +203,8 @@
       "advancements": 7,
       "mob_variants": 2,
       "biomes": 2,
-      "total": 88
+      "structures": 1,
+      "total": 89
     }
   },
   {
@@ -206,7 +219,8 @@
       "advancements": 8,
       "mob_variants": 0,
       "biomes": 1,
-      "total": 110
+      "structures": 1,
+      "total": 111
     }
   },
   {
@@ -221,7 +235,8 @@
       "advancements": 12,
       "mob_variants": 8,
       "biomes": 1,
-      "total": 226
+      "structures": 1,
+      "total": 227
     }
   },
   {
@@ -236,6 +251,7 @@
       "advancements": 3,
       "mob_variants": 7,
       "biomes": 0,
+      "structures": 0,
       "total": 151
     }
   }

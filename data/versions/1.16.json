@@ -1037,6 +1037,29 @@
                 "identifier": "warped_forest",
                 "imagePath": "/biome/warped_forest/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/underground",
+                    "structure/overworld",
+                    "structure/nether"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ruined_Portal",
+                "name": "Ruined Portal",
+                "identifier": "ruined_portal",
+                "imagePath": "/structure/ruined_portal/latest.png"
+            },
+            {
+                "types": [
+                    "structure/nether"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bastion_Remnant",
+                "name": "Bastion Remnant",
+                "identifier": "bastion_remnant",
+                "imagePath": "/structure/bastion_remnant/latest.png"
+            }
         ]
     },
     "image": null,

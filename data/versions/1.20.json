@@ -1096,6 +1096,18 @@
                 "identifier": "cherry_grove",
                 "imagePath": "/biome/cherry_grove/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Trail_Ruins",
+                "name": "Trail Ruins",
+                "identifier": "trail_ruins",
+                "imagePath": "/structure/trail_ruins/latest.png"
+            }
         ]
     },
     "image": null,

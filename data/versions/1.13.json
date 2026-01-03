@@ -1160,6 +1160,38 @@
                 "identifier": "warm_ocean",
                 "imagePath": "/biome/warm_ocean/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Buried_Treasure",
+                "name": "Buried Treasure",
+                "identifier": "buried_treasure",
+                "imagePath": "/structure/buried_treasure/latest.png"
+            },
+            {
+                "types": [
+                    "structure/underwater",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ocean_Ruins",
+                "name": "Ocean Ruins",
+                "identifier": "ocean_ruins",
+                "imagePath": "/structure/ocean_ruins/latest.png"
+            },
+            {
+                "types": [
+                    "structure/underwater",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Shipwreck",
+                "name": "Shipwreck",
+                "identifier": "shipwreck",
+                "imagePath": "/structure/shipwreck/latest.png"
+            }
         ]
     },
     "image": null,

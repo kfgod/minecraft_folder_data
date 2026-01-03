@@ -472,6 +472,38 @@
                 "identifier": "windswept_hills",
                 "imagePath": "/biome/windswept_hills/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Mineshaft",
+                "name": "Mineshaft",
+                "identifier": "mineshaft",
+                "imagePath": "/structure/mineshaft/latest.png"
+            },
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stronghold",
+                "name": "Stronghold",
+                "identifier": "stronghold",
+                "imagePath": "/structure/stronghold/latest.png"
+            },
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Village",
+                "name": "Village",
+                "identifier": "village",
+                "imagePath": "/structure/village/latest.png"
+            }
         ]
     },
     "image": null,

@@ -885,6 +885,18 @@
                 "identifier": "deep_dark",
                 "imagePath": "/biome/deep_dark/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ancient_City",
+                "name": "Ancient City",
+                "identifier": "ancient_city",
+                "imagePath": "/structure/ancient_city/latest.png"
+            }
         ]
     },
     "image": null,

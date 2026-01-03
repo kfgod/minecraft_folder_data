@@ -179,6 +179,28 @@
                 "identifier": "emerald",
                 "imagePath": "/item/emerald/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Desert_Pyramid",
+                "name": "Desert Pyramid",
+                "identifier": "desert_pyramid",
+                "imagePath": "/structure/desert_pyramid/latest.png"
+            },
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Jungle_Pyramid",
+                "name": "Jungle Pyramid",
+                "identifier": "jungle_pyramid",
+                "imagePath": "/structure/jungle_pyramid/latest.png"
+            }
         ]
     },
     "image": null,

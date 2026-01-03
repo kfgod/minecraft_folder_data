@@ -778,6 +778,17 @@
                 "identifier": "the_end",
                 "imagePath": "/biome/the_end/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [
+                    "structure/nether"
+                ],
+                "wiki": "https://minecraft.wiki/w/Nether_Fortress",
+                "name": "Nether Fortress",
+                "identifier": "nether_fortress",
+                "imagePath": "/structure/nether_fortress/latest.png"
+            }
         ]
     },
     "image": null,
