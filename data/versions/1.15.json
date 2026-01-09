@@ -10,10 +10,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Beehive",
-                "name": "Beehive",
-                "identifier": "beehive",
-                "imagePath": "/block/beehive/latest.png"
+                "wiki": "https://minecraft.wiki/w/Honeycomb_Block",
+                "name": "Honeycomb Block",
+                "identifier": "honeycomb_block",
+                "imagePath": "/block/honeycomb_block/latest.png"
             },
             {
                 "types": [],
@@ -24,10 +24,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Honeycomb_Block",
-                "name": "Honeycomb Block",
-                "identifier": "honeycomb_block",
-                "imagePath": "/block/honeycomb_block/latest.png"
+                "wiki": "https://minecraft.wiki/w/Beehive",
+                "name": "Beehive",
+                "identifier": "beehive",
+                "imagePath": "/block/beehive/latest.png"
             }
         ],
         "items": [
@@ -80,6 +80,20 @@
         "advancements": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Total_Beelocation",
+                "meta": {
+                    "icon": {
+                        "identifier": "beehive",
+                        "name": "Beehive",
+                        "wiki": "https://minecraft.wiki/w/Beehive",
+                        "imagePath": "/block/beehive/latest.png"
+                    }
+                },
+                "name": "Total Beelocation",
+                "identifier": "husbandry/silk_touch_nest"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Sticky_Situation",
                 "meta": {
                     "icon": {
@@ -105,20 +119,6 @@
                 },
                 "name": "Bee Our Guest",
                 "identifier": "husbandry/safely_harvest_honey"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Total_Beelocation",
-                "meta": {
-                    "icon": {
-                        "identifier": "beehive",
-                        "name": "Beehive",
-                        "wiki": "https://minecraft.wiki/w/Beehive",
-                        "imagePath": "/block/beehive/latest.png"
-                    }
-                },
-                "name": "Total Beelocation",
-                "identifier": "husbandry/silk_touch_nest"
             }
         ]
     },

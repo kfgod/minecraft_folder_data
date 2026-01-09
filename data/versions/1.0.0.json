@@ -2,6 +2,65 @@
     "added": {
         "blocks": [
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Nether_Bricks",
+                "name": "Nether Bricks",
+                "identifier": "nether_bricks",
+                "imagePath": "/block/nether_bricks/latest.png"
+            },
+            {
+                "types": [
+                    "stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs",
+                "name": "Nether Brick Stairs",
+                "identifier": "nether_brick_stairs",
+                "imagePath": "/block/nether_brick_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "fence"
+                ],
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Fence",
+                "name": "Nether Brick Fence",
+                "identifier": "nether_brick_fence",
+                "imagePath": "/block/nether_brick_fence/latest.png"
+            },
+            {
+                "types": [
+                    "end"
+                ],
+                "wiki": "https://minecraft.wiki/w/End_Stone",
+                "name": "End Stone",
+                "identifier": "end_stone",
+                "imagePath": "/block/end_stone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mycelium",
+                "name": "Mycelium",
+                "identifier": "mycelium",
+                "imagePath": "/block/mycelium/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Lily_Pad",
+                "name": "Lily Pad",
+                "identifier": "lily_pad",
+                "imagePath": "/block/lily_pad/latest.png"
+            },
+            {
+                "types": [
+                    "enchanting"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanting_Table",
+                "name": "Enchanting Table",
+                "identifier": "enchanting_table",
+                "imagePath": "/block/enchanting_table/latest.png"
+            },
+            {
                 "types": [
                     "brewing"
                 ],
@@ -28,71 +87,12 @@
             },
             {
                 "types": [
-                    "enchanting"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanting_Table",
-                "name": "Enchanting Table",
-                "identifier": "enchanting_table",
-                "imagePath": "/block/enchanting_table/latest.png"
-            },
-            {
-                "types": [
                     "end"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_Portal_Frame",
                 "name": "End Portal Frame",
                 "identifier": "end_portal_frame",
                 "imagePath": "/block/end_portal_frame/latest.png"
-            },
-            {
-                "types": [
-                    "end"
-                ],
-                "wiki": "https://minecraft.wiki/w/End_Stone",
-                "name": "End Stone",
-                "identifier": "end_stone",
-                "imagePath": "/block/end_stone/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Lily_Pad",
-                "name": "Lily Pad",
-                "identifier": "lily_pad",
-                "imagePath": "/block/lily_pad/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mycelium",
-                "name": "Mycelium",
-                "identifier": "mycelium",
-                "imagePath": "/block/mycelium/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Nether_Bricks",
-                "name": "Nether Bricks",
-                "identifier": "nether_bricks",
-                "imagePath": "/block/nether_bricks/latest.png"
-            },
-            {
-                "types": [
-                    "stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs",
-                "name": "Nether Brick Stairs",
-                "identifier": "nether_brick_stairs",
-                "imagePath": "/block/nether_brick_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "fence"
-                ],
-                "wiki": "https://minecraft.wiki/w/Nether_Brick_Fence",
-                "name": "Nether Brick Fence",
-                "identifier": "nether_brick_fence",
-                "imagePath": "/block/nether_brick_fence/latest.png"
             }
         ],
         "items": [
@@ -107,14 +107,11 @@
                 "imagePath": "/item/nether_wart/latest.png"
             },
             {
-                "types": [
-                    "food",
-                    "food/natural"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spider_Eye",
-                "name": "Spider Eye",
-                "identifier": "spider_eye",
-                "imagePath": "/item/spider_eye/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Eye_of_Ender",
+                "name": "Eye of Ender",
+                "identifier": "ender_eye",
+                "imagePath": "/item/ender_eye/latest.png"
             },
             {
                 "types": [
@@ -198,46 +195,14 @@
                 "imagePath": "/item/music_disc_11/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blaze_Powder",
-                "name": "Blaze Powder",
-                "identifier": "blaze_powder",
-                "imagePath": "/item/blaze_powder/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blaze_Rod",
-                "name": "Blaze Rod",
-                "identifier": "blaze_rod",
-                "imagePath": "/item/blaze_rod/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Eye_of_Ender",
-                "name": "Eye of Ender",
-                "identifier": "ender_eye",
-                "imagePath": "/item/ender_eye/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye",
-                "name": "Fermented Spider Eye",
-                "identifier": "fermented_spider_eye",
-                "imagePath": "/item/fermented_spider_eye/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Ghast_Tear",
-                "name": "Ghast Tear",
-                "identifier": "ghast_tear",
-                "imagePath": "/item/ghast_tear/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Glistering_Melon_Slice",
-                "name": "Glistering Melon Slice",
-                "identifier": "glistering_melon_slice",
-                "imagePath": "/item/glistering_melon_slice/latest.png"
+                "types": [
+                    "food",
+                    "food/natural"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spider_Eye",
+                "name": "Spider Eye",
+                "identifier": "spider_eye",
+                "imagePath": "/item/spider_eye/latest.png"
             },
             {
                 "types": [],
@@ -248,6 +213,13 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Blaze_Rod",
+                "name": "Blaze Rod",
+                "identifier": "blaze_rod",
+                "imagePath": "/item/blaze_rod/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Glass_Bottle",
                 "name": "Glass Bottle",
                 "identifier": "glass_bottle",
@@ -255,10 +227,38 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Potion",
-                "name": "Water Bottle",
-                "identifier": "water_bottle",
-                "imagePath": "/item/water_bottle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye",
+                "name": "Fermented Spider Eye",
+                "identifier": "fermented_spider_eye",
+                "imagePath": "/item/fermented_spider_eye/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blaze_Powder",
+                "name": "Blaze Powder",
+                "identifier": "blaze_powder",
+                "imagePath": "/item/blaze_powder/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Glistering_Melon_Slice",
+                "name": "Glistering Melon Slice",
+                "identifier": "glistering_melon_slice",
+                "imagePath": "/item/glistering_melon_slice/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Magma_Cream",
+                "name": "Magma Cream",
+                "identifier": "magma_cream",
+                "imagePath": "/item/magma_cream/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ghast_Tear",
+                "name": "Ghast Tear",
+                "identifier": "ghast_tear",
+                "imagePath": "/item/ghast_tear/latest.png"
             },
             {
                 "types": [],
@@ -269,6 +269,13 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Awkward potion",
+                "identifier": "awkward_splash_potion",
+                "imagePath": "/item/awkward_splash_potion/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Mundane Potion",
                 "identifier": "mundane_potion",
@@ -276,10 +283,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Potion",
-                "name": "Thick Potion",
-                "identifier": "thick_potion",
-                "imagePath": "/item/thick_potion/latest.png"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Mundane Potion",
+                "identifier": "mundane_splash_potion",
+                "imagePath": "/item/mundane_splash_potion/latest.png"
             },
             {
                 "types": [
@@ -361,34 +368,6 @@
                 "name": "Potion of Weakness",
                 "identifier": "potion_of_weakness",
                 "imagePath": "/item/potion_of_weakness/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Splash Water Bottle",
-                "identifier": "splash_water_bottle",
-                "imagePath": "/item/splash_water_bottle/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Splash Awkward potion",
-                "identifier": "awkward_splash_potion",
-                "imagePath": "/item/awkward_splash_potion/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Splash Mundane Potion",
-                "identifier": "mundane_splash_potion",
-                "imagePath": "/item/mundane_splash_potion/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Splash Thick Potion",
-                "identifier": "thick_splash_potion",
-                "imagePath": "/item/thick_splash_potion/latest.png"
             },
             {
                 "types": [
@@ -473,67 +452,34 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Magma_Cream",
-                "name": "Magma Cream",
-                "identifier": "magma_cream",
-                "imagePath": "/item/magma_cream/latest.png"
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Water Bottle",
+                "identifier": "splash_water_bottle",
+                "imagePath": "/item/splash_water_bottle/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Thick Potion",
+                "identifier": "thick_potion",
+                "imagePath": "/item/thick_potion/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Thick Potion",
+                "identifier": "thick_splash_potion",
+                "imagePath": "/item/thick_splash_potion/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Water Bottle",
+                "identifier": "water_bottle",
+                "imagePath": "/item/water_bottle/latest.png"
             }
         ],
         "mobs": [
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Mooshroom#Red",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "mooshroom_spawn_egg",
-                        "name": "Mooshroom Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/mooshroom_spawn_egg/latest.png"
-                    },
-                    "health": 10
-                },
-                "name": "Red Mooshroom",
-                "identifier": "red_mooshroom",
-                "imagePath": "/mob/red_mooshroom/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Snow_Golem",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "snow_golem_spawn_egg",
-                        "name": "Snow Golem Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/snow_golem_spawn_egg/latest.png"
-                    },
-                    "health": 4
-                },
-                "name": "Snow Golem",
-                "identifier": "snow_golem",
-                "imagePath": "/mob/snow_golem/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Villager",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "villager_spawn_egg",
-                        "name": "Villager Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/villager_spawn_egg/latest.png"
-                    },
-                    "health": 20
-                },
-                "name": "Villager",
-                "identifier": "villager",
-                "imagePath": "/mob/villager/latest.png"
-            },
             {
                 "types": [
                     "mobs/hostile"
@@ -551,6 +497,24 @@
                 "name": "Blaze",
                 "identifier": "blaze",
                 "imagePath": "/mob/blaze/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Mooshroom#Red",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "mooshroom_spawn_egg",
+                        "name": "Mooshroom Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/mooshroom_spawn_egg/latest.png"
+                    },
+                    "health": 10
+                },
+                "name": "Red Mooshroom",
+                "identifier": "red_mooshroom",
+                "imagePath": "/mob/red_mooshroom/latest.png"
             },
             {
                 "types": [
@@ -586,41 +550,45 @@
                 "name": "Ender Dragon",
                 "identifier": "ender_dragon",
                 "imagePath": "/mob/ender_dragon/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Villager",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "villager_spawn_egg",
+                        "name": "Villager Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/villager_spawn_egg/latest.png"
+                    },
+                    "health": 20
+                },
+                "name": "Villager",
+                "identifier": "villager",
+                "imagePath": "/mob/villager/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Golem",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "snow_golem_spawn_egg",
+                        "name": "Snow Golem Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/snow_golem_spawn_egg/latest.png"
+                    },
+                    "health": 4
+                },
+                "name": "Snow Golem",
+                "identifier": "snow_golem",
+                "imagePath": "/mob/snow_golem/latest.png"
             }
         ],
         "enchantments": [
-            {
-                "types": [
-                    "enchantments/durability"
-                ],
-                "wiki": "https://minecraft.wiki/w/Unbreaking",
-                "name": "Unbreaking",
-                "identifier": "unbreaking"
-            },
-            {
-                "types": [
-                    "enchantments/block_breaking"
-                ],
-                "wiki": "https://minecraft.wiki/w/Efficiency",
-                "name": "Efficiency",
-                "identifier": "efficiency"
-            },
-            {
-                "types": [
-                    "enchantments/block_breaking"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fortune",
-                "name": "Fortune",
-                "identifier": "fortune"
-            },
-            {
-                "types": [
-                    "enchantments/block_breaking"
-                ],
-                "wiki": "https://minecraft.wiki/w/Silk_Touch",
-                "name": "Silk Touch",
-                "identifier": "silk_touch"
-            },
             {
                 "types": [
                     "enchantments/armor"
@@ -631,67 +599,13 @@
             },
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantments/melee/sword",
+                    "enchantments/melee/axe",
+                    "enchantments/melee/spear"
                 ],
-                "wiki": "https://minecraft.wiki/w/Fire_Protection",
-                "name": "Fire Protection",
-                "identifier": "fire_protection"
-            },
-            {
-                "types": [
-                    "enchantments/armor"
-                ],
-                "wiki": "https://minecraft.wiki/w/Projectile_Protection",
-                "name": "Projectile Protection",
-                "identifier": "projectile_protection"
-            },
-            {
-                "types": [
-                    "enchantments/armor"
-                ],
-                "wiki": "https://minecraft.wiki/w/Protection",
-                "name": "Protection",
-                "identifier": "protection"
-            },
-            {
-                "types": [
-                    "enchantments/armor/helmet"
-                ],
-                "wiki": "https://minecraft.wiki/w/Aqua_Affinity",
-                "name": "Aqua Affinity",
-                "identifier": "aqua_affinity"
-            },
-            {
-                "types": [
-                    "enchantments/armor/helmet"
-                ],
-                "wiki": "https://minecraft.wiki/w/Respiration",
-                "name": "Respiration",
-                "identifier": "respiration"
-            },
-            {
-                "types": [
-                    "enchantments/armor/boots"
-                ],
-                "wiki": "https://minecraft.wiki/w/Feather_Falling",
-                "name": "Feather Falling",
-                "identifier": "feather_falling"
-            },
-            {
-                "types": [
-                    "enchantments/melee"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bane_of_Arthropods",
-                "name": "Bane of Arthropods",
-                "identifier": "bane_of_arthropods"
-            },
-            {
-                "types": [
-                    "enchantments/melee"
-                ],
-                "wiki": "https://minecraft.wiki/w/Smite",
-                "name": "Smite",
-                "identifier": "smite"
+                "wiki": "https://minecraft.wiki/w/Sharpness",
+                "name": "Sharpness",
+                "identifier": "sharpness"
             },
             {
                 "types": [
@@ -705,12 +619,27 @@
             },
             {
                 "types": [
-                    "enchantments/melee/sword",
-                    "enchantments/melee/spear"
+                    "enchantments/armor"
                 ],
-                "wiki": "https://minecraft.wiki/w/Knockback",
-                "name": "Knockback",
-                "identifier": "knockback"
+                "wiki": "https://minecraft.wiki/w/Fire_Protection",
+                "name": "Fire Protection",
+                "identifier": "fire_protection"
+            },
+            {
+                "types": [
+                    "enchantments/block_breaking"
+                ],
+                "wiki": "https://minecraft.wiki/w/Efficiency",
+                "name": "Efficiency",
+                "identifier": "efficiency"
+            },
+            {
+                "types": [
+                    "enchantments/melee"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bane_of_Arthropods",
+                "name": "Bane of Arthropods",
+                "identifier": "bane_of_arthropods"
             },
             {
                 "types": [
@@ -723,16 +652,96 @@
             },
             {
                 "types": [
+                    "enchantments/armor/helmet"
+                ],
+                "wiki": "https://minecraft.wiki/w/Respiration",
+                "name": "Respiration",
+                "identifier": "respiration"
+            },
+            {
+                "types": [
+                    "enchantments/block_breaking"
+                ],
+                "wiki": "https://minecraft.wiki/w/Silk_Touch",
+                "name": "Silk Touch",
+                "identifier": "silk_touch"
+            },
+            {
+                "types": [
+                    "enchantments/armor/boots"
+                ],
+                "wiki": "https://minecraft.wiki/w/Feather_Falling",
+                "name": "Feather Falling",
+                "identifier": "feather_falling"
+            },
+            {
+                "types": [
+                    "enchantments/armor"
+                ],
+                "wiki": "https://minecraft.wiki/w/Protection",
+                "name": "Protection",
+                "identifier": "protection"
+            },
+            {
+                "types": [
+                    "enchantments/melee"
+                ],
+                "wiki": "https://minecraft.wiki/w/Smite",
+                "name": "Smite",
+                "identifier": "smite"
+            },
+            {
+                "types": [
+                    "enchantments/armor/helmet"
+                ],
+                "wiki": "https://minecraft.wiki/w/Aqua_Affinity",
+                "name": "Aqua Affinity",
+                "identifier": "aqua_affinity"
+            },
+            {
+                "types": [
                     "enchantments/melee/sword",
-                    "enchantments/melee/axe",
                     "enchantments/melee/spear"
                 ],
-                "wiki": "https://minecraft.wiki/w/Sharpness",
-                "name": "Sharpness",
-                "identifier": "sharpness"
+                "wiki": "https://minecraft.wiki/w/Knockback",
+                "name": "Knockback",
+                "identifier": "knockback"
+            },
+            {
+                "types": [
+                    "enchantments/armor"
+                ],
+                "wiki": "https://minecraft.wiki/w/Projectile_Protection",
+                "name": "Projectile Protection",
+                "identifier": "projectile_protection"
+            },
+            {
+                "types": [
+                    "enchantments/durability"
+                ],
+                "wiki": "https://minecraft.wiki/w/Unbreaking",
+                "name": "Unbreaking",
+                "identifier": "unbreaking"
+            },
+            {
+                "types": [
+                    "enchantments/block_breaking"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fortune",
+                "name": "Fortune",
+                "identifier": "fortune"
             }
         ],
         "biomes": [
+            {
+                "types": [
+                    "biome/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Mushroom_Fields",
+                "name": "Mushroom Fields",
+                "identifier": "mushroom_fields",
+                "imagePath": "/biome/mushroom_fields/latest.png"
+            },
             {
                 "types": [
                     "biome/overworld"
@@ -750,15 +759,6 @@
                 "name": "Frozen River",
                 "identifier": "frozen_river",
                 "imagePath": "/biome/frozen_river/latest.png"
-            },
-            {
-                "types": [
-                    "biome/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Mushroom_Fields",
-                "name": "Mushroom Fields",
-                "identifier": "mushroom_fields",
-                "imagePath": "/biome/mushroom_fields/latest.png"
             },
             {
                 "types": [

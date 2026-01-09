@@ -12,16 +12,18 @@
                 "imagePath": "/block/oak_planks/latest.png"
             },
             {
-                "types": [
-                    "vegetation",
-                    "woodset/oak",
-                    "saplings",
-                    "plants"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sapling#Oak",
-                "name": "Oak Sapling",
-                "identifier": "oak_sapling",
-                "imagePath": "/block/oak_sapling/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Stone",
+                "name": "Stone",
+                "identifier": "stone",
+                "imagePath": "/block/stone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cobblestone",
+                "name": "Cobblestone",
+                "identifier": "cobblestone",
+                "imagePath": "/block/cobblestone/latest.png"
             },
             {
                 "types": [],
@@ -32,24 +34,22 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Stone",
-                "name": "Stone",
-                "identifier": "stone",
-                "imagePath": "/block/stone/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Dirt",
                 "name": "Dirt",
                 "identifier": "dirt",
                 "imagePath": "/block/dirt/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cobblestone",
-                "name": "Cobblestone",
-                "identifier": "cobblestone",
-                "imagePath": "/block/cobblestone/latest.png"
+                "types": [
+                    "vegetation",
+                    "woodset/oak",
+                    "saplings",
+                    "plants"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sapling#Oak",
+                "name": "Oak Sapling",
+                "identifier": "oak_sapling",
+                "imagePath": "/block/oak_sapling/latest.png"
             }
         ]
     },

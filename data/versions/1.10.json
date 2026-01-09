@@ -3,17 +3,10 @@
         "blocks": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Nether_Wart_Block",
-                "name": "Nether Wart Block",
-                "identifier": "nether_wart_block",
-                "imagePath": "/block/nether_wart_block/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bone_Block",
-                "name": "Bone Block",
-                "identifier": "bone_block",
-                "imagePath": "/block/bone_block/latest.png"
+                "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks",
+                "name": "Red Nether Bricks",
+                "identifier": "red_nether_bricks",
+                "imagePath": "/block/red_nether_bricks/latest.png"
             },
             {
                 "types": [],
@@ -24,10 +17,17 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks",
-                "name": "Red Nether Bricks",
-                "identifier": "red_nether_bricks",
-                "imagePath": "/block/red_nether_bricks/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bone_Block",
+                "name": "Bone Block",
+                "identifier": "bone_block",
+                "imagePath": "/block/bone_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Nether_Wart_Block",
+                "name": "Nether Wart Block",
+                "identifier": "nether_wart_block",
+                "imagePath": "/block/nether_wart_block/latest.png"
             },
             {
                 "types": [],

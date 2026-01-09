@@ -14,31 +14,17 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Feels_Like_Home",
+                "wiki": "https://minecraft.wiki/w/Advancement#Sound_of_Music",
                 "meta": {
                     "icon": {
-                        "identifier": "warped_fungus_on_a_stick",
-                        "name": "Warped Fungus on a Stick",
-                        "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
-                        "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
+                        "identifier": "jukebox",
+                        "name": "Jukebox",
+                        "wiki": "https://minecraft.wiki/w/Jukebox",
+                        "imagePath": "/block/jukebox/latest.png"
                     }
                 },
-                "name": "Feels Like Home",
-                "identifier": "nether/ride_strider_in_overworld_lava"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Caves_&_Cliffs",
-                "meta": {
-                    "icon": {
-                        "identifier": "water_bucket",
-                        "name": "Water Bucket",
-                        "wiki": "https://minecraft.wiki/w/Water_Bucket",
-                        "imagePath": "/item/water_bucket/latest.png"
-                    }
-                },
-                "name": "Caves & Cliffs",
-                "identifier": "adventure/fall_from_world_height"
+                "name": "Sound of Music",
+                "identifier": "adventure/play_jukebox_in_meadows"
             },
             {
                 "types": [],
@@ -56,29 +42,51 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Sound_of_Music",
+                "wiki": "https://minecraft.wiki/w/Advancement#Caves_&_Cliffs",
                 "meta": {
                     "icon": {
-                        "identifier": "jukebox",
-                        "name": "Jukebox",
-                        "wiki": "https://minecraft.wiki/w/Jukebox",
-                        "imagePath": "/block/jukebox/latest.png"
+                        "identifier": "water_bucket",
+                        "name": "Water Bucket",
+                        "wiki": "https://minecraft.wiki/w/Water_Bucket",
+                        "imagePath": "/item/water_bucket/latest.png"
                     }
                 },
-                "name": "Sound of Music",
-                "identifier": "adventure/play_jukebox_in_meadows"
+                "name": "Caves & Cliffs",
+                "identifier": "adventure/fall_from_world_height"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Feels_Like_Home",
+                "meta": {
+                    "icon": {
+                        "identifier": "warped_fungus_on_a_stick",
+                        "name": "Warped Fungus on a Stick",
+                        "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
+                        "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
+                    }
+                },
+                "name": "Feels Like Home",
+                "identifier": "nether/ride_strider_in_overworld_lava"
             }
         ],
         "biomes": [
             {
                 "types": [
-                    "biome/overworld",
-                    "biome/cave"
+                    "biome/overworld"
                 ],
-                "wiki": "https://minecraft.wiki/w/Dripstone_Caves",
-                "name": "Dripstone Caves",
-                "identifier": "dripstone_caves",
-                "imagePath": "/biome/dripstone_caves/latest.png"
+                "wiki": "https://minecraft.wiki/w/Frozen_Peaks",
+                "name": "Frozen Peaks",
+                "identifier": "frozen_peaks",
+                "imagePath": "/biome/frozen_peaks/latest.png"
+            },
+            {
+                "types": [
+                    "biome/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snowy_Slopes",
+                "name": "Snowy Slopes",
+                "identifier": "snowy_slopes",
+                "imagePath": "/biome/snowy_slopes/latest.png"
             },
             {
                 "types": [
@@ -94,15 +102,6 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "wiki": "https://minecraft.wiki/w/Meadow",
-                "name": "Meadow",
-                "identifier": "meadow",
-                "imagePath": "/biome/meadow/latest.png"
-            },
-            {
-                "types": [
-                    "biome/overworld"
-                ],
                 "wiki": "https://minecraft.wiki/w/Grove",
                 "name": "Grove",
                 "identifier": "grove",
@@ -110,30 +109,13 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome/overworld",
+                    "biome/cave"
                 ],
-                "wiki": "https://minecraft.wiki/w/Snowy_Slopes",
-                "name": "Snowy Slopes",
-                "identifier": "snowy_slopes",
-                "imagePath": "/biome/snowy_slopes/latest.png"
-            },
-            {
-                "types": [
-                    "biome/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Jagged_Peaks",
-                "name": "Jagged Peaks",
-                "identifier": "jagged_peaks",
-                "imagePath": "/biome/jagged_peaks/latest.png"
-            },
-            {
-                "types": [
-                    "biome/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Frozen_Peaks",
-                "name": "Frozen Peaks",
-                "identifier": "frozen_peaks",
-                "imagePath": "/biome/frozen_peaks/latest.png"
+                "wiki": "https://minecraft.wiki/w/Dripstone_Caves",
+                "name": "Dripstone Caves",
+                "identifier": "dripstone_caves",
+                "imagePath": "/biome/dripstone_caves/latest.png"
             },
             {
                 "types": [
@@ -143,6 +125,24 @@
                 "name": "Stony Peaks",
                 "identifier": "stony_peaks",
                 "imagePath": "/biome/stony_peaks/latest.png"
+            },
+            {
+                "types": [
+                    "biome/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Meadow",
+                "name": "Meadow",
+                "identifier": "meadow",
+                "imagePath": "/biome/meadow/latest.png"
+            },
+            {
+                "types": [
+                    "biome/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Jagged_Peaks",
+                "name": "Jagged Peaks",
+                "identifier": "jagged_peaks",
+                "imagePath": "/biome/jagged_peaks/latest.png"
             }
         ]
     },

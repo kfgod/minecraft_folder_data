@@ -52,6 +52,13 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
+                "name": "Netherite Horse Armor",
+                "identifier": "netherite_horse_armor",
+                "imagePath": "/item/netherite_horse_armor/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
                 "name": "Copper Nautilus Armor",
                 "identifier": "copper_nautilus_armor",
@@ -99,24 +106,6 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Zombie Nautilus Spawn Egg",
-                "identifier": "zombie_nautilus_spawn_egg",
-                "imagePath": "/item/zombie_nautilus_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Lunge I-III",
-                "identifier": "lunge_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Camel Husk Spawn Egg",
                 "identifier": "camel_husk_spawn_egg",
                 "imagePath": "/item/camel_husk_spawn_egg/latest.png"
@@ -131,11 +120,22 @@
                 "imagePath": "/item/parched_spawn_egg/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
-                "name": "Netherite Horse Armor",
-                "identifier": "netherite_horse_armor",
-                "imagePath": "/item/netherite_horse_armor/latest.png"
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Zombie Nautilus Spawn Egg",
+                "identifier": "zombie_nautilus_spawn_egg",
+                "imagePath": "/item/zombie_nautilus_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Lunge I-III",
+                "identifier": "lunge_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
         "mobs": [
@@ -156,6 +156,24 @@
                 "name": "Nautilus",
                 "identifier": "nautilus",
                 "imagePath": "/mob/nautilus/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Camel_Husk",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "camel_husk_spawn_egg",
+                        "name": "Camel Husk Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/camel_husk_spawn_egg/latest.png"
+                    },
+                    "health": 32
+                },
+                "name": "Camel Husk",
+                "identifier": "camel_husk",
+                "imagePath": "/mob/camel_husk/latest.png"
             },
             {
                 "types": [
@@ -192,24 +210,6 @@
                 "name": "Parched",
                 "identifier": "parched",
                 "imagePath": "/mob/parched/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Camel_Husk",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "camel_husk_spawn_egg",
-                        "name": "Camel Husk Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/camel_husk_spawn_egg/latest.png"
-                    },
-                    "health": 32
-                },
-                "name": "Camel Husk",
-                "identifier": "camel_husk",
-                "imagePath": "/mob/camel_husk/latest.png"
             }
         ],
         "effects": [
@@ -285,5 +285,47 @@
     },
     "tags": [],
     "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11",
-    "type": "drop"
+    "type": "drop",
+    "changed": {
+        "items": [
+            {
+                "identifier": "zombie_horse_spawn_egg",
+                "changes": [
+                    {
+                        "type": "texture_change",
+                        "description": "Zombie Horse Spawn Egg now has a new texture.",
+                        "images": {
+                            "from": "/item/zombie_horse_spawn_egg/before_1_21_11.png",
+                            "to": "/item/zombie_horse_spawn_egg/latest.png"
+                        }
+                    }
+                ],
+                "name": "Zombie Horse Spawn Egg",
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "imagePath": "/item/zombie_horse_spawn_egg/latest.png"
+            }
+        ],
+        "mobs": [
+            {
+                "identifier": "zombie_horse",
+                "changes": [
+                    {
+                        "type": "texture_change",
+                        "description": "Zombie Horse now has a new texture.",
+                        "images": {
+                            "from": "/mob/zombie_horse/before_1_21_11.png",
+                            "to": "/mob/zombie_horse/latest.png"
+                        }
+                    },
+                    {
+                        "type": "spawn_change",
+                        "description": "Now spawns naturally, in plains and savanna biomes"
+                    }
+                ],
+                "name": "Zombie Horse",
+                "wiki": "https://minecraft.wiki/w/Zombie_Horse",
+                "imagePath": "/mob/zombie_horse/latest.png"
+            }
+        ]
+    }
 }

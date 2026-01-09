@@ -3,6 +3,20 @@
         "blocks": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Diamond",
+                "name": "Block of Diamond",
+                "identifier": "diamond_block",
+                "imagePath": "/block/diamond_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Farmland",
+                "name": "Farmland",
+                "identifier": "farmland",
+                "imagePath": "/block/farmland/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Diamond_Ore",
                 "name": "Diamond Ore",
                 "identifier": "diamond_ore",
@@ -17,20 +31,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Chest",
-                "name": "Chest",
-                "identifier": "chest",
-                "imagePath": "/block/chest/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Diamond",
-                "name": "Block of Diamond",
-                "identifier": "diamond_block",
-                "imagePath": "/block/diamond_block/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Crafting_Table",
                 "name": "Crafting Table",
                 "identifier": "crafting_table",
@@ -38,17 +38,17 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Farmland",
-                "name": "farmland",
-                "identifier": "farmland",
-                "imagePath": "/block/farmland/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Furnace",
                 "name": "Furnace",
                 "identifier": "furnace",
                 "imagePath": "/block/furnace/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chest",
+                "name": "Chest",
+                "identifier": "chest",
+                "imagePath": "/block/chest/latest.png"
             }
         ],
         "items": [
@@ -63,15 +63,243 @@
                 "imagePath": "/item/wheat_seeds/latest.png"
             },
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/String",
+                "name": "String",
+                "identifier": "string",
+                "imagePath": "/item/string/latest.png"
+            },
+            {
                 "types": [
-                    "vegetation",
-                    "food",
-                    "food/natural"
+                    "wood/shovel"
                 ],
-                "wiki": "https://minecraft.wiki/w/Apple",
-                "name": "Apple",
-                "identifier": "apple",
-                "imagePath": "/item/apple/latest.png"
+                "wiki": "https://minecraft.wiki/w/Wooden_Shovel",
+                "name": "Wooden Shovel",
+                "identifier": "wooden_shovel",
+                "imagePath": "/item/wooden_shovel/latest.png"
+            },
+            {
+                "types": [
+                    "wood/pickaxe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe",
+                "name": "Wooden Pickaxe",
+                "identifier": "wooden_pickaxe",
+                "imagePath": "/item/wooden_pickaxe/latest.png"
+            },
+            {
+                "types": [
+                    "wood/axe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Axe",
+                "name": "Wooden Axe",
+                "identifier": "wooden_axe",
+                "imagePath": "/item/wooden_axe/latest.png"
+            },
+            {
+                "types": [
+                    "wood/hoe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Hoe",
+                "name": "Wooden Hoe",
+                "identifier": "wooden_hoe",
+                "imagePath": "/item/wooden_hoe/latest.png"
+            },
+            {
+                "types": [
+                    "stone/shovel"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stone_Shovel",
+                "name": "Stone Shovel",
+                "identifier": "stone_shovel",
+                "imagePath": "/item/stone_shovel/latest.png"
+            },
+            {
+                "types": [
+                    "stone/pickaxe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stone_Pickaxe",
+                "name": "Stone Pickaxe",
+                "identifier": "stone_pickaxe",
+                "imagePath": "/item/stone_pickaxe/latest.png"
+            },
+            {
+                "types": [
+                    "stone/axe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stone_Axe",
+                "name": "Stone Axe",
+                "identifier": "stone_axe",
+                "imagePath": "/item/stone_axe/latest.png"
+            },
+            {
+                "types": [
+                    "stone/hoe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stone_Hoe",
+                "name": "Stone Hoe",
+                "identifier": "stone_hoe",
+                "imagePath": "/item/stone_hoe/latest.png"
+            },
+            {
+                "types": [
+                    "iron/shovel"
+                ],
+                "wiki": "https://minecraft.wiki/w/Iron_Shovel",
+                "name": "Iron Shovel",
+                "identifier": "iron_shovel",
+                "imagePath": "/item/iron_shovel/latest.png"
+            },
+            {
+                "types": [
+                    "iron/pickaxe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Iron_Pickaxe",
+                "name": "Iron Pickaxe",
+                "identifier": "iron_pickaxe",
+                "imagePath": "/item/iron_pickaxe/latest.png"
+            },
+            {
+                "types": [
+                    "iron/axe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Iron_Axe",
+                "name": "Iron Axe",
+                "identifier": "iron_axe",
+                "imagePath": "/item/iron_axe/latest.png"
+            },
+            {
+                "types": [
+                    "iron/hoe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Iron_Hoe",
+                "name": "Iron Hoe",
+                "identifier": "iron_hoe",
+                "imagePath": "/item/iron_hoe/latest.png"
+            },
+            {
+                "types": [
+                    "gold/shovel"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Shovel",
+                "name": "Golden Shovel",
+                "identifier": "golden_shovel",
+                "imagePath": "/item/golden_shovel/latest.png"
+            },
+            {
+                "types": [
+                    "gold/pickaxe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Pickaxe",
+                "name": "Golden Pickaxe",
+                "identifier": "golden_pickaxe",
+                "imagePath": "/item/golden_pickaxe/latest.png"
+            },
+            {
+                "types": [
+                    "gold/axe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Axe",
+                "name": "Golden Axe",
+                "identifier": "golden_axe",
+                "imagePath": "/item/golden_axe/latest.png"
+            },
+            {
+                "types": [
+                    "gold/hoe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Hoe",
+                "name": "Golden Hoe",
+                "identifier": "golden_hoe",
+                "imagePath": "/item/golden_hoe/latest.png"
+            },
+            {
+                "types": [
+                    "diamond/shovel"
+                ],
+                "wiki": "https://minecraft.wiki/w/Diamond_Shovel",
+                "name": "Diamond Shovel",
+                "identifier": "diamond_shovel",
+                "imagePath": "/item/diamond_shovel/latest.png"
+            },
+            {
+                "types": [
+                    "diamond/pickaxe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe",
+                "name": "Diamond Pickaxe",
+                "identifier": "diamond_pickaxe",
+                "imagePath": "/item/diamond_pickaxe/latest.png"
+            },
+            {
+                "types": [
+                    "diamond/axe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Diamond_Axe",
+                "name": "Diamond Axe",
+                "identifier": "diamond_axe",
+                "imagePath": "/item/diamond_axe/latest.png"
+            },
+            {
+                "types": [
+                    "diamond/hoe"
+                ],
+                "wiki": "https://minecraft.wiki/w/Diamond_Hoe",
+                "name": "Diamond Hoe",
+                "identifier": "diamond_hoe",
+                "imagePath": "/item/diamond_hoe/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Flint_and_Steel",
+                "name": "Flint and Steel",
+                "identifier": "flint_and_steel",
+                "imagePath": "/item/flint_and_steel/latest.png"
+            },
+            {
+                "types": [
+                    "wood/sword"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Sword",
+                "name": "Wooden Sword",
+                "identifier": "wooden_sword",
+                "imagePath": "/item/wooden_sword/latest.png"
+            },
+            {
+                "types": [
+                    "stone/sword"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stone_Sword",
+                "name": "Stone Sword",
+                "identifier": "stone_sword",
+                "imagePath": "/item/stone_sword/latest.png"
+            },
+            {
+                "types": [
+                    "iron/sword"
+                ],
+                "wiki": "https://minecraft.wiki/w/Iron_Sword",
+                "name": "Iron Sword",
+                "identifier": "iron_sword",
+                "imagePath": "/item/iron_sword/latest.png"
+            },
+            {
+                "types": [
+                    "gold/sword"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Sword",
+                "name": "Golden Sword",
+                "identifier": "golden_sword",
+                "imagePath": "/item/golden_sword/latest.png"
+            },
+            {
+                "types": [
+                    "diamond/sword"
+                ],
+                "wiki": "https://minecraft.wiki/w/Diamond_Sword",
+                "name": "Diamond Sword",
+                "identifier": "diamond_sword",
+                "imagePath": "/item/diamond_sword/latest.png"
             },
             {
                 "types": [
@@ -254,6 +482,52 @@
                 "imagePath": "/item/diamond_boots/latest.png"
             },
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Bow",
+                "name": "Bow",
+                "identifier": "bow",
+                "imagePath": "/item/bow/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation",
+                    "food",
+                    "food/natural"
+                ],
+                "wiki": "https://minecraft.wiki/w/Apple",
+                "name": "Apple",
+                "identifier": "apple",
+                "imagePath": "/item/apple/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Raw_Porkchop",
+                "name": "Raw Porkchop",
+                "identifier": "porkchop",
+                "imagePath": "/item/porkchop/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cooked_Porkchop",
+                "name": "Cooked Porkchop",
+                "identifier": "cooked_porkchop",
+                "imagePath": "/item/cooked_porkchop/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Bread",
+                "name": "Bread",
+                "identifier": "bread",
+                "imagePath": "/item/bread/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mushroom_Stew",
+                "name": "Mushroom Stew",
+                "identifier": "mushroom_stew",
+                "imagePath": "/item/mushroom_stew/latest.png"
+            },
+            {
                 "types": [
                     "coal"
                 ],
@@ -273,15 +547,6 @@
             },
             {
                 "types": [
-                    "gold"
-                ],
-                "wiki": "https://minecraft.wiki/w/Gold_Ingot",
-                "name": "Gold Ingot",
-                "identifier": "gold_ingot",
-                "imagePath": "/item/gold_ingot/latest.png"
-            },
-            {
-                "types": [
                     "iron"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Ingot",
@@ -291,284 +556,12 @@
             },
             {
                 "types": [
-                    "iron/shovel"
+                    "gold"
                 ],
-                "wiki": "https://minecraft.wiki/w/Iron_Shovel",
-                "name": "Iron Shovel",
-                "identifier": "iron_shovel",
-                "imagePath": "/item/iron_shovel/latest.png"
-            },
-            {
-                "types": [
-                    "iron/sword"
-                ],
-                "wiki": "https://minecraft.wiki/w/Iron_Sword",
-                "name": "Iron Sword",
-                "identifier": "iron_sword",
-                "imagePath": "/item/iron_sword/latest.png"
-            },
-            {
-                "types": [
-                    "iron/pickaxe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Iron_Pickaxe",
-                "name": "Iron Pickaxe",
-                "identifier": "iron_pickaxe",
-                "imagePath": "/item/iron_pickaxe/latest.png"
-            },
-            {
-                "types": [
-                    "iron/axe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Iron_Axe",
-                "name": "Iron Axe",
-                "identifier": "iron_axe",
-                "imagePath": "/item/iron_axe/latest.png"
-            },
-            {
-                "types": [
-                    "iron/hoe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Iron_Hoe",
-                "name": "Iron Hoe",
-                "identifier": "iron_hoe",
-                "imagePath": "/item/iron_hoe/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Flint_and_Steel",
-                "name": "Flint and Steel",
-                "identifier": "flint_and_steel",
-                "imagePath": "/item/flint_and_steel/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bow",
-                "name": "Bow",
-                "identifier": "bow",
-                "imagePath": "/item/bow/latest.png"
-            },
-            {
-                "types": [
-                    "wood/sword"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Sword",
-                "name": "Wooden Sword",
-                "identifier": "wooden_sword",
-                "imagePath": "/item/wooden_sword/latest.png"
-            },
-            {
-                "types": [
-                    "wood/axe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Axe",
-                "name": "Wooden Axe",
-                "identifier": "wooden_axe",
-                "imagePath": "/item/wooden_axe/latest.png"
-            },
-            {
-                "types": [
-                    "wood/pickaxe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe",
-                "name": "Wooden Pickaxe",
-                "identifier": "wooden_pickaxe",
-                "imagePath": "/item/wooden_pickaxe/latest.png"
-            },
-            {
-                "types": [
-                    "wood/shovel"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Shovel",
-                "name": "Wooden Shovel",
-                "identifier": "wooden_shovel",
-                "imagePath": "/item/wooden_shovel/latest.png"
-            },
-            {
-                "types": [
-                    "wood/hoe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Hoe",
-                "name": "Wooden Hoe",
-                "identifier": "wooden_hoe",
-                "imagePath": "/item/wooden_hoe/latest.png"
-            },
-            {
-                "types": [
-                    "stone/sword"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stone_Sword",
-                "name": "Stone Sword",
-                "identifier": "stone_sword",
-                "imagePath": "/item/stone_sword/latest.png"
-            },
-            {
-                "types": [
-                    "stone/axe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stone_Axe",
-                "name": "Stone Axe",
-                "identifier": "stone_axe",
-                "imagePath": "/item/stone_axe/latest.png"
-            },
-            {
-                "types": [
-                    "stone/pickaxe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stone_Pickaxe",
-                "name": "Stone Pickaxe",
-                "identifier": "stone_pickaxe",
-                "imagePath": "/item/stone_pickaxe/latest.png"
-            },
-            {
-                "types": [
-                    "stone/shovel"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stone_Shovel",
-                "name": "Stone Shovel",
-                "identifier": "stone_shovel",
-                "imagePath": "/item/stone_shovel/latest.png"
-            },
-            {
-                "types": [
-                    "stone/hoe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stone_Hoe",
-                "name": "Stone Hoe",
-                "identifier": "stone_hoe",
-                "imagePath": "/item/stone_hoe/latest.png"
-            },
-            {
-                "types": [
-                    "diamond/sword"
-                ],
-                "wiki": "https://minecraft.wiki/w/Diamond_Sword",
-                "name": "Diamond Sword",
-                "identifier": "diamond_sword",
-                "imagePath": "/item/diamond_sword/latest.png"
-            },
-            {
-                "types": [
-                    "diamond/axe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Diamond_Axe",
-                "name": "Diamond Axe",
-                "identifier": "diamond_axe",
-                "imagePath": "/item/diamond_axe/latest.png"
-            },
-            {
-                "types": [
-                    "diamond/pickaxe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe",
-                "name": "Diamond Pickaxe",
-                "identifier": "diamond_pickaxe",
-                "imagePath": "/item/diamond_pickaxe/latest.png"
-            },
-            {
-                "types": [
-                    "diamond/shovel"
-                ],
-                "wiki": "https://minecraft.wiki/w/Diamond_Shovel",
-                "name": "Diamond Shovel",
-                "identifier": "diamond_shovel",
-                "imagePath": "/item/diamond_shovel/latest.png"
-            },
-            {
-                "types": [
-                    "diamond/hoe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Diamond_Hoe",
-                "name": "Diamond Hoe",
-                "identifier": "diamond_hoe",
-                "imagePath": "/item/diamond_hoe/latest.png"
-            },
-            {
-                "types": [
-                    "gold/sword"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Sword",
-                "name": "Golden Sword",
-                "identifier": "golden_sword",
-                "imagePath": "/item/golden_sword/latest.png"
-            },
-            {
-                "types": [
-                    "gold/axe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Axe",
-                "name": "Golden Axe",
-                "identifier": "golden_axe",
-                "imagePath": "/item/golden_axe/latest.png"
-            },
-            {
-                "types": [
-                    "gold/pickaxe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Pickaxe",
-                "name": "Golden Pickaxe",
-                "identifier": "golden_pickaxe",
-                "imagePath": "/item/golden_pickaxe/latest.png"
-            },
-            {
-                "types": [
-                    "gold/shovel"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Shovel",
-                "name": "Golden Shovel",
-                "identifier": "golden_shovel",
-                "imagePath": "/item/golden_shovel/latest.png"
-            },
-            {
-                "types": [
-                    "gold/hoe"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Hoe",
-                "name": "Golden Hoe",
-                "identifier": "golden_hoe",
-                "imagePath": "/item/golden_hoe/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bowl",
-                "name": "Bowl",
-                "identifier": "bowl",
-                "imagePath": "/item/bowl/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mushroom_Stew",
-                "name": "Mushroom Stew",
-                "identifier": "mushroom_stew",
-                "imagePath": "/item/mushroom_stew/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Gunpowder",
-                "name": "Gunpowder",
-                "identifier": "gunpowder",
-                "imagePath": "/item/gunpowder/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/String",
-                "name": "String",
-                "identifier": "string",
-                "imagePath": "/item/string/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Feather",
-                "name": "Feather",
-                "identifier": "feather",
-                "imagePath": "/item/feather/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bread",
-                "name": "Bread",
-                "identifier": "bread",
-                "imagePath": "/item/bread/latest.png"
+                "wiki": "https://minecraft.wiki/w/Gold_Ingot",
+                "name": "Gold Ingot",
+                "identifier": "gold_ingot",
+                "imagePath": "/item/gold_ingot/latest.png"
             },
             {
                 "types": [],
@@ -586,37 +579,62 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Raw_Porkchop",
-                "name": "Raw Porkchop",
-                "identifier": "porkchop",
-                "imagePath": "/item/porkchop/latest.png"
+                "wiki": "https://minecraft.wiki/w/Feather",
+                "name": "Feather",
+                "identifier": "feather",
+                "imagePath": "/item/feather/latest.png"
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Cooked_Porkchop",
-                "name": "Cooked Porkchop",
-                "identifier": "cooked_porkchop",
-                "imagePath": "/item/cooked_porkchop/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bowl",
+                "name": "Bowl",
+                "identifier": "bowl",
+                "imagePath": "/item/bowl/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Gunpowder",
+                "name": "Gunpowder",
+                "identifier": "gunpowder",
+                "imagePath": "/item/gunpowder/latest.png"
             }
         ],
         "paintings": [
             {
                 "types": [
-                    "paintings/4x4"
+                    "paintings/1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Pointer – Kristoffer Zetterstrand",
-                "identifier": "pointer",
-                "imagePath": "/painting/pointer/latest.png"
+                "name": "Wasteland – Kristoffer Zetterstrand",
+                "identifier": "wasteland",
+                "imagePath": "/painting/wasteland/latest.png"
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "paintings/2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Fighters – Kristoffer Zetterstrand",
-                "identifier": "fighters",
-                "imagePath": "/painting/fighters/latest.png"
+                "name": "Skull and Roses – Kristoffer Zetterstrand",
+                "identifier": "skull_and_roses",
+                "imagePath": "/painting/skull_and_roses/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Kebab med tre pepperoni – Kristoffer Zetterstrand",
+                "identifier": "kebab",
+                "imagePath": "/painting/kebab/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Paradisträd – Kristoffer Zetterstrand",
+                "identifier": "plant",
+                "imagePath": "/painting/plant/latest.png"
             },
             {
                 "types": [
@@ -629,21 +647,39 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "paintings/1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Bust – Kristoffer Zetterstrand",
-                "identifier": "bust",
-                "imagePath": "/painting/bust/latest.png"
+                "name": "Target Successfully Bombed – Kristoffer Zetterstrand",
+                "identifier": "bomb",
+                "imagePath": "/painting/bomb/latest.png"
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "paintings/4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "The Stage Is Set – Kristoffer Zetterstrand",
-                "identifier": "stage",
-                "imagePath": "/painting/stage/latest.png"
+                "name": "Fighters – Kristoffer Zetterstrand",
+                "identifier": "fighters",
+                "imagePath": "/painting/fighters/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "de_aztec – Kristoffer Zetterstrand",
+                "identifier": "aztec",
+                "imagePath": "/painting/aztec/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/2x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "sunset_dense – Kristoffer Zetterstrand",
+                "identifier": "sunset",
+                "imagePath": "/painting/sunset/latest.png"
             },
             {
                 "types": [
@@ -659,9 +695,63 @@
                     "paintings/2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Skull and Roses – Kristoffer Zetterstrand",
-                "identifier": "skull_and_roses",
-                "imagePath": "/painting/skull_and_roses/latest.png"
+                "name": "The Stage Is Set – Kristoffer Zetterstrand",
+                "identifier": "stage",
+                "imagePath": "/painting/stage/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Albanian – Kristoffer Zetterstrand",
+                "identifier": "alban",
+                "imagePath": "/painting/alban/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/2x2"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Bust – Kristoffer Zetterstrand",
+                "identifier": "bust",
+                "imagePath": "/painting/bust/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/4x4"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Pointer – Kristoffer Zetterstrand",
+                "identifier": "pointer",
+                "imagePath": "/painting/pointer/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x2"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Wanderer – Kristoffer Zetterstrand",
+                "identifier": "wanderer",
+                "imagePath": "/painting/wanderer/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/2x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "Seaside – Kristoffer Zetterstrand",
+                "identifier": "sea",
+                "imagePath": "/painting/sea/latest.png"
+            },
+            {
+                "types": [
+                    "paintings/1x1"
+                ],
+                "wiki": "https://minecraft.wiki/w/Painting",
+                "name": "de_aztec – Kristoffer Zetterstrand",
+                "identifier": "aztec2",
+                "imagePath": "/painting/aztec2/latest.png"
             },
             {
                 "types": [
@@ -680,96 +770,6 @@
                 "name": "Bonjour Monsieur Courbet – Kristoffer Zetterstrand",
                 "identifier": "courbet",
                 "imagePath": "/painting/courbet/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/2x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "sunset_dense – Kristoffer Zetterstrand",
-                "identifier": "sunset",
-                "imagePath": "/painting/sunset/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/2x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Seaside – Kristoffer Zetterstrand",
-                "identifier": "sea",
-                "imagePath": "/painting/sea/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x2"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Wanderer – Kristoffer Zetterstrand",
-                "identifier": "wanderer",
-                "imagePath": "/painting/wanderer/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Kebab med tre pepperoni – Kristoffer Zetterstrand",
-                "identifier": "kebab",
-                "imagePath": "/painting/kebab/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "de_aztec – Kristoffer Zetterstrand",
-                "identifier": "aztec",
-                "imagePath": "/painting/aztec/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Albanian – Kristoffer Zetterstrand",
-                "identifier": "alban",
-                "imagePath": "/painting/alban/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "de_aztec – Kristoffer Zetterstrand",
-                "identifier": "aztec2",
-                "imagePath": "/painting/aztec2/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Target Successfully Bombed – Kristoffer Zetterstrand",
-                "identifier": "bomb",
-                "imagePath": "/painting/bomb/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Paradisträd – Kristoffer Zetterstrand",
-                "identifier": "plant",
-                "imagePath": "/painting/plant/latest.png"
-            },
-            {
-                "types": [
-                    "paintings/1x1"
-                ],
-                "wiki": "https://minecraft.wiki/w/Painting",
-                "name": "Wasteland – Kristoffer Zetterstrand",
-                "identifier": "wasteland",
-                "imagePath": "/painting/wasteland/latest.png"
             }
         ]
     },

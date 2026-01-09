@@ -3,32 +3,10 @@
         "blocks": [
             {
                 "types": [],
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Bed#Red",
-                "name": "Red Bed",
-                "identifier": "red_bed",
-                "imagePath": "/block/red_bed/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Petrified_Oak_Slab",
-                "name": "Petrified Oak Slab",
-                "identifier": "petrified_oak_slab",
-                "imagePath": "/block/petrified_oak_slab/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Cobblestone_Slab",
                 "name": "Cobblestone Slab",
                 "identifier": "cobblestone_slab",
                 "imagePath": "/block/cobblestone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Sandstone_Slab",
-                "name": "Sandstone Slab",
-                "identifier": "sandstone_slab",
-                "imagePath": "/block/sandstone_slab/latest.png"
             },
             {
                 "types": [],
@@ -39,10 +17,32 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Sandstone_Slab",
+                "name": "Sandstone Slab",
+                "identifier": "sandstone_slab",
+                "imagePath": "/block/sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Bed#Red",
+                "name": "Red Bed",
+                "identifier": "red_bed",
+                "imagePath": "/block/red_bed/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Redstone_Repeater",
                 "name": "Redstone Repeater",
                 "identifier": "repeater",
                 "imagePath": "/block/repeater/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Petrified_Oak_Slab",
+                "name": "Petrified Oak Slab",
+                "identifier": "petrified_oak_slab",
+                "imagePath": "/block/petrified_oak_slab/latest.png"
             },
             {
                 "types": [

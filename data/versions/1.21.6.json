@@ -124,21 +124,21 @@
             },
             {
                 "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Happy Ghast Spawn Egg",
-                "identifier": "happy_ghast_spawn_egg",
-                "imagePath": "/item/happy_ghast_spawn_egg/latest.png"
-            },
-            {
-                "types": [
                     "music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Tears",
                 "name": "Music Disc - Tears",
                 "identifier": "music_disc_tears",
                 "imagePath": "/item/music_disc_tears/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Happy Ghast Spawn Egg",
+                "identifier": "happy_ghast_spawn_egg",
+                "imagePath": "/item/happy_ghast_spawn_egg/latest.png"
             }
         ],
         "mobs": [
@@ -164,20 +164,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Stay_Hydrated!",
-                "meta": {
-                    "icon": {
-                        "identifier": "dried_ghast",
-                        "name": "Dried Ghast",
-                        "wiki": "https://minecraft.wiki/w/Dried_Ghast",
-                        "imagePath": "/block/dried_ghast/latest.png"
-                    }
-                },
-                "name": "Stay Hydrated!",
-                "identifier": "husbandry/place_dried_ghast_in_water"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Heart_Transplanter",
                 "meta": {
                     "icon": {
@@ -189,6 +175,20 @@
                 },
                 "name": "Heart Transplanter",
                 "identifier": "adventure/heart_transplanter"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Stay_Hydrated!",
+                "meta": {
+                    "icon": {
+                        "identifier": "dried_ghast",
+                        "name": "Dried Ghast",
+                        "wiki": "https://minecraft.wiki/w/Dried_Ghast",
+                        "imagePath": "/block/dried_ghast/latest.png"
+                    }
+                },
+                "name": "Stay Hydrated!",
+                "identifier": "husbandry/place_dried_ghast_in_water"
             }
         ]
     },

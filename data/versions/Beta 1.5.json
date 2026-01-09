@@ -27,10 +27,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Detector_Rail",
-                "name": "Detector Rail",
-                "identifier": "detector_rail",
-                "imagePath": "/block/detector_rail/latest.png"
+                "wiki": "https://minecraft.wiki/w/Cobweb",
+                "name": "Cobweb",
+                "identifier": "cobweb",
+                "imagePath": "/block/cobweb/latest.png"
             },
             {
                 "types": [],
@@ -41,10 +41,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Cobweb",
-                "name": "Cobweb",
-                "identifier": "cobweb",
-                "imagePath": "/block/cobweb/latest.png"
+                "wiki": "https://minecraft.wiki/w/Detector_Rail",
+                "name": "Detector Rail",
+                "identifier": "detector_rail",
+                "imagePath": "/block/detector_rail/latest.png"
             }
         ]
     },

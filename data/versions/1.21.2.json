@@ -3,24 +3,6 @@
         "items": [
             {
                 "types": [
-                    "banner_pattern"
-                ],
-                "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
-                "name": "Field Masoned Banner Pattern",
-                "identifier": "field_masoned_banner_pattern",
-                "imagePath": "/item/field_masoned_banner_pattern/latest.png"
-            },
-            {
-                "types": [
-                    "banner_pattern"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern",
-                "name": "Bordure Indented Banner Pattern",
-                "identifier": "bordure_indented_banner_pattern",
-                "imagePath": "/item/bordure_indented_banner_pattern/latest.png"
-            },
-            {
-                "types": [
                     "bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#White",
@@ -33,31 +15,61 @@
                 "types": [
                     "bundle"
                 ],
+                "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Bundle",
+                "identifier": "light_gray_bundle",
+                "imagePath": "/item/light_gray_bundle/latest.png"
+            },
+            {
+                "types": [
+                    "bundle"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bundle#Gray",
+                "color": "gray",
+                "name": "Gray Bundle",
+                "identifier": "gray_bundle",
+                "imagePath": "/item/gray_bundle/latest.png"
+            },
+            {
+                "types": [
+                    "bundle"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bundle#Black",
+                "color": "black",
+                "name": "Black Bundle",
+                "identifier": "black_bundle",
+                "imagePath": "/item/black_bundle/latest.png"
+            },
+            {
+                "types": [
+                    "bundle"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bundle#Brown",
+                "color": "brown",
+                "name": "Brown Bundle",
+                "identifier": "brown_bundle",
+                "imagePath": "/item/brown_bundle/latest.png"
+            },
+            {
+                "types": [
+                    "bundle"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bundle#Red",
+                "color": "red",
+                "name": "Red Bundle",
+                "identifier": "red_bundle",
+                "imagePath": "/item/red_bundle/latest.png"
+            },
+            {
+                "types": [
+                    "bundle"
+                ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Orange",
                 "color": "orange",
                 "name": "Orange Bundle",
                 "identifier": "orange_bundle",
                 "imagePath": "/item/orange_bundle/latest.png"
-            },
-            {
-                "types": [
-                    "bundle"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Magenta",
-                "color": "magenta",
-                "name": "Magenta Bundle",
-                "identifier": "magenta_bundle",
-                "imagePath": "/item/magenta_bundle/latest.png"
-            },
-            {
-                "types": [
-                    "bundle"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue",
-                "color": "light_blue",
-                "name": "Light Blue Bundle",
-                "identifier": "light_blue_bundle",
-                "imagePath": "/item/light_blue_bundle/latest.png"
             },
             {
                 "types": [
@@ -83,31 +95,11 @@
                 "types": [
                     "bundle"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Pink",
-                "color": "pink",
-                "name": "Pink Bundle",
-                "identifier": "pink_bundle",
-                "imagePath": "/item/pink_bundle/latest.png"
-            },
-            {
-                "types": [
-                    "bundle"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Gray",
-                "color": "gray",
-                "name": "Gray Bundle",
-                "identifier": "gray_bundle",
-                "imagePath": "/item/gray_bundle/latest.png"
-            },
-            {
-                "types": [
-                    "bundle"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray",
-                "color": "light_gray",
-                "name": "Light Gray Bundle",
-                "identifier": "light_gray_bundle",
-                "imagePath": "/item/light_gray_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bundle#Green",
+                "color": "green",
+                "name": "Green Bundle",
+                "identifier": "green_bundle",
+                "imagePath": "/item/green_bundle/latest.png"
             },
             {
                 "types": [
@@ -123,11 +115,11 @@
                 "types": [
                     "bundle"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Purple",
-                "color": "purple",
-                "name": "Purple Bundle",
-                "identifier": "purple_bundle",
-                "imagePath": "/item/purple_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Bundle",
+                "identifier": "light_blue_bundle",
+                "imagePath": "/item/light_blue_bundle/latest.png"
             },
             {
                 "types": [
@@ -143,41 +135,49 @@
                 "types": [
                     "bundle"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Brown",
-                "color": "brown",
-                "name": "Brown Bundle",
-                "identifier": "brown_bundle",
-                "imagePath": "/item/brown_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bundle#Purple",
+                "color": "purple",
+                "name": "Purple Bundle",
+                "identifier": "purple_bundle",
+                "imagePath": "/item/purple_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Green",
-                "color": "green",
-                "name": "Green Bundle",
-                "identifier": "green_bundle",
-                "imagePath": "/item/green_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bundle#Magenta",
+                "color": "magenta",
+                "name": "Magenta Bundle",
+                "identifier": "magenta_bundle",
+                "imagePath": "/item/magenta_bundle/latest.png"
             },
             {
                 "types": [
                     "bundle"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Red",
-                "color": "red",
-                "name": "Red Bundle",
-                "identifier": "red_bundle",
-                "imagePath": "/item/red_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Bundle#Pink",
+                "color": "pink",
+                "name": "Pink Bundle",
+                "identifier": "pink_bundle",
+                "imagePath": "/item/pink_bundle/latest.png"
             },
             {
                 "types": [
-                    "bundle"
+                    "banner_pattern"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bundle#Black",
-                "color": "black",
-                "name": "Black Bundle",
-                "identifier": "black_bundle",
-                "imagePath": "/item/black_bundle/latest.png"
+                "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
+                "name": "Field Masoned Banner Pattern",
+                "identifier": "field_masoned_banner_pattern",
+                "imagePath": "/item/field_masoned_banner_pattern/latest.png"
+            },
+            {
+                "types": [
+                    "banner_pattern"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern",
+                "name": "Bordure Indented Banner Pattern",
+                "identifier": "bordure_indented_banner_pattern",
+                "imagePath": "/item/bordure_indented_banner_pattern/latest.png"
             }
         ]
     },

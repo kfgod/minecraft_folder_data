@@ -2,6 +2,300 @@
     "added": {
         "blocks": [
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Stone_Stairs",
+                "name": "Stone Stairs",
+                "identifier": "stone_stairs",
+                "imagePath": "/block/stone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Stone_Slab",
+                "name": "Stone Slab",
+                "identifier": "stone_slab",
+                "imagePath": "/block/stone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Stairs",
+                "name": "Mossy Cobblestone Stairs",
+                "identifier": "mossy_cobblestone_stairs",
+                "imagePath": "/block/mossy_cobblestone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Slab",
+                "name": "Mossy Cobblestone Slab",
+                "identifier": "mossy_cobblestone_slab",
+                "imagePath": "/block/mossy_cobblestone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall",
+                "name": "Stone Brick Wall",
+                "identifier": "stone_brick_wall",
+                "imagePath": "/block/stone_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Stairs",
+                "name": "Mossy Stone Brick Stairs",
+                "identifier": "mossy_stone_brick_stairs",
+                "imagePath": "/block/mossy_stone_brick_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab",
+                "name": "Mossy Stone Brick Slab",
+                "identifier": "mossy_stone_brick_slab",
+                "imagePath": "/block/mossy_stone_brick_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Wall",
+                "name": "Mossy Stone Brick Wall",
+                "identifier": "mossy_stone_brick_wall",
+                "imagePath": "/block/mossy_stone_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Granite_Stairs",
+                "name": "Granite Stairs",
+                "identifier": "granite_stairs",
+                "imagePath": "/block/granite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Granite_Slab",
+                "name": "Granite Slab",
+                "identifier": "granite_slab",
+                "imagePath": "/block/granite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Granite_Wall",
+                "name": "Granite Wall",
+                "identifier": "granite_wall",
+                "imagePath": "/block/granite_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Granite_Stairs",
+                "name": "Polished Granite Stairs",
+                "identifier": "polished_granite_stairs",
+                "imagePath": "/block/polished_granite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Granite_Slab",
+                "name": "Polished Granite Slab",
+                "identifier": "polished_granite_slab",
+                "imagePath": "/block/polished_granite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Diorite_Stairs",
+                "name": "Diorite Stairs",
+                "identifier": "diorite_stairs",
+                "imagePath": "/block/diorite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Diorite_Slab",
+                "name": "Diorite Slab",
+                "identifier": "diorite_slab",
+                "imagePath": "/block/diorite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Diorite_Wall",
+                "name": "Diorite Wall",
+                "identifier": "diorite_wall",
+                "imagePath": "/block/diorite_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Diorite_Stairs",
+                "name": "Polished Diorite Stairs",
+                "identifier": "polished_diorite_stairs",
+                "imagePath": "/block/polished_diorite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab",
+                "name": "Polished Diorite Slab",
+                "identifier": "polished_diorite_slab",
+                "imagePath": "/block/polished_diorite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Andesite_Stairs",
+                "name": "Andesite Stairs",
+                "identifier": "andesite_stairs",
+                "imagePath": "/block/andesite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Andesite_Slab",
+                "name": "Andesite Slab",
+                "identifier": "andesite_slab",
+                "imagePath": "/block/andesite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Andesite_Wall",
+                "name": "Andesite Wall",
+                "identifier": "andesite_wall",
+                "imagePath": "/block/andesite_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Andesite_Stairs",
+                "name": "Polished Andesite Stairs",
+                "identifier": "polished_andesite_stairs",
+                "imagePath": "/block/polished_andesite_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Andesite_Slab",
+                "name": "Polished Andesite Slab",
+                "identifier": "polished_andesite_slab",
+                "imagePath": "/block/polished_andesite_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Brick_Wall",
+                "name": "Brick Wall",
+                "identifier": "brick_wall",
+                "imagePath": "/block/brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Sandstone_Wall",
+                "name": "Sandstone Wall",
+                "identifier": "sandstone_wall",
+                "imagePath": "/block/sandstone_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Stairs",
+                "name": "Smooth Sandstone Stairs",
+                "identifier": "smooth_sandstone_stairs",
+                "imagePath": "/block/smooth_sandstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Slab",
+                "name": "Smooth Sandstone Slab",
+                "identifier": "smooth_sandstone_slab",
+                "imagePath": "/block/smooth_sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cut_Sandstone_Slab",
+                "name": "Cut Sandstone Slab",
+                "identifier": "cut_sandstone_slab",
+                "imagePath": "/block/cut_sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Wall",
+                "name": "Red Sandstone Wall",
+                "identifier": "red_sandstone_wall",
+                "imagePath": "/block/red_sandstone_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Stairs",
+                "name": "Smooth Red Sandstone Stairs",
+                "identifier": "smooth_red_sandstone_stairs",
+                "imagePath": "/block/smooth_red_sandstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Slab",
+                "name": "Smooth Red Sandstone Slab",
+                "identifier": "smooth_red_sandstone_slab",
+                "imagePath": "/block/smooth_red_sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone_Slab",
+                "name": "Cut Red Sandstone Slab",
+                "identifier": "cut_red_sandstone_slab",
+                "imagePath": "/block/cut_red_sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Prismarine_Wall",
+                "name": "Prismarine Wall",
+                "identifier": "prismarine_wall",
+                "imagePath": "/block/prismarine_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Nether_Brick_Wall",
+                "name": "Nether Brick Wall",
+                "identifier": "nether_brick_wall",
+                "imagePath": "/block/nether_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Stairs",
+                "name": "Red Nether Brick Stairs",
+                "identifier": "red_nether_brick_stairs",
+                "imagePath": "/block/red_nether_brick_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Slab",
+                "name": "Red Nether Brick Slab",
+                "identifier": "red_nether_brick_slab",
+                "imagePath": "/block/red_nether_brick_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Wall",
+                "name": "Red Nether Brick Wall",
+                "identifier": "red_nether_brick_wall",
+                "imagePath": "/block/red_nether_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Stairs",
+                "name": "End Stone Brick Stairs",
+                "identifier": "end_stone_brick_stairs",
+                "imagePath": "/block/end_stone_brick_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Slab",
+                "name": "End Stone Brick Slab",
+                "identifier": "end_stone_brick_slab",
+                "imagePath": "/block/end_stone_brick_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Wall",
+                "name": "End Stone Brick Wall",
+                "identifier": "end_stone_brick_wall",
+                "imagePath": "/block/end_stone_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Stairs",
+                "name": "Smooth Quartz Stairs",
+                "identifier": "smooth_quartz_stairs",
+                "imagePath": "/block/smooth_quartz_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab",
+                "name": "Smooth Quartz Slab",
+                "identifier": "smooth_quartz_slab",
+                "imagePath": "/block/smooth_quartz_slab/latest.png"
+            },
+            {
                 "types": [
                     "vegetation",
                     "flower/normal"
@@ -30,6 +324,113 @@
                 "name": "Wither Rose",
                 "identifier": "wither_rose",
                 "imagePath": "/block/wither_rose/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bamboo",
+                "name": "Bamboo",
+                "identifier": "bamboo",
+                "imagePath": "/block/bamboo/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Lantern",
+                "name": "Lantern",
+                "identifier": "lantern",
+                "imagePath": "/block/lantern/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Stonecutter",
+                "name": "Stonecutter",
+                "identifier": "stonecutter",
+                "imagePath": "/block/stonecutter/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cartography_Table",
+                "name": "Cartography Table",
+                "identifier": "cartography_table",
+                "imagePath": "/block/cartography_table/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Fletching_Table",
+                "name": "Fletching Table",
+                "identifier": "fletching_table",
+                "imagePath": "/block/fletching_table/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smithing_Table",
+                "name": "Smithing Table",
+                "identifier": "smithing_table",
+                "imagePath": "/block/smithing_table/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Grindstone",
+                "name": "Grindstone",
+                "identifier": "grindstone",
+                "imagePath": "/block/grindstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Loom",
+                "name": "Loom",
+                "identifier": "loom",
+                "imagePath": "/block/loom/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smoker",
+                "name": "Smoker",
+                "identifier": "smoker",
+                "imagePath": "/block/smoker/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blast_Furnace",
+                "name": "Blast Furnace",
+                "identifier": "blast_furnace",
+                "imagePath": "/block/blast_furnace/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Campfire",
+                "name": "Campfire",
+                "identifier": "campfire",
+                "imagePath": "/block/campfire/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Composter",
+                "name": "Composter",
+                "identifier": "composter",
+                "imagePath": "/block/composter/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Bell",
+                "name": "Bell",
+                "identifier": "bell",
+                "imagePath": "/block/bell/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Scaffolding",
+                "name": "Scaffolding",
+                "identifier": "scaffolding",
+                "imagePath": "/block/scaffolding/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Lectern",
+                "name": "Lectern",
+                "identifier": "lectern",
+                "imagePath": "/block/lectern/latest.png"
             },
             {
                 "types": [
@@ -82,399 +483,11 @@
                 "imagePath": "/block/dark_oak_sign/latest.png"
             },
             {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bamboo",
-                "name": "Bamboo",
-                "identifier": "bamboo",
-                "imagePath": "/block/bamboo/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Stone_Slab",
-                "name": "Stone Slab",
-                "identifier": "stone_slab",
-                "imagePath": "/block/stone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Andesite_Slab",
-                "name": "Andesite Slab",
-                "identifier": "andesite_slab",
-                "imagePath": "/block/andesite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Andesite_Slab",
-                "name": "Polished Andesite Slab",
-                "identifier": "polished_andesite_slab",
-                "imagePath": "/block/polished_andesite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Diorite_Slab",
-                "name": "Diorite Slab",
-                "identifier": "diorite_slab",
-                "imagePath": "/block/diorite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab",
-                "name": "Polished Diorite Slab",
-                "identifier": "polished_diorite_slab",
-                "imagePath": "/block/polished_diorite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Granite_Slab",
-                "name": "Granite Slab",
-                "identifier": "granite_slab",
-                "imagePath": "/block/granite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Granite_Slab",
-                "name": "Polished Granite Slab",
-                "identifier": "polished_granite_slab",
-                "imagePath": "/block/polished_granite_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab",
-                "name": "Mossy Stone Brick Slab",
-                "identifier": "mossy_stone_brick_slab",
-                "imagePath": "/block/mossy_stone_brick_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Slab",
-                "name": "Mossy Cobblestone Slab",
-                "identifier": "mossy_cobblestone_slab",
-                "imagePath": "/block/mossy_cobblestone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Slab",
-                "name": "Smooth Sandstone Slab",
-                "identifier": "smooth_sandstone_slab",
-                "imagePath": "/block/smooth_sandstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Slab",
-                "name": "Smooth Red Sandstone Slab",
-                "identifier": "smooth_red_sandstone_slab",
-                "imagePath": "/block/smooth_red_sandstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cut_Sandstone_Slab",
-                "name": "Cut Sandstone Slab",
-                "identifier": "cut_sandstone_slab",
-                "imagePath": "/block/cut_sandstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone_Slab",
-                "name": "Cut Red Sandstone Slab",
-                "identifier": "cut_red_sandstone_slab",
-                "imagePath": "/block/cut_red_sandstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab",
-                "name": "Smooth Quartz Slab",
-                "identifier": "smooth_quartz_slab",
-                "imagePath": "/block/smooth_quartz_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Slab",
-                "name": "Red Nether Brick Slab",
-                "identifier": "red_nether_brick_slab",
-                "imagePath": "/block/red_nether_brick_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Slab",
-                "name": "End Stone Brick Slab",
-                "identifier": "end_stone_brick_slab",
-                "imagePath": "/block/end_stone_brick_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Stone_Stairs",
-                "name": "Stone Stairs",
-                "identifier": "stone_stairs",
-                "imagePath": "/block/stone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Andesite_Stairs",
-                "name": "Andesite Stairs",
-                "identifier": "andesite_stairs",
-                "imagePath": "/block/andesite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Andesite_Stairs",
-                "name": "Polished Andesite Stairs",
-                "identifier": "polished_andesite_stairs",
-                "imagePath": "/block/polished_andesite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Diorite_Stairs",
-                "name": "Diorite Stairs",
-                "identifier": "diorite_stairs",
-                "imagePath": "/block/diorite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Diorite_Stairs",
-                "name": "Polished Diorite Stairs",
-                "identifier": "polished_diorite_stairs",
-                "imagePath": "/block/polished_diorite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Granite_Stairs",
-                "name": "Granite Stairs",
-                "identifier": "granite_stairs",
-                "imagePath": "/block/granite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Granite_Stairs",
-                "name": "Polished Granite Stairs",
-                "identifier": "polished_granite_stairs",
-                "imagePath": "/block/polished_granite_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Stairs",
-                "name": "Mossy Stone Brick Stairs",
-                "identifier": "mossy_stone_brick_stairs",
-                "imagePath": "/block/mossy_stone_brick_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Stairs",
-                "name": "Mossy Cobblestone Stairs",
-                "identifier": "mossy_cobblestone_stairs",
-                "imagePath": "/block/mossy_cobblestone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Stairs",
-                "name": "Smooth Sandstone Stairs",
-                "identifier": "smooth_sandstone_stairs",
-                "imagePath": "/block/smooth_sandstone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Stairs",
-                "name": "Smooth Red Sandstone Stairs",
-                "identifier": "smooth_red_sandstone_stairs",
-                "imagePath": "/block/smooth_red_sandstone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Stairs",
-                "name": "Smooth Quartz Stairs",
-                "identifier": "smooth_quartz_stairs",
-                "imagePath": "/block/smooth_quartz_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Stairs",
-                "name": "Red Nether Brick Stairs",
-                "identifier": "red_nether_brick_stairs",
-                "imagePath": "/block/red_nether_brick_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Stairs",
-                "name": "End Stone Brick Stairs",
-                "identifier": "end_stone_brick_stairs",
-                "imagePath": "/block/end_stone_brick_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Brick_Wall",
-                "name": "Brick Wall",
-                "identifier": "brick_wall",
-                "imagePath": "/block/brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Andesite_Wall",
-                "name": "Andesite Wall",
-                "identifier": "andesite_wall",
-                "imagePath": "/block/andesite_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Diorite_Wall",
-                "name": "Diorite Wall",
-                "identifier": "diorite_wall",
-                "imagePath": "/block/diorite_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Granite_Wall",
-                "name": "Granite Wall",
-                "identifier": "granite_wall",
-                "imagePath": "/block/granite_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Prismarine_Wall",
-                "name": "Prismarine Wall",
-                "identifier": "prismarine_wall",
-                "imagePath": "/block/prismarine_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall",
-                "name": "Stone Brick Wall",
-                "identifier": "stone_brick_wall",
-                "imagePath": "/block/stone_brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Wall",
-                "name": "Mossy Stone Brick Wall",
-                "identifier": "mossy_stone_brick_wall",
-                "imagePath": "/block/mossy_stone_brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Sandstone_Wall",
-                "name": "Sandstone Wall",
-                "identifier": "sandstone_wall",
-                "imagePath": "/block/sandstone_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Wall",
-                "name": "Red Sandstone Wall",
-                "identifier": "red_sandstone_wall",
-                "imagePath": "/block/red_sandstone_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Nether_Brick_Wall",
-                "name": "Nether Brick Wall",
-                "identifier": "nether_brick_wall",
-                "imagePath": "/block/nether_brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Wall",
-                "name": "Red Nether Brick Wall",
-                "identifier": "red_nether_brick_wall",
-                "imagePath": "/block/red_nether_brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Wall",
-                "name": "End Stone Brick Wall",
-                "identifier": "end_stone_brick_wall",
-                "imagePath": "/block/end_stone_brick_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Loom",
-                "name": "Loom",
-                "identifier": "loom",
-                "imagePath": "/block/loom/latest.png"
-            },
-            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Barrel",
                 "name": "Barrel",
                 "identifier": "barrel",
                 "imagePath": "/block/barrel/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bell",
-                "name": "Bell",
-                "identifier": "bell",
-                "imagePath": "/block/bell/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cartography_Table",
-                "name": "Cartography Table",
-                "identifier": "cartography_table",
-                "imagePath": "/block/cartography_table/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Fletching_Table",
-                "name": "Fletching Table",
-                "identifier": "fletching_table",
-                "imagePath": "/block/fletching_table/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Grindstone",
-                "name": "Grindstone",
-                "identifier": "grindstone",
-                "imagePath": "/block/grindstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Lectern",
-                "name": "Lectern",
-                "identifier": "lectern",
-                "imagePath": "/block/lectern/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smithing_Table",
-                "name": "Smithing Table",
-                "identifier": "smithing_table",
-                "imagePath": "/block/smithing_table/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Stonecutter",
-                "name": "Stonecutter",
-                "identifier": "stonecutter",
-                "imagePath": "/block/stonecutter/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blast_Furnace",
-                "name": "Blast Furnace",
-                "identifier": "blast_furnace",
-                "imagePath": "/block/blast_furnace/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smoker",
-                "name": "Smoker",
-                "identifier": "smoker",
-                "imagePath": "/block/smoker/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Scaffolding",
-                "name": "Scaffolding",
-                "identifier": "scaffolding",
-                "imagePath": "/block/scaffolding/latest.png"
-            },
-            {
-                "types": [],
-                "image_identifier": "ominous_banner",
-                "wiki": "https://minecraft.wiki/w/Ominous_Banner",
-                "name": "Ominous Banner",
-                "identifier": "ominous_banner",
-                "imagePath": "/block/ominous_banner/latest.png"
             },
             {
                 "types": [],
@@ -485,27 +498,88 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Lantern",
-                "name": "Lantern",
-                "identifier": "lantern",
-                "imagePath": "/block/lantern/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Campfire",
-                "name": "Campfire",
-                "identifier": "campfire",
-                "imagePath": "/block/campfire/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Composter",
-                "name": "Composter",
-                "identifier": "composter",
-                "imagePath": "/block/composter/latest.png"
+                "image_identifier": "ominous_banner",
+                "wiki": "https://minecraft.wiki/w/Ominous_Banner",
+                "name": "Ominous Banner",
+                "identifier": "ominous_banner",
+                "imagePath": "/block/ominous_banner/latest.png"
             }
         ],
         "items": [
+            {
+                "types": [
+                    "vegetation",
+                    "food",
+                    "food/natural"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sweet_Berries",
+                "name": "Sweet Berries",
+                "identifier": "sweet_berries",
+                "imagePath": "/item/sweet_berries/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor",
+                "name": "Leather Horse Armor",
+                "identifier": "leather_horse_armor",
+                "imagePath": "/item/leather_horse_armor/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Crossbow",
+                "name": "Crossbow",
+                "identifier": "crossbow",
+                "imagePath": "/item/crossbow/latest.png"
+            },
+            {
+                "types": [
+                    "food"
+                ],
+                "wiki": "https://minecraft.wiki/w/Suspicious_Stew",
+                "name": "Suspicious Stew",
+                "identifier": "suspicious_stew",
+                "imagePath": "/item/suspicious_stew/latest.png"
+            },
+            {
+                "types": [
+                    "dye"
+                ],
+                "color": "white",
+                "wiki": "https://minecraft.wiki/w/White_Dye",
+                "name": "White Dye",
+                "identifier": "white_dye",
+                "imagePath": "/item/white_dye/latest.png"
+            },
+            {
+                "types": [
+                    "dye"
+                ],
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Black_Dye",
+                "name": "Black Dye",
+                "identifier": "black_dye",
+                "imagePath": "/item/black_dye/latest.png"
+            },
+            {
+                "types": [
+                    "dye"
+                ],
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Brown_Dye",
+                "name": "Brown Dye",
+                "identifier": "brown_dye",
+                "imagePath": "/item/brown_dye/latest.png"
+            },
+            {
+                "types": [
+                    "dye"
+                ],
+                "color": "blue",
+                "wiki": "https://minecraft.wiki/w/Blue_Dye",
+                "name": "Blue Dye",
+                "identifier": "blue_dye",
+                "imagePath": "/item/blue_dye/latest.png"
+            },
             {
                 "types": [
                     "banner_pattern"
@@ -553,77 +627,21 @@
             },
             {
                 "types": [
-                    "dye"
+                    "spawn_egg"
                 ],
-                "color": "white",
-                "wiki": "https://minecraft.wiki/w/White_Dye",
-                "name": "White Dye",
-                "identifier": "white_dye",
-                "imagePath": "/item/white_dye/latest.png"
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Cat Spawn Egg",
+                "identifier": "cat_spawn_egg",
+                "imagePath": "/item/cat_spawn_egg/latest.png"
             },
             {
                 "types": [
-                    "dye"
+                    "spawn_egg"
                 ],
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Black_Dye",
-                "name": "Black Dye",
-                "identifier": "black_dye",
-                "imagePath": "/item/black_dye/latest.png"
-            },
-            {
-                "types": [
-                    "dye"
-                ],
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Brown_Dye",
-                "name": "Brown Dye",
-                "identifier": "brown_dye",
-                "imagePath": "/item/brown_dye/latest.png"
-            },
-            {
-                "types": [
-                    "dye"
-                ],
-                "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Blue_Dye",
-                "name": "Blue Dye",
-                "identifier": "blue_dye",
-                "imagePath": "/item/blue_dye/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation",
-                    "food",
-                    "food/natural"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sweet_Berries",
-                "name": "Sweet Berries",
-                "identifier": "sweet_berries",
-                "imagePath": "/item/sweet_berries/latest.png"
-            },
-            {
-                "types": [
-                    "food"
-                ],
-                "wiki": "https://minecraft.wiki/w/Suspicious_Stew",
-                "name": "Suspicious Stew",
-                "identifier": "suspicious_stew",
-                "imagePath": "/item/suspicious_stew/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Crossbow",
-                "name": "Crossbow",
-                "identifier": "crossbow",
-                "imagePath": "/item/crossbow/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor",
-                "name": "Leather Horse Armor",
-                "identifier": "leather_horse_armor",
-                "imagePath": "/item/leather_horse_armor/latest.png"
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Fox Spawn Egg",
+                "identifier": "fox_spawn_egg",
+                "imagePath": "/item/fox_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -633,6 +651,24 @@
                 "name": "Panda Spawn Egg",
                 "identifier": "panda_spawn_egg",
                 "imagePath": "/item/panda_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Trader Llama Spawn Egg",
+                "identifier": "trader_llama_spawn_egg",
+                "imagePath": "/item/trader_llama_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Wandering Trader Spawn Egg",
+                "identifier": "wandering_trader_spawn_egg",
+                "imagePath": "/item/wandering_trader_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -654,47 +690,11 @@
             },
             {
                 "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Cat Spawn Egg",
-                "identifier": "cat_spawn_egg",
-                "imagePath": "/item/cat_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Wandering Trader Spawn Egg",
-                "identifier": "wandering_trader_spawn_egg",
-                "imagePath": "/item/wandering_trader_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Trader Llama Spawn Egg",
-                "identifier": "trader_llama_spawn_egg",
-                "imagePath": "/item/trader_llama_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Fox Spawn Egg",
-                "identifier": "fox_spawn_egg",
-                "imagePath": "/item/fox_spawn_egg/latest.png"
-            },
-            {
-                "types": [
                     "enchantments"
                 ],
                 "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Quick Charge I-III",
-                "identifier": "quick_charge_enchanted_book",
+                "name": "Enchanted Book – Multishot",
+                "identifier": "multishot_enchanted_book",
                 "imagePath": "/item/enchanted_book/latest.png"
             },
             {
@@ -711,42 +711,12 @@
                     "enchantments"
                 ],
                 "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Multishot",
-                "identifier": "multishot_enchanted_book",
+                "name": "Enchanted Book – Quick Charge I-III",
+                "identifier": "quick_charge_enchanted_book",
                 "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
         "mobs": [
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Mooshroom#Brown",
-                "meta": {
-                    "health": 10
-                },
-                "name": "Brown Mooshroom",
-                "identifier": "brown_mooshroom",
-                "imagePath": "/mob/brown_mooshroom/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wandering_Trader",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "wandering_trader_spawn_egg",
-                        "name": "Wandering Trader Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/wandering_trader_spawn_egg/latest.png"
-                    },
-                    "health": 20
-                },
-                "name": "Wandering Trader",
-                "identifier": "wandering_trader",
-                "imagePath": "/mob/wandering_trader/latest.png"
-            },
             {
                 "types": [
                     "mobs/neutral"
@@ -785,6 +755,24 @@
             },
             {
                 "types": [
+                    "mobs/hostile"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ravager",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "ravager_spawn_egg",
+                        "name": "Ravager Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/ravager_spawn_egg/latest.png"
+                    },
+                    "health": 100
+                },
+                "name": "Ravager",
+                "identifier": "ravager",
+                "imagePath": "/mob/ravager/latest.png"
+            },
+            {
+                "types": [
                     "mobs/neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trader_Llama",
@@ -820,33 +808,36 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mobs/passive"
                 ],
-                "wiki": "https://minecraft.wiki/w/Ravager",
+                "wiki": "https://minecraft.wiki/w/Wandering_Trader",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "ravager_spawn_egg",
-                        "name": "Ravager Spawn Egg",
+                        "identifier": "wandering_trader_spawn_egg",
+                        "name": "Wandering Trader Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/ravager_spawn_egg/latest.png"
+                        "imagePath": "/item/wandering_trader_spawn_egg/latest.png"
                     },
-                    "health": 100
+                    "health": 20
                 },
-                "name": "Ravager",
-                "identifier": "ravager",
-                "imagePath": "/mob/ravager/latest.png"
+                "name": "Wandering Trader",
+                "identifier": "wandering_trader",
+                "imagePath": "/mob/wandering_trader/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Mooshroom#Brown",
+                "meta": {
+                    "health": 10
+                },
+                "name": "Brown Mooshroom",
+                "identifier": "brown_mooshroom",
+                "imagePath": "/mob/brown_mooshroom/latest.png"
             }
         ],
         "effects": [
-            {
-                "types": [
-                    "effects/ominous_events"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bad_Omen",
-                "name": "Bad Omen",
-                "identifier": "bad_omen",
-                "imagePath": "/effect/bad_omen/latest.png"
-            },
             {
                 "types": [
                     "effects/ominous_events"
@@ -855,6 +846,15 @@
                 "name": "Hero of the Village",
                 "identifier": "hero_of_the_village",
                 "imagePath": "/effect/hero_of_the_village/latest.png"
+            },
+            {
+                "types": [
+                    "effects/ominous_events"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bad_Omen",
+                "name": "Bad Omen",
+                "identifier": "bad_omen",
+                "imagePath": "/effect/bad_omen/latest.png"
             }
         ],
         "enchantments": [
@@ -870,34 +870,20 @@
                 "types": [
                     "enchantments/crossbow"
                 ],
-                "wiki": "https://minecraft.wiki/w/Piercing",
-                "name": "Piercing",
-                "identifier": "piercing"
+                "wiki": "https://minecraft.wiki/w/Quick_Charge",
+                "name": "Quick Charge",
+                "identifier": "quick_charge"
             },
             {
                 "types": [
                     "enchantments/crossbow"
                 ],
-                "wiki": "https://minecraft.wiki/w/Quick_Charge",
-                "name": "Quick Charge",
-                "identifier": "quick_charge"
+                "wiki": "https://minecraft.wiki/w/Piercing",
+                "name": "Piercing",
+                "identifier": "piercing"
             }
         ],
         "advancements": [
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Voluntary_Exile",
-                "meta": {
-                    "icon": {
-                        "identifier": "ominous_banner",
-                        "name": "Ominous Banner",
-                        "wiki": "https://minecraft.wiki/w/Ominous_Banner",
-                        "imagePath": "/block/ominous_banner/latest.png"
-                    }
-                },
-                "name": "Voluntary Exile",
-                "identifier": "adventure/voluntary_exile"
-            },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Ol'_Betsy",
@@ -914,45 +900,12 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Hero_of_the_Village",
+                "wiki": "https://minecraft.wiki/w/Advancement#A_Complete_Catalogue",
                 "meta": {
-                    "icon": {
-                        "identifier": "ominous_banner",
-                        "name": "Ominous Banner",
-                        "wiki": "https://minecraft.wiki/w/Ominous_Banner",
-                        "imagePath": "/block/ominous_banner/latest.png"
-                    }
+                    "icon": "item/cod"
                 },
-                "name": "Hero of the Village",
-                "identifier": "adventure/hero_of_the_village"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Two_Birds,_One_Arrow",
-                "meta": {
-                    "icon": {
-                        "identifier": "crossbow",
-                        "name": "Crossbow",
-                        "wiki": "https://minecraft.wiki/w/Crossbow",
-                        "imagePath": "/item/crossbow/latest.png"
-                    }
-                },
-                "name": "Two Birds, One Arrow",
-                "identifier": "adventure/two_birds_one_arrow"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Who's_the_Pillager_Now?",
-                "meta": {
-                    "icon": {
-                        "identifier": "crossbow",
-                        "name": "Crossbow",
-                        "wiki": "https://minecraft.wiki/w/Crossbow",
-                        "imagePath": "/item/crossbow/latest.png"
-                    }
-                },
-                "name": "Who's the Pillager Now?",
-                "identifier": "adventure/whos_the_pillager_now"
+                "name": "A Complete Catalogue",
+                "identifier": "husbandry/complete_catalogue"
             },
             {
                 "types": [],
@@ -970,44 +923,67 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#A_Complete_Catalogue",
+                "wiki": "https://minecraft.wiki/w/Advancement#Two_Birds,_One_Arrow",
                 "meta": {
-                    "icon": "item/cod"
+                    "icon": {
+                        "identifier": "crossbow",
+                        "name": "Crossbow",
+                        "wiki": "https://minecraft.wiki/w/Crossbow",
+                        "imagePath": "/item/crossbow/latest.png"
+                    }
                 },
-                "name": "A Complete Catalogue",
-                "identifier": "husbandry/complete_catalogue"
+                "name": "Two Birds, One Arrow",
+                "identifier": "adventure/two_birds_one_arrow"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Hero_of_the_Village",
+                "meta": {
+                    "icon": {
+                        "identifier": "ominous_banner",
+                        "name": "Ominous Banner",
+                        "wiki": "https://minecraft.wiki/w/Ominous_Banner",
+                        "imagePath": "/block/ominous_banner/latest.png"
+                    }
+                },
+                "name": "Hero of the Village",
+                "identifier": "adventure/hero_of_the_village"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Who's_the_Pillager_Now?",
+                "meta": {
+                    "icon": {
+                        "identifier": "crossbow",
+                        "name": "Crossbow",
+                        "wiki": "https://minecraft.wiki/w/Crossbow",
+                        "imagePath": "/item/crossbow/latest.png"
+                    }
+                },
+                "name": "Who's the Pillager Now?",
+                "identifier": "adventure/whos_the_pillager_now"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Voluntary_Exile",
+                "meta": {
+                    "icon": {
+                        "identifier": "ominous_banner",
+                        "name": "Ominous Banner",
+                        "wiki": "https://minecraft.wiki/w/Ominous_Banner",
+                        "imagePath": "/block/ominous_banner/latest.png"
+                    }
+                },
+                "name": "Voluntary Exile",
+                "identifier": "adventure/voluntary_exile"
             }
         ],
         "mob_variants": [
             {
                 "types": [
-                    "mobs/neutral"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fox#Snow",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "fox_spawn_egg",
-                        "name": "Fox Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/fox_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "fox",
-                        "name": "Fox",
-                        "wiki": "https://minecraft.wiki/w/Fox",
-                        "health": 10,
-                        "imagePath": "/mob/fox/latest.png"
-                    }
-                },
-                "name": "Snow Fox",
-                "identifier": "snow_fox",
-                "imagePath": "/mob_variant/snow_fox/latest.png"
-            },
-            {
-                "types": [
                     "mobs/passive"
                 ],
-                "wiki": "https://minecraft.wiki/w/Panda#Lazy",
+                "wiki": "https://minecraft.wiki/w/Panda#Brown",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "panda_spawn_egg",
@@ -1023,33 +999,9 @@
                         "imagePath": "/mob/panda/latest.png"
                     }
                 },
-                "name": "Lazy Panda",
-                "identifier": "lazy_panda",
-                "imagePath": "/mob_variant/lazy_panda/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Panda#Aggressive",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "panda_spawn_egg",
-                        "name": "Panda Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/panda_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "panda",
-                        "name": "Panda",
-                        "wiki": "https://minecraft.wiki/w/Panda",
-                        "health": 20,
-                        "imagePath": "/mob/panda/latest.png"
-                    }
-                },
-                "name": "Aggressive Panda",
-                "identifier": "aggressive_panda",
-                "imagePath": "/mob_variant/aggressive_panda/latest.png"
+                "name": "Brown Panda",
+                "identifier": "brown_panda",
+                "imagePath": "/mob_variant/brown_panda/latest.png"
             },
             {
                 "types": [
@@ -1128,7 +1080,7 @@
                 "types": [
                     "mobs/passive"
                 ],
-                "wiki": "https://minecraft.wiki/w/Panda#Brown",
+                "wiki": "https://minecraft.wiki/w/Panda#Lazy",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "panda_spawn_egg",
@@ -1144,9 +1096,57 @@
                         "imagePath": "/mob/panda/latest.png"
                     }
                 },
-                "name": "Brown Panda",
-                "identifier": "brown_panda",
-                "imagePath": "/mob_variant/brown_panda/latest.png"
+                "name": "Lazy Panda",
+                "identifier": "lazy_panda",
+                "imagePath": "/mob_variant/lazy_panda/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/neutral"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fox#Snow",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "fox_spawn_egg",
+                        "name": "Fox Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/fox_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "fox",
+                        "name": "Fox",
+                        "wiki": "https://minecraft.wiki/w/Fox",
+                        "health": 10,
+                        "imagePath": "/mob/fox/latest.png"
+                    }
+                },
+                "name": "Snow Fox",
+                "identifier": "snow_fox",
+                "imagePath": "/mob_variant/snow_fox/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Panda#Aggressive",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "panda_spawn_egg",
+                        "name": "Panda Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/panda_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "panda",
+                        "name": "Panda",
+                        "wiki": "https://minecraft.wiki/w/Panda",
+                        "health": 20,
+                        "imagePath": "/mob/panda/latest.png"
+                    }
+                },
+                "name": "Aggressive Panda",
+                "identifier": "aggressive_panda",
+                "imagePath": "/mob_variant/aggressive_panda/latest.png"
             }
         ],
         "biomes": [

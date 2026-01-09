@@ -2,20 +2,6 @@
     "added": {
         "blocks": [
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cut_Sandstone",
-                "name": "Cut Sandstone",
-                "identifier": "cut_sandstone",
-                "imagePath": "/block/cut_sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone",
-                "name": "Chiseled Sandstone",
-                "identifier": "chiseled_sandstone",
-                "imagePath": "/block/chiseled_sandstone/latest.png"
-            },
-            {
                 "types": [
                     "woodset/spruce",
                     "planks"
@@ -44,6 +30,20 @@
                 "name": "Jungle Planks",
                 "identifier": "jungle_planks",
                 "imagePath": "/block/jungle_planks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone",
+                "name": "Chiseled Sandstone",
+                "identifier": "chiseled_sandstone",
+                "imagePath": "/block/chiseled_sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cut_Sandstone",
+                "name": "Cut Sandstone",
+                "identifier": "cut_sandstone",
+                "imagePath": "/block/cut_sandstone/latest.png"
             }
         ]
     },

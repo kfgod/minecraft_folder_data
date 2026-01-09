@@ -13,6 +13,16 @@
             },
             {
                 "types": [
+                    "woodset/oak",
+                    "slabs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
+                "name": "Oak Slab",
+                "identifier": "oak_slab",
+                "imagePath": "/block/oak_slab/latest.png"
+            },
+            {
+                "types": [
                     "woodset/spruce",
                     "woods"
                 ],
@@ -23,26 +33,6 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "woods"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wood#Birch",
-                "name": "Birch Wood",
-                "identifier": "birch_wood",
-                "imagePath": "/block/birch_wood/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "woods"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wood#Jungle",
-                "name": "Jungle Wood",
-                "identifier": "jungle_wood",
-                "imagePath": "/block/jungle_wood/latest.png"
-            },
-            {
-                "types": [
                     "woodset/spruce",
                     "stairs"
                 ],
@@ -50,36 +40,6 @@
                 "name": "Spruce Stairs",
                 "identifier": "spruce_stairs",
                 "imagePath": "/block/spruce_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
-                "name": "Birch Stairs",
-                "identifier": "birch_stairs",
-                "imagePath": "/block/birch_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
-                "name": "Jungle Stairs",
-                "identifier": "jungle_stairs",
-                "imagePath": "/block/jungle_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/oak",
-                    "slabs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
-                "name": "Oak Slab",
-                "identifier": "oak_slab",
-                "imagePath": "/block/oak_slab/latest.png"
             },
             {
                 "types": [
@@ -94,6 +54,26 @@
             {
                 "types": [
                     "woodset/birch",
+                    "woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wood#Birch",
+                "name": "Birch Wood",
+                "identifier": "birch_wood",
+                "imagePath": "/block/birch_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
+                "name": "Birch Stairs",
+                "identifier": "birch_stairs",
+                "imagePath": "/block/birch_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
                     "slabs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch",
@@ -104,12 +84,46 @@
             {
                 "types": [
                     "woodset/jungle",
+                    "woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wood#Jungle",
+                "name": "Jungle Wood",
+                "identifier": "jungle_wood",
+                "imagePath": "/block/jungle_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
+                "name": "Jungle Stairs",
+                "identifier": "jungle_stairs",
+                "imagePath": "/block/jungle_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
                     "slabs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle",
                 "name": "Jungle Slab",
                 "identifier": "jungle_slab",
                 "imagePath": "/block/jungle_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Sandstone_Stairs",
+                "name": "Sandstone Stairs",
+                "identifier": "sandstone_stairs",
+                "imagePath": "/block/sandstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Emerald",
+                "name": "Block of Emerald",
+                "identifier": "emerald_block",
+                "imagePath": "/block/emerald_block/latest.png"
             },
             {
                 "types": [],
@@ -127,27 +141,20 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Sandstone_Stairs",
-                "name": "Sandstone Stairs",
-                "identifier": "sandstone_stairs",
-                "imagePath": "/block/sandstone_stairs/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Tripwire_Hook",
                 "name": "Tripwire Hook",
                 "identifier": "tripwire_hook",
                 "imagePath": "/block/tripwire_hook/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Emerald",
-                "name": "Block of Emerald",
-                "identifier": "emerald_block",
-                "imagePath": "/block/emerald_block/latest.png"
             }
         ],
         "items": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Book_and_Quill",
+                "name": "Book and Quill",
+                "identifier": "writable_book",
+                "imagePath": "/item/writable_book/latest.png"
+            },
             {
                 "types": [
                     "food",
@@ -160,10 +167,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Book_and_Quill",
-                "name": "Book and Quill",
-                "identifier": "writable_book",
-                "imagePath": "/item/writable_book/latest.png"
+                "wiki": "https://minecraft.wiki/w/Emerald",
+                "name": "Emerald",
+                "identifier": "emerald",
+                "imagePath": "/item/emerald/latest.png"
             },
             {
                 "types": [],
@@ -171,26 +178,9 @@
                 "name": "Written Book",
                 "identifier": "written_book",
                 "imagePath": "/item/written_book/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Emerald",
-                "name": "Emerald",
-                "identifier": "emerald",
-                "imagePath": "/item/emerald/latest.png"
             }
         ],
         "structures": [
-            {
-                "types": [
-                    "structure/surface",
-                    "structure/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Desert_Pyramid",
-                "name": "Desert Pyramid",
-                "identifier": "desert_pyramid",
-                "imagePath": "/structure/desert_pyramid/latest.png"
-            },
             {
                 "types": [
                     "structure/surface",
@@ -200,6 +190,16 @@
                 "name": "Jungle Pyramid",
                 "identifier": "jungle_pyramid",
                 "imagePath": "/structure/jungle_pyramid/latest.png"
+            },
+            {
+                "types": [
+                    "structure/surface",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Desert_Pyramid",
+                "name": "Desert Pyramid",
+                "identifier": "desert_pyramid",
+                "imagePath": "/structure/desert_pyramid/latest.png"
             }
         ]
     },

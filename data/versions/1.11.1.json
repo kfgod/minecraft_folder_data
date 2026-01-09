@@ -2,6 +2,13 @@
     "added": {
         "items": [
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Iron_Nugget",
+                "name": "Iron Nugget",
+                "identifier": "iron_nugget",
+                "imagePath": "/item/iron_nugget/latest.png"
+            },
+            {
                 "types": [
                     "enchantments"
                 ],
@@ -9,13 +16,6 @@
                 "name": "Enchanted Book – Sweeping Edge I-III",
                 "identifier": "sweeping_edge_enchanted_book",
                 "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Iron_Nugget",
-                "name": "Iron Nugget",
-                "identifier": "iron_nugget",
-                "imagePath": "/item/iron_nugget/latest.png"
             }
         ],
         "enchantments": [

@@ -14,36 +14,12 @@
             {
                 "types": [
                     "woodset/oak",
-                    "signs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sign#Oak",
-                "name": "Oak Sign",
-                "identifier": "oak_sign",
-                "imagePath": "/block/oak_sign/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/oak",
                     "doors"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak",
                 "name": "Oak Door",
                 "identifier": "oak_door",
                 "imagePath": "/block/oak_door/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Ladder",
-                "name": "Ladder",
-                "identifier": "ladder",
-                "imagePath": "/block/ladder/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Monster_Spawner",
-                "name": "Monster Spawner",
-                "identifier": "spawner",
-                "imagePath": "/block/spawner/latest.png"
             },
             {
                 "types": [],
@@ -54,22 +30,43 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Ladder",
+                "name": "Ladder",
+                "identifier": "ladder",
+                "imagePath": "/block/ladder/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/oak",
+                    "signs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sign#Oak",
+                "name": "Oak Sign",
+                "identifier": "oak_sign",
+                "imagePath": "/block/oak_sign/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Rail",
                 "name": "Rail",
                 "identifier": "rail",
                 "imagePath": "/block/rail/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Monster_Spawner",
+                "name": "Monster Spawner",
+                "identifier": "spawner",
+                "imagePath": "/block/spawner/latest.png"
             }
         ],
         "items": [
             {
-                "types": [
-                    "food",
-                    "food/supernatural"
-                ],
-                "wiki": "https://minecraft.wiki/w/Golden_Apple",
-                "name": "Golden Apple",
-                "identifier": "golden_apple",
-                "imagePath": "/item/golden_apple/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Minecart",
+                "name": "Minecart",
+                "identifier": "minecart",
+                "imagePath": "/item/minecart/latest.png"
             },
             {
                 "types": [
@@ -106,11 +103,14 @@
                 "imagePath": "/item/saddle/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Minecart",
-                "name": "Minecart",
-                "identifier": "minecart",
-                "imagePath": "/item/minecart/latest.png"
+                "types": [
+                    "food",
+                    "food/supernatural"
+                ],
+                "wiki": "https://minecraft.wiki/w/Golden_Apple",
+                "name": "Golden Apple",
+                "identifier": "golden_apple",
+                "imagePath": "/item/golden_apple/latest.png"
             }
         ]
     },

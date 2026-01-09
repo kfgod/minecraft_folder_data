@@ -2,13 +2,6 @@
     "added": {
         "blocks": [
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Creaking_Heart",
-                "name": "Creaking Heart",
-                "identifier": "creaking_heart",
-                "imagePath": "/block/creaking_heart/latest.png"
-            },
-            {
                 "types": [
                     "woodset/pale_oak",
                     "logs"
@@ -21,117 +14,22 @@
             {
                 "types": [
                     "woodset/pale_oak",
-                    "stripped_logs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak",
-                "name": "Stripped Pale Oak Log",
-                "identifier": "stripped_pale_oak_log",
-                "imagePath": "/block/stripped_pale_oak_log/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Pale_Hanging_Moss",
-                "name": "Pale Hanging Moss",
-                "identifier": "pale_hanging_moss",
-                "imagePath": "/block/pale_hanging_moss/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Pale_Moss_Block",
-                "name": "Pale Moss Block",
-                "identifier": "pale_moss_block",
-                "imagePath": "/block/pale_moss_block/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Pale_Moss_Carpet",
-                "name": "Pale Moss Carpet",
-                "identifier": "pale_moss_carpet",
-                "imagePath": "/block/pale_moss_carpet/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation",
-                    "flower/normal"
-                ],
-                "wiki": "https://minecraft.wiki/w/Eyeblossom#Closed",
-                "name": "Closed Eyeblossom",
-                "identifier": "closed_eyeblossom",
-                "imagePath": "/block/closed_eyeblossom/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation",
-                    "flower/normal"
-                ],
-                "wiki": "https://minecraft.wiki/w/Eyeblossom#Open",
-                "name": "Open Eyeblossom",
-                "identifier": "open_eyeblossom",
-                "imagePath": "/block/open_eyeblossom/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Resin",
-                "name": "Block of Resin",
-                "identifier": "resin_block",
-                "imagePath": "/block/resin_block/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Resin_Bricks",
-                "name": "Resin Bricks",
-                "identifier": "resin_bricks",
-                "imagePath": "/block/resin_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Resin_Bricks",
-                "name": "Chiseled Resin Bricks",
-                "identifier": "chiseled_resin_bricks",
-                "imagePath": "/block/chiseled_resin_bricks/latest.png"
-            },
-            {
-                "types": [
-                    "slabs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Resin_Brick_Slab",
-                "name": "Resin Brick Slab",
-                "identifier": "resin_brick_slab",
-                "imagePath": "/block/resin_brick_slab/latest.png"
-            },
-            {
-                "types": [
-                    "stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Resin_Brick_Stairs",
-                "name": "Resin Brick Stairs",
-                "identifier": "resin_brick_stairs",
-                "imagePath": "/block/resin_brick_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "walls"
-                ],
-                "wiki": "https://minecraft.wiki/w/Resin_Brick_Wall",
-                "name": "Resin Brick Wall",
-                "identifier": "resin_brick_wall",
-                "imagePath": "/block/resin_brick_wall/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
                     "woods"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak",
                 "name": "Pale Oak Wood",
                 "identifier": "pale_oak_wood",
                 "imagePath": "/block/pale_oak_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "stripped_logs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak",
+                "name": "Stripped Pale Oak Log",
+                "identifier": "stripped_pale_oak_log",
+                "imagePath": "/block/stripped_pale_oak_log/latest.png"
             },
             {
                 "types": [
@@ -175,6 +73,145 @@
             },
             {
                 "types": [
+                    "woodset/pale_oak",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak",
+                "name": "Pale Oak Fence",
+                "identifier": "pale_oak_fence",
+                "imagePath": "/block/pale_oak_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak",
+                "name": "Pale Oak Fence Gate",
+                "identifier": "pale_oak_fence_gate",
+                "imagePath": "/block/pale_oak_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "doors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak",
+                "name": "Pale Oak Door",
+                "identifier": "pale_oak_door",
+                "imagePath": "/block/pale_oak_door/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "trapdoors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak",
+                "name": "Pale Oak Trapdoor",
+                "identifier": "pale_oak_trapdoor",
+                "imagePath": "/block/pale_oak_trapdoor/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak",
+                "name": "Pale Oak Pressure Plate",
+                "identifier": "pale_oak_pressure_plate",
+                "imagePath": "/block/pale_oak_pressure_plate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "buttons"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak",
+                "name": "Pale Oak Button",
+                "identifier": "pale_oak_button",
+                "imagePath": "/block/pale_oak_button/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Resin_Bricks",
+                "name": "Resin Bricks",
+                "identifier": "resin_bricks",
+                "imagePath": "/block/resin_bricks/latest.png"
+            },
+            {
+                "types": [
+                    "stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Resin_Brick_Stairs",
+                "name": "Resin Brick Stairs",
+                "identifier": "resin_brick_stairs",
+                "imagePath": "/block/resin_brick_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "slabs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Resin_Brick_Slab",
+                "name": "Resin Brick Slab",
+                "identifier": "resin_brick_slab",
+                "imagePath": "/block/resin_brick_slab/latest.png"
+            },
+            {
+                "types": [
+                    "walls"
+                ],
+                "wiki": "https://minecraft.wiki/w/Resin_Brick_Wall",
+                "name": "Resin Brick Wall",
+                "identifier": "resin_brick_wall",
+                "imagePath": "/block/resin_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Resin_Bricks",
+                "name": "Chiseled Resin Bricks",
+                "identifier": "chiseled_resin_bricks",
+                "imagePath": "/block/chiseled_resin_bricks/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Pale_Moss_Block",
+                "name": "Pale Moss Block",
+                "identifier": "pale_moss_block",
+                "imagePath": "/block/pale_moss_block/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Pale_Moss_Carpet",
+                "name": "Pale Moss Carpet",
+                "identifier": "pale_moss_carpet",
+                "imagePath": "/block/pale_moss_carpet/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Pale_Hanging_Moss",
+                "name": "Pale Hanging Moss",
+                "identifier": "pale_hanging_moss",
+                "imagePath": "/block/pale_hanging_moss/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation",
+                    "woodset/pale_oak",
+                    "leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
+                "name": "Pale Oak Leaves",
+                "identifier": "pale_oak_leaves",
+                "imagePath": "/block/pale_oak_leaves/latest.png"
+            },
+            {
+                "types": [
                     "vegetation",
                     "woodset/pale_oak",
                     "plants",
@@ -188,13 +225,29 @@
             {
                 "types": [
                     "vegetation",
-                    "woodset/pale_oak",
-                    "leaves"
+                    "flower/normal"
                 ],
-                "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
-                "name": "Pale Oak Leaves",
-                "identifier": "pale_oak_leaves",
-                "imagePath": "/block/pale_oak_leaves/latest.png"
+                "wiki": "https://minecraft.wiki/w/Eyeblossom#Closed",
+                "name": "Closed Eyeblossom",
+                "identifier": "closed_eyeblossom",
+                "imagePath": "/block/closed_eyeblossom/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation",
+                    "flower/normal"
+                ],
+                "wiki": "https://minecraft.wiki/w/Eyeblossom#Open",
+                "name": "Open Eyeblossom",
+                "identifier": "open_eyeblossom",
+                "imagePath": "/block/open_eyeblossom/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Resin",
+                "name": "Block of Resin",
+                "identifier": "resin_block",
+                "imagePath": "/block/resin_block/latest.png"
             },
             {
                 "types": [
@@ -217,67 +270,34 @@
                 "imagePath": "/block/pale_oak_hanging_sign/latest.png"
             },
             {
-                "types": [
-                    "woodset/pale_oak",
-                    "buttons"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak",
-                "name": "Pale Oak Button",
-                "identifier": "pale_oak_button",
-                "imagePath": "/block/pale_oak_button/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak",
-                "name": "Pale Oak Pressure Plate",
-                "identifier": "pale_oak_pressure_plate",
-                "imagePath": "/block/pale_oak_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak",
-                "name": "Pale Oak Trapdoor",
-                "identifier": "pale_oak_trapdoor",
-                "imagePath": "/block/pale_oak_trapdoor/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "doors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak",
-                "name": "Pale Oak Door",
-                "identifier": "pale_oak_door",
-                "imagePath": "/block/pale_oak_door/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak",
-                "name": "Pale Oak Fence",
-                "identifier": "pale_oak_fence",
-                "imagePath": "/block/pale_oak_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak",
-                "name": "Pale Oak Fence Gate",
-                "identifier": "pale_oak_fence_gate",
-                "imagePath": "/block/pale_oak_fence_gate/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Creaking_Heart",
+                "name": "Creaking Heart",
+                "identifier": "creaking_heart",
+                "imagePath": "/block/creaking_heart/latest.png"
             }
         ],
         "items": [
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "boats"
+                ],
+                "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
+                "name": "Pale Oak Boat",
+                "identifier": "pale_oak_boat",
+                "imagePath": "/item/pale_oak_boat/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "chest_boats"
+                ],
+                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
+                "name": " Pale Oak Boat with Chest",
+                "identifier": "pale_oak_chest_boat",
+                "imagePath": "/item/pale_oak_chest_boat/latest.png"
+            },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Resin_Clump",
@@ -300,26 +320,6 @@
                 "name": "Creaking Spawn Egg",
                 "identifier": "creaking_spawn_egg",
                 "imagePath": "/item/creaking_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "boats"
-                ],
-                "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
-                "name": "Pale Oak Boat",
-                "identifier": "pale_oak_boat",
-                "imagePath": "/item/pale_oak_boat/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "chest_boats"
-                ],
-                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
-                "name": " Pale Oak Boat with Chest",
-                "identifier": "pale_oak_chest_boat",
-                "imagePath": "/item/pale_oak_chest_boat/latest.png"
             }
         ],
         "mobs": [

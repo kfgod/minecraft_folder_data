@@ -17,9 +17,9 @@
     "version": "1.21.9",
     "version_name": "The Copper Age",
     "element": {
-      "name": "Oak Shelf",
-      "wiki": "https://minecraft.wiki/w/Shelf#Oak",
-      "identifier": "oak_shelf"
+      "name": "Waxed Exposed Copper Chain",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
+      "identifier": "waxed_exposed_copper_chain"
     },
     "release_date": "2025-09-30T11:58:43+00:00"
   },
@@ -27,9 +27,9 @@
     "version": "1.21.11",
     "version_name": "Mounts of Mayhem",
     "element": {
-      "name": "Wooden Spear",
-      "wiki": "https://minecraft.wiki/w/Spear#Wooden",
-      "identifier": "wooden_spear"
+      "name": "Golden Spear",
+      "wiki": "https://minecraft.wiki/w/Spear#Golden",
+      "identifier": "golden_spear"
     },
     "release_date": "2025-12-09T12:23:30+00:00"
   },

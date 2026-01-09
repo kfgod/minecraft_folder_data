@@ -13,13 +13,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Dead_Bush",
-                "name": "Dead Bush",
-                "identifier": "dead_bush",
-                "imagePath": "/block/dead_bush/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Short_Grass",
                 "name": "Short Grass",
                 "identifier": "short_grass",
@@ -31,6 +24,13 @@
                 "name": "Fern",
                 "identifier": "fern",
                 "imagePath": "/block/fern/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Dead_Bush",
+                "name": "Dead Bush",
+                "identifier": "dead_bush",
+                "imagePath": "/block/dead_bush/latest.png"
             }
         ],
         "items": [

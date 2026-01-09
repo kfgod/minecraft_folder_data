@@ -4,12 +4,52 @@
             {
                 "types": [
                     "woodset/spruce",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce",
+                "name": "Spruce Fence",
+                "identifier": "spruce_fence",
+                "imagePath": "/block/spruce_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/spruce",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce",
+                "name": "Spruce Fence Gate",
+                "identifier": "spruce_fence_gate",
+                "imagePath": "/block/spruce_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/spruce",
                     "doors"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Spruce",
                 "name": "Spruce Door",
                 "identifier": "spruce_door",
                 "imagePath": "/block/spruce_door/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch",
+                "name": "Birch Fence",
+                "identifier": "birch_fence",
+                "imagePath": "/block/birch_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch",
+                "name": "Birch Fence Gate",
+                "identifier": "birch_fence_gate",
+                "imagePath": "/block/birch_fence_gate/latest.png"
             },
             {
                 "types": [
@@ -24,12 +64,52 @@
             {
                 "types": [
                     "woodset/jungle",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle",
+                "name": "Jungle Fence",
+                "identifier": "jungle_fence",
+                "imagePath": "/block/jungle_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle",
+                "name": "Jungle Fence Gate",
+                "identifier": "jungle_fence_gate",
+                "imagePath": "/block/jungle_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
                     "doors"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Jungle",
                 "name": "Jungle Door",
                 "identifier": "jungle_door",
                 "imagePath": "/block/jungle_door/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/acacia",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia",
+                "name": "Acacia Fence",
+                "identifier": "acacia_fence",
+                "imagePath": "/block/acacia_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/acacia",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia",
+                "name": "Acacia Fence Gate",
+                "identifier": "acacia_fence_gate",
+                "imagePath": "/block/acacia_fence_gate/latest.png"
             },
             {
                 "types": [
@@ -44,102 +124,12 @@
             {
                 "types": [
                     "woodset/dark_oak",
-                    "doors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak",
-                "name": "Dark Oak Door",
-                "identifier": "dark_oak_door",
-                "imagePath": "/block/dark_oak_door/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/spruce",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce",
-                "name": "Spruce Fence",
-                "identifier": "spruce_fence",
-                "imagePath": "/block/spruce_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch",
-                "name": "Birch Fence",
-                "identifier": "birch_fence",
-                "imagePath": "/block/birch_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle",
-                "name": "Jungle Fence",
-                "identifier": "jungle_fence",
-                "imagePath": "/block/jungle_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/acacia",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia",
-                "name": "Acacia Fence",
-                "identifier": "acacia_fence",
-                "imagePath": "/block/acacia_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/dark_oak",
                     "fences"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak",
                 "name": "Dark Oak Fence",
                 "identifier": "dark_oak_fence",
                 "imagePath": "/block/dark_oak_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/spruce",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce",
-                "name": "Spruce Fence Gate",
-                "identifier": "spruce_fence_gate",
-                "imagePath": "/block/spruce_fence_gate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch",
-                "name": "Birch Fence Gate",
-                "identifier": "birch_fence_gate",
-                "imagePath": "/block/birch_fence_gate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle",
-                "name": "Jungle Fence Gate",
-                "identifier": "jungle_fence_gate",
-                "imagePath": "/block/jungle_fence_gate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/acacia",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia",
-                "name": "Acacia Fence Gate",
-                "identifier": "acacia_fence_gate",
-                "imagePath": "/block/acacia_fence_gate/latest.png"
             },
             {
                 "types": [
@@ -150,6 +140,135 @@
                 "name": "Dark Oak Fence Gate",
                 "identifier": "dark_oak_fence_gate",
                 "imagePath": "/block/dark_oak_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/dark_oak",
+                    "doors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak",
+                "name": "Dark Oak Door",
+                "identifier": "dark_oak_door",
+                "imagePath": "/block/dark_oak_door/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Granite",
+                "name": "Granite",
+                "identifier": "granite",
+                "imagePath": "/block/granite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Granite",
+                "name": "Polished Granite",
+                "identifier": "polished_granite",
+                "imagePath": "/block/polished_granite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Diorite",
+                "name": "Diorite",
+                "identifier": "diorite",
+                "imagePath": "/block/diorite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Diorite",
+                "name": "Polished Diorite",
+                "identifier": "polished_diorite",
+                "imagePath": "/block/polished_diorite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Andesite",
+                "name": "Andesite",
+                "identifier": "andesite",
+                "imagePath": "/block/andesite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Andesite",
+                "name": "Polished Andesite",
+                "identifier": "polished_andesite",
+                "imagePath": "/block/polished_andesite/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Sandstone",
+                "name": "Red Sandstone",
+                "identifier": "red_sandstone",
+                "imagePath": "/block/red_sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Stairs",
+                "name": "Red Sandstone Stairs",
+                "identifier": "red_sandstone_stairs",
+                "imagePath": "/block/red_sandstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Slab",
+                "name": "Red Sandstone Slab",
+                "identifier": "red_sandstone_slab",
+                "imagePath": "/block/red_sandstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Red_Sandstone",
+                "name": "Chiseled Red Sandstone",
+                "identifier": "chiseled_red_sandstone",
+                "imagePath": "/block/chiseled_red_sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone",
+                "name": "Smooth Red Sandstone",
+                "identifier": "smooth_red_sandstone",
+                "imagePath": "/block/smooth_red_sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone",
+                "name": "Cut Red Sandstone",
+                "identifier": "cut_red_sandstone",
+                "imagePath": "/block/cut_red_sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Sea_Lantern",
+                "name": "Sea Lantern",
+                "identifier": "sea_lantern",
+                "imagePath": "/block/sea_lantern/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Prismarine",
+                "name": "Prismarine",
+                "identifier": "prismarine",
+                "imagePath": "/block/prismarine/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Prismarine_Bricks",
+                "name": "Prismarine Bricks",
+                "identifier": "prismarine_bricks",
+                "imagePath": "/block/prismarine_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Dark_Prismarine",
+                "name": "Dark Prismarine",
+                "identifier": "dark_prismarine",
+                "imagePath": "/block/dark_prismarine/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Iron_Trapdoor",
+                "name": "Iron Trapdoor",
+                "identifier": "iron_trapdoor",
+                "imagePath": "/block/iron_trapdoor/latest.png"
             },
             {
                 "types": [],
@@ -281,52 +400,17 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Coarse_Dirt",
+                "name": "Coarse Dirt",
+                "identifier": "coarse_dirt",
+                "imagePath": "/block/coarse_dirt/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Sponge",
                 "name": "Wet Sponge",
                 "identifier": "wet_sponge",
                 "imagePath": "/block/wet_sponge/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Granite",
-                "name": "Granite",
-                "identifier": "granite",
-                "imagePath": "/block/granite/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Granite",
-                "name": "Polished Granite",
-                "identifier": "polished_granite",
-                "imagePath": "/block/polished_granite/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Diorite",
-                "name": "Diorite",
-                "identifier": "diorite",
-                "imagePath": "/block/diorite/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Diorite",
-                "name": "Polished Diorite",
-                "identifier": "polished_diorite",
-                "imagePath": "/block/polished_diorite/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Andesite",
-                "name": "Andesite",
-                "identifier": "andesite",
-                "imagePath": "/block/andesite/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Andesite",
-                "name": "Polished Andesite",
-                "identifier": "polished_andesite",
-                "imagePath": "/block/polished_andesite/latest.png"
             },
             {
                 "types": [],
@@ -337,55 +421,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Barrier",
-                "name": "Barrier",
-                "identifier": "barrier",
-                "imagePath": "/block/barrier/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Iron_Trapdoor",
-                "name": "Iron Trapdoor",
-                "identifier": "iron_trapdoor",
-                "imagePath": "/block/iron_trapdoor/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Coarse_Dirt",
-                "name": "Coarse Dirt",
-                "identifier": "coarse_dirt",
-                "imagePath": "/block/coarse_dirt/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Prismarine",
-                "name": "Prismarine",
-                "identifier": "prismarine",
-                "imagePath": "/block/prismarine/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Prismarine_Bricks",
-                "name": "Prismarine Bricks",
-                "identifier": "prismarine_bricks",
-                "imagePath": "/block/prismarine_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Dark_Prismarine",
-                "name": "Dark Prismarine",
-                "identifier": "dark_prismarine",
-                "imagePath": "/block/dark_prismarine/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Sea_Lantern",
-                "name": "Sea Lantern",
-                "identifier": "sea_lantern",
-                "imagePath": "/block/sea_lantern/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Armor_Stand",
                 "name": "Armor Stand",
                 "identifier": "armor_stand",
@@ -393,62 +428,13 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Sandstone",
-                "name": "Red Sandstone",
-                "identifier": "red_sandstone",
-                "imagePath": "/block/red_sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone",
-                "name": "Cut Red Sandstone",
-                "identifier": "cut_red_sandstone",
-                "imagePath": "/block/cut_red_sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Red_Sandstone",
-                "name": "Chiseled Red Sandstone",
-                "identifier": "chiseled_red_sandstone",
-                "imagePath": "/block/chiseled_red_sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone",
-                "name": "Smooth Red Sandstone",
-                "identifier": "smooth_red_sandstone",
-                "imagePath": "/block/smooth_red_sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Slab",
-                "name": "Red Sandstone Slab",
-                "identifier": "red_sandstone_slab",
-                "imagePath": "/block/red_sandstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Red_Sandstone_Stairs",
-                "name": "Red Sandstone Stairs",
-                "identifier": "red_sandstone_stairs",
-                "imagePath": "/block/red_sandstone_stairs/latest.png"
+                "wiki": "https://minecraft.wiki/w/Barrier",
+                "name": "Barrier",
+                "identifier": "barrier",
+                "imagePath": "/block/barrier/latest.png"
             }
         ],
         "items": [
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Prismarine_Crystals",
-                "name": "Prismarine Crystals",
-                "identifier": "prismarine_crystals",
-                "imagePath": "/item/prismarine_crystals/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Prismarine_Shard",
-                "name": "Prismarine Shard",
-                "identifier": "prismarine_shard",
-                "imagePath": "/item/prismarine_shard/latest.png"
-            },
             {
                 "types": [
                     "food"
@@ -503,28 +489,24 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Prismarine_Shard",
+                "name": "Prismarine Shard",
+                "identifier": "prismarine_shard",
+                "imagePath": "/item/prismarine_shard/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Prismarine_Crystals",
+                "name": "Prismarine Crystals",
+                "identifier": "prismarine_crystals",
+                "imagePath": "/item/prismarine_crystals/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Rabbit%27s_Foot",
                 "name": "Rabbit's Foot",
                 "identifier": "rabbit_foot",
                 "imagePath": "/item/rabbit_foot/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Depth Strider I-III",
-                "identifier": "depth_strider_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Guardian Spawn Egg",
-                "identifier": "guardian_spawn_egg",
-                "imagePath": "/item/guardian_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -540,9 +522,27 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Guardian Spawn Egg",
+                "identifier": "guardian_spawn_egg",
+                "imagePath": "/item/guardian_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Endermite Spawn Egg",
                 "identifier": "endermite_spawn_egg",
                 "imagePath": "/item/endermite_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Depth Strider I-III",
+                "identifier": "depth_strider_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [
@@ -566,24 +566,6 @@
             }
         ],
         "mobs": [
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Rabbit",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "rabbit_spawn_egg",
-                        "name": "Rabbit Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/rabbit_spawn_egg/latest.png"
-                    },
-                    "health": 3
-                },
-                "name": "Rabbit",
-                "identifier": "rabbit",
-                "imagePath": "/mob/rabbit/latest.png"
-            },
             {
                 "types": [
                     "mobs/hostile"
@@ -619,6 +601,24 @@
                 "name": "Elder Guardian",
                 "identifier": "elder_guardian",
                 "imagePath": "/mob/elder_guardian/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Rabbit",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "rabbit_spawn_egg",
+                        "name": "Rabbit Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/rabbit_spawn_egg/latest.png"
+                    },
+                    "health": 3
+                },
+                "name": "Rabbit",
+                "identifier": "rabbit",
+                "imagePath": "/mob/rabbit/latest.png"
             },
             {
                 "types": [

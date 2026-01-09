@@ -3,52 +3,10 @@
         "blocks": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore",
-                "name": "Nether Quartz Ore",
-                "identifier": "nether_quartz_ore",
-                "imagePath": "/block/nether_quartz_ore/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Redstone",
-                "name": "Block of Redstone",
-                "identifier": "redstone_block",
-                "imagePath": "/block/redstone_block/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Daylight_Detector",
-                "name": "Daylight Detector",
-                "identifier": "daylight_detector",
-                "imagePath": "/block/daylight_detector/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Hopper",
-                "name": "Hopper",
-                "identifier": "hopper",
-                "imagePath": "/block/hopper/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Redstone_Comparator",
-                "name": "Redstone Comparator",
-                "identifier": "comparator",
-                "imagePath": "/block/comparator/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Trapped_Chest",
-                "name": "Trapped Chest",
-                "identifier": "trapped_chest",
-                "imagePath": "/block/trapped_chest/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate",
-                "name": "Light Weighted Pressure Plate",
-                "identifier": "light_weighted_pressure_plate",
-                "imagePath": "/block/light_weighted_pressure_plate/latest.png"
+                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone",
+                "name": "Smooth Sandstone",
+                "identifier": "smooth_sandstone",
+                "imagePath": "/block/smooth_sandstone/latest.png"
             },
             {
                 "types": [],
@@ -59,10 +17,38 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate",
+                "name": "Light Weighted Pressure Plate",
+                "identifier": "light_weighted_pressure_plate",
+                "imagePath": "/block/light_weighted_pressure_plate/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Redstone",
+                "name": "Block of Redstone",
+                "identifier": "redstone_block",
+                "imagePath": "/block/redstone_block/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Block_of_Quartz",
                 "name": "Block of Quartz",
                 "identifier": "quartz_block",
                 "imagePath": "/block/quartz_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Quartz_Stairs",
+                "name": "Quartz Stairs",
+                "identifier": "quartz_stairs",
+                "imagePath": "/block/quartz_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Quartz_Slab",
+                "name": "Quartz Slab",
+                "identifier": "quartz_slab",
+                "imagePath": "/block/quartz_slab/latest.png"
             },
             {
                 "types": [],
@@ -80,24 +66,31 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Quartz_Slab",
-                "name": "Quartz Slab",
-                "identifier": "quartz_slab",
-                "imagePath": "/block/quartz_slab/latest.png"
+                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block",
+                "name": "Smooth Quartz Block",
+                "identifier": "smooth_quartz",
+                "imagePath": "/block/smooth_quartz/latest.png"
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Quartz_Stairs",
-                "name": "Quartz Stairs",
-                "identifier": "quartz_stairs",
-                "imagePath": "/block/quartz_stairs/latest.png"
+                "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore",
+                "name": "Nether Quartz Ore",
+                "identifier": "nether_quartz_ore",
+                "imagePath": "/block/nether_quartz_ore/latest.png"
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Activator_Rail",
-                "name": "Activator Rail",
-                "identifier": "activator_rail",
-                "imagePath": "/block/activator_rail/latest.png"
+                "wiki": "https://minecraft.wiki/w/Redstone_Comparator",
+                "name": "Redstone Comparator",
+                "identifier": "comparator",
+                "imagePath": "/block/comparator/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Daylight_Detector",
+                "name": "Daylight Detector",
+                "identifier": "daylight_detector",
+                "imagePath": "/block/daylight_detector/latest.png"
             },
             {
                 "types": [],
@@ -108,20 +101,41 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Sandstone",
-                "name": "Smooth Sandstone",
-                "identifier": "smooth_sandstone",
-                "imagePath": "/block/smooth_sandstone/latest.png"
+                "wiki": "https://minecraft.wiki/w/Hopper",
+                "name": "Hopper",
+                "identifier": "hopper",
+                "imagePath": "/block/hopper/latest.png"
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block",
-                "name": "Smooth Quartz Block",
-                "identifier": "smooth_quartz",
-                "imagePath": "/block/smooth_quartz/latest.png"
+                "wiki": "https://minecraft.wiki/w/Trapped_Chest",
+                "name": "Trapped Chest",
+                "identifier": "trapped_chest",
+                "imagePath": "/block/trapped_chest/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Activator_Rail",
+                "name": "Activator Rail",
+                "identifier": "activator_rail",
+                "imagePath": "/block/activator_rail/latest.png"
             }
         ],
         "items": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Minecart_with_Hopper",
+                "name": "Minecart with Hopper",
+                "identifier": "hopper_minecart",
+                "imagePath": "/item/hopper_minecart/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Minecart_with_TNT",
+                "name": "Minecart with TNT",
+                "identifier": "tnt_minecart",
+                "imagePath": "/item/tnt_minecart/latest.png"
+            },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Nether_Quartz",
@@ -135,20 +149,6 @@
                 "name": "Nether Brick",
                 "identifier": "nether_brick",
                 "imagePath": "/item/nether_brick/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Minecart_with_TNT",
-                "name": "Minecart with TNT",
-                "identifier": "tnt_minecart",
-                "imagePath": "/item/tnt_minecart/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Minecart_with_Hopper",
-                "name": "Minecart with Hopper",
-                "identifier": "hopper_minecart",
-                "imagePath": "/item/hopper_minecart/latest.png"
             }
         ]
     },

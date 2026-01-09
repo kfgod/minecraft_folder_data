@@ -3,6 +3,13 @@
         "items": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Wolf_Armor",
+                "name": "Wolf Armor",
+                "identifier": "wolf_armor",
+                "imagePath": "/item/wolf_armor/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
                 "name": "Armadillo Scute",
                 "identifier": "armadillo_scute",
@@ -16,13 +23,6 @@
                 "name": "Armadillo Spawn Egg",
                 "identifier": "armadillo_spawn_egg",
                 "imagePath": "/item/armadillo_spawn_egg/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Wolf_Armor",
-                "name": "Wolf Armor",
-                "identifier": "wolf_armor",
-                "imagePath": "/item/wolf_armor/latest.png"
             }
         ],
         "mobs": [
@@ -48,31 +48,17 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Isn't_It_Scute?",
+                "wiki": "https://minecraft.wiki/w/Advancement#Shear_Brilliance",
                 "meta": {
                     "icon": {
-                        "identifier": "armadillo_scute",
-                        "name": "Armadillo Scute",
-                        "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
-                        "imagePath": "/item/armadillo_scute/latest.png"
+                        "identifier": "shears",
+                        "name": "Shears",
+                        "wiki": "https://minecraft.wiki/w/Shears",
+                        "imagePath": "/item/shears/latest.png"
                     }
                 },
-                "name": "Isn't It Scute?",
-                "identifier": "adventure/brush_armadillo"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Good_as_New",
-                "meta": {
-                    "icon": {
-                        "identifier": "wolf_armor",
-                        "name": "Wolf Armor",
-                        "wiki": "https://minecraft.wiki/w/Wolf_Armor",
-                        "imagePath": "/item/wolf_armor/latest.png"
-                    }
-                },
-                "name": "Good as New",
-                "identifier": "husbandry/repair_wolf_armor"
+                "name": "Shear Brilliance",
+                "identifier": "husbandry/remove_wolf_armor"
             },
             {
                 "types": [],
@@ -90,68 +76,34 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Shear_Brilliance",
+                "wiki": "https://minecraft.wiki/w/Advancement#Good_as_New",
                 "meta": {
                     "icon": {
-                        "identifier": "shears",
-                        "name": "Shears",
-                        "wiki": "https://minecraft.wiki/w/Shears",
-                        "imagePath": "/item/shears/latest.png"
+                        "identifier": "wolf_armor",
+                        "name": "Wolf Armor",
+                        "wiki": "https://minecraft.wiki/w/Wolf_Armor",
+                        "imagePath": "/item/wolf_armor/latest.png"
                     }
                 },
-                "name": "Shear Brilliance",
-                "identifier": "husbandry/remove_wolf_armor"
+                "name": "Good as New",
+                "identifier": "husbandry/repair_wolf_armor"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Isn't_It_Scute?",
+                "meta": {
+                    "icon": {
+                        "identifier": "armadillo_scute",
+                        "name": "Armadillo Scute",
+                        "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
+                        "imagePath": "/item/armadillo_scute/latest.png"
+                    }
+                },
+                "name": "Isn't It Scute?",
+                "identifier": "adventure/brush_armadillo"
             }
         ],
         "mob_variants": [
-            {
-                "types": [
-                    "mobs/neutral"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wolf#Ashen",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "wolf_spawn_egg",
-                        "name": "Wolf Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/wolf_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "wolf",
-                        "name": "Wolf",
-                        "wiki": "https://minecraft.wiki/w/Wolf",
-                        "health": 8,
-                        "imagePath": "/mob/wolf/latest.png"
-                    }
-                },
-                "name": "Ashen Wolf",
-                "identifier": "ashen_wolf",
-                "imagePath": "/mob_variant/ashen_wolf/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/neutral"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wolf#Black",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "wolf_spawn_egg",
-                        "name": "Wolf Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/wolf_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "wolf",
-                        "name": "Wolf",
-                        "wiki": "https://minecraft.wiki/w/Wolf",
-                        "health": 8,
-                        "imagePath": "/mob/wolf/latest.png"
-                    }
-                },
-                "name": "Black Wolf",
-                "identifier": "black_wolf",
-                "imagePath": "/mob_variant/black_wolf/latest.png"
-            },
             {
                 "types": [
                     "mobs/neutral"
@@ -175,30 +127,6 @@
                 "name": "Chestnut Wolf",
                 "identifier": "chestnut_wolf",
                 "imagePath": "/mob_variant/chestnut_wolf/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/neutral"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wolf#Rusty",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "wolf_spawn_egg",
-                        "name": "Wolf Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/wolf_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "wolf",
-                        "name": "Wolf",
-                        "wiki": "https://minecraft.wiki/w/Wolf",
-                        "health": 8,
-                        "imagePath": "/mob/wolf/latest.png"
-                    }
-                },
-                "name": "Rusty Wolf",
-                "identifier": "rusty_wolf",
-                "imagePath": "/mob_variant/rusty_wolf/latest.png"
             },
             {
                 "types": [
@@ -252,7 +180,7 @@
                 "types": [
                     "mobs/neutral"
                 ],
-                "wiki": "https://minecraft.wiki/w/Wolf#Stripped",
+                "wiki": "https://minecraft.wiki/w/Wolf#Black",
                 "meta": {
                     "spawn_egg": {
                         "identifier": "wolf_spawn_egg",
@@ -268,9 +196,9 @@
                         "imagePath": "/mob/wolf/latest.png"
                     }
                 },
-                "name": "Stripped Wolf",
-                "identifier": "stripped_wolf",
-                "imagePath": "/mob_variant/stripped_wolf/latest.png"
+                "name": "Black Wolf",
+                "identifier": "black_wolf",
+                "imagePath": "/mob_variant/black_wolf/latest.png"
             },
             {
                 "types": [
@@ -295,6 +223,78 @@
                 "name": "Woods Wolf",
                 "identifier": "woods_wolf",
                 "imagePath": "/mob_variant/woods_wolf/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/neutral"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wolf#Rusty",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "wolf_spawn_egg",
+                        "name": "Wolf Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wolf_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "wolf",
+                        "name": "Wolf",
+                        "wiki": "https://minecraft.wiki/w/Wolf",
+                        "health": 8,
+                        "imagePath": "/mob/wolf/latest.png"
+                    }
+                },
+                "name": "Rusty Wolf",
+                "identifier": "rusty_wolf",
+                "imagePath": "/mob_variant/rusty_wolf/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/neutral"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wolf#Ashen",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "wolf_spawn_egg",
+                        "name": "Wolf Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wolf_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "wolf",
+                        "name": "Wolf",
+                        "wiki": "https://minecraft.wiki/w/Wolf",
+                        "health": 8,
+                        "imagePath": "/mob/wolf/latest.png"
+                    }
+                },
+                "name": "Ashen Wolf",
+                "identifier": "ashen_wolf",
+                "imagePath": "/mob_variant/ashen_wolf/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/neutral"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wolf#Stripped",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "wolf_spawn_egg",
+                        "name": "Wolf Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/wolf_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "wolf",
+                        "name": "Wolf",
+                        "wiki": "https://minecraft.wiki/w/Wolf",
+                        "health": 8,
+                        "imagePath": "/mob/wolf/latest.png"
+                    }
+                },
+                "name": "Stripped Wolf",
+                "identifier": "stripped_wolf",
+                "imagePath": "/mob_variant/stripped_wolf/latest.png"
             }
         ]
     },

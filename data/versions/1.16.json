@@ -13,34 +13,6 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "logs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Log#Warped",
-                "name": "Warped Stem",
-                "identifier": "warped_stem",
-                "imagePath": "/block/warped_stem/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Crimson Stem",
-                "identifier": "stripped_crimson_stem",
-                "imagePath": "/block/stripped_crimson_stem/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Warped Stem",
-                "identifier": "stripped_warped_stem",
-                "imagePath": "/block/stripped_warped_stem/latest.png"
-            },
-            {
-                "types": [
                     "woodset/crimson",
                     "woods"
                 ],
@@ -51,13 +23,12 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "woods"
+                    "woodset/crimson",
+                    "stripped_logs"
                 ],
-                "wiki": "https://minecraft.wiki/w/Wood#Warped",
-                "name": "Warped Hyphae",
-                "identifier": "warped_hyphae",
-                "imagePath": "/block/warped_hyphae/latest.png"
+                "name": "Stripped Crimson Stem",
+                "identifier": "stripped_crimson_stem",
+                "imagePath": "/block/stripped_crimson_stem/latest.png"
             },
             {
                 "types": [
@@ -71,16 +42,6 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "stripped_woods"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped",
-                "name": "Stripped Warped Hyphae",
-                "identifier": "stripped_warped_hyphae",
-                "imagePath": "/block/stripped_warped_hyphae/latest.png"
-            },
-            {
-                "types": [
                     "woodset/crimson",
                     "planks"
                 ],
@@ -88,16 +49,6 @@
                 "name": "Crimson Planks",
                 "identifier": "crimson_planks",
                 "imagePath": "/block/crimson_planks/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "planks"
-                ],
-                "wiki": "https://minecraft.wiki/w/Planks#Warped",
-                "name": "Warped Planks",
-                "identifier": "warped_planks",
-                "imagePath": "/block/warped_planks/latest.png"
             },
             {
                 "types": [
@@ -111,16 +62,6 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped",
-                "name": "Warped Stairs",
-                "identifier": "warped_stairs",
-                "imagePath": "/block/warped_stairs/latest.png"
-            },
-            {
-                "types": [
                     "woodset/crimson",
                     "slabs"
                 ],
@@ -131,6 +72,125 @@
             },
             {
                 "types": [
+                    "woodset/crimson",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson",
+                "name": "Crimson Fence",
+                "identifier": "crimson_fence",
+                "imagePath": "/block/crimson_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/crimson",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson",
+                "name": "Crimson Fence Gate",
+                "identifier": "crimson_fence_gate",
+                "imagePath": "/block/crimson_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/crimson",
+                    "doors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson",
+                "name": "Crimson Door",
+                "identifier": "crimson_door",
+                "imagePath": "/block/crimson_door/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/crimson",
+                    "trapdoors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson",
+                "name": "Crimson Trapdoor",
+                "identifier": "crimson_trapdoor",
+                "imagePath": "/block/crimson_trapdoor/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/crimson",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson",
+                "name": "Crimson Pressure Plate",
+                "identifier": "crimson_pressure_plate",
+                "imagePath": "/block/crimson_pressure_plate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/crimson",
+                    "buttons"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson",
+                "name": "Crimson Button",
+                "identifier": "crimson_button",
+                "imagePath": "/block/crimson_button/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "logs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Log#Warped",
+                "name": "Warped Stem",
+                "identifier": "warped_stem",
+                "imagePath": "/block/warped_stem/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wood#Warped",
+                "name": "Warped Hyphae",
+                "identifier": "warped_hyphae",
+                "imagePath": "/block/warped_hyphae/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "stripped_logs"
+                ],
+                "name": "Stripped Warped Stem",
+                "identifier": "stripped_warped_stem",
+                "imagePath": "/block/stripped_warped_stem/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "stripped_woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped",
+                "name": "Stripped Warped Hyphae",
+                "identifier": "stripped_warped_hyphae",
+                "imagePath": "/block/stripped_warped_hyphae/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "planks"
+                ],
+                "wiki": "https://minecraft.wiki/w/Planks#Warped",
+                "name": "Warped Planks",
+                "identifier": "warped_planks",
+                "imagePath": "/block/warped_planks/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped",
+                "name": "Warped Stairs",
+                "identifier": "warped_stairs",
+                "imagePath": "/block/warped_stairs/latest.png"
+            },
+            {
+                "types": [
                     "woodset/warped",
                     "slabs"
                 ],
@@ -138,6 +198,383 @@
                 "name": "Warped Slab",
                 "identifier": "warped_slab",
                 "imagePath": "/block/warped_slab/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "fences"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped",
+                "name": "Warped Fence",
+                "identifier": "warped_fence",
+                "imagePath": "/block/warped_fence/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "gates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped",
+                "name": "Warped Fence Gate",
+                "identifier": "warped_fence_gate",
+                "imagePath": "/block/warped_fence_gate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "doors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped",
+                "name": "Warped Door",
+                "identifier": "warped_door",
+                "imagePath": "/block/warped_door/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "trapdoors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped",
+                "name": "Warped Trapdoor",
+                "identifier": "warped_trapdoor",
+                "imagePath": "/block/warped_trapdoor/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped",
+                "name": "Warped Pressure Plate",
+                "identifier": "warped_pressure_plate",
+                "imagePath": "/block/warped_pressure_plate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/warped",
+                    "buttons"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
+                "name": "Warped Button",
+                "identifier": "warped_button",
+                "imagePath": "/block/warped_button/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cracked_Nether_Bricks",
+                "name": "Cracked Nether Bricks",
+                "identifier": "cracked_nether_bricks",
+                "imagePath": "/block/cracked_nether_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Nether_Bricks",
+                "name": "Chiseled Nether Bricks",
+                "identifier": "chiseled_nether_bricks",
+                "imagePath": "/block/chiseled_nether_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Basalt",
+                "name": "Basalt",
+                "identifier": "basalt",
+                "imagePath": "/block/basalt/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Basalt",
+                "name": "Polished Basalt",
+                "identifier": "polished_basalt",
+                "imagePath": "/block/polished_basalt/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blackstone",
+                "name": "Blackstone",
+                "identifier": "blackstone",
+                "imagePath": "/block/blackstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Gilded_Blackstone",
+                "name": "Gilded Blackstone",
+                "identifier": "gilded_blackstone",
+                "imagePath": "/block/gilded_blackstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blackstone_Stairs",
+                "name": "Blackstone Stairs",
+                "identifier": "blackstone_stairs",
+                "imagePath": "/block/blackstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blackstone_Slab",
+                "name": "Blackstone Slab",
+                "identifier": "blackstone_slab",
+                "imagePath": "/block/blackstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blackstone_Wall",
+                "name": "Blackstone Wall",
+                "identifier": "blackstone_wall",
+                "imagePath": "/block/blackstone_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Polished_Blackstone",
+                "name": "Chiseled Polished Blackstone",
+                "identifier": "chiseled_polished_blackstone",
+                "imagePath": "/block/chiseled_polished_blackstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone",
+                "name": "Polished Blackstone",
+                "identifier": "polished_blackstone",
+                "imagePath": "/block/polished_blackstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Stairs",
+                "name": "Polished Blackstone Stairs",
+                "identifier": "polished_blackstone_stairs",
+                "imagePath": "/block/polished_blackstone_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Slab",
+                "name": "Polished Blackstone Slab",
+                "identifier": "polished_blackstone_slab",
+                "imagePath": "/block/polished_blackstone_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Wall",
+                "name": "Polished Blackstone Wall",
+                "identifier": "polished_blackstone_wall",
+                "imagePath": "/block/polished_blackstone_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Pressure_Plate",
+                "name": "Polished Blackstone Pressure Plate",
+                "identifier": "polished_blackstone_pressure_plate",
+                "imagePath": "/block/polished_blackstone_pressure_plate/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Button",
+                "name": "Polished Blackstone Button",
+                "identifier": "polished_blackstone_button",
+                "imagePath": "/block/polished_blackstone_button/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Bricks",
+                "name": "Polished Blackstone Bricks",
+                "identifier": "polished_blackstone_bricks",
+                "imagePath": "/block/polished_blackstone_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Cracked_Polished_Blackstone_Bricks",
+                "name": "Cracked Polished Blackstone Bricks",
+                "identifier": "cracked_polished_blackstone_bricks",
+                "imagePath": "/block/cracked_polished_blackstone_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Stairs",
+                "name": "Polished Blackstone Brick Stairs",
+                "identifier": "polished_blackstone_brick_stairs",
+                "imagePath": "/block/polished_blackstone_brick_stairs/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Slab",
+                "name": "Polished Blackstone Brick Slab",
+                "identifier": "polished_blackstone_brick_slab",
+                "imagePath": "/block/polished_blackstone_brick_slab/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Wall",
+                "name": "Polished Blackstone Brick Wall",
+                "identifier": "polished_blackstone_brick_wall",
+                "imagePath": "/block/polished_blackstone_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Chain",
+                "name": "Iron Chain",
+                "identifier": "iron_chain",
+                "imagePath": "/block/iron_chain/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Netherite",
+                "name": "Block of Netherite",
+                "identifier": "netherite_block",
+                "imagePath": "/block/netherite_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Quartz_Bricks",
+                "name": "Quartz Bricks",
+                "identifier": "quartz_bricks",
+                "imagePath": "/block/quartz_bricks/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Crying_Obsidian",
+                "name": "Crying Obsidian",
+                "identifier": "crying_obsidian",
+                "imagePath": "/block/crying_obsidian/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Crimson_Nylium",
+                "name": "Crimson Nylium",
+                "identifier": "crimson_nylium",
+                "imagePath": "/block/crimson_nylium/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Warped_Nylium",
+                "name": "Warped Nylium",
+                "identifier": "warped_nylium",
+                "imagePath": "/block/warped_nylium/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Soul_Soil",
+                "name": "Soul Soil",
+                "identifier": "soul_soil",
+                "imagePath": "/block/soul_soil/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Nether_Gold_Ore",
+                "name": "Nether Gold Ore",
+                "identifier": "nether_gold_ore",
+                "imagePath": "/block/nether_gold_ore/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ancient_Debris",
+                "name": "Ancient Debris",
+                "identifier": "ancient_debris",
+                "imagePath": "/block/ancient_debris/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Warped_Wart_Block",
+                "name": "Warped Wart Block",
+                "identifier": "warped_wart_block",
+                "imagePath": "/block/warped_wart_block/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Shroomlight",
+                "name": "Shroomlight",
+                "identifier": "shroomlight",
+                "imagePath": "/block/shroomlight/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Crimson_Fungus",
+                "name": "Crimson Fungus",
+                "identifier": "crimson_fungus",
+                "imagePath": "/block/crimson_fungus/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Warped_Fungus",
+                "name": "Warped Fungus",
+                "identifier": "warped_fungus",
+                "imagePath": "/block/warped_fungus/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Crimson_Roots",
+                "name": "Crimson Roots",
+                "identifier": "crimson_roots",
+                "imagePath": "/block/crimson_roots/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Warped_Roots",
+                "name": "Warped Roots",
+                "identifier": "warped_roots",
+                "imagePath": "/block/warped_roots/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Nether_Sprouts",
+                "name": "Nether Sprouts",
+                "identifier": "nether_sprouts",
+                "imagePath": "/block/nether_sprouts/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Weeping_Vines",
+                "name": "Weeping Vines",
+                "identifier": "weeping_vines",
+                "imagePath": "/block/weeping_vines/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Twisting_Vines",
+                "name": "Twisting Vines",
+                "identifier": "twisting_vines",
+                "imagePath": "/block/twisting_vines/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Soul_Torch",
+                "name": "Soul Torch",
+                "identifier": "soul_torch",
+                "imagePath": "/block/soul_torch/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Soul_Lantern",
+                "name": "Soul Lantern",
+                "identifier": "soul_lantern",
+                "imagePath": "/block/soul_lantern/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Soul_Campfire",
+                "name": "Soul Campfire",
+                "identifier": "soul_campfire",
+                "imagePath": "/block/soul_campfire/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Lodestone",
+                "name": "Lodestone",
+                "identifier": "lodestone",
+                "imagePath": "/block/lodestone/latest.png"
             },
             {
                 "types": [
@@ -160,289 +597,6 @@
                 "imagePath": "/block/warped_sign/latest.png"
             },
             {
-                "types": [
-                    "woodset/crimson",
-                    "buttons"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson",
-                "name": "Crimson Button",
-                "identifier": "crimson_button",
-                "imagePath": "/block/crimson_button/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "buttons"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
-                "name": "Warped Button",
-                "identifier": "warped_button",
-                "imagePath": "/block/warped_button/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson",
-                "name": "Crimson Pressure Plate",
-                "identifier": "crimson_pressure_plate",
-                "imagePath": "/block/crimson_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped",
-                "name": "Warped Pressure Plate",
-                "identifier": "warped_pressure_plate",
-                "imagePath": "/block/warped_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson",
-                "name": "Crimson Trapdoor",
-                "identifier": "crimson_trapdoor",
-                "imagePath": "/block/crimson_trapdoor/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped",
-                "name": "Warped Trapdoor",
-                "identifier": "warped_trapdoor",
-                "imagePath": "/block/warped_trapdoor/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "doors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson",
-                "name": "Crimson Door",
-                "identifier": "crimson_door",
-                "imagePath": "/block/crimson_door/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "doors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped",
-                "name": "Warped Door",
-                "identifier": "warped_door",
-                "imagePath": "/block/warped_door/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson",
-                "name": "Crimson Fence",
-                "identifier": "crimson_fence",
-                "imagePath": "/block/crimson_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "fences"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped",
-                "name": "Warped Fence",
-                "identifier": "warped_fence",
-                "imagePath": "/block/warped_fence/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/crimson",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson",
-                "name": "Crimson Fence Gate",
-                "identifier": "crimson_fence_gate",
-                "imagePath": "/block/crimson_fence_gate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/warped",
-                    "gates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped",
-                "name": "Warped Fence Gate",
-                "identifier": "warped_fence_gate",
-                "imagePath": "/block/warped_fence_gate/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Ancient_Debris",
-                "name": "Ancient Debris",
-                "identifier": "ancient_debris",
-                "imagePath": "/block/ancient_debris/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Netherite",
-                "name": "Block of Netherite",
-                "identifier": "netherite_block",
-                "imagePath": "/block/netherite_block/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Crimson_Fungus",
-                "name": "Crimson Fungus",
-                "identifier": "crimson_fungus",
-                "imagePath": "/block/crimson_fungus/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Crimson_Nylium",
-                "name": "Crimson Nylium",
-                "identifier": "crimson_nylium",
-                "imagePath": "/block/crimson_nylium/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Crimson_Roots",
-                "name": "Crimson Roots",
-                "identifier": "crimson_roots",
-                "imagePath": "/block/crimson_roots/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Weeping_Vines",
-                "name": "Weeping Vines",
-                "identifier": "weeping_vines",
-                "imagePath": "/block/weeping_vines/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Warped_Fungus",
-                "name": "Warped Fungus",
-                "identifier": "warped_fungus",
-                "imagePath": "/block/warped_fungus/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Warped_Nylium",
-                "name": "Warped Nylium",
-                "identifier": "warped_nylium",
-                "imagePath": "/block/warped_nylium/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Warped_Roots",
-                "name": "Warped Roots",
-                "identifier": "warped_roots",
-                "imagePath": "/block/warped_roots/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Warped_Wart_Block",
-                "name": "Warped Wart Block",
-                "identifier": "warped_wart_block",
-                "imagePath": "/block/warped_wart_block/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Nether_Sprouts",
-                "name": "Nether Sprouts",
-                "identifier": "nether_sprouts",
-                "imagePath": "/block/nether_sprouts/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Shroomlight",
-                "name": "Shroomlight",
-                "identifier": "shroomlight",
-                "imagePath": "/block/shroomlight/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Basalt",
-                "name": "Basalt",
-                "identifier": "basalt",
-                "imagePath": "/block/basalt/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Soul_Soil",
-                "name": "Soul Soil",
-                "identifier": "soul_soil",
-                "imagePath": "/block/soul_soil/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Soul_Lantern",
-                "name": "Soul Lantern",
-                "identifier": "soul_lantern",
-                "imagePath": "/block/soul_lantern/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Soul_Torch",
-                "name": "Soul Torch",
-                "identifier": "soul_torch",
-                "imagePath": "/block/soul_torch/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Crying_Obsidian",
-                "name": "Crying Obsidian",
-                "identifier": "crying_obsidian",
-                "imagePath": "/block/crying_obsidian/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Target",
-                "name": "Target",
-                "identifier": "target",
-                "imagePath": "/block/target/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Nether_Gold_Ore",
-                "name": "Nether Gold Ore",
-                "identifier": "nether_gold_ore",
-                "imagePath": "/block/nether_gold_ore/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation"
-                ],
-                "wiki": "https://minecraft.wiki/w/Twisting_Vines",
-                "name": "Twisting Vines",
-                "identifier": "twisting_vines",
-                "imagePath": "/block/twisting_vines/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Basalt",
-                "name": "Polished Basalt",
-                "identifier": "polished_basalt",
-                "imagePath": "/block/polished_basalt/latest.png"
-            },
-            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
                 "name": "Respawn Anchor",
@@ -451,175 +605,47 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Lodestone",
-                "name": "Lodestone",
-                "identifier": "lodestone",
-                "imagePath": "/block/lodestone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Nether_Bricks",
-                "name": "Chiseled Nether Bricks",
-                "identifier": "chiseled_nether_bricks",
-                "imagePath": "/block/chiseled_nether_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cracked_Nether_Bricks",
-                "name": "Cracked Nether Bricks",
-                "identifier": "cracked_nether_bricks",
-                "imagePath": "/block/cracked_nether_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Quartz_Bricks",
-                "name": "Quartz Bricks",
-                "identifier": "quartz_bricks",
-                "imagePath": "/block/quartz_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Soul_Campfire",
-                "name": "Soul Campfire",
-                "identifier": "soul_campfire",
-                "imagePath": "/block/soul_campfire/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chain",
-                "name": "Iron Chain",
-                "identifier": "iron_chain",
-                "imagePath": "/block/iron_chain/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blackstone",
-                "name": "Blackstone",
-                "identifier": "blackstone",
-                "imagePath": "/block/blackstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone",
-                "name": "Polished Blackstone",
-                "identifier": "polished_blackstone",
-                "imagePath": "/block/polished_blackstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Polished_Blackstone",
-                "name": "Chiseled Polished Blackstone",
-                "identifier": "chiseled_polished_blackstone",
-                "imagePath": "/block/chiseled_polished_blackstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Bricks",
-                "name": "Polished Blackstone Bricks",
-                "identifier": "polished_blackstone_bricks",
-                "imagePath": "/block/polished_blackstone_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cracked_Polished_Blackstone_Bricks",
-                "name": "Cracked Polished Blackstone Bricks",
-                "identifier": "cracked_polished_blackstone_bricks",
-                "imagePath": "/block/cracked_polished_blackstone_bricks/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Gilded_Blackstone",
-                "name": "Gilded Blackstone",
-                "identifier": "gilded_blackstone",
-                "imagePath": "/block/gilded_blackstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blackstone_Slab",
-                "name": "Blackstone Slab",
-                "identifier": "blackstone_slab",
-                "imagePath": "/block/blackstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blackstone_Stairs",
-                "name": "Blackstone Stairs",
-                "identifier": "blackstone_stairs",
-                "imagePath": "/block/blackstone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blackstone_Wall",
-                "name": "Blackstone Wall",
-                "identifier": "blackstone_wall",
-                "imagePath": "/block/blackstone_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Slab",
-                "name": "Polished Blackstone Slab",
-                "identifier": "polished_blackstone_slab",
-                "imagePath": "/block/polished_blackstone_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Stairs",
-                "name": "Polished Blackstone Stairs",
-                "identifier": "polished_blackstone_stairs",
-                "imagePath": "/block/polished_blackstone_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Wall",
-                "name": "Polished Blackstone Wall",
-                "identifier": "polished_blackstone_wall",
-                "imagePath": "/block/polished_blackstone_wall/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Button",
-                "name": "Polished Blackstone Button",
-                "identifier": "polished_blackstone_button",
-                "imagePath": "/block/polished_blackstone_button/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Pressure_Plate",
-                "name": "Polished Blackstone Pressure Plate",
-                "identifier": "polished_blackstone_pressure_plate",
-                "imagePath": "/block/polished_blackstone_pressure_plate/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Slab",
-                "name": "Polished Blackstone Brick Slab",
-                "identifier": "polished_blackstone_brick_slab",
-                "imagePath": "/block/polished_blackstone_brick_slab/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Stairs",
-                "name": "Polished Blackstone Brick Stairs",
-                "identifier": "polished_blackstone_brick_stairs",
-                "imagePath": "/block/polished_blackstone_brick_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Wall",
-                "name": "Polished Blackstone Brick Wall",
-                "identifier": "polished_blackstone_brick_wall",
-                "imagePath": "/block/polished_blackstone_brick_wall/latest.png"
+                "wiki": "https://minecraft.wiki/w/Target",
+                "name": "Target",
+                "identifier": "target",
+                "imagePath": "/block/target/latest.png"
             }
         ],
         "items": [
             {
-                "types": [
-                    "banner_pattern"
-                ],
-                "wiki": "https://minecraft.wiki/w/Snout_Banner_Pattern",
-                "name": "Snout Banner Pattern",
-                "identifier": "piglin_banner_pattern",
-                "imagePath": "/item/piglin_banner_pattern/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Shovel",
+                "name": "Netherite Shovel",
+                "identifier": "netherite_shovel",
+                "imagePath": "/item/netherite_shovel/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe",
+                "name": "Netherite Pickaxe",
+                "identifier": "netherite_pickaxe",
+                "imagePath": "/item/netherite_pickaxe/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Axe",
+                "name": "Netherite Axe",
+                "identifier": "netherite_axe",
+                "imagePath": "/item/netherite_axe/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Hoe",
+                "name": "Netherite Hoe",
+                "identifier": "netherite_hoe",
+                "imagePath": "/item/netherite_hoe/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
+                "name": "Warped Fungus on a Stick",
+                "identifier": "warped_fungus_on_a_stick",
+                "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
             },
             {
                 "types": [
@@ -632,17 +658,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Scrap",
-                "name": "Netherite Scrap",
-                "identifier": "netherite_scrap",
-                "imagePath": "/item/netherite_scrap/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Ingot",
-                "name": "Netherite Ingot",
-                "identifier": "netherite_ingot",
-                "imagePath": "/item/netherite_ingot/latest.png"
+                "wiki": "https://minecraft.wiki/w/Netherite_Sword",
+                "name": "Netherite Sword",
+                "identifier": "netherite_sword",
+                "imagePath": "/item/netherite_sword/latest.png"
             },
             {
                 "types": [],
@@ -674,54 +693,26 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Sword",
-                "name": "Netherite Sword",
-                "identifier": "netherite_sword",
-                "imagePath": "/item/netherite_sword/latest.png"
+                "wiki": "https://minecraft.wiki/w/Netherite_Scrap",
+                "name": "Netherite Scrap",
+                "identifier": "netherite_scrap",
+                "imagePath": "/item/netherite_scrap/latest.png"
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe",
-                "name": "Netherite Pickaxe",
-                "identifier": "netherite_pickaxe",
-                "imagePath": "/item/netherite_pickaxe/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Axe",
-                "name": "Netherite Axe",
-                "identifier": "netherite_axe",
-                "imagePath": "/item/netherite_axe/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Shovel",
-                "name": "Netherite Shovel",
-                "identifier": "netherite_shovel",
-                "imagePath": "/item/netherite_shovel/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Hoe",
-                "name": "Netherite Hoe",
-                "identifier": "netherite_hoe",
-                "imagePath": "/item/netherite_hoe/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
-                "name": "Warped Fungus on a Stick",
-                "identifier": "warped_fungus_on_a_stick",
-                "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
+                "wiki": "https://minecraft.wiki/w/Netherite_Ingot",
+                "name": "Netherite Ingot",
+                "identifier": "netherite_ingot",
+                "imagePath": "/item/netherite_ingot/latest.png"
             },
             {
                 "types": [
-                    "enchantments"
+                    "banner_pattern"
                 ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Soul Speed I-III",
-                "identifier": "soul_speed_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
+                "wiki": "https://minecraft.wiki/w/Snout_Banner_Pattern",
+                "name": "Snout Banner Pattern",
+                "identifier": "piglin_banner_pattern",
+                "imagePath": "/item/piglin_banner_pattern/latest.png"
             },
             {
                 "types": [
@@ -731,15 +722,6 @@
                 "name": "Hoglin Spawn Egg",
                 "identifier": "hoglin_spawn_egg",
                 "imagePath": "/item/hoglin_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Zoglin Spawn Egg",
-                "identifier": "zoglin_spawn_egg",
-                "imagePath": "/item/zoglin_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -758,26 +740,44 @@
                 "name": "Strider Spawn Egg",
                 "identifier": "strider_spawn_egg",
                 "imagePath": "/item/strider_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Zoglin Spawn Egg",
+                "identifier": "zoglin_spawn_egg",
+                "imagePath": "/item/zoglin_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Soul Speed I-III",
+                "identifier": "soul_speed_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mobs/hostile"
                 ],
-                "wiki": "https://minecraft.wiki/w/Strider",
+                "wiki": "https://minecraft.wiki/w/Zoglin",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "strider_spawn_egg",
-                        "name": "Strider Spawn Egg",
+                        "identifier": "zoglin_spawn_egg",
+                        "name": "Zoglin Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/strider_spawn_egg/latest.png"
+                        "imagePath": "/item/zoglin_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 40
                 },
-                "name": "Strider",
-                "identifier": "strider",
-                "imagePath": "/mob/strider/latest.png"
+                "name": "Zoglin",
+                "identifier": "zoglin",
+                "imagePath": "/mob/zoglin/latest.png"
             },
             {
                 "types": [
@@ -817,21 +817,21 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mobs/passive"
                 ],
-                "wiki": "https://minecraft.wiki/w/Zoglin",
+                "wiki": "https://minecraft.wiki/w/Strider",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "zoglin_spawn_egg",
-                        "name": "Zoglin Spawn Egg",
+                        "identifier": "strider_spawn_egg",
+                        "name": "Strider Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/zoglin_spawn_egg/latest.png"
+                        "imagePath": "/item/strider_spawn_egg/latest.png"
                     },
-                    "health": 40
+                    "health": 20
                 },
-                "name": "Zoglin",
-                "identifier": "zoglin",
-                "imagePath": "/mob/zoglin/latest.png"
+                "name": "Strider",
+                "identifier": "strider",
+                "imagePath": "/mob/strider/latest.png"
             }
         ],
         "enchantments": [
@@ -845,6 +845,132 @@
             }
         ],
         "advancements": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Oh_Shiny",
+                "meta": {
+                    "icon": {
+                        "identifier": "gold_ingot",
+                        "name": "Gold Ingot",
+                        "wiki": "https://minecraft.wiki/w/Gold_Ingot",
+                        "imagePath": "/item/gold_ingot/latest.png"
+                    }
+                },
+                "name": "Oh Shiny",
+                "identifier": "nether/distract_piglin"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Who_is_Cutting_Onions?",
+                "meta": {
+                    "icon": {
+                        "identifier": "crying_obsidian",
+                        "name": "Crying Obsidian",
+                        "wiki": "https://minecraft.wiki/w/Crying_Obsidian",
+                        "imagePath": "/block/crying_obsidian/latest.png"
+                    }
+                },
+                "name": "Who is Cutting Onions?",
+                "identifier": "nether/obtain_crying_obsidian"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#This_Boat_Has_Legs",
+                "meta": {
+                    "icon": {
+                        "identifier": "warped_fungus_on_a_stick",
+                        "name": "Warped Fungus on a Stick",
+                        "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
+                        "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
+                    }
+                },
+                "name": "This Boat Has Legs",
+                "identifier": "nether/ride_strider"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Hot_Tourist_Destinations",
+                "meta": {
+                    "icon": {
+                        "identifier": "netherite_boots",
+                        "name": "Netherite Boots",
+                        "wiki": "https://minecraft.wiki/w/Netherite_Boots",
+                        "imagePath": "/item/netherite_boots/latest.png"
+                    }
+                },
+                "name": "Hot Tourist Destinations",
+                "identifier": "nether/explore_nether"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Not_Quite_\"Nine\"_Lives",
+                "meta": {
+                    "icon": {
+                        "identifier": "respawn_anchor",
+                        "name": "Respawn Anchor",
+                        "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
+                        "imagePath": "/block/respawn_anchor/latest.png"
+                    }
+                },
+                "name": "Not Quite \"Nine\" Lives",
+                "identifier": "nether/charge_respawn_anchor"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Cover_Me_in_Debris",
+                "meta": {
+                    "icon": {
+                        "identifier": "netherite_chestplate",
+                        "name": "Netherite Chestplate",
+                        "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
+                        "imagePath": "/item/netherite_chestplate/latest.png"
+                    }
+                },
+                "name": "Cover Me in Debris",
+                "identifier": "nether/netherite_armor"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#War_Pigs",
+                "meta": {
+                    "icon": {
+                        "identifier": "chest",
+                        "name": "Chest",
+                        "wiki": "https://minecraft.wiki/w/Chest",
+                        "imagePath": "/block/chest/latest.png"
+                    }
+                },
+                "name": "War Pigs",
+                "identifier": "nether/loot_bastion"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Hidden_in_the_Depths",
+                "meta": {
+                    "icon": {
+                        "identifier": "ancient_debris",
+                        "name": "Ancient Debris",
+                        "wiki": "https://minecraft.wiki/w/Ancient_Debris",
+                        "imagePath": "/block/ancient_debris/latest.png"
+                    }
+                },
+                "name": "Hidden in the Depths",
+                "identifier": "nether/obtain_ancient_debris"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Country_Lode,_Take_Me_Home",
+                "meta": {
+                    "icon": {
+                        "identifier": "lodestone",
+                        "name": "Lodestone",
+                        "wiki": "https://minecraft.wiki/w/Lodestone",
+                        "imagePath": "/block/lodestone/latest.png"
+                    }
+                },
+                "name": "Country Lode, Take Me Home",
+                "identifier": "adventure/use_lodestone"
+            },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Bullseye",
@@ -872,132 +998,6 @@
                 },
                 "name": "Those Were the Days",
                 "identifier": "nether/find_bastion"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Hidden_in_the_Depths",
-                "meta": {
-                    "icon": {
-                        "identifier": "ancient_debris",
-                        "name": "Ancient Debris",
-                        "wiki": "https://minecraft.wiki/w/Ancient_Debris",
-                        "imagePath": "/block/ancient_debris/latest.png"
-                    }
-                },
-                "name": "Hidden in the Depths",
-                "identifier": "nether/obtain_ancient_debris"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Who_is_Cutting_Onions?",
-                "meta": {
-                    "icon": {
-                        "identifier": "crying_obsidian",
-                        "name": "Crying Obsidian",
-                        "wiki": "https://minecraft.wiki/w/Crying_Obsidian",
-                        "imagePath": "/block/crying_obsidian/latest.png"
-                    }
-                },
-                "name": "Who is Cutting Onions?",
-                "identifier": "nether/obtain_crying_obsidian"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Oh_Shiny",
-                "meta": {
-                    "icon": {
-                        "identifier": "gold_ingot",
-                        "name": "Gold Ingot",
-                        "wiki": "https://minecraft.wiki/w/Gold_Ingot",
-                        "imagePath": "/item/gold_ingot/latest.png"
-                    }
-                },
-                "name": "Oh Shiny",
-                "identifier": "nether/distract_piglin"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#This_Boat_Has_Legs",
-                "meta": {
-                    "icon": {
-                        "identifier": "warped_fungus_on_a_stick",
-                        "name": "Warped Fungus on a Stick",
-                        "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
-                        "imagePath": "/item/warped_fungus_on_a_stick/latest.png"
-                    }
-                },
-                "name": "This Boat Has Legs",
-                "identifier": "nether/ride_strider"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#War_Pigs",
-                "meta": {
-                    "icon": {
-                        "identifier": "chest",
-                        "name": "Chest",
-                        "wiki": "https://minecraft.wiki/w/Chest",
-                        "imagePath": "/block/chest/latest.png"
-                    }
-                },
-                "name": "War Pigs",
-                "identifier": "nether/loot_bastion"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Cover_Me_in_Debris",
-                "meta": {
-                    "icon": {
-                        "identifier": "netherite_chestplate",
-                        "name": "Netherite Chestplate",
-                        "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
-                        "imagePath": "/item/netherite_chestplate/latest.png"
-                    }
-                },
-                "name": "Cover Me in Debris",
-                "identifier": "nether/netherite_armor"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Not_Quite_\"Nine\"_Lives",
-                "meta": {
-                    "icon": {
-                        "identifier": "respawn_anchor",
-                        "name": "Respawn Anchor",
-                        "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
-                        "imagePath": "/block/respawn_anchor/latest.png"
-                    }
-                },
-                "name": "Not Quite \"Nine\" Lives",
-                "identifier": "nether/charge_respawn_anchor"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Hot_Tourist_Destinations",
-                "meta": {
-                    "icon": {
-                        "identifier": "netherite_boots",
-                        "name": "Netherite Boots",
-                        "wiki": "https://minecraft.wiki/w/Netherite_Boots",
-                        "imagePath": "/item/netherite_boots/latest.png"
-                    }
-                },
-                "name": "Hot Tourist Destinations",
-                "identifier": "nether/explore_nether"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Country_Lode,_Take_Me_Home",
-                "meta": {
-                    "icon": {
-                        "identifier": "lodestone",
-                        "name": "Lodestone",
-                        "wiki": "https://minecraft.wiki/w/Lodestone",
-                        "imagePath": "/block/lodestone/latest.png"
-                    }
-                },
-                "name": "Country Lode, Take Me Home",
-                "identifier": "adventure/use_lodestone"
             }
         ],
         "biomes": [
@@ -1005,10 +1005,10 @@
                 "types": [
                     "biome/nether"
                 ],
-                "wiki": "https://minecraft.wiki/w/Basalt_Deltas",
-                "name": "Basalt Deltas",
-                "identifier": "basalt_deltas",
-                "imagePath": "/biome/basalt_deltas/latest.png"
+                "wiki": "https://minecraft.wiki/w/Warped_Forest",
+                "name": "Warped Forest",
+                "identifier": "warped_forest",
+                "imagePath": "/biome/warped_forest/latest.png"
             },
             {
                 "types": [
@@ -1023,22 +1023,31 @@
                 "types": [
                     "biome/nether"
                 ],
-                "wiki": "https://minecraft.wiki/w/Crimson_Forest",
-                "name": "Crimson Forest",
-                "identifier": "crimson_forest",
-                "imagePath": "/biome/crimson_forest/latest.png"
+                "wiki": "https://minecraft.wiki/w/Basalt_Deltas",
+                "name": "Basalt Deltas",
+                "identifier": "basalt_deltas",
+                "imagePath": "/biome/basalt_deltas/latest.png"
             },
             {
                 "types": [
                     "biome/nether"
                 ],
-                "wiki": "https://minecraft.wiki/w/Warped_Forest",
-                "name": "Warped Forest",
-                "identifier": "warped_forest",
-                "imagePath": "/biome/warped_forest/latest.png"
+                "wiki": "https://minecraft.wiki/w/Crimson_Forest",
+                "name": "Crimson Forest",
+                "identifier": "crimson_forest",
+                "imagePath": "/biome/crimson_forest/latest.png"
             }
         ],
         "structures": [
+            {
+                "types": [
+                    "structure/nether"
+                ],
+                "wiki": "https://minecraft.wiki/w/Bastion_Remnant",
+                "name": "Bastion Remnant",
+                "identifier": "bastion_remnant",
+                "imagePath": "/structure/bastion_remnant/latest.png"
+            },
             {
                 "types": [
                     "structure/surface",
@@ -1050,15 +1059,6 @@
                 "name": "Ruined Portal",
                 "identifier": "ruined_portal",
                 "imagePath": "/structure/ruined_portal/latest.png"
-            },
-            {
-                "types": [
-                    "structure/nether"
-                ],
-                "wiki": "https://minecraft.wiki/w/Bastion_Remnant",
-                "name": "Bastion Remnant",
-                "identifier": "bastion_remnant",
-                "imagePath": "/structure/bastion_remnant/latest.png"
             }
         ]
     },

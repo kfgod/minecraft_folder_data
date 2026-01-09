@@ -139,31 +139,6 @@
         ],
         "items": [
             {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Curse of Binding",
-                "identifier": "curse_of_binding_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Curse of Vanishing",
-                "identifier": "curse_of_vanishing_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Shulker_Shell",
-                "name": "Shulker Shell",
-                "identifier": "shulker_shell",
-                "imagePath": "/item/shulker_shell/latest.png"
-            },
-            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Totem_of_Undying",
                 "name": "Totem of Undying",
@@ -171,60 +146,11 @@
                 "imagePath": "/item/totem_of_undying/latest.png"
             },
             {
-                "types": [
-                    "maps"
-                ],
-                "image_identifier": "woodland_explorer_map",
-                "wiki": "https://minecraft.wiki/w/Explorer_Map#Woodland_Explorer",
-                "name": "Woodland Explorer Map",
-                "identifier": "woodland_explorer_map",
-                "imagePath": "/item/woodland_explorer_map/latest.png"
-            },
-            {
-                "types": [
-                    "maps"
-                ],
-                "image_identifier": "ocean_explorer_map",
-                "wiki": "https://minecraft.wiki/w/Explorer_Map#Ocean_Explorer",
-                "name": "Ocean Explorer Map",
-                "identifier": "ocean_explorer_map",
-                "imagePath": "/item/ocean_explorer_map/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Wither Skeleton Spawn Egg",
-                "identifier": "wither_skeleton_spawn_egg",
-                "imagePath": "/item/wither_skeleton_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Stray Spawn Egg",
-                "identifier": "stray_spawn_egg",
-                "imagePath": "/item/stray_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Husk Spawn Egg",
-                "identifier": "husk_spawn_egg",
-                "imagePath": "/item/husk_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Elder Guardian Spawn Egg",
-                "identifier": "elder_guardian_spawn_egg",
-                "imagePath": "/item/elder_guardian_spawn_egg/latest.png"
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Shulker_Shell",
+                "name": "Shulker Shell",
+                "identifier": "shulker_shell",
+                "imagePath": "/item/shulker_shell/latest.png"
             },
             {
                 "types": [
@@ -249,9 +175,36 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Llama Spawn Egg",
+                "identifier": "llama_spawn_egg",
+                "imagePath": "/item/llama_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Husk Spawn Egg",
+                "identifier": "husk_spawn_egg",
+                "imagePath": "/item/husk_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Skeleton Horse Spawn Egg",
                 "identifier": "skeleton_horse_spawn_egg",
                 "imagePath": "/item/skeleton_horse_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Stray Spawn Egg",
+                "identifier": "stray_spawn_egg",
+                "imagePath": "/item/stray_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -270,6 +223,15 @@
                 "name": "Zombie Villager Spawn Egg",
                 "identifier": "zombie_villager_spawn_egg",
                 "imagePath": "/item/zombie_villager_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Elder Guardian Spawn Egg",
+                "identifier": "elder_guardian_spawn_egg",
+                "imagePath": "/item/elder_guardian_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -303,28 +265,67 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Llama Spawn Egg",
-                "identifier": "llama_spawn_egg",
-                "imagePath": "/item/llama_spawn_egg/latest.png"
+                "name": "Wither Skeleton Spawn Egg",
+                "identifier": "wither_skeleton_spawn_egg",
+                "imagePath": "/item/wither_skeleton_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Curse of Binding",
+                "identifier": "curse_of_binding_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Curse of Vanishing",
+                "identifier": "curse_of_vanishing_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [
+                    "maps"
+                ],
+                "image_identifier": "ocean_explorer_map",
+                "wiki": "https://minecraft.wiki/w/Explorer_Map#Ocean_Explorer",
+                "name": "Ocean Explorer Map",
+                "identifier": "ocean_explorer_map",
+                "imagePath": "/item/ocean_explorer_map/latest.png"
+            },
+            {
+                "types": [
+                    "maps"
+                ],
+                "image_identifier": "woodland_explorer_map",
+                "wiki": "https://minecraft.wiki/w/Explorer_Map#Woodland_Explorer",
+                "name": "Woodland Explorer Map",
+                "identifier": "woodland_explorer_map",
+                "imagePath": "/item/woodland_explorer_map/latest.png"
             }
         ],
         "mobs": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mobs/hostile"
                 ],
-                "wiki": "https://minecraft.wiki/w/Llama",
+                "wiki": "https://minecraft.wiki/w/Vindicator",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "llama_spawn_egg",
-                        "name": "Llama Spawn Egg",
+                        "identifier": "vindicator_spawn_egg",
+                        "name": "Vindicator Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/llama_spawn_egg/latest.png"
-                    }
+                        "imagePath": "/item/vindicator_spawn_egg/latest.png"
+                    },
+                    "health": 24
                 },
-                "name": "Llama",
-                "identifier": "llama",
-                "imagePath": "/mob/llama/latest.png"
+                "name": "Vindicator",
+                "identifier": "vindicator",
+                "imagePath": "/mob/vindicator/latest.png"
             },
             {
                 "types": [
@@ -364,21 +365,20 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mobs/neutral"
                 ],
-                "wiki": "https://minecraft.wiki/w/Vindicator",
+                "wiki": "https://minecraft.wiki/w/Llama",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "vindicator_spawn_egg",
-                        "name": "Vindicator Spawn Egg",
+                        "identifier": "llama_spawn_egg",
+                        "name": "Llama Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/vindicator_spawn_egg/latest.png"
-                    },
-                    "health": 24
+                        "imagePath": "/item/llama_spawn_egg/latest.png"
+                    }
                 },
-                "name": "Vindicator",
-                "identifier": "vindicator",
-                "imagePath": "/mob/vindicator/latest.png"
+                "name": "Llama",
+                "identifier": "llama",
+                "imagePath": "/mob/llama/latest.png"
             }
         ],
         "enchantments": [
@@ -386,17 +386,17 @@
                 "types": [
                     "enchantments/curse"
                 ],
-                "wiki": "https://minecraft.wiki/w/Curse_of_Binding",
-                "name": "Curse of Binding",
-                "identifier": "binding_curse"
+                "wiki": "https://minecraft.wiki/w/Curse_of_Vanishing",
+                "name": "Curse of Vanishing",
+                "identifier": "vanishing_curse"
             },
             {
                 "types": [
                     "enchantments/curse"
                 ],
-                "wiki": "https://minecraft.wiki/w/Curse_of_Vanishing",
-                "name": "Curse of Vanishing",
-                "identifier": "vanishing_curse"
+                "wiki": "https://minecraft.wiki/w/Curse_of_Binding",
+                "name": "Curse of Binding",
+                "identifier": "binding_curse"
             }
         ],
         "structures": [

@@ -12,17 +12,17 @@
         "items": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Firework_Star",
-                "name": "Firework Star",
-                "identifier": "firework_star",
-                "imagePath": "/item/firework_star/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Firework_Rocket",
                 "name": "Firework Rocket",
                 "identifier": "firework_rocket",
                 "imagePath": "/item/firework_rocket/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Firework_Star",
+                "name": "Firework Star",
+                "identifier": "firework_star",
+                "imagePath": "/item/firework_star/latest.png"
             }
         ],
         "enchantments": [

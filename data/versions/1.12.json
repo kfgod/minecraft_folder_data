@@ -4,138 +4,50 @@
             {
                 "types": [],
                 "color": "white",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#White",
-                "name": "White Glazed Terracotta",
-                "identifier": "white_glazed_terracotta",
-                "imagePath": "/block/white_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "orange",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Orange",
-                "name": "Orange Glazed Terracotta",
-                "identifier": "orange_glazed_terracotta",
-                "imagePath": "/block/orange_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Magenta",
-                "name": "Magenta Glazed Terracotta",
-                "identifier": "magenta_glazed_terracotta",
-                "imagePath": "/block/magenta_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Blue",
-                "name": "Light Blue Glazed Terracotta",
-                "identifier": "light_blue_glazed_terracotta",
-                "imagePath": "/block/light_blue_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "yellow",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Yellow",
-                "name": "Yellow Glazed Terracotta",
-                "identifier": "yellow_glazed_terracotta",
-                "imagePath": "/block/yellow_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "lime",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime",
-                "name": "Lime Glazed Terracotta",
-                "identifier": "lime_glazed_terracotta",
-                "imagePath": "/block/lime_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Pink",
-                "name": "Pink Glazed Terracotta",
-                "identifier": "pink_glazed_terracotta",
-                "imagePath": "/block/pink_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Gray",
-                "name": "Gray Glazed Terracotta",
-                "identifier": "gray_glazed_terracotta",
-                "imagePath": "/block/gray_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Gray",
-                "name": "Light Gray Glazed Terracotta",
-                "identifier": "light_gray_glazed_terracotta",
-                "imagePath": "/block/light_gray_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "cyan",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Cyan",
-                "name": "Cyan Glazed Terracotta",
-                "identifier": "cyan_glazed_terracotta",
-                "imagePath": "/block/cyan_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Purple",
-                "name": "Purple Glazed Terracotta",
-                "identifier": "purple_glazed_terracotta",
-                "imagePath": "/block/purple_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "blue",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Blue",
-                "name": "Blue Glazed Terracotta",
-                "identifier": "blue_glazed_terracotta",
-                "imagePath": "/block/blue_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Brown",
-                "name": "Brown Glazed Terracotta",
-                "identifier": "brown_glazed_terracotta",
-                "imagePath": "/block/brown_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Green",
-                "name": "Green Glazed Terracotta",
-                "identifier": "green_glazed_terracotta",
-                "imagePath": "/block/green_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Red",
-                "name": "Red Glazed Terracotta",
-                "identifier": "red_glazed_terracotta",
-                "imagePath": "/block/red_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Black",
-                "name": "Black Glazed Terracotta",
-                "identifier": "black_glazed_terracotta",
-                "imagePath": "/block/black_glazed_terracotta/latest.png"
-            },
-            {
-                "types": [],
-                "color": "white",
                 "wiki": "https://minecraft.wiki/w/Concrete#White",
                 "name": "White Concrete",
                 "identifier": "white_concrete",
                 "imagePath": "/block/white_concrete/latest.png"
+            },
+            {
+                "types": [],
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Concrete#Light_Gray",
+                "name": "Light Gray Concrete",
+                "identifier": "light_gray_concrete",
+                "imagePath": "/block/light_gray_concrete/latest.png"
+            },
+            {
+                "types": [],
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Concrete#Gray",
+                "name": "Gray Concrete",
+                "identifier": "gray_concrete",
+                "imagePath": "/block/gray_concrete/latest.png"
+            },
+            {
+                "types": [],
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Concrete#Black",
+                "name": "Black Concrete",
+                "identifier": "black_concrete",
+                "imagePath": "/block/black_concrete/latest.png"
+            },
+            {
+                "types": [],
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Concrete#Brown",
+                "name": "Brown Concrete",
+                "identifier": "brown_concrete",
+                "imagePath": "/block/brown_concrete/latest.png"
+            },
+            {
+                "types": [],
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Concrete#Red",
+                "name": "Red Concrete",
+                "identifier": "red_concrete",
+                "imagePath": "/block/red_concrete/latest.png"
             },
             {
                 "types": [],
@@ -144,22 +56,6 @@
                 "name": "Orange Concrete",
                 "identifier": "orange_concrete",
                 "imagePath": "/block/orange_concrete/latest.png"
-            },
-            {
-                "types": [],
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Concrete#Magenta",
-                "name": "Magenta Concrete",
-                "identifier": "magenta_concrete",
-                "imagePath": "/block/magenta_concrete/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Concrete#Light_Blue",
-                "name": "Light Blue Concrete",
-                "identifier": "light_blue_concrete",
-                "imagePath": "/block/light_blue_concrete/latest.png"
             },
             {
                 "types": [],
@@ -179,27 +75,11 @@
             },
             {
                 "types": [],
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Concrete#Pink",
-                "name": "Pink Concrete",
-                "identifier": "pink_concrete",
-                "imagePath": "/block/pink_concrete/latest.png"
-            },
-            {
-                "types": [],
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Concrete#Gray",
-                "name": "Gray Concrete",
-                "identifier": "gray_concrete",
-                "imagePath": "/block/gray_concrete/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Concrete#Light_Gray",
-                "name": "Light Gray Concrete",
-                "identifier": "light_gray_concrete",
-                "imagePath": "/block/light_gray_concrete/latest.png"
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Concrete#Green",
+                "name": "Green Concrete",
+                "identifier": "green_concrete",
+                "imagePath": "/block/green_concrete/latest.png"
             },
             {
                 "types": [],
@@ -211,11 +91,11 @@
             },
             {
                 "types": [],
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Concrete#Purple",
-                "name": "Purple Concrete",
-                "identifier": "purple_concrete",
-                "imagePath": "/block/purple_concrete/latest.png"
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Concrete#Light_Blue",
+                "name": "Light Blue Concrete",
+                "identifier": "light_blue_concrete",
+                "imagePath": "/block/light_blue_concrete/latest.png"
             },
             {
                 "types": [],
@@ -227,35 +107,27 @@
             },
             {
                 "types": [],
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Concrete#Brown",
-                "name": "Brown Concrete",
-                "identifier": "brown_concrete",
-                "imagePath": "/block/brown_concrete/latest.png"
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Concrete#Purple",
+                "name": "Purple Concrete",
+                "identifier": "purple_concrete",
+                "imagePath": "/block/purple_concrete/latest.png"
             },
             {
                 "types": [],
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Concrete#Green",
-                "name": "Green Concrete",
-                "identifier": "green_concrete",
-                "imagePath": "/block/green_concrete/latest.png"
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Concrete#Magenta",
+                "name": "Magenta Concrete",
+                "identifier": "magenta_concrete",
+                "imagePath": "/block/magenta_concrete/latest.png"
             },
             {
                 "types": [],
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Concrete#Red",
-                "name": "Red Concrete",
-                "identifier": "red_concrete",
-                "imagePath": "/block/red_concrete/latest.png"
-            },
-            {
-                "types": [],
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Concrete#Black",
-                "name": "Black Concrete",
-                "identifier": "black_concrete",
-                "imagePath": "/block/black_concrete/latest.png"
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Concrete#Pink",
+                "name": "Pink Concrete",
+                "identifier": "pink_concrete",
+                "imagePath": "/block/pink_concrete/latest.png"
             },
             {
                 "types": [],
@@ -267,27 +139,51 @@
             },
             {
                 "types": [],
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Gray",
+                "name": "Light Gray Concrete Powder",
+                "identifier": "light_gray_concrete_powder",
+                "imagePath": "/block/light_gray_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Gray",
+                "name": "Gray Concrete Powder",
+                "identifier": "gray_concrete_powder",
+                "imagePath": "/block/gray_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Black",
+                "name": "Black Concrete Powder",
+                "identifier": "black_concrete_powder",
+                "imagePath": "/block/black_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown",
+                "name": "Brown Concrete Powder",
+                "identifier": "brown_concrete_powder",
+                "imagePath": "/block/brown_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Red",
+                "name": "Red Concrete Powder",
+                "identifier": "red_concrete_powder",
+                "imagePath": "/block/red_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Concrete_Powder#Orange",
                 "name": "Orange Concrete Powder",
                 "identifier": "orange_concrete_powder",
                 "imagePath": "/block/orange_concrete_powder/latest.png"
-            },
-            {
-                "types": [],
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta",
-                "name": "Magenta Concrete Powder",
-                "identifier": "magenta_concrete_powder",
-                "imagePath": "/block/magenta_concrete_powder/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Blue",
-                "name": "Light Blue Concrete Powder",
-                "identifier": "light_blue_concrete_powder",
-                "imagePath": "/block/light_blue_concrete_powder/latest.png"
             },
             {
                 "types": [],
@@ -307,27 +203,11 @@
             },
             {
                 "types": [],
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Pink",
-                "name": "Pink Concrete Powder",
-                "identifier": "pink_concrete_powder",
-                "imagePath": "/block/pink_concrete_powder/latest.png"
-            },
-            {
-                "types": [],
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Gray",
-                "name": "Gray Concrete Powder",
-                "identifier": "gray_concrete_powder",
-                "imagePath": "/block/gray_concrete_powder/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Gray",
-                "name": "Light Gray Concrete Powder",
-                "identifier": "light_gray_concrete_powder",
-                "imagePath": "/block/light_gray_concrete_powder/latest.png"
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Green",
+                "name": "Green Concrete Powder",
+                "identifier": "green_concrete_powder",
+                "imagePath": "/block/green_concrete_powder/latest.png"
             },
             {
                 "types": [],
@@ -339,11 +219,11 @@
             },
             {
                 "types": [],
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Purple",
-                "name": "Purple Concrete Powder",
-                "identifier": "purple_concrete_powder",
-                "imagePath": "/block/purple_concrete_powder/latest.png"
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Blue",
+                "name": "Light Blue Concrete Powder",
+                "identifier": "light_blue_concrete_powder",
+                "imagePath": "/block/light_blue_concrete_powder/latest.png"
             },
             {
                 "types": [],
@@ -355,35 +235,155 @@
             },
             {
                 "types": [],
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown",
-                "name": "Brown Concrete Powder",
-                "identifier": "brown_concrete_powder",
-                "imagePath": "/block/brown_concrete_powder/latest.png"
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Purple",
+                "name": "Purple Concrete Powder",
+                "identifier": "purple_concrete_powder",
+                "imagePath": "/block/purple_concrete_powder/latest.png"
             },
             {
                 "types": [],
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Green",
-                "name": "Green Concrete Powder",
-                "identifier": "green_concrete_powder",
-                "imagePath": "/block/green_concrete_powder/latest.png"
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta",
+                "name": "Magenta Concrete Powder",
+                "identifier": "magenta_concrete_powder",
+                "imagePath": "/block/magenta_concrete_powder/latest.png"
             },
             {
                 "types": [],
-                "color": "red",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Red",
-                "name": "Red Concrete Powder",
-                "identifier": "red_concrete_powder",
-                "imagePath": "/block/red_concrete_powder/latest.png"
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Pink",
+                "name": "Pink Concrete Powder",
+                "identifier": "pink_concrete_powder",
+                "imagePath": "/block/pink_concrete_powder/latest.png"
+            },
+            {
+                "types": [],
+                "color": "white",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#White",
+                "name": "White Glazed Terracotta",
+                "identifier": "white_glazed_terracotta",
+                "imagePath": "/block/white_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Gray",
+                "name": "Light Gray Glazed Terracotta",
+                "identifier": "light_gray_glazed_terracotta",
+                "imagePath": "/block/light_gray_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Gray",
+                "name": "Gray Glazed Terracotta",
+                "identifier": "gray_glazed_terracotta",
+                "imagePath": "/block/gray_glazed_terracotta/latest.png"
             },
             {
                 "types": [],
                 "color": "black",
-                "wiki": "https://minecraft.wiki/w/Concrete_Powder#Black",
-                "name": "Black Concrete Powder",
-                "identifier": "black_concrete_powder",
-                "imagePath": "/block/black_concrete_powder/latest.png"
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Black",
+                "name": "Black Glazed Terracotta",
+                "identifier": "black_glazed_terracotta",
+                "imagePath": "/block/black_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Brown",
+                "name": "Brown Glazed Terracotta",
+                "identifier": "brown_glazed_terracotta",
+                "imagePath": "/block/brown_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "red",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Red",
+                "name": "Red Glazed Terracotta",
+                "identifier": "red_glazed_terracotta",
+                "imagePath": "/block/red_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "orange",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Orange",
+                "name": "Orange Glazed Terracotta",
+                "identifier": "orange_glazed_terracotta",
+                "imagePath": "/block/orange_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "yellow",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Yellow",
+                "name": "Yellow Glazed Terracotta",
+                "identifier": "yellow_glazed_terracotta",
+                "imagePath": "/block/yellow_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "lime",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime",
+                "name": "Lime Glazed Terracotta",
+                "identifier": "lime_glazed_terracotta",
+                "imagePath": "/block/lime_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Green",
+                "name": "Green Glazed Terracotta",
+                "identifier": "green_glazed_terracotta",
+                "imagePath": "/block/green_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "cyan",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Cyan",
+                "name": "Cyan Glazed Terracotta",
+                "identifier": "cyan_glazed_terracotta",
+                "imagePath": "/block/cyan_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Light_Blue",
+                "name": "Light Blue Glazed Terracotta",
+                "identifier": "light_blue_glazed_terracotta",
+                "imagePath": "/block/light_blue_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "blue",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Blue",
+                "name": "Blue Glazed Terracotta",
+                "identifier": "blue_glazed_terracotta",
+                "imagePath": "/block/blue_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Purple",
+                "name": "Purple Glazed Terracotta",
+                "identifier": "purple_glazed_terracotta",
+                "imagePath": "/block/purple_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Magenta",
+                "name": "Magenta Glazed Terracotta",
+                "identifier": "magenta_glazed_terracotta",
+                "imagePath": "/block/magenta_glazed_terracotta/latest.png"
+            },
+            {
+                "types": [],
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Pink",
+                "name": "Pink Glazed Terracotta",
+                "identifier": "pink_glazed_terracotta",
+                "imagePath": "/block/pink_glazed_terracotta/latest.png"
             },
             {
                 "types": [],
@@ -395,27 +395,43 @@
             },
             {
                 "types": [],
+                "color": "light_gray",
+                "wiki": "https://minecraft.wiki/w/Bed#Light_Gray",
+                "name": "Light Gray Bed",
+                "identifier": "light_gray_bed",
+                "imagePath": "/block/light_gray_bed/latest.png"
+            },
+            {
+                "types": [],
+                "color": "gray",
+                "wiki": "https://minecraft.wiki/w/Bed#Gray",
+                "name": "Gray Bed",
+                "identifier": "gray_bed",
+                "imagePath": "/block/gray_bed/latest.png"
+            },
+            {
+                "types": [],
+                "color": "black",
+                "wiki": "https://minecraft.wiki/w/Bed#Black",
+                "name": "Black Bed",
+                "identifier": "black_bed",
+                "imagePath": "/block/black_bed/latest.png"
+            },
+            {
+                "types": [],
+                "color": "brown",
+                "wiki": "https://minecraft.wiki/w/Bed#Brown",
+                "name": "Brown Bed",
+                "identifier": "brown_bed",
+                "imagePath": "/block/brown_bed/latest.png"
+            },
+            {
+                "types": [],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Bed#Orange",
                 "name": "Orange Bed",
                 "identifier": "orange_bed",
                 "imagePath": "/block/orange_bed/latest.png"
-            },
-            {
-                "types": [],
-                "color": "magenta",
-                "wiki": "https://minecraft.wiki/w/Bed#Magenta",
-                "name": "Magenta Bed",
-                "identifier": "magenta_bed",
-                "imagePath": "/block/magenta_bed/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_blue",
-                "wiki": "https://minecraft.wiki/w/Bed#Light_Blue",
-                "name": "Light Blue Bed",
-                "identifier": "light_blue_bed",
-                "imagePath": "/block/light_blue_bed/latest.png"
             },
             {
                 "types": [],
@@ -435,27 +451,11 @@
             },
             {
                 "types": [],
-                "color": "pink",
-                "wiki": "https://minecraft.wiki/w/Bed#Pink",
-                "name": "Pink Bed",
-                "identifier": "pink_bed",
-                "imagePath": "/block/pink_bed/latest.png"
-            },
-            {
-                "types": [],
-                "color": "gray",
-                "wiki": "https://minecraft.wiki/w/Bed#Gray",
-                "name": "Gray Bed",
-                "identifier": "gray_bed",
-                "imagePath": "/block/gray_bed/latest.png"
-            },
-            {
-                "types": [],
-                "color": "light_gray",
-                "wiki": "https://minecraft.wiki/w/Bed#Light_Gray",
-                "name": "Light Gray Bed",
-                "identifier": "light_gray_bed",
-                "imagePath": "/block/light_gray_bed/latest.png"
+                "color": "green",
+                "wiki": "https://minecraft.wiki/w/Bed#Green",
+                "name": "Green Bed",
+                "identifier": "green_bed",
+                "imagePath": "/block/green_bed/latest.png"
             },
             {
                 "types": [],
@@ -467,11 +467,11 @@
             },
             {
                 "types": [],
-                "color": "purple",
-                "wiki": "https://minecraft.wiki/w/Bed#Purple",
-                "name": "Purple Bed",
-                "identifier": "purple_bed",
-                "imagePath": "/block/purple_bed/latest.png"
+                "color": "light_blue",
+                "wiki": "https://minecraft.wiki/w/Bed#Light_Blue",
+                "name": "Light Blue Bed",
+                "identifier": "light_blue_bed",
+                "imagePath": "/block/light_blue_bed/latest.png"
             },
             {
                 "types": [],
@@ -483,37 +483,30 @@
             },
             {
                 "types": [],
-                "color": "brown",
-                "wiki": "https://minecraft.wiki/w/Bed#Brown",
-                "name": "Brown Bed",
-                "identifier": "brown_bed",
-                "imagePath": "/block/brown_bed/latest.png"
+                "color": "purple",
+                "wiki": "https://minecraft.wiki/w/Bed#Purple",
+                "name": "Purple Bed",
+                "identifier": "purple_bed",
+                "imagePath": "/block/purple_bed/latest.png"
             },
             {
                 "types": [],
-                "color": "green",
-                "wiki": "https://minecraft.wiki/w/Bed#Green",
-                "name": "Green Bed",
-                "identifier": "green_bed",
-                "imagePath": "/block/green_bed/latest.png"
+                "color": "magenta",
+                "wiki": "https://minecraft.wiki/w/Bed#Magenta",
+                "name": "Magenta Bed",
+                "identifier": "magenta_bed",
+                "imagePath": "/block/magenta_bed/latest.png"
             },
             {
                 "types": [],
-                "color": "black",
-                "wiki": "https://minecraft.wiki/w/Bed#Black",
-                "name": "Black Bed",
-                "identifier": "black_bed",
-                "imagePath": "/block/black_bed/latest.png"
+                "color": "pink",
+                "wiki": "https://minecraft.wiki/w/Bed#Pink",
+                "name": "Pink Bed",
+                "identifier": "pink_bed",
+                "imagePath": "/block/pink_bed/latest.png"
             }
         ],
         "items": [
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Knowledge_Book",
-                "name": "Knowledge Book",
-                "identifier": "knowledge_book",
-                "imagePath": "/item/knowledge_book/latest.png"
-            },
             {
                 "types": [
                     "spawn_egg"
@@ -522,6 +515,13 @@
                 "name": "Parrot Spawn Egg",
                 "identifier": "parrot_spawn_egg",
                 "imagePath": "/item/parrot_spawn_egg/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Knowledge_Book",
+                "name": "Knowledge Book",
+                "identifier": "knowledge_book",
+                "imagePath": "/item/knowledge_book/latest.png"
             }
         ],
         "mobs": [
@@ -545,30 +545,6 @@
             }
         ],
         "mob_variants": [
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Parrot#Blue",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "parrot_spawn_egg",
-                        "name": "Parrot Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/parrot_spawn_egg/latest.png"
-                    },
-                    "parent_mob": {
-                        "identifier": "parrot",
-                        "name": "Parrot",
-                        "wiki": "https://minecraft.wiki/w/Parrot",
-                        "health": 6,
-                        "imagePath": "/mob/parrot/latest.png"
-                    }
-                },
-                "name": "Blue Parrot",
-                "identifier": "blue_parrot",
-                "imagePath": "/mob_variant/blue_parrot/latest.png"
-            },
             {
                 "types": [
                     "mobs/passive"
@@ -640,6 +616,30 @@
                 "name": "Gray Parrot",
                 "identifier": "gray_parrot",
                 "imagePath": "/mob_variant/gray_parrot/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Parrot#Blue",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "parrot_spawn_egg",
+                        "name": "Parrot Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/parrot_spawn_egg/latest.png"
+                    },
+                    "parent_mob": {
+                        "identifier": "parrot",
+                        "name": "Parrot",
+                        "wiki": "https://minecraft.wiki/w/Parrot",
+                        "health": 6,
+                        "imagePath": "/mob/parrot/latest.png"
+                    }
+                },
+                "name": "Blue Parrot",
+                "identifier": "blue_parrot",
+                "imagePath": "/mob_variant/blue_parrot/latest.png"
             }
         ]
     },

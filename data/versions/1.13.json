@@ -12,51 +12,6 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Spruce Log",
-                "identifier": "stripped_spruce_log",
-                "imagePath": "/block/stripped_spruce_log/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Birch Log",
-                "identifier": "stripped_birch_log",
-                "imagePath": "/block/stripped_birch_log/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Jungle Log",
-                "identifier": "stripped_jungle_log",
-                "imagePath": "/block/stripped_jungle_log/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/acacia",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Acacia Log",
-                "identifier": "stripped_acacia_log",
-                "imagePath": "/block/stripped_acacia_log/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/dark_oak",
-                    "stripped_logs"
-                ],
-                "name": "Stripped Dark Oak Log",
-                "identifier": "stripped_dark_oak_log",
-                "imagePath": "/block/stripped_dark_oak_log/latest.png"
-            },
-            {
-                "types": [
                     "woodset/oak",
                     "stripped_woods"
                 ],
@@ -64,6 +19,15 @@
                 "name": "Stripped Oak Wood",
                 "identifier": "stripped_oak_wood",
                 "imagePath": "/block/stripped_oak_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/spruce",
+                    "stripped_logs"
+                ],
+                "name": "Stripped Spruce Log",
+                "identifier": "stripped_spruce_log",
+                "imagePath": "/block/stripped_spruce_log/latest.png"
             },
             {
                 "types": [
@@ -77,43 +41,23 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "stripped_woods"
+                    "woodset/spruce",
+                    "trapdoors"
                 ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch",
-                "name": "Stripped Birch Wood",
-                "identifier": "stripped_birch_wood",
-                "imagePath": "/block/stripped_birch_wood/latest.png"
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce",
+                "name": "Spruce Trapdoor",
+                "identifier": "spruce_trapdoor",
+                "imagePath": "/block/spruce_trapdoor/latest.png"
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "stripped_woods"
+                    "woodset/spruce",
+                    "pressure_plates"
                 ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle",
-                "name": "Stripped Jungle Wood",
-                "identifier": "stripped_jungle_wood",
-                "imagePath": "/block/stripped_jungle_wood/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/acacia",
-                    "stripped_woods"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
-                "name": "Stripped Acacia Wood",
-                "identifier": "stripped_acacia_wood",
-                "imagePath": "/block/stripped_acacia_wood/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/dark_oak",
-                    "stripped_woods"
-                ],
-                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak",
-                "name": "Stripped Dark Oak Wood",
-                "identifier": "stripped_dark_oak_wood",
-                "imagePath": "/block/stripped_dark_oak_wood/latest.png"
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce",
+                "name": "Spruce Pressure Plate",
+                "identifier": "spruce_pressure_plate",
+                "imagePath": "/block/spruce_pressure_plate/latest.png"
             },
             {
                 "types": [
@@ -128,12 +72,90 @@
             {
                 "types": [
                     "woodset/birch",
+                    "stripped_logs"
+                ],
+                "name": "Stripped Birch Log",
+                "identifier": "stripped_birch_log",
+                "imagePath": "/block/stripped_birch_log/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "stripped_woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch",
+                "name": "Stripped Birch Wood",
+                "identifier": "stripped_birch_wood",
+                "imagePath": "/block/stripped_birch_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "trapdoors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch",
+                "name": "Birch Trapdoor",
+                "identifier": "birch_trapdoor",
+                "imagePath": "/block/birch_trapdoor/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch",
+                "name": "Birch Pressure Plate",
+                "identifier": "birch_pressure_plate",
+                "imagePath": "/block/birch_pressure_plate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/birch",
                     "buttons"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch",
                 "name": "Birch Button",
                 "identifier": "birch_button",
                 "imagePath": "/block/birch_button/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "stripped_logs"
+                ],
+                "name": "Stripped Jungle Log",
+                "identifier": "stripped_jungle_log",
+                "imagePath": "/block/stripped_jungle_log/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "stripped_woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle",
+                "name": "Stripped Jungle Wood",
+                "identifier": "stripped_jungle_wood",
+                "imagePath": "/block/stripped_jungle_wood/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "trapdoors"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle",
+                "name": "Jungle Trapdoor",
+                "identifier": "jungle_trapdoor",
+                "imagePath": "/block/jungle_trapdoor/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/jungle",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle",
+                "name": "Jungle Pressure Plate",
+                "identifier": "jungle_pressure_plate",
+                "imagePath": "/block/jungle_pressure_plate/latest.png"
             },
             {
                 "types": [
@@ -148,102 +170,21 @@
             {
                 "types": [
                     "woodset/acacia",
-                    "buttons"
+                    "stripped_logs"
                 ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia",
-                "name": "Acacia Button",
-                "identifier": "acacia_button",
-                "imagePath": "/block/acacia_button/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/dark_oak",
-                    "buttons"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak",
-                "name": "Dark Oak Button",
-                "identifier": "dark_oak_button",
-                "imagePath": "/block/dark_oak_button/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/spruce",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce",
-                "name": "Spruce Pressure Plate",
-                "identifier": "spruce_pressure_plate",
-                "imagePath": "/block/spruce_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch",
-                "name": "Birch Pressure Plate",
-                "identifier": "birch_pressure_plate",
-                "imagePath": "/block/birch_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle",
-                "name": "Jungle Pressure Plate",
-                "identifier": "jungle_pressure_plate",
-                "imagePath": "/block/jungle_pressure_plate/latest.png"
+                "name": "Stripped Acacia Log",
+                "identifier": "stripped_acacia_log",
+                "imagePath": "/block/stripped_acacia_log/latest.png"
             },
             {
                 "types": [
                     "woodset/acacia",
-                    "pressure_plates"
+                    "stripped_woods"
                 ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia",
-                "name": "Acacia Pressure Plate",
-                "identifier": "acacia_pressure_plate",
-                "imagePath": "/block/acacia_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/dark_oak",
-                    "pressure_plates"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak",
-                "name": "Dark Oak Pressure Plate",
-                "identifier": "dark_oak_pressure_plate",
-                "imagePath": "/block/dark_oak_pressure_plate/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/spruce",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce",
-                "name": "Spruce Trapdoor",
-                "identifier": "spruce_trapdoor",
-                "imagePath": "/block/spruce_trapdoor/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/birch",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch",
-                "name": "Birch Trapdoor",
-                "identifier": "birch_trapdoor",
-                "imagePath": "/block/birch_trapdoor/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/jungle",
-                    "trapdoors"
-                ],
-                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle",
-                "name": "Jungle Trapdoor",
-                "identifier": "jungle_trapdoor",
-                "imagePath": "/block/jungle_trapdoor/latest.png"
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
+                "name": "Stripped Acacia Wood",
+                "identifier": "stripped_acacia_wood",
+                "imagePath": "/block/stripped_acacia_wood/latest.png"
             },
             {
                 "types": [
@@ -257,6 +198,45 @@
             },
             {
                 "types": [
+                    "woodset/acacia",
+                    "pressure_plates"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia",
+                "name": "Acacia Pressure Plate",
+                "identifier": "acacia_pressure_plate",
+                "imagePath": "/block/acacia_pressure_plate/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/acacia",
+                    "buttons"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia",
+                "name": "Acacia Button",
+                "identifier": "acacia_button",
+                "imagePath": "/block/acacia_button/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/dark_oak",
+                    "stripped_logs"
+                ],
+                "name": "Stripped Dark Oak Log",
+                "identifier": "stripped_dark_oak_log",
+                "imagePath": "/block/stripped_dark_oak_log/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/dark_oak",
+                    "stripped_woods"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak",
+                "name": "Stripped Dark Oak Wood",
+                "identifier": "stripped_dark_oak_wood",
+                "imagePath": "/block/stripped_dark_oak_wood/latest.png"
+            },
+            {
+                "types": [
                     "woodset/dark_oak",
                     "trapdoors"
                 ],
@@ -267,28 +247,23 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "woodset/dark_oak",
+                    "pressure_plates"
                 ],
-                "wiki": "https://minecraft.wiki/w/Pumpkin",
-                "name": "Pumpkin",
-                "identifier": "pumpkin",
-                "imagePath": "/block/pumpkin/latest.png"
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak",
+                "name": "Dark Oak Pressure Plate",
+                "identifier": "dark_oak_pressure_plate",
+                "imagePath": "/block/dark_oak_pressure_plate/latest.png"
             },
             {
                 "types": [
-                    "vegetation"
+                    "woodset/dark_oak",
+                    "buttons"
                 ],
-                "wiki": "https://minecraft.wiki/w/Seagrass",
-                "name": "Seagrass",
-                "identifier": "seagrass",
-                "imagePath": "/block/seagrass/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Dried_Kelp_Block",
-                "name": "Dried Kelp Block",
-                "identifier": "dried_kelp_block",
-                "imagePath": "/block/dried_kelp_block/latest.png"
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak",
+                "name": "Dark Oak Button",
+                "identifier": "dark_oak_button",
+                "imagePath": "/block/dark_oak_button/latest.png"
             },
             {
                 "types": [],
@@ -333,6 +308,43 @@
                 "imagePath": "/block/dark_prismarine_slab/latest.png"
             },
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain",
+                "name": "Shulker Box",
+                "identifier": "shulker_box",
+                "imagePath": "/block/shulker_box/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Blue_Ice",
+                "name": "Blue Ice",
+                "identifier": "blue_ice",
+                "imagePath": "/block/blue_ice/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Turtle_Egg",
+                "name": "Turtle Egg",
+                "identifier": "turtle_egg",
+                "imagePath": "/block/turtle_egg/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Seagrass",
+                "name": "Seagrass",
+                "identifier": "seagrass",
+                "imagePath": "/block/seagrass/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Sea_Pickle",
+                "name": "Sea Pickle",
+                "identifier": "sea_pickle",
+                "imagePath": "/block/sea_pickle/latest.png"
+            },
+            {
                 "types": [
                     "vegetation"
                 ],
@@ -343,17 +355,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Turtle_Egg",
-                "name": "Turtle Egg",
-                "identifier": "turtle_egg",
-                "imagePath": "/block/turtle_egg/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain",
-                "name": "Shulker Box",
-                "identifier": "shulker_box",
-                "imagePath": "/block/shulker_box/latest.png"
+                "wiki": "https://minecraft.wiki/w/Dried_Kelp_Block",
+                "name": "Dried Kelp Block",
+                "identifier": "dried_kelp_block",
+                "imagePath": "/block/dried_kelp_block/latest.png"
             },
             {
                 "types": [],
@@ -392,41 +397,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Coral#Tube",
-                "name": "Tube Coral",
-                "identifier": "tube_coral",
-                "imagePath": "/block/tube_coral/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Coral#Brain",
-                "name": "Brain Coral",
-                "identifier": "brain_coral",
-                "imagePath": "/block/brain_coral/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Coral#Bubble",
-                "name": "Bubble Coral",
-                "identifier": "bubble_coral",
-                "imagePath": "/block/bubble_coral/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Coral#Fire",
-                "name": "Fire Coral",
-                "identifier": "fire_coral",
-                "imagePath": "/block/fire_coral/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Coral#Horn",
-                "name": "Horn Coral",
-                "identifier": "horn_coral",
-                "imagePath": "/block/horn_coral/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Dead_Coral_Block#Tube",
                 "name": "Dead Tube Coral Block",
                 "identifier": "dead_tube_coral_block",
@@ -459,6 +429,41 @@
                 "name": "Dead Horn Coral Block",
                 "identifier": "dead_horn_coral_block",
                 "imagePath": "/block/dead_horn_coral_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Coral#Tube",
+                "name": "Tube Coral",
+                "identifier": "tube_coral",
+                "imagePath": "/block/tube_coral/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Coral#Brain",
+                "name": "Brain Coral",
+                "identifier": "brain_coral",
+                "imagePath": "/block/brain_coral/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Coral#Bubble",
+                "name": "Bubble Coral",
+                "identifier": "bubble_coral",
+                "imagePath": "/block/bubble_coral/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Coral#Fire",
+                "name": "Fire Coral",
+                "identifier": "fire_coral",
+                "imagePath": "/block/fire_coral/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Coral#Horn",
+                "name": "Horn Coral",
+                "identifier": "horn_coral",
+                "imagePath": "/block/horn_coral/latest.png"
             },
             {
                 "types": [],
@@ -531,11 +536,13 @@
                 "imagePath": "/block/dead_horn_coral_fan/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Sea_Pickle",
-                "name": "Sea Pickle",
-                "identifier": "sea_pickle",
-                "imagePath": "/block/sea_pickle/latest.png"
+                "types": [
+                    "vegetation"
+                ],
+                "wiki": "https://minecraft.wiki/w/Pumpkin",
+                "name": "Pumpkin",
+                "identifier": "pumpkin",
+                "imagePath": "/block/pumpkin/latest.png"
             },
             {
                 "types": [],
@@ -543,53 +550,9 @@
                 "name": "Conduit",
                 "identifier": "conduit",
                 "imagePath": "/block/conduit/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Blue_Ice",
-                "name": "Blue Ice",
-                "identifier": "blue_ice",
-                "imagePath": "/block/blue_ice/latest.png"
             }
         ],
         "items": [
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Debug_Stick",
-                "name": "Debug Stick",
-                "identifier": "debug_stick",
-                "imagePath": "/item/debug_stick/latest.png"
-            },
-            {
-                "types": [
-                    "food"
-                ],
-                "wiki": "https://minecraft.wiki/w/Dried_Kelp",
-                "name": "Dried Kelp",
-                "identifier": "dried_kelp",
-                "imagePath": "/item/dried_kelp/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Trident",
-                "name": "Trident",
-                "identifier": "trident",
-                "imagePath": "/item/trident/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Turtle_Scute",
-                "name": "Turtle Scute",
-                "identifier": "turtle_scute",
-                "imagePath": "/item/turtle_scute/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Turtle_Shell",
-                "name": "Turtle Shell",
-                "identifier": "turtle_helmet",
-                "imagePath": "/item/turtle_helmet/latest.png"
-            },
             {
                 "types": [
                     "buckets"
@@ -612,19 +575,49 @@
                 "types": [
                     "buckets"
                 ],
+                "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
+                "name": "Bucket of Tropical Fish",
+                "identifier": "tropical_fish_bucket",
+                "imagePath": "/item/tropical_fish_bucket/latest.png"
+            },
+            {
+                "types": [
+                    "buckets"
+                ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Pufferfish",
                 "name": "Bucket of Pufferfish",
                 "identifier": "pufferfish_bucket",
                 "imagePath": "/item/pufferfish_bucket/latest.png"
             },
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Trident",
+                "name": "Trident",
+                "identifier": "trident",
+                "imagePath": "/item/trident/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Turtle_Shell",
+                "name": "Turtle Shell",
+                "identifier": "turtle_helmet",
+                "imagePath": "/item/turtle_helmet/latest.png"
+            },
+            {
                 "types": [
-                    "buckets"
+                    "food"
                 ],
-                "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
-                "name": "Bucket of Tropical Fish",
-                "identifier": "tropical_fish_bucket",
-                "imagePath": "/item/tropical_fish_bucket/latest.png"
+                "wiki": "https://minecraft.wiki/w/Dried_Kelp",
+                "name": "Dried Kelp",
+                "identifier": "dried_kelp",
+                "imagePath": "/item/dried_kelp/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Turtle_Scute",
+                "name": "Turtle Scute",
+                "identifier": "turtle_scute",
+                "imagePath": "/item/turtle_scute/latest.png"
             },
             {
                 "types": [],
@@ -646,38 +639,6 @@
                 "name": "Phantom Membrane",
                 "identifier": "phantom_membrane",
                 "imagePath": "/item/phantom_membrane/latest.png"
-            },
-            {
-                "types": [],
-                "image_identifier": "potion_of_the_turtle_master",
-                "wiki": "https://minecraft.wiki/w/Potion#Potion_of_the_Turtle_Master",
-                "name": "Potion of the Turtle Master",
-                "identifier": "potion_of_the_turtle_master",
-                "imagePath": "/item/potion_of_the_turtle_master/latest.png"
-            },
-            {
-                "types": [],
-                "image_identifier": "potion_of_slow_falling",
-                "wiki": "https://minecraft.wiki/w/Potion#Potion_of_Slow_Falling",
-                "name": "Potion of Slow Falling",
-                "identifier": "potion_of_slow_falling",
-                "imagePath": "/item/potion_of_slow_falling/latest.png"
-            },
-            {
-                "types": [],
-                "image_identifier": "splash_potion_of_the_turtle_master",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Potion of the Turtle Master",
-                "identifier": "splash_potion_of_the_turtle_master",
-                "imagePath": "/item/splash_potion_of_the_turtle_master/latest.png"
-            },
-            {
-                "types": [],
-                "image_identifier": "splash_potion_of_slow_falling",
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Potion of Slow Falling",
-                "identifier": "splash_potion_of_slow_falling",
-                "imagePath": "/item/splash_potion_of_slow_falling/latest.png"
             },
             {
                 "types": [
@@ -702,36 +663,9 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Drowned Spawn Egg",
-                "identifier": "drowned_spawn_egg",
-                "imagePath": "/item/drowned_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Phantom Spawn Egg",
-                "identifier": "phantom_spawn_egg",
-                "imagePath": "/item/phantom_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Pufferfish Spawn Egg",
                 "identifier": "pufferfish_spawn_egg",
                 "imagePath": "/item/pufferfish_spawn_egg/latest.png"
-            },
-            {
-                "types": [
-                    "spawn_egg"
-                ],
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Tropical Fish Spawn Egg",
-                "identifier": "tropical_fish_spawn_egg",
-                "imagePath": "/item/tropical_fish_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -747,65 +681,36 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Tropical Fish Spawn Egg",
+                "identifier": "tropical_fish_spawn_egg",
+                "imagePath": "/item/tropical_fish_spawn_egg/latest.png"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Turtle Spawn Egg",
                 "identifier": "turtle_spawn_egg",
                 "imagePath": "/item/turtle_spawn_egg/latest.png"
             },
             {
                 "types": [
-                    "enchantments"
+                    "spawn_egg"
                 ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Loyalty I-III",
-                "identifier": "loyalty_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Drowned Spawn Egg",
+                "identifier": "drowned_spawn_egg",
+                "imagePath": "/item/drowned_spawn_egg/latest.png"
             },
             {
                 "types": [
-                    "enchantments"
+                    "spawn_egg"
                 ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Riptide I-III",
-                "identifier": "riptide_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Impaling I-V",
-                "identifier": "impaling_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Channeling",
-                "identifier": "channeling_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "maps"
-                ],
-                "image_identifier": "buried_treasure_map",
-                "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
-                "name": "Buried Treasure Map",
-                "identifier": "buried_treasure_map",
-                "imagePath": "/item/buried_treasure_map/latest.png"
-            },
-            {
-                "types": [
-                    "effect/turle_master"
-                ],
-                "image_identifier": "arrow_of_the_turtle_master",
-                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
-                "name": "Arrow of the Turtle Master",
-                "identifier": "arrow_of_the_turtle_master",
-                "imagePath": "/item/arrow_of_the_turtle_master/latest.png"
+                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                "name": "Phantom Spawn Egg",
+                "identifier": "phantom_spawn_egg",
+                "imagePath": "/item/phantom_spawn_egg/latest.png"
             },
             {
                 "types": [
@@ -821,11 +726,46 @@
                 "types": [
                     "effect/turle_master"
                 ],
-                "image_identifier": "lingering_potion_of_the_turtle_master",
-                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
-                "name": "Potion of the Turtle Master",
-                "identifier": "lingering_potion_of_the_turtle_master",
-                "imagePath": "/item/lingering_potion_of_the_turtle_master/latest.png"
+                "image_identifier": "arrow_of_the_turtle_master",
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of the Turtle Master",
+                "identifier": "arrow_of_the_turtle_master",
+                "imagePath": "/item/arrow_of_the_turtle_master/latest.png"
+            },
+            {
+                "types": [
+                    "maps"
+                ],
+                "image_identifier": "buried_treasure_map",
+                "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
+                "name": "Buried Treasure Map",
+                "identifier": "buried_treasure_map",
+                "imagePath": "/item/buried_treasure_map/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Channeling",
+                "identifier": "channeling_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Debug_Stick",
+                "name": "Debug Stick",
+                "identifier": "debug_stick",
+                "imagePath": "/item/debug_stick/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Impaling I-V",
+                "identifier": "impaling_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
             },
             {
                 "types": [
@@ -836,63 +776,69 @@
                 "name": "Potion of Slow Falling",
                 "identifier": "lingering_potion_of_slow_falling",
                 "imagePath": "/item/lingering_potion_of_slow_falling/latest.png"
+            },
+            {
+                "types": [
+                    "effect/turle_master"
+                ],
+                "image_identifier": "lingering_potion_of_the_turtle_master",
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Potion of the Turtle Master",
+                "identifier": "lingering_potion_of_the_turtle_master",
+                "imagePath": "/item/lingering_potion_of_the_turtle_master/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Loyalty I-III",
+                "identifier": "loyalty_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [],
+                "image_identifier": "potion_of_slow_falling",
+                "wiki": "https://minecraft.wiki/w/Potion#Potion_of_Slow_Falling",
+                "name": "Potion of Slow Falling",
+                "identifier": "potion_of_slow_falling",
+                "imagePath": "/item/potion_of_slow_falling/latest.png"
+            },
+            {
+                "types": [],
+                "image_identifier": "potion_of_the_turtle_master",
+                "wiki": "https://minecraft.wiki/w/Potion#Potion_of_the_Turtle_Master",
+                "name": "Potion of the Turtle Master",
+                "identifier": "potion_of_the_turtle_master",
+                "imagePath": "/item/potion_of_the_turtle_master/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Riptide I-III",
+                "identifier": "riptide_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [],
+                "image_identifier": "splash_potion_of_slow_falling",
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Potion of Slow Falling",
+                "identifier": "splash_potion_of_slow_falling",
+                "imagePath": "/item/splash_potion_of_slow_falling/latest.png"
+            },
+            {
+                "types": [],
+                "image_identifier": "splash_potion_of_the_turtle_master",
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Potion of the Turtle Master",
+                "identifier": "splash_potion_of_the_turtle_master",
+                "imagePath": "/item/splash_potion_of_the_turtle_master/latest.png"
             }
         ],
         "mobs": [
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Cod",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "cod_spawn_egg",
-                        "name": "Cod Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/cod_spawn_egg/latest.png"
-                    },
-                    "health": 3
-                },
-                "name": "Cod",
-                "identifier": "cod",
-                "imagePath": "/mob/cod/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Salmon",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "salmon_spawn_egg",
-                        "name": "Salmon Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/salmon_spawn_egg/latest.png"
-                    },
-                    "health": 3
-                },
-                "name": "Salmon",
-                "identifier": "salmon",
-                "imagePath": "/mob/salmon/latest.png"
-            },
-            {
-                "types": [
-                    "mobs/passive"
-                ],
-                "wiki": "https://minecraft.wiki/w/Tropical_Fish",
-                "meta": {
-                    "spawn_egg": {
-                        "identifier": "tropical_fish_spawn_egg",
-                        "name": "Tropical Fish Spawn Egg",
-                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/tropical_fish_spawn_egg/latest.png"
-                    },
-                    "health": 3
-                },
-                "name": "Tropical Fish",
-                "identifier": "tropical_fish",
-                "imagePath": "/mob/tropical_fish/latest.png"
-            },
             {
                 "types": [
                     "mobs/passive"
@@ -933,6 +879,42 @@
                 "types": [
                     "mobs/neutral"
                 ],
+                "wiki": "https://minecraft.wiki/w/Pufferfish",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "pufferfish_spawn_egg",
+                        "name": "Pufferfish Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/pufferfish_spawn_egg/latest.png"
+                    },
+                    "health": 3
+                },
+                "name": "Pufferfish",
+                "identifier": "pufferfish",
+                "imagePath": "/mob/pufferfish/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Tropical_Fish",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "tropical_fish_spawn_egg",
+                        "name": "Tropical Fish Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/tropical_fish_spawn_egg/latest.png"
+                    },
+                    "health": 3
+                },
+                "name": "Tropical Fish",
+                "identifier": "tropical_fish",
+                "imagePath": "/mob/tropical_fish/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/neutral"
+                ],
                 "wiki": "https://minecraft.wiki/w/Drowned",
                 "meta": {
                     "spawn_egg": {
@@ -949,21 +931,21 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mobs/passive"
                 ],
-                "wiki": "https://minecraft.wiki/w/Pufferfish",
+                "wiki": "https://minecraft.wiki/w/Cod",
                 "meta": {
                     "spawn_egg": {
-                        "identifier": "pufferfish_spawn_egg",
-                        "name": "Pufferfish Spawn Egg",
+                        "identifier": "cod_spawn_egg",
+                        "name": "Cod Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                        "imagePath": "/item/pufferfish_spawn_egg/latest.png"
+                        "imagePath": "/item/cod_spawn_egg/latest.png"
                     },
                     "health": 3
                 },
-                "name": "Pufferfish",
-                "identifier": "pufferfish",
-                "imagePath": "/mob/pufferfish/latest.png"
+                "name": "Cod",
+                "identifier": "cod",
+                "imagePath": "/mob/cod/latest.png"
             },
             {
                 "types": [
@@ -982,18 +964,27 @@
                 "name": "Phantom",
                 "identifier": "phantom",
                 "imagePath": "/mob/phantom/latest.png"
+            },
+            {
+                "types": [
+                    "mobs/passive"
+                ],
+                "wiki": "https://minecraft.wiki/w/Salmon",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "salmon_spawn_egg",
+                        "name": "Salmon Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Spawn_Egg",
+                        "imagePath": "/item/salmon_spawn_egg/latest.png"
+                    },
+                    "health": 3
+                },
+                "name": "Salmon",
+                "identifier": "salmon",
+                "imagePath": "/mob/salmon/latest.png"
             }
         ],
         "effects": [
-            {
-                "types": [
-                    "effects/movement"
-                ],
-                "wiki": "https://minecraft.wiki/w/Slow_Falling",
-                "name": "Slow Falling",
-                "identifier": "slow_falling",
-                "imagePath": "/effect/slow_falling/latest.png"
-            },
             {
                 "types": [
                     "effects/movement"
@@ -1002,6 +993,15 @@
                 "name": "Dolphin's Grace",
                 "identifier": "dolphins_grace",
                 "imagePath": "/effect/dolphins_grace/latest.png"
+            },
+            {
+                "types": [
+                    "effects/movement"
+                ],
+                "wiki": "https://minecraft.wiki/w/Slow_Falling",
+                "name": "Slow Falling",
+                "identifier": "slow_falling",
+                "imagePath": "/effect/slow_falling/latest.png"
             },
             {
                 "types": [
@@ -1018,17 +1018,17 @@
                 "types": [
                     "enchantments/trident"
                 ],
-                "wiki": "https://minecraft.wiki/w/Channeling",
-                "name": "Channeling",
-                "identifier": "channeling"
+                "wiki": "https://minecraft.wiki/w/Impaling",
+                "name": "Impaling",
+                "identifier": "impaling"
             },
             {
                 "types": [
                     "enchantments/trident"
                 ],
-                "wiki": "https://minecraft.wiki/w/Impaling",
-                "name": "Impaling",
-                "identifier": "impaling"
+                "wiki": "https://minecraft.wiki/w/Riptide",
+                "name": "Riptide",
+                "identifier": "riptide"
             },
             {
                 "types": [
@@ -1042,26 +1042,12 @@
                 "types": [
                     "enchantments/trident"
                 ],
-                "wiki": "https://minecraft.wiki/w/Riptide",
-                "name": "Riptide",
-                "identifier": "riptide"
+                "wiki": "https://minecraft.wiki/w/Channeling",
+                "name": "Channeling",
+                "identifier": "channeling"
             }
         ],
         "advancements": [
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#A_Throwaway_Joke",
-                "meta": {
-                    "icon": {
-                        "identifier": "trident",
-                        "name": "Trident",
-                        "wiki": "https://minecraft.wiki/w/Trident",
-                        "imagePath": "/item/trident/latest.png"
-                    }
-                },
-                "name": "A Throwaway Joke",
-                "identifier": "adventure/throw_trident"
-            },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Very_Very_Frightening",
@@ -1075,6 +1061,20 @@
                 },
                 "name": "Very Very Frightening",
                 "identifier": "adventure/very_very_frightening"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#A_Throwaway_Joke",
+                "meta": {
+                    "icon": {
+                        "identifier": "trident",
+                        "name": "Trident",
+                        "wiki": "https://minecraft.wiki/w/Trident",
+                        "imagePath": "/item/trident/latest.png"
+                    }
+                },
+                "name": "A Throwaway Joke",
+                "identifier": "adventure/throw_trident"
             },
             {
                 "types": [],
@@ -1110,19 +1110,10 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "wiki": "https://minecraft.wiki/w/Cold_Ocean",
-                "name": "Cold Ocean",
-                "identifier": "cold_ocean",
-                "imagePath": "/biome/cold_ocean/latest.png"
-            },
-            {
-                "types": [
-                    "biome/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Deep_Cold_Ocean",
-                "name": "Deep Cold Ocean",
-                "identifier": "deep_cold_ocean",
-                "imagePath": "/biome/deep_cold_ocean/latest.png"
+                "wiki": "https://minecraft.wiki/w/Lukewarm_Ocean",
+                "name": "Lukewarm Ocean",
+                "identifier": "lukewarm_ocean",
+                "imagePath": "/biome/lukewarm_ocean/latest.png"
             },
             {
                 "types": [
@@ -1146,10 +1137,10 @@
                 "types": [
                     "biome/overworld"
                 ],
-                "wiki": "https://minecraft.wiki/w/Lukewarm_Ocean",
-                "name": "Lukewarm Ocean",
-                "identifier": "lukewarm_ocean",
-                "imagePath": "/biome/lukewarm_ocean/latest.png"
+                "wiki": "https://minecraft.wiki/w/Cold_Ocean",
+                "name": "Cold Ocean",
+                "identifier": "cold_ocean",
+                "imagePath": "/biome/cold_ocean/latest.png"
             },
             {
                 "types": [
@@ -1159,19 +1150,18 @@
                 "name": "Warm Ocean",
                 "identifier": "warm_ocean",
                 "imagePath": "/biome/warm_ocean/latest.png"
+            },
+            {
+                "types": [
+                    "biome/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Deep_Cold_Ocean",
+                "name": "Deep Cold Ocean",
+                "identifier": "deep_cold_ocean",
+                "imagePath": "/biome/deep_cold_ocean/latest.png"
             }
         ],
         "structures": [
-            {
-                "types": [
-                    "structure/underground",
-                    "structure/overworld"
-                ],
-                "wiki": "https://minecraft.wiki/w/Buried_Treasure",
-                "name": "Buried Treasure",
-                "identifier": "buried_treasure",
-                "imagePath": "/structure/buried_treasure/latest.png"
-            },
             {
                 "types": [
                     "structure/underwater",
@@ -1181,6 +1171,16 @@
                 "name": "Ocean Ruins",
                 "identifier": "ocean_ruins",
                 "imagePath": "/structure/ocean_ruins/latest.png"
+            },
+            {
+                "types": [
+                    "structure/underground",
+                    "structure/overworld"
+                ],
+                "wiki": "https://minecraft.wiki/w/Buried_Treasure",
+                "name": "Buried Treasure",
+                "identifier": "buried_treasure",
+                "imagePath": "/structure/buried_treasure/latest.png"
             },
             {
                 "types": [

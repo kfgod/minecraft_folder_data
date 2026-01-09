@@ -22,6 +22,27 @@
                 "imagePath": "/block/birch_log/latest.png"
             },
             {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Sandstone",
+                "name": "Sandstone",
+                "identifier": "sandstone",
+                "imagePath": "/block/sandstone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli",
+                "name": "Block of Lapis Lazuli",
+                "identifier": "lapis_block",
+                "imagePath": "/block/lapis_block/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
+                "name": "Lapis Lazuli Ore",
+                "identifier": "lapis_ore",
+                "imagePath": "/block/lapis_ore/latest.png"
+            },
+            {
                 "types": [
                     "vegetation",
                     "woodset/spruce",
@@ -45,31 +66,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
-                "name": "Lapis Lazuli Ore",
-                "identifier": "lapis_ore",
-                "imagePath": "/block/lapis_ore/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Sandstone",
-                "name": "Sandstone",
-                "identifier": "sandstone",
-                "imagePath": "/block/sandstone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli",
-                "name": "Block of Lapis Lazuli",
-                "identifier": "lapis_block",
-                "imagePath": "/block/lapis_block/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Cake",
-                "name": "Cake",
-                "identifier": "cake",
-                "imagePath": "/block/cake/latest.png"
+                "wiki": "https://minecraft.wiki/w/Note_Block",
+                "name": "Note Block",
+                "identifier": "note_block",
+                "imagePath": "/block/note_block/latest.png"
             },
             {
                 "types": [],
@@ -80,13 +80,58 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Note_Block",
-                "name": "Note Block",
-                "identifier": "note_block",
-                "imagePath": "/block/note_block/latest.png"
+                "wiki": "https://minecraft.wiki/w/Cake",
+                "name": "Cake",
+                "identifier": "cake",
+                "imagePath": "/block/cake/latest.png"
             }
         ],
         "items": [
+            {
+                "types": [
+                    "vegetation",
+                    "seeds"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cocoa_Beans",
+                "name": "Cocoa Beans",
+                "identifier": "cocoa_beans",
+                "imagePath": "/item/cocoa_beans/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Bone_Meal",
+                "name": "Bone Meal",
+                "identifier": "bone_meal",
+                "imagePath": "/item/bone_meal/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Charcoal",
+                "name": "Charcoal",
+                "identifier": "charcoal",
+                "imagePath": "/item/charcoal/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli",
+                "name": "Lapis Lazuli",
+                "identifier": "lapis_lazuli",
+                "imagePath": "/item/lapis_lazuli/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Bone",
+                "name": "Bone",
+                "identifier": "bone",
+                "imagePath": "/item/bone/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ink_Sac",
+                "name": "Ink Sac",
+                "identifier": "ink_sac",
+                "imagePath": "/item/ink_sac/latest.png"
+            },
             {
                 "types": [
                     "dye"
@@ -206,51 +251,6 @@
                 "name": "Pink Dye",
                 "identifier": "pink_dye",
                 "imagePath": "/item/pink_dye/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation",
-                    "seeds"
-                ],
-                "wiki": "https://minecraft.wiki/w/Cocoa_Beans",
-                "name": "Cocoa Beans",
-                "identifier": "cocoa_beans",
-                "imagePath": "/item/cocoa_beans/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Ink_Sac",
-                "name": "Ink Sac",
-                "identifier": "ink_sac",
-                "imagePath": "/item/ink_sac/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Charcoal",
-                "name": "Charcoal",
-                "identifier": "charcoal",
-                "imagePath": "/item/charcoal/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bone",
-                "name": "Bone",
-                "identifier": "bone",
-                "imagePath": "/item/bone/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Bone_Meal",
-                "name": "Bone Meal",
-                "identifier": "bone_meal",
-                "imagePath": "/item/bone_meal/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Lapis_Lazuli",
-                "name": "Lapis Lazuli",
-                "identifier": "lapis_lazuli",
-                "imagePath": "/item/lapis_lazuli/latest.png"
             },
             {
                 "types": [],

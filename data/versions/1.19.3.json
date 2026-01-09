@@ -24,18 +24,18 @@
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Wither Spawn Egg",
-                "identifier": "wither_spawn_egg",
-                "imagePath": "/item/wither_spawn_egg/latest.png"
+                "name": "Ender Dragon Spawn Egg",
+                "identifier": "ender_dragon_spawn_egg",
+                "imagePath": "/item/ender_dragon_spawn_egg/latest.png"
             },
             {
                 "types": [
                     "spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "name": "Ender Dragon Spawn Egg",
-                "identifier": "ender_dragon_spawn_egg",
-                "imagePath": "/item/ender_dragon_spawn_egg/latest.png"
+                "name": "Wither Spawn Egg",
+                "identifier": "wither_spawn_egg",
+                "imagePath": "/item/wither_spawn_egg/latest.png"
             }
         ]
     },
