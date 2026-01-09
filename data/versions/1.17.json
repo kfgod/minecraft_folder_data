@@ -1088,34 +1088,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#The_Cutest_Predator",
-                "meta": {
-                    "icon": {
-                        "identifier": "axolotl_bucket",
-                        "name": "Bucket of Axolotl",
-                        "wiki": "https://minecraft.wiki/w/Bucket_of_Axolotl",
-                        "imagePath": "/item/axolotl_bucket/latest.png"
-                    }
-                },
-                "name": "The Cutest Predator",
-                "identifier": "husbandry/axolotl_in_a_bucket"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#The_Healing_Power_of_Friendship!",
-                "meta": {
-                    "icon": {
-                        "identifier": "tropical_fish_bucket",
-                        "name": "Bucket of Tropical Fish",
-                        "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
-                        "imagePath": "/item/tropical_fish_bucket/latest.png"
-                    }
-                },
-                "name": "The Healing Power of Friendship!",
-                "identifier": "husbandry/kill_axolotl_target"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Is_It_a_Bird?",
                 "meta": {
                     "icon": {
@@ -1127,62 +1099,6 @@
                 },
                 "name": "Surge Protector",
                 "identifier": "adventure/lightning_rod_with_villager_no_fire"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Wax_Off",
-                "meta": {
-                    "icon": {
-                        "identifier": "stone_axe",
-                        "name": "Stone Axe",
-                        "wiki": "https://minecraft.wiki/w/Stone_Axe",
-                        "imagePath": "/item/stone_axe/latest.png"
-                    }
-                },
-                "name": "Wax Off",
-                "identifier": "husbandry/wax_off"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Light_as_a_Rabbit",
-                "meta": {
-                    "icon": {
-                        "identifier": "leather_boots",
-                        "name": "Leather Boots",
-                        "wiki": "https://minecraft.wiki/w/Leather_Boots",
-                        "imagePath": "/item/leather_boots/latest.png"
-                    }
-                },
-                "name": "Light as a Rabbit",
-                "identifier": "adventure/walk_on_powder_snow_with_leather_boots"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Is_It_a_Bird?",
-                "meta": {
-                    "icon": {
-                        "identifier": "spyglass",
-                        "name": "Spyglass",
-                        "wiki": "https://minecraft.wiki/w/Spyglass",
-                        "imagePath": "/item/spyglass/latest.png"
-                    }
-                },
-                "name": "Is It a Bird?",
-                "identifier": "adventure/spyglass_at_parrot"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Glow_and_Behold!",
-                "meta": {
-                    "icon": {
-                        "identifier": "glow_ink_sac",
-                        "name": "Glow Ink Sac",
-                        "wiki": "https://minecraft.wiki/w/Glow_Ink_Sac",
-                        "imagePath": "/item/glow_ink_sac/latest.png"
-                    }
-                },
-                "name": "Glow and Behold!",
-                "identifier": "husbandry/make_a_sign_glow"
             },
             {
                 "types": [],
@@ -1214,17 +1130,73 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Wax_On",
+                "wiki": "https://minecraft.wiki/w/Advancement#Is_It_a_Bird?",
                 "meta": {
                     "icon": {
-                        "identifier": "honeycomb",
-                        "name": "Honeycomb",
-                        "wiki": "https://minecraft.wiki/w/Honeycomb",
-                        "imagePath": "/item/honeycomb/latest.png"
+                        "identifier": "spyglass",
+                        "name": "Spyglass",
+                        "wiki": "https://minecraft.wiki/w/Spyglass",
+                        "imagePath": "/item/spyglass/latest.png"
                     }
                 },
-                "name": "Wax On",
-                "identifier": "husbandry/wax_on"
+                "name": "Is It a Bird?",
+                "identifier": "adventure/spyglass_at_parrot"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Light_as_a_Rabbit",
+                "meta": {
+                    "icon": {
+                        "identifier": "leather_boots",
+                        "name": "Leather Boots",
+                        "wiki": "https://minecraft.wiki/w/Leather_Boots",
+                        "imagePath": "/item/leather_boots/latest.png"
+                    }
+                },
+                "name": "Light as a Rabbit",
+                "identifier": "adventure/walk_on_powder_snow_with_leather_boots"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#The_Cutest_Predator",
+                "meta": {
+                    "icon": {
+                        "identifier": "axolotl_bucket",
+                        "name": "Bucket of Axolotl",
+                        "wiki": "https://minecraft.wiki/w/Bucket_of_Axolotl",
+                        "imagePath": "/item/axolotl_bucket/latest.png"
+                    }
+                },
+                "name": "The Cutest Predator",
+                "identifier": "husbandry/axolotl_in_a_bucket"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#The_Healing_Power_of_Friendship!",
+                "meta": {
+                    "icon": {
+                        "identifier": "tropical_fish_bucket",
+                        "name": "Bucket of Tropical Fish",
+                        "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
+                        "imagePath": "/item/tropical_fish_bucket/latest.png"
+                    }
+                },
+                "name": "The Healing Power of Friendship!",
+                "identifier": "husbandry/kill_axolotl_target"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Glow_and_Behold!",
+                "meta": {
+                    "icon": {
+                        "identifier": "glow_ink_sac",
+                        "name": "Glow Ink Sac",
+                        "wiki": "https://minecraft.wiki/w/Glow_Ink_Sac",
+                        "imagePath": "/item/glow_ink_sac/latest.png"
+                    }
+                },
+                "name": "Glow and Behold!",
+                "identifier": "husbandry/make_a_sign_glow"
             },
             {
                 "types": [],
@@ -1239,6 +1211,34 @@
                 },
                 "name": "Whatever Floats Your Goat!",
                 "identifier": "husbandry/ride_a_boat_with_a_goat"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Wax_Off",
+                "meta": {
+                    "icon": {
+                        "identifier": "stone_axe",
+                        "name": "Stone Axe",
+                        "wiki": "https://minecraft.wiki/w/Stone_Axe",
+                        "imagePath": "/item/stone_axe/latest.png"
+                    }
+                },
+                "name": "Wax Off",
+                "identifier": "husbandry/wax_off"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Wax_On",
+                "meta": {
+                    "icon": {
+                        "identifier": "honeycomb",
+                        "name": "Honeycomb",
+                        "wiki": "https://minecraft.wiki/w/Honeycomb",
+                        "imagePath": "/item/honeycomb/latest.png"
+                    }
+                },
+                "name": "Wax On",
+                "identifier": "husbandry/wax_on"
             }
         ],
         "mob_variants": [

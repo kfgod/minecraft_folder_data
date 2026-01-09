@@ -132,6 +132,40 @@
             },
             {
                 "types": [
+                    "woodset/cherry",
+                    "signs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sign#Cherry",
+                "name": "Cherry Sign",
+                "identifier": "cherry_sign",
+                "imagePath": "/block/cherry_sign/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation",
+                    "flower/other",
+                    "woodset/cherry",
+                    "leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
+                "name": "Cherry Leaves",
+                "identifier": "cherry_leaves",
+                "imagePath": "/block/cherry_leaves/latest.png"
+            },
+            {
+                "types": [
+                    "vegetation",
+                    "woodset/cherry",
+                    "saplings",
+                    "plants"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
+                "name": "Cherry Sapling",
+                "identifier": "cherry_sapling",
+                "imagePath": "/block/cherry_sapling/latest.png"
+            },
+            {
+                "types": [
                     "woodset/bamboo",
                     "logs"
                 ],
@@ -271,27 +305,13 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower/other",
-                    "woodset/cherry",
-                    "leaves"
+                    "woodset/bamboo",
+                    "signs"
                 ],
-                "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
-                "name": "Cherry Leaves",
-                "identifier": "cherry_leaves",
-                "imagePath": "/block/cherry_leaves/latest.png"
-            },
-            {
-                "types": [
-                    "vegetation",
-                    "woodset/cherry",
-                    "saplings",
-                    "plants"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
-                "name": "Cherry Sapling",
-                "identifier": "cherry_sapling",
-                "imagePath": "/block/cherry_sapling/latest.png"
+                "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
+                "name": "Bamboo Sign",
+                "identifier": "bamboo_sign",
+                "imagePath": "/block/bamboo_sign/latest.png"
             },
             {
                 "types": [
@@ -431,32 +451,12 @@
             {
                 "types": [
                     "woodset/cherry",
-                    "signs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sign#Cherry",
-                "name": "Cherry Sign",
-                "identifier": "cherry_sign",
-                "imagePath": "/block/cherry_sign/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/cherry",
                     "hanging_signs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry",
                 "name": "Cherry Hanging Sign",
                 "identifier": "cherry_hanging_sign",
                 "imagePath": "/block/cherry_hanging_sign/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/bamboo",
-                    "signs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
-                "name": "Bamboo Sign",
-                "identifier": "bamboo_sign",
-                "imagePath": "/block/bamboo_sign/latest.png"
             },
             {
                 "types": [
@@ -975,48 +975,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Smithing_with_Style",
-                "meta": {
-                    "icon": {
-                        "identifier": "silence_armor_trim_smithing_template",
-                        "name": "Silence Armor Trim",
-                        "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim",
-                        "imagePath": "/item/silence_armor_trim_smithing_template/latest.png"
-                    }
-                },
-                "name": "Smithing with Style",
-                "identifier": "adventure/trim_with_all_exclusive_armor_patterns"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Crafting_a_New_Look",
-                "meta": {
-                    "icon": {
-                        "identifier": "dune_armor_trim_smithing_template",
-                        "name": "Dune Armor Trim",
-                        "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim",
-                        "imagePath": "/item/dune_armor_trim_smithing_template/latest.png"
-                    }
-                },
-                "name": "Crafting a New Look",
-                "identifier": "adventure/trim_with_any_armor_pattern"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Planting_the_Past",
-                "meta": {
-                    "icon": {
-                        "identifier": "pitcher_pod",
-                        "name": "Pitcher Pod",
-                        "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
-                        "imagePath": "/item/pitcher_pod/latest.png"
-                    }
-                },
-                "name": "Planting the Past",
-                "identifier": "husbandry/plant_any_sniffer_seed"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Careful_Restoration",
                 "meta": {
                     "icon": {
@@ -1028,34 +986,6 @@
                 },
                 "name": "Careful Restoration",
                 "identifier": "adventure/craft_decorated_pot_using_only_sherds"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Smells_Interesting",
-                "meta": {
-                    "icon": {
-                        "identifier": "sniffer_egg",
-                        "name": "Sniffer Egg",
-                        "wiki": "https://minecraft.wiki/w/Sniffer_Egg",
-                        "imagePath": "/block/sniffer_egg/latest.png"
-                    }
-                },
-                "name": "Smells Interesting",
-                "identifier": "husbandry/obtain_sniffer_egg"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Little_Sniffs",
-                "meta": {
-                    "icon": {
-                        "identifier": "torchflower_seeds",
-                        "name": "Torchflower Seeds",
-                        "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
-                        "imagePath": "/item/torchflower_seeds/latest.png"
-                    }
-                },
-                "name": "Little Sniffs",
-                "identifier": "husbandry/feed_snifflet"
             },
             {
                 "types": [],
@@ -1084,6 +1014,76 @@
                 },
                 "name": "Respecting the Remnants",
                 "identifier": "adventure/salvage_sherd"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Smithing_with_Style",
+                "meta": {
+                    "icon": {
+                        "identifier": "silence_armor_trim_smithing_template",
+                        "name": "Silence Armor Trim",
+                        "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim",
+                        "imagePath": "/item/silence_armor_trim_smithing_template/latest.png"
+                    }
+                },
+                "name": "Smithing with Style",
+                "identifier": "adventure/trim_with_all_exclusive_armor_patterns"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Crafting_a_New_Look",
+                "meta": {
+                    "icon": {
+                        "identifier": "dune_armor_trim_smithing_template",
+                        "name": "Dune Armor Trim",
+                        "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim",
+                        "imagePath": "/item/dune_armor_trim_smithing_template/latest.png"
+                    }
+                },
+                "name": "Crafting a New Look",
+                "identifier": "adventure/trim_with_any_armor_pattern"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Little_Sniffs",
+                "meta": {
+                    "icon": {
+                        "identifier": "torchflower_seeds",
+                        "name": "Torchflower Seeds",
+                        "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
+                        "imagePath": "/item/torchflower_seeds/latest.png"
+                    }
+                },
+                "name": "Little Sniffs",
+                "identifier": "husbandry/feed_snifflet"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Smells_Interesting",
+                "meta": {
+                    "icon": {
+                        "identifier": "sniffer_egg",
+                        "name": "Sniffer Egg",
+                        "wiki": "https://minecraft.wiki/w/Sniffer_Egg",
+                        "imagePath": "/block/sniffer_egg/latest.png"
+                    }
+                },
+                "name": "Smells Interesting",
+                "identifier": "husbandry/obtain_sniffer_egg"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Planting_the_Past",
+                "meta": {
+                    "icon": {
+                        "identifier": "pitcher_pod",
+                        "name": "Pitcher Pod",
+                        "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
+                        "imagePath": "/item/pitcher_pod/latest.png"
+                    }
+                },
+                "name": "Planting the Past",
+                "identifier": "husbandry/plant_any_sniffer_seed"
             }
         ],
         "biomes": [

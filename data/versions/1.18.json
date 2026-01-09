@@ -14,6 +14,20 @@
         "advancements": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Caves_&_Cliffs",
+                "meta": {
+                    "icon": {
+                        "identifier": "water_bucket",
+                        "name": "Water Bucket",
+                        "wiki": "https://minecraft.wiki/w/Water_Bucket",
+                        "imagePath": "/item/water_bucket/latest.png"
+                    }
+                },
+                "name": "Caves & Cliffs",
+                "identifier": "adventure/fall_from_world_height"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Sound_of_Music",
                 "meta": {
                     "icon": {
@@ -39,20 +53,6 @@
                 },
                 "name": "Star Trader",
                 "identifier": "adventure/trade_at_world_height"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Caves_&_Cliffs",
-                "meta": {
-                    "icon": {
-                        "identifier": "water_bucket",
-                        "name": "Water Bucket",
-                        "wiki": "https://minecraft.wiki/w/Water_Bucket",
-                        "imagePath": "/item/water_bucket/latest.png"
-                    }
-                },
-                "name": "Caves & Cliffs",
-                "identifier": "adventure/fall_from_world_height"
             },
             {
                 "types": [],

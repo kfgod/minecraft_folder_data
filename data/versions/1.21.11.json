@@ -285,47 +285,5 @@
     },
     "tags": [],
     "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11",
-    "type": "drop",
-    "changed": {
-        "items": [
-            {
-                "identifier": "zombie_horse_spawn_egg",
-                "changes": [
-                    {
-                        "type": "texture_change",
-                        "description": "Zombie Horse Spawn Egg now has a new texture.",
-                        "images": {
-                            "from": "/item/zombie_horse_spawn_egg/before_1_21_11.png",
-                            "to": "/item/zombie_horse_spawn_egg/latest.png"
-                        }
-                    }
-                ],
-                "name": "Zombie Horse Spawn Egg",
-                "wiki": "https://minecraft.wiki/w/Spawn_Egg",
-                "imagePath": "/item/zombie_horse_spawn_egg/latest.png"
-            }
-        ],
-        "mobs": [
-            {
-                "identifier": "zombie_horse",
-                "changes": [
-                    {
-                        "type": "texture_change",
-                        "description": "Zombie Horse now has a new texture.",
-                        "images": {
-                            "from": "/mob/zombie_horse/before_1_21_11.png",
-                            "to": "/mob/zombie_horse/latest.png"
-                        }
-                    },
-                    {
-                        "type": "spawn_change",
-                        "description": "Now spawns naturally, in plains and savanna biomes"
-                    }
-                ],
-                "name": "Zombie Horse",
-                "wiki": "https://minecraft.wiki/w/Zombie_Horse",
-                "imagePath": "/mob/zombie_horse/latest.png"
-            }
-        ]
-    }
+    "type": "drop"
 }

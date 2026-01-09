@@ -886,29 +886,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Ol'_Betsy",
-                "meta": {
-                    "icon": {
-                        "identifier": "crossbow",
-                        "name": "Crossbow",
-                        "wiki": "https://minecraft.wiki/w/Crossbow",
-                        "imagePath": "/item/crossbow/latest.png"
-                    }
-                },
-                "name": "Ol' Betsy",
-                "identifier": "adventure/ol_betsy"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#A_Complete_Catalogue",
-                "meta": {
-                    "icon": "item/cod"
-                },
-                "name": "A Complete Catalogue",
-                "identifier": "husbandry/complete_catalogue"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Arbalistic",
                 "meta": {
                     "icon": {
@@ -920,20 +897,6 @@
                 },
                 "name": "Arbalistic",
                 "identifier": "adventure/arbalistic"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Two_Birds,_One_Arrow",
-                "meta": {
-                    "icon": {
-                        "identifier": "crossbow",
-                        "name": "Crossbow",
-                        "wiki": "https://minecraft.wiki/w/Crossbow",
-                        "imagePath": "/item/crossbow/latest.png"
-                    }
-                },
-                "name": "Two Birds, One Arrow",
-                "identifier": "adventure/two_birds_one_arrow"
             },
             {
                 "types": [],
@@ -951,7 +914,7 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Who's_the_Pillager_Now?",
+                "wiki": "https://minecraft.wiki/w/Advancement#Ol'_Betsy",
                 "meta": {
                     "icon": {
                         "identifier": "crossbow",
@@ -960,8 +923,22 @@
                         "imagePath": "/item/crossbow/latest.png"
                     }
                 },
-                "name": "Who's the Pillager Now?",
-                "identifier": "adventure/whos_the_pillager_now"
+                "name": "Ol' Betsy",
+                "identifier": "adventure/ol_betsy"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Two_Birds,_One_Arrow",
+                "meta": {
+                    "icon": {
+                        "identifier": "crossbow",
+                        "name": "Crossbow",
+                        "wiki": "https://minecraft.wiki/w/Crossbow",
+                        "imagePath": "/item/crossbow/latest.png"
+                    }
+                },
+                "name": "Two Birds, One Arrow",
+                "identifier": "adventure/two_birds_one_arrow"
             },
             {
                 "types": [],
@@ -976,6 +953,29 @@
                 },
                 "name": "Voluntary Exile",
                 "identifier": "adventure/voluntary_exile"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Who's_the_Pillager_Now?",
+                "meta": {
+                    "icon": {
+                        "identifier": "crossbow",
+                        "name": "Crossbow",
+                        "wiki": "https://minecraft.wiki/w/Crossbow",
+                        "imagePath": "/item/crossbow/latest.png"
+                    }
+                },
+                "name": "Who's the Pillager Now?",
+                "identifier": "adventure/whos_the_pillager_now"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#A_Complete_Catalogue",
+                "meta": {
+                    "icon": "item/cod"
+                },
+                "name": "A Complete Catalogue",
+                "identifier": "husbandry/complete_catalogue"
             }
         ],
         "mob_variants": [

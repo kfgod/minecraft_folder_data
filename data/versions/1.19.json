@@ -716,20 +716,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#When_the_Squad_Hops_into_Town",
-                "meta": {
-                    "icon": {
-                        "identifier": "lead",
-                        "name": "Lead",
-                        "wiki": "https://minecraft.wiki/w/Lead",
-                        "imagePath": "/item/lead/latest.png"
-                    }
-                },
-                "name": "When the Squad Hops into Town",
-                "identifier": "husbandry/leash_all_frog_variants"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Sneak_100",
                 "meta": {
                     "icon": {
@@ -741,48 +727,6 @@
                 },
                 "name": "Sneak 100",
                 "identifier": "adventure/avoid_vibration"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#You've_Got_a_Friend_in_Me",
-                "meta": {
-                    "icon": {
-                        "identifier": "cookie",
-                        "name": "Cookie",
-                        "wiki": "https://minecraft.wiki/w/Cookie",
-                        "imagePath": "/item/cookie/latest.png"
-                    }
-                },
-                "name": "You've Got a Friend in Me",
-                "identifier": "husbandry/allay_deliver_item_to_player"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Bukkit_Bukkit",
-                "meta": {
-                    "icon": {
-                        "identifier": "tadpole_bucket",
-                        "name": "Bucket of Tadpole",
-                        "wiki": "https://minecraft.wiki/w/Bucket_of_Tadpole",
-                        "imagePath": "/item/tadpole_bucket/latest.png"
-                    }
-                },
-                "name": "Bukkit Bukkit",
-                "identifier": "husbandry/tadpole_in_a_bucket"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#With_Our_Powers_Combined!",
-                "meta": {
-                    "icon": {
-                        "identifier": "verdant_froglight",
-                        "name": "Verdant Froglight",
-                        "wiki": "https://minecraft.wiki/w/Froglight#Verdant",
-                        "imagePath": "/block/verdant_froglight/latest.png"
-                    }
-                },
-                "name": "With Our Powers Combined!",
-                "identifier": "husbandry/froglights"
             },
             {
                 "types": [],
@@ -811,6 +755,62 @@
                 },
                 "name": "Birthday Song",
                 "identifier": "husbandry/allay_deliver_cake_to_note_block"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#You've_Got_a_Friend_in_Me",
+                "meta": {
+                    "icon": {
+                        "identifier": "cookie",
+                        "name": "Cookie",
+                        "wiki": "https://minecraft.wiki/w/Cookie",
+                        "imagePath": "/item/cookie/latest.png"
+                    }
+                },
+                "name": "You've Got a Friend in Me",
+                "identifier": "husbandry/allay_deliver_item_to_player"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#With_Our_Powers_Combined!",
+                "meta": {
+                    "icon": {
+                        "identifier": "verdant_froglight",
+                        "name": "Verdant Froglight",
+                        "wiki": "https://minecraft.wiki/w/Froglight#Verdant",
+                        "imagePath": "/block/verdant_froglight/latest.png"
+                    }
+                },
+                "name": "With Our Powers Combined!",
+                "identifier": "husbandry/froglights"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#When_the_Squad_Hops_into_Town",
+                "meta": {
+                    "icon": {
+                        "identifier": "lead",
+                        "name": "Lead",
+                        "wiki": "https://minecraft.wiki/w/Lead",
+                        "imagePath": "/item/lead/latest.png"
+                    }
+                },
+                "name": "When the Squad Hops into Town",
+                "identifier": "husbandry/leash_all_frog_variants"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Bukkit_Bukkit",
+                "meta": {
+                    "icon": {
+                        "identifier": "tadpole_bucket",
+                        "name": "Bucket of Tadpole",
+                        "wiki": "https://minecraft.wiki/w/Bucket_of_Tadpole",
+                        "imagePath": "/item/tadpole_bucket/latest.png"
+                    }
+                },
+                "name": "Bukkit Bukkit",
+                "identifier": "husbandry/tadpole_in_a_bucket"
             }
         ],
         "mob_variants": [

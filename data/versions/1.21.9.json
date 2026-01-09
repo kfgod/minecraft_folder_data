@@ -10,24 +10,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Copper_Chain#Unoxidized",
-                "name": "Copper Chain",
-                "identifier": "copper_chain",
-                "imagePath": "/block/copper_chain/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed",
                 "name": "Exposed Copper Bars",
                 "identifier": "exposed_copper_bars",
                 "imagePath": "/block/exposed_copper_bars/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
-                "name": "Exposed Copper Chain",
-                "identifier": "exposed_copper_chain",
-                "imagePath": "/block/exposed_copper_chain/latest.png"
             },
             {
                 "types": [],
@@ -38,24 +24,10 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered",
-                "name": "Weathered Copper Chain",
-                "identifier": "weathered_copper_chain",
-                "imagePath": "/block/weathered_copper_chain/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized",
                 "name": "Oxidized Copper Bars",
                 "identifier": "oxidized_copper_bars",
                 "imagePath": "/block/oxidized_copper_bars/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Copper_Chain#Oxidized",
-                "name": "Oxidized Copper Chain",
-                "identifier": "oxidized_copper_chain",
-                "imagePath": "/block/oxidized_copper_chain/latest.png"
             },
             {
                 "types": [
@@ -67,6 +39,67 @@
                 "name": "Waxed Copper Bars",
                 "identifier": "waxed_copper_bars",
                 "imagePath": "/block/waxed_copper_bars/latest.png"
+            },
+            {
+                "types": [
+                    "copper/exposed",
+                    "copper/waxed",
+                    "hidden"
+                ],
+                "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed",
+                "name": "Waxed Exposed Copper Bars",
+                "identifier": "waxed_exposed_copper_bars",
+                "imagePath": "/block/waxed_exposed_copper_bars/latest.png"
+            },
+            {
+                "types": [
+                    "copper/weathered",
+                    "copper/waxed",
+                    "hidden"
+                ],
+                "wiki": "https://minecraft.wiki/w/Copper_Bars#Weathered",
+                "name": "Waxed Weathered Copper Bars",
+                "identifier": "waxed_weathered_copper_bars",
+                "imagePath": "/block/waxed_weathered_copper_bars/latest.png"
+            },
+            {
+                "types": [
+                    "copper/oxidized",
+                    "copper/waxed",
+                    "hidden"
+                ],
+                "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized",
+                "name": "Waxed Oxidized Copper Bars",
+                "identifier": "waxed_oxidized_copper_bars",
+                "imagePath": "/block/waxed_oxidized_copper_bars/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Copper_Chain#Unoxidized",
+                "name": "Copper Chain",
+                "identifier": "copper_chain",
+                "imagePath": "/block/copper_chain/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
+                "name": "Exposed Copper Chain",
+                "identifier": "exposed_copper_chain",
+                "imagePath": "/block/exposed_copper_chain/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered",
+                "name": "Weathered Copper Chain",
+                "identifier": "weathered_copper_chain",
+                "imagePath": "/block/weathered_copper_chain/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Copper_Chain#Oxidized",
+                "name": "Oxidized Copper Chain",
+                "identifier": "oxidized_copper_chain",
+                "imagePath": "/block/oxidized_copper_chain/latest.png"
             },
             {
                 "types": [
@@ -85,17 +118,6 @@
                     "copper/waxed",
                     "hidden"
                 ],
-                "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed",
-                "name": "Waxed Exposed Copper Bars",
-                "identifier": "waxed_exposed_copper_bars",
-                "imagePath": "/block/waxed_exposed_copper_bars/latest.png"
-            },
-            {
-                "types": [
-                    "copper/exposed",
-                    "copper/waxed",
-                    "hidden"
-                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
                 "name": "Waxed Exposed Copper Chain",
                 "identifier": "waxed_exposed_copper_chain",
@@ -107,32 +129,10 @@
                     "copper/waxed",
                     "hidden"
                 ],
-                "wiki": "https://minecraft.wiki/w/Copper_Bars#Weathered",
-                "name": "Waxed Weathered Copper Bars",
-                "identifier": "waxed_weathered_copper_bars",
-                "imagePath": "/block/waxed_weathered_copper_bars/latest.png"
-            },
-            {
-                "types": [
-                    "copper/weathered",
-                    "copper/waxed",
-                    "hidden"
-                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered",
                 "name": "Waxed Weathered Copper Chain",
                 "identifier": "waxed_weathered_copper_chain",
                 "imagePath": "/block/waxed_weathered_copper_chain/latest.png"
-            },
-            {
-                "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
-                    "hidden"
-                ],
-                "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized",
-                "name": "Waxed Oxidized Copper Bars",
-                "identifier": "waxed_oxidized_copper_bars",
-                "imagePath": "/block/waxed_oxidized_copper_bars/latest.png"
             },
             {
                 "types": [

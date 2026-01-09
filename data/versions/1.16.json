@@ -847,6 +847,48 @@
         "advancements": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Bullseye",
+                "meta": {
+                    "icon": {
+                        "identifier": "target",
+                        "name": "Target",
+                        "wiki": "https://minecraft.wiki/w/Target",
+                        "imagePath": "/block/target/latest.png"
+                    }
+                },
+                "name": "Bullseye",
+                "identifier": "adventure/bullseye"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Country_Lode,_Take_Me_Home",
+                "meta": {
+                    "icon": {
+                        "identifier": "lodestone",
+                        "name": "Lodestone",
+                        "wiki": "https://minecraft.wiki/w/Lodestone",
+                        "imagePath": "/block/lodestone/latest.png"
+                    }
+                },
+                "name": "Country Lode, Take Me Home",
+                "identifier": "adventure/use_lodestone"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Not_Quite_\"Nine\"_Lives",
+                "meta": {
+                    "icon": {
+                        "identifier": "respawn_anchor",
+                        "name": "Respawn Anchor",
+                        "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
+                        "imagePath": "/block/respawn_anchor/latest.png"
+                    }
+                },
+                "name": "Not Quite \"Nine\" Lives",
+                "identifier": "nether/charge_respawn_anchor"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Oh_Shiny",
                 "meta": {
                     "icon": {
@@ -858,6 +900,76 @@
                 },
                 "name": "Oh Shiny",
                 "identifier": "nether/distract_piglin"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Hot_Tourist_Destinations",
+                "meta": {
+                    "icon": {
+                        "identifier": "netherite_boots",
+                        "name": "Netherite Boots",
+                        "wiki": "https://minecraft.wiki/w/Netherite_Boots",
+                        "imagePath": "/item/netherite_boots/latest.png"
+                    }
+                },
+                "name": "Hot Tourist Destinations",
+                "identifier": "nether/explore_nether"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Those_Were_the_Days",
+                "meta": {
+                    "icon": {
+                        "identifier": "polished_blackstone_bricks",
+                        "name": "Polished Blackstone Bricks",
+                        "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Bricks",
+                        "imagePath": "/block/polished_blackstone_bricks/latest.png"
+                    }
+                },
+                "name": "Those Were the Days",
+                "identifier": "nether/find_bastion"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#War_Pigs",
+                "meta": {
+                    "icon": {
+                        "identifier": "chest",
+                        "name": "Chest",
+                        "wiki": "https://minecraft.wiki/w/Chest",
+                        "imagePath": "/block/chest/latest.png"
+                    }
+                },
+                "name": "War Pigs",
+                "identifier": "nether/loot_bastion"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Cover_Me_in_Debris",
+                "meta": {
+                    "icon": {
+                        "identifier": "netherite_chestplate",
+                        "name": "Netherite Chestplate",
+                        "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
+                        "imagePath": "/item/netherite_chestplate/latest.png"
+                    }
+                },
+                "name": "Cover Me in Debris",
+                "identifier": "nether/netherite_armor"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Hidden_in_the_Depths",
+                "meta": {
+                    "icon": {
+                        "identifier": "ancient_debris",
+                        "name": "Ancient Debris",
+                        "wiki": "https://minecraft.wiki/w/Ancient_Debris",
+                        "imagePath": "/block/ancient_debris/latest.png"
+                    }
+                },
+                "name": "Hidden in the Depths",
+                "identifier": "nether/obtain_ancient_debris"
             },
             {
                 "types": [],
@@ -886,118 +998,6 @@
                 },
                 "name": "This Boat Has Legs",
                 "identifier": "nether/ride_strider"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Hot_Tourist_Destinations",
-                "meta": {
-                    "icon": {
-                        "identifier": "netherite_boots",
-                        "name": "Netherite Boots",
-                        "wiki": "https://minecraft.wiki/w/Netherite_Boots",
-                        "imagePath": "/item/netherite_boots/latest.png"
-                    }
-                },
-                "name": "Hot Tourist Destinations",
-                "identifier": "nether/explore_nether"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Not_Quite_\"Nine\"_Lives",
-                "meta": {
-                    "icon": {
-                        "identifier": "respawn_anchor",
-                        "name": "Respawn Anchor",
-                        "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
-                        "imagePath": "/block/respawn_anchor/latest.png"
-                    }
-                },
-                "name": "Not Quite \"Nine\" Lives",
-                "identifier": "nether/charge_respawn_anchor"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Cover_Me_in_Debris",
-                "meta": {
-                    "icon": {
-                        "identifier": "netherite_chestplate",
-                        "name": "Netherite Chestplate",
-                        "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
-                        "imagePath": "/item/netherite_chestplate/latest.png"
-                    }
-                },
-                "name": "Cover Me in Debris",
-                "identifier": "nether/netherite_armor"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#War_Pigs",
-                "meta": {
-                    "icon": {
-                        "identifier": "chest",
-                        "name": "Chest",
-                        "wiki": "https://minecraft.wiki/w/Chest",
-                        "imagePath": "/block/chest/latest.png"
-                    }
-                },
-                "name": "War Pigs",
-                "identifier": "nether/loot_bastion"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Hidden_in_the_Depths",
-                "meta": {
-                    "icon": {
-                        "identifier": "ancient_debris",
-                        "name": "Ancient Debris",
-                        "wiki": "https://minecraft.wiki/w/Ancient_Debris",
-                        "imagePath": "/block/ancient_debris/latest.png"
-                    }
-                },
-                "name": "Hidden in the Depths",
-                "identifier": "nether/obtain_ancient_debris"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Country_Lode,_Take_Me_Home",
-                "meta": {
-                    "icon": {
-                        "identifier": "lodestone",
-                        "name": "Lodestone",
-                        "wiki": "https://minecraft.wiki/w/Lodestone",
-                        "imagePath": "/block/lodestone/latest.png"
-                    }
-                },
-                "name": "Country Lode, Take Me Home",
-                "identifier": "adventure/use_lodestone"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Bullseye",
-                "meta": {
-                    "icon": {
-                        "identifier": "target",
-                        "name": "Target",
-                        "wiki": "https://minecraft.wiki/w/Target",
-                        "imagePath": "/block/target/latest.png"
-                    }
-                },
-                "name": "Bullseye",
-                "identifier": "adventure/bullseye"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Those_Were_the_Days",
-                "meta": {
-                    "icon": {
-                        "identifier": "polished_blackstone_bricks",
-                        "name": "Polished Blackstone Bricks",
-                        "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Bricks",
-                        "imagePath": "/block/polished_blackstone_bricks/latest.png"
-                    }
-                },
-                "name": "Those Were the Days",
-                "identifier": "nether/find_bastion"
             }
         ],
         "biomes": [

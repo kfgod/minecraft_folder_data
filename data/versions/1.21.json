@@ -530,15 +530,6 @@
                 "imagePath": "/block/waxed_oxidized_copper_bulb/latest.png"
             },
             {
-                "types": [
-                    "vault"
-                ],
-                "wiki": "https://minecraft.wiki/w/Vault",
-                "name": "Vault",
-                "identifier": "vault",
-                "imagePath": "/block/vault/latest.png"
-            },
-            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Crafter",
                 "name": "Crafter",
@@ -560,6 +551,31 @@
                 "name": "Trial Spawner",
                 "identifier": "trial_spawner",
                 "imagePath": "/block/trial_spawner/latest.png"
+            },
+            {
+                "types": [
+                    "trial_spawner"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ominous_Trial_Spawner",
+                "name": "Ominous Trial Spawner",
+                "identifier": "ominous_trial_spawner"
+            },
+            {
+                "types": [
+                    "vault"
+                ],
+                "wiki": "https://minecraft.wiki/w/Vault",
+                "name": "Vault",
+                "identifier": "vault",
+                "imagePath": "/block/vault/latest.png"
+            },
+            {
+                "types": [
+                    "vault"
+                ],
+                "wiki": "https://minecraft.wiki/w/Ominous_Vault",
+                "name": "Ominous Vault",
+                "identifier": "ominous_vault"
             },
             {
                 "types": [
@@ -668,22 +684,6 @@
                 "name": "Painting – Meditative",
                 "identifier": "meditative_painting",
                 "imagePath": "/block/painting/latest.png"
-            },
-            {
-                "types": [
-                    "trial_spawner"
-                ],
-                "wiki": "https://minecraft.wiki/w/Ominous_Trial_Spawner",
-                "name": "Ominous Trial Spawner",
-                "identifier": "ominous_trial_spawner"
-            },
-            {
-                "types": [
-                    "vault"
-                ],
-                "wiki": "https://minecraft.wiki/w/Ominous_Vault",
-                "name": "Ominous Vault",
-                "identifier": "ominous_vault"
             },
             {
                 "types": [
@@ -963,24 +963,6 @@
             },
             {
                 "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Breach I-IV",
-                "identifier": "breach_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
-                    "enchantments"
-                ],
-                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
-                "name": "Enchanted Book – Density I-V",
-                "identifier": "density_enchanted_book",
-                "imagePath": "/item/enchanted_book/latest.png"
-            },
-            {
-                "types": [
                     "effect/infested"
                 ],
                 "image_identifier": "lingering_potion_of_infestation",
@@ -1108,6 +1090,24 @@
                 "wiki": "https://minecraft.wiki/w/Enchanted_Book",
                 "name": "Enchanted Book – Wind Burst I-III",
                 "identifier": "wind_burst_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Breach I-IV",
+                "identifier": "breach_enchanted_book",
+                "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [
+                    "enchantments"
+                ],
+                "wiki": "https://minecraft.wiki/w/Enchanted_Book",
+                "name": "Enchanted Book – Density I-V",
+                "identifier": "density_enchanted_book",
                 "imagePath": "/item/enchanted_book/latest.png"
             }
         ],
@@ -1416,6 +1416,20 @@
         "advancements": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Blowback",
+                "meta": {
+                    "icon": {
+                        "identifier": "wind_charge",
+                        "name": "Wind Charge",
+                        "wiki": "https://minecraft.wiki/w/Wind_Charge",
+                        "imagePath": "/item/wind_charge/latest.png"
+                    }
+                },
+                "name": "Blowback",
+                "identifier": "adventure/blowback"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Crafters_Crafting_Crafters",
                 "meta": {
                     "icon": {
@@ -1427,6 +1441,62 @@
                 },
                 "name": "Crafters Crafting Crafters",
                 "identifier": "adventure/crafters_crafting_crafters"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Lighten_Up",
+                "meta": {
+                    "icon": {
+                        "identifier": "copper_bulb",
+                        "name": "Copper Bulb",
+                        "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized",
+                        "imagePath": "/block/copper_bulb/latest.png"
+                    }
+                },
+                "name": "Lighten Up",
+                "identifier": "adventure/lighten_up"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Minecraft:_Trial(s)_Edition",
+                "meta": {
+                    "icon": {
+                        "identifier": "chiseled_tuff",
+                        "name": "Chiseled Tuff",
+                        "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Stairs",
+                        "imagePath": "/block/chiseled_tuff/latest.png"
+                    }
+                },
+                "name": "Minecraft: Trial(s) Edition",
+                "identifier": "adventure/minecraft_trials_edition"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Over-Overkill",
+                "meta": {
+                    "icon": {
+                        "identifier": "mace",
+                        "name": "Mace",
+                        "wiki": "https://minecraft.wiki/w/Mace",
+                        "imagePath": "/item/mace/latest.png"
+                    }
+                },
+                "name": "Over-Overkill",
+                "identifier": "adventure/overoverkill"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Revaulting",
+                "meta": {
+                    "icon": {
+                        "identifier": "ominous_trial_key",
+                        "name": "Ominous Trial Key",
+                        "wiki": "https://minecraft.wiki/w/Ominous_Trial_Key",
+                        "imagePath": "/item/ominous_trial_key/latest.png"
+                    }
+                },
+                "name": "Revaulting",
+                "identifier": "adventure/revaulting"
             },
             {
                 "types": [],
@@ -1455,76 +1525,6 @@
                 },
                 "name": "Who Needs Rockets?",
                 "identifier": "adventure/who_needs_rockets"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Minecraft:_Trial(s)_Edition",
-                "meta": {
-                    "icon": {
-                        "identifier": "chiseled_tuff",
-                        "name": "Chiseled Tuff",
-                        "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Stairs",
-                        "imagePath": "/block/chiseled_tuff/latest.png"
-                    }
-                },
-                "name": "Minecraft: Trial(s) Edition",
-                "identifier": "adventure/minecraft_trials_edition"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Lighten_Up",
-                "meta": {
-                    "icon": {
-                        "identifier": "copper_bulb",
-                        "name": "Copper Bulb",
-                        "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized",
-                        "imagePath": "/block/copper_bulb/latest.png"
-                    }
-                },
-                "name": "Lighten Up",
-                "identifier": "adventure/lighten_up"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Over-Overkill",
-                "meta": {
-                    "icon": {
-                        "identifier": "mace",
-                        "name": "Mace",
-                        "wiki": "https://minecraft.wiki/w/Mace",
-                        "imagePath": "/item/mace/latest.png"
-                    }
-                },
-                "name": "Over-Overkill",
-                "identifier": "adventure/overoverkill"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Blowback",
-                "meta": {
-                    "icon": {
-                        "identifier": "wind_charge",
-                        "name": "Wind Charge",
-                        "wiki": "https://minecraft.wiki/w/Wind_Charge",
-                        "imagePath": "/item/wind_charge/latest.png"
-                    }
-                },
-                "name": "Blowback",
-                "identifier": "adventure/blowback"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Revaulting",
-                "meta": {
-                    "icon": {
-                        "identifier": "ominous_trial_key",
-                        "name": "Ominous Trial Key",
-                        "wiki": "https://minecraft.wiki/w/Ominous_Trial_Key",
-                        "imagePath": "/item/ominous_trial_key/latest.png"
-                    }
-                },
-                "name": "Revaulting",
-                "identifier": "adventure/revaulting"
             }
         ],
         "structures": [

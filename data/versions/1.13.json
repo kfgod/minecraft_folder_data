@@ -1050,20 +1050,6 @@
         "advancements": [
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Very_Very_Frightening",
-                "meta": {
-                    "icon": {
-                        "identifier": "trident",
-                        "name": "Trident",
-                        "wiki": "https://minecraft.wiki/w/Trident",
-                        "imagePath": "/item/trident/latest.png"
-                    }
-                },
-                "name": "Very Very Frightening",
-                "identifier": "adventure/very_very_frightening"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#A_Throwaway_Joke",
                 "meta": {
                     "icon": {
@@ -1075,6 +1061,20 @@
                 },
                 "name": "A Throwaway Joke",
                 "identifier": "adventure/throw_trident"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Very_Very_Frightening",
+                "meta": {
+                    "icon": {
+                        "identifier": "trident",
+                        "name": "Trident",
+                        "wiki": "https://minecraft.wiki/w/Trident",
+                        "imagePath": "/item/trident/latest.png"
+                    }
+                },
+                "name": "Very Very Frightening",
+                "identifier": "adventure/very_very_frightening"
             },
             {
                 "types": [],

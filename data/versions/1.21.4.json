@@ -132,6 +132,26 @@
                 "imagePath": "/block/pale_oak_button/latest.png"
             },
             {
+                "types": [
+                    "woodset/pale_oak",
+                    "signs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak",
+                "name": "Pale Oak Sign",
+                "identifier": "pale_oak_sign",
+                "imagePath": "/block/pale_oak_sign/latest.png"
+            },
+            {
+                "types": [
+                    "woodset/pale_oak",
+                    "hanging_signs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
+                "name": "Pale Oak Hanging Sign",
+                "identifier": "pale_oak_hanging_sign",
+                "imagePath": "/block/pale_oak_hanging_sign/latest.png"
+            },
+            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Resin_Bricks",
                 "name": "Resin Bricks",
@@ -248,26 +268,6 @@
                 "name": "Block of Resin",
                 "identifier": "resin_block",
                 "imagePath": "/block/resin_block/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "signs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak",
-                "name": "Pale Oak Sign",
-                "identifier": "pale_oak_sign",
-                "imagePath": "/block/pale_oak_sign/latest.png"
-            },
-            {
-                "types": [
-                    "woodset/pale_oak",
-                    "hanging_signs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
-                "name": "Pale Oak Hanging Sign",
-                "identifier": "pale_oak_hanging_sign",
-                "imagePath": "/block/pale_oak_hanging_sign/latest.png"
             },
             {
                 "types": [],

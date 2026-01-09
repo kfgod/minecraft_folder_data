@@ -48,6 +48,20 @@
         "advancements": [
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#Isn't_It_Scute?",
+                "meta": {
+                    "icon": {
+                        "identifier": "armadillo_scute",
+                        "name": "Armadillo Scute",
+                        "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
+                        "imagePath": "/item/armadillo_scute/latest.png"
+                    }
+                },
+                "name": "Isn't It Scute?",
+                "identifier": "adventure/brush_armadillo"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Advancement#Shear_Brilliance",
                 "meta": {
                     "icon": {
@@ -59,20 +73,6 @@
                 },
                 "name": "Shear Brilliance",
                 "identifier": "husbandry/remove_wolf_armor"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#The_Whole_Pack",
-                "meta": {
-                    "icon": {
-                        "identifier": "bone",
-                        "name": "Bone",
-                        "wiki": "https://minecraft.wiki/w/Bone",
-                        "imagePath": "/item/bone/latest.png"
-                    }
-                },
-                "name": "The Whole Pack",
-                "identifier": "husbandry/whole_pack"
             },
             {
                 "types": [],
@@ -90,17 +90,17 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Advancement#Isn't_It_Scute?",
+                "wiki": "https://minecraft.wiki/w/Advancement#The_Whole_Pack",
                 "meta": {
                     "icon": {
-                        "identifier": "armadillo_scute",
-                        "name": "Armadillo Scute",
-                        "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
-                        "imagePath": "/item/armadillo_scute/latest.png"
+                        "identifier": "bone",
+                        "name": "Bone",
+                        "wiki": "https://minecraft.wiki/w/Bone",
+                        "imagePath": "/item/bone/latest.png"
                     }
                 },
-                "name": "Isn't It Scute?",
-                "identifier": "adventure/brush_armadillo"
+                "name": "The Whole Pack",
+                "identifier": "husbandry/whole_pack"
             }
         ],
         "mob_variants": [
