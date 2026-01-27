@@ -1,0 +1,23 @@
+{
+    "added": {
+        "blocks": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Golden_Dandelion",
+                "name": "Golden Dandelion",
+                "identifier": "golden_dandelion",
+                "imagePath": "/block/golden_dandelion/latest.png"
+            }
+        ]
+    },
+    "image": null,
+    "name": "Drop 1",
+    "release_date": null,
+    "release_version": {
+        "bedrock": null,
+        "java": "26.1"
+    },
+    "tags": [],
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1",
+    "type": "drop"
+}
