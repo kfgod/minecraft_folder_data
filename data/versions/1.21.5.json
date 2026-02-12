@@ -130,7 +130,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Desert Village Map",
                 "identifier": "desert_village_map",
-                "imagePath": "/item/desert_village_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -139,7 +139,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Jungle Explorer Map",
                 "identifier": "jungle_explorer_map",
-                "imagePath": "/item/jungle_explorer_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -148,7 +148,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Plains Village Map",
                 "identifier": "plains_village_map",
-                "imagePath": "/item/plains_village_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -157,7 +157,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Savanna Village Map",
                 "identifier": "savanna_village_map",
-                "imagePath": "/item/savanna_village_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -166,7 +166,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Snowy Village Map",
                 "identifier": "snowy_village_map",
-                "imagePath": "/item/snowy_village_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -175,7 +175,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Swamp Explorer Map",
                 "identifier": "swamp_explorer_map",
-                "imagePath": "/item/swamp_explorer_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             },
             {
                 "types": [
@@ -184,7 +184,7 @@
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Taiga Village Map",
                 "identifier": "taiga_village_map",
-                "imagePath": "/item/taiga_village_map/latest.png"
+                "imagePath": "/item/explorer_map/latest.png"
             }
         ],
         "mob_variants": [
