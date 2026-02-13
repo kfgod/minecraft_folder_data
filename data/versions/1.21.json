@@ -558,7 +558,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Ominous_Trial_Spawner",
                 "name": "Ominous Trial Spawner",
-                "identifier": "ominous_trial_spawner"
+                "identifier": "ominous_trial_spawner",
+                "imagePath": "/block/ominous_trial_spawner/latest.png"
             },
             {
                 "types": [
@@ -575,7 +576,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Ominous_Vault",
                 "name": "Ominous Vault",
-                "identifier": "ominous_vault"
+                "identifier": "ominous_vault",
+                "imagePath": "/block/ominous_vault/latest.png"
             },
             {
                 "types": [
