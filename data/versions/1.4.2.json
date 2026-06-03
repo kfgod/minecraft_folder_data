@@ -12,14 +12,21 @@
                 "imagePath": "/block/oak_button/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobblestone_Wall",
                 "name": "Cobblestone Wall",
                 "identifier": "cobblestone_wall",
                 "imagePath": "/block/cobblestone_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "family_type:mossy",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Wall",
                 "name": "Mossy Cobblestone Wall",
                 "identifier": "mossy_cobblestone_wall",

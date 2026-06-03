@@ -12,14 +12,18 @@
                 "imagePath": "/block/oak_planks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone",
                 "name": "Stone",
                 "identifier": "stone",
                 "imagePath": "/block/stone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobblestone",
                 "name": "Cobblestone",
                 "identifier": "cobblestone",

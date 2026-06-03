@@ -2,91 +2,135 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar",
                 "name": "Cinnabar",
                 "identifier": "cinnabar",
                 "imagePath": "/block/cinnabar/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Slab",
                 "name": "Cinnabar Slab",
                 "identifier": "cinnabar_slab",
                 "imagePath": "/block/cinnabar_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Stairs",
                 "name": "Cinnabar Stairs",
                 "identifier": "cinnabar_stairs",
                 "imagePath": "/block/cinnabar_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Wall",
                 "name": "Cinnabar Wall",
                 "identifier": "cinnabar_wall",
                 "imagePath": "/block/cinnabar_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Cinnabar",
                 "name": "Polished Cinnabar",
                 "identifier": "polished_cinnabar",
                 "imagePath": "/block/polished_cinnabar/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Slab",
                 "name": "Polished Cinnabar Slab",
                 "identifier": "polished_cinnabar_slab",
                 "imagePath": "/block/polished_cinnabar_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Stairs",
                 "name": "Polished Cinnabar Stairs",
                 "identifier": "polished_cinnabar_stairs",
                 "imagePath": "/block/polished_cinnabar_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:polished",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Wall",
                 "name": "Polished Cinnabar Wall",
                 "identifier": "polished_cinnabar_wall",
                 "imagePath": "/block/polished_cinnabar_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Bricks",
                 "name": "Cinnabar Bricks",
                 "identifier": "cinnabar_bricks",
                 "imagePath": "/block/cinnabar_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Slab",
                 "name": "Cinnabar Brick Slab",
                 "identifier": "cinnabar_brick_slab",
                 "imagePath": "/block/cinnabar_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Stairs",
                 "name": "Cinnabar Brick Stairs",
                 "identifier": "cinnabar_brick_stairs",
                 "imagePath": "/block/cinnabar_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Wall",
                 "name": "Cinnabar Brick Wall",
                 "identifier": "cinnabar_brick_wall",
                 "imagePath": "/block/cinnabar_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cinnabar",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Cinnabar",
                 "name": "Chiseled Cinnabar",
                 "identifier": "chiseled_cinnabar",
@@ -100,91 +144,135 @@
                 "imagePath": "/block/potent_sulfur/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur",
                 "name": "Sulfur",
                 "identifier": "sulfur",
                 "imagePath": "/block/sulfur/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Slab",
                 "name": "Sulfur Slab",
                 "identifier": "sulfur_slab",
                 "imagePath": "/block/sulfur_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Stairs",
                 "name": "Sulfur Stairs",
                 "identifier": "sulfur_stairs",
                 "imagePath": "/block/sulfur_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Wall",
                 "name": "Sulfur Wall",
                 "identifier": "sulfur_wall",
                 "imagePath": "/block/sulfur_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Sulfur",
                 "name": "Polished Sulfur",
                 "identifier": "polished_sulfur",
                 "imagePath": "/block/polished_sulfur/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Sulfur_Slab",
                 "name": "Polished Sulfur Slab",
                 "identifier": "polished_sulfur_slab",
                 "imagePath": "/block/polished_sulfur_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Sulfur_Stairs",
                 "name": "Polished Sulfur Stairs",
                 "identifier": "polished_sulfur_stairs",
                 "imagePath": "/block/polished_sulfur_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:polished",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Sulfur_Wall",
                 "name": "Polished Sulfur Wall",
                 "identifier": "polished_sulfur_wall",
                 "imagePath": "/block/polished_sulfur_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Bricks",
                 "name": "Sulfur Bricks",
                 "identifier": "sulfur_bricks",
                 "imagePath": "/block/sulfur_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Slab",
                 "name": "Sulfur Brick Slab",
                 "identifier": "sulfur_brick_slab",
                 "imagePath": "/block/sulfur_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Stairs",
                 "name": "Sulfur Brick Stairs",
                 "identifier": "sulfur_brick_stairs",
                 "imagePath": "/block/sulfur_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Wall",
                 "name": "Sulfur Brick Wall",
                 "identifier": "sulfur_brick_wall",
                 "imagePath": "/block/sulfur_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sulfur",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Sulfur",
                 "name": "Chiseled Sulfur",
                 "identifier": "chiseled_sulfur",
@@ -214,7 +302,9 @@
                 "imagePath": "/item/sulfur_cube_bucket/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "spawn_egg"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg#Sulfur_Cube_Spawn_Egg",
                 "name": "Sulfur Cube Spawn Egg",
                 "identifier": "sulfur_cube_spawn_egg",

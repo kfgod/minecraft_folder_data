@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "type/tuff",
-                    "stairs"
+                    "family:tuff",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Stairs",
                 "name": "Tuff Stairs",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "type/tuff",
-                    "slabs"
+                    "family:tuff",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Slab",
                 "name": "Tuff Slab",
@@ -23,8 +23,8 @@
             },
             {
                 "types": [
-                    "type/tuff",
-                    "walls"
+                    "family:tuff",
+                    "form:wall"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Wall",
                 "name": "Tuff Wall",
@@ -33,8 +33,8 @@
             },
             {
                 "types": [
-                    "type/tuff",
-                    "chiseled"
+                    "family:tuff",
+                    "form:chiseled"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Stairs",
                 "name": "Chiseled Tuff",
@@ -43,7 +43,8 @@
             },
             {
                 "types": [
-                    "type/polished_tuff"
+                    "family:tuff",
+                    "family_type:polished"
                 ],
                 "wiki": "https://minecraft.wiki/w/Polished_Tuff",
                 "name": "Polished Tuff",
@@ -52,8 +53,9 @@
             },
             {
                 "types": [
-                    "type/polished_tuff",
-                    "stairs"
+                    "family:tuff",
+                    "family_type:polished",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Polished_Tuff_Stairs",
                 "name": "Polished Tuff Stairs",
@@ -62,8 +64,9 @@
             },
             {
                 "types": [
-                    "type/polished_tuff",
-                    "slabs"
+                    "family:tuff",
+                    "family_type:polished",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Polished_Tuff_Slab",
                 "name": "Polished Tuff Slab",
@@ -72,8 +75,9 @@
             },
             {
                 "types": [
-                    "type/polished_tuff",
-                    "walls"
+                    "family:tuff",
+                    "family_type:polished",
+                    "form:wall"
                 ],
                 "wiki": "https://minecraft.wiki/w/Polished_Tuff_Wall",
                 "name": "Polished Tuff Wall",
@@ -82,7 +86,8 @@
             },
             {
                 "types": [
-                    "type/tuff_brick"
+                    "family:tuff",
+                    "family_type:brick"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Bricks",
                 "name": "Tuff Bricks",
@@ -91,8 +96,9 @@
             },
             {
                 "types": [
-                    "type/tuff_brick",
-                    "stairs"
+                    "family:tuff",
+                    "family_type:brick",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Brick_Stairs",
                 "name": "Tuff Brick Stairs",
@@ -101,8 +107,9 @@
             },
             {
                 "types": [
-                    "type/tuff_brick",
-                    "slabs"
+                    "family:tuff",
+                    "family_type:brick",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Brick_Slab",
                 "name": "Tuff Brick Slab",
@@ -111,8 +118,9 @@
             },
             {
                 "types": [
-                    "type/tuff_brick",
-                    "walls"
+                    "family:tuff",
+                    "family_type:brick",
+                    "form:wall"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tuff_Brick_Wall",
                 "name": "Tuff Brick Wall",
@@ -121,8 +129,9 @@
             },
             {
                 "types": [
-                    "type/tuff_brick",
-                    "chiseled"
+                    "family:tuff",
+                    "family_type:brick",
+                    "form:chiseled"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Bricks",
                 "name": "Chiseled Tuff Bricks",

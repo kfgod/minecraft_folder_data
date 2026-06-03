@@ -22,14 +22,20 @@
                 "imagePath": "/block/oak_pressure_plate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "form:pressure_plate"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate",
                 "name": "Stone Pressure Plate",
                 "identifier": "stone_pressure_plate",
                 "imagePath": "/block/stone_pressure_plate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "form:button"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Button",
                 "name": "Stone Button",
                 "identifier": "stone_button",

@@ -12,35 +12,53 @@
                 "imagePath": "/block/oak_fence_gate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Bricks",
                 "name": "Stone Bricks",
                 "identifier": "stone_bricks",
                 "imagePath": "/block/stone_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:brick",
+                    "form:cracked"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cracked_Stone_Bricks",
                 "name": "Cracked Stone Bricks",
                 "identifier": "cracked_stone_bricks",
                 "imagePath": "/block/cracked_stone_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Brick_Stairs",
                 "name": "Stone Brick Stairs",
                 "identifier": "stone_brick_stairs",
                 "imagePath": "/block/stone_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Brick_Slab",
                 "name": "Stone Brick Slab",
                 "identifier": "stone_brick_slab",
                 "imagePath": "/block/stone_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:mossy"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks",
                 "name": "Mossy Stone Bricks",
                 "identifier": "mossy_stone_bricks",

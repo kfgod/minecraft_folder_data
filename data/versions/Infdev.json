@@ -22,7 +22,10 @@
                 "imagePath": "/block/oak_door/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobblestone_Stairs",
                 "name": "Cobblestone Stairs",
                 "identifier": "cobblestone_stairs",

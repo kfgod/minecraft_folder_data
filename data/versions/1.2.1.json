@@ -12,7 +12,10 @@
                 "imagePath": "/block/jungle_log/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks",
                 "name": "Chiseled Stone Bricks",
                 "identifier": "chiseled_stone_bricks",

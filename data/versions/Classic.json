@@ -12,14 +12,21 @@
                 "imagePath": "/block/oak_log/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "family_type:mossy"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone",
                 "name": "Mossy Cobblestone",
                 "identifier": "mossy_cobblestone",
                 "imagePath": "/block/mossy_cobblestone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Stone_Slab",
                 "name": "Smooth Stone Slab",
                 "identifier": "smooth_stone_slab",

@@ -2,161 +2,242 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Stairs",
                 "name": "Stone Stairs",
                 "identifier": "stone_stairs",
                 "imagePath": "/block/stone_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Slab",
                 "name": "Stone Slab",
                 "identifier": "stone_slab",
                 "imagePath": "/block/stone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "family_type:mossy",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Stairs",
                 "name": "Mossy Cobblestone Stairs",
                 "identifier": "mossy_cobblestone_stairs",
                 "imagePath": "/block/mossy_cobblestone_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobblestone",
+                    "family_type:mossy",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Slab",
                 "name": "Mossy Cobblestone Slab",
                 "identifier": "mossy_cobblestone_slab",
                 "imagePath": "/block/mossy_cobblestone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall",
                 "name": "Stone Brick Wall",
                 "identifier": "stone_brick_wall",
                 "imagePath": "/block/stone_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:mossy",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Stairs",
                 "name": "Mossy Stone Brick Stairs",
                 "identifier": "mossy_stone_brick_stairs",
                 "imagePath": "/block/mossy_stone_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:mossy",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab",
                 "name": "Mossy Stone Brick Slab",
                 "identifier": "mossy_stone_brick_slab",
                 "imagePath": "/block/mossy_stone_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:stone",
+                    "family_type:mossy",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Wall",
                 "name": "Mossy Stone Brick Wall",
                 "identifier": "mossy_stone_brick_wall",
                 "imagePath": "/block/mossy_stone_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Granite_Stairs",
                 "name": "Granite Stairs",
                 "identifier": "granite_stairs",
                 "imagePath": "/block/granite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Granite_Slab",
                 "name": "Granite Slab",
                 "identifier": "granite_slab",
                 "imagePath": "/block/granite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Granite_Wall",
                 "name": "Granite Wall",
                 "identifier": "granite_wall",
                 "imagePath": "/block/granite_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Granite_Stairs",
                 "name": "Polished Granite Stairs",
                 "identifier": "polished_granite_stairs",
                 "imagePath": "/block/polished_granite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Granite_Slab",
                 "name": "Polished Granite Slab",
                 "identifier": "polished_granite_slab",
                 "imagePath": "/block/polished_granite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diorite_Stairs",
                 "name": "Diorite Stairs",
                 "identifier": "diorite_stairs",
                 "imagePath": "/block/diorite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diorite_Slab",
                 "name": "Diorite Slab",
                 "identifier": "diorite_slab",
                 "imagePath": "/block/diorite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diorite_Wall",
                 "name": "Diorite Wall",
                 "identifier": "diorite_wall",
                 "imagePath": "/block/diorite_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Diorite_Stairs",
                 "name": "Polished Diorite Stairs",
                 "identifier": "polished_diorite_stairs",
                 "imagePath": "/block/polished_diorite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab",
                 "name": "Polished Diorite Slab",
                 "identifier": "polished_diorite_slab",
                 "imagePath": "/block/polished_diorite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Andesite_Stairs",
                 "name": "Andesite Stairs",
                 "identifier": "andesite_stairs",
                 "imagePath": "/block/andesite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Andesite_Slab",
                 "name": "Andesite Slab",
                 "identifier": "andesite_slab",
                 "imagePath": "/block/andesite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Andesite_Wall",
                 "name": "Andesite Wall",
                 "identifier": "andesite_wall",
                 "imagePath": "/block/andesite_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Andesite_Stairs",
                 "name": "Polished Andesite Stairs",
                 "identifier": "polished_andesite_stairs",
                 "imagePath": "/block/polished_andesite_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Andesite_Slab",
                 "name": "Polished Andesite Slab",
                 "identifier": "polished_andesite_slab",

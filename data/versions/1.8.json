@@ -152,42 +152,57 @@
                 "imagePath": "/block/dark_oak_door/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite"
+                ],
                 "wiki": "https://minecraft.wiki/w/Granite",
                 "name": "Granite",
                 "identifier": "granite",
                 "imagePath": "/block/granite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:granite",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Granite",
                 "name": "Polished Granite",
                 "identifier": "polished_granite",
                 "imagePath": "/block/polished_granite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diorite",
                 "name": "Diorite",
                 "identifier": "diorite",
                 "imagePath": "/block/diorite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:diorite",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Diorite",
                 "name": "Polished Diorite",
                 "identifier": "polished_diorite",
                 "imagePath": "/block/polished_diorite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite"
+                ],
                 "wiki": "https://minecraft.wiki/w/Andesite",
                 "name": "Andesite",
                 "identifier": "andesite",
                 "imagePath": "/block/andesite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:andesite",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Andesite",
                 "name": "Polished Andesite",
                 "identifier": "polished_andesite",

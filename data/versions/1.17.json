@@ -142,7 +142,9 @@
                 "imagePath": "/block/deepslate_tile_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:tuff"
+                ],
                 "wiki": "https://minecraft.wiki/w/Tuff",
                 "name": "Tuff",
                 "identifier": "tuff",
