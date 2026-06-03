@@ -898,5 +898,23 @@
       "structures": 0,
       "total": 1
     }
+  },
+  {
+    "version": "26.2",
+    "name": "Chaos Cubed",
+    "release_date": "June 16, 2026",
+    "counts": {
+      "blocks": 28,
+      "items": 3,
+      "mobs": 1,
+      "effects": 0,
+      "enchantments": 0,
+      "paintings": 0,
+      "advancements": 1,
+      "mob_variants": 0,
+      "biomes": 1,
+      "structures": 0,
+      "total": 34
+    }
   }
 ]

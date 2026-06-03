@@ -258,17 +258,17 @@
   {
     "year": 2026,
     "counts": {
-      "blocks": 1,
-      "items": 0,
-      "mobs": 0,
+      "blocks": 29,
+      "items": 3,
+      "mobs": 1,
       "effects": 0,
       "enchantments": 0,
       "paintings": 0,
-      "advancements": 0,
+      "advancements": 1,
       "mob_variants": 0,
-      "biomes": 0,
+      "biomes": 1,
       "structures": 0,
-      "total": 1
+      "total": 35
     }
   }
 ]
