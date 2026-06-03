@@ -880,5 +880,23 @@
       "structures": 0,
       "total": 26
     }
+  },
+  {
+    "version": "26.1",
+    "name": "Tiny Takeover",
+    "release_date": "March 24, 2026",
+    "counts": {
+      "blocks": 1,
+      "items": 0,
+      "mobs": 0,
+      "effects": 0,
+      "enchantments": 0,
+      "paintings": 0,
+      "advancements": 0,
+      "mob_variants": 0,
+      "biomes": 0,
+      "structures": 0,
+      "total": 1
+    }
   }
 ]
