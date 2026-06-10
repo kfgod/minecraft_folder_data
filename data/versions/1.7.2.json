@@ -102,7 +102,9 @@
                 "imagePath": "/block/dark_oak_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#White",
                 "name": "White Stained Glass",
@@ -110,7 +112,9 @@
                 "imagePath": "/block/white_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray",
                 "name": "Light Gray Stained Glass",
@@ -118,7 +122,9 @@
                 "imagePath": "/block/light_gray_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray",
                 "name": "Gray Stained Glass",
@@ -126,7 +132,9 @@
                 "imagePath": "/block/gray_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Black",
                 "name": "Black Stained Glass",
@@ -134,7 +142,9 @@
                 "imagePath": "/block/black_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown",
                 "name": "Brown Stained Glass",
@@ -142,7 +152,9 @@
                 "imagePath": "/block/brown_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Red",
                 "name": "Red Stained Glass",
@@ -150,7 +162,9 @@
                 "imagePath": "/block/red_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange",
                 "name": "Orange Stained Glass",
@@ -158,7 +172,9 @@
                 "imagePath": "/block/orange_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow",
                 "name": "Yellow Stained Glass",
@@ -166,7 +182,9 @@
                 "imagePath": "/block/yellow_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime",
                 "name": "Lime Stained Glass",
@@ -174,7 +192,9 @@
                 "imagePath": "/block/lime_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Green",
                 "name": "Green Stained Glass",
@@ -182,7 +202,9 @@
                 "imagePath": "/block/green_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan",
                 "name": "Cyan Stained Glass",
@@ -190,7 +212,9 @@
                 "imagePath": "/block/cyan_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue",
                 "name": "Light Blue Stained Glass",
@@ -198,7 +222,9 @@
                 "imagePath": "/block/light_blue_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue",
                 "name": "Blue Stained Glass",
@@ -206,7 +232,9 @@
                 "imagePath": "/block/blue_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple",
                 "name": "Purple Stained Glass",
@@ -214,7 +242,9 @@
                 "imagePath": "/block/purple_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta",
                 "name": "Magenta Stained Glass",
@@ -222,7 +252,9 @@
                 "imagePath": "/block/magenta_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink",
                 "name": "Pink Stained Glass",
@@ -230,7 +262,9 @@
                 "imagePath": "/block/pink_stained_glass/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White",
                 "name": "White Stained Glass Pane",
@@ -238,7 +272,9 @@
                 "imagePath": "/block/white_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray",
                 "name": "Light Gray Stained Glass Pane",
@@ -246,7 +282,9 @@
                 "imagePath": "/block/light_gray_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray",
                 "name": "Gray Stained Glass Pane",
@@ -254,7 +292,9 @@
                 "imagePath": "/block/gray_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black",
                 "name": "Black Stained Glass Pane",
@@ -262,7 +302,9 @@
                 "imagePath": "/block/black_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown",
                 "name": "Brown Stained Glass Pane",
@@ -270,7 +312,9 @@
                 "imagePath": "/block/brown_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red",
                 "name": "Red Stained Glass Pane",
@@ -278,7 +322,9 @@
                 "imagePath": "/block/red_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange",
                 "name": "Orange Stained Glass Pane",
@@ -286,7 +332,9 @@
                 "imagePath": "/block/orange_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow",
                 "name": "Yellow Stained Glass Pane",
@@ -294,7 +342,9 @@
                 "imagePath": "/block/yellow_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime",
                 "name": "Lime Stained Glass Pane",
@@ -302,7 +352,9 @@
                 "imagePath": "/block/lime_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green",
                 "name": "Green Stained Glass Pane",
@@ -310,7 +362,9 @@
                 "imagePath": "/block/green_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan",
                 "name": "Cyan Stained Glass Pane",
@@ -318,7 +372,9 @@
                 "imagePath": "/block/cyan_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue",
                 "name": "Light Blue Stained Glass Pane",
@@ -326,7 +382,9 @@
                 "imagePath": "/block/light_blue_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue",
                 "name": "Blue Stained Glass Pane",
@@ -334,7 +392,9 @@
                 "imagePath": "/block/blue_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple",
                 "name": "Purple Stained Glass Pane",
@@ -342,7 +402,9 @@
                 "imagePath": "/block/purple_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta",
                 "name": "Magenta Stained Glass Pane",
@@ -350,7 +412,9 @@
                 "imagePath": "/block/magenta_stained_glass_pane/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink",
                 "name": "Pink Stained Glass Pane",

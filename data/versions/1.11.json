@@ -2,7 +2,9 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#White",
                 "name": "White Shulker Box",
@@ -10,7 +12,9 @@
                 "imagePath": "/block/white_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray",
                 "name": "Light Gray Shulker Box",
@@ -18,7 +22,9 @@
                 "imagePath": "/block/light_gray_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray",
                 "name": "Gray Shulker Box",
@@ -26,7 +32,9 @@
                 "imagePath": "/block/gray_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Black",
                 "name": "Black Shulker Box",
@@ -34,7 +42,9 @@
                 "imagePath": "/block/black_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown",
                 "name": "Brown Shulker Box",
@@ -42,7 +52,9 @@
                 "imagePath": "/block/brown_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Red",
                 "name": "Red Shulker Box",
@@ -50,7 +62,9 @@
                 "imagePath": "/block/red_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange",
                 "name": "Orange Shulker Box",
@@ -58,7 +72,9 @@
                 "imagePath": "/block/orange_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow",
                 "name": "Yellow Shulker Box",
@@ -66,7 +82,9 @@
                 "imagePath": "/block/yellow_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime",
                 "name": "Lime Shulker Box",
@@ -74,7 +92,9 @@
                 "imagePath": "/block/lime_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Green",
                 "name": "Green Shulker Box",
@@ -82,7 +102,9 @@
                 "imagePath": "/block/green_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan",
                 "name": "Cyan Shulker Box",
@@ -90,7 +112,9 @@
                 "imagePath": "/block/cyan_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue",
                 "name": "Light Blue Shulker Box",
@@ -98,7 +122,9 @@
                 "imagePath": "/block/light_blue_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue",
                 "name": "Blue Shulker Box",
@@ -106,7 +132,9 @@
                 "imagePath": "/block/blue_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple",
                 "name": "Purple Shulker Box",
@@ -114,7 +142,9 @@
                 "imagePath": "/block/purple_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta",
                 "name": "Magenta Shulker Box",
@@ -122,7 +152,9 @@
                 "imagePath": "/block/magenta_shulker_box/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink",
                 "name": "Pink Shulker Box",

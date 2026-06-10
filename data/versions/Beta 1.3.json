@@ -32,7 +32,9 @@
                 "imagePath": "/block/sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Bed#Red",
                 "name": "Red Bed",

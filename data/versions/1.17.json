@@ -588,7 +588,9 @@
                 "imagePath": "/block/candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Candle#White",
                 "name": "White Candle",
@@ -596,7 +598,9 @@
                 "imagePath": "/block/white_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Candle#Light_Gray",
                 "name": "Light Gray Candle",
@@ -604,7 +608,9 @@
                 "imagePath": "/block/light_gray_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Candle#Gray",
                 "name": "Gray Candle",
@@ -612,7 +618,9 @@
                 "imagePath": "/block/gray_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Candle#Black",
                 "name": "Black Candle",
@@ -620,7 +628,9 @@
                 "imagePath": "/block/black_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Candle#Brown",
                 "name": "Brown Candle",
@@ -628,7 +638,9 @@
                 "imagePath": "/block/brown_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Candle#Red",
                 "name": "Red Candle",
@@ -636,7 +648,9 @@
                 "imagePath": "/block/red_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Candle#Orange",
                 "name": "Orange Candle",
@@ -644,7 +658,9 @@
                 "imagePath": "/block/orange_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Candle#Yellow",
                 "name": "Yellow Candle",
@@ -652,7 +668,9 @@
                 "imagePath": "/block/yellow_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Candle#Lime",
                 "name": "Lime Candle",
@@ -660,7 +678,9 @@
                 "imagePath": "/block/lime_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Candle#Green",
                 "name": "Green Candle",
@@ -668,7 +688,9 @@
                 "imagePath": "/block/green_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Candle#Cyan",
                 "name": "Cyan Candle",
@@ -676,7 +698,9 @@
                 "imagePath": "/block/cyan_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Candle#Light_Blue",
                 "name": "Light Blue Candle",
@@ -684,7 +708,9 @@
                 "imagePath": "/block/light_blue_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Candle#Blue",
                 "name": "Blue Candle",
@@ -692,7 +718,9 @@
                 "imagePath": "/block/blue_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Candle#Purple",
                 "name": "Purple Candle",
@@ -700,7 +728,9 @@
                 "imagePath": "/block/purple_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Candle#Magenta",
                 "name": "Magenta Candle",
@@ -708,7 +738,9 @@
                 "imagePath": "/block/magenta_candle/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Candle#Pink",
                 "name": "Pink Candle",

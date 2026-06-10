@@ -9,7 +9,9 @@
                 "imagePath": "/block/coal_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Carpet#White",
                 "name": "White Carpet",
@@ -17,7 +19,9 @@
                 "imagePath": "/block/white_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray",
                 "name": "Light Gray Carpet",
@@ -25,7 +29,9 @@
                 "imagePath": "/block/light_gray_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Carpet#Gray",
                 "name": "Gray Carpet",
@@ -33,7 +39,9 @@
                 "imagePath": "/block/gray_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Carpet#Black",
                 "name": "Black Carpet",
@@ -41,7 +49,9 @@
                 "imagePath": "/block/black_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Carpet#Brown",
                 "name": "Brown Carpet",
@@ -49,7 +59,9 @@
                 "imagePath": "/block/brown_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Carpet#Red",
                 "name": "Red Carpet",
@@ -57,7 +69,9 @@
                 "imagePath": "/block/red_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Carpet#Orange",
                 "name": "Orange Carpet",
@@ -65,7 +79,9 @@
                 "imagePath": "/block/orange_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Carpet#Yellow",
                 "name": "Yellow Carpet",
@@ -73,7 +89,9 @@
                 "imagePath": "/block/yellow_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Carpet#Lime",
                 "name": "Lime Carpet",
@@ -81,7 +99,9 @@
                 "imagePath": "/block/lime_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Carpet#Green",
                 "name": "Green Carpet",
@@ -89,7 +109,9 @@
                 "imagePath": "/block/green_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Carpet#Cyan",
                 "name": "Cyan Carpet",
@@ -97,7 +119,9 @@
                 "imagePath": "/block/cyan_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue",
                 "name": "Light Blue Carpet",
@@ -105,7 +129,9 @@
                 "imagePath": "/block/light_blue_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Carpet#Blue",
                 "name": "Blue Carpet",
@@ -113,7 +139,9 @@
                 "imagePath": "/block/blue_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Carpet#Purple",
                 "name": "Purple Carpet",
@@ -121,7 +149,9 @@
                 "imagePath": "/block/purple_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Carpet#Magenta",
                 "name": "Magenta Carpet",
@@ -129,7 +159,9 @@
                 "imagePath": "/block/magenta_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Carpet#Pink",
                 "name": "Pink Carpet",
@@ -144,7 +176,9 @@
                 "imagePath": "/block/terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White",
                 "name": "White Terracotta",
@@ -152,7 +186,9 @@
                 "imagePath": "/block/white_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray",
                 "name": "Light Gray Terracotta",
@@ -160,7 +196,9 @@
                 "imagePath": "/block/light_gray_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray",
                 "name": "Gray Terracotta",
@@ -168,7 +206,9 @@
                 "imagePath": "/block/gray_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black",
                 "name": "Black Terracotta",
@@ -176,7 +216,9 @@
                 "imagePath": "/block/black_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown",
                 "name": "Brown Terracotta",
@@ -184,7 +226,9 @@
                 "imagePath": "/block/brown_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red",
                 "name": "Red Terracotta",
@@ -192,7 +236,9 @@
                 "imagePath": "/block/red_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange",
                 "name": "Orange Terracotta",
@@ -200,7 +246,9 @@
                 "imagePath": "/block/orange_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow",
                 "name": "Yellow Terracotta",
@@ -208,7 +256,9 @@
                 "imagePath": "/block/yellow_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime",
                 "name": "Lime Terracotta",
@@ -216,7 +266,9 @@
                 "imagePath": "/block/lime_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green",
                 "name": "Green Terracotta",
@@ -224,7 +276,9 @@
                 "imagePath": "/block/green_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan",
                 "name": "Cyan Terracotta",
@@ -232,7 +286,9 @@
                 "imagePath": "/block/cyan_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue",
                 "name": "Light Blue Terracotta",
@@ -240,7 +296,9 @@
                 "imagePath": "/block/light_blue_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue",
                 "name": "Blue Terracotta",
@@ -248,7 +306,9 @@
                 "imagePath": "/block/blue_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple",
                 "name": "Purple Terracotta",
@@ -256,7 +316,9 @@
                 "imagePath": "/block/purple_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta",
                 "name": "Magenta Terracotta",
@@ -264,7 +326,9 @@
                 "imagePath": "/block/magenta_terracotta/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink",
                 "name": "Pink Terracotta",

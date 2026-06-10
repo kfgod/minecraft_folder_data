@@ -310,7 +310,9 @@
                 "imagePath": "/block/iron_trapdoor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Banner#White",
                 "name": "White Banner",
@@ -318,7 +320,9 @@
                 "imagePath": "/block/white_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Banner#Light_Gray",
                 "name": "Light Gray Banner",
@@ -326,7 +330,9 @@
                 "imagePath": "/block/light_gray_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Banner#Gray",
                 "name": "Gray Banner",
@@ -334,7 +340,9 @@
                 "imagePath": "/block/gray_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Banner#Black",
                 "name": "Black Banner",
@@ -342,7 +350,9 @@
                 "imagePath": "/block/black_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Banner#Brown",
                 "name": "Brown Banner",
@@ -350,7 +360,9 @@
                 "imagePath": "/block/brown_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Banner#Red",
                 "name": "Red Banner",
@@ -358,7 +370,9 @@
                 "imagePath": "/block/red_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Banner#Orange",
                 "name": "Orange Banner",
@@ -366,7 +380,9 @@
                 "imagePath": "/block/orange_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Banner#Yellow",
                 "name": "Yellow Banner",
@@ -374,7 +390,9 @@
                 "imagePath": "/block/yellow_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Banner#Lime",
                 "name": "Lime Banner",
@@ -382,7 +400,9 @@
                 "imagePath": "/block/lime_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Banner#Green",
                 "name": "Green Banner",
@@ -390,7 +410,9 @@
                 "imagePath": "/block/green_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Banner#Cyan",
                 "name": "Cyan Banner",
@@ -398,7 +420,9 @@
                 "imagePath": "/block/cyan_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Banner#Light_Blue",
                 "name": "Light Blue Banner",
@@ -406,7 +430,9 @@
                 "imagePath": "/block/light_blue_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Banner#Blue",
                 "name": "Blue Banner",
@@ -414,7 +440,9 @@
                 "imagePath": "/block/blue_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Banner#Purple",
                 "name": "Purple Banner",
@@ -422,7 +450,9 @@
                 "imagePath": "/block/purple_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Banner#Magenta",
                 "name": "Magenta Banner",
@@ -430,7 +460,9 @@
                 "imagePath": "/block/magenta_banner/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Banner#Pink",
                 "name": "Pink Banner",

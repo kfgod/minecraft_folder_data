@@ -11,112 +11,144 @@
         ],
         "items": [
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#White",
                 "name": "White Harness",
                 "identifier": "white_harness",
                 "imagePath": "/item/white_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Light_Gray",
                 "name": "Light Gray Harness",
                 "identifier": "light_gray_harness",
                 "imagePath": "/item/light_gray_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Gray",
                 "name": "Gray Harness",
                 "identifier": "gray_harness",
                 "imagePath": "/item/gray_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Black",
                 "name": "Black Harness",
                 "identifier": "black_harness",
                 "imagePath": "/item/black_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Brown",
                 "name": "Brown Harness",
                 "identifier": "brown_harness",
                 "imagePath": "/item/brown_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Red",
                 "name": "Red Harness",
                 "identifier": "red_harness",
                 "imagePath": "/item/red_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Orange",
                 "name": "Orange Harness",
                 "identifier": "orange_harness",
                 "imagePath": "/item/orange_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Yellow",
                 "name": "Yellow Harness",
                 "identifier": "yellow_harness",
                 "imagePath": "/item/yellow_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Lime",
                 "name": "Lime Harness",
                 "identifier": "lime_harness",
                 "imagePath": "/item/lime_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Green",
                 "name": "Green Harness",
                 "identifier": "green_harness",
                 "imagePath": "/item/green_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Cyan",
                 "name": "Cyan Harness",
                 "identifier": "cyan_harness",
                 "imagePath": "/item/cyan_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Light_Blue",
                 "name": "Light Blue Harness",
                 "identifier": "light_blue_harness",
                 "imagePath": "/item/light_blue_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Blue",
                 "name": "Blue Harness",
                 "identifier": "blue_harness",
                 "imagePath": "/item/blue_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Purple",
                 "name": "Purple Harness",
                 "identifier": "purple_harness",
                 "imagePath": "/item/purple_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Magenta",
                 "name": "Magenta Harness",
                 "identifier": "magenta_harness",
                 "imagePath": "/item/magenta_harness/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "wiki": "https://minecraft.wiki/w/Harness#Pink",
                 "name": "Pink Harness",
                 "identifier": "pink_harness",

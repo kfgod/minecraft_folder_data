@@ -1,16 +1,36 @@
 {
   "name": "Colors",
+  "order": 1,
+  "generated": "colors",
+  "columns_order": [
+    "dye",
+    "wool",
+    "carpet",
+    "stained_terracotta",
+    "glazed_terracotta",
+    "concrete_powder",
+    "concrete",
+    "stained_glass",
+    "stained_glass_pane",
+    "shulker_box",
+    "bed",
+    "candle",
+    "banner",
+    "bundle",
+    "harness"
+  ],
   "groups": [
     {
       "group": "white",
       "group_name": "White",
-      "material": {
-        "identifier": "white_dye",
-        "name": "White Dye",
-        "wiki": "https://minecraft.wiki/w/White_Dye",
-        "imagePath": "/item/white_dye/latest.png"
-      },
+      "generated_from": "color:white",
       "items": {
+        "dye": {
+          "identifier": "white_dye",
+          "name": "White Dye",
+          "wiki": "https://minecraft.wiki/w/White_Dye",
+          "imagePath": "/item/white_dye/latest.png"
+        },
         "wool": {
           "identifier": "white_wool",
           "name": "White Wool",
@@ -100,13 +120,14 @@
     {
       "group": "light_gray",
       "group_name": "Light Gray",
-      "material": {
-        "identifier": "light_gray_dye",
-        "name": "Light Gray Dye",
-        "wiki": "https://minecraft.wiki/w/Light_Gray_Dye",
-        "imagePath": "/item/light_gray_dye/latest.png"
-      },
+      "generated_from": "color:light_gray",
       "items": {
+        "dye": {
+          "identifier": "light_gray_dye",
+          "name": "Light Gray Dye",
+          "wiki": "https://minecraft.wiki/w/Light_Gray_Dye",
+          "imagePath": "/item/light_gray_dye/latest.png"
+        },
         "wool": {
           "identifier": "light_gray_wool",
           "name": "Light Gray Wool",
@@ -196,13 +217,14 @@
     {
       "group": "gray",
       "group_name": "Gray",
-      "material": {
-        "identifier": "gray_dye",
-        "name": "Gray Dye",
-        "wiki": "https://minecraft.wiki/w/Gray_Dye",
-        "imagePath": "/item/gray_dye/latest.png"
-      },
+      "generated_from": "color:gray",
       "items": {
+        "dye": {
+          "identifier": "gray_dye",
+          "name": "Gray Dye",
+          "wiki": "https://minecraft.wiki/w/Gray_Dye",
+          "imagePath": "/item/gray_dye/latest.png"
+        },
         "wool": {
           "identifier": "gray_wool",
           "name": "Gray Wool",
@@ -292,13 +314,14 @@
     {
       "group": "black",
       "group_name": "Black",
-      "material": {
-        "identifier": "black_dye",
-        "name": "Black Dye",
-        "wiki": "https://minecraft.wiki/w/Black_Dye",
-        "imagePath": "/item/black_dye/latest.png"
-      },
+      "generated_from": "color:black",
       "items": {
+        "dye": {
+          "identifier": "black_dye",
+          "name": "Black Dye",
+          "wiki": "https://minecraft.wiki/w/Black_Dye",
+          "imagePath": "/item/black_dye/latest.png"
+        },
         "wool": {
           "identifier": "black_wool",
           "name": "Black Wool",
@@ -388,13 +411,14 @@
     {
       "group": "brown",
       "group_name": "Brown",
-      "material": {
-        "identifier": "brown_dye",
-        "name": "Brown Dye",
-        "wiki": "https://minecraft.wiki/w/Brown_Dye",
-        "imagePath": "/item/brown_dye/latest.png"
-      },
+      "generated_from": "color:brown",
       "items": {
+        "dye": {
+          "identifier": "brown_dye",
+          "name": "Brown Dye",
+          "wiki": "https://minecraft.wiki/w/Brown_Dye",
+          "imagePath": "/item/brown_dye/latest.png"
+        },
         "wool": {
           "identifier": "brown_wool",
           "name": "Brown Wool",
@@ -484,13 +508,14 @@
     {
       "group": "red",
       "group_name": "Red",
-      "material": {
-        "identifier": "red_dye",
-        "name": "Red Dye",
-        "wiki": "https://minecraft.wiki/w/Red_Dye",
-        "imagePath": "/item/red_dye/latest.png"
-      },
+      "generated_from": "color:red",
       "items": {
+        "dye": {
+          "identifier": "red_dye",
+          "name": "Red Dye",
+          "wiki": "https://minecraft.wiki/w/Red_Dye",
+          "imagePath": "/item/red_dye/latest.png"
+        },
         "wool": {
           "identifier": "red_wool",
           "name": "Red Wool",
@@ -580,13 +605,14 @@
     {
       "group": "orange",
       "group_name": "Orange",
-      "material": {
-        "identifier": "orange_dye",
-        "name": "Orange Dye",
-        "wiki": "https://minecraft.wiki/w/Orange_Dye",
-        "imagePath": "/item/orange_dye/latest.png"
-      },
+      "generated_from": "color:orange",
       "items": {
+        "dye": {
+          "identifier": "orange_dye",
+          "name": "Orange Dye",
+          "wiki": "https://minecraft.wiki/w/Orange_Dye",
+          "imagePath": "/item/orange_dye/latest.png"
+        },
         "wool": {
           "identifier": "orange_wool",
           "name": "Orange Wool",
@@ -676,13 +702,14 @@
     {
       "group": "yellow",
       "group_name": "Yellow",
-      "material": {
-        "identifier": "yellow_dye",
-        "name": "Yellow Dye",
-        "wiki": "https://minecraft.wiki/w/Yellow_Dye",
-        "imagePath": "/item/yellow_dye/latest.png"
-      },
+      "generated_from": "color:yellow",
       "items": {
+        "dye": {
+          "identifier": "yellow_dye",
+          "name": "Yellow Dye",
+          "wiki": "https://minecraft.wiki/w/Yellow_Dye",
+          "imagePath": "/item/yellow_dye/latest.png"
+        },
         "wool": {
           "identifier": "yellow_wool",
           "name": "Yellow Wool",
@@ -772,13 +799,14 @@
     {
       "group": "lime",
       "group_name": "Lime",
-      "material": {
-        "identifier": "lime_dye",
-        "name": "Lime Dye",
-        "wiki": "https://minecraft.wiki/w/Lime_Dye",
-        "imagePath": "/item/lime_dye/latest.png"
-      },
+      "generated_from": "color:lime",
       "items": {
+        "dye": {
+          "identifier": "lime_dye",
+          "name": "Lime Dye",
+          "wiki": "https://minecraft.wiki/w/Lime_Dye",
+          "imagePath": "/item/lime_dye/latest.png"
+        },
         "wool": {
           "identifier": "lime_wool",
           "name": "Lime Wool",
@@ -868,13 +896,14 @@
     {
       "group": "green",
       "group_name": "Green",
-      "material": {
-        "identifier": "green_dye",
-        "name": "Green Dye",
-        "wiki": "https://minecraft.wiki/w/Green_Dye",
-        "imagePath": "/item/green_dye/latest.png"
-      },
+      "generated_from": "color:green",
       "items": {
+        "dye": {
+          "identifier": "green_dye",
+          "name": "Green Dye",
+          "wiki": "https://minecraft.wiki/w/Green_Dye",
+          "imagePath": "/item/green_dye/latest.png"
+        },
         "wool": {
           "identifier": "green_wool",
           "name": "Green Wool",
@@ -964,13 +993,14 @@
     {
       "group": "cyan",
       "group_name": "Cyan",
-      "material": {
-        "identifier": "cyan_dye",
-        "name": "Cyan Dye",
-        "wiki": "https://minecraft.wiki/w/Cyan_Dye",
-        "imagePath": "/item/cyan_dye/latest.png"
-      },
+      "generated_from": "color:cyan",
       "items": {
+        "dye": {
+          "identifier": "cyan_dye",
+          "name": "Cyan Dye",
+          "wiki": "https://minecraft.wiki/w/Cyan_Dye",
+          "imagePath": "/item/cyan_dye/latest.png"
+        },
         "wool": {
           "identifier": "cyan_wool",
           "name": "Cyan Wool",
@@ -1060,13 +1090,14 @@
     {
       "group": "light_blue",
       "group_name": "Light Blue",
-      "material": {
-        "identifier": "light_blue_dye",
-        "name": "Light Blue Dye",
-        "wiki": "https://minecraft.wiki/w/Light_Blue_Dye",
-        "imagePath": "/item/light_blue_dye/latest.png"
-      },
+      "generated_from": "color:light_blue",
       "items": {
+        "dye": {
+          "identifier": "light_blue_dye",
+          "name": "Light Blue Dye",
+          "wiki": "https://minecraft.wiki/w/Light_Blue_Dye",
+          "imagePath": "/item/light_blue_dye/latest.png"
+        },
         "wool": {
           "identifier": "light_blue_wool",
           "name": "Light Blue Wool",
@@ -1156,13 +1187,14 @@
     {
       "group": "blue",
       "group_name": "Blue",
-      "material": {
-        "identifier": "blue_dye",
-        "name": "Blue Dye",
-        "wiki": "https://minecraft.wiki/w/Blue_Dye",
-        "imagePath": "/item/blue_dye/latest.png"
-      },
+      "generated_from": "color:blue",
       "items": {
+        "dye": {
+          "identifier": "blue_dye",
+          "name": "Blue Dye",
+          "wiki": "https://minecraft.wiki/w/Blue_Dye",
+          "imagePath": "/item/blue_dye/latest.png"
+        },
         "wool": {
           "identifier": "blue_wool",
           "name": "Blue Wool",
@@ -1252,13 +1284,14 @@
     {
       "group": "purple",
       "group_name": "Purple",
-      "material": {
-        "identifier": "purple_dye",
-        "name": "Purple Dye",
-        "wiki": "https://minecraft.wiki/w/Purple_Dye",
-        "imagePath": "/item/purple_dye/latest.png"
-      },
+      "generated_from": "color:purple",
       "items": {
+        "dye": {
+          "identifier": "purple_dye",
+          "name": "Purple Dye",
+          "wiki": "https://minecraft.wiki/w/Purple_Dye",
+          "imagePath": "/item/purple_dye/latest.png"
+        },
         "wool": {
           "identifier": "purple_wool",
           "name": "Purple Wool",
@@ -1348,13 +1381,14 @@
     {
       "group": "magenta",
       "group_name": "Magenta",
-      "material": {
-        "identifier": "magenta_dye",
-        "name": "Magenta Dye",
-        "wiki": "https://minecraft.wiki/w/Magenta_Dye",
-        "imagePath": "/item/magenta_dye/latest.png"
-      },
+      "generated_from": "color:magenta",
       "items": {
+        "dye": {
+          "identifier": "magenta_dye",
+          "name": "Magenta Dye",
+          "wiki": "https://minecraft.wiki/w/Magenta_Dye",
+          "imagePath": "/item/magenta_dye/latest.png"
+        },
         "wool": {
           "identifier": "magenta_wool",
           "name": "Magenta Wool",
@@ -1444,13 +1478,14 @@
     {
       "group": "pink",
       "group_name": "Pink",
-      "material": {
-        "identifier": "pink_dye",
-        "name": "Pink Dye",
-        "wiki": "https://minecraft.wiki/w/Pink_Dye",
-        "imagePath": "/item/pink_dye/latest.png"
-      },
+      "generated_from": "color:pink",
       "items": {
+        "dye": {
+          "identifier": "pink_dye",
+          "name": "Pink Dye",
+          "wiki": "https://minecraft.wiki/w/Pink_Dye",
+          "imagePath": "/item/pink_dye/latest.png"
+        },
         "wool": {
           "identifier": "pink_wool",
           "name": "Pink Wool",
@@ -1537,6 +1572,5 @@
         }
       }
     }
-  ],
-  "order": 1
+  ]
 }

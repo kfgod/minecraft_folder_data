@@ -695,7 +695,7 @@
             },
             {
                 "types": [
-                    "dye"
+                    "color:white"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/White_Dye",
@@ -705,7 +705,7 @@
             },
             {
                 "types": [
-                    "dye"
+                    "color:black"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Black_Dye",
@@ -715,7 +715,7 @@
             },
             {
                 "types": [
-                    "dye"
+                    "color:brown"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Brown_Dye",
@@ -725,7 +725,7 @@
             },
             {
                 "types": [
-                    "dye"
+                    "color:blue"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Blue_Dye",

@@ -56,7 +56,9 @@
                 "imagePath": "/block/gold_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:white"
+                ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Wool#White",
                 "name": "White Wool",
@@ -64,7 +66,9 @@
                 "imagePath": "/block/white_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_gray"
+                ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Wool#Light_Gray",
                 "name": "Light Gray Wool",
@@ -72,7 +76,9 @@
                 "imagePath": "/block/light_gray_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:gray"
+                ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Wool#Gray",
                 "name": "Gray Wool",
@@ -80,7 +86,9 @@
                 "imagePath": "/block/gray_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:black"
+                ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Wool#Black",
                 "name": "Black Wool",
@@ -88,7 +96,9 @@
                 "imagePath": "/block/black_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:brown"
+                ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Wool#Brown",
                 "name": "Brown Wool",
@@ -96,7 +106,9 @@
                 "imagePath": "/block/brown_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:red"
+                ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Wool#Red",
                 "name": "Red Wool",
@@ -104,7 +116,9 @@
                 "imagePath": "/block/red_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:orange"
+                ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Wool#Orange",
                 "name": "Orange Wool",
@@ -112,7 +126,9 @@
                 "imagePath": "/block/orange_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:yellow"
+                ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Wool#Yellow",
                 "name": "Yellow Wool",
@@ -120,7 +136,9 @@
                 "imagePath": "/block/yellow_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:lime"
+                ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Wool#Lime",
                 "name": "Lime Wool",
@@ -128,7 +146,9 @@
                 "imagePath": "/block/lime_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:green"
+                ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Wool#Green",
                 "name": "Green Wool",
@@ -136,7 +156,9 @@
                 "imagePath": "/block/green_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:cyan"
+                ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Wool#Cyan",
                 "name": "Cyan Wool",
@@ -144,7 +166,9 @@
                 "imagePath": "/block/cyan_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:light_blue"
+                ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Wool#Light_Blue",
                 "name": "Light Blue Wool",
@@ -152,7 +176,9 @@
                 "imagePath": "/block/light_blue_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:blue"
+                ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Wool#Blue",
                 "name": "Blue Wool",
@@ -160,7 +186,9 @@
                 "imagePath": "/block/blue_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:purple"
+                ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Wool#Purple",
                 "name": "Purple Wool",
@@ -168,7 +196,9 @@
                 "imagePath": "/block/purple_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:magenta"
+                ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Wool#Magenta",
                 "name": "Magenta Wool",
@@ -176,7 +206,9 @@
                 "imagePath": "/block/magenta_wool/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "color:pink"
+                ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Wool#Pink",
                 "name": "Pink Wool",
