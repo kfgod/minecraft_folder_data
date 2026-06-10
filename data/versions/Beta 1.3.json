@@ -22,7 +22,10 @@
                 "imagePath": "/block/smooth_stone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sandstone_Slab",
                 "name": "Sandstone Slab",
                 "identifier": "sandstone_slab",

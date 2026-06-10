@@ -244,133 +244,205 @@
                 "imagePath": "/block/polished_andesite_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Brick_Wall",
                 "name": "Brick Wall",
                 "identifier": "brick_wall",
                 "imagePath": "/block/brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sandstone_Wall",
                 "name": "Sandstone Wall",
                 "identifier": "sandstone_wall",
                 "imagePath": "/block/sandstone_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Stairs",
                 "name": "Smooth Sandstone Stairs",
                 "identifier": "smooth_sandstone_stairs",
                 "imagePath": "/block/smooth_sandstone_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Sandstone_Slab",
                 "name": "Smooth Sandstone Slab",
                 "identifier": "smooth_sandstone_slab",
                 "imagePath": "/block/smooth_sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "family_type:cut",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cut_Sandstone_Slab",
                 "name": "Cut Sandstone Slab",
                 "identifier": "cut_sandstone_slab",
                 "imagePath": "/block/cut_sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Sandstone_Wall",
                 "name": "Red Sandstone Wall",
                 "identifier": "red_sandstone_wall",
                 "imagePath": "/block/red_sandstone_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Stairs",
                 "name": "Smooth Red Sandstone Stairs",
                 "identifier": "smooth_red_sandstone_stairs",
                 "imagePath": "/block/smooth_red_sandstone_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Slab",
                 "name": "Smooth Red Sandstone Slab",
                 "identifier": "smooth_red_sandstone_slab",
                 "imagePath": "/block/smooth_red_sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "family_type:cut",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone_Slab",
                 "name": "Cut Red Sandstone Slab",
                 "identifier": "cut_red_sandstone_slab",
                 "imagePath": "/block/cut_red_sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:prismarine",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Prismarine_Wall",
                 "name": "Prismarine Wall",
                 "identifier": "prismarine_wall",
                 "imagePath": "/block/prismarine_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Nether_Brick_Wall",
                 "name": "Nether Brick Wall",
                 "identifier": "nether_brick_wall",
                 "imagePath": "/block/nether_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_nether_bricks",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Stairs",
                 "name": "Red Nether Brick Stairs",
                 "identifier": "red_nether_brick_stairs",
                 "imagePath": "/block/red_nether_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_nether_bricks",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Slab",
                 "name": "Red Nether Brick Slab",
                 "identifier": "red_nether_brick_slab",
                 "imagePath": "/block/red_nether_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_nether_bricks",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Wall",
                 "name": "Red Nether Brick Wall",
                 "identifier": "red_nether_brick_wall",
                 "imagePath": "/block/red_nether_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:end_stone",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Stairs",
                 "name": "End Stone Brick Stairs",
                 "identifier": "end_stone_brick_stairs",
                 "imagePath": "/block/end_stone_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:end_stone",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Slab",
                 "name": "End Stone Brick Slab",
                 "identifier": "end_stone_brick_slab",
                 "imagePath": "/block/end_stone_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:end_stone",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Wall",
                 "name": "End Stone Brick Wall",
                 "identifier": "end_stone_brick_wall",
                 "imagePath": "/block/end_stone_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Stairs",
                 "name": "Smooth Quartz Stairs",
                 "identifier": "smooth_quartz_stairs",
                 "imagePath": "/block/smooth_quartz_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab",
                 "name": "Smooth Quartz Slab",
                 "identifier": "smooth_quartz_slab",

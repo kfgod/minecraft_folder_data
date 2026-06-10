@@ -2,7 +2,10 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:nether_bricks",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Nether_Bricks",
                 "name": "Nether Bricks",
                 "identifier": "nether_bricks",
@@ -10,7 +13,9 @@
             },
             {
                 "types": [
-                    "stairs"
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs",
                 "name": "Nether Brick Stairs",
@@ -19,7 +24,9 @@
             },
             {
                 "types": [
-                    "fence"
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Brick_Fence",
                 "name": "Nether Brick Fence",
@@ -28,7 +35,7 @@
             },
             {
                 "types": [
-                    "end"
+                    "family:end_stone"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_Stone",
                 "name": "End Stone",

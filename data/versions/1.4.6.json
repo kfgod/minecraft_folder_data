@@ -2,7 +2,11 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Nether_Brick_Slab",
                 "name": "Nether Brick Slab",
                 "identifier": "nether_brick_slab",

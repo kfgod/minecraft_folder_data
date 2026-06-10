@@ -2,140 +2,209 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:deepslate"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate",
                 "name": "Deepslate",
                 "identifier": "deepslate",
                 "imagePath": "/block/deepslate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobbled_deepslate"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate",
                 "name": "Cobbled Deepslate",
                 "identifier": "cobbled_deepslate",
                 "imagePath": "/block/cobbled_deepslate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobbled_deepslate",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Stairs",
                 "name": "Cobbled Deepslate Stairs",
                 "identifier": "cobbled_deepslate_stairs",
                 "imagePath": "/block/cobbled_deepslate_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobbled_deepslate",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab",
                 "name": "Cobbled Deepslate Slab",
                 "identifier": "cobbled_deepslate_slab",
                 "imagePath": "/block/cobbled_deepslate_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cobbled_deepslate",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Wall",
                 "name": "Cobbled Deepslate Wall",
                 "identifier": "cobbled_deepslate_wall",
                 "imagePath": "/block/cobbled_deepslate_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Deepslate",
                 "name": "Chiseled Deepslate",
                 "identifier": "chiseled_deepslate",
                 "imagePath": "/block/chiseled_deepslate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Deepslate",
                 "name": "Polished Deepslate",
                 "identifier": "polished_deepslate",
                 "imagePath": "/block/polished_deepslate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:polished",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Stairs",
                 "name": "Polished Deepslate Stairs",
                 "identifier": "polished_deepslate_stairs",
                 "imagePath": "/block/polished_deepslate_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:polished",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Slab",
                 "name": "Polished Deepslate Slab",
                 "identifier": "polished_deepslate_slab",
                 "imagePath": "/block/polished_deepslate_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:polished",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Wall",
                 "name": "Polished Deepslate Wall",
                 "identifier": "polished_deepslate_wall",
                 "imagePath": "/block/polished_deepslate_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Bricks",
                 "name": "Deepslate Bricks",
                 "identifier": "deepslate_bricks",
                 "imagePath": "/block/deepslate_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:brick",
+                    "form:cracked"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cracked_Deepslate_Bricks",
                 "name": "Cracked Deepslate Bricks",
                 "identifier": "cracked_deepslate_bricks",
                 "imagePath": "/block/cracked_deepslate_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Stairs",
                 "name": "Deepslate Brick Stairs",
                 "identifier": "deepslate_brick_stairs",
                 "imagePath": "/block/deepslate_brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Slab",
                 "name": "Deepslate Brick Slab",
                 "identifier": "deepslate_brick_slab",
                 "imagePath": "/block/deepslate_brick_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:brick",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Wall",
                 "name": "Deepslate Brick Wall",
                 "identifier": "deepslate_brick_wall",
                 "imagePath": "/block/deepslate_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:tiles"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Tiles",
                 "name": "Deepslate Tiles",
                 "identifier": "deepslate_tiles",
                 "imagePath": "/block/deepslate_tiles/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:tiles",
+                    "form:cracked"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cracked_Deepslate_Tiles",
                 "name": "Cracked Deepslate Tiles",
                 "identifier": "cracked_deepslate_tiles",
                 "imagePath": "/block/cracked_deepslate_tiles/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:tiles",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Stairs",
                 "name": "Deepslate Tile Stairs",
                 "identifier": "deepslate_tile_stairs",
                 "imagePath": "/block/deepslate_tile_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:tiles",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Slab",
                 "name": "Deepslate Tile Slab",
                 "identifier": "deepslate_tile_slab",
                 "imagePath": "/block/deepslate_tile_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:deepslate",
+                    "family_type:tiles",
+                    "form:wall"
+                ],
                 "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Wall",
                 "name": "Deepslate Tile Wall",
                 "identifier": "deepslate_tile_wall",
@@ -166,7 +235,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "family:unoxidized_copper"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized",
                 "name": "Block of Copper",
@@ -175,7 +244,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "family:unoxidized_copper",
+                    "family_type:cut"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized",
                 "name": "Cut Copper",
@@ -184,7 +254,9 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "family:unoxidized_copper",
+                    "family_type:cut",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized",
                 "name": "Cut Copper Stairs",
@@ -193,7 +265,9 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "family:unoxidized_copper",
+                    "family_type:cut",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized",
                 "name": "Cut Copper Slab",
@@ -202,7 +276,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "family:exposed_copper"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed",
                 "name": "Exposed Copper",
@@ -211,7 +285,8 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "family:exposed_copper",
+                    "family_type:cut"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed",
                 "name": "Exposed Cut Copper",
@@ -220,7 +295,9 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "family:exposed_copper",
+                    "family_type:cut",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed",
                 "name": "Exposed Cut Copper Stairs",
@@ -229,7 +306,9 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "family:exposed_copper",
+                    "family_type:cut",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed",
                 "name": "Exposed Cut Copper Slab",
@@ -238,7 +317,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "family:weathered_copper"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered",
                 "name": "Weathered Copper",
@@ -247,7 +326,8 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "family:weathered_copper",
+                    "family_type:cut"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered",
                 "name": "Weathered Cut Copper",
@@ -256,7 +336,9 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "family:weathered_copper",
+                    "family_type:cut",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Weathered",
                 "name": "Weathered Cut Copper Stairs",
@@ -265,7 +347,9 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "family:weathered_copper",
+                    "family_type:cut",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Weathered",
                 "name": "Weathered Cut Copper Slab",
@@ -274,7 +358,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "family:oxidized_copper"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized",
                 "name": "Oxidized Copper",
@@ -283,7 +367,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "family:oxidized_copper",
+                    "family_type:cut"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized",
                 "name": "Oxidized Cut Copper",
@@ -292,7 +377,9 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "family:oxidized_copper",
+                    "family_type:cut",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Oxidized",
                 "name": "Oxidized Cut Copper Stairs",
@@ -301,7 +388,9 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "family:oxidized_copper",
+                    "family_type:cut",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized",
                 "name": "Oxidized Cut Copper Slab",

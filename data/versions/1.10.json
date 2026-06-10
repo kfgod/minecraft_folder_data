@@ -2,7 +2,10 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:red_nether_bricks",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks",
                 "name": "Red Nether Bricks",
                 "identifier": "red_nether_bricks",

@@ -152,7 +152,10 @@
                 "imagePath": "/block/pale_oak_hanging_sign/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:resin",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Resin_Bricks",
                 "name": "Resin Bricks",
                 "identifier": "resin_bricks",
@@ -160,7 +163,9 @@
             },
             {
                 "types": [
-                    "stairs"
+                    "family:resin",
+                    "family_type:brick",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Resin_Brick_Stairs",
                 "name": "Resin Brick Stairs",
@@ -169,7 +174,9 @@
             },
             {
                 "types": [
-                    "slabs"
+                    "family:resin",
+                    "family_type:brick",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Resin_Brick_Slab",
                 "name": "Resin Brick Slab",
@@ -178,7 +185,9 @@
             },
             {
                 "types": [
-                    "walls"
+                    "family:resin",
+                    "family_type:brick",
+                    "form:wall"
                 ],
                 "wiki": "https://minecraft.wiki/w/Resin_Brick_Wall",
                 "name": "Resin Brick Wall",
@@ -186,7 +195,10 @@
                 "imagePath": "/block/resin_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:resin",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Resin_Bricks",
                 "name": "Chiseled Resin Bricks",
                 "identifier": "chiseled_resin_bricks",
@@ -263,7 +275,9 @@
                 "imagePath": "/block/open_eyeblossom/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:resin"
+                ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Resin",
                 "name": "Block of Resin",
                 "identifier": "resin_block",

@@ -260,14 +260,22 @@
                 "imagePath": "/block/warped_button/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:cracked"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cracked_Nether_Bricks",
                 "name": "Cracked Nether Bricks",
                 "identifier": "cracked_nether_bricks",
                 "imagePath": "/block/cracked_nether_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:nether_bricks",
+                    "family_type:brick",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Nether_Bricks",
                 "name": "Chiseled Nether Bricks",
                 "identifier": "chiseled_nether_bricks",
@@ -475,7 +483,10 @@
                 "imagePath": "/block/netherite_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Quartz_Bricks",
                 "name": "Quartz Bricks",
                 "identifier": "quartz_bricks",

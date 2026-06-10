@@ -140,7 +140,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "family:unoxidized_copper",
+                    "form:chiseled"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized",
                 "name": "Chiseled Copper",
@@ -185,7 +186,8 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "family:exposed_copper",
+                    "form:chiseled"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed",
                 "name": "Exposed Chiseled Copper",
@@ -230,7 +232,8 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "family:weathered_copper",
+                    "form:chiseled"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Weathered",
                 "name": "Weathered Chiseled Copper",

@@ -65,14 +65,20 @@
                 "imagePath": "/block/mossy_stone_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:brick",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Brick_Stairs",
                 "name": "Brick Stairs",
                 "identifier": "brick_stairs",
                 "imagePath": "/block/brick_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:brick",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Brick_Slab",
                 "name": "Brick Slab",
                 "identifier": "brick_slab",

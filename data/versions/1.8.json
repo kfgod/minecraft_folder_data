@@ -209,42 +209,59 @@
                 "imagePath": "/block/polished_andesite/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Sandstone",
                 "name": "Red Sandstone",
                 "identifier": "red_sandstone",
                 "imagePath": "/block/red_sandstone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Sandstone_Stairs",
                 "name": "Red Sandstone Stairs",
                 "identifier": "red_sandstone_stairs",
                 "imagePath": "/block/red_sandstone_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Red_Sandstone_Slab",
                 "name": "Red Sandstone Slab",
                 "identifier": "red_sandstone_slab",
                 "imagePath": "/block/red_sandstone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Red_Sandstone",
                 "name": "Chiseled Red Sandstone",
                 "identifier": "chiseled_red_sandstone",
                 "imagePath": "/block/chiseled_red_sandstone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Red_Sandstone",
                 "name": "Smooth Red Sandstone",
                 "identifier": "smooth_red_sandstone",
                 "imagePath": "/block/smooth_red_sandstone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:red_sandstone",
+                    "family_type:cut"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cut_Red_Sandstone",
                 "name": "Cut Red Sandstone",
                 "identifier": "cut_red_sandstone",
@@ -258,21 +275,28 @@
                 "imagePath": "/block/sea_lantern/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:prismarine"
+                ],
                 "wiki": "https://minecraft.wiki/w/Prismarine",
                 "name": "Prismarine",
                 "identifier": "prismarine",
                 "imagePath": "/block/prismarine/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:prismarine",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Prismarine_Bricks",
                 "name": "Prismarine Bricks",
                 "identifier": "prismarine_bricks",
                 "imagePath": "/block/prismarine_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:dark_prismarine"
+                ],
                 "wiki": "https://minecraft.wiki/w/Dark_Prismarine",
                 "name": "Dark Prismarine",
                 "identifier": "dark_prismarine",

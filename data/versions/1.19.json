@@ -146,8 +146,8 @@
             },
             {
                 "types": [
-                    "type/mud",
-                    "bricks"
+                    "family:mud",
+                    "family_type:brick"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mud_Bricks",
                 "name": "Mud Bricks",
@@ -156,8 +156,9 @@
             },
             {
                 "types": [
-                    "type/mud",
-                    "stairs"
+                    "family:mud",
+                    "family_type:brick",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mud_Brick_Stairs",
                 "name": "Mud Brick Stairs",
@@ -166,8 +167,9 @@
             },
             {
                 "types": [
-                    "type/mud",
-                    "slabs"
+                    "family:mud",
+                    "family_type:brick",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mud_Brick_Slab",
                 "name": "Mud Brick Slab",
@@ -176,8 +178,9 @@
             },
             {
                 "types": [
-                    "type/mud",
-                    "walls"
+                    "family:mud",
+                    "family_type:brick",
+                    "form:wall"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mud_Brick_Wall",
                 "name": "Mud Brick Wall",
@@ -185,7 +188,9 @@
                 "imagePath": "/block/mud_brick_wall/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:mud"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mud",
                 "name": "Mud",
                 "identifier": "mud",

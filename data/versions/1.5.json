@@ -2,7 +2,10 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Sandstone",
                 "name": "Smooth Sandstone",
                 "identifier": "smooth_sandstone",
@@ -30,42 +33,59 @@
                 "imagePath": "/block/redstone_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz"
+                ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Quartz",
                 "name": "Block of Quartz",
                 "identifier": "quartz_block",
                 "imagePath": "/block/quartz_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Quartz_Stairs",
                 "name": "Quartz Stairs",
                 "identifier": "quartz_stairs",
                 "imagePath": "/block/quartz_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Quartz_Slab",
                 "name": "Quartz Slab",
                 "identifier": "quartz_slab",
                 "imagePath": "/block/quartz_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Quartz_Block",
                 "name": "Chiseled Quartz Block",
                 "identifier": "chiseled_quartz_block",
                 "imagePath": "/block/chiseled_quartz_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "form:pillar"
+                ],
                 "wiki": "https://minecraft.wiki/w/Quartz_Pillar",
                 "name": "Quartz Pillar",
                 "identifier": "quartz_pillar",
                 "imagePath": "/block/quartz_pillar/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:quartz",
+                    "family_type:polished"
+                ],
                 "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block",
                 "name": "Smooth Quartz Block",
                 "identifier": "smooth_quartz",

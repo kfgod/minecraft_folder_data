@@ -22,7 +22,9 @@
                 "imagePath": "/block/birch_log/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sandstone",
                 "name": "Sandstone",
                 "identifier": "sandstone",

@@ -112,7 +112,10 @@
                 "imagePath": "/block/jungle_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Sandstone_Stairs",
                 "name": "Sandstone Stairs",
                 "identifier": "sandstone_stairs",

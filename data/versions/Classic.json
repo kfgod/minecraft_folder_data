@@ -33,7 +33,9 @@
                 "imagePath": "/block/smooth_stone_slab/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/Bricks",
                 "name": "Bricks",
                 "identifier": "bricks",

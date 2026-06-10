@@ -32,14 +32,20 @@
                 "imagePath": "/block/jungle_planks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "form:chiseled"
+                ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone",
                 "name": "Chiseled Sandstone",
                 "identifier": "chiseled_sandstone",
                 "imagePath": "/block/chiseled_sandstone/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:sandstone",
+                    "family_type:cut"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cut_Sandstone",
                 "name": "Cut Sandstone",
                 "identifier": "cut_sandstone",

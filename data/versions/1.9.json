@@ -2,35 +2,49 @@
     "added": {
         "blocks": [
             {
-                "types": [],
+                "types": [
+                    "family:end_stone",
+                    "family_type:brick"
+                ],
                 "wiki": "https://minecraft.wiki/w/End_Stone_Bricks",
                 "name": "End Stone Bricks",
                 "identifier": "end_stone_bricks",
                 "imagePath": "/block/end_stone_bricks/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:purpur"
+                ],
                 "wiki": "https://minecraft.wiki/w/Purpur_Block",
                 "name": "Purpur Block",
                 "identifier": "purpur_block",
                 "imagePath": "/block/purpur_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:purpur",
+                    "form:pillar"
+                ],
                 "wiki": "https://minecraft.wiki/w/Purpur_Pillar",
                 "name": "Purpur Pillar",
                 "identifier": "purpur_pillar",
                 "imagePath": "/block/purpur_pillar/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:purpur",
+                    "form:stairs"
+                ],
                 "wiki": "https://minecraft.wiki/w/Purpur_Stairs",
                 "name": "Purpur Stairs",
                 "identifier": "purpur_stairs",
                 "imagePath": "/block/purpur_stairs/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:purpur",
+                    "form:slab"
+                ],
                 "wiki": "https://minecraft.wiki/w/Purpur_Slab",
                 "name": "Purpur Slab",
                 "identifier": "purpur_slab",
