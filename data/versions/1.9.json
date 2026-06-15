@@ -141,8 +141,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "boats"
+                    "family:spruce",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Spruce",
                 "name": "Spruce Boat",
@@ -151,8 +151,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "boats"
+                    "family:birch",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Birch",
                 "name": "Birch Boat",
@@ -161,8 +161,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "boats"
+                    "family:jungle",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Jungle",
                 "name": "Jungle Boat",
@@ -171,8 +171,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "boats"
+                    "family:acacia",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Acacia",
                 "name": "Acacia Boat",
@@ -181,8 +181,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "boats"
+                    "family: dark_oak",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak",
                 "name": "Dark Oak Boat",

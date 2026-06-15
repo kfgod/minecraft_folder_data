@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/mangrove",
-                    "logs"
+                    "family:mangrove",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Mangrove",
                 "name": "Mangrove Log",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "woods"
+                    "family:mangrove",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Mangrove",
                 "name": "Mangrove Wood",
@@ -23,17 +23,18 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "stripped_logs"
+                    "family:mangrove",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Mangrove Log",
                 "identifier": "stripped_mangrove_log",
                 "imagePath": "/block/stripped_mangrove_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "stripped_woods"
+                    "family:mangrove",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Mangrove",
                 "name": "Stripped Mangrove Wood",
@@ -42,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "planks"
+                    "family:mangrove",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Mangrove",
                 "name": "Mangrove Planks",
@@ -52,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "stairs"
+                    "family:mangrove",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Mangrove",
                 "name": "Mangrove Stairs",
@@ -62,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "slabs"
+                    "family:mangrove",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove",
                 "name": "Mangrove Slab",
@@ -72,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "fences"
+                    "family:mangrove",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Mangrove",
                 "name": "Mangrove Fence",
@@ -82,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "gates"
+                    "family:mangrove",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Mangrove",
                 "name": "Mangrove Fence Gate",
@@ -92,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "doors"
+                    "family:mangrove",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Mangrove",
                 "name": "Mangrove Door",
@@ -102,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "trapdoors"
+                    "family:mangrove",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Mangrove",
                 "name": "Mangrove Trapdoor",
@@ -112,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "pressure_plates"
+                    "family:mangrove",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove",
                 "name": "Mangrove Pressure Plate",
@@ -122,8 +123,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "buttons"
+                    "family:mangrove",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Mangrove",
                 "name": "Mangrove Button",
@@ -212,9 +213,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/mangrove",
-                    "leaves"
+                    "family:mangrove",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Mangrove",
                 "name": "Mangrove Leaves",
@@ -223,10 +223,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower/other",
-                    "woodset/mangrove",
-                    "saplings"
+                    "family:mangrove",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mangrove_Propagule",
                 "name": "Mangrove Propagule",
@@ -291,8 +289,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "signs"
+                    "family:mangrove",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Mangrove",
                 "name": "Mangrove Sign",
@@ -339,8 +337,8 @@
         "items": [
             {
                 "types": [
-                    "woodset/oak",
-                    "chest_boats"
+                    "family:oak",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak",
                 "name": "Oak Boat with Chest",
@@ -365,8 +363,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "chest_boats"
+                    "family:spruce",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce",
                 "name": "Spruce Boat with Chest",
@@ -375,8 +373,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "chest_boats"
+                    "family:birch",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch",
                 "name": "Birch Boat with Chest",
@@ -385,8 +383,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "chest_boats"
+                    "family:jungle",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle",
                 "name": "Jungle Boat with Chest",
@@ -395,8 +393,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "chest_boats"
+                    "family:acacia",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia",
                 "name": "Acacia Boat with Chest",
@@ -405,8 +403,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "chest_boats"
+                    "family:dark_oak",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak",
                 "name": "Dark Oak Boat with Chest",
@@ -415,8 +413,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "boats"
+                    "family:mangrove",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Mangrove",
                 "name": "Mangrove Boat",
@@ -425,8 +423,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "chest_boats"
+                    "family:mangrove",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove",
                 "name": "Mangrove Boat with Chest",

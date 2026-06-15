@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "gates"
+                    "family:oak",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak",
                 "name": "Oak Fence Gate",

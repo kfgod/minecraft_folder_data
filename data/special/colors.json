@@ -5,6 +5,8 @@
   "columns_order": [
     "dye",
     "wool",
+    "wool_stairs",
+    "wool_slab",
     "carpet",
     "stained_terracotta",
     "glazed_terracotta",
@@ -36,6 +38,18 @@
           "name": "White Wool",
           "wiki": "https://minecraft.wiki/w/Wool#White",
           "imagePath": "/block/white_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "white_wool_stairs",
+          "name": "White Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#White",
+          "imagePath": "/block/white_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "white_wool_slab",
+          "name": "White Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#White",
+          "imagePath": "/block/white_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "white_carpet",
@@ -134,6 +148,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Light_Gray",
           "imagePath": "/block/light_gray_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "light_gray_wool_stairs",
+          "name": "Light Gray Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Gray",
+          "imagePath": "/block/light_gray_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "light_gray_wool_slab",
+          "name": "Light Gray Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Gray",
+          "imagePath": "/block/light_gray_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "light_gray_carpet",
           "name": "Light Gray Carpet",
@@ -230,6 +256,18 @@
           "name": "Gray Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Gray",
           "imagePath": "/block/gray_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "gray_wool_stairs",
+          "name": "Gray Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Gray",
+          "imagePath": "/block/gray_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "gray_wool_slab",
+          "name": "Gray Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Gray",
+          "imagePath": "/block/gray_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "gray_carpet",
@@ -328,6 +366,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Black",
           "imagePath": "/block/black_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "black_wool_stairs",
+          "name": "Black Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Black",
+          "imagePath": "/block/black_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "black_wool_slab",
+          "name": "Black Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Black",
+          "imagePath": "/block/black_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "black_carpet",
           "name": "Black Carpet",
@@ -424,6 +474,18 @@
           "name": "Brown Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Brown",
           "imagePath": "/block/brown_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "brown_wool_stairs",
+          "name": "Brown Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Brown",
+          "imagePath": "/block/brown_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "brown_wool_slab",
+          "name": "Brown Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Brown",
+          "imagePath": "/block/brown_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "brown_carpet",
@@ -522,6 +584,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Red",
           "imagePath": "/block/red_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "red_wool_stairs",
+          "name": "Red Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Red",
+          "imagePath": "/block/red_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "red_wool_slab",
+          "name": "Red Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Red",
+          "imagePath": "/block/red_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "red_carpet",
           "name": "Red Carpet",
@@ -618,6 +692,18 @@
           "name": "Orange Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Orange",
           "imagePath": "/block/orange_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "orange_wool_stairs",
+          "name": "Orange Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Orange",
+          "imagePath": "/block/orange_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "orange_wool_slab",
+          "name": "Orange Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Orange",
+          "imagePath": "/block/orange_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "orange_carpet",
@@ -716,6 +802,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Yellow",
           "imagePath": "/block/yellow_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "yellow_wool_stairs",
+          "name": "Yellow Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Yellow",
+          "imagePath": "/block/yellow_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "yellow_wool_slab",
+          "name": "Yellow Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Yellow",
+          "imagePath": "/block/yellow_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "yellow_carpet",
           "name": "Yellow Carpet",
@@ -812,6 +910,18 @@
           "name": "Lime Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Lime",
           "imagePath": "/block/lime_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "lime_wool_stairs",
+          "name": "Lime Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Lime",
+          "imagePath": "/block/lime_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "lime_wool_slab",
+          "name": "Lime Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Lime",
+          "imagePath": "/block/lime_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "lime_carpet",
@@ -910,6 +1020,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Green",
           "imagePath": "/block/green_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "green_wool_stairs",
+          "name": "Green Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Green",
+          "imagePath": "/block/green_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "green_wool_slab",
+          "name": "Green Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Green",
+          "imagePath": "/block/green_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "green_carpet",
           "name": "Green Carpet",
@@ -1006,6 +1128,18 @@
           "name": "Cyan Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Cyan",
           "imagePath": "/block/cyan_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "cyan_wool_stairs",
+          "name": "Cyan Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Cyan",
+          "imagePath": "/block/cyan_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "cyan_wool_slab",
+          "name": "Cyan Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Cyan",
+          "imagePath": "/block/cyan_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "cyan_carpet",
@@ -1104,6 +1238,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Light_Blue",
           "imagePath": "/block/light_blue_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "light_blue_wool_stairs",
+          "name": "Light Blue Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Blue",
+          "imagePath": "/block/light_blue_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "light_blue_wool_slab",
+          "name": "Light Blue Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Blue",
+          "imagePath": "/block/light_blue_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "light_blue_carpet",
           "name": "Light Blue Carpet",
@@ -1200,6 +1346,18 @@
           "name": "Blue Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Blue",
           "imagePath": "/block/blue_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "blue_wool_stairs",
+          "name": "Blue Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Blue",
+          "imagePath": "/block/blue_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "blue_wool_slab",
+          "name": "Blue Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Blue",
+          "imagePath": "/block/blue_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "blue_carpet",
@@ -1298,6 +1456,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Purple",
           "imagePath": "/block/purple_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "purple_wool_stairs",
+          "name": "Purple Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Purple",
+          "imagePath": "/block/purple_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "purple_wool_slab",
+          "name": "Purple Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple",
+          "imagePath": "/block/purple_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "purple_carpet",
           "name": "Purple Carpet",
@@ -1395,6 +1565,18 @@
           "wiki": "https://minecraft.wiki/w/Wool#Magenta",
           "imagePath": "/block/magenta_wool/latest.png"
         },
+        "wool_stairs": {
+          "identifier": "magenta_wool_stairs",
+          "name": "Magenta Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Magenta",
+          "imagePath": "/block/magenta_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "magenta_wool_slab",
+          "name": "Magenta Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta",
+          "imagePath": "/block/magenta_wool_slab/latest.png"
+        },
         "carpet": {
           "identifier": "magenta_carpet",
           "name": "Magenta Carpet",
@@ -1491,6 +1673,18 @@
           "name": "Pink Wool",
           "wiki": "https://minecraft.wiki/w/Wool#Pink",
           "imagePath": "/block/pink_wool/latest.png"
+        },
+        "wool_stairs": {
+          "identifier": "pink_wool_stairs",
+          "name": "Pink Wool Stairs",
+          "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink",
+          "imagePath": "/block/pink_wool_stairs/latest.png"
+        },
+        "wool_slab": {
+          "identifier": "pink_wool_slab",
+          "name": "Pink Wool Slab",
+          "wiki": "https://minecraft.wiki/w/Wool_Slab#Pink",
+          "imagePath": "/block/pink_wool_slab/latest.png"
         },
         "carpet": {
           "identifier": "pink_carpet",

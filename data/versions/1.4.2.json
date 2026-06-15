@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "buttons"
+                    "family:oak",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak",
                 "name": "Oak Button",

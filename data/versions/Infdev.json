@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "stairs"
+                    "family:oak",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak",
                 "name": "Oak Stairs",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "doors"
+                    "family:oak",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak",
                 "name": "Oak Door",
@@ -40,8 +40,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "signs"
+                    "family:oak",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Oak",
                 "name": "Oak Sign",

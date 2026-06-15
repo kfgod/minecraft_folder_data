@@ -1,0 +1,536 @@
+{
+    "added": {
+        "blocks": [
+            {
+                "types": [
+                    "color:white"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#White",
+                "color": "white",
+                "name": "White Wool Slab",
+                "identifier": "white_wool_slab",
+                "imagePath": "/block/white_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:magenta"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta",
+                "color": "magenta",
+                "name": "Magenta Wool Slab",
+                "identifier": "magenta_wool_slab",
+                "imagePath": "/block/magenta_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Wool Slab",
+                "identifier": "light_blue_wool_slab",
+                "imagePath": "/block/light_blue_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:log"
+                ],
+                "wiki": "https://minecraft.wiki/w/Log#Poplar",
+                "name": "Poplar Log",
+                "identifier": "poplar_log"
+            },
+            {
+                "types": [
+                    "color:pink"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Pink",
+                "color": "pink",
+                "name": "Pink Wool Slab",
+                "identifier": "pink_wool_slab",
+                "imagePath": "/block/pink_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:pink"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink",
+                "color": "pink",
+                "name": "Pink Wool Stairs",
+                "identifier": "pink_wool_stairs",
+                "imagePath": "/block/pink_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Wool Stairs",
+                "identifier": "light_blue_wool_stairs",
+                "imagePath": "/block/light_blue_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:brown"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Brown",
+                "color": "brown",
+                "name": "Brown Wool Stairs",
+                "identifier": "brown_wool_stairs",
+                "imagePath": "/block/brown_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:fence"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar",
+                "name": "Poplar Fence",
+                "identifier": "poplar_fence"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:button"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar",
+                "name": "Poplar Button",
+                "identifier": "poplar_button"
+            },
+            {
+                "types": [
+                    "color:blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Blue",
+                "color": "blue",
+                "name": "Blue Wool Stairs",
+                "identifier": "blue_wool_stairs",
+                "imagePath": "/block/blue_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:black"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Black",
+                "color": "black",
+                "name": "Black Wool Slab",
+                "identifier": "black_wool_slab",
+                "imagePath": "/block/black_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Gray",
+                "color": "gray",
+                "name": "Gray Wool Slab",
+                "identifier": "gray_wool_slab",
+                "imagePath": "/block/gray_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:white"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#White",
+                "color": "white",
+                "name": "White Wool Stairs",
+                "identifier": "white_wool_stairs",
+                "imagePath": "/block/white_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:trapdoor"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar",
+                "name": "Poplar Trapdoor",
+                "identifier": "poplar_trapdoor"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar",
+                "name": "Yellow Poplar Leaves",
+                "identifier": "yellow_poplar_leaves"
+            },
+            {
+                "types": [
+                    "color:green"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Green",
+                "color": "green",
+                "name": "Green Wool Slab",
+                "identifier": "green_wool_slab",
+                "imagePath": "/block/green_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:yellow"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Yellow",
+                "color": "yellow",
+                "name": "Yellow Wool Slab",
+                "identifier": "yellow_wool_slab",
+                "imagePath": "/block/yellow_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:orange"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Orange",
+                "color": "orange",
+                "name": "Orange Wool Stairs",
+                "identifier": "orange_wool_stairs",
+                "imagePath": "/block/orange_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:purple"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple",
+                "color": "purple",
+                "name": "Purple Wool Slab",
+                "identifier": "purple_wool_slab",
+                "imagePath": "/block/purple_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:shelf"
+                ],
+                "wiki": "https://minecraft.wiki/w/Shelf#Poplar",
+                "name": "Poplar Shelf",
+                "identifier": "poplar_shelf"
+            },
+            {
+                "types": [
+                    "color:purple"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Purple",
+                "color": "purple",
+                "name": "Purple Wool Stairs",
+                "identifier": "purple_wool_stairs",
+                "imagePath": "/block/purple_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar",
+                "name": "Poplar Stairs",
+                "identifier": "poplar_stairs"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:hanging_sign"
+                ],
+                "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar",
+                "name": "Poplar Hanging Sign",
+                "identifier": "poplar_hanging_sign"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:slab"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar",
+                "name": "Poplar Slab",
+                "identifier": "poplar_slab"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:wood"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wood#Poplar",
+                "name": "Poplar Wood",
+                "identifier": "poplar_wood"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:stripped_log"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar",
+                "name": "Stripped Poplar Log",
+                "identifier": "stripped_poplar_log"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:sapling"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
+                "name": "Poplar Sapling",
+                "identifier": "poplar_sapling"
+            },
+            {
+                "types": [
+                    "color:brown"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Brown",
+                "color": "brown",
+                "name": "Brown Wool Slab",
+                "identifier": "brown_wool_slab",
+                "imagePath": "/block/brown_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar",
+                "name": "Red Poplar Leaves",
+                "identifier": "red_poplar_leaves"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar",
+                "name": "Orange Poplar Leaves",
+                "identifier": "orange_poplar_leaves"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:pressure_plate"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar",
+                "name": "Poplar Pressure Plate",
+                "identifier": "poplar_pressure_plate"
+            },
+            {
+                "types": [
+                    "color:light_gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Wool Slab",
+                "identifier": "light_gray_wool_slab",
+                "imagePath": "/block/light_gray_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:stripped_wood"
+                ],
+                "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar",
+                "name": "Stripped Poplar Wood",
+                "identifier": "stripped_poplar_wood"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:sign"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sign#Poplar",
+                "name": "Poplar Sign",
+                "identifier": "poplar_sign"
+            },
+            {
+                "types": [
+                    "color:red"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Red",
+                "color": "red",
+                "name": "Red Wool Slab",
+                "identifier": "red_wool_slab",
+                "imagePath": "/block/red_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:door"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar",
+                "name": "Poplar Door",
+                "identifier": "poplar_door"
+            },
+            {
+                "types": [
+                    "color:cyan"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Cyan",
+                "color": "cyan",
+                "name": "Cyan Wool Stairs",
+                "identifier": "cyan_wool_stairs",
+                "imagePath": "/block/cyan_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Blue",
+                "color": "blue",
+                "name": "Blue Wool Slab",
+                "identifier": "blue_wool_slab",
+                "imagePath": "/block/blue_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:yellow"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Yellow",
+                "color": "yellow",
+                "name": "Yellow Wool Stairs",
+                "identifier": "yellow_wool_stairs",
+                "imagePath": "/block/yellow_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:black"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Black",
+                "color": "black",
+                "name": "Black Wool Stairs",
+                "identifier": "black_wool_stairs",
+                "imagePath": "/block/black_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:cyan"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Cyan",
+                "color": "cyan",
+                "name": "Cyan Wool Slab",
+                "identifier": "cyan_wool_slab",
+                "imagePath": "/block/cyan_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:red"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Red",
+                "color": "red",
+                "name": "Red Wool Stairs",
+                "identifier": "red_wool_stairs",
+                "imagePath": "/block/red_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:magenta"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Magenta",
+                "color": "magenta",
+                "name": "Magenta Wool Stairs",
+                "identifier": "magenta_wool_stairs",
+                "imagePath": "/block/magenta_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:green"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Green",
+                "color": "green",
+                "name": "Green Wool Stairs",
+                "identifier": "green_wool_stairs",
+                "imagePath": "/block/green_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:gate"
+                ],
+                "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar",
+                "name": "Poplar Fence Gate",
+                "identifier": "poplar_fence_gate"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:planks"
+                ],
+                "wiki": "https://minecraft.wiki/w/Planks#Poplar",
+                "name": "Poplar Planks",
+                "identifier": "poplar_planks"
+            },
+            {
+                "types": [
+                    "color:lime"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Lime",
+                "color": "lime",
+                "name": "Lime Wool Stairs",
+                "identifier": "lime_wool_stairs",
+                "imagePath": "/block/lime_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:lime"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Lime",
+                "color": "lime",
+                "name": "Lime Wool Slab",
+                "identifier": "lime_wool_slab",
+                "imagePath": "/block/lime_wool_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Gray",
+                "color": "gray",
+                "name": "Gray Wool Stairs",
+                "identifier": "gray_wool_stairs",
+                "imagePath": "/block/gray_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Wool Stairs",
+                "identifier": "light_gray_wool_stairs",
+                "imagePath": "/block/light_gray_wool_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:orange"
+                ],
+                "wiki": "https://minecraft.wiki/w/Wool_Slab#Orange",
+                "color": "orange",
+                "name": "Orange Wool Slab",
+                "identifier": "orange_wool_slab",
+                "imagePath": "/block/orange_wool_slab/latest.png"
+            }
+        ],
+        "items": [
+            {
+                "types": [
+                    "family:poplar",
+                    "form:boat"
+                ],
+                "wiki": "https://minecraft.wiki/w/Boat#Poplar",
+                "name": "Poplar Boat",
+                "identifier": "poplar_boat"
+            },
+            {
+                "types": [
+                    "family:poplar",
+                    "form:chest_boat"
+                ],
+                "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar",
+                "name": "Poplar Boat with Chest",
+                "identifier": "poplar_chest_boat"
+            }
+        ]
+    },
+    "image": null,
+    "name": "Fall Drop",
+    "release_date": null,
+    "release_version": {
+        "bedrock": null,
+        "java": "26.3"
+    },
+    "tags": [],
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.3",
+    "type": "drop"
+}

@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/spruce",
-                    "fences"
+                    "family:spruce",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce",
                 "name": "Spruce Fence",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "gates"
+                    "family:spruce",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce",
                 "name": "Spruce Fence Gate",
@@ -23,8 +23,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "doors"
+                    "family:spruce",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Spruce",
                 "name": "Spruce Door",
@@ -33,8 +33,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "fences"
+                    "family:birch",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch",
                 "name": "Birch Fence",
@@ -43,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "gates"
+                    "family:birch",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch",
                 "name": "Birch Fence Gate",
@@ -53,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "doors"
+                    "family:birch",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Birch",
                 "name": "Birch Door",
@@ -63,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "fences"
+                    "family:jungle",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle",
                 "name": "Jungle Fence",
@@ -73,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "gates"
+                    "family:jungle",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle",
                 "name": "Jungle Fence Gate",
@@ -83,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "doors"
+                    "family:jungle",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Jungle",
                 "name": "Jungle Door",
@@ -93,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "fences"
+                    "family:acacia",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia",
                 "name": "Acacia Fence",
@@ -103,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "gates"
+                    "family:acacia",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia",
                 "name": "Acacia Fence Gate",
@@ -113,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "doors"
+                    "family:acacia",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Acacia",
                 "name": "Acacia Door",
@@ -123,8 +123,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "fences"
+                    "family:dark_oak",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak",
                 "name": "Dark Oak Fence",
@@ -133,8 +133,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "gates"
+                    "family:dark_oak",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Dark_Oak",
                 "name": "Dark Oak Fence Gate",
@@ -143,8 +143,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "doors"
+                    "family:dark_oak",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak",
                 "name": "Dark Oak Door",

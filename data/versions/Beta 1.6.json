@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "trapdoors"
+                    "family:oak",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak",
                 "name": "Oak Trapdoor",

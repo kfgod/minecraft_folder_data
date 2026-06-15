@@ -3,17 +3,18 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "stripped_logs"
+                    "family:oak",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Oak Log",
                 "identifier": "stripped_oak_log",
                 "imagePath": "/block/stripped_oak_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "stripped_woods"
+                    "family:oak",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak",
                 "name": "Stripped Oak Wood",
@@ -22,17 +23,18 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "stripped_logs"
+                    "family:spruce",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Spruce Log",
                 "identifier": "stripped_spruce_log",
                 "imagePath": "/block/stripped_spruce_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "stripped_woods"
+                    "family:spruce",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Spruce",
                 "name": "Stripped Spruce Wood",
@@ -41,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "trapdoors"
+                    "family:spruce",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce",
                 "name": "Spruce Trapdoor",
@@ -51,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "pressure_plates"
+                    "family:spruce",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce",
                 "name": "Spruce Pressure Plate",
@@ -61,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "buttons"
+                    "family:spruce",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Spruce",
                 "name": "Spruce Button",
@@ -71,17 +73,18 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "stripped_logs"
+                    "family:birch",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Birch Log",
                 "identifier": "stripped_birch_log",
                 "imagePath": "/block/stripped_birch_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "stripped_woods"
+                    "family:birch",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch",
                 "name": "Stripped Birch Wood",
@@ -90,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "trapdoors"
+                    "family:birch",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch",
                 "name": "Birch Trapdoor",
@@ -100,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "pressure_plates"
+                    "family:birch",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch",
                 "name": "Birch Pressure Plate",
@@ -110,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "buttons"
+                    "family:birch",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch",
                 "name": "Birch Button",
@@ -120,17 +123,18 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "stripped_logs"
+                    "family:jungle",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Jungle Log",
                 "identifier": "stripped_jungle_log",
                 "imagePath": "/block/stripped_jungle_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "stripped_woods"
+                    "family:jungle",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle",
                 "name": "Stripped Jungle Wood",
@@ -139,8 +143,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "trapdoors"
+                    "family:jungle",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle",
                 "name": "Jungle Trapdoor",
@@ -149,8 +153,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "pressure_plates"
+                    "family:jungle",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle",
                 "name": "Jungle Pressure Plate",
@@ -159,8 +163,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "buttons"
+                    "family:jungle",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle",
                 "name": "Jungle Button",
@@ -169,17 +173,18 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "stripped_logs"
+                    "family:acacia",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Acacia Log",
                 "identifier": "stripped_acacia_log",
                 "imagePath": "/block/stripped_acacia_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "stripped_woods"
+                    "family:acacia",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
                 "name": "Stripped Acacia Wood",
@@ -188,8 +193,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "trapdoors"
+                    "family:acacia",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Acacia",
                 "name": "Acacia Trapdoor",
@@ -198,8 +203,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "pressure_plates"
+                    "family:acacia",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia",
                 "name": "Acacia Pressure Plate",
@@ -208,8 +213,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "buttons"
+                    "family:acacia",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia",
                 "name": "Acacia Button",
@@ -218,17 +223,18 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "stripped_logs"
+                    "family:dark_oak",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Dark Oak Log",
                 "identifier": "stripped_dark_oak_log",
                 "imagePath": "/block/stripped_dark_oak_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "stripped_woods"
+                    "family:dark_oak",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak",
                 "name": "Stripped Dark Oak Wood",
@@ -237,8 +243,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "trapdoors"
+                    "family:dark_oak",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Dark_Oak",
                 "name": "Dark Oak Trapdoor",
@@ -247,8 +253,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "pressure_plates"
+                    "family:dark_oak",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak",
                 "name": "Dark Oak Pressure Plate",
@@ -257,8 +263,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "buttons"
+                    "family:dark_oak",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak",
                 "name": "Dark Oak Button",

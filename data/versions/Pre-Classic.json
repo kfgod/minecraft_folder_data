@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "planks"
+                    "family:oak",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Oak",
                 "name": "Oak Planks",
@@ -45,10 +45,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/oak",
-                    "saplings",
-                    "plants"
+                    "family:oak",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Oak",
                 "name": "Oak Sapling",

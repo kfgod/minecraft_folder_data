@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "logs"
+                    "family:pale_oak",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Pale_Oak",
                 "name": "Pale Oak Log",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "woods"
+                    "family:pale_oak",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak",
                 "name": "Pale Oak Wood",
@@ -23,8 +23,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "stripped_logs"
+                    "family:pale_oak",
+                    "form:stripped_log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak",
                 "name": "Stripped Pale Oak Log",
@@ -33,8 +33,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "stripped_woods"
+                    "family:pale_oak",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak",
                 "name": "Stripped Pale Oak Wood",
@@ -43,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "planks"
+                    "family:pale_oak",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak",
                 "name": "Pale Oak Planks",
@@ -53,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "stairs"
+                    "family:pale_oak",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Pale_Oak",
                 "name": "Pale Oak Stairs",
@@ -63,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "slabs"
+                    "family:pale_oak",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak",
                 "name": "Pale Oak Slab",
@@ -73,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "fences"
+                    "family:pale_oak",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak",
                 "name": "Pale Oak Fence",
@@ -83,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "gates"
+                    "family:pale_oak",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak",
                 "name": "Pale Oak Fence Gate",
@@ -93,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "doors"
+                    "family:pale_oak",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak",
                 "name": "Pale Oak Door",
@@ -103,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "trapdoors"
+                    "family:pale_oak",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak",
                 "name": "Pale Oak Trapdoor",
@@ -113,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "pressure_plates"
+                    "family:pale_oak",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak",
                 "name": "Pale Oak Pressure Plate",
@@ -123,8 +123,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "buttons"
+                    "family:pale_oak",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak",
                 "name": "Pale Oak Button",
@@ -133,8 +133,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "signs"
+                    "family:pale_oak",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak",
                 "name": "Pale Oak Sign",
@@ -143,8 +143,8 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "hanging_signs"
+                    "family:pale_oak",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
                 "name": "Pale Oak Hanging Sign",
@@ -233,9 +233,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/pale_oak",
-                    "leaves"
+                    "family:pale_oak",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
                 "name": "Pale Oak Leaves",
@@ -244,10 +243,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/pale_oak",
-                    "plants",
-                    "saplings"
+                    "family:pale_oak",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak",
                 "name": "Pale Oak Sapling",
@@ -294,8 +291,8 @@
         "items": [
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "boats"
+                    "family:pale_oak",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
                 "name": "Pale Oak Boat",
@@ -304,11 +301,11 @@
             },
             {
                 "types": [
-                    "woodset/pale_oak",
-                    "chest_boats"
+                    "family:pale_oak",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
-                "name": " Pale Oak Boat with Chest",
+                "name": "Pale Oak Boat with Chest",
                 "identifier": "pale_oak_chest_boat",
                 "imagePath": "/item/pale_oak_chest_boat/latest.png"
             },

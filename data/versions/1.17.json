@@ -914,9 +914,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/azalea",
-                    "leaves"
+                    "family:azalea",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Azalea",
                 "name": "Azalea Leaves",
@@ -925,10 +924,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower/other",
-                    "woodset/azalea",
-                    "leaves"
+                    "family:azalea",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Flowering_Azalea",
                 "name": "Flowering Azalea Leaves",
@@ -937,7 +934,8 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "family:azalea",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azalea",
                 "name": "Azalea",
@@ -946,10 +944,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower/other",
-                    "saplings",
-                    "woodset/azalea"
+                    "family:azalea",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flowering_Azalea",
                 "name": "Flowering Azalea",

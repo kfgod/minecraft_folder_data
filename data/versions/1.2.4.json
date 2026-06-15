@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/spruce",
-                    "planks"
+                    "family:spruce",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Spruce",
                 "name": "Spruce Planks",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "planks"
+                    "family:birch",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Birch",
                 "name": "Birch Planks",
@@ -23,8 +23,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "planks"
+                    "family:jungle",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Jungle",
                 "name": "Jungle Planks",

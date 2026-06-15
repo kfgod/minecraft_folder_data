@@ -296,84 +296,120 @@
                 "imagePath": "/block/waxed_oxidized_lightning_rod/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:oak",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Oak",
                 "name": "Oak Shelf",
                 "identifier": "oak_shelf",
                 "imagePath": "/block/oak_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:spruce",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Spruce",
                 "name": "Spruce Shelf",
                 "identifier": "spruce_shelf",
                 "imagePath": "/block/spruce_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:birch",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Birch",
                 "name": "Birch Shelf",
                 "identifier": "birch_shelf",
                 "imagePath": "/block/birch_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:jungle",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Jungle",
                 "name": "Jungle Shelf",
                 "identifier": "jungle_shelf",
                 "imagePath": "/block/jungle_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:acacia",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Acacia",
                 "name": "Acacia Shelf",
                 "identifier": "acacia_shelf",
                 "imagePath": "/block/acacia_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:dark_oak",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Dark_Oak",
                 "name": "Dark Oak Shelf",
                 "identifier": "dark_oak_shelf",
                 "imagePath": "/block/dark_oak_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:mangrove",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Mangrove",
                 "name": "Mangrove Shelf",
                 "identifier": "mangrove_shelf",
                 "imagePath": "/block/mangrove_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:cherry",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Cherry",
                 "name": "Cherry Shelf",
                 "identifier": "cherry_shelf",
                 "imagePath": "/block/cherry_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:pale_oak",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Pale_Oak",
                 "name": "Pale Oak Shelf",
                 "identifier": "pale_oak_shelf",
                 "imagePath": "/block/pale_oak_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:bamboo",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Bamboo",
                 "name": "Bamboo Shelf",
                 "identifier": "bamboo_shelf",
                 "imagePath": "/block/bamboo_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:crimson",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Crimson",
                 "name": "Crimson Shelf",
                 "identifier": "crimson_shelf",
                 "imagePath": "/block/crimson_shelf/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:warped",
+                    "form:shelf"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Warped",
                 "name": "Warped Shelf",
                 "identifier": "warped_shelf",

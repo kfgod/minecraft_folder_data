@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "fences"
+                    "family:oak",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak",
                 "name": "Oak Fence",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "pressure_plates"
+                    "family:oak",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak",
                 "name": "Oak Pressure Plate",
@@ -253,8 +253,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "boats"
+                    "family:oak",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Oak",
                 "name": "Oak Boat",

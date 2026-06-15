@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "logs"
+                    "family:oak",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Oak",
                 "name": "Oak Log",
@@ -266,9 +266,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/oak",
-                    "leaves"
+                    "family:oak",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Oak",
                 "name": "Oak Leaves",

@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/jungle",
-                    "logs"
+                    "family:jungle",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Jungle",
                 "name": "Jungle Log",
@@ -23,9 +23,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/jungle",
-                    "leaves"
+                    "family:jungle",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Jungle",
                 "name": "Jungle Leaves",
@@ -34,10 +33,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/jungle",
-                    "plant",
-                    "saplings"
+                    "family:jungle",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Jungle",
                 "name": "Jungle Sapling",

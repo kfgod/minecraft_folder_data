@@ -3,10 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "vegetation",
-                    "woodset/spruce",
-                    "saplings",
-                    "plants"
+                    "family:spruce",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Spruce",
                 "name": "Spruce Sapling",
@@ -15,10 +13,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/birch",
-                    "saplings",
-                    "plants"
+                    "family:birch",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Birch",
                 "name": "Birch Sapling",

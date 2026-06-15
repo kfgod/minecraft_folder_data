@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/cherry",
-                    "logs"
+                    "family:cherry",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Cherry",
                 "name": "Cherry Log",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "woods"
+                    "family:cherry",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Cherry",
                 "name": "Cherry Wood",
@@ -23,17 +23,18 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "stripped_logs"
+                    "family:cherry",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Cherry Log",
                 "identifier": "stripped_cherry_log",
                 "imagePath": "/block/stripped_cherry_log/latest.png"
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "stripped_woods"
+                    "family:cherry",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry",
                 "name": "Stripped Cherry Wood",
@@ -42,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "planks"
+                    "family:cherry",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Cherry",
                 "name": "Cherry Planks",
@@ -52,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "stairs"
+                    "family:cherry",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry",
                 "name": "Cherry Stairs",
@@ -62,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "slabs"
+                    "family:cherry",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry",
                 "name": "Cherry Slab",
@@ -72,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "fences"
+                    "family:cherry",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry",
                 "name": "Cherry Fence",
@@ -82,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "gates"
+                    "family:cherry",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry",
                 "name": "Cherry Fence Gate",
@@ -92,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "doors"
+                    "family:cherry",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry",
                 "name": "Cherry Door",
@@ -102,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "trapdoors"
+                    "family:cherry",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry",
                 "name": "Cherry Trapdoor",
@@ -112,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "pressure_plates"
+                    "family:cherry",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry",
                 "name": "Cherry Pressure Plate",
@@ -122,8 +123,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "buttons"
+                    "family:cherry",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry",
                 "name": "Cherry Button",
@@ -132,8 +133,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "signs"
+                    "family:cherry",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Cherry",
                 "name": "Cherry Sign",
@@ -142,10 +143,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower/other",
-                    "woodset/cherry",
-                    "leaves"
+                    "family:cherry",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
                 "name": "Cherry Leaves",
@@ -154,10 +153,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/cherry",
-                    "saplings",
-                    "plants"
+                    "family:cherry",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
                 "name": "Cherry Sapling",
@@ -166,8 +163,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "logs"
+                    "family:bamboo",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
                 "name": "Block of Bamboo",
@@ -176,8 +173,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "stripped_logs"
+                    "family:bamboo",
+                    "form:stripped_log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo",
                 "name": "Block of Stripped Bamboo",
@@ -186,8 +183,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "planks"
+                    "family:bamboo",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Bamboo",
                 "name": "Bamboo Planks",
@@ -195,9 +192,7 @@
                 "imagePath": "/block/bamboo_planks/latest.png"
             },
             {
-                "types": [
-                    "woodset/bamboo"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic",
                 "name": "Bamboo Mosaic",
                 "identifier": "bamboo_mosaic",
@@ -205,8 +200,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "stairs"
+                    "family:bamboo",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo",
                 "name": "Bamboo Stairs",
@@ -214,10 +209,7 @@
                 "imagePath": "/block/bamboo_stairs/latest.png"
             },
             {
-                "types": [
-                    "woodset/bamboo",
-                    "stairs"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Stairs",
                 "name": "Bamboo Mosaic Stairs",
                 "identifier": "bamboo_mosaic_stairs",
@@ -225,8 +217,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "slabs"
+                    "family:bamboo",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo",
                 "name": "Bamboo Slab",
@@ -234,10 +226,7 @@
                 "imagePath": "/block/bamboo_slab/latest.png"
             },
             {
-                "types": [
-                    "woodset/bamboo",
-                    "slabs"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Slab",
                 "name": "Bamboo Mosaic Slab",
                 "identifier": "bamboo_mosaic_slab",
@@ -245,8 +234,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "fences"
+                    "family:bamboo",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo",
                 "name": "Bamboo Fence",
@@ -255,8 +244,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "gates"
+                    "family:bamboo",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo",
                 "name": "Bamboo Fence Gate",
@@ -265,8 +254,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "doors"
+                    "family:bamboo",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo",
                 "name": "Bamboo Door",
@@ -275,8 +264,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "trapdoors"
+                    "family:bamboo",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo",
                 "name": "Bamboo Trapdoor",
@@ -285,8 +274,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "pressure_plates"
+                    "family:bamboo",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo",
                 "name": "Bamboo Pressure Plate",
@@ -295,8 +284,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "buttons"
+                    "family:bamboo",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo",
                 "name": "Bamboo Button",
@@ -305,8 +294,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "signs"
+                    "family:bamboo",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
                 "name": "Bamboo Sign",
@@ -380,8 +369,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "hanging_signs"
+                    "family:oak",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak",
                 "name": "Oak Hanging Sign",
@@ -390,8 +379,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "hanging_signs"
+                    "family:spruce",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce",
                 "name": "Spruce Hanging Sign",
@@ -400,8 +389,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "hanging_signs"
+                    "family:birch",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch",
                 "name": "Birch Hanging Sign",
@@ -410,8 +399,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "hanging_signs"
+                    "family:jungle",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle",
                 "name": "Jungle Hanging Sign",
@@ -420,8 +409,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "hanging_signs"
+                    "family:acacia",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia",
                 "name": "Acacia Hanging Sign",
@@ -430,8 +419,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "hanging_signs"
+                    "family:dark_oak",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak",
                 "name": "Dark Oak Hanging Sign",
@@ -440,8 +429,8 @@
             },
             {
                 "types": [
-                    "woodset/mangrove",
-                    "hanging_signs"
+                    "family:mangrove",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove",
                 "name": "Mangrove Hanging Sign",
@@ -450,8 +439,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "hanging_signs"
+                    "family:cherry",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry",
                 "name": "Cherry Hanging Sign",
@@ -460,8 +449,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "hanging_signs"
+                    "family:bamboo",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo",
                 "name": "Bamboo Hanging Sign",
@@ -470,8 +459,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "hanging_signs"
+                    "family:crimson",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson",
                 "name": "Crimson Hanging Sign",
@@ -480,8 +469,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "hanging_signs"
+                    "family:warped",
+                    "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped",
                 "name": "Warped Hanging Sign",
@@ -528,8 +517,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "chest_boats"
+                    "family:bamboo",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo",
                 "name": "Bamboo Boat with Chest",
@@ -545,8 +534,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "boats"
+                    "family:cherry",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Cherry",
                 "name": "Cherry Boat",
@@ -555,8 +544,8 @@
             },
             {
                 "types": [
-                    "woodset/cherry",
-                    "chest_boats"
+                    "family:cherry",
+                    "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry",
                 "name": "Cherry Boat with Chest",
@@ -565,8 +554,8 @@
             },
             {
                 "types": [
-                    "woodset/bamboo",
-                    "boats"
+                    "family:bamboo",
+                    "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Bamboo",
                 "name": "Bamboo Raft",

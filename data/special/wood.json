@@ -1,16 +1,44 @@
 {
   "name": "Wood Forms",
+  "order": 4,
+  "generated": "woodsets",
+  "columns_order": [
+    "log",
+    "stripped_log",
+    "wood",
+    "stripped_wood",
+    "planks",
+    "stairs",
+    "slab",
+    "fence",
+    "gate",
+    "door",
+    "trapdoor",
+    "button",
+    "pressure_plate",
+    "sign",
+    "hanging_sign",
+    "shelf",
+    "boat",
+    "chest_boat",
+    "sapling",
+    "sapling_2",
+    "leaves",
+    "leaves_2",
+    "leaves_3"
+  ],
   "groups": [
     {
-      "group": "oak_log",
-      "group_name": "Oak Log",
-      "material": {
-        "identifier": "oak_log",
-        "name": "Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Oak",
-        "imagePath": "/block/oak_log/latest.png"
-      },
+      "group": "oak",
+      "group_name": "Oak",
+      "generated_from": "family:oak",
       "items": {
+        "log": {
+          "identifier": "oak_log",
+          "name": "Oak Log",
+          "wiki": "https://minecraft.wiki/w/Log#Oak",
+          "imagePath": "/block/oak_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_oak_log",
           "name": "Stripped Oak Log",
@@ -127,15 +155,16 @@
       }
     },
     {
-      "group": "spruce_log",
-      "group_name": "Spruce Log",
-      "material": {
-        "identifier": "spruce_log",
-        "name": "Spruce Log",
-        "wiki": "https://minecraft.wiki/w/Log#Spruce",
-        "imagePath": "/block/spruce_log/latest.png"
-      },
+      "group": "spruce",
+      "group_name": "Spruce",
+      "generated_from": "family:spruce",
       "items": {
+        "log": {
+          "identifier": "spruce_log",
+          "name": "Spruce Log",
+          "wiki": "https://minecraft.wiki/w/Log#Spruce",
+          "imagePath": "/block/spruce_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_spruce_log",
           "name": "Stripped Spruce Log",
@@ -252,15 +281,16 @@
       }
     },
     {
-      "group": "birch_log",
-      "group_name": "Birch Log",
-      "material": {
-        "identifier": "birch_log",
-        "name": "Birch Log",
-        "wiki": "https://minecraft.wiki/w/Log#Birch",
-        "imagePath": "/block/birch_log/latest.png"
-      },
+      "group": "birch",
+      "group_name": "Birch",
+      "generated_from": "family:birch",
       "items": {
+        "log": {
+          "identifier": "birch_log",
+          "name": "Birch Log",
+          "wiki": "https://minecraft.wiki/w/Log#Birch",
+          "imagePath": "/block/birch_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_birch_log",
           "name": "Stripped Birch Log",
@@ -377,15 +407,16 @@
       }
     },
     {
-      "group": "jungle_log",
-      "group_name": "Jungle Log",
-      "material": {
-        "identifier": "jungle_log",
-        "name": "Jungle Log",
-        "wiki": "https://minecraft.wiki/w/Log#Jungle",
-        "imagePath": "/block/jungle_log/latest.png"
-      },
+      "group": "jungle",
+      "group_name": "Jungle",
+      "generated_from": "family:jungle",
       "items": {
+        "log": {
+          "identifier": "jungle_log",
+          "name": "Jungle Log",
+          "wiki": "https://minecraft.wiki/w/Log#Jungle",
+          "imagePath": "/block/jungle_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_jungle_log",
           "name": "Stripped Jungle Log",
@@ -502,15 +533,16 @@
       }
     },
     {
-      "group": "acacia_log",
-      "group_name": "Acacia Log",
-      "material": {
-        "identifier": "acacia_log",
-        "name": "Acacia Log",
-        "wiki": "https://minecraft.wiki/w/Log#Acacia",
-        "imagePath": "/block/acacia_log/latest.png"
-      },
+      "group": "acacia",
+      "group_name": "Acacia",
+      "generated_from": "family:acacia",
       "items": {
+        "log": {
+          "identifier": "acacia_log",
+          "name": "Acacia Log",
+          "wiki": "https://minecraft.wiki/w/Log#Acacia",
+          "imagePath": "/block/acacia_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_acacia_log",
           "name": "Stripped Acacia Log",
@@ -627,15 +659,16 @@
       }
     },
     {
-      "group": "dark_oak_log",
-      "group_name": "Dark Oak Log",
-      "material": {
-        "identifier": "dark_oak_log",
-        "name": "Dark Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Dark_Oak",
-        "imagePath": "/block/dark_oak_log/latest.png"
-      },
+      "group": "dark_oak",
+      "group_name": "Dark Oak",
+      "generated_from": "family:dark_oak",
       "items": {
+        "log": {
+          "identifier": "dark_oak_log",
+          "name": "Dark Oak Log",
+          "wiki": "https://minecraft.wiki/w/Log#Dark_Oak",
+          "imagePath": "/block/dark_oak_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_dark_oak_log",
           "name": "Stripped Dark Oak Log",
@@ -752,15 +785,16 @@
       }
     },
     {
-      "group": "mangrove_log",
-      "group_name": "Mangrove Log",
-      "material": {
-        "identifier": "mangrove_log",
-        "name": "Mangrove Log",
-        "wiki": "https://minecraft.wiki/w/Log#Mangrove",
-        "imagePath": "/block/mangrove_log/latest.png"
-      },
+      "group": "mangrove",
+      "group_name": "Mangrove",
+      "generated_from": "family:mangrove",
       "items": {
+        "log": {
+          "identifier": "mangrove_log",
+          "name": "Mangrove Log",
+          "wiki": "https://minecraft.wiki/w/Log#Mangrove",
+          "imagePath": "/block/mangrove_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_mangrove_log",
           "name": "Stripped Mangrove Log",
@@ -877,15 +911,16 @@
       }
     },
     {
-      "group": "cherry_log",
-      "group_name": "Cherry Log",
-      "material": {
-        "identifier": "cherry_log",
-        "name": "Cherry Log",
-        "wiki": "https://minecraft.wiki/w/Log#Cherry",
-        "imagePath": "/block/cherry_log/latest.png"
-      },
+      "group": "cherry",
+      "group_name": "Cherry",
+      "generated_from": "family:cherry",
       "items": {
+        "log": {
+          "identifier": "cherry_log",
+          "name": "Cherry Log",
+          "wiki": "https://minecraft.wiki/w/Log#Cherry",
+          "imagePath": "/block/cherry_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_cherry_log",
           "name": "Stripped Cherry Log",
@@ -1002,15 +1037,16 @@
       }
     },
     {
-      "group": "pale_oak_log",
-      "group_name": "Pale Oak Log",
-      "material": {
-        "identifier": "pale_oak_log",
-        "name": "Pale Oak Log",
-        "wiki": "https://minecraft.wiki/w/Log#Pale_Oak",
-        "imagePath": "/block/pale_oak_log/latest.png"
-      },
+      "group": "pale_oak",
+      "group_name": "Pale Oak",
+      "generated_from": "family:pale_oak",
       "items": {
+        "log": {
+          "identifier": "pale_oak_log",
+          "name": "Pale Oak Log",
+          "wiki": "https://minecraft.wiki/w/Log#Pale_Oak",
+          "imagePath": "/block/pale_oak_log/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_pale_oak_log",
           "name": "Stripped Pale Oak Log",
@@ -1109,7 +1145,7 @@
         },
         "chest_boat": {
           "identifier": "pale_oak_chest_boat",
-          "name": " Pale Oak Boat with Chest",
+          "name": "Pale Oak Boat with Chest",
           "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
           "imagePath": "/item/pale_oak_chest_boat/latest.png"
         },
@@ -1128,15 +1164,133 @@
       }
     },
     {
-      "group": "bamboo_block",
-      "group_name": "Bamboo Block",
-      "material": {
-        "identifier": "bamboo_block",
-        "name": "Block of Bamboo",
-        "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
-        "imagePath": "/block/bamboo_block/latest.png"
-      },
+      "group": "poplar",
+      "group_name": "Poplar",
+      "generated_from": "family:poplar",
       "items": {
+        "log": {
+          "identifier": "poplar_log",
+          "name": "Poplar Log",
+          "wiki": "https://minecraft.wiki/w/Log#Poplar"
+        },
+        "stripped_log": {
+          "identifier": "stripped_poplar_log",
+          "name": "Stripped Poplar Log",
+          "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar"
+        },
+        "wood": {
+          "identifier": "poplar_wood",
+          "name": "Poplar Wood",
+          "wiki": "https://minecraft.wiki/w/Wood#Poplar"
+        },
+        "stripped_wood": {
+          "identifier": "stripped_poplar_wood",
+          "name": "Stripped Poplar Wood",
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar"
+        },
+        "planks": {
+          "identifier": "poplar_planks",
+          "name": "Poplar Planks",
+          "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+        },
+        "stairs": {
+          "identifier": "poplar_stairs",
+          "name": "Poplar Stairs",
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar"
+        },
+        "slab": {
+          "identifier": "poplar_slab",
+          "name": "Poplar Slab",
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+        },
+        "fence": {
+          "identifier": "poplar_fence",
+          "name": "Poplar Fence",
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar"
+        },
+        "gate": {
+          "identifier": "poplar_fence_gate",
+          "name": "Poplar Fence Gate",
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar"
+        },
+        "door": {
+          "identifier": "poplar_door",
+          "name": "Poplar Door",
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar"
+        },
+        "trapdoor": {
+          "identifier": "poplar_trapdoor",
+          "name": "Poplar Trapdoor",
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar"
+        },
+        "button": {
+          "identifier": "poplar_button",
+          "name": "Poplar Button",
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar"
+        },
+        "pressure_plate": {
+          "identifier": "poplar_pressure_plate",
+          "name": "Poplar Pressure Plate",
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar"
+        },
+        "sign": {
+          "identifier": "poplar_sign",
+          "name": "Poplar Sign",
+          "wiki": "https://minecraft.wiki/w/Sign#Poplar"
+        },
+        "hanging_sign": {
+          "identifier": "poplar_hanging_sign",
+          "name": "Poplar Hanging Sign",
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar"
+        },
+        "shelf": {
+          "identifier": "poplar_shelf",
+          "name": "Poplar Shelf",
+          "wiki": "https://minecraft.wiki/w/Shelf#Poplar"
+        },
+        "boat": {
+          "identifier": "poplar_boat",
+          "name": "Poplar Boat",
+          "wiki": "https://minecraft.wiki/w/Boat#Poplar"
+        },
+        "chest_boat": {
+          "identifier": "poplar_chest_boat",
+          "name": "Poplar Boat with Chest",
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar"
+        },
+        "sapling": {
+          "identifier": "poplar_sapling",
+          "name": "Poplar Sapling",
+          "wiki": "https://minecraft.wiki/w/Sapling#Poplar"
+        },
+        "leaves": {
+          "identifier": "orange_poplar_leaves",
+          "name": "Orange Poplar Leaves",
+          "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar"
+        },
+        "leaves_2": {
+          "identifier": "red_poplar_leaves",
+          "name": "Red Poplar Leaves",
+          "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar"
+        },
+        "leaves_3": {
+          "identifier": "yellow_poplar_leaves",
+          "name": "Yellow Poplar Leaves",
+          "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar"
+        }
+      }
+    },
+    {
+      "group": "bamboo",
+      "group_name": "Bamboo",
+      "generated_from": "family:bamboo",
+      "items": {
+        "log": {
+          "identifier": "bamboo_block",
+          "name": "Block of Bamboo",
+          "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
+          "imagePath": "/block/bamboo_block/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_bamboo_block",
           "name": "Block of Stripped Bamboo",
@@ -1236,15 +1390,16 @@
       }
     },
     {
-      "group": "crimson_stem",
-      "group_name": "Crimson Stem",
-      "material": {
-        "identifier": "crimson_stem",
-        "name": "Crimson Stem",
-        "wiki": "https://minecraft.wiki/w/Log#Crimson",
-        "imagePath": "/block/crimson_stem/latest.png"
-      },
+      "group": "crimson",
+      "group_name": "Crimson",
+      "generated_from": "family:crimson",
       "items": {
+        "log": {
+          "identifier": "crimson_stem",
+          "name": "Crimson Stem",
+          "wiki": "https://minecraft.wiki/w/Log#Crimson",
+          "imagePath": "/block/crimson_stem/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_crimson_stem",
           "name": "Stripped Crimson Stem",
@@ -1349,15 +1504,16 @@
       }
     },
     {
-      "group": "warped_stem",
-      "group_name": "Warped Stem",
-      "material": {
-        "identifier": "warped_stem",
-        "name": "Warped Stem",
-        "wiki": "https://minecraft.wiki/w/Log#Warped",
-        "imagePath": "/block/warped_stem/latest.png"
-      },
+      "group": "warped",
+      "group_name": "Warped",
+      "generated_from": "family:warped",
       "items": {
+        "log": {
+          "identifier": "warped_stem",
+          "name": "Warped Stem",
+          "wiki": "https://minecraft.wiki/w/Log#Warped",
+          "imagePath": "/block/warped_stem/latest.png"
+        },
         "stripped_log": {
           "identifier": "stripped_warped_stem",
           "name": "Stripped Warped Stem",
@@ -1460,7 +1616,37 @@
           "imagePath": "/block/warped_wart_block/latest.png"
         }
       }
+    },
+    {
+      "group": "azalea",
+      "group_name": "Azalea",
+      "generated_from": "family:azalea",
+      "items": {
+        "sapling": {
+          "identifier": "azalea",
+          "name": "Azalea",
+          "wiki": "https://minecraft.wiki/w/Azalea",
+          "imagePath": "/block/azalea/latest.png"
+        },
+        "sapling_2": {
+          "identifier": "flowering_azalea",
+          "name": "Flowering Azalea",
+          "wiki": "https://minecraft.wiki/w/Flowering_Azalea",
+          "imagePath": "/block/flowering_azalea/latest.png"
+        },
+        "leaves": {
+          "identifier": "azalea_leaves",
+          "name": "Azalea Leaves",
+          "wiki": "https://minecraft.wiki/w/Leaves#Azalea",
+          "imagePath": "/block/azalea_leaves/latest.png"
+        },
+        "leaves_2": {
+          "identifier": "flowering_azalea_leaves",
+          "name": "Flowering Azalea Leaves",
+          "wiki": "https://minecraft.wiki/w/Leaves#Flowering_Azalea",
+          "imagePath": "/block/flowering_azalea_leaves/latest.png"
+        }
+      }
     }
-  ],
-  "order": 4
+  ]
 }

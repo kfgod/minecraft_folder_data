@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/crimson",
-                    "logs"
+                    "family:crimson",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Crimson",
                 "name": "Crimson Stem",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "woods"
+                    "family:crimson",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Crimson",
                 "name": "Crimson Hyphae",
@@ -23,17 +23,18 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "stripped_logs"
+                    "family:crimson",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Crimson Stem",
                 "identifier": "stripped_crimson_stem",
                 "imagePath": "/block/stripped_crimson_stem/latest.png"
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "stripped_woods"
+                    "family:crimson",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Crimson",
                 "name": "Stripped Crimson Hyphae",
@@ -42,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "planks"
+                    "family:crimson",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Crimson",
                 "name": "Crimson Planks",
@@ -52,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "stairs"
+                    "family:crimson",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Crimson",
                 "name": "Crimson Stairs",
@@ -62,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "slabs"
+                    "family:crimson",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson",
                 "name": "Crimson Slab",
@@ -72,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "fences"
+                    "family:crimson",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson",
                 "name": "Crimson Fence",
@@ -82,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "gates"
+                    "family:crimson",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson",
                 "name": "Crimson Fence Gate",
@@ -92,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "doors"
+                    "family:crimson",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson",
                 "name": "Crimson Door",
@@ -102,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "trapdoors"
+                    "family:crimson",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson",
                 "name": "Crimson Trapdoor",
@@ -112,8 +113,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "pressure_plates"
+                    "family:crimson",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson",
                 "name": "Crimson Pressure Plate",
@@ -122,8 +123,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "buttons"
+                    "family:crimson",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson",
                 "name": "Crimson Button",
@@ -132,8 +133,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "logs"
+                    "family:warped",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Warped",
                 "name": "Warped Stem",
@@ -142,8 +143,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "woods"
+                    "family:warped",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Warped",
                 "name": "Warped Hyphae",
@@ -152,17 +153,18 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "stripped_logs"
+                    "family:warped",
+                    "form:stripped_log"
                 ],
+                "wiki": "",
                 "name": "Stripped Warped Stem",
                 "identifier": "stripped_warped_stem",
                 "imagePath": "/block/stripped_warped_stem/latest.png"
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "stripped_woods"
+                    "family:warped",
+                    "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped",
                 "name": "Stripped Warped Hyphae",
@@ -171,8 +173,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "planks"
+                    "family:warped",
+                    "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Warped",
                 "name": "Warped Planks",
@@ -181,8 +183,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "stairs"
+                    "family:warped",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped",
                 "name": "Warped Stairs",
@@ -191,8 +193,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "slabs"
+                    "family:warped",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped",
                 "name": "Warped Slab",
@@ -201,8 +203,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "fences"
+                    "family:warped",
+                    "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped",
                 "name": "Warped Fence",
@@ -211,8 +213,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "gates"
+                    "family:warped",
+                    "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped",
                 "name": "Warped Fence Gate",
@@ -221,8 +223,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "doors"
+                    "family:warped",
+                    "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped",
                 "name": "Warped Door",
@@ -231,8 +233,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "trapdoors"
+                    "family:warped",
+                    "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped",
                 "name": "Warped Trapdoor",
@@ -241,8 +243,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "pressure_plates"
+                    "family:warped",
+                    "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped",
                 "name": "Warped Pressure Plate",
@@ -251,8 +253,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "buttons"
+                    "family:warped",
+                    "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
                 "name": "Warped Button",
@@ -552,7 +554,8 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "family:crimson",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Crimson_Fungus",
                 "name": "Crimson Fungus",
@@ -561,7 +564,8 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "family:warped",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warped_Fungus",
                 "name": "Warped Fungus",
@@ -643,8 +647,8 @@
             },
             {
                 "types": [
-                    "woodset/crimson",
-                    "signs"
+                    "family:crimson",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Crimson",
                 "name": "Crimson Sign",
@@ -653,8 +657,8 @@
             },
             {
                 "types": [
-                    "woodset/warped",
-                    "signs"
+                    "family:warped",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Warped",
                 "name": "Warped Sign",

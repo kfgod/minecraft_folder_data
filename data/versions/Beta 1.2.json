@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/spruce",
-                    "logs"
+                    "family:spruce",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Spruce",
                 "name": "Spruce Log",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "logs"
+                    "family:birch",
+                    "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Birch",
                 "name": "Birch Log",
@@ -46,9 +46,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/spruce",
-                    "leaves"
+                    "family:spruce",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Spruce",
                 "name": "Spruce Leaves",
@@ -57,9 +56,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "woodset/birch",
-                    "leaves"
+                    "family:birch",
+                    "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Birch",
                 "name": "Birch Leaves",

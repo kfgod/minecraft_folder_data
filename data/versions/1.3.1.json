@@ -3,8 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "woodset/oak",
-                    "woods"
+                    "family:oak",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Oak",
                 "name": "Oak Wood",
@@ -13,8 +13,8 @@
             },
             {
                 "types": [
-                    "woodset/oak",
-                    "slabs"
+                    "family:oak",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
                 "name": "Oak Slab",
@@ -23,8 +23,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "woods"
+                    "family:spruce",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Spruce",
                 "name": "Spruce Wood",
@@ -33,8 +33,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "stairs"
+                    "family:spruce",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce",
                 "name": "Spruce Stairs",
@@ -43,8 +43,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "slabs"
+                    "family:spruce",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce",
                 "name": "Spruce Slab",
@@ -53,8 +53,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "woods"
+                    "family:birch",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Birch",
                 "name": "Birch Wood",
@@ -63,8 +63,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "stairs"
+                    "family:birch",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
                 "name": "Birch Stairs",
@@ -73,8 +73,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "slabs"
+                    "family:birch",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch",
                 "name": "Birch Slab",
@@ -83,8 +83,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "woods"
+                    "family:jungle",
+                    "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Jungle",
                 "name": "Jungle Wood",
@@ -93,8 +93,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "stairs"
+                    "family:jungle",
+                    "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
                 "name": "Jungle Stairs",
@@ -103,8 +103,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "slabs"
+                    "family:jungle",
+                    "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle",
                 "name": "Jungle Slab",

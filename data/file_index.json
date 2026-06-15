@@ -12,6 +12,7 @@
         "data/versions/Beta 1.3.json",
         "data/versions/Beta 1.2.json",
         "data/versions/Alpha.json",
+        "data/versions/26.3.json",
         "data/versions/26.2.json",
         "data/versions/26.1.json",
         "data/versions/1.9.json",
@@ -52,5 +53,5 @@
         "data/versions/1.1.json",
         "data/versions/1.0.0.json"
     ],
-    "total_count": 51
+    "total_count": 52
 }

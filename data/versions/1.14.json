@@ -480,7 +480,8 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "family:bamboo",
+                    "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bamboo",
                 "name": "Bamboo",
@@ -587,8 +588,8 @@
             },
             {
                 "types": [
-                    "woodset/spruce",
-                    "signs"
+                    "family:spruce",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Spruce",
                 "name": "Spruce Sign",
@@ -597,8 +598,8 @@
             },
             {
                 "types": [
-                    "woodset/birch",
-                    "signs"
+                    "family:birch",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Birch",
                 "name": "Birch Sign",
@@ -607,8 +608,8 @@
             },
             {
                 "types": [
-                    "woodset/jungle",
-                    "signs"
+                    "family:jungle",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Jungle",
                 "name": "Jungle Sign",
@@ -617,8 +618,8 @@
             },
             {
                 "types": [
-                    "woodset/acacia",
-                    "signs"
+                    "family:acacia",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Acacia",
                 "name": "Acacia Sign",
@@ -627,8 +628,8 @@
             },
             {
                 "types": [
-                    "woodset/dark_oak",
-                    "signs"
+                    "family:dark_oak",
+                    "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Dark_Oak",
                 "name": "Dark Oak Sign",
