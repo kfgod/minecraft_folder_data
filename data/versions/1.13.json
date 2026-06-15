@@ -877,7 +877,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/turtle_spawn_egg/latest.png"
                     },
-                    "health": 30
+                    "health": 30,
+                    "babyImagePath": "/mob/turtle/baby/latest.png"
                 },
                 "name": "Turtle",
                 "identifier": "turtle",
@@ -895,7 +896,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/dolphin_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/dolphin/baby/latest.png"
                 },
                 "name": "Dolphin",
                 "identifier": "dolphin",

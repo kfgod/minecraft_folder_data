@@ -87,7 +87,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/cat_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/cat/baby/latest.png"
                 },
                 "name": "Cat",
                 "identifier": "cat",
@@ -122,7 +123,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/ocelot_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/ocelot/baby/latest.png"
                 },
                 "name": "Ocelot",
                 "identifier": "ocelot",

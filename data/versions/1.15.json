@@ -70,7 +70,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/bee_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/bee/baby/latest.png"
                 },
                 "name": "Bee",
                 "identifier": "bee",

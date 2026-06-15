@@ -64,7 +64,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/polar_bear_spawn_egg/latest.png"
                     },
-                    "health": 30
+                    "health": 30,
+                    "babyImagePath": "/mob/polar_bear/baby/latest.png"
                 },
                 "name": "Polar Bear",
                 "identifier": "polar_bear",
@@ -82,7 +83,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/husk_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/husk/baby/latest.png"
                 },
                 "name": "Husk",
                 "identifier": "husk",

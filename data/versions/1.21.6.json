@@ -186,7 +186,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/happy_ghast_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/happy_ghast/baby/latest.png"
                 },
                 "name": "Happy Ghast",
                 "identifier": "happy_ghast",

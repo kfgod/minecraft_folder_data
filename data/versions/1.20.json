@@ -936,7 +936,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/sniffer_spawn_egg/latest.png"
                     },
-                    "health": 14
+                    "health": 14,
+                    "babyImagePath": "/mob/sniffer/baby/latest.png"
                 },
                 "name": "Sniffer",
                 "identifier": "sniffer",
@@ -954,7 +955,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/camel_spawn_egg/latest.png"
                     },
-                    "health": 32
+                    "health": 32,
+                    "babyImagePath": "/mob/camel/baby/latest.png"
                 },
                 "name": "Camel",
                 "identifier": "camel",

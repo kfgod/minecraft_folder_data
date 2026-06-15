@@ -401,7 +401,8 @@
                         "name": "Donkey Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/donkey_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/donkey/baby/latest.png"
                 },
                 "name": "Donkey",
                 "identifier": "donkey",
@@ -436,7 +437,8 @@
                         "name": "Mule Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/mule_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/mule/baby/latest.png"
                 },
                 "name": "Mule",
                 "identifier": "mule",
@@ -471,7 +473,8 @@
                         "name": "Horse Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/horse_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/horse/baby/latest.png"
                 },
                 "name": "Horse",
                 "identifier": "horse",

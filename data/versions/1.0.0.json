@@ -517,7 +517,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/mooshroom_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/red_mooshroom/baby/latest.png"
                 },
                 "name": "Red Mooshroom",
                 "identifier": "red_mooshroom",
@@ -570,7 +571,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/villager_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/villager/baby/latest.png"
                 },
                 "name": "Villager",
                 "identifier": "villager",

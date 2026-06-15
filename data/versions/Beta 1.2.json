@@ -273,7 +273,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/squid_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/squid/baby/latest.png"
                 },
                 "name": "Squid",
                 "identifier": "squid",

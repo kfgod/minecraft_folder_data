@@ -22,7 +22,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/wolf_spawn_egg/latest.png"
                     },
-                    "health": 8
+                    "health": 8,
+                    "babyImagePath": "/mob/wolf/baby/latest.png"
                 },
                 "name": "Wolf",
                 "identifier": "wolf",

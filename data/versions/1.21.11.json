@@ -151,7 +151,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/nautilus_spawn_egg/latest.png"
                     },
-                    "health": 15
+                    "health": 15,
+                    "babyImagePath": "/mob/nautilus/baby/latest.png"
                 },
                 "name": "Nautilus",
                 "identifier": "nautilus",

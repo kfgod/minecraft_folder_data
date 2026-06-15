@@ -406,7 +406,8 @@
                         "name": "Llama Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/llama_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/llama/baby/latest.png"
                 },
                 "name": "Llama",
                 "identifier": "llama",

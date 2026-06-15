@@ -325,7 +325,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/zombie_villager_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/zombie_villager/baby/latest.png"
                 },
                 "name": "Zombie Villager",
                 "identifier": "zombie_villager",

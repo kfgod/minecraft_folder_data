@@ -883,7 +883,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/fox_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/fox/baby/latest.png"
                 },
                 "name": "Fox",
                 "identifier": "fox",
@@ -901,7 +902,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/panda_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/panda/baby/latest.png"
                 },
                 "name": "Panda",
                 "identifier": "panda",
@@ -936,7 +938,8 @@
                         "name": "Trader Llama Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/trader_llama_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/trader_llama/baby/latest.png"
                 },
                 "name": "Trader Llama",
                 "identifier": "trader_llama",
@@ -984,7 +987,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Mooshroom#Brown",
                 "meta": {
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/brown_mooshroom/baby/latest.png"
                 },
                 "name": "Brown Mooshroom",
                 "identifier": "brown_mooshroom",
@@ -1272,7 +1276,8 @@
                         "wiki": "https://minecraft.wiki/w/Fox",
                         "health": 10,
                         "imagePath": "/mob/fox/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/snow_fox/baby/latest.png"
                 },
                 "name": "Snow Fox",
                 "identifier": "snow_fox",

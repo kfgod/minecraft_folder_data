@@ -38,7 +38,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/armadillo_spawn_egg/latest.png"
                     },
-                    "health": 12
+                    "health": 12,
+                    "babyImagePath": "/mob/armadillo/baby/latest.png"
                 },
                 "name": "Armadillo",
                 "identifier": "armadillo",
@@ -122,7 +123,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/chestnut_wolf/baby/latest.png"
                 },
                 "name": "Chestnut Wolf",
                 "identifier": "chestnut_wolf",
@@ -146,7 +148,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/snowy_wolf/baby/latest.png"
                 },
                 "name": "Snowy Wolf",
                 "identifier": "snowy_wolf",
@@ -170,7 +173,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/spotted_wolf/baby/latest.png"
                 },
                 "name": "Spotted Wolf",
                 "identifier": "spotted_wolf",
@@ -194,7 +198,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/black_wolf/baby/latest.png"
                 },
                 "name": "Black Wolf",
                 "identifier": "black_wolf",
@@ -218,7 +223,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/woods_wolf/baby/latest.png"
                 },
                 "name": "Woods Wolf",
                 "identifier": "woods_wolf",
@@ -242,7 +248,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/rusty_wolf/baby/latest.png"
                 },
                 "name": "Rusty Wolf",
                 "identifier": "rusty_wolf",
@@ -266,7 +273,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/ashen_wolf/baby/latest.png"
                 },
                 "name": "Ashen Wolf",
                 "identifier": "ashen_wolf",
@@ -290,7 +298,8 @@
                         "wiki": "https://minecraft.wiki/w/Wolf",
                         "health": 8,
                         "imagePath": "/mob/wolf/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/stripped_wolf/baby/latest.png"
                 },
                 "name": "Stripped Wolf",
                 "identifier": "stripped_wolf",

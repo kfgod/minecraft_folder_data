@@ -842,7 +842,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/zoglin_spawn_egg/latest.png"
                     },
-                    "health": 40
+                    "health": 40,
+                    "babyImagePath": "/mob/zoglin/baby/latest.png"
                 },
                 "name": "Zoglin",
                 "identifier": "zoglin",
@@ -878,7 +879,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/hoglin_spawn_egg/latest.png"
                     },
-                    "health": 40
+                    "health": 40,
+                    "babyImagePath": "/mob/hoglin/baby/latest.png"
                 },
                 "name": "Hoglin",
                 "identifier": "hoglin",
@@ -896,7 +898,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/strider_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/strider/baby/latest.png"
                 },
                 "name": "Strider",
                 "identifier": "strider",

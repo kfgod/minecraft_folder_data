@@ -207,7 +207,8 @@
                         "wiki": "https://minecraft.wiki/w/Pig",
                         "health": 10,
                         "imagePath": "/mob/pig/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/cold_pig/baby/latest.png"
                 },
                 "name": "Cold Pig",
                 "identifier": "cold_pig",
@@ -232,7 +233,8 @@
                         "wiki": "https://minecraft.wiki/w/Chicken",
                         "health": 4,
                         "imagePath": "/mob/chicken/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/warm_chicken/baby/latest.png"
                 },
                 "name": "Warm Chicken",
                 "identifier": "warm_chicken",
@@ -257,7 +259,8 @@
                         "wiki": "https://minecraft.wiki/w/Pig",
                         "health": 10,
                         "imagePath": "/mob/pig/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/warm_pig/baby/latest.png"
                 },
                 "name": "Warm Pig",
                 "identifier": "warm_pig",
@@ -282,7 +285,8 @@
                         "wiki": "https://minecraft.wiki/w/Cow",
                         "health": 10,
                         "imagePath": "/mob/cow/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/warm_cow/baby/latest.png"
                 },
                 "name": "Warm Cow",
                 "identifier": "warm_cow",
@@ -307,7 +311,8 @@
                         "wiki": "https://minecraft.wiki/w/Chicken",
                         "health": 4,
                         "imagePath": "/mob/chicken/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/cold_chicken/baby/latest.png"
                 },
                 "name": "Cold Chicken",
                 "identifier": "cold_chicken",
@@ -332,7 +337,8 @@
                         "wiki": "https://minecraft.wiki/w/Cow",
                         "health": 10,
                         "imagePath": "/mob/cow/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/cold_cow/baby/latest.png"
                 },
                 "name": "Cold Cow",
                 "identifier": "cold_cow",

@@ -685,7 +685,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/rabbit_spawn_egg/latest.png"
                     },
-                    "health": 3
+                    "health": 3,
+                    "babyImagePath": "/mob/rabbit/baby/latest.png"
                 },
                 "name": "Rabbit",
                 "identifier": "rabbit",

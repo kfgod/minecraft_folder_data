@@ -1161,7 +1161,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/glow_squid_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/glow_squid/baby/latest.png"
                 },
                 "name": "Glow Squid",
                 "identifier": "glow_squid",
@@ -1179,7 +1180,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/goat_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/goat/baby/latest.png"
                 },
                 "name": "Goat",
                 "identifier": "goat",
@@ -1197,7 +1199,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/axolotl_spawn_egg/latest.png"
                     },
-                    "health": 14
+                    "health": 14,
+                    "babyImagePath": "/mob/axolotl/baby/latest.png"
                 },
                 "name": "Axolotl",
                 "identifier": "axolotl",
@@ -1379,7 +1382,8 @@
                         "wiki": "https://minecraft.wiki/w/Axolotl",
                         "health": 14,
                         "imagePath": "/mob/axolotl/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/cyan_axolotl/baby/latest.png"
                 },
                 "name": "Cyan Axolotl",
                 "identifier": "cyan_axolotl",
@@ -1403,7 +1407,8 @@
                         "wiki": "https://minecraft.wiki/w/Axolotl",
                         "health": 14,
                         "imagePath": "/mob/axolotl/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/gold_axolotl/baby/latest.png"
                 },
                 "name": "Gold Axolotl",
                 "identifier": "gold_axolotl",
@@ -1427,7 +1432,8 @@
                         "wiki": "https://minecraft.wiki/w/Axolotl",
                         "health": 14,
                         "imagePath": "/mob/axolotl/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/wild_axolotl/baby/latest.png"
                 },
                 "name": "Wild Axolotl",
                 "identifier": "wild_axolotl",
@@ -1451,7 +1457,8 @@
                         "wiki": "https://minecraft.wiki/w/Axolotl",
                         "health": 14,
                         "imagePath": "/mob/axolotl/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/blue_axolotl/baby/latest.png"
                 },
                 "name": "Blue Axolotl",
                 "identifier": "blue_axolotl",

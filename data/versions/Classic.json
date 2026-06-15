@@ -381,7 +381,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/pig_spawn_egg/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob/pig/baby/latest.png"
                 },
                 "name": "Pig",
                 "identifier": "pig",
@@ -399,7 +400,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/zombie_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/zombie/baby/latest.png"
                 },
                 "name": "Zombie",
                 "identifier": "zombie",
@@ -435,7 +437,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/sheep_spawn_egg/latest.png"
                     },
-                    "health": 8
+                    "health": 8,
+                    "babyImagePath": "/mob/sheep/baby/latest.png"
                 },
                 "name": "Sheep",
                 "identifier": "sheep",
