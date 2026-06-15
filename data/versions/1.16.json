@@ -861,7 +861,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/piglin_spawn_egg/latest.png"
                     },
-                    "health": 16
+                    "health": 16,
+                    "babyImagePath": "/mob/piglin/baby/latest.png"
                 },
                 "name": "Piglin",
                 "identifier": "piglin",

@@ -1155,7 +1155,8 @@
                         "wiki": "https://minecraft.wiki/w/Panda",
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/brown_panda/baby/latest.png"
                 },
                 "name": "Brown Panda",
                 "identifier": "brown_panda",
@@ -1179,7 +1180,8 @@
                         "wiki": "https://minecraft.wiki/w/Panda",
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/worried_panda/baby/latest.png"
                 },
                 "name": "Worried Panda",
                 "identifier": "worried_panda",
@@ -1203,7 +1205,8 @@
                         "wiki": "https://minecraft.wiki/w/Panda",
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/playful_panda/baby/latest.png"
                 },
                 "name": "Playful Panda",
                 "identifier": "playful_panda",
@@ -1228,7 +1231,8 @@
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
                     },
-                    "health": 10
+                    "health": 10,
+                    "babyImagePath": "/mob_variant/weak_panda/baby/latest.png"
                 },
                 "name": "Weak Panda",
                 "identifier": "weak_panda",
@@ -1252,7 +1256,8 @@
                         "wiki": "https://minecraft.wiki/w/Panda",
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/lazy_panda/baby/latest.png"
                 },
                 "name": "Lazy Panda",
                 "identifier": "lazy_panda",
@@ -1301,7 +1306,8 @@
                         "wiki": "https://minecraft.wiki/w/Panda",
                         "health": 20,
                         "imagePath": "/mob/panda/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob_variant/aggressive_panda/baby/latest.png"
                 },
                 "name": "Aggressive Panda",
                 "identifier": "aggressive_panda",

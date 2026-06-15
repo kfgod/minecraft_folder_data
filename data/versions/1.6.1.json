@@ -420,7 +420,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/skeleton_horse_spawn_egg/latest.png"
                     },
-                    "health": 15
+                    "health": 15,
+                    "babyImagePath": "/mob/skeleton_horse/baby/latest.png"
                 },
                 "name": "Skeleton Horse",
                 "identifier": "skeleton_horse",
@@ -456,7 +457,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/zombie_horse_spawn_egg/latest.png"
                     },
-                    "health": 25
+                    "health": 25,
+                    "babyImagePath": "/mob/zombie_horse/baby/latest.png"
                 },
                 "name": "Zombie Horse",
                 "identifier": "zombie_horse",
