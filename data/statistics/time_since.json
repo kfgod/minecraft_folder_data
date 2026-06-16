@@ -1,10 +1,10 @@
 {
   "last_drop": {
-    "version": "26.1",
-    "name": "Tiny Takeover",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1",
+    "version": "26.2",
+    "name": "Chaos Cubed",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2",
     "type": "drop",
-    "release_date": "2026-03-24T12:11:04+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_major": {
     "version": "1.21",
@@ -14,34 +14,34 @@
     "release_date": "2024-06-13T08:24:03+00:00"
   },
   "last_block": {
-    "version": "26.1",
-    "version_name": "Tiny Takeover",
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
     "element": {
-      "name": "Golden Dandelion",
-      "wiki": "https://minecraft.wiki/w/Golden_Dandelion",
-      "identifier": "golden_dandelion"
+      "name": "Cinnabar",
+      "wiki": "https://minecraft.wiki/w/Cinnabar",
+      "identifier": "cinnabar"
     },
-    "release_date": "2026-03-24T12:11:04+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_item": {
-    "version": "1.21.11",
-    "version_name": "Mounts of Mayhem",
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
     "element": {
-      "name": "Golden Spear",
-      "wiki": "https://minecraft.wiki/w/Spear#Golden",
-      "identifier": "golden_spear"
+      "name": "Music Disc Bounce",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_Bounce",
+      "identifier": "music_disc_bounce"
     },
-    "release_date": "2025-12-09T12:23:30+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_mob": {
-    "version": "1.21.11",
-    "version_name": "Mounts of Mayhem",
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
     "element": {
-      "name": "Nautilus",
-      "wiki": "https://minecraft.wiki/w/Nautilus",
-      "identifier": "nautilus"
+      "name": "Sulfur Cube",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Cube",
+      "identifier": "sulfur_cube"
     },
-    "release_date": "2025-12-09T12:23:30+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_effect": {
     "version": "1.21.11",
@@ -74,14 +74,14 @@
     "release_date": "2025-06-30T09:32:16+00:00"
   },
   "last_advancement": {
-    "version": "1.21.11",
-    "version_name": "Mounts of Mayhem",
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
     "element": {
-      "name": "Mob Kabob​",
-      "wiki": "https://minecraft.wiki/w/Advancement#Mob_Kabob",
-      "identifier": "adventure/spear_many_mobs"
+      "name": "Uh Oh",
+      "wiki": "https://minecraft.wiki/w/Advancement#Uh_Oh",
+      "identifier": "husbandry/uh_oh"
     },
-    "release_date": "2025-12-09T12:23:30+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_mob_variant": {
     "version": "1.21.11",
@@ -94,14 +94,14 @@
     "release_date": "2025-12-09T12:23:30+00:00"
   },
   "last_biome": {
-    "version": "1.21.4",
-    "version_name": "The Garden Awakens",
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
     "element": {
-      "name": "Pale Garden",
-      "wiki": "https://minecraft.wiki/w/Pale_Garden",
-      "identifier": "pale_garden"
+      "name": "Sulfur Caves",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Caves",
+      "identifier": "sulfur_caves"
     },
-    "release_date": "2024-12-03T10:12:57+00:00"
+    "release_date": "2026-06-16T12:03:33+00:00"
   },
   "last_structure": {
     "version": "1.21",
