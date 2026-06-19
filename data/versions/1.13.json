@@ -951,7 +951,8 @@
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                         "imagePath": "/item/drowned_spawn_egg/latest.png"
                     },
-                    "health": 20
+                    "health": 20,
+                    "babyImagePath": "/mob/drowned/baby/latest.png"
                 },
                 "name": "Drowned",
                 "identifier": "drowned",
