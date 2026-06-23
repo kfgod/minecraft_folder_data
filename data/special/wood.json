@@ -1171,112 +1171,134 @@
         "log": {
           "identifier": "poplar_log",
           "name": "Poplar Log",
-          "wiki": "https://minecraft.wiki/w/Log#Poplar"
+          "wiki": "https://minecraft.wiki/w/Log#Poplar",
+          "imagePath": "/block/poplar_log/latest.png"
         },
         "stripped_log": {
           "identifier": "stripped_poplar_log",
           "name": "Stripped Poplar Log",
-          "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar"
+          "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar",
+          "imagePath": "/block/stripped_poplar_log/latest.png"
         },
         "wood": {
           "identifier": "poplar_wood",
           "name": "Poplar Wood",
-          "wiki": "https://minecraft.wiki/w/Wood#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wood#Poplar",
+          "imagePath": "/block/poplar_wood/latest.png"
         },
         "stripped_wood": {
           "identifier": "stripped_poplar_wood",
           "name": "Stripped Poplar Wood",
-          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar"
+          "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar",
+          "imagePath": "/block/stripped_poplar_wood/latest.png"
         },
         "planks": {
           "identifier": "poplar_planks",
           "name": "Poplar Planks",
-          "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+          "wiki": "https://minecraft.wiki/w/Planks#Poplar",
+          "imagePath": "/block/poplar_planks/latest.png"
         },
         "stairs": {
           "identifier": "poplar_stairs",
           "name": "Poplar Stairs",
-          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar",
+          "imagePath": "/block/poplar_stairs/latest.png"
         },
         "slab": {
           "identifier": "poplar_slab",
           "name": "Poplar Slab",
-          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar",
+          "imagePath": "/block/poplar_slab/latest.png"
         },
         "fence": {
           "identifier": "poplar_fence",
           "name": "Poplar Fence",
-          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar",
+          "imagePath": "/block/poplar_fence/latest.png"
         },
         "gate": {
           "identifier": "poplar_fence_gate",
           "name": "Poplar Fence Gate",
-          "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar"
+          "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar",
+          "imagePath": "/block/poplar_fence_gate/latest.png"
         },
         "door": {
           "identifier": "poplar_door",
           "name": "Poplar Door",
-          "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar",
+          "imagePath": "/block/poplar_door/latest.png"
         },
         "trapdoor": {
           "identifier": "poplar_trapdoor",
           "name": "Poplar Trapdoor",
-          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar",
+          "imagePath": "/block/poplar_trapdoor/latest.png"
         },
         "button": {
           "identifier": "poplar_button",
           "name": "Poplar Button",
-          "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar",
+          "imagePath": "/block/poplar_button/latest.png"
         },
         "pressure_plate": {
           "identifier": "poplar_pressure_plate",
           "name": "Poplar Pressure Plate",
-          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar"
+          "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar",
+          "imagePath": "/block/poplar_pressure_plate/latest.png"
         },
         "sign": {
           "identifier": "poplar_sign",
           "name": "Poplar Sign",
-          "wiki": "https://minecraft.wiki/w/Sign#Poplar"
+          "wiki": "https://minecraft.wiki/w/Sign#Poplar",
+          "imagePath": "/block/poplar_sign/latest.png"
         },
         "hanging_sign": {
           "identifier": "poplar_hanging_sign",
           "name": "Poplar Hanging Sign",
-          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar"
+          "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar",
+          "imagePath": "/block/poplar_hanging_sign/latest.png"
         },
         "shelf": {
           "identifier": "poplar_shelf",
           "name": "Poplar Shelf",
-          "wiki": "https://minecraft.wiki/w/Shelf#Poplar"
+          "wiki": "https://minecraft.wiki/w/Shelf#Poplar",
+          "imagePath": "/block/poplar_shelf/latest.png"
         },
         "boat": {
           "identifier": "poplar_boat",
           "name": "Poplar Boat",
-          "wiki": "https://minecraft.wiki/w/Boat#Poplar"
+          "wiki": "https://minecraft.wiki/w/Boat#Poplar",
+          "imagePath": "/item/poplar_boat/latest.png"
         },
         "chest_boat": {
           "identifier": "poplar_chest_boat",
           "name": "Poplar Boat with Chest",
-          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar"
+          "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar",
+          "imagePath": "/item/poplar_chest_boat/latest.png"
         },
         "sapling": {
           "identifier": "poplar_sapling",
           "name": "Poplar Sapling",
-          "wiki": "https://minecraft.wiki/w/Sapling#Poplar"
+          "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
+          "imagePath": "/block/poplar_sapling/latest.png"
         },
         "leaves": {
           "identifier": "orange_poplar_leaves",
           "name": "Orange Poplar Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar"
+          "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar",
+          "imagePath": "/block/orange_poplar_leaves/latest.png"
         },
         "leaves_2": {
           "identifier": "red_poplar_leaves",
           "name": "Red Poplar Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar"
+          "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar",
+          "imagePath": "/block/red_poplar_leaves/latest.png"
         },
         "leaves_3": {
           "identifier": "yellow_poplar_leaves",
           "name": "Yellow Poplar Leaves",
-          "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar"
+          "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar",
+          "imagePath": "/block/yellow_poplar_leaves/latest.png"
         }
       }
     },

@@ -328,7 +328,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Poplar",
                 "name": "Poplar Log",
-                "identifier": "poplar_log"
+                "identifier": "poplar_log",
+                "imagePath": "/block/poplar_log/latest.png"
             },
             {
                 "types": [
@@ -337,7 +338,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Poplar",
                 "name": "Poplar Wood",
-                "identifier": "poplar_wood"
+                "identifier": "poplar_wood",
+                "imagePath": "/block/poplar_wood/latest.png"
             },
             {
                 "types": [
@@ -346,7 +348,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar",
                 "name": "Stripped Poplar Log",
-                "identifier": "stripped_poplar_log"
+                "identifier": "stripped_poplar_log",
+                "imagePath": "/block/stripped_poplar_log/latest.png"
             },
             {
                 "types": [
@@ -355,7 +358,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar",
                 "name": "Stripped Poplar Wood",
-                "identifier": "stripped_poplar_wood"
+                "identifier": "stripped_poplar_wood",
+                "imagePath": "/block/stripped_poplar_wood/latest.png"
             },
             {
                 "types": [
@@ -364,7 +368,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Poplar",
                 "name": "Poplar Planks",
-                "identifier": "poplar_planks"
+                "identifier": "poplar_planks",
+                "imagePath": "/block/poplar_planks/latest.png"
             },
             {
                 "types": [
@@ -373,7 +378,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar",
                 "name": "Poplar Stairs",
-                "identifier": "poplar_stairs"
+                "identifier": "poplar_stairs",
+                "imagePath": "/block/poplar_stairs/latest.png"
             },
             {
                 "types": [
@@ -382,7 +388,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar",
                 "name": "Poplar Slab",
-                "identifier": "poplar_slab"
+                "identifier": "poplar_slab",
+                "imagePath": "/block/poplar_slab/latest.png"
             },
             {
                 "types": [
@@ -391,7 +398,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar",
                 "name": "Poplar Fence",
-                "identifier": "poplar_fence"
+                "identifier": "poplar_fence",
+                "imagePath": "/block/poplar_fence/latest.png"
             },
             {
                 "types": [
@@ -400,7 +408,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar",
                 "name": "Poplar Fence Gate",
-                "identifier": "poplar_fence_gate"
+                "identifier": "poplar_fence_gate",
+                "imagePath": "/block/poplar_fence_gate/latest.png"
             },
             {
                 "types": [
@@ -409,7 +418,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar",
                 "name": "Poplar Door",
-                "identifier": "poplar_door"
+                "identifier": "poplar_door",
+                "imagePath": "/block/poplar_door/latest.png"
             },
             {
                 "types": [
@@ -418,7 +428,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar",
                 "name": "Poplar Trapdoor",
-                "identifier": "poplar_trapdoor"
+                "identifier": "poplar_trapdoor",
+                "imagePath": "/block/poplar_trapdoor/latest.png"
             },
             {
                 "types": [
@@ -427,7 +438,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar",
                 "name": "Poplar Pressure Plate",
-                "identifier": "poplar_pressure_plate"
+                "identifier": "poplar_pressure_plate",
+                "imagePath": "/block/poplar_pressure_plate/latest.png"
             },
             {
                 "types": [
@@ -436,7 +448,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar",
                 "name": "Poplar Button",
-                "identifier": "poplar_button"
+                "identifier": "poplar_button",
+                "imagePath": "/block/poplar_button/latest.png"
             },
             {
                 "types": [
@@ -445,7 +458,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Poplar",
                 "name": "Poplar Sign",
-                "identifier": "poplar_sign"
+                "identifier": "poplar_sign",
+                "imagePath": "/block/poplar_sign/latest.png"
             },
             {
                 "types": [
@@ -454,7 +468,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar",
                 "name": "Poplar Hanging Sign",
-                "identifier": "poplar_hanging_sign"
+                "identifier": "poplar_hanging_sign",
+                "imagePath": "/block/poplar_hanging_sign/latest.png"
             },
             {
                 "types": [
@@ -463,7 +478,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Poplar",
                 "name": "Poplar Shelf",
-                "identifier": "poplar_shelf"
+                "identifier": "poplar_shelf",
+                "imagePath": "/block/poplar_shelf/latest.png"
             },
             {
                 "types": [
@@ -472,7 +488,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
                 "name": "Poplar Sapling",
-                "identifier": "poplar_sapling"
+                "identifier": "poplar_sapling",
+                "imagePath": "/block/poplar_sapling/latest.png"
             },
             {
                 "types": [
@@ -481,7 +498,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar",
                 "name": "Yellow Poplar Leaves",
-                "identifier": "yellow_poplar_leaves"
+                "identifier": "yellow_poplar_leaves",
+                "imagePath": "/block/yellow_poplar_leaves/latest.png"
             },
             {
                 "types": [
@@ -490,7 +508,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar",
                 "name": "Red Poplar Leaves",
-                "identifier": "red_poplar_leaves"
+                "identifier": "red_poplar_leaves",
+                "imagePath": "/block/red_poplar_leaves/latest.png"
             },
             {
                 "types": [
@@ -499,7 +518,21 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar",
                 "name": "Orange Poplar Leaves",
-                "identifier": "orange_poplar_leaves"
+                "identifier": "orange_poplar_leaves",
+                "imagePath": "/block/orange_poplar_leaves/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Red_Shrub",
+                "name": "Red Shrub",
+                "identifier": "red_shrub",
+                "imagePath": "/block/red_shrub/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Shelf_Mushroom",
+                "name": "Shelf Mushroom",
+                "identifier": "shelf_mushroom"
             }
         ],
         "items": [
@@ -510,7 +543,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Poplar",
                 "name": "Poplar Boat",
-                "identifier": "poplar_boat"
+                "identifier": "poplar_boat",
+                "imagePath": "/item/poplar_boat/latest.png"
             },
             {
                 "types": [
@@ -519,7 +553,8 @@
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar",
                 "name": "Poplar Boat with Chest",
-                "identifier": "poplar_chest_boat"
+                "identifier": "poplar_chest_boat",
+                "imagePath": "/item/poplar_chest_boat/latest.png"
             }
         ]
     },

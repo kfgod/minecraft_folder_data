@@ -922,7 +922,7 @@
     "name": "Fall Drop",
     "release_date": null,
     "counts": {
-      "blocks": 52,
+      "blocks": 54,
       "items": 2,
       "mobs": 0,
       "effects": 0,
@@ -932,7 +932,7 @@
       "mob_variants": 0,
       "biomes": 0,
       "structures": 0,
-      "total": 54
+      "total": 56
     }
   }
 ]
