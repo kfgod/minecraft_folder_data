@@ -19,7 +19,8 @@
     "candle",
     "banner",
     "bundle",
-    "harness"
+    "harness",
+    "cushion"
   ],
   "groups": [
     {
@@ -128,6 +129,12 @@
           "name": "White Harness",
           "wiki": "https://minecraft.wiki/w/Harness#White",
           "imagePath": "/item/white_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "white_cushion",
+          "name": "White Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#White",
+          "imagePath": "/block/white_cushion/latest.png"
         }
       }
     },
@@ -237,6 +244,12 @@
           "name": "Light Gray Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Light_Gray",
           "imagePath": "/item/light_gray_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "light_gray_cushion",
+          "name": "Light Gray Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Light_Gray",
+          "imagePath": "/block/light_gray_cushion/latest.png"
         }
       }
     },
@@ -346,6 +359,12 @@
           "name": "Gray Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Gray",
           "imagePath": "/item/gray_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "gray_cushion",
+          "name": "Gray Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Gray",
+          "imagePath": "/block/gray_cushion/latest.png"
         }
       }
     },
@@ -455,6 +474,12 @@
           "name": "Black Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Black",
           "imagePath": "/item/black_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "black_cushion",
+          "name": "Black Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Black",
+          "imagePath": "/block/black_cushion/latest.png"
         }
       }
     },
@@ -564,6 +589,12 @@
           "name": "Brown Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Brown",
           "imagePath": "/item/brown_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "brown_cushion",
+          "name": "Brown Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Brown",
+          "imagePath": "/block/brown_cushion/latest.png"
         }
       }
     },
@@ -673,6 +704,12 @@
           "name": "Red Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Red",
           "imagePath": "/item/red_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "red_cushion",
+          "name": "Red Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Red",
+          "imagePath": "/block/red_cushion/latest.png"
         }
       }
     },
@@ -782,6 +819,12 @@
           "name": "Orange Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Orange",
           "imagePath": "/item/orange_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "orange_cushion",
+          "name": "Orange Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Orange",
+          "imagePath": "/block/orange_cushion/latest.png"
         }
       }
     },
@@ -891,6 +934,12 @@
           "name": "Yellow Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Yellow",
           "imagePath": "/item/yellow_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "yellow_cushion",
+          "name": "Yellow Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Yellow",
+          "imagePath": "/block/yellow_cushion/latest.png"
         }
       }
     },
@@ -1000,6 +1049,12 @@
           "name": "Lime Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Lime",
           "imagePath": "/item/lime_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "lime_cushion",
+          "name": "Lime Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Lime",
+          "imagePath": "/block/lime_cushion/latest.png"
         }
       }
     },
@@ -1109,6 +1164,12 @@
           "name": "Green Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Green",
           "imagePath": "/item/green_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "green_cushion",
+          "name": "Green Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Green",
+          "imagePath": "/block/green_cushion/latest.png"
         }
       }
     },
@@ -1218,6 +1279,12 @@
           "name": "Cyan Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Cyan",
           "imagePath": "/item/cyan_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "cyan_cushion",
+          "name": "Cyan Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Cyan",
+          "imagePath": "/block/cyan_cushion/latest.png"
         }
       }
     },
@@ -1327,6 +1394,12 @@
           "name": "Light Blue Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Light_Blue",
           "imagePath": "/item/light_blue_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "light_blue_cushion",
+          "name": "Light Blue Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Light_Blue",
+          "imagePath": "/block/light_blue_cushion/latest.png"
         }
       }
     },
@@ -1436,6 +1509,12 @@
           "name": "Blue Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Blue",
           "imagePath": "/item/blue_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "blue_cushion",
+          "name": "Blue Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Blue",
+          "imagePath": "/block/blue_cushion/latest.png"
         }
       }
     },
@@ -1545,6 +1624,12 @@
           "name": "Purple Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Purple",
           "imagePath": "/item/purple_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "purple_cushion",
+          "name": "Purple Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Purple",
+          "imagePath": "/block/purple_cushion/latest.png"
         }
       }
     },
@@ -1654,6 +1739,12 @@
           "name": "Magenta Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Magenta",
           "imagePath": "/item/magenta_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "magenta_cushion",
+          "name": "Magenta Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Magenta",
+          "imagePath": "/block/magenta_cushion/latest.png"
         }
       }
     },
@@ -1763,6 +1854,12 @@
           "name": "Pink Harness",
           "wiki": "https://minecraft.wiki/w/Harness#Pink",
           "imagePath": "/item/pink_harness/latest.png"
+        },
+        "cushion": {
+          "identifier": "pink_cushion",
+          "name": "Pink Cushion",
+          "wiki": "https://minecraft.wiki/w/Cushion#Pink",
+          "imagePath": "/block/pink_cushion/latest.png"
         }
       }
     }

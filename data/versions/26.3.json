@@ -5,6 +5,166 @@
                 "types": [
                     "color:white"
                 ],
+                "wiki": "https://minecraft.wiki/w/Cushion#White",
+                "color": "white",
+                "name": "White Cushion",
+                "identifier": "white_cushion",
+                "imagePath": "/block/white_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Cushion",
+                "identifier": "light_gray_cushion",
+                "imagePath": "/block/light_gray_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Gray",
+                "color": "gray",
+                "name": "Gray Cushion",
+                "identifier": "gray_cushion",
+                "imagePath": "/block/gray_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:black"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Black",
+                "color": "black",
+                "name": "Black Cushion",
+                "identifier": "black_cushion",
+                "imagePath": "/block/black_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:brown"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Brown",
+                "color": "brown",
+                "name": "Brown Cushion",
+                "identifier": "brown_cushion",
+                "imagePath": "/block/brown_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:red"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Red",
+                "color": "red",
+                "name": "Red Cushion",
+                "identifier": "red_cushion",
+                "imagePath": "/block/red_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:orange"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Orange",
+                "color": "orange",
+                "name": "Orange Cushion",
+                "identifier": "orange_cushion",
+                "imagePath": "/block/orange_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:yellow"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Yellow",
+                "color": "yellow",
+                "name": "Yellow Cushion",
+                "identifier": "yellow_cushion",
+                "imagePath": "/block/yellow_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:lime"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Lime",
+                "color": "lime",
+                "name": "Lime Cushion",
+                "identifier": "lime_cushion",
+                "imagePath": "/block/lime_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:green"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Green",
+                "color": "green",
+                "name": "Green Cushion",
+                "identifier": "green_cushion",
+                "imagePath": "/block/green_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:cyan"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Cyan",
+                "color": "cyan",
+                "name": "Cyan Cushion",
+                "identifier": "cyan_cushion",
+                "imagePath": "/block/cyan_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Cushion",
+                "identifier": "light_blue_cushion",
+                "imagePath": "/block/light_blue_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Blue",
+                "color": "blue",
+                "name": "Blue Cushion",
+                "identifier": "blue_cushion",
+                "imagePath": "/block/blue_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:purple"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Purple",
+                "color": "purple",
+                "name": "Purple Cushion",
+                "identifier": "purple_cushion",
+                "imagePath": "/block/purple_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:magenta"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Magenta",
+                "color": "magenta",
+                "name": "Magenta Cushion",
+                "identifier": "magenta_cushion",
+                "imagePath": "/block/magenta_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:pink"
+                ],
+                "wiki": "https://minecraft.wiki/w/Cushion#Pink",
+                "color": "pink",
+                "name": "Pink Cushion",
+                "identifier": "pink_cushion",
+                "imagePath": "/block/pink_cushion/latest.png"
+            },
+            {
+                "types": [
+                    "color:white"
+                ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#White",
                 "color": "white",
                 "name": "White Wool Slab",
@@ -523,16 +683,24 @@
             },
             {
                 "types": [],
+                "wiki": "https://minecraft.wiki/w/Shelf_Mushroom",
+                "name": "Shelf Mushroom",
+                "identifier": "shelf_mushroom",
+                "imagePath": "/block/shelf_mushroom/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Straw_Bed",
+                "name": "Straw Bed",
+                "identifier": "straw_bed",
+                "imagePath": "/block/straw_bed/latest.png"
+            },
+            {
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Red_Shrub",
                 "name": "Red Shrub",
                 "identifier": "red_shrub",
                 "imagePath": "/block/red_shrub/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Shelf_Mushroom",
-                "name": "Shelf Mushroom",
-                "identifier": "shelf_mushroom"
             }
         ],
         "items": [
