@@ -724,6 +724,15 @@
                 "identifier": "poplar_chest_boat",
                 "imagePath": "/item/poplar_chest_boat/latest.png"
             }
+        ],
+        "biomes": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Dappled_Forest",
+                "name": "Dappled Forest",
+                "identifier": "dappled_forest",
+                "imagePath": "/biome/dappled_forest/latest.png"
+            }
         ]
     },
     "image": null,
