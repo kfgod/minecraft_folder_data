@@ -12,6 +12,8 @@
     "glazed_terracotta",
     "concrete_powder",
     "concrete",
+    "concrete_stairs",
+    "concrete_slab",
     "stained_glass",
     "stained_glass_pane",
     "shulker_box",
@@ -81,6 +83,18 @@
           "name": "White Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#White",
           "imagePath": "/block/white_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "white_concrete_stairs",
+          "name": "White Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#White",
+          "imagePath": "/block/white_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "white_concrete_slab",
+          "name": "White Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#White",
+          "imagePath": "/block/white_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "white_stained_glass",
@@ -197,6 +211,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Light_Gray",
           "imagePath": "/block/light_gray_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "light_gray_concrete_stairs",
+          "name": "Light Gray Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Gray",
+          "imagePath": "/block/light_gray_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "light_gray_concrete_slab",
+          "name": "Light Gray Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Gray",
+          "imagePath": "/block/light_gray_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "light_gray_stained_glass",
           "name": "Light Gray Stained Glass",
@@ -311,6 +337,18 @@
           "name": "Gray Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Gray",
           "imagePath": "/block/gray_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "gray_concrete_stairs",
+          "name": "Gray Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Gray",
+          "imagePath": "/block/gray_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "gray_concrete_slab",
+          "name": "Gray Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Gray",
+          "imagePath": "/block/gray_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "gray_stained_glass",
@@ -427,6 +465,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Black",
           "imagePath": "/block/black_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "black_concrete_stairs",
+          "name": "Black Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Black",
+          "imagePath": "/block/black_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "black_concrete_slab",
+          "name": "Black Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Black",
+          "imagePath": "/block/black_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "black_stained_glass",
           "name": "Black Stained Glass",
@@ -541,6 +591,18 @@
           "name": "Brown Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Brown",
           "imagePath": "/block/brown_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "brown_concrete_stairs",
+          "name": "Brown Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Brown",
+          "imagePath": "/block/brown_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "brown_concrete_slab",
+          "name": "Brown Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Brown",
+          "imagePath": "/block/brown_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "brown_stained_glass",
@@ -657,6 +719,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Red",
           "imagePath": "/block/red_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "red_concrete_stairs",
+          "name": "Red Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Red",
+          "imagePath": "/block/red_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "red_concrete_slab",
+          "name": "Red Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Red",
+          "imagePath": "/block/red_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "red_stained_glass",
           "name": "Red Stained Glass",
@@ -771,6 +845,18 @@
           "name": "Orange Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Orange",
           "imagePath": "/block/orange_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "orange_concrete_stairs",
+          "name": "Orange Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Orange",
+          "imagePath": "/block/orange_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "orange_concrete_slab",
+          "name": "Orange Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Orange",
+          "imagePath": "/block/orange_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "orange_stained_glass",
@@ -887,6 +973,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Yellow",
           "imagePath": "/block/yellow_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "yellow_concrete_stairs",
+          "name": "Yellow Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Yellow",
+          "imagePath": "/block/yellow_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "yellow_concrete_slab",
+          "name": "Yellow Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Yellow",
+          "imagePath": "/block/yellow_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "yellow_stained_glass",
           "name": "Yellow Stained Glass",
@@ -1001,6 +1099,18 @@
           "name": "Lime Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Lime",
           "imagePath": "/block/lime_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "lime_concrete_stairs",
+          "name": "Lime Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Lime",
+          "imagePath": "/block/lime_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "lime_concrete_slab",
+          "name": "Lime Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Lime",
+          "imagePath": "/block/lime_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "lime_stained_glass",
@@ -1117,6 +1227,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Green",
           "imagePath": "/block/green_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "green_concrete_stairs",
+          "name": "Green Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Green",
+          "imagePath": "/block/green_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "green_concrete_slab",
+          "name": "Green Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Green",
+          "imagePath": "/block/green_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "green_stained_glass",
           "name": "Green Stained Glass",
@@ -1231,6 +1353,18 @@
           "name": "Cyan Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Cyan",
           "imagePath": "/block/cyan_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "cyan_concrete_stairs",
+          "name": "Cyan Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Cyan",
+          "imagePath": "/block/cyan_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "cyan_concrete_slab",
+          "name": "Cyan Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Cyan",
+          "imagePath": "/block/cyan_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "cyan_stained_glass",
@@ -1347,6 +1481,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Light_Blue",
           "imagePath": "/block/light_blue_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "light_blue_concrete_stairs",
+          "name": "Light Blue Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Blue",
+          "imagePath": "/block/light_blue_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "light_blue_concrete_slab",
+          "name": "Light Blue Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Blue",
+          "imagePath": "/block/light_blue_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "light_blue_stained_glass",
           "name": "Light Blue Stained Glass",
@@ -1461,6 +1607,18 @@
           "name": "Blue Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Blue",
           "imagePath": "/block/blue_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "blue_concrete_stairs",
+          "name": "Blue Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Blue",
+          "imagePath": "/block/blue_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "blue_concrete_slab",
+          "name": "Blue Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Blue",
+          "imagePath": "/block/blue_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "blue_stained_glass",
@@ -1577,6 +1735,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Purple",
           "imagePath": "/block/purple_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "purple_concrete_stairs",
+          "name": "Purple Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Purple",
+          "imagePath": "/block/purple_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "purple_concrete_slab",
+          "name": "Purple Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple",
+          "imagePath": "/block/purple_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "purple_stained_glass",
           "name": "Purple Stained Glass",
@@ -1692,6 +1862,18 @@
           "wiki": "https://minecraft.wiki/w/Concrete#Magenta",
           "imagePath": "/block/magenta_concrete/latest.png"
         },
+        "concrete_stairs": {
+          "identifier": "magenta_concrete_stairs",
+          "name": "Magenta Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Magenta",
+          "imagePath": "/block/magenta_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "magenta_concrete_slab",
+          "name": "Magenta Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Magenta",
+          "imagePath": "/block/magenta_concrete_slab/latest.png"
+        },
         "stained_glass": {
           "identifier": "magenta_stained_glass",
           "name": "Magenta Stained Glass",
@@ -1806,6 +1988,18 @@
           "name": "Pink Concrete",
           "wiki": "https://minecraft.wiki/w/Concrete#Pink",
           "imagePath": "/block/pink_concrete/latest.png"
+        },
+        "concrete_stairs": {
+          "identifier": "pink_concrete_stairs",
+          "name": "Pink Concrete Stairs",
+          "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Pink",
+          "imagePath": "/block/pink_concrete_stairs/latest.png"
+        },
+        "concrete_slab": {
+          "identifier": "pink_concrete_slab",
+          "name": "Pink Concrete Slab",
+          "wiki": "https://minecraft.wiki/w/Concrete_Slab#Pink",
+          "imagePath": "/block/pink_concrete_slab/latest.png"
         },
         "stained_glass": {
           "identifier": "pink_stained_glass",

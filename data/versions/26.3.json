@@ -483,6 +483,326 @@
             },
             {
                 "types": [
+                    "color:white"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#White",
+                "color": "white",
+                "name": "White Concrete Slab",
+                "identifier": "white_concrete_slab",
+                "imagePath": "/block/white_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Concrete Slab",
+                "identifier": "light_gray_concrete_slab",
+                "imagePath": "/block/light_gray_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Gray",
+                "color": "gray",
+                "name": "Gray Concrete Slab",
+                "identifier": "gray_concrete_slab",
+                "imagePath": "/block/gray_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:black"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Black",
+                "color": "black",
+                "name": "Black Concrete Slab",
+                "identifier": "black_concrete_slab",
+                "imagePath": "/block/black_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:brown"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Brown",
+                "color": "brown",
+                "name": "Brown Concrete Slab",
+                "identifier": "brown_concrete_slab",
+                "imagePath": "/block/brown_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:red"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Red",
+                "color": "red",
+                "name": "Red Concrete Slab",
+                "identifier": "red_concrete_slab",
+                "imagePath": "/block/red_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:orange"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Orange",
+                "color": "orange",
+                "name": "Orange Concrete Slab",
+                "identifier": "orange_concrete_slab",
+                "imagePath": "/block/orange_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:yellow"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Yellow",
+                "color": "yellow",
+                "name": "Yellow Concrete Slab",
+                "identifier": "yellow_concrete_slab",
+                "imagePath": "/block/yellow_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:lime"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Lime",
+                "color": "lime",
+                "name": "Lime Concrete Slab",
+                "identifier": "lime_concrete_slab",
+                "imagePath": "/block/lime_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:green"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Green",
+                "color": "green",
+                "name": "Green Concrete Slab",
+                "identifier": "green_concrete_slab",
+                "imagePath": "/block/green_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:cyan"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Cyan",
+                "color": "cyan",
+                "name": "Cyan Concrete Slab",
+                "identifier": "cyan_concrete_slab",
+                "imagePath": "/block/cyan_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Concrete Slab",
+                "identifier": "light_blue_concrete_slab",
+                "imagePath": "/block/light_blue_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Blue",
+                "color": "blue",
+                "name": "Blue Concrete Slab",
+                "identifier": "blue_concrete_slab",
+                "imagePath": "/block/blue_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:purple"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple",
+                "color": "purple",
+                "name": "Purple Concrete Slab",
+                "identifier": "purple_concrete_slab",
+                "imagePath": "/block/purple_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:magenta"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Magenta",
+                "color": "magenta",
+                "name": "Magenta Concrete Slab",
+                "identifier": "magenta_concrete_slab",
+                "imagePath": "/block/magenta_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:pink"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Slab#Pink",
+                "color": "pink",
+                "name": "Pink Concrete Slab",
+                "identifier": "pink_concrete_slab",
+                "imagePath": "/block/pink_concrete_slab/latest.png"
+            },
+            {
+                "types": [
+                    "color:white"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#White",
+                "color": "white",
+                "name": "White Concrete Stairs",
+                "identifier": "white_concrete_stairs",
+                "imagePath": "/block/white_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Gray",
+                "color": "light_gray",
+                "name": "Light Gray Concrete Stairs",
+                "identifier": "light_gray_concrete_stairs",
+                "imagePath": "/block/light_gray_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:gray"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Gray",
+                "color": "gray",
+                "name": "Gray Concrete Stairs",
+                "identifier": "gray_concrete_stairs",
+                "imagePath": "/block/gray_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:black"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Black",
+                "color": "black",
+                "name": "Black Concrete Stairs",
+                "identifier": "black_concrete_stairs",
+                "imagePath": "/block/black_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:brown"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Brown",
+                "color": "brown",
+                "name": "Brown Concrete Stairs",
+                "identifier": "brown_concrete_stairs",
+                "imagePath": "/block/brown_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:red"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Red",
+                "color": "red",
+                "name": "Red Concrete Stairs",
+                "identifier": "red_concrete_stairs",
+                "imagePath": "/block/red_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:orange"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Orange",
+                "color": "orange",
+                "name": "Orange Concrete Stairs",
+                "identifier": "orange_concrete_stairs",
+                "imagePath": "/block/orange_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:yellow"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Yellow",
+                "color": "yellow",
+                "name": "Yellow Concrete Stairs",
+                "identifier": "yellow_concrete_stairs",
+                "imagePath": "/block/yellow_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:lime"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Lime",
+                "color": "lime",
+                "name": "Lime Concrete Stairs",
+                "identifier": "lime_concrete_stairs",
+                "imagePath": "/block/lime_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:green"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Green",
+                "color": "green",
+                "name": "Green Concrete Stairs",
+                "identifier": "green_concrete_stairs",
+                "imagePath": "/block/green_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:cyan"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Cyan",
+                "color": "cyan",
+                "name": "Cyan Concrete Stairs",
+                "identifier": "cyan_concrete_stairs",
+                "imagePath": "/block/cyan_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:light_blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Blue",
+                "color": "light_blue",
+                "name": "Light Blue Concrete Stairs",
+                "identifier": "light_blue_concrete_stairs",
+                "imagePath": "/block/light_blue_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:blue"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Blue",
+                "color": "blue",
+                "name": "Blue Concrete Stairs",
+                "identifier": "blue_concrete_stairs",
+                "imagePath": "/block/blue_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:purple"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Purple",
+                "color": "purple",
+                "name": "Purple Concrete Stairs",
+                "identifier": "purple_concrete_stairs",
+                "imagePath": "/block/purple_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:magenta"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Magenta",
+                "color": "magenta",
+                "name": "Magenta Concrete Stairs",
+                "identifier": "magenta_concrete_stairs",
+                "imagePath": "/block/magenta_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "color:pink"
+                ],
+                "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Pink",
+                "color": "pink",
+                "name": "Pink Concrete Stairs",
+                "identifier": "pink_concrete_stairs",
+                "imagePath": "/block/pink_concrete_stairs/latest.png"
+            },
+            {
+                "types": [
                     "family:poplar",
                     "form:log"
                 ],
@@ -644,16 +964,6 @@
             {
                 "types": [
                     "family:poplar",
-                    "form:sapling"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
-                "name": "Poplar Sapling",
-                "identifier": "poplar_sapling",
-                "imagePath": "/block/poplar_sapling/latest.png"
-            },
-            {
-                "types": [
-                    "family:poplar",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar",
@@ -682,6 +992,16 @@
                 "imagePath": "/block/orange_poplar_leaves/latest.png"
             },
             {
+                "types": [
+                    "family:poplar",
+                    "form:sapling"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
+                "name": "Poplar Sapling",
+                "identifier": "poplar_sapling",
+                "imagePath": "/block/poplar_sapling/latest.png"
+            },
+            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Shelf_Mushroom",
                 "name": "Shelf Mushroom",
@@ -690,17 +1010,17 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Straw_Bed",
-                "name": "Straw Bed",
-                "identifier": "straw_bed",
-                "imagePath": "/block/straw_bed/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Red_Shrub",
                 "name": "Red Shrub",
                 "identifier": "red_shrub",
                 "imagePath": "/block/red_shrub/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Straw_Bed",
+                "name": "Straw Bed",
+                "identifier": "straw_bed",
+                "imagePath": "/block/straw_bed/latest.png"
             }
         ],
         "items": [
@@ -723,11 +1043,48 @@
                 "name": "Poplar Boat with Chest",
                 "identifier": "poplar_chest_boat",
                 "imagePath": "/item/poplar_chest_boat/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Abandoned Camp Map",
+                "identifier": "abandoned_campsite_map",
+                "imagePath": "/item/abandoned_campsite_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Ancient City Map",
+                "identifier": "ancient_city_map",
+                "imagePath": "/item/ancient_city_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Desert Pyramid Map",
+                "identifier": "desert_pyramid_map",
+                "imagePath": "/item/desert_pyramid_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Mineshaft Map",
+                "identifier": "mineshaft_map",
+                "imagePath": "/item/mineshaft_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Warm Ocean Ruins Map",
+                "identifier": "warm_ocean_ruins_map",
+                "imagePath": "/item/warm_ocean_ruins_map/latest.png"
             }
         ],
         "biomes": [
             {
-                "types": [],
+                "types": [
+                    "biome/overworld"
+                ],
                 "wiki": "https://minecraft.wiki/w/Dappled_Forest",
                 "name": "Dappled Forest",
                 "identifier": "dappled_forest",
