@@ -1047,20 +1047,6 @@
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
-                "name": "Abandoned Camp Map",
-                "identifier": "abandoned_campsite_map",
-                "imagePath": "/item/abandoned_campsite_map/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Explorer_Map",
-                "name": "Ancient City Map",
-                "identifier": "ancient_city_map",
-                "imagePath": "/item/ancient_city_map/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Desert Pyramid Map",
                 "identifier": "desert_pyramid_map",
                 "imagePath": "/item/desert_pyramid_map/latest.png"
@@ -1068,16 +1054,30 @@
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
-                "name": "Mineshaft Map",
-                "identifier": "mineshaft_map",
-                "imagePath": "/item/mineshaft_map/latest.png"
+                "name": "Warm Ocean Ruins Map",
+                "identifier": "warm_ocean_ruins_map",
+                "imagePath": "/item/warm_ocean_ruins_map/latest.png"
             },
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
-                "name": "Warm Ocean Ruins Map",
-                "identifier": "warm_ocean_ruins_map",
-                "imagePath": "/item/warm_ocean_ruins_map/latest.png"
+                "name": "Abandoned Camp Map",
+                "identifier": "abandoned_camp_map",
+                "imagePath": "/item/abandoned_camp_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Buried Ancient City Map",
+                "identifier": "buried_ancient_city_map",
+                "imagePath": "/item/buried_ancient_city_map/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map",
+                "name": "Buried Mineshaft Map",
+                "identifier": "buried_mineshaft_map",
+                "imagePath": "/item/buried_mineshaft_map/latest.png"
             }
         ],
         "biomes": [

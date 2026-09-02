@@ -1089,16 +1089,6 @@
             },
             {
                 "types": [
-                    "maps"
-                ],
-                "image_identifier": "trial_explorer_map",
-                "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
-                "name": "Trial Explorer Map",
-                "identifier": "trial_explorer_map",
-                "imagePath": "/item/trial_explorer_map/latest.png"
-            },
-            {
-                "types": [
                     "enchantments"
                 ],
                 "wiki": "https://minecraft.wiki/w/Enchanted_Book",
@@ -1123,6 +1113,15 @@
                 "name": "Enchanted Book – Density I-V",
                 "identifier": "density_enchanted_book",
                 "imagePath": "/item/enchanted_book/latest.png"
+            },
+            {
+                "types": [
+                    "maps"
+                ],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
+                "name": "Buried Trial Chambers Map",
+                "identifier": "buried_trial_chambers_map",
+                "imagePath": "/item/buried_trial_chambers_map/latest.png"
             }
         ],
         "mobs": [

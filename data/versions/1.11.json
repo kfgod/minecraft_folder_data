@@ -323,21 +323,19 @@
                 "types": [
                     "maps"
                 ],
-                "image_identifier": "ocean_explorer_map",
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Ocean_Explorer",
-                "name": "Ocean Explorer Map",
-                "identifier": "ocean_explorer_map",
-                "imagePath": "/item/ocean_explorer_map/latest.png"
+                "name": "Ocean Monument Map",
+                "identifier": "ocean_monument_map",
+                "imagePath": "/item/ocean_monument_map/latest.png"
             },
             {
                 "types": [
                     "maps"
                 ],
-                "image_identifier": "woodland_explorer_map",
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Woodland_Explorer",
-                "name": "Woodland Explorer Map",
-                "identifier": "woodland_explorer_map",
-                "imagePath": "/item/woodland_explorer_map/latest.png"
+                "name": "Woodland Mansion Map",
+                "identifier": "woodland_mansion_map",
+                "imagePath": "/item/woodland_mansion_map/latest.png"
             }
         ],
         "mobs": [

@@ -137,15 +137,6 @@
                     "maps"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
-                "name": "Jungle Explorer Map",
-                "identifier": "jungle_explorer_map",
-                "imagePath": "/item/jungle_explorer_map/latest.png"
-            },
-            {
-                "types": [
-                    "maps"
-                ],
-                "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Plains Village Map",
                 "identifier": "plains_village_map",
                 "imagePath": "/item/plains_village_map/latest.png"
@@ -173,18 +164,27 @@
                     "maps"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
-                "name": "Swamp Explorer Map",
-                "identifier": "swamp_explorer_map",
-                "imagePath": "/item/swamp_explorer_map/latest.png"
+                "name": "Taiga Village Map",
+                "identifier": "taiga_village_map",
+                "imagePath": "/item/taiga_village_map/latest.png"
             },
             {
                 "types": [
                     "maps"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
-                "name": "Taiga Village Map",
-                "identifier": "taiga_village_map",
-                "imagePath": "/item/taiga_village_map/latest.png"
+                "name": "Jungle Pyramid Map",
+                "identifier": "jungle_pyramid_map",
+                "imagePath": "/item/jungle_pyramid_map/latest.png"
+            },
+            {
+                "types": [
+                    "maps"
+                ],
+                "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
+                "name": "Swamp Hut Map",
+                "identifier": "swamp_hut_map",
+                "imagePath": "/item/swamp_hut_map/latest.png"
             }
         ],
         "mob_variants": [
