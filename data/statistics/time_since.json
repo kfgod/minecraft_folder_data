@@ -1,10 +1,10 @@
 {
   "last_drop": {
-    "version": "26.2",
-    "name": "Chaos Cubed",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2",
+    "version": "26.3",
+    "name": "Wilderness Bound",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.3",
     "type": "drop",
-    "release_date": "2026-06-16T12:03:33+00:00"
+    "release_date": "2026-09-15T11:23:02+00:00"
   },
   "last_major": {
     "version": "1.21",
@@ -14,24 +14,24 @@
     "release_date": "2024-06-13T08:24:03+00:00"
   },
   "last_block": {
-    "version": "26.2",
-    "version_name": "Chaos Cubed",
+    "version": "26.3",
+    "version_name": "Wilderness Bound",
     "element": {
-      "name": "Cinnabar",
-      "wiki": "https://minecraft.wiki/w/Cinnabar",
-      "identifier": "cinnabar"
+      "name": "Purple Concrete Slab",
+      "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple",
+      "identifier": "purple_concrete_slab"
     },
-    "release_date": "2026-06-16T12:03:33+00:00"
+    "release_date": "2026-09-15T11:23:02+00:00"
   },
   "last_item": {
-    "version": "26.2",
-    "version_name": "Chaos Cubed",
+    "version": "26.3",
+    "version_name": "Wilderness Bound",
     "element": {
-      "name": "Music Disc Bounce",
-      "wiki": "https://minecraft.wiki/w/Music_Disc_Bounce",
-      "identifier": "music_disc_bounce"
+      "name": "Buried Ancient City Map",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map",
+      "identifier": "buried_ancient_city_map"
     },
-    "release_date": "2026-06-16T12:03:33+00:00"
+    "release_date": "2026-09-15T11:23:02+00:00"
   },
   "last_mob": {
     "version": "26.2",
@@ -94,14 +94,14 @@
     "release_date": "2025-12-09T12:23:30+00:00"
   },
   "last_biome": {
-    "version": "26.2",
-    "version_name": "Chaos Cubed",
+    "version": "26.3",
+    "version_name": "Wilderness Bound",
     "element": {
-      "name": "Sulfur Caves",
-      "wiki": "https://minecraft.wiki/w/Sulfur_Caves",
-      "identifier": "sulfur_caves"
+      "name": "Dappled Forest",
+      "wiki": "https://minecraft.wiki/w/Dappled_Forest",
+      "identifier": "dappled_forest"
     },
-    "release_date": "2026-06-16T12:03:33+00:00"
+    "release_date": "2026-09-15T11:23:02+00:00"
   },
   "last_structure": {
     "version": "1.21",
