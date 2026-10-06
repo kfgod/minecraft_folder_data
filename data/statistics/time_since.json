@@ -104,13 +104,13 @@
     "release_date": "2026-09-15T11:23:02+00:00"
   },
   "last_structure": {
-    "version": "1.21",
-    "version_name": "Tricky Trials",
+    "version": "26.3",
+    "version_name": "Wilderness Bound",
     "element": {
-      "name": "Trial Chambers",
-      "wiki": "https://minecraft.wiki/w/Trial_Chambers",
-      "identifier": "trial_chambers"
+      "name": "Abandoned Camp",
+      "wiki": "https://minecraft.wiki/w/Abandoned_Camp",
+      "identifier": "abandoned_camp"
     },
-    "release_date": "2024-06-13T08:24:03+00:00"
+    "release_date": "2026-09-15T11:23:02+00:00"
   }
 }

@@ -1090,6 +1090,14 @@
                 "identifier": "dappled_forest",
                 "imagePath": "/biome/dappled_forest/latest.png"
             }
+        ],
+        "structures": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Abandoned_Camp",
+                "name": "Abandoned Camp",
+                "identifier": "abandoned_camp"
+            }
         ]
     },
     "image": null,
