@@ -1,0 +1,117 @@
+{
+    "added": {
+        "blocks": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ice_Crystal",
+                "name": "Ice Crystal",
+                "identifier": "ice_crystal",
+                "imagePath": "/block/ice_crystal/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Icicle",
+                "name": "Icicle",
+                "identifier": "icicle",
+                "imagePath": "/block/icicle/latest.png"
+            }
+        ],
+        "items": [
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+                "name": "Arrow of Freezing",
+                "identifier": "arrow_of_freezing"
+            },
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Lingering_Potion",
+                "name": "Lingering Potion of Freezing",
+                "identifier": "lingering_potion_of_freezing"
+            },
+            {
+                "types": [
+                    "spawn_egg"
+                ],
+                "wiki": "https://minecraft.wiki/w/Frostbite_spawn_egg",
+                "name": "Frostbite Spawn Egg",
+                "identifier": "frostbite_spawn_egg",
+                "imagePath": "/item/frostbite_spawn_egg/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ice_Ball",
+                "name": "Ice Ball",
+                "identifier": "ice_ball",
+                "imagePath": "/item/ice_ball/latest.png"
+            },
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Freezing",
+                "identifier": "potion_of_freezing"
+            },
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Freezing",
+                "identifier": "splash_potion_of_freezing"
+            }
+        ],
+        "mobs": [
+            {
+                "types": [
+                    "mobs/hostile"
+                ],
+                "wiki": "https://minecraft.wiki/w/Frostbite",
+                "meta": {
+                    "spawn_egg": {
+                        "identifier": "frostbite_spawn_egg",
+                        "name": "Frostbite Spawn Egg",
+                        "wiki": "https://minecraft.wiki/w/Frostbite_spawn_egg",
+                        "imagePath": "/item/frostbite_spawn_egg/latest.png"
+                    },
+                    "health": 24,
+                    "babyImagePath": "/mob/frostbite/baby/latest.webp"
+                },
+                "name": "Frostbite",
+                "identifier": "frostbite",
+                "imagePath": "/mob/frostbite/latest.webp"
+            }
+        ],
+        "effects": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Freezing",
+                "name": "Freezing",
+                "identifier": "freezing"
+            }
+        ],
+        "biomes": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Ice_Caves",
+                "name": "Ice Caves",
+                "identifier": "ice_caves"
+            }
+        ]
+    },
+    "image": null,
+    "name": "Winter Drop",
+    "release_date": null,
+    "release_version": {
+        "bedrock": null,
+        "java": "26.4"
+    },
+    "tags": [],
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.4",
+    "type": "drop"
+}
