@@ -940,7 +940,7 @@
     "name": "Winter Drop",
     "release_date": null,
     "counts": {
-      "blocks": 2,
+      "blocks": 3,
       "items": 6,
       "mobs": 1,
       "effects": 1,
@@ -950,7 +950,7 @@
       "mob_variants": 0,
       "biomes": 1,
       "structures": 0,
-      "total": 11
+      "total": 12
     }
   }
 ]

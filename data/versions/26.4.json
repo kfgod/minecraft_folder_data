@@ -14,6 +14,13 @@
                 "name": "Icicle",
                 "identifier": "icicle",
                 "imagePath": "/block/icicle/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Brittle_Ice",
+                "name": "Brittle Ice",
+                "identifier": "brittle_ice",
+                "imagePath": "/block/brittle_ice/latest.png"
             }
         ],
         "items": [
