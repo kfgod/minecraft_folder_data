@@ -812,6 +812,49 @@
           }
         },
         {
+          "group": "packed_ice",
+          "group_name": "Packed Ice",
+          "generated_from": "family:packed_ice",
+          "items": {
+            "initial_base": {
+              "identifier": "packed_ice",
+              "name": "Packed Ice",
+              "wiki": "https://minecraft.wiki/w/Packed_Ice",
+              "imagePath": "/block/packed_ice/latest.png"
+            },
+            "brick_base": {
+              "identifier": "packed_ice_bricks",
+              "name": "Packed Ice Bricks",
+              "wiki": "https://minecraft.wiki/w/Packed_Ice_Bricks",
+              "imagePath": "/block/packed_ice_bricks/latest.png"
+            },
+            "brick_stairs": {
+              "identifier": "packed_ice_brick_stairs",
+              "name": "Packed Ice Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Stairs",
+              "imagePath": "/block/packed_ice_brick_stairs/latest.png"
+            },
+            "brick_slab": {
+              "identifier": "packed_ice_brick_slab",
+              "name": "Packed Ice Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Slab",
+              "imagePath": "/block/packed_ice_brick_slab/latest.png"
+            },
+            "brick_wall": {
+              "identifier": "packed_ice_brick_wall",
+              "name": "Packed Ice Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Wall",
+              "imagePath": "/block/packed_ice_brick_wall/latest.png"
+            },
+            "special_chiseled": {
+              "identifier": "chiseled_packed_ice",
+              "name": "Chiseled Packed Ice",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Packed_Ice",
+              "imagePath": "/block/chiseled_packed_ice/latest.png"
+            }
+          }
+        },
+        {
           "group": "prismarine",
           "group_name": "Prismarine",
           "generated_from": "family:prismarine",

@@ -436,7 +436,9 @@
                 "imagePath": "/block/red_sand/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:packed_ice"
+                ],
                 "wiki": "https://minecraft.wiki/w/Packed_Ice",
                 "name": "Packed Ice",
                 "identifier": "packed_ice",
