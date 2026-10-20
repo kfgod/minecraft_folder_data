@@ -155,12 +155,29 @@
                 "identifier": "freezing"
             }
         ],
+        "advancements": [
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Advancement#What_Goes_Around_Comes_Around",
+                "meta": {
+                    "icon": {
+                        "identifier": "ice_ball",
+                        "name": "Ice Ball",
+                        "wiki": "https://minecraft.wiki/w/Ice_Ball",
+                        "imagePath": "/item/ice_ball/latest.png"
+                    }
+                },
+                "name": "What Goes Around Comes Around",
+                "identifier": "adventure/what_goes_around_comes_around"
+            }
+        ],
         "biomes": [
             {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Ice_Caves",
                 "name": "Ice Caves",
-                "identifier": "ice_caves"
+                "identifier": "ice_caves",
+                "imagePath": "/biome/ice_caves/latest.webp"
             }
         ]
     },
