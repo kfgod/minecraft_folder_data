@@ -1204,6 +1204,43 @@
           }
         },
         {
+          "group": "snow",
+          "group_name": "Snow",
+          "generated_from": "family:snow",
+          "items": {
+            "initial_base": {
+              "identifier": "snow_block",
+              "name": "Snow Block",
+              "wiki": "https://minecraft.wiki/w/Snow_Block",
+              "imagePath": "/block/snow_block/latest.png"
+            },
+            "brick_base": {
+              "identifier": "snow_bricks",
+              "name": "Snow Bricks",
+              "wiki": "https://minecraft.wiki/w/Snow_Bricks",
+              "imagePath": "/block/snow_bricks/latest.png"
+            },
+            "brick_stairs": {
+              "identifier": "snow_brick_stairs",
+              "name": "Snow Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Snow_Brick_Stairs",
+              "imagePath": "/block/snow_brick_stairs/latest.png"
+            },
+            "brick_slab": {
+              "identifier": "snow_brick_slab",
+              "name": "Snow Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Snow_Brick_Slab",
+              "imagePath": "/block/snow_brick_slab/latest.png"
+            },
+            "brick_wall": {
+              "identifier": "snow_brick_wall",
+              "name": "Snow Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall",
+              "imagePath": "/block/snow_brick_wall/latest.png"
+            }
+          }
+        },
+        {
           "group": "stone",
           "group_name": "Stone",
           "generated_from": "family:stone",

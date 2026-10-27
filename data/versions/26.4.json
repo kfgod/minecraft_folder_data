@@ -3,6 +3,28 @@
         "blocks": [
             {
                 "types": [
+                    "family:snow",
+                    "family_type:brick",
+                    "form:wall"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall",
+                "name": "Snow Brick Wall",
+                "identifier": "snow_brick_wall",
+                "imagePath": "/block/snow_brick_wall/latest.png"
+            },
+            {
+                "types": [
+                    "family:snow",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Brick_Stairs",
+                "name": "Snow Brick Stairs",
+                "identifier": "snow_brick_stairs",
+                "imagePath": "/block/snow_brick_stairs/latest.png"
+            },
+            {
+                "types": [
                     "family:packed_ice",
                     "form:chiseled"
                 ],
@@ -10,6 +32,27 @@
                 "name": "Chiseled Packed Ice",
                 "identifier": "chiseled_packed_ice",
                 "imagePath": "/block/chiseled_packed_ice/latest.png"
+            },
+            {
+                "types": [
+                    "family:snow",
+                    "family_type:brick",
+                    "form:slab"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Brick_Slab",
+                "name": "Snow Brick Slab",
+                "identifier": "snow_brick_slab",
+                "imagePath": "/block/snow_brick_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:snow",
+                    "family_type:brick"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Bricks",
+                "name": "Snow Bricks",
+                "identifier": "snow_bricks",
+                "imagePath": "/block/snow_bricks/latest.png"
             },
             {
                 "types": [

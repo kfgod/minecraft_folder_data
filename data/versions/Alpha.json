@@ -70,7 +70,9 @@
                 "imagePath": "/block/ice/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:snow"
+                ],
                 "wiki": "https://minecraft.wiki/w/Snow_Block",
                 "name": "Snow Block",
                 "identifier": "snow_block",
