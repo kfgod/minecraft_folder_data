@@ -3,14 +3,66 @@
         "blocks": [
             {
                 "types": [
-                    "family:snow",
+                    "family:packed_ice",
+                    "family_type:brick"
+                ],
+                "wiki": "https://minecraft.wiki/w/Packed_Ice_Bricks",
+                "name": "Packed Ice Bricks",
+                "identifier": "packed_ice_bricks",
+                "imagePath": "/block/packed_ice_bricks/latest.png"
+            },
+            {
+                "types": [
+                    "family:packed_ice",
+                    "family_type:brick",
+                    "form:stairs"
+                ],
+                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Stairs",
+                "name": "Packed Ice Brick Stairs",
+                "identifier": "packed_ice_brick_stairs",
+                "imagePath": "/block/packed_ice_brick_stairs/latest.png"
+            },
+            {
+                "types": [
+                    "family:packed_ice",
+                    "family_type:brick",
+                    "form:slab"
+                ],
+                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Slab",
+                "name": "Packed Ice Brick Slab",
+                "identifier": "packed_ice_brick_slab",
+                "imagePath": "/block/packed_ice_brick_slab/latest.png"
+            },
+            {
+                "types": [
+                    "family:packed_ice",
                     "family_type:brick",
                     "form:wall"
                 ],
-                "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall",
-                "name": "Snow Brick Wall",
-                "identifier": "snow_brick_wall",
-                "imagePath": "/block/snow_brick_wall/latest.png"
+                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Wall",
+                "name": "Packed Ice Brick Wall",
+                "identifier": "packed_ice_brick_wall",
+                "imagePath": "/block/packed_ice_brick_wall/latest.png"
+            },
+            {
+                "types": [
+                    "family:packed_ice",
+                    "form:chiseled"
+                ],
+                "wiki": "https://minecraft.wiki/w/Chiseled_Packed_Ice",
+                "name": "Chiseled Packed Ice",
+                "identifier": "chiseled_packed_ice",
+                "imagePath": "/block/chiseled_packed_ice/latest.png"
+            },
+            {
+                "types": [
+                    "family:snow",
+                    "family_type:brick"
+                ],
+                "wiki": "https://minecraft.wiki/w/Snow_Bricks",
+                "name": "Snow Bricks",
+                "identifier": "snow_bricks",
+                "imagePath": "/block/snow_bricks/latest.png"
             },
             {
                 "types": [
@@ -22,16 +74,6 @@
                 "name": "Snow Brick Stairs",
                 "identifier": "snow_brick_stairs",
                 "imagePath": "/block/snow_brick_stairs/latest.png"
-            },
-            {
-                "types": [
-                    "family:packed_ice",
-                    "form:chiseled"
-                ],
-                "wiki": "https://minecraft.wiki/w/Chiseled_Packed_Ice",
-                "name": "Chiseled Packed Ice",
-                "identifier": "chiseled_packed_ice",
-                "imagePath": "/block/chiseled_packed_ice/latest.png"
             },
             {
                 "types": [
@@ -47,33 +89,20 @@
             {
                 "types": [
                     "family:snow",
-                    "family_type:brick"
-                ],
-                "wiki": "https://minecraft.wiki/w/Snow_Bricks",
-                "name": "Snow Bricks",
-                "identifier": "snow_bricks",
-                "imagePath": "/block/snow_bricks/latest.png"
-            },
-            {
-                "types": [
-                    "family:packed_ice",
-                    "family_type:brick"
-                ],
-                "wiki": "https://minecraft.wiki/w/Packed_Ice_Bricks",
-                "name": "Packed Ice Bricks",
-                "identifier": "packed_ice_bricks",
-                "imagePath": "/block/packed_ice_bricks/latest.png"
-            },
-            {
-                "types": [
-                    "family:packed_ice",
                     "family_type:brick",
                     "form:wall"
                 ],
-                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Wall",
-                "name": "Packed Ice Brick Wall",
-                "identifier": "packed_ice_brick_wall",
-                "imagePath": "/block/packed_ice_brick_wall/latest.png"
+                "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall",
+                "name": "Snow Brick Wall",
+                "identifier": "snow_brick_wall",
+                "imagePath": "/block/snow_brick_wall/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Brittle_Ice",
+                "name": "Brittle Ice",
+                "identifier": "brittle_ice",
+                "imagePath": "/block/brittle_ice/latest.png"
             },
             {
                 "types": [],
@@ -83,40 +112,11 @@
                 "imagePath": "/block/ice_crystal/latest.png"
             },
             {
-                "types": [
-                    "family:packed_ice",
-                    "family_type:brick",
-                    "form:slab"
-                ],
-                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Slab",
-                "name": "Packed Ice Brick Slab",
-                "identifier": "packed_ice_brick_slab",
-                "imagePath": "/block/packed_ice_brick_slab/latest.png"
-            },
-            {
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Icicle",
                 "name": "Icicle",
                 "identifier": "icicle",
                 "imagePath": "/block/icicle/latest.png"
-            },
-            {
-                "types": [
-                    "family:packed_ice",
-                    "family_type:brick",
-                    "form:stairs"
-                ],
-                "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Stairs",
-                "name": "Packed Ice Brick Stairs",
-                "identifier": "packed_ice_brick_stairs",
-                "imagePath": "/block/packed_ice_brick_stairs/latest.png"
-            },
-            {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Brittle_Ice",
-                "name": "Brittle Ice",
-                "identifier": "brittle_ice",
-                "imagePath": "/block/brittle_ice/latest.png"
             }
         ],
         "items": [
@@ -127,6 +127,22 @@
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
                 "name": "Arrow of Freezing",
                 "identifier": "arrow_of_freezing"
+            },
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Potion",
+                "name": "Potion of Freezing",
+                "identifier": "potion_of_freezing"
+            },
+            {
+                "types": [
+                    "effect/freezing"
+                ],
+                "wiki": "https://minecraft.wiki/w/Splash_Potion",
+                "name": "Splash Potion of Freezing",
+                "identifier": "splash_potion_of_freezing"
             },
             {
                 "types": [
@@ -151,22 +167,6 @@
                 "name": "Ice Ball",
                 "identifier": "ice_ball",
                 "imagePath": "/item/ice_ball/latest.png"
-            },
-            {
-                "types": [
-                    "effect/freezing"
-                ],
-                "wiki": "https://minecraft.wiki/w/Potion",
-                "name": "Potion of Freezing",
-                "identifier": "potion_of_freezing"
-            },
-            {
-                "types": [
-                    "effect/freezing"
-                ],
-                "wiki": "https://minecraft.wiki/w/Splash_Potion",
-                "name": "Splash Potion of Freezing",
-                "identifier": "splash_potion_of_freezing"
             }
         ],
         "mobs": [
