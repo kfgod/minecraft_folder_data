@@ -336,7 +336,7 @@
                 },
                 "name": "Frostbite",
                 "identifier": "frostbite",
-                "imagePath": "/mob/frostbite/latest.webp"
+                "imagePath": "/mob/frostbite/latest.png"
             }
         ],
         "effects": [
