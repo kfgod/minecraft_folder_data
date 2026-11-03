@@ -224,6 +224,91 @@
           }
         },
         {
+          "group": "calcite",
+          "group_name": "Calcite",
+          "generated_from": "family:calcite",
+          "items": {
+            "initial_base": {
+              "identifier": "calcite",
+              "name": "Calcite",
+              "wiki": "https://minecraft.wiki/w/Calcite",
+              "imagePath": "/block/calcite/latest.png"
+            },
+            "initial_stairs": {
+              "identifier": "calcite_stairs",
+              "name": "Calcite Stairs",
+              "wiki": "https://minecraft.wiki/w/Calcite_Stairs",
+              "imagePath": "/block/calcite_stairs/latest.png"
+            },
+            "initial_slab": {
+              "identifier": "calcite_slab",
+              "name": "Calcite Slab",
+              "wiki": "https://minecraft.wiki/w/Calcite_Slab",
+              "imagePath": "/block/calcite_slab/latest.png"
+            },
+            "initial_wall": {
+              "identifier": "calcite_wall",
+              "name": "Calcite Wall",
+              "wiki": "https://minecraft.wiki/w/Calcite_Wall",
+              "imagePath": "/block/calcite_wall/latest.png"
+            },
+            "initial_pillar": {
+              "identifier": "calcite_pillar",
+              "name": "Calcite Pillar",
+              "wiki": "https://minecraft.wiki/w/Calcite_Pillar",
+              "imagePath": "/block/calcite_pillar/latest.png"
+            },
+            "polished_base": {
+              "identifier": "polished_calcite",
+              "name": "Polished Calcite",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite",
+              "imagePath": "/block/polished_calcite/latest.png"
+            },
+            "polished_stairs": {
+              "identifier": "polished_calcite_stairs",
+              "name": "Polished Calcite Stairs",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Stairs",
+              "imagePath": "/block/polished_calcite_stairs/latest.png"
+            },
+            "polished_slab": {
+              "identifier": "polished_calcite_slab",
+              "name": "Polished Calcite Slab",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Slab",
+              "imagePath": "/block/polished_calcite_slab/latest.png"
+            },
+            "polished_wall": {
+              "identifier": "polished_calcite_wall",
+              "name": "Polished Calcite Wall",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Wall",
+              "imagePath": "/block/polished_calcite_wall/latest.png"
+            },
+            "brick_base": {
+              "identifier": "polished_calcite_bricks",
+              "name": "Polished Calcite Bricks",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Bricks",
+              "imagePath": "/block/polished_calcite_bricks/latest.png"
+            },
+            "brick_stairs": {
+              "identifier": "polished_calcite_brick_stairs",
+              "name": "Polished Calcite Brick Stairs",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Stairs",
+              "imagePath": "/block/polished_calcite_brick_stairs/latest.png"
+            },
+            "brick_slab": {
+              "identifier": "polished_calcite_brick_slab",
+              "name": "Polished Calcite Brick Slab",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Slab",
+              "imagePath": "/block/polished_calcite_brick_slab/latest.png"
+            },
+            "brick_wall": {
+              "identifier": "polished_calcite_brick_wall",
+              "name": "Polished Calcite Brick Wall",
+              "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Wall",
+              "imagePath": "/block/polished_calcite_brick_wall/latest.png"
+            }
+          }
+        },
+        {
           "group": "cinnabar",
           "group_name": "Cinnabar",
           "generated_from": "family:cinnabar",
@@ -1237,6 +1322,19 @@
               "name": "Snow Brick Wall",
               "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall",
               "imagePath": "/block/snow_brick_wall/latest.png"
+            }
+          }
+        },
+        {
+          "group": "soulshale",
+          "group_name": "Soulshale",
+          "generated_from": "family:soulshale",
+          "items": {
+            "special_chiseled": {
+              "identifier": "chiseled_soulshale",
+              "name": "Chiseled Soulshale",
+              "wiki": "https://minecraft.wiki/w/Chiseled_Soulshale",
+              "imagePath": "/block/chiseled_soulshale/latest.png"
             }
           }
         },

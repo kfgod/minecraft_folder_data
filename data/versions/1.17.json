@@ -773,7 +773,9 @@
                 "imagePath": "/block/moss_carpet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "family:calcite"
+                ],
                 "wiki": "https://minecraft.wiki/w/Calcite",
                 "name": "Calcite",
                 "identifier": "calcite",
