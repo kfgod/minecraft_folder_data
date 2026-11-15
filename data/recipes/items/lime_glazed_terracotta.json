@@ -1,0 +1,81 @@
+{
+  "id": "minecraft:lime_glazed_terracotta",
+  "name": "Lime Glazed Terracotta",
+  "imagePath": "/block/lime_glazed_terracotta/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime",
+  "recipes": [
+    {
+      "id": "minecraft:lime_glazed_terracotta",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:lime_terracotta"]},
+      "result": {"id": "minecraft:lime_glazed_terracotta", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:glazed_terracotta"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:glazed_terracotta", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:glazed_terracotta", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:glazed_terracotta"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:lime_glazed_terracotta": {
+      "name": "Lime Glazed Terracotta",
+      "imagePath": "/block/lime_glazed_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Lime"
+    },
+    "minecraft:lime_terracotta": {
+      "name": "Lime Terracotta",
+      "imagePath": "/block/lime_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime"
+    }
+  }
+}

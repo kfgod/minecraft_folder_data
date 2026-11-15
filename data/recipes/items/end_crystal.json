@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:end_crystal",
+  "name": "End Crystal",
+  "imagePath": "/block/end_crystal/latest.png",
+  "wiki": "https://minecraft.wiki/w/End_Crystal",
+  "recipes": [
+    {
+      "id": "minecraft:end_crystal",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ender_eye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ghast_tear"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:end_crystal", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:end_crystal": {
+      "name": "End Crystal",
+      "imagePath": "/block/end_crystal/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Crystal"
+    },
+    "minecraft:ender_eye": {
+      "name": "Eye of Ender",
+      "imagePath": "/item/ender_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_of_Ender"
+    },
+    "minecraft:ghast_tear": {
+      "name": "Ghast Tear",
+      "imagePath": "/item/ghast_tear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ghast_Tear"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    }
+  }
+}

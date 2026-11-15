@@ -1,0 +1,89 @@
+{
+  "id": "minecraft:polished_diorite_slab",
+  "name": "Polished Diorite Slab",
+  "imagePath": "/block/polished_diorite_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:polished_diorite_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:polished_diorite"],
+          ["minecraft:polished_diorite"],
+          ["minecraft:polished_diorite"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_diorite_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_diorite_slab_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:polished_diorite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_diorite_slab_from_polished_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_diorite"]},
+      "result": {"id": "minecraft:polished_diorite_slab", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:diorite": {
+      "name": "Diorite",
+      "imagePath": "/block/diorite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite"
+    },
+    "minecraft:polished_diorite": {
+      "name": "Polished Diorite",
+      "imagePath": "/block/polished_diorite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Diorite"
+    },
+    "minecraft:polished_diorite_slab": {
+      "name": "Polished Diorite Slab",
+      "imagePath": "/block/polished_diorite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:pumpkin_seeds",
+  "name": "Pumpkin Seeds",
+  "imagePath": "/item/pumpkin_seeds/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds",
+  "recipes": [
+    {
+      "id": "minecraft:pumpkin_seeds",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"]],
+      "result": {"id": "minecraft:pumpkin_seeds", "count": 4}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:chicken_food", "registry": "item"},
+    {"id": "minecraft:parrot_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:pumpkin": {
+      "name": "Pumpkin",
+      "imagePath": "/block/pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin"
+    },
+    "minecraft:pumpkin_seeds": {
+      "name": "Pumpkin Seeds",
+      "imagePath": "/item/pumpkin_seeds/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds"
+    }
+  }
+}

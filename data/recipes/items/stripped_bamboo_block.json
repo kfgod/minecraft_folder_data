@@ -1,0 +1,137 @@
+{
+  "id": "minecraft:stripped_bamboo_block",
+  "name": "Block of Stripped Bamboo",
+  "imagePath": "/block/stripped_bamboo_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:bamboo_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ],
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ]
+      ],
+      "result": {"id": "minecraft:bamboo_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:bamboo_shelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ],
+        [null, null, null],
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ]
+      ],
+      "result": {"id": "minecraft:bamboo_shelf", "count": 6}
+    },
+    {
+      "id": "minecraft:bamboo_planks",
+      "type": "crafting_shapeless",
+      "ingredients": [["#minecraft:bamboo_blocks"]],
+      "result": {"id": "minecraft:bamboo_planks", "count": 2}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bamboo_blocks", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:bamboo_blocks"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:bamboo_blocks"},
+    {"id": "minecraft:bamboo_blocks", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/bouncy",
+      "registry": "item",
+      "via": "minecraft:bamboo_blocks"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:bamboo_block": {
+      "name": "Block of Bamboo",
+      "imagePath": "/block/bamboo_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Bamboo"
+    },
+    "minecraft:bamboo_hanging_sign": {
+      "name": "Bamboo Hanging Sign",
+      "imagePath": "/block/bamboo_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_shelf": {
+      "name": "Bamboo Shelf",
+      "imagePath": "/block/bamboo_shelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf#Bamboo"
+    },
+    "minecraft:iron_chain": {
+      "name": "Iron Chain",
+      "imagePath": "/block/iron_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chain"
+    },
+    "minecraft:stripped_bamboo_block": {
+      "name": "Block of Stripped Bamboo",
+      "imagePath": "/block/stripped_bamboo_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo"
+    },
+    "#minecraft:bamboo_blocks": {"items": ["minecraft:bamboo_block", "minecraft:stripped_bamboo_block"]}
+  }
+}

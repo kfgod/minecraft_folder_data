@@ -1,0 +1,2117 @@
+{
+  "id": "minecraft:stick",
+  "name": "Stick",
+  "imagePath": "/item/stick/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stick",
+  "recipes": [
+    {
+      "id": "minecraft:stick",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:planks"]], [["#minecraft:planks"]]],
+      "result": {"id": "minecraft:stick", "count": 4}
+    },
+    {
+      "id": "minecraft:stick_from_bamboo_item",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:bamboo"]], [["minecraft:bamboo"]]],
+      "result": {"id": "minecraft:stick", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:acacia_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:acacia_planks"], ["minecraft:stick"], ["minecraft:acacia_planks"]],
+        [["minecraft:acacia_planks"], ["minecraft:stick"], ["minecraft:acacia_planks"]]
+      ],
+      "result": {"id": "minecraft:acacia_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:acacia_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:acacia_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:acacia_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:acacia_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:acacia_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:acacia_planks"], ["minecraft:acacia_planks"], ["minecraft:acacia_planks"]],
+        [["minecraft:acacia_planks"], ["minecraft:acacia_planks"], ["minecraft:acacia_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:acacia_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:activator_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone_torch"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:activator_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:armor_stand",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["minecraft:smooth_stone_slab"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:armor_stand", "count": 1}
+    },
+    {
+      "id": "minecraft:arrow",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:flint"]], [["minecraft:stick"]], [["minecraft:feather"]]],
+      "result": {"id": "minecraft:arrow", "count": 4}
+    },
+    {
+      "id": "minecraft:bamboo_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo_planks"], ["minecraft:stick"], ["minecraft:bamboo_planks"]],
+        [["minecraft:bamboo_planks"], ["minecraft:stick"], ["minecraft:bamboo_planks"]]
+      ],
+      "result": {"id": "minecraft:bamboo_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:bamboo_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:bamboo_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:bamboo_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:bamboo_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:bamboo_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"]],
+        [["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:bamboo_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:birch_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:stick"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:stick"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:birch_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:birch_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:birch_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:birch_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:birch_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:black_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:black_wool"], ["minecraft:black_wool"], ["minecraft:black_wool"]],
+        [["minecraft:black_wool"], ["minecraft:black_wool"], ["minecraft:black_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:black_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:blue_wool"], ["minecraft:blue_wool"], ["minecraft:blue_wool"]],
+        [["minecraft:blue_wool"], ["minecraft:blue_wool"], ["minecraft:blue_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:blue_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:bow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:bow", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:brown_wool"], ["minecraft:brown_wool"], ["minecraft:brown_wool"]],
+        [["minecraft:brown_wool"], ["minecraft:brown_wool"], ["minecraft:brown_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:brown_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:brush",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:feather"]], [["minecraft:copper_ingot"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:brush", "count": 1}
+    },
+    {
+      "id": "minecraft:campfire",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["#minecraft:coals"], ["minecraft:stick"]],
+        [["#minecraft:logs"], ["#minecraft:logs"], ["#minecraft:logs"]]
+      ],
+      "result": {"id": "minecraft:campfire", "count": 1}
+    },
+    {
+      "id": "minecraft:cherry_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cherry_planks"], ["minecraft:stick"], ["minecraft:cherry_planks"]],
+        [["minecraft:cherry_planks"], ["minecraft:stick"], ["minecraft:cherry_planks"]]
+      ],
+      "result": {"id": "minecraft:cherry_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:cherry_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:cherry_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:cherry_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:cherry_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:cherry_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cherry_planks"], ["minecraft:cherry_planks"], ["minecraft:cherry_planks"]],
+        [["minecraft:cherry_planks"], ["minecraft:cherry_planks"], ["minecraft:cherry_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:cherry_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:copper_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:copper_tool_materials"], ["#minecraft:copper_tool_materials"]],
+        [["#minecraft:copper_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:copper_tool_materials"], ["#minecraft:copper_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:copper_tool_materials"],
+          ["#minecraft:copper_tool_materials"],
+          ["#minecraft:copper_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:copper_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:copper_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:copper_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:copper_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:copper_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:copper_tool_materials"]],
+        [["#minecraft:copper_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_torch",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_nugget"]],
+        [["minecraft:coal", "minecraft:charcoal"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_torch", "count": 4}
+    },
+    {
+      "id": "minecraft:crimson_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:crimson_planks"], ["minecraft:stick"], ["minecraft:crimson_planks"]],
+        [["minecraft:crimson_planks"], ["minecraft:stick"], ["minecraft:crimson_planks"]]
+      ],
+      "result": {"id": "minecraft:crimson_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:crimson_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:crimson_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:crimson_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:crimson_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:crimson_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:crimson_planks"], ["minecraft:crimson_planks"], ["minecraft:crimson_planks"]],
+        [["minecraft:crimson_planks"], ["minecraft:crimson_planks"], ["minecraft:crimson_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crimson_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:crossbow",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:iron_ingot"], ["minecraft:stick"]],
+        [["minecraft:string"], ["minecraft:tripwire_hook"], ["minecraft:string"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crossbow", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cyan_wool"], ["minecraft:cyan_wool"], ["minecraft:cyan_wool"]],
+        [["minecraft:cyan_wool"], ["minecraft:cyan_wool"], ["minecraft:cyan_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:cyan_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:dark_oak_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:dark_oak_planks"], ["minecraft:stick"], ["minecraft:dark_oak_planks"]],
+        [["minecraft:dark_oak_planks"], ["minecraft:stick"], ["minecraft:dark_oak_planks"]]
+      ],
+      "result": {"id": "minecraft:dark_oak_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:dark_oak_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:dark_oak_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:dark_oak_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:dark_oak_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:dark_oak_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"]
+        ],
+        [
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:dark_oak_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:diamond_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:diamond_tool_materials"], ["#minecraft:diamond_tool_materials"]],
+        [["#minecraft:diamond_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:diamond_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:diamond_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:diamond_tool_materials"], ["#minecraft:diamond_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:diamond_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:diamond_tool_materials"],
+          ["#minecraft:diamond_tool_materials"],
+          ["#minecraft:diamond_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:diamond_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:diamond_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:diamond_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:diamond_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:diamond_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:diamond_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:diamond_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:diamond_tool_materials"]],
+        [["#minecraft:diamond_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:diamond_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:fishing_rod",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:fishing_rod", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:gold_tool_materials"], ["#minecraft:gold_tool_materials"]],
+        [["#minecraft:gold_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:golden_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:gold_tool_materials"], ["#minecraft:gold_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:golden_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:gold_tool_materials"],
+          ["#minecraft:gold_tool_materials"],
+          ["#minecraft:gold_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:golden_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:gold_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:golden_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:gold_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:golden_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:gold_tool_materials"]],
+        [["#minecraft:gold_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:golden_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gray_wool"], ["minecraft:gray_wool"], ["minecraft:gray_wool"]],
+        [["minecraft:gray_wool"], ["minecraft:gray_wool"], ["minecraft:gray_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:gray_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:green_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:green_wool"], ["minecraft:green_wool"], ["minecraft:green_wool"]],
+        [["minecraft:green_wool"], ["minecraft:green_wool"], ["minecraft:green_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:green_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:grindstone",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stone_slab"], ["minecraft:stick"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:grindstone", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"], ["#minecraft:iron_tool_materials"]],
+        [["#minecraft:iron_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"], ["#minecraft:iron_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:iron_tool_materials"],
+          ["#minecraft:iron_tool_materials"],
+          ["#minecraft:iron_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:iron_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:iron_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:iron_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:iron_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:iron_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"]],
+        [["#minecraft:iron_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:item_frame",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:leather"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:item_frame", "count": 1}
+    },
+    {
+      "id": "minecraft:jungle_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:jungle_planks"], ["minecraft:stick"], ["minecraft:jungle_planks"]],
+        [["minecraft:jungle_planks"], ["minecraft:stick"], ["minecraft:jungle_planks"]]
+      ],
+      "result": {"id": "minecraft:jungle_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:jungle_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:jungle_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:jungle_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:jungle_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:jungle_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:jungle_planks"], ["minecraft:jungle_planks"], ["minecraft:jungle_planks"]],
+        [["minecraft:jungle_planks"], ["minecraft:jungle_planks"], ["minecraft:jungle_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:jungle_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:ladder",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], null, ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [["minecraft:stick"], null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:ladder", "count": 3}
+    },
+    {
+      "id": "minecraft:lever",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stick"]], [["minecraft:cobblestone"]]],
+      "result": {"id": "minecraft:lever", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"]
+        ],
+        [
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:light_blue_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"]
+        ],
+        [
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:light_gray_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:lime_wool"], ["minecraft:lime_wool"], ["minecraft:lime_wool"]],
+        [["minecraft:lime_wool"], ["minecraft:lime_wool"], ["minecraft:lime_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:lime_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:magenta_wool"], ["minecraft:magenta_wool"], ["minecraft:magenta_wool"]],
+        [["minecraft:magenta_wool"], ["minecraft:magenta_wool"], ["minecraft:magenta_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:magenta_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:mangrove_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:mangrove_planks"], ["minecraft:stick"], ["minecraft:mangrove_planks"]],
+        [["minecraft:mangrove_planks"], ["minecraft:stick"], ["minecraft:mangrove_planks"]]
+      ],
+      "result": {"id": "minecraft:mangrove_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:mangrove_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:mangrove_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:mangrove_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:mangrove_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:mangrove_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:mangrove_planks"],
+          ["minecraft:mangrove_planks"],
+          ["minecraft:mangrove_planks"]
+        ],
+        [
+          ["minecraft:mangrove_planks"],
+          ["minecraft:mangrove_planks"],
+          ["minecraft:mangrove_planks"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:mangrove_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:oak_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:oak_planks"], ["minecraft:stick"], ["minecraft:oak_planks"]],
+        [["minecraft:oak_planks"], ["minecraft:stick"], ["minecraft:oak_planks"]]
+      ],
+      "result": {"id": "minecraft:oak_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:oak_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:oak_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:oak_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:oak_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:oak_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]],
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:oak_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:orange_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:orange_wool"], ["minecraft:orange_wool"], ["minecraft:orange_wool"]],
+        [["minecraft:orange_wool"], ["minecraft:orange_wool"], ["minecraft:orange_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:orange_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:painting",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["#minecraft:wool"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:painting", "count": 1}
+    },
+    {
+      "id": "minecraft:pale_oak_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pale_oak_planks"], ["minecraft:stick"], ["minecraft:pale_oak_planks"]],
+        [["minecraft:pale_oak_planks"], ["minecraft:stick"], ["minecraft:pale_oak_planks"]]
+      ],
+      "result": {"id": "minecraft:pale_oak_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:pale_oak_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:pale_oak_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:pale_oak_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:pale_oak_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:pale_oak_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"]
+        ],
+        [
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:pale_oak_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:pink_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pink_wool"], ["minecraft:pink_wool"], ["minecraft:pink_wool"]],
+        [["minecraft:pink_wool"], ["minecraft:pink_wool"], ["minecraft:pink_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:pink_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:poplar_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:poplar_planks"], ["minecraft:stick"], ["minecraft:poplar_planks"]],
+        [["minecraft:poplar_planks"], ["minecraft:stick"], ["minecraft:poplar_planks"]]
+      ],
+      "result": {"id": "minecraft:poplar_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:poplar_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:poplar_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:poplar_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:poplar_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:poplar_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:poplar_planks"], ["minecraft:poplar_planks"], ["minecraft:poplar_planks"]],
+        [["minecraft:poplar_planks"], ["minecraft:poplar_planks"], ["minecraft:poplar_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:poplar_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_ingot"], null, ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:stick"], ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:redstone"], ["minecraft:gold_ingot"]]
+      ],
+      "result": {"id": "minecraft:powered_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:purple_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:purple_wool"], ["minecraft:purple_wool"], ["minecraft:purple_wool"]],
+        [["minecraft:purple_wool"], ["minecraft:purple_wool"], ["minecraft:purple_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:purple_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:rail", "count": 16}
+    },
+    {
+      "id": "minecraft:red_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:red_wool"], ["minecraft:red_wool"], ["minecraft:red_wool"]],
+        [["minecraft:red_wool"], ["minecraft:red_wool"], ["minecraft:red_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:red_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:redstone_torch",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:redstone"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:redstone_torch", "count": 1}
+    },
+    {
+      "id": "minecraft:soul_campfire",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["#minecraft:soul_fire_base_blocks"], ["minecraft:stick"]],
+        [["#minecraft:logs"], ["#minecraft:logs"], ["#minecraft:logs"]]
+      ],
+      "result": {"id": "minecraft:soul_campfire", "count": 1}
+    },
+    {
+      "id": "minecraft:soul_torch",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:coal", "minecraft:charcoal"]],
+        [["minecraft:stick"]],
+        [["#minecraft:soul_fire_base_blocks"]]
+      ],
+      "result": {"id": "minecraft:soul_torch", "count": 4}
+    },
+    {
+      "id": "minecraft:spruce_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:spruce_planks"], ["minecraft:stick"], ["minecraft:spruce_planks"]],
+        [["minecraft:spruce_planks"], ["minecraft:stick"], ["minecraft:spruce_planks"]]
+      ],
+      "result": {"id": "minecraft:spruce_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:spruce_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:spruce_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:spruce_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:spruce_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:spruce_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:spruce_planks"], ["minecraft:spruce_planks"], ["minecraft:spruce_planks"]],
+        [["minecraft:spruce_planks"], ["minecraft:spruce_planks"], ["minecraft:spruce_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:spruce_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:stone_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"], ["#minecraft:stone_tool_materials"]],
+        [["#minecraft:stone_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"], ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:stone_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:stone_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:stone_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:stone_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"]],
+        [["#minecraft:stone_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:torch",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:coal", "minecraft:charcoal"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:torch", "count": 4}
+    },
+    {
+      "id": "minecraft:tripwire_hook",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_ingot"]], [["minecraft:stick"]], [["#minecraft:planks"]]],
+      "result": {"id": "minecraft:tripwire_hook", "count": 2}
+    },
+    {
+      "id": "minecraft:warped_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:warped_planks"], ["minecraft:stick"], ["minecraft:warped_planks"]],
+        [["minecraft:warped_planks"], ["minecraft:stick"], ["minecraft:warped_planks"]]
+      ],
+      "result": {"id": "minecraft:warped_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:warped_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:warped_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:warped_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:warped_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:warped_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:warped_planks"], ["minecraft:warped_planks"], ["minecraft:warped_planks"]],
+        [["minecraft:warped_planks"], ["minecraft:warped_planks"], ["minecraft:warped_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:warped_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:white_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:white_wool"], ["minecraft:white_wool"], ["minecraft:white_wool"]],
+        [["minecraft:white_wool"], ["minecraft:white_wool"], ["minecraft:white_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:white_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"], ["#minecraft:wooden_tool_materials"]],
+        [["#minecraft:wooden_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"], ["#minecraft:wooden_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:wooden_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:wooden_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:wooden_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:wooden_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:wooden_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"]],
+        [["#minecraft:wooden_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:yellow_wool"], ["minecraft:yellow_wool"], ["minecraft:yellow_wool"]],
+        [["minecraft:yellow_wool"], ["minecraft:yellow_wool"], ["minecraft:yellow_wool"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:yellow_banner", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:acacia_fence": {
+      "name": "Acacia Fence",
+      "imagePath": "/block/acacia_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia"
+    },
+    "minecraft:acacia_fence_gate": {
+      "name": "Acacia Fence Gate",
+      "imagePath": "/block/acacia_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia"
+    },
+    "minecraft:acacia_log": {
+      "name": "Acacia Log",
+      "imagePath": "/block/acacia_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Acacia"
+    },
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:acacia_sign": {
+      "name": "Acacia Sign",
+      "imagePath": "/block/acacia_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Acacia"
+    },
+    "minecraft:acacia_wood": {
+      "name": "Acacia Wood",
+      "imagePath": "/block/acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Acacia"
+    },
+    "minecraft:activator_rail": {
+      "name": "Activator Rail",
+      "imagePath": "/block/activator_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Activator_Rail"
+    },
+    "minecraft:armor_stand": {
+      "name": "Armor Stand",
+      "imagePath": "/block/armor_stand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Armor_Stand"
+    },
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "imagePath": "/item/arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arrow"
+    },
+    "minecraft:bamboo": {
+      "name": "Bamboo",
+      "imagePath": "/block/bamboo/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo"
+    },
+    "minecraft:bamboo_fence": {
+      "name": "Bamboo Fence",
+      "imagePath": "/block/bamboo_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo"
+    },
+    "minecraft:bamboo_fence_gate": {
+      "name": "Bamboo Fence Gate",
+      "imagePath": "/block/bamboo_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_sign": {
+      "name": "Bamboo Sign",
+      "imagePath": "/block/bamboo_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Bamboo"
+    },
+    "minecraft:birch_fence": {
+      "name": "Birch Fence",
+      "imagePath": "/block/birch_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch"
+    },
+    "minecraft:birch_fence_gate": {
+      "name": "Birch Fence Gate",
+      "imagePath": "/block/birch_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch"
+    },
+    "minecraft:birch_log": {
+      "name": "Birch Log",
+      "imagePath": "/block/birch_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Birch"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:birch_sign": {
+      "name": "Birch Sign",
+      "imagePath": "/block/birch_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Birch"
+    },
+    "minecraft:birch_wood": {
+      "name": "Birch Wood",
+      "imagePath": "/block/birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Birch"
+    },
+    "minecraft:black_banner": {
+      "name": "Black Banner",
+      "imagePath": "/block/black_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Black"
+    },
+    "minecraft:black_wool": {
+      "name": "Black Wool",
+      "imagePath": "/block/black_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Black"
+    },
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:blue_banner": {
+      "name": "Blue Banner",
+      "imagePath": "/block/blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Blue"
+    },
+    "minecraft:blue_wool": {
+      "name": "Blue Wool",
+      "imagePath": "/block/blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Blue"
+    },
+    "minecraft:bow": {"name": "Bow", "imagePath": "/item/bow/latest.png", "wiki": "https://minecraft.wiki/w/Bow"},
+    "minecraft:brown_banner": {
+      "name": "Brown Banner",
+      "imagePath": "/block/brown_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Brown"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:brush": {
+      "name": "Brush",
+      "imagePath": "/item/brush/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brush"
+    },
+    "minecraft:campfire": {
+      "name": "Campfire",
+      "imagePath": "/block/campfire/latest.png",
+      "wiki": "https://minecraft.wiki/w/Campfire"
+    },
+    "minecraft:charcoal": {
+      "name": "Charcoal",
+      "imagePath": "/item/charcoal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Charcoal"
+    },
+    "minecraft:cherry_fence": {
+      "name": "Cherry Fence",
+      "imagePath": "/block/cherry_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry"
+    },
+    "minecraft:cherry_fence_gate": {
+      "name": "Cherry Fence Gate",
+      "imagePath": "/block/cherry_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:cherry_sign": {
+      "name": "Cherry Sign",
+      "imagePath": "/block/cherry_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Cherry"
+    },
+    "minecraft:coal": {"name": "Coal", "imagePath": "/item/coal/latest.png", "wiki": "https://minecraft.wiki/w/Coal"},
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:copper_axe": {
+      "name": "Copper Axe",
+      "imagePath": "/item/copper_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Axe"
+    },
+    "minecraft:copper_hoe": {
+      "name": "Copper Hoe",
+      "imagePath": "/item/copper_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Hoe"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:copper_pickaxe": {
+      "name": "Copper Pickaxe",
+      "imagePath": "/item/copper_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Pickaxe"
+    },
+    "minecraft:copper_shovel": {
+      "name": "Copper Shovel",
+      "imagePath": "/item/copper_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Shovel"
+    },
+    "minecraft:copper_spear": {
+      "name": "Copper Spear",
+      "imagePath": "/item/copper_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Copper"
+    },
+    "minecraft:copper_sword": {
+      "name": "Copper Sword",
+      "imagePath": "/item/copper_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Sword"
+    },
+    "minecraft:copper_torch": {
+      "name": "Copper Torch",
+      "imagePath": "/block/copper_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Torch"
+    },
+    "minecraft:crimson_fence": {
+      "name": "Crimson Fence",
+      "imagePath": "/block/crimson_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson"
+    },
+    "minecraft:crimson_fence_gate": {
+      "name": "Crimson Fence Gate",
+      "imagePath": "/block/crimson_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crimson_sign": {
+      "name": "Crimson Sign",
+      "imagePath": "/block/crimson_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Crimson"
+    },
+    "minecraft:crossbow": {
+      "name": "Crossbow",
+      "imagePath": "/item/crossbow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crossbow"
+    },
+    "minecraft:cyan_banner": {
+      "name": "Cyan Banner",
+      "imagePath": "/block/cyan_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:dark_oak_fence": {
+      "name": "Dark Oak Fence",
+      "imagePath": "/block/dark_oak_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak"
+    },
+    "minecraft:dark_oak_fence_gate": {
+      "name": "Dark Oak Fence Gate",
+      "imagePath": "/block/dark_oak_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Dark_Oak"
+    },
+    "minecraft:dark_oak_log": {
+      "name": "Dark Oak Log",
+      "imagePath": "/block/dark_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:dark_oak_sign": {
+      "name": "Dark Oak Sign",
+      "imagePath": "/block/dark_oak_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Dark_Oak"
+    },
+    "minecraft:dark_oak_wood": {
+      "name": "Dark Oak Wood",
+      "imagePath": "/block/dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_axe": {
+      "name": "Diamond Axe",
+      "imagePath": "/item/diamond_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Axe"
+    },
+    "minecraft:diamond_hoe": {
+      "name": "Diamond Hoe",
+      "imagePath": "/item/diamond_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Hoe"
+    },
+    "minecraft:diamond_pickaxe": {
+      "name": "Diamond Pickaxe",
+      "imagePath": "/item/diamond_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe"
+    },
+    "minecraft:diamond_shovel": {
+      "name": "Diamond Shovel",
+      "imagePath": "/item/diamond_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Shovel"
+    },
+    "minecraft:diamond_spear": {
+      "name": "Diamond Spear",
+      "imagePath": "/item/diamond_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Diamond"
+    },
+    "minecraft:diamond_sword": {
+      "name": "Diamond Sword",
+      "imagePath": "/item/diamond_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Sword"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    },
+    "minecraft:flint": {
+      "name": "Flint",
+      "imagePath": "/item/flint/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_axe": {
+      "name": "Golden Axe",
+      "imagePath": "/item/golden_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Axe"
+    },
+    "minecraft:golden_hoe": {
+      "name": "Golden Hoe",
+      "imagePath": "/item/golden_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Hoe"
+    },
+    "minecraft:golden_pickaxe": {
+      "name": "Golden Pickaxe",
+      "imagePath": "/item/golden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Pickaxe"
+    },
+    "minecraft:golden_shovel": {
+      "name": "Golden Shovel",
+      "imagePath": "/item/golden_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Shovel"
+    },
+    "minecraft:golden_spear": {
+      "name": "Golden Spear",
+      "imagePath": "/item/golden_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Golden"
+    },
+    "minecraft:golden_sword": {
+      "name": "Golden Sword",
+      "imagePath": "/item/golden_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Sword"
+    },
+    "minecraft:gray_banner": {
+      "name": "Gray Banner",
+      "imagePath": "/block/gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Gray"
+    },
+    "minecraft:gray_wool": {
+      "name": "Gray Wool",
+      "imagePath": "/block/gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Gray"
+    },
+    "minecraft:green_banner": {
+      "name": "Green Banner",
+      "imagePath": "/block/green_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Green"
+    },
+    "minecraft:green_wool": {
+      "name": "Green Wool",
+      "imagePath": "/block/green_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Green"
+    },
+    "minecraft:grindstone": {
+      "name": "Grindstone",
+      "imagePath": "/block/grindstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Grindstone"
+    },
+    "minecraft:iron_axe": {
+      "name": "Iron Axe",
+      "imagePath": "/item/iron_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Axe"
+    },
+    "minecraft:iron_hoe": {
+      "name": "Iron Hoe",
+      "imagePath": "/item/iron_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Hoe"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "imagePath": "/item/iron_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Pickaxe"
+    },
+    "minecraft:iron_shovel": {
+      "name": "Iron Shovel",
+      "imagePath": "/item/iron_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Shovel"
+    },
+    "minecraft:iron_spear": {
+      "name": "Iron Spear",
+      "imagePath": "/item/iron_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Iron"
+    },
+    "minecraft:iron_sword": {
+      "name": "Iron Sword",
+      "imagePath": "/item/iron_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Sword"
+    },
+    "minecraft:item_frame": {
+      "name": "Item Frame",
+      "imagePath": "/block/item_frame/latest.png",
+      "wiki": "https://minecraft.wiki/w/Item_Frame"
+    },
+    "minecraft:jungle_fence": {
+      "name": "Jungle Fence",
+      "imagePath": "/block/jungle_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle"
+    },
+    "minecraft:jungle_fence_gate": {
+      "name": "Jungle Fence Gate",
+      "imagePath": "/block/jungle_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle"
+    },
+    "minecraft:jungle_log": {
+      "name": "Jungle Log",
+      "imagePath": "/block/jungle_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Jungle"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:jungle_sign": {
+      "name": "Jungle Sign",
+      "imagePath": "/block/jungle_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Jungle"
+    },
+    "minecraft:jungle_wood": {
+      "name": "Jungle Wood",
+      "imagePath": "/block/jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Jungle"
+    },
+    "minecraft:ladder": {
+      "name": "Ladder",
+      "imagePath": "/block/ladder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ladder"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:lever": {
+      "name": "Lever",
+      "imagePath": "/block/lever/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lever"
+    },
+    "minecraft:light_blue_banner": {
+      "name": "Light Blue Banner",
+      "imagePath": "/block/light_blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_gray_banner": {
+      "name": "Light Gray Banner",
+      "imagePath": "/block/light_gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Gray"
+    },
+    "minecraft:light_gray_wool": {
+      "name": "Light Gray Wool",
+      "imagePath": "/block/light_gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+    },
+    "minecraft:lime_banner": {
+      "name": "Lime Banner",
+      "imagePath": "/block/lime_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Lime"
+    },
+    "minecraft:lime_wool": {
+      "name": "Lime Wool",
+      "imagePath": "/block/lime_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Lime"
+    },
+    "minecraft:magenta_banner": {
+      "name": "Magenta Banner",
+      "imagePath": "/block/magenta_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Magenta"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:mangrove_fence": {
+      "name": "Mangrove Fence",
+      "imagePath": "/block/mangrove_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Mangrove"
+    },
+    "minecraft:mangrove_fence_gate": {
+      "name": "Mangrove Fence Gate",
+      "imagePath": "/block/mangrove_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Mangrove"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:mangrove_sign": {
+      "name": "Mangrove Sign",
+      "imagePath": "/block/mangrove_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Mangrove"
+    },
+    "minecraft:oak_fence": {
+      "name": "Oak Fence",
+      "imagePath": "/block/oak_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak"
+    },
+    "minecraft:oak_fence_gate": {
+      "name": "Oak Fence Gate",
+      "imagePath": "/block/oak_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak"
+    },
+    "minecraft:oak_log": {
+      "name": "Oak Log",
+      "imagePath": "/block/oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Oak"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oak_sign": {
+      "name": "Oak Sign",
+      "imagePath": "/block/oak_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Oak"
+    },
+    "minecraft:oak_wood": {
+      "name": "Oak Wood",
+      "imagePath": "/block/oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Oak"
+    },
+    "minecraft:orange_banner": {
+      "name": "Orange Banner",
+      "imagePath": "/block/orange_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Orange"
+    },
+    "minecraft:orange_wool": {
+      "name": "Orange Wool",
+      "imagePath": "/block/orange_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Orange"
+    },
+    "minecraft:painting": {"name": "Painting", "imagePath": "/block/painting/latest.png"},
+    "minecraft:pale_oak_fence": {
+      "name": "Pale Oak Fence",
+      "imagePath": "/block/pale_oak_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak"
+    },
+    "minecraft:pale_oak_fence_gate": {
+      "name": "Pale Oak Fence Gate",
+      "imagePath": "/block/pale_oak_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak"
+    },
+    "minecraft:pale_oak_log": {
+      "name": "Pale Oak Log",
+      "imagePath": "/block/pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Pale_Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:pale_oak_sign": {
+      "name": "Pale Oak Sign",
+      "imagePath": "/block/pale_oak_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak"
+    },
+    "minecraft:pale_oak_wood": {
+      "name": "Pale Oak Wood",
+      "imagePath": "/block/pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak"
+    },
+    "minecraft:pink_banner": {
+      "name": "Pink Banner",
+      "imagePath": "/block/pink_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Pink"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:poplar_fence": {
+      "name": "Poplar Fence",
+      "imagePath": "/block/poplar_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar"
+    },
+    "minecraft:poplar_fence_gate": {
+      "name": "Poplar Fence Gate",
+      "imagePath": "/block/poplar_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:poplar_sign": {
+      "name": "Poplar Sign",
+      "imagePath": "/block/poplar_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Poplar"
+    },
+    "minecraft:powered_rail": {
+      "name": "Powered Rail",
+      "imagePath": "/block/powered_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Powered_Rail"
+    },
+    "minecraft:purple_banner": {
+      "name": "Purple Banner",
+      "imagePath": "/block/purple_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Purple"
+    },
+    "minecraft:purple_wool": {
+      "name": "Purple Wool",
+      "imagePath": "/block/purple_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Purple"
+    },
+    "minecraft:rail": {"name": "Rail", "imagePath": "/block/rail/latest.png", "wiki": "https://minecraft.wiki/w/Rail"},
+    "minecraft:red_banner": {
+      "name": "Red Banner",
+      "imagePath": "/block/red_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Red"
+    },
+    "minecraft:red_wool": {
+      "name": "Red Wool",
+      "imagePath": "/block/red_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Red"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:smooth_stone_slab": {
+      "name": "Smooth Stone Slab",
+      "imagePath": "/block/smooth_stone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone_Slab"
+    },
+    "minecraft:soul_campfire": {
+      "name": "Soul Campfire",
+      "imagePath": "/block/soul_campfire/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Campfire"
+    },
+    "minecraft:soul_sand": {
+      "name": "Soul Sand",
+      "imagePath": "/block/soul_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Sand"
+    },
+    "minecraft:soul_soil": {
+      "name": "Soul Soil",
+      "imagePath": "/block/soul_soil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Soil"
+    },
+    "minecraft:soul_torch": {
+      "name": "Soul Torch",
+      "imagePath": "/block/soul_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Torch"
+    },
+    "minecraft:spruce_fence": {
+      "name": "Spruce Fence",
+      "imagePath": "/block/spruce_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce"
+    },
+    "minecraft:spruce_fence_gate": {
+      "name": "Spruce Fence Gate",
+      "imagePath": "/block/spruce_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:spruce_sign": {
+      "name": "Spruce Sign",
+      "imagePath": "/block/spruce_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_axe": {
+      "name": "Stone Axe",
+      "imagePath": "/item/stone_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Axe"
+    },
+    "minecraft:stone_hoe": {
+      "name": "Stone Hoe",
+      "imagePath": "/item/stone_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Hoe"
+    },
+    "minecraft:stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "imagePath": "/item/stone_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pickaxe"
+    },
+    "minecraft:stone_shovel": {
+      "name": "Stone Shovel",
+      "imagePath": "/item/stone_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Shovel"
+    },
+    "minecraft:stone_slab": {
+      "name": "Stone Slab",
+      "imagePath": "/block/stone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Slab"
+    },
+    "minecraft:stone_spear": {
+      "name": "Stone Spear",
+      "imagePath": "/item/stone_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Stone"
+    },
+    "minecraft:stone_sword": {
+      "name": "Stone Sword",
+      "imagePath": "/item/stone_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Sword"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:stripped_acacia_log": {"name": "Stripped Acacia Log", "imagePath": "/block/stripped_acacia_log/latest.png"},
+    "minecraft:stripped_acacia_wood": {
+      "name": "Stripped Acacia Wood",
+      "imagePath": "/block/stripped_acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"},
+    "minecraft:stripped_birch_wood": {
+      "name": "Stripped Birch Wood",
+      "imagePath": "/block/stripped_birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch"
+    },
+    "minecraft:stripped_dark_oak_log": {"name": "Stripped Dark Oak Log", "imagePath": "/block/stripped_dark_oak_log/latest.png"},
+    "minecraft:stripped_dark_oak_wood": {
+      "name": "Stripped Dark Oak Wood",
+      "imagePath": "/block/stripped_dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak"
+    },
+    "minecraft:stripped_jungle_log": {"name": "Stripped Jungle Log", "imagePath": "/block/stripped_jungle_log/latest.png"},
+    "minecraft:stripped_jungle_wood": {
+      "name": "Stripped Jungle Wood",
+      "imagePath": "/block/stripped_jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle"
+    },
+    "minecraft:stripped_oak_log": {"name": "Stripped Oak Log", "imagePath": "/block/stripped_oak_log/latest.png"},
+    "minecraft:stripped_oak_wood": {
+      "name": "Stripped Oak Wood",
+      "imagePath": "/block/stripped_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak"
+    },
+    "minecraft:stripped_pale_oak_log": {
+      "name": "Stripped Pale Oak Log",
+      "imagePath": "/block/stripped_pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+    },
+    "minecraft:stripped_pale_oak_wood": {
+      "name": "Stripped Pale Oak Wood",
+      "imagePath": "/block/stripped_pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak"
+    },
+    "minecraft:torch": {
+      "name": "Torch",
+      "imagePath": "/block/torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torch"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    },
+    "minecraft:warped_fence": {
+      "name": "Warped Fence",
+      "imagePath": "/block/warped_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped"
+    },
+    "minecraft:warped_fence_gate": {
+      "name": "Warped Fence Gate",
+      "imagePath": "/block/warped_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:warped_sign": {
+      "name": "Warped Sign",
+      "imagePath": "/block/warped_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Warped"
+    },
+    "minecraft:white_banner": {
+      "name": "White Banner",
+      "imagePath": "/block/white_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#White"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "minecraft:wooden_axe": {
+      "name": "Wooden Axe",
+      "imagePath": "/item/wooden_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Axe"
+    },
+    "minecraft:wooden_hoe": {
+      "name": "Wooden Hoe",
+      "imagePath": "/item/wooden_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Hoe"
+    },
+    "minecraft:wooden_pickaxe": {
+      "name": "Wooden Pickaxe",
+      "imagePath": "/item/wooden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe"
+    },
+    "minecraft:wooden_shovel": {
+      "name": "Wooden Shovel",
+      "imagePath": "/item/wooden_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Shovel"
+    },
+    "minecraft:wooden_spear": {
+      "name": "Wooden Spear",
+      "imagePath": "/item/wooden_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Wooden"
+    },
+    "minecraft:wooden_sword": {
+      "name": "Wooden Sword",
+      "imagePath": "/item/wooden_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Sword"
+    },
+    "minecraft:yellow_banner": {
+      "name": "Yellow Banner",
+      "imagePath": "/block/yellow_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Yellow"
+    },
+    "minecraft:yellow_wool": {
+      "name": "Yellow Wool",
+      "imagePath": "/block/yellow_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+    },
+    "#minecraft:coals": {"items": ["minecraft:coal", "minecraft:charcoal"]},
+    "#minecraft:copper_tool_materials": {"items": ["minecraft:copper_ingot"]},
+    "#minecraft:diamond_tool_materials": {"items": ["minecraft:diamond"]},
+    "#minecraft:gold_tool_materials": {"items": ["minecraft:gold_ingot"]},
+    "#minecraft:iron_tool_materials": {"items": ["minecraft:iron_ingot"]},
+    "#minecraft:logs": {
+      "items": [
+        "minecraft:dark_oak_log",
+        "minecraft:dark_oak_wood",
+        "minecraft:stripped_dark_oak_log",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:pale_oak_log",
+        "minecraft:pale_oak_wood",
+        "minecraft:stripped_pale_oak_log",
+        "minecraft:stripped_pale_oak_wood",
+        "minecraft:oak_log",
+        "minecraft:oak_wood",
+        "minecraft:stripped_oak_log",
+        "minecraft:stripped_oak_wood",
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood",
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood",
+        "minecraft:jungle_log",
+        "minecraft:jungle_wood",
+        "minecraft:stripped_jungle_log",
+        "minecraft:stripped_jungle_wood"
+      ]
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:soul_fire_base_blocks": {"items": ["minecraft:soul_sand", "minecraft:soul_soil"]},
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]},
+    "#minecraft:wooden_tool_materials": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:wool": {
+      "items": [
+        "minecraft:white_wool",
+        "minecraft:orange_wool",
+        "minecraft:magenta_wool",
+        "minecraft:light_blue_wool",
+        "minecraft:yellow_wool",
+        "minecraft:lime_wool",
+        "minecraft:pink_wool",
+        "minecraft:gray_wool",
+        "minecraft:light_gray_wool",
+        "minecraft:cyan_wool",
+        "minecraft:purple_wool",
+        "minecraft:blue_wool",
+        "minecraft:brown_wool",
+        "minecraft:green_wool",
+        "minecraft:red_wool",
+        "minecraft:black_wool"
+      ]
+    }
+  }
+}

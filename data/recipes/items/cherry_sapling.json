@@ -1,0 +1,32 @@
+{
+  "id": "minecraft:cherry_sapling",
+  "name": "Cherry Sapling",
+  "imagePath": "/block/cherry_sapling/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:mineable/axe",
+      "registry": "block",
+      "via": "minecraft:saplings",
+      "removed": "1.21.5"
+    },
+    {"id": "minecraft:saplings", "registry": "block"},
+    {
+      "id": "minecraft:sword_efficient",
+      "registry": "block",
+      "via": "minecraft:saplings",
+      "removed": "1.21.5"
+    },
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:saplings"},
+    {"id": "minecraft:saplings", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cherry_sapling": {
+      "name": "Cherry Sapling",
+      "imagePath": "/block/cherry_sapling/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sapling#Cherry"
+    }
+  }
+}

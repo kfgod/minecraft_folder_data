@@ -1,0 +1,590 @@
+{
+  "id": "minecraft:purple_cushion",
+  "name": "Purple Cushion",
+  "imagePath": "/block/purple_cushion/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cushion#Purple",
+  "recipes": [
+    {
+      "id": "minecraft:purple_cushion",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:purple_wool_slab"],
+          ["minecraft:purple_wool_slab"],
+          ["minecraft:purple_wool_slab"]
+        ]
+      ],
+      "result": {"id": "minecraft:purple_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_cushion", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dye_black_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:black_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:green_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_magenta_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_pink_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:red_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:white_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:brown_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_cushion", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:cushions", "registry": "item"}],
+  "refs": {
+    "minecraft:black_cushion": {
+      "name": "Black Cushion",
+      "imagePath": "/block/black_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_cushion": {
+      "name": "Blue Cushion",
+      "imagePath": "/block/blue_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_cushion": {
+      "name": "Brown Cushion",
+      "imagePath": "/block/brown_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:cyan_cushion": {
+      "name": "Cyan Cushion",
+      "imagePath": "/block/cyan_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:gray_cushion": {
+      "name": "Gray Cushion",
+      "imagePath": "/block/gray_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_cushion": {
+      "name": "Green Cushion",
+      "imagePath": "/block/green_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:light_blue_cushion": {
+      "name": "Light Blue Cushion",
+      "imagePath": "/block/light_blue_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_cushion": {
+      "name": "Light Gray Cushion",
+      "imagePath": "/block/light_gray_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_cushion": {
+      "name": "Lime Cushion",
+      "imagePath": "/block/lime_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_cushion": {
+      "name": "Magenta Cushion",
+      "imagePath": "/block/magenta_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:orange_cushion": {
+      "name": "Orange Cushion",
+      "imagePath": "/block/orange_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pink_cushion": {
+      "name": "Pink Cushion",
+      "imagePath": "/block/pink_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:purple_cushion": {
+      "name": "Purple Cushion",
+      "imagePath": "/block/purple_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_wool_slab": {
+      "name": "Purple Wool Slab",
+      "imagePath": "/block/purple_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple"
+    },
+    "minecraft:red_cushion": {
+      "name": "Red Cushion",
+      "imagePath": "/block/red_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:white_cushion": {
+      "name": "White Cushion",
+      "imagePath": "/block/white_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_cushion": {
+      "name": "Yellow Cushion",
+      "imagePath": "/block/yellow_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    }
+  }
+}

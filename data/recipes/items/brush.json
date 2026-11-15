@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:brush",
+  "name": "Brush",
+  "imagePath": "/item/brush/latest.png",
+  "wiki": "https://minecraft.wiki/w/Brush",
+  "recipes": [
+    {
+      "id": "minecraft:brush",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:feather"]], [["minecraft:copper_ingot"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:brush", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:brush": {
+      "name": "Brush",
+      "imagePath": "/item/brush/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brush"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

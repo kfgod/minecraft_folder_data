@@ -1,0 +1,117 @@
+{
+  "id": "minecraft:hay_block",
+  "name": "Hay Bale",
+  "imagePath": "/block/hay_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Hay_Bale",
+  "recipes": [
+    {
+      "id": "minecraft:hay_block",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"],
+        ["minecraft:wheat"]
+      ],
+      "result": {"id": "minecraft:hay_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:straw_bed",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:hay_block"], ["minecraft:hay_block"], ["minecraft:hay_block"]]],
+      "result": {"id": "minecraft:straw_bed", "count": 4}
+    },
+    {
+      "id": "minecraft:target",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone"], null],
+        [["minecraft:redstone"], ["minecraft:hay_block"], ["minecraft:redstone"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:target", "count": 1}
+    },
+    {
+      "id": "minecraft:wheat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:hay_block"]],
+      "result": {"id": "minecraft:wheat", "count": 9}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/hoe", "registry": "block"},
+    {"id": "minecraft:horse_food", "registry": "item"},
+    {"id": "minecraft:llama_food", "registry": "item"},
+    {"id": "minecraft:llama_tempt_items", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:hay_block": {
+      "name": "Hay Bale",
+      "imagePath": "/block/hay_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hay_Bale"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:straw_bed": {
+      "name": "Straw Bed",
+      "imagePath": "/block/straw_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Straw_Bed"
+    },
+    "minecraft:target": {
+      "name": "Target",
+      "imagePath": "/block/target/latest.png",
+      "wiki": "https://minecraft.wiki/w/Target"
+    },
+    "minecraft:wheat": {"name": "Wheat"}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "minecraft:disc_fragment_5",
+  "name": "Disc Fragment",
+  "imagePath": "/item/disc_fragment_5/latest.png",
+  "wiki": "https://minecraft.wiki/w/Disc_Fragment",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:music_disc_5",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"],
+        ["minecraft:disc_fragment_5"]
+      ],
+      "result": {"id": "minecraft:music_disc_5", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:disc_fragment_5": {
+      "name": "Disc Fragment",
+      "imagePath": "/item/disc_fragment_5/latest.png",
+      "wiki": "https://minecraft.wiki/w/Disc_Fragment"
+    },
+    "minecraft:music_disc_5": {
+      "name": "Music Disc 5",
+      "imagePath": "/item/music_disc_5/latest.png",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_5"
+    }
+  }
+}

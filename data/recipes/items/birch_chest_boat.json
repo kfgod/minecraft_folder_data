@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:birch_chest_boat",
+  "name": "Birch Boat with Chest",
+  "imagePath": "/item/birch_chest_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch",
+  "recipes": [
+    {
+      "id": "minecraft:birch_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:birch_boat"]],
+      "result": {"id": "minecraft:birch_chest_boat", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:boats", "registry": "item", "via": "minecraft:chest_boats"},
+    {"id": "minecraft:chest_boats", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:birch_boat": {
+      "name": "Birch Boat",
+      "imagePath": "/item/birch_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Birch"
+    },
+    "minecraft:birch_chest_boat": {
+      "name": "Birch Boat with Chest",
+      "imagePath": "/item/birch_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

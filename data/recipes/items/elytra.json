@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:elytra",
+  "name": "Elytra",
+  "imagePath": "/item/elytra/latest.png",
+  "wiki": "https://minecraft.wiki/w/Elytra",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {"id": "minecraft:enchantable/equippable", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:elytra": {
+      "name": "Elytra",
+      "imagePath": "/item/elytra/latest.png",
+      "wiki": "https://minecraft.wiki/w/Elytra"
+    }
+  }
+}

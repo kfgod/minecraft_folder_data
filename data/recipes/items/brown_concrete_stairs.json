@@ -1,0 +1,78 @@
+{
+  "id": "minecraft:brown_concrete_stairs",
+  "name": "Brown Concrete Stairs",
+  "imagePath": "/block/brown_concrete_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Brown",
+  "recipes": [
+    {
+      "id": "minecraft:brown_concrete_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:brown_concrete"], null, null],
+        [["minecraft:brown_concrete"], ["minecraft:brown_concrete"], null],
+        [["minecraft:brown_concrete"], ["minecraft:brown_concrete"], ["minecraft:brown_concrete"]]
+      ],
+      "result": {"id": "minecraft:brown_concrete_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:brown_concrete_stairs_from_brown_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:brown_concrete"]},
+      "result": {"id": "minecraft:brown_concrete_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:concrete_stairs", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block", "via": "minecraft:concrete_stairs"},
+    {"id": "minecraft:concrete_stairs", "registry": "item"},
+    {"id": "minecraft:stairs", "registry": "item", "via": "minecraft:concrete_stairs"}
+  ],
+  "refs": {
+    "minecraft:brown_concrete": {
+      "name": "Brown Concrete",
+      "imagePath": "/block/brown_concrete/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete#Brown"
+    },
+    "minecraft:brown_concrete_stairs": {
+      "name": "Brown Concrete Stairs",
+      "imagePath": "/block/brown_concrete_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Brown"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "minecraft:tnt",
+  "name": "TNT",
+  "imagePath": "/block/tnt/latest.png",
+  "wiki": "https://minecraft.wiki/w/TNT",
+  "recipes": [
+    {
+      "id": "minecraft:tnt",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]],
+        [
+          ["minecraft:sand", "minecraft:red_sand"],
+          ["minecraft:gunpowder"],
+          ["minecraft:sand", "minecraft:red_sand"]
+        ],
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]]
+      ],
+      "result": {"id": "minecraft:tnt", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:tnt_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:tnt"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:tnt_minecart", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:sulfur_cube_archetype/explosive", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/explosive"
+    }
+  ],
+  "refs": {
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    },
+    "minecraft:red_sand": {
+      "name": "Red Sand",
+      "imagePath": "/block/red_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Sand"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:tnt": {"name": "TNT", "imagePath": "/block/tnt/latest.png", "wiki": "https://minecraft.wiki/w/TNT"},
+    "minecraft:tnt_minecart": {
+      "name": "Minecart with TNT",
+      "imagePath": "/item/tnt_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_TNT"
+    }
+  }
+}

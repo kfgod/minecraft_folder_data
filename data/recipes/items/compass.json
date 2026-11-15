@@ -1,0 +1,81 @@
+{
+  "id": "minecraft:compass",
+  "name": "Compass",
+  "imagePath": "/item/compass/latest.png",
+  "wiki": "https://minecraft.wiki/w/Compass",
+  "recipes": [
+    {
+      "id": "minecraft:compass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:iron_ingot"], ["minecraft:redstone"], ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:compass", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:map",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"]],
+        [["minecraft:paper"], ["minecraft:compass"], ["minecraft:paper"]],
+        [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"]]
+      ],
+      "result": {"id": "minecraft:map", "count": 1}
+    },
+    {
+      "id": "minecraft:recovery_compass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:echo_shard"], ["minecraft:echo_shard"], ["minecraft:echo_shard"]],
+        [["minecraft:echo_shard"], ["minecraft:compass"], ["minecraft:echo_shard"]],
+        [["minecraft:echo_shard"], ["minecraft:echo_shard"], ["minecraft:echo_shard"]]
+      ],
+      "result": {"id": "minecraft:recovery_compass", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:compasses", "registry": "item"},
+    {"id": "minecraft:enchantable/vanishing", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:compass": {
+      "name": "Compass",
+      "imagePath": "/item/compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Compass"
+    },
+    "minecraft:echo_shard": {
+      "name": "Echo Shard",
+      "imagePath": "/item/echo_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Echo_Shard"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:map": {
+      "name": "Empty Map",
+      "imagePath": "/item/map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Map"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:recovery_compass": {
+      "name": "Recovery Compass",
+      "imagePath": "/item/recovery_compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Recovery_Compass"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    }
+  }
+}

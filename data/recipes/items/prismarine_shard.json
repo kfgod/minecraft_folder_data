@@ -1,0 +1,112 @@
+{
+  "id": "minecraft:prismarine_shard",
+  "name": "Prismarine Shard",
+  "imagePath": "/item/prismarine_shard/latest.png",
+  "wiki": "https://minecraft.wiki/w/Prismarine_Shard",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:dark_prismarine",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_shard"]
+        ],
+        [["minecraft:prismarine_shard"], ["minecraft:black_dye"], ["minecraft:prismarine_shard"]],
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_shard"]
+        ]
+      ],
+      "result": {"id": "minecraft:dark_prismarine", "count": 1}
+    },
+    {
+      "id": "minecraft:prismarine",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:prismarine_shard"], ["minecraft:prismarine_shard"]],
+        [["minecraft:prismarine_shard"], ["minecraft:prismarine_shard"]]
+      ],
+      "result": {"id": "minecraft:prismarine", "count": 1}
+    },
+    {
+      "id": "minecraft:sea_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_shard"]
+        ],
+        [
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_crystals"]
+        ],
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_shard"]
+        ]
+      ],
+      "result": {"id": "minecraft:sea_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:prismarine_bricks",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"],
+        ["minecraft:prismarine_shard"]
+      ],
+      "result": {"id": "minecraft:prismarine_bricks", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:dark_prismarine": {
+      "name": "Dark Prismarine",
+      "imagePath": "/block/dark_prismarine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dark_Prismarine"
+    },
+    "minecraft:prismarine": {
+      "name": "Prismarine",
+      "imagePath": "/block/prismarine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine"
+    },
+    "minecraft:prismarine_bricks": {
+      "name": "Prismarine Bricks",
+      "imagePath": "/block/prismarine_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Bricks"
+    },
+    "minecraft:prismarine_crystals": {
+      "name": "Prismarine Crystals",
+      "imagePath": "/item/prismarine_crystals/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Crystals"
+    },
+    "minecraft:prismarine_shard": {
+      "name": "Prismarine Shard",
+      "imagePath": "/item/prismarine_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Shard"
+    },
+    "minecraft:sea_lantern": {
+      "name": "Sea Lantern",
+      "imagePath": "/block/sea_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sea_Lantern"
+    }
+  }
+}

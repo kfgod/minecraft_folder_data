@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:cherry_fence_gate",
+  "name": "Cherry Fence Gate",
+  "imagePath": "/block/cherry_fence_gate/latest.png",
+  "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry",
+  "recipes": [
+    {
+      "id": "minecraft:cherry_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:cherry_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:cherry_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:cherry_fence_gate", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:fence_gates"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:fence_gates", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:maintains_farmland", "registry": "block", "via": "minecraft:fence_gates"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:fence_gates"},
+    {"id": "minecraft:unstable_bottom_center", "registry": "block", "via": "minecraft:fence_gates"},
+    {"id": "minecraft:fence_gates", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cherry_fence_gate": {
+      "name": "Cherry Fence Gate",
+      "imagePath": "/block/cherry_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

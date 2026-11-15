@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:potted_oxeye_daisy",
+  "name": "Potted Oxeye Daisy",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:flower_pots", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:flower_pots"}
+  ],
+  "refs": {"minecraft:potted_oxeye_daisy": {"name": "Potted Oxeye Daisy"}}
+}

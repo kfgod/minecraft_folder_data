@@ -1,0 +1,232 @@
+{
+  "id": "minecraft:sandstone",
+  "name": "Sandstone",
+  "imagePath": "/block/sandstone/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sandstone",
+  "recipes": [
+    {
+      "id": "minecraft:sandstone",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sand"], ["minecraft:sand"]], [["minecraft:sand"], ["minecraft:sand"]]],
+      "result": {"id": "minecraft:sandstone", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:cut_sandstone",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sandstone"], ["minecraft:sandstone"]],
+        [["minecraft:sandstone"], ["minecraft:sandstone"]]
+      ],
+      "result": {"id": "minecraft:cut_sandstone", "count": 4}
+    },
+    {
+      "id": "minecraft:dune_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:dune_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:sandstone"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:dune_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:sandstone_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"]
+        ]
+      ],
+      "result": {"id": "minecraft:sandstone_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:sandstone_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"],
+          null,
+          null
+        ],
+        [
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"],
+          null
+        ],
+        [
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone", "minecraft:cut_sandstone"]
+        ]
+      ],
+      "result": {"id": "minecraft:sandstone_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:sandstone_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sandstone"], ["minecraft:sandstone"], ["minecraft:sandstone"]],
+        [["minecraft:sandstone"], ["minecraft:sandstone"], ["minecraft:sandstone"]]
+      ],
+      "result": {"id": "minecraft:sandstone_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:smooth_sandstone",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:smooth_sandstone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:chiseled_sandstone_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:chiseled_sandstone", "count": 1}
+    },
+    {
+      "id": "minecraft:cut_sandstone_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:cut_sandstone", "count": 1}
+    },
+    {
+      "id": "minecraft:cut_sandstone_slab_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:cut_sandstone_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:sandstone_slab_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:sandstone_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:sandstone_stairs_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:sandstone_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:sandstone_wall_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:sandstone_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_sandstone": {
+      "name": "Chiseled Sandstone",
+      "imagePath": "/block/chiseled_sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone"
+    },
+    "minecraft:cut_sandstone": {
+      "name": "Cut Sandstone",
+      "imagePath": "/block/cut_sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Sandstone"
+    },
+    "minecraft:cut_sandstone_slab": {
+      "name": "Cut Sandstone Slab",
+      "imagePath": "/block/cut_sandstone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Sandstone_Slab"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "name": "Dune Armor Trim",
+      "imagePath": "/item/dune_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:sandstone": {
+      "name": "Sandstone",
+      "imagePath": "/block/sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone"
+    },
+    "minecraft:sandstone_slab": {
+      "name": "Sandstone Slab",
+      "imagePath": "/block/sandstone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone_Slab"
+    },
+    "minecraft:sandstone_stairs": {
+      "name": "Sandstone Stairs",
+      "imagePath": "/block/sandstone_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone_Stairs"
+    },
+    "minecraft:sandstone_wall": {
+      "name": "Sandstone Wall",
+      "imagePath": "/block/sandstone_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone_Wall"
+    },
+    "minecraft:smooth_sandstone": {
+      "name": "Smooth Sandstone",
+      "imagePath": "/block/smooth_sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Sandstone"
+    }
+  }
+}

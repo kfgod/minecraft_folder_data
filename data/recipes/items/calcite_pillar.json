@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:calcite_pillar",
+  "name": "Calcite Pillar",
+  "imagePath": "/block/calcite_pillar/latest.png",
+  "wiki": "https://minecraft.wiki/w/Calcite_Pillar",
+  "recipes": [
+    {
+      "id": "minecraft:calcite_pillar",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:calcite"]], [["minecraft:calcite"]]],
+      "result": {"id": "minecraft:calcite_pillar", "count": 2}
+    },
+    {
+      "id": "minecraft:calcite_pillar_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:calcite_pillar", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:calcite": {
+      "name": "Calcite",
+      "imagePath": "/block/calcite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite"
+    },
+    "minecraft:calcite_pillar": {
+      "name": "Calcite Pillar",
+      "imagePath": "/block/calcite_pillar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite_Pillar"
+    }
+  }
+}

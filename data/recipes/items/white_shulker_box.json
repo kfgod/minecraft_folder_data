@@ -1,0 +1,338 @@
+{
+  "id": "minecraft:white_shulker_box",
+  "name": "White Shulker Box",
+  "imagePath": "/block/white_shulker_box/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shulker_Box#White",
+  "recipes": [
+    {
+      "id": "minecraft:white_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:white_dye"]},
+      "result": {"id": "minecraft:white_shulker_box", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:black_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:black_dye"]},
+      "result": {"id": "minecraft:black_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:blue_dye"]},
+      "result": {"id": "minecraft:blue_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:brown_dye"]},
+      "result": {"id": "minecraft:brown_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:cyan_dye"]},
+      "result": {"id": "minecraft:cyan_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:gray_dye"]},
+      "result": {"id": "minecraft:gray_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:green_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:green_dye"]},
+      "result": {"id": "minecraft:green_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:light_blue_dye"]},
+      "result": {"id": "minecraft:light_blue_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:light_gray_dye"]},
+      "result": {"id": "minecraft:light_gray_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:lime_dye"]},
+      "result": {"id": "minecraft:lime_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:magenta_dye"]},
+      "result": {"id": "minecraft:magenta_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:orange_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:orange_dye"]},
+      "result": {"id": "minecraft:orange_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:pink_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:pink_dye"]},
+      "result": {"id": "minecraft:pink_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:purple_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:purple_dye"]},
+      "result": {"id": "minecraft:purple_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:red_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:red_dye"]},
+      "result": {"id": "minecraft:red_shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:yellow_dye"]},
+      "result": {"id": "minecraft:yellow_shulker_box", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:shulker_boxes"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:guarded_by_piglins", "registry": "block", "via": "minecraft:shulker_boxes"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:shulker_boxes"},
+    {"id": "minecraft:shulker_boxes", "registry": "block"},
+    {"id": "minecraft:shulker_boxes", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_shulker_box": {
+      "name": "Black Shulker Box",
+      "imagePath": "/block/black_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_shulker_box": {
+      "name": "Blue Shulker Box",
+      "imagePath": "/block/blue_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_shulker_box": {
+      "name": "Brown Shulker Box",
+      "imagePath": "/block/brown_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_shulker_box": {
+      "name": "Cyan Shulker Box",
+      "imagePath": "/block/cyan_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_shulker_box": {
+      "name": "Gray Shulker Box",
+      "imagePath": "/block/gray_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_shulker_box": {
+      "name": "Green Shulker Box",
+      "imagePath": "/block/green_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Green"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_shulker_box": {
+      "name": "Light Blue Shulker Box",
+      "imagePath": "/block/light_blue_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_shulker_box": {
+      "name": "Light Gray Shulker Box",
+      "imagePath": "/block/light_gray_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_shulker_box": {
+      "name": "Lime Shulker Box",
+      "imagePath": "/block/lime_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_shulker_box": {
+      "name": "Magenta Shulker Box",
+      "imagePath": "/block/magenta_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_shulker_box": {
+      "name": "Orange Shulker Box",
+      "imagePath": "/block/orange_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_shulker_box": {
+      "name": "Pink Shulker Box",
+      "imagePath": "/block/pink_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_shulker_box": {
+      "name": "Purple Shulker Box",
+      "imagePath": "/block/purple_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_shulker_box": {
+      "name": "Red Shulker Box",
+      "imagePath": "/block/red_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Red"
+    },
+    "minecraft:shulker_box": {
+      "name": "Shulker Box",
+      "imagePath": "/block/shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_shulker_box": {
+      "name": "White Shulker Box",
+      "imagePath": "/block/white_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_shulker_box": {
+      "name": "Yellow Shulker Box",
+      "imagePath": "/block/yellow_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow"
+    },
+    "#minecraft:shulker_boxes": {
+      "items": [
+        "minecraft:shulker_box",
+        "minecraft:white_shulker_box",
+        "minecraft:orange_shulker_box",
+        "minecraft:magenta_shulker_box",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:yellow_shulker_box",
+        "minecraft:lime_shulker_box",
+        "minecraft:pink_shulker_box",
+        "minecraft:gray_shulker_box",
+        "minecraft:light_gray_shulker_box",
+        "minecraft:cyan_shulker_box",
+        "minecraft:purple_shulker_box",
+        "minecraft:blue_shulker_box",
+        "minecraft:brown_shulker_box",
+        "minecraft:green_shulker_box",
+        "minecraft:red_shulker_box",
+        "minecraft:black_shulker_box"
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "minecraft:iron_nautilus_armor",
+  "name": "Iron Nautilus Armor",
+  "imagePath": "/item/iron_nautilus_armor/latest.png",
+  "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:iron_nugget_from_blasting",
+      "type": "blasting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:iron_pickaxe",
+          "minecraft:iron_shovel",
+          "minecraft:iron_axe",
+          "minecraft:iron_hoe",
+          "minecraft:iron_sword",
+          "minecraft:iron_spear",
+          "minecraft:iron_helmet",
+          "minecraft:iron_chestplate",
+          "minecraft:iron_leggings",
+          "minecraft:iron_boots",
+          "minecraft:iron_horse_armor",
+          "minecraft:iron_nautilus_armor",
+          "minecraft:chainmail_helmet",
+          "minecraft:chainmail_chestplate",
+          "minecraft:chainmail_leggings",
+          "minecraft:chainmail_boots"
+        ]
+      },
+      "result": {"id": "minecraft:iron_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:iron_nugget_from_smelting",
+      "type": "smelting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:iron_pickaxe",
+          "minecraft:iron_shovel",
+          "minecraft:iron_axe",
+          "minecraft:iron_hoe",
+          "minecraft:iron_sword",
+          "minecraft:iron_spear",
+          "minecraft:iron_helmet",
+          "minecraft:iron_chestplate",
+          "minecraft:iron_leggings",
+          "minecraft:iron_boots",
+          "minecraft:iron_horse_armor",
+          "minecraft:chainmail_helmet",
+          "minecraft:chainmail_chestplate",
+          "minecraft:chainmail_leggings",
+          "minecraft:chainmail_boots",
+          "minecraft:iron_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:iron_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:iron_axe": {
+      "name": "Iron Axe",
+      "imagePath": "/item/iron_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Axe"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_helmet": {
+      "name": "Iron Helmet",
+      "imagePath": "/item/iron_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Helmet"
+    },
+    "minecraft:iron_hoe": {
+      "name": "Iron Hoe",
+      "imagePath": "/item/iron_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Hoe"
+    },
+    "minecraft:iron_horse_armor": {
+      "name": "Iron Horse Armor",
+      "imagePath": "/item/iron_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:iron_nautilus_armor": {
+      "name": "Iron Nautilus Armor",
+      "imagePath": "/item/iron_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "imagePath": "/item/iron_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Pickaxe"
+    },
+    "minecraft:iron_shovel": {
+      "name": "Iron Shovel",
+      "imagePath": "/item/iron_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Shovel"
+    },
+    "minecraft:iron_spear": {
+      "name": "Iron Spear",
+      "imagePath": "/item/iron_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Iron"
+    },
+    "minecraft:iron_sword": {
+      "name": "Iron Sword",
+      "imagePath": "/item/iron_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Sword"
+    }
+  }
+}

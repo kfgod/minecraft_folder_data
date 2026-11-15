@@ -1,0 +1,51 @@
+{
+  "id": "minecraft:beetroot",
+  "name": "Beetroot",
+  "imagePath": "/item/beetroot/latest.png",
+  "wiki": "https://minecraft.wiki/w/Beetroot",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:beetroot_soup",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"]
+      ],
+      "result": {"id": "minecraft:beetroot_soup", "count": 1}
+    },
+    {
+      "id": "minecraft:red_dye_from_beetroot",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:beetroot"]],
+      "result": {"id": "minecraft:red_dye", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:pig_food", "registry": "item"},
+    {"id": "minecraft:villager_picks_up", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:beetroot": {
+      "name": "Beetroot",
+      "imagePath": "/item/beetroot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beetroot"
+    },
+    "minecraft:beetroot_soup": {
+      "name": "Beetroot Soup",
+      "imagePath": "/item/beetroot_soup/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beetroot_Soup"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    }
+  }
+}

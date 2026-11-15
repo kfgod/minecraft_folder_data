@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:spore_blossom",
+  "name": "Spore Blossom",
+  "imagePath": "/block/spore_blossom/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spore_Blossom",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:spore_blossom": {
+      "name": "Spore Blossom",
+      "imagePath": "/block/spore_blossom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spore_Blossom"
+    }
+  }
+}

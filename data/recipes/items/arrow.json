@@ -1,0 +1,71 @@
+{
+  "id": "minecraft:arrow",
+  "name": "Arrow",
+  "imagePath": "/item/arrow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Arrow",
+  "recipes": [
+    {
+      "id": "minecraft:arrow",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:flint"]], [["minecraft:stick"]], [["minecraft:feather"]]],
+      "result": {"id": "minecraft:arrow", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:tipped_arrow",
+      "type": "crafting_imbue",
+      "inputs": {"material": ["minecraft:arrow"], "source": ["minecraft:lingering_potion"]},
+      "result": {"id": "minecraft:tipped_arrow", "count": 8}
+    },
+    {
+      "id": "minecraft:spectral_arrow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:glowstone_dust"], null],
+        [["minecraft:glowstone_dust"], ["minecraft:arrow"], ["minecraft:glowstone_dust"]],
+        [null, ["minecraft:glowstone_dust"], null]
+      ],
+      "result": {"id": "minecraft:spectral_arrow", "count": 2}
+    }
+  ],
+  "tags": [{"id": "minecraft:arrows", "registry": "item"}],
+  "refs": {
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "imagePath": "/item/arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arrow"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:flint": {
+      "name": "Flint",
+      "imagePath": "/item/flint/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint"
+    },
+    "minecraft:glowstone_dust": {
+      "name": "Glowstone Dust",
+      "imagePath": "/item/glowstone_dust/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:spectral_arrow": {
+      "name": "Spectral Arrow",
+      "imagePath": "/item/spectral_arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spectral_Arrow"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:tipped_arrow": {
+      "name": "Tipped Arrow",
+      "imagePath": "/item/tipped_arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+    }
+  }
+}

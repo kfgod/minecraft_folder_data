@@ -1,0 +1,108 @@
+{
+  "id": "minecraft:emerald_ore",
+  "name": "Emerald Ore",
+  "imagePath": "/block/emerald_ore/latest.png",
+  "wiki": "https://minecraft.wiki/w/Emerald_Ore",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:emerald_from_blasting_emerald_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:emerald_ore"]},
+      "result": {"id": "minecraft:emerald", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 1.0}
+    },
+    {
+      "id": "minecraft:emerald_from_smelting_emerald_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:emerald_ore"]},
+      "result": {"id": "minecraft:emerald", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 1.0}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:ores"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:emerald_ores", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_copper_tool",
+      "registry": "block",
+      "via": "minecraft:needs_iron_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_iron_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_stone_tool",
+      "registry": "block",
+      "via": "minecraft:needs_iron_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_iron_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_iron_tool", "registry": "block"},
+    {"id": "minecraft:ores", "registry": "block", "via": "minecraft:emerald_ores"},
+    {"id": "minecraft:snaps_goat_horn", "registry": "block"},
+    {"id": "minecraft:emerald_ores", "registry": "item"},
+    {"id": "minecraft:ores", "registry": "item", "via": "minecraft:emerald_ores"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:emerald_ores"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:emerald": {
+      "name": "Emerald",
+      "imagePath": "/item/emerald/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald"
+    },
+    "minecraft:emerald_ore": {
+      "name": "Emerald Ore",
+      "imagePath": "/block/emerald_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald_Ore"
+    }
+  }
+}

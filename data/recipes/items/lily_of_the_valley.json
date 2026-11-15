@@ -1,0 +1,86 @@
+{
+  "id": "minecraft:lily_of_the_valley",
+  "name": "Lily of the Valley",
+  "imagePath": "/block/lily_of_the_valley/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lily_of_the_Valley",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:suspicious_stew_from_lily_of_the_valley",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:lily_of_the_valley"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 220, "id": "minecraft:poison"}]}
+      }
+    },
+    {
+      "id": "minecraft:white_dye_from_lily_of_the_valley",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:lily_of_the_valley"]],
+      "result": {"id": "minecraft:white_dye", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:enderman_holdable", "registry": "block", "via": "minecraft:small_flowers"},
+    {"id": "minecraft:flowers", "registry": "block", "via": "minecraft:small_flowers"},
+    {
+      "id": "minecraft:replaceable_by_mushrooms",
+      "registry": "block",
+      "via": "minecraft:small_flowers"
+    },
+    {"id": "minecraft:replaceable_by_trees", "registry": "block", "via": "minecraft:small_flowers"},
+    {"id": "minecraft:small_flowers", "registry": "block"},
+    {
+      "id": "minecraft:sword_efficient",
+      "registry": "block",
+      "via": "minecraft:small_flowers",
+      "removed": "1.21.4"
+    },
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item", "via": "minecraft:small_flowers"},
+    {"id": "minecraft:small_flowers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:lily_of_the_valley": {
+      "name": "Lily of the Valley",
+      "imagePath": "/block/lily_of_the_valley/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lily_of_the_Valley"
+    },
+    "minecraft:red_mushroom": {
+      "name": "Red Mushroom",
+      "imagePath": "/block/red_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "imagePath": "/block/shelf_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf_Mushroom"
+    },
+    "minecraft:suspicious_stew": {
+      "name": "Suspicious Stew",
+      "imagePath": "/item/suspicious_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Suspicious_Stew"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "#minecraft:mushrooms": {"items": ["minecraft:brown_mushroom", "minecraft:red_mushroom", "minecraft:shelf_mushroom"]}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:music_disc_pigstep",
+  "name": "Music Disc Pigstep",
+  "imagePath": "/item/music_disc_pigstep/latest.png",
+  "wiki": "https://minecraft.wiki/w/Music_Disc_Pigstep",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:music_discs", "registry": "item", "removed": "1.21"}],
+  "refs": {
+    "minecraft:music_disc_pigstep": {
+      "name": "Music Disc Pigstep",
+      "imagePath": "/item/music_disc_pigstep/latest.png",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_Pigstep"
+    }
+  }
+}

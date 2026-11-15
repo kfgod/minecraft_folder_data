@@ -1,0 +1,74 @@
+{
+  "id": "minecraft:torch",
+  "name": "Torch",
+  "imagePath": "/block/torch/latest.png",
+  "wiki": "https://minecraft.wiki/w/Torch",
+  "recipes": [
+    {
+      "id": "minecraft:torch",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:coal", "minecraft:charcoal"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:torch", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:jack_o_lantern",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:carved_pumpkin"]], [["minecraft:torch"]]],
+      "result": {"id": "minecraft:jack_o_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:torch"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:lantern", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:carved_pumpkin": {
+      "name": "Carved Pumpkin",
+      "imagePath": "/block/carved_pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carved_Pumpkin"
+    },
+    "minecraft:charcoal": {
+      "name": "Charcoal",
+      "imagePath": "/item/charcoal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Charcoal"
+    },
+    "minecraft:coal": {"name": "Coal", "imagePath": "/item/coal/latest.png", "wiki": "https://minecraft.wiki/w/Coal"},
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:jack_o_lantern": {
+      "name": "Jack o'Lantern",
+      "imagePath": "/block/jack_o_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Jack_o%27Lantern"
+    },
+    "minecraft:lantern": {
+      "name": "Lantern",
+      "imagePath": "/block/lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lantern"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:torch": {
+      "name": "Torch",
+      "imagePath": "/block/torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torch"
+    }
+  }
+}

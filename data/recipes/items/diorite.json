@@ -1,0 +1,260 @@
+{
+  "id": "minecraft:diorite",
+  "name": "Diorite",
+  "imagePath": "/block/diorite/latest.png",
+  "wiki": "https://minecraft.wiki/w/Diorite",
+  "recipes": [
+    {
+      "id": "minecraft:diorite",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:quartz"]],
+        [["minecraft:quartz"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:diorite", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:diorite_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:diorite"], ["minecraft:diorite"], ["minecraft:diorite"]]],
+      "result": {"id": "minecraft:diorite_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:diorite_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:diorite"], null, null],
+        [["minecraft:diorite"], ["minecraft:diorite"], null],
+        [["minecraft:diorite"], ["minecraft:diorite"], ["minecraft:diorite"]]
+      ],
+      "result": {"id": "minecraft:diorite_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:diorite_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:diorite"], ["minecraft:diorite"], ["minecraft:diorite"]],
+        [["minecraft:diorite"], ["minecraft:diorite"], ["minecraft:diorite"]]
+      ],
+      "result": {"id": "minecraft:diorite_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_diorite",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:diorite"], ["minecraft:diorite"]],
+        [["minecraft:diorite"], ["minecraft:diorite"]]
+      ],
+      "result": {"id": "minecraft:polished_diorite", "count": 4}
+    },
+    {
+      "id": "minecraft:andesite",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:diorite"], ["minecraft:cobblestone"]],
+      "result": {"id": "minecraft:andesite", "count": 2}
+    },
+    {
+      "id": "minecraft:granite",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:diorite"], ["minecraft:quartz"]],
+      "result": {"id": "minecraft:granite", "count": 1}
+    },
+    {
+      "id": "minecraft:diorite_slab_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:diorite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:diorite_stairs_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:diorite_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:diorite_wall_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:diorite_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_diorite_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:polished_diorite", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_diorite_slab_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:polished_diorite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_diorite_stairs_from_diorite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:diorite"]},
+      "result": {"id": "minecraft:polished_diorite_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {
+      "id": "minecraft:azalea_root_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {"id": "minecraft:base_stone_overworld", "registry": "block"},
+    {
+      "id": "minecraft:bats_spawnable_on",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dripstone_replaceable_blocks",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:forest_rock_can_place_on",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:ice_crevasse_replaceables",
+      "registry": "block",
+      "via": "minecraft:stone_ore_replaceables"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:lush_ground_replaceable",
+      "registry": "block",
+      "via": "minecraft:moss_replaceable"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:moss_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:nether_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:sculk_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:stone_ore_replaceables", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:andesite": {
+      "name": "Andesite",
+      "imagePath": "/block/andesite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Andesite"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:diorite": {
+      "name": "Diorite",
+      "imagePath": "/block/diorite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite"
+    },
+    "minecraft:diorite_slab": {
+      "name": "Diorite Slab",
+      "imagePath": "/block/diorite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite_Slab"
+    },
+    "minecraft:diorite_stairs": {
+      "name": "Diorite Stairs",
+      "imagePath": "/block/diorite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite_Stairs"
+    },
+    "minecraft:diorite_wall": {
+      "name": "Diorite Wall",
+      "imagePath": "/block/diorite_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite_Wall"
+    },
+    "minecraft:granite": {
+      "name": "Granite",
+      "imagePath": "/block/granite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Granite"
+    },
+    "minecraft:polished_diorite": {
+      "name": "Polished Diorite",
+      "imagePath": "/block/polished_diorite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Diorite"
+    },
+    "minecraft:polished_diorite_slab": {
+      "name": "Polished Diorite Slab",
+      "imagePath": "/block/polished_diorite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Diorite_Slab"
+    },
+    "minecraft:polished_diorite_stairs": {
+      "name": "Polished Diorite Stairs",
+      "imagePath": "/block/polished_diorite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Diorite_Stairs"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    }
+  }
+}

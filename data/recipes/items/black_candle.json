@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:black_candle",
+  "name": "Black Candle",
+  "imagePath": "/block/black_candle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Candle#Black",
+  "recipes": [
+    {
+      "id": "minecraft:black_candle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:candle"], ["minecraft:black_dye"]],
+      "result": {"id": "minecraft:black_candle", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:candles", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:candles"},
+    {"id": "minecraft:candles", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_candle": {
+      "name": "Black Candle",
+      "imagePath": "/block/black_candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    }
+  }
+}

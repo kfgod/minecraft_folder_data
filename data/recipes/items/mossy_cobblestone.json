@@ -1,0 +1,187 @@
+{
+  "id": "minecraft:mossy_cobblestone",
+  "name": "Mossy Cobblestone",
+  "imagePath": "/block/mossy_cobblestone/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone",
+  "recipes": [
+    {
+      "id": "minecraft:mossy_cobblestone_from_moss_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cobblestone"], ["minecraft:moss_block"]],
+      "result": {"id": "minecraft:mossy_cobblestone", "count": 1}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_from_vine",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cobblestone"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:mossy_cobblestone", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:mossy_cobblestone_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"]
+        ]
+      ],
+      "result": {"id": "minecraft:mossy_cobblestone_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:mossy_cobblestone"], null, null],
+        [["minecraft:mossy_cobblestone"], ["minecraft:mossy_cobblestone"], null],
+        [
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"]
+        ]
+      ],
+      "result": {"id": "minecraft:mossy_cobblestone_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"]
+        ],
+        [
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"],
+          ["minecraft:mossy_cobblestone"]
+        ]
+      ],
+      "result": {"id": "minecraft:mossy_cobblestone_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:wild_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:wild_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:mossy_cobblestone"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:wild_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:mossy_cobblestone"]},
+      "result": {"id": "minecraft:mossy_cobblestone_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:mossy_cobblestone"]},
+      "result": {"id": "minecraft:mossy_cobblestone_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:mossy_cobblestone"]},
+      "result": {"id": "minecraft:mossy_cobblestone_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:moss_block": {
+      "name": "Moss Block",
+      "imagePath": "/block/moss_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Moss_Block"
+    },
+    "minecraft:mossy_cobblestone": {
+      "name": "Mossy Cobblestone",
+      "imagePath": "/block/mossy_cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone"
+    },
+    "minecraft:mossy_cobblestone_slab": {
+      "name": "Mossy Cobblestone Slab",
+      "imagePath": "/block/mossy_cobblestone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Slab"
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+      "name": "Mossy Cobblestone Stairs",
+      "imagePath": "/block/mossy_cobblestone_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Stairs"
+    },
+    "minecraft:mossy_cobblestone_wall": {
+      "name": "Mossy Cobblestone Wall",
+      "imagePath": "/block/mossy_cobblestone_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone_Wall"
+    },
+    "minecraft:vine": {
+      "name": "Vines",
+      "imagePath": "/block/vine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vines"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "name": "Wild Armor Trim",
+      "imagePath": "/item/wild_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
+    }
+  }
+}

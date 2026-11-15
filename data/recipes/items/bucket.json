@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:bucket",
+  "name": "Bucket",
+  "imagePath": "/item/bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bucket",
+  "recipes": [
+    {
+      "id": "minecraft:bucket",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:bucket", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:furnace_fuel_bottom_takeable", "registry": "item"}],
+  "refs": {
+    "minecraft:bucket": {
+      "name": "Bucket",
+      "imagePath": "/item/bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    }
+  }
+}

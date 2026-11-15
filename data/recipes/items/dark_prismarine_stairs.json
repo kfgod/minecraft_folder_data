@@ -1,0 +1,80 @@
+{
+  "id": "minecraft:dark_prismarine_stairs",
+  "name": "Dark Prismarine Stairs",
+  "imagePath": "/block/dark_prismarine_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Dark_Prismarine_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:dark_prismarine_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:dark_prismarine"], null, null],
+        [["minecraft:dark_prismarine"], ["minecraft:dark_prismarine"], null],
+        [
+          ["minecraft:dark_prismarine"],
+          ["minecraft:dark_prismarine"],
+          ["minecraft:dark_prismarine"]
+        ]
+      ],
+      "result": {"id": "minecraft:dark_prismarine_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:dark_prismarine"]},
+      "result": {"id": "minecraft:dark_prismarine_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:dark_prismarine": {
+      "name": "Dark Prismarine",
+      "imagePath": "/block/dark_prismarine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dark_Prismarine"
+    },
+    "minecraft:dark_prismarine_stairs": {
+      "name": "Dark Prismarine Stairs",
+      "imagePath": "/block/dark_prismarine_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dark_Prismarine_Stairs"
+    }
+  }
+}

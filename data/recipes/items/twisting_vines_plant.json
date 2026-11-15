@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:twisting_vines_plant",
+  "name": "Twisting Vines Plant",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:can_glide_through", "registry": "block"},
+    {"id": "minecraft:climbable", "registry": "block"},
+    {"id": "minecraft:fall_damage_resetting", "registry": "block", "via": "minecraft:climbable"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:twisting_vines_plant": {"name": "Twisting Vines Plant"}}
+}

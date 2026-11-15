@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:rabbit_hide",
+  "name": "Rabbit Hide",
+  "imagePath": "/item/rabbit_hide/latest.png",
+  "wiki": "https://minecraft.wiki/w/Rabbit_Hide",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:leather",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:rabbit_hide"], ["minecraft:rabbit_hide"]],
+        [["minecraft:rabbit_hide"], ["minecraft:rabbit_hide"]]
+      ],
+      "result": {"id": "minecraft:leather", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:rabbit_hide": {
+      "name": "Rabbit Hide",
+      "imagePath": "/item/rabbit_hide/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rabbit_Hide"
+    }
+  }
+}

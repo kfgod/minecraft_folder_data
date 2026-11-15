@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:sweet_berries",
+  "name": "Sweet Berries",
+  "imagePath": "/item/sweet_berries/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sweet_Berries",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:fox_food", "registry": "item"}],
+  "refs": {
+    "minecraft:sweet_berries": {
+      "name": "Sweet Berries",
+      "imagePath": "/item/sweet_berries/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sweet_Berries"
+    }
+  }
+}

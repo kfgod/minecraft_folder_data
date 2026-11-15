@@ -1,0 +1,1098 @@
+{
+  "id": "minecraft:birch_planks",
+  "name": "Birch Planks",
+  "imagePath": "/block/birch_planks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Planks#Birch",
+  "recipes": [
+    {
+      "id": "minecraft:birch_planks",
+      "type": "crafting_shapeless",
+      "ingredients": [["#minecraft:birch_logs"]],
+      "result": {"id": "minecraft:birch_planks", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:barrel",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:wooden_slabs"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:wooden_slabs"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:barrel", "count": 1}
+    },
+    {
+      "id": "minecraft:beehive",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:honeycomb"], ["minecraft:honeycomb"], ["minecraft:honeycomb"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:beehive", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], null, ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_door",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_door", "count": 3}
+    },
+    {
+      "id": "minecraft:birch_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:stick"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:stick"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_fence", "count": 3}
+    },
+    {
+      "id": "minecraft:birch_fence_gate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:birch_planks"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:birch_planks"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:birch_fence_gate", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_pressure_plate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:birch_planks"], ["minecraft:birch_planks"]]],
+      "result": {"id": "minecraft:birch_pressure_plate", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:birch_sign", "count": 3}
+    },
+    {
+      "id": "minecraft:birch_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]]],
+      "result": {"id": "minecraft:birch_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:birch_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], null, null],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], null],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:birch_trapdoor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_trapdoor", "count": 2}
+    },
+    {
+      "id": "minecraft:black_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:black_wool"], ["minecraft:black_wool"], ["minecraft:black_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:black_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:blue_wool"], ["minecraft:blue_wool"], ["minecraft:blue_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:blue_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:bookshelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:book"], ["minecraft:book"], ["minecraft:book"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:bookshelf", "count": 1}
+    },
+    {
+      "id": "minecraft:bowl",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:planks"], null, ["#minecraft:planks"]], [null, ["#minecraft:planks"], null]],
+      "result": {"id": "minecraft:bowl", "count": 4}
+    },
+    {
+      "id": "minecraft:brown_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:brown_wool"], ["minecraft:brown_wool"], ["minecraft:brown_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:brown_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:cartography_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:paper"], ["minecraft:paper"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:cartography_table", "count": 1}
+    },
+    {
+      "id": "minecraft:chest",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:chest", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_bookshelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:chiseled_bookshelf", "count": 1}
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:crafting_table", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cyan_wool"], ["minecraft:cyan_wool"], ["minecraft:cyan_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:cyan_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:fletching_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:flint"], ["minecraft:flint"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:fletching_table", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gray_wool"], ["minecraft:gray_wool"], ["minecraft:gray_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:gray_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:green_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:green_wool"], ["minecraft:green_wool"], ["minecraft:green_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:green_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:grindstone",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stone_slab"], ["minecraft:stick"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:grindstone", "count": 1}
+    },
+    {
+      "id": "minecraft:jukebox",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["minecraft:diamond"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:jukebox", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"]
+        ],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:light_blue_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"],
+          ["minecraft:light_gray_wool"]
+        ],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:light_gray_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:lime_wool"], ["minecraft:lime_wool"], ["minecraft:lime_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:lime_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:loom",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"], ["minecraft:string"]], [["#minecraft:planks"], ["#minecraft:planks"]]],
+      "result": {"id": "minecraft:loom", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:magenta_wool"], ["minecraft:magenta_wool"], ["minecraft:magenta_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:magenta_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:note_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["minecraft:redstone"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:note_block", "count": 1}
+    },
+    {
+      "id": "minecraft:orange_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:orange_wool"], ["minecraft:orange_wool"], ["minecraft:orange_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:orange_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:pink_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pink_wool"], ["minecraft:pink_wool"], ["minecraft:pink_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:pink_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:piston",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:cobblestone"], ["minecraft:iron_ingot"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:piston", "count": 1}
+    },
+    {
+      "id": "minecraft:purple_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:purple_wool"], ["minecraft:purple_wool"], ["minecraft:purple_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:purple_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:red_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:red_wool"], ["minecraft:red_wool"], ["minecraft:red_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:red_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:shield",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["minecraft:iron_ingot"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["#minecraft:wooden_tool_materials"], null]
+      ],
+      "result": {"id": "minecraft:shield", "count": 1}
+    },
+    {
+      "id": "minecraft:smithing_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:smithing_table", "count": 1}
+    },
+    {
+      "id": "minecraft:stick",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:planks"]], [["#minecraft:planks"]]],
+      "result": {"id": "minecraft:stick", "count": 4}
+    },
+    {
+      "id": "minecraft:tripwire_hook",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_ingot"]], [["minecraft:stick"]], [["#minecraft:planks"]]],
+      "result": {"id": "minecraft:tripwire_hook", "count": 2}
+    },
+    {
+      "id": "minecraft:white_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:white_wool"], ["minecraft:white_wool"], ["minecraft:white_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:white_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"], ["#minecraft:wooden_tool_materials"]],
+        [["#minecraft:wooden_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"], ["#minecraft:wooden_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:wooden_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:wooden_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:wooden_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:wooden_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:wooden_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:wooden_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_tool_materials"]],
+        [["#minecraft:wooden_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:wooden_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:yellow_wool"], ["minecraft:yellow_wool"], ["minecraft:yellow_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:yellow_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:birch_planks"]],
+      "result": {"id": "minecraft:birch_button", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:planks"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:planks"},
+    {"id": "minecraft:planks", "registry": "block"},
+    {"id": "minecraft:planks", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/bouncy", "registry": "item", "via": "minecraft:planks"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/bouncy"
+    },
+    {"id": "minecraft:wooden_tool_materials", "registry": "item", "via": "minecraft:planks"}
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:acacia_slab": {
+      "name": "Acacia Slab",
+      "imagePath": "/block/acacia_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    },
+    "minecraft:barrel": {
+      "name": "Barrel",
+      "imagePath": "/block/barrel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Barrel"
+    },
+    "minecraft:beehive": {
+      "name": "Beehive",
+      "imagePath": "/block/beehive/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beehive"
+    },
+    "minecraft:birch_boat": {
+      "name": "Birch Boat",
+      "imagePath": "/item/birch_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Birch"
+    },
+    "minecraft:birch_button": {
+      "name": "Birch Button",
+      "imagePath": "/block/birch_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch"
+    },
+    "minecraft:birch_door": {
+      "name": "Birch Door",
+      "imagePath": "/block/birch_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Door#Birch"
+    },
+    "minecraft:birch_fence": {
+      "name": "Birch Fence",
+      "imagePath": "/block/birch_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch"
+    },
+    "minecraft:birch_fence_gate": {
+      "name": "Birch Fence Gate",
+      "imagePath": "/block/birch_fence_gate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch"
+    },
+    "minecraft:birch_log": {
+      "name": "Birch Log",
+      "imagePath": "/block/birch_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Birch"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:birch_pressure_plate": {
+      "name": "Birch Pressure Plate",
+      "imagePath": "/block/birch_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch"
+    },
+    "minecraft:birch_sign": {
+      "name": "Birch Sign",
+      "imagePath": "/block/birch_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Birch"
+    },
+    "minecraft:birch_slab": {
+      "name": "Birch Slab",
+      "imagePath": "/block/birch_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+    },
+    "minecraft:birch_stairs": {
+      "name": "Birch Stairs",
+      "imagePath": "/block/birch_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch"
+    },
+    "minecraft:birch_trapdoor": {
+      "name": "Birch Trapdoor",
+      "imagePath": "/block/birch_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch"
+    },
+    "minecraft:birch_wood": {
+      "name": "Birch Wood",
+      "imagePath": "/block/birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Birch"
+    },
+    "minecraft:black_bed": {
+      "name": "Black Bed",
+      "imagePath": "/block/black_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Black"
+    },
+    "minecraft:black_wool": {
+      "name": "Black Wool",
+      "imagePath": "/block/black_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Black"
+    },
+    "minecraft:blue_bed": {
+      "name": "Blue Bed",
+      "imagePath": "/block/blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Blue"
+    },
+    "minecraft:blue_wool": {
+      "name": "Blue Wool",
+      "imagePath": "/block/blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Blue"
+    },
+    "minecraft:book": {"name": "Book", "imagePath": "/item/book/latest.png", "wiki": "https://minecraft.wiki/w/Book"},
+    "minecraft:bookshelf": {
+      "name": "Bookshelf",
+      "imagePath": "/block/bookshelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bookshelf"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_bed": {
+      "name": "Brown Bed",
+      "imagePath": "/block/brown_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Brown"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:cartography_table": {
+      "name": "Cartography Table",
+      "imagePath": "/block/cartography_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cartography_Table"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:cherry_slab": {
+      "name": "Cherry Slab",
+      "imagePath": "/block/cherry_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:chiseled_bookshelf": {
+      "name": "Chiseled Bookshelf",
+      "imagePath": "/block/chiseled_bookshelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:crafting_table": {
+      "name": "Crafting Table",
+      "imagePath": "/block/crafting_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crafting_Table"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crimson_slab": {
+      "name": "Crimson Slab",
+      "imagePath": "/block/crimson_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+    },
+    "minecraft:cyan_bed": {
+      "name": "Cyan Bed",
+      "imagePath": "/block/cyan_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:dark_oak_slab": {
+      "name": "Dark Oak Slab",
+      "imagePath": "/block/dark_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:fletching_table": {
+      "name": "Fletching Table",
+      "imagePath": "/block/fletching_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fletching_Table"
+    },
+    "minecraft:flint": {
+      "name": "Flint",
+      "imagePath": "/item/flint/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint"
+    },
+    "minecraft:gray_bed": {
+      "name": "Gray Bed",
+      "imagePath": "/block/gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Gray"
+    },
+    "minecraft:gray_wool": {
+      "name": "Gray Wool",
+      "imagePath": "/block/gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Gray"
+    },
+    "minecraft:green_bed": {
+      "name": "Green Bed",
+      "imagePath": "/block/green_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Green"
+    },
+    "minecraft:green_wool": {
+      "name": "Green Wool",
+      "imagePath": "/block/green_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Green"
+    },
+    "minecraft:grindstone": {
+      "name": "Grindstone",
+      "imagePath": "/block/grindstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Grindstone"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:jukebox": {
+      "name": "Jukebox",
+      "imagePath": "/block/jukebox/latest.png",
+      "wiki": "https://minecraft.wiki/w/Jukebox"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:jungle_slab": {
+      "name": "Jungle Slab",
+      "imagePath": "/block/jungle_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+    },
+    "minecraft:light_blue_bed": {
+      "name": "Light Blue Bed",
+      "imagePath": "/block/light_blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_gray_bed": {
+      "name": "Light Gray Bed",
+      "imagePath": "/block/light_gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Gray"
+    },
+    "minecraft:light_gray_wool": {
+      "name": "Light Gray Wool",
+      "imagePath": "/block/light_gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+    },
+    "minecraft:lime_bed": {
+      "name": "Lime Bed",
+      "imagePath": "/block/lime_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Lime"
+    },
+    "minecraft:lime_wool": {
+      "name": "Lime Wool",
+      "imagePath": "/block/lime_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Lime"
+    },
+    "minecraft:loom": {"name": "Loom", "imagePath": "/block/loom/latest.png", "wiki": "https://minecraft.wiki/w/Loom"},
+    "minecraft:magenta_bed": {
+      "name": "Magenta Bed",
+      "imagePath": "/block/magenta_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Magenta"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:mangrove_slab": {
+      "name": "Mangrove Slab",
+      "imagePath": "/block/mangrove_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+    },
+    "minecraft:note_block": {
+      "name": "Note Block",
+      "imagePath": "/block/note_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Note_Block"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oak_slab": {
+      "name": "Oak Slab",
+      "imagePath": "/block/oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+    },
+    "minecraft:orange_bed": {
+      "name": "Orange Bed",
+      "imagePath": "/block/orange_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Orange"
+    },
+    "minecraft:orange_wool": {
+      "name": "Orange Wool",
+      "imagePath": "/block/orange_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Orange"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:pale_oak_slab": {
+      "name": "Pale Oak Slab",
+      "imagePath": "/block/pale_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:pink_bed": {
+      "name": "Pink Bed",
+      "imagePath": "/block/pink_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Pink"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:piston": {
+      "name": "Piston",
+      "imagePath": "/block/piston/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piston"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:poplar_slab": {
+      "name": "Poplar Slab",
+      "imagePath": "/block/poplar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+    },
+    "minecraft:purple_bed": {
+      "name": "Purple Bed",
+      "imagePath": "/block/purple_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Purple"
+    },
+    "minecraft:purple_wool": {
+      "name": "Purple Wool",
+      "imagePath": "/block/purple_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Purple"
+    },
+    "minecraft:red_bed": {
+      "name": "Red Bed",
+      "imagePath": "/block/red_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Red"
+    },
+    "minecraft:red_wool": {
+      "name": "Red Wool",
+      "imagePath": "/block/red_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Red"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:shield": {
+      "name": "Shield",
+      "imagePath": "/item/shield/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shield"
+    },
+    "minecraft:smithing_table": {
+      "name": "Smithing Table",
+      "imagePath": "/block/smithing_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smithing_Table"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:spruce_slab": {
+      "name": "Spruce Slab",
+      "imagePath": "/block/spruce_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_slab": {
+      "name": "Stone Slab",
+      "imagePath": "/block/stone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Slab"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"},
+    "minecraft:stripped_birch_wood": {
+      "name": "Stripped Birch Wood",
+      "imagePath": "/block/stripped_birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:warped_slab": {
+      "name": "Warped Slab",
+      "imagePath": "/block/warped_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+    },
+    "minecraft:white_bed": {
+      "name": "White Bed",
+      "imagePath": "/block/white_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#White"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "minecraft:wooden_axe": {
+      "name": "Wooden Axe",
+      "imagePath": "/item/wooden_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Axe"
+    },
+    "minecraft:wooden_hoe": {
+      "name": "Wooden Hoe",
+      "imagePath": "/item/wooden_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Hoe"
+    },
+    "minecraft:wooden_pickaxe": {
+      "name": "Wooden Pickaxe",
+      "imagePath": "/item/wooden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe"
+    },
+    "minecraft:wooden_shovel": {
+      "name": "Wooden Shovel",
+      "imagePath": "/item/wooden_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Shovel"
+    },
+    "minecraft:wooden_spear": {
+      "name": "Wooden Spear",
+      "imagePath": "/item/wooden_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Wooden"
+    },
+    "minecraft:wooden_sword": {
+      "name": "Wooden Sword",
+      "imagePath": "/item/wooden_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Sword"
+    },
+    "minecraft:yellow_bed": {
+      "name": "Yellow Bed",
+      "imagePath": "/block/yellow_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Yellow"
+    },
+    "minecraft:yellow_wool": {
+      "name": "Yellow Wool",
+      "imagePath": "/block/yellow_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+    },
+    "#minecraft:birch_logs": {
+      "items": [
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood"
+      ]
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:wooden_slabs": {
+      "items": [
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:pale_oak_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:cherry_slab",
+        "minecraft:poplar_slab"
+      ]
+    },
+    "#minecraft:wooden_tool_materials": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

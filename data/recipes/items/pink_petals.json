@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:pink_petals",
+  "name": "Pink Petals",
+  "imagePath": "/block/pink_petals/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pink_Petals",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:pink_dye_from_pink_petals",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pink_petals"]],
+      "result": {"id": "minecraft:pink_dye", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:inside_step_sound_blocks", "registry": "block"},
+    {"id": "minecraft:mineable/hoe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_petals": {
+      "name": "Pink Petals",
+      "imagePath": "/block/pink_petals/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Petals"
+    }
+  }
+}

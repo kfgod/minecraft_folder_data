@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:cactus_flower",
+  "name": "Cactus Flower",
+  "imagePath": "/block/cactus_flower/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cactus_Flower",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:pink_dye_from_cactus_flower",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cactus_flower"]],
+      "result": {"id": "minecraft:pink_dye", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cactus_flower": {
+      "name": "Cactus Flower",
+      "imagePath": "/block/cactus_flower/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cactus_Flower"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    }
+  }
+}

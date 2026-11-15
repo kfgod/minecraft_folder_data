@@ -1,0 +1,29 @@
+{
+  "id": "minecraft:tipped_arrow",
+  "name": "Tipped Arrow",
+  "imagePath": "/item/tipped_arrow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
+  "recipes": [
+    {
+      "id": "minecraft:tipped_arrow",
+      "type": "crafting_imbue",
+      "inputs": {"material": ["minecraft:arrow"], "source": ["minecraft:lingering_potion"]},
+      "result": {"id": "minecraft:tipped_arrow", "count": 8}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:arrows", "registry": "item"}],
+  "refs": {
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "imagePath": "/item/arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arrow"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:tipped_arrow": {
+      "name": "Tipped Arrow",
+      "imagePath": "/item/tipped_arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tipped_Arrow"
+    }
+  }
+}

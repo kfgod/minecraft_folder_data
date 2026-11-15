@@ -1,0 +1,77 @@
+{
+  "id": "minecraft:soul_lantern",
+  "name": "Soul Lantern",
+  "imagePath": "/block/soul_lantern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Soul_Lantern",
+  "recipes": [
+    {
+      "id": "minecraft:soul_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:soul_torch"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:soul_lantern", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:lanterns"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:lanterns", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:lanterns"},
+    {"id": "minecraft:piglin_repellents", "registry": "block"},
+    {"id": "minecraft:lanterns", "registry": "item"},
+    {"id": "minecraft:piglin_repellents", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:soul_lantern": {
+      "name": "Soul Lantern",
+      "imagePath": "/block/soul_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Lantern"
+    },
+    "minecraft:soul_torch": {
+      "name": "Soul Torch",
+      "imagePath": "/block/soul_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Torch"
+    }
+  }
+}

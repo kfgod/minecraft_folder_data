@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:salmon_bucket",
+  "name": "Bucket of Salmon",
+  "imagePath": "/item/salmon_bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bucket_of_Salmon",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:nautilus_bucket_food", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:nautilus_bucket_food"}
+  ],
+  "refs": {
+    "minecraft:salmon_bucket": {
+      "name": "Bucket of Salmon",
+      "imagePath": "/item/salmon_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket_of_Salmon"
+    }
+  }
+}

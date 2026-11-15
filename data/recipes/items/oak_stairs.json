@@ -1,0 +1,72 @@
+{
+  "id": "minecraft:oak_stairs",
+  "name": "Oak Stairs",
+  "imagePath": "/block/oak_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak",
+  "recipes": [
+    {
+      "id": "minecraft:oak_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:oak_planks"], null, null],
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], null],
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]]
+      ],
+      "result": {"id": "minecraft:oak_stairs", "count": 4}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_stairs"},
+    {"id": "minecraft:stairs", "registry": "block", "via": "minecraft:wooden_stairs"},
+    {"id": "minecraft:wooden_stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item", "via": "minecraft:wooden_stairs"},
+    {"id": "minecraft:wooden_stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oak_stairs": {
+      "name": "Oak Stairs",
+      "imagePath": "/block/oak_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak"
+    }
+  }
+}

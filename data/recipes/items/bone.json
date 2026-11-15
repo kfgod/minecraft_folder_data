@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:bone",
+  "name": "Bone",
+  "imagePath": "/item/bone/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bone",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:bone_meal",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bone"]],
+      "result": {"id": "minecraft:bone_meal", "count": 3}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:bone": {"name": "Bone", "imagePath": "/item/bone/latest.png", "wiki": "https://minecraft.wiki/w/Bone"},
+    "minecraft:bone_meal": {
+      "name": "Bone Meal",
+      "imagePath": "/item/bone_meal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bone_Meal"
+    }
+  }
+}

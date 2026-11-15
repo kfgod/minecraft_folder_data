@@ -1,0 +1,567 @@
+{
+  "id": "minecraft:sand",
+  "name": "Sand",
+  "imagePath": "/block/sand/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sand",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:sandstone",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sand"], ["minecraft:sand"]], [["minecraft:sand"], ["minecraft:sand"]]],
+      "result": {"id": "minecraft:sandstone", "count": 1}
+    },
+    {
+      "id": "minecraft:tnt",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]],
+        [
+          ["minecraft:sand", "minecraft:red_sand"],
+          ["minecraft:gunpowder"],
+          ["minecraft:sand", "minecraft:red_sand"]
+        ],
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]]
+      ],
+      "result": {"id": "minecraft:tnt", "count": 1}
+    },
+    {
+      "id": "minecraft:black_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:black_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:blue_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:blue_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:brown_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:cyan_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:cyan_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:gray_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:gray_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:green_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:green_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:light_blue_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:light_blue_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:light_gray_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:light_gray_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:lime_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:lime_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:magenta_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:magenta_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:orange_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:orange_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:pink_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:pink_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:purple_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:purple_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:red_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:red_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:white_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:white_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:yellow_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:yellow_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:glass",
+      "type": "smelting",
+      "inputs": {"ingredient": ["#minecraft:smelts_to_glass"]},
+      "result": {"id": "minecraft:glass", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:azalea_grows_on", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:azalea_root_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:bamboo_plantable_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.1.2"
+    },
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:camel_sand_step_sound_blocks", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:camels_spawnable_on", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dead_bush_may_place_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "1.21.5"
+    },
+    {
+      "id": "minecraft:dry_vegetation_may_place_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.1.2"
+    },
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:lush_ground_replaceable", "registry": "block"},
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:plays_ambient_desert_block_sounds", "registry": "block", "removed": "1.21.8"},
+    {"id": "minecraft:rabbits_spawnable_on", "registry": "block"},
+    {"id": "minecraft:sand", "registry": "block"},
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:smelts_to_glass", "registry": "block"},
+    {"id": "minecraft:supports_bamboo", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_cactus", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_dry_vegetation", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_sugar_cane", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:triggers_ambient_desert_dry_vegetation_block_sounds", "registry": "block"},
+    {"id": "minecraft:triggers_ambient_desert_sand_block_sounds", "registry": "block"},
+    {"id": "minecraft:sand", "registry": "item"},
+    {"id": "minecraft:smelts_to_glass", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_concrete_powder": {
+      "name": "Black Concrete Powder",
+      "imagePath": "/block/black_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_concrete_powder": {
+      "name": "Blue Concrete Powder",
+      "imagePath": "/block/blue_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_concrete_powder": {
+      "name": "Brown Concrete Powder",
+      "imagePath": "/block/brown_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:cyan_concrete_powder": {
+      "name": "Cyan Concrete Powder",
+      "imagePath": "/block/cyan_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:gravel": {
+      "name": "Gravel",
+      "imagePath": "/block/gravel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gravel"
+    },
+    "minecraft:gray_concrete_powder": {
+      "name": "Gray Concrete Powder",
+      "imagePath": "/block/gray_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_concrete_powder": {
+      "name": "Green Concrete Powder",
+      "imagePath": "/block/green_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:light_blue_concrete_powder": {
+      "name": "Light Blue Concrete Powder",
+      "imagePath": "/block/light_blue_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_concrete_powder": {
+      "name": "Light Gray Concrete Powder",
+      "imagePath": "/block/light_gray_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_concrete_powder": {
+      "name": "Lime Concrete Powder",
+      "imagePath": "/block/lime_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_concrete_powder": {
+      "name": "Magenta Concrete Powder",
+      "imagePath": "/block/magenta_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:orange_concrete_powder": {
+      "name": "Orange Concrete Powder",
+      "imagePath": "/block/orange_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pink_concrete_powder": {
+      "name": "Pink Concrete Powder",
+      "imagePath": "/block/pink_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:purple_concrete_powder": {
+      "name": "Purple Concrete Powder",
+      "imagePath": "/block/purple_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_concrete_powder": {
+      "name": "Red Concrete Powder",
+      "imagePath": "/block/red_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_sand": {
+      "name": "Red Sand",
+      "imagePath": "/block/red_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Sand"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:sandstone": {
+      "name": "Sandstone",
+      "imagePath": "/block/sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone"
+    },
+    "minecraft:tnt": {"name": "TNT", "imagePath": "/block/tnt/latest.png", "wiki": "https://minecraft.wiki/w/TNT"},
+    "minecraft:white_concrete_powder": {
+      "name": "White Concrete Powder",
+      "imagePath": "/block/white_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_concrete_powder": {
+      "name": "Yellow Concrete Powder",
+      "imagePath": "/block/yellow_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "#minecraft:smelts_to_glass": {"items": ["minecraft:sand", "minecraft:red_sand"]}
+  }
+}

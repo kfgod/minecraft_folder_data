@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:enchanted_golden_apple",
+  "name": "Enchanted Golden Apple",
+  "imagePath": "/item/enchanted_golden_apple/latest.png",
+  "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:mojang_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:enchanted_golden_apple"]],
+      "result": {"id": "minecraft:mojang_banner_pattern", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:horse_food", "registry": "item"},
+    {"id": "minecraft:horse_tempt_items", "registry": "item"},
+    {"id": "minecraft:piglin_loved", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:enchanted_golden_apple": {
+      "name": "Enchanted Golden Apple",
+      "imagePath": "/item/enchanted_golden_apple/latest.png",
+      "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+    },
+    "minecraft:mojang_banner_pattern": {
+      "name": "Thing Banner Pattern",
+      "imagePath": "/item/mojang_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Thing_Banner_Pattern"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    }
+  }
+}

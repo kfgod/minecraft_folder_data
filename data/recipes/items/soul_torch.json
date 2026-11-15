@@ -1,0 +1,75 @@
+{
+  "id": "minecraft:soul_torch",
+  "name": "Soul Torch",
+  "imagePath": "/block/soul_torch/latest.png",
+  "wiki": "https://minecraft.wiki/w/Soul_Torch",
+  "recipes": [
+    {
+      "id": "minecraft:soul_torch",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:coal", "minecraft:charcoal"]],
+        [["minecraft:stick"]],
+        [["#minecraft:soul_fire_base_blocks"]]
+      ],
+      "result": {"id": "minecraft:soul_torch", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:soul_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:soul_torch"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:soul_lantern", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:piglin_repellents", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:piglin_repellents", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:charcoal": {
+      "name": "Charcoal",
+      "imagePath": "/item/charcoal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Charcoal"
+    },
+    "minecraft:coal": {"name": "Coal", "imagePath": "/item/coal/latest.png", "wiki": "https://minecraft.wiki/w/Coal"},
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:soul_lantern": {
+      "name": "Soul Lantern",
+      "imagePath": "/block/soul_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Lantern"
+    },
+    "minecraft:soul_sand": {
+      "name": "Soul Sand",
+      "imagePath": "/block/soul_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Sand"
+    },
+    "minecraft:soul_soil": {
+      "name": "Soul Soil",
+      "imagePath": "/block/soul_soil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Soil"
+    },
+    "minecraft:soul_torch": {
+      "name": "Soul Torch",
+      "imagePath": "/block/soul_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Torch"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "#minecraft:soul_fire_base_blocks": {"items": ["minecraft:soul_sand", "minecraft:soul_soil"]}
+  }
+}

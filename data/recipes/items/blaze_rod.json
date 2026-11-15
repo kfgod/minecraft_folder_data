@@ -1,0 +1,259 @@
+{
+  "id": "minecraft:blaze_rod",
+  "name": "Blaze Rod",
+  "imagePath": "/item/blaze_rod/latest.png",
+  "wiki": "https://minecraft.wiki/w/Blaze_Rod",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing_stand",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:blaze_rod"], null],
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ]
+      ],
+      "result": {"id": "minecraft:brewing_stand", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:copper_block"], null],
+        [["minecraft:copper_block"], ["minecraft:blaze_rod"], ["minecraft:copper_block"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:end_rod",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:blaze_rod"]], [["minecraft:popped_chorus_fruit"]]],
+      "result": {"id": "minecraft:end_rod", "count": 4}
+    },
+    {
+      "id": "minecraft:exposed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:exposed_copper"], null],
+        [["minecraft:exposed_copper"], ["minecraft:blaze_rod"], ["minecraft:exposed_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:exposed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:oxidized_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:oxidized_copper"], null],
+        [["minecraft:oxidized_copper"], ["minecraft:blaze_rod"], ["minecraft:oxidized_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:oxidized_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_copper_block"], null],
+        [
+          ["minecraft:waxed_copper_block"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_copper_block"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_exposed_copper"], null],
+        [
+          ["minecraft:waxed_exposed_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_exposed_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_exposed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_oxidized_copper"], null],
+        [
+          ["minecraft:waxed_oxidized_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_oxidized_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_oxidized_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_weathered_copper"], null],
+        [
+          ["minecraft:waxed_weathered_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_weathered_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_weathered_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:weathered_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:weathered_copper"], null],
+        [["minecraft:weathered_copper"], ["minecraft:blaze_rod"], ["minecraft:weathered_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:weathered_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:blaze_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:blaze_rod"]],
+      "result": {"id": "minecraft:blaze_powder", "count": 2}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:blaze_powder": {
+      "name": "Blaze Powder",
+      "imagePath": "/item/blaze_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Powder"
+    },
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:brewing_stand": {
+      "name": "Brewing Stand",
+      "imagePath": "/block/brewing_stand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brewing_Stand"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:copper_block": {
+      "name": "Block of Copper",
+      "imagePath": "/block/copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:copper_bulb": {
+      "name": "Copper Bulb",
+      "imagePath": "/block/copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:end_rod": {
+      "name": "End Rod",
+      "imagePath": "/block/end_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Rod"
+    },
+    "minecraft:exposed_copper": {
+      "name": "Exposed Copper",
+      "imagePath": "/block/exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:exposed_copper_bulb": {
+      "name": "Exposed Copper Bulb",
+      "imagePath": "/block/exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:oxidized_copper": {
+      "name": "Oxidized Copper",
+      "imagePath": "/block/oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "name": "Oxidized Copper Bulb",
+      "imagePath": "/block/oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "Popped Chorus Fruit",
+      "imagePath": "/item/popped_chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:waxed_copper_block": {
+      "name": "Waxed Block of Copper",
+      "imagePath": "/block/waxed_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "name": "Waxed Copper Bulb",
+      "imagePath": "/block/waxed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:waxed_exposed_copper": {
+      "name": "Waxed Exposed Copper",
+      "imagePath": "/block/waxed_exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "name": "Waxed Exposed Copper Bulb",
+      "imagePath": "/block/waxed_exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:waxed_oxidized_copper": {
+      "name": "Waxed Oxidized Copper",
+      "imagePath": "/block/waxed_oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "name": "Waxed Oxidized Copper Bulb",
+      "imagePath": "/block/waxed_oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:waxed_weathered_copper": {
+      "name": "Waxed Weathered Copper",
+      "imagePath": "/block/waxed_weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+      "name": "Waxed Weathered Copper Bulb",
+      "imagePath": "/block/waxed_weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "minecraft:weathered_copper": {
+      "name": "Weathered Copper",
+      "imagePath": "/block/weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:weathered_copper_bulb": {
+      "name": "Weathered Copper Bulb",
+      "imagePath": "/block/weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "#minecraft:stone_crafting_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "minecraft:cobbled_deepslate_slab",
+  "name": "Cobbled Deepslate Slab",
+  "imagePath": "/block/cobbled_deepslate_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:cobbled_deepslate_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"]
+        ]
+      ],
+      "result": {"id": "minecraft:cobbled_deepslate_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_slab_from_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate_slab", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:chiseled_deepslate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:cobbled_deepslate_slab"]], [["minecraft:cobbled_deepslate_slab"]]],
+      "result": {"id": "minecraft:chiseled_deepslate", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chiseled_deepslate": {
+      "name": "Chiseled Deepslate",
+      "imagePath": "/block/chiseled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Deepslate"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobbled_deepslate_slab": {
+      "name": "Cobbled Deepslate Slab",
+      "imagePath": "/block/cobbled_deepslate_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab"
+    },
+    "minecraft:deepslate": {
+      "name": "Deepslate",
+      "imagePath": "/block/deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate"
+    }
+  }
+}

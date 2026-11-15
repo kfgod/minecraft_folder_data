@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:spruce_boat",
+  "name": "Spruce Boat",
+  "imagePath": "/item/spruce_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Spruce",
+  "recipes": [
+    {
+      "id": "minecraft:spruce_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:spruce_planks"], null, ["minecraft:spruce_planks"]],
+        [["minecraft:spruce_planks"], ["minecraft:spruce_planks"], ["minecraft:spruce_planks"]]
+      ],
+      "result": {"id": "minecraft:spruce_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:spruce_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:spruce_boat"]],
+      "result": {"id": "minecraft:spruce_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:spruce_boat": {
+      "name": "Spruce Boat",
+      "imagePath": "/item/spruce_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Spruce"
+    },
+    "minecraft:spruce_chest_boat": {
+      "name": "Spruce Boat with Chest",
+      "imagePath": "/item/spruce_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "minecraft:blast_furnace",
+  "name": "Blast Furnace",
+  "imagePath": "/block/blast_furnace/latest.png",
+  "wiki": "https://minecraft.wiki/w/Blast_Furnace",
+  "recipes": [
+    {
+      "id": "minecraft:blast_furnace",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:furnace"], ["minecraft:iron_ingot"]],
+        [["minecraft:smooth_stone"], ["minecraft:smooth_stone"], ["minecraft:smooth_stone"]]
+      ],
+      "result": {"id": "minecraft:blast_furnace", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:blast_furnace": {
+      "name": "Blast Furnace",
+      "imagePath": "/block/blast_furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blast_Furnace"
+    },
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:smooth_stone": {
+      "name": "Smooth Stone",
+      "imagePath": "/block/smooth_stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone"
+    }
+  }
+}

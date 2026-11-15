@@ -1,0 +1,438 @@
+{
+  "id": "minecraft:fermented_spider_eye",
+  "name": "Fermented Spider Eye",
+  "imagePath": "/item/fermented_spider_eye/latest.png",
+  "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye",
+  "recipes": [
+    {
+      "id": "minecraft:fermented_spider_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:spider_eye"], ["minecraft:brown_mushroom"], ["minecraft:sugar"]],
+      "result": {"id": "minecraft:fermented_spider_eye", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_long_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_long_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_long_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_long_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_strong_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_healing"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_strong_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_long_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_long_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_long_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_long_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_strong_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_healing"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_strong_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_long_leaping_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_long_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_long_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_long_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:long_swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_night_vision_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_strong_healing_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_healing"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_strong_poison_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strong_poison"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_swiftness_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_fermented_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:fermented_spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:fermented_spider_eye": {
+      "name": "Fermented Spider Eye",
+      "imagePath": "/item/fermented_spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:spider_eye": {
+      "name": "Spider Eye",
+      "imagePath": "/item/spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spider_Eye"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    }
+  }
+}

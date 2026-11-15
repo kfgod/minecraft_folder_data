@@ -1,0 +1,34 @@
+{
+  "id": "minecraft:pale_moss_carpet",
+  "name": "Pale Moss Carpet",
+  "imagePath": "/block/pale_moss_carpet/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pale_Moss_Carpet",
+  "recipes": [
+    {
+      "id": "minecraft:pale_moss_carpet",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:pale_moss_block"], ["minecraft:pale_moss_block"]]],
+      "result": {"id": "minecraft:pale_moss_carpet", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:combination_step_sound_blocks", "registry": "block"},
+    {"id": "minecraft:mineable/hoe", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:pale_moss_block": {
+      "name": "Pale Moss Block",
+      "imagePath": "/block/pale_moss_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pale_Moss_Block"
+    },
+    "minecraft:pale_moss_carpet": {
+      "name": "Pale Moss Carpet",
+      "imagePath": "/block/pale_moss_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pale_Moss_Carpet"
+    }
+  }
+}

@@ -1,0 +1,595 @@
+{
+  "id": "minecraft:magenta_carpet",
+  "name": "Magenta Carpet",
+  "imagePath": "/block/magenta_carpet/latest.png",
+  "wiki": "https://minecraft.wiki/w/Carpet#Magenta",
+  "recipes": [
+    {
+      "id": "minecraft:magenta_carpet",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:magenta_wool"], ["minecraft:magenta_wool"]]],
+      "result": {"id": "minecraft:magenta_carpet", "count": 3}
+    },
+    {
+      "id": "minecraft:dye_magenta_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_carpet", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dye_black_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:black_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:green_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_pink_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:red_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:white_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:brown_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_carpet", "count": 1}
+    }
+  ],
+  "tags": [
+    {
+      "id": "minecraft:combination_step_sound_blocks",
+      "registry": "block",
+      "via": "minecraft:wool_carpets"
+    },
+    {"id": "minecraft:dampens_vibrations", "registry": "block", "via": "minecraft:wool_carpets"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:wool_carpets"},
+    {"id": "minecraft:wool_carpets", "registry": "block"},
+    {"id": "minecraft:dampens_vibrations", "registry": "item", "via": "minecraft:wool_carpets"},
+    {"id": "minecraft:wool_carpets", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_carpet": {
+      "name": "Black Carpet",
+      "imagePath": "/block/black_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_carpet": {
+      "name": "Blue Carpet",
+      "imagePath": "/block/blue_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_carpet": {
+      "name": "Brown Carpet",
+      "imagePath": "/block/brown_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:cyan_carpet": {
+      "name": "Cyan Carpet",
+      "imagePath": "/block/cyan_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:gray_carpet": {
+      "name": "Gray Carpet",
+      "imagePath": "/block/gray_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_carpet": {
+      "name": "Green Carpet",
+      "imagePath": "/block/green_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:light_blue_carpet": {
+      "name": "Light Blue Carpet",
+      "imagePath": "/block/light_blue_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_carpet": {
+      "name": "Light Gray Carpet",
+      "imagePath": "/block/light_gray_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_carpet": {
+      "name": "Lime Carpet",
+      "imagePath": "/block/lime_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_carpet": {
+      "name": "Magenta Carpet",
+      "imagePath": "/block/magenta_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:orange_carpet": {
+      "name": "Orange Carpet",
+      "imagePath": "/block/orange_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pink_carpet": {
+      "name": "Pink Carpet",
+      "imagePath": "/block/pink_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:purple_carpet": {
+      "name": "Purple Carpet",
+      "imagePath": "/block/purple_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_carpet": {
+      "name": "Red Carpet",
+      "imagePath": "/block/red_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:white_carpet": {
+      "name": "White Carpet",
+      "imagePath": "/block/white_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_carpet": {
+      "name": "Yellow Carpet",
+      "imagePath": "/block/yellow_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    }
+  }
+}

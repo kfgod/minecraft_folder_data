@@ -1,0 +1,54 @@
+{
+  "id": "minecraft:damaged_anvil",
+  "name": "Damaged Anvil",
+  "imagePath": "/block/damaged_anvil/latest.png",
+  "wiki": "https://minecraft.wiki/w/Anvil#Damaged",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:anvil", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:anvil"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:anvil"},
+    {"id": "minecraft:anvil", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:damaged_anvil": {
+      "name": "Damaged Anvil",
+      "imagePath": "/block/damaged_anvil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Anvil#Damaged"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:weathered_copper_golem_statue",
+  "name": "Weathered Copper Golem Statue",
+  "imagePath": "/block/weathered_copper_golem_statue/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_weathered_copper_golem_statue_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_golem_statue"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:copper_golem_statues", "registry": "block"},
+    {
+      "id": "minecraft:mineable/pickaxe",
+      "registry": "block",
+      "via": "minecraft:copper_golem_statues"
+    },
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:copper_golem_statues", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_weathered_copper_golem_statue": {
+      "name": "Waxed Weathered Copper Golem Statue",
+      "imagePath": "/block/waxed_weathered_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered"
+    },
+    "minecraft:weathered_copper_golem_statue": {
+      "name": "Weathered Copper Golem Statue",
+      "imagePath": "/block/weathered_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered"
+    }
+  }
+}

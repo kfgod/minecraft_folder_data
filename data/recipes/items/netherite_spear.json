@@ -1,0 +1,68 @@
+{
+  "id": "minecraft:netherite_spear",
+  "name": "Netherite Spear",
+  "imagePath": "/item/netherite_spear/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spear#Netherite",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_spear_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_spear"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_spear", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:spears"},
+    {
+      "id": "minecraft:enchantable/fire_aspect",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/lunge", "registry": "item", "via": "minecraft:spears"},
+    {"id": "minecraft:enchantable/melee_weapon", "registry": "item", "via": "minecraft:spears"},
+    {
+      "id": "minecraft:enchantable/sharp_weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    },
+    {"id": "minecraft:spears", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:diamond_spear": {
+      "name": "Diamond Spear",
+      "imagePath": "/item/diamond_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Diamond"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_spear": {
+      "name": "Netherite Spear",
+      "imagePath": "/item/netherite_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Netherite"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

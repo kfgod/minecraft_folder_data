@@ -1,0 +1,74 @@
+{
+  "id": "minecraft:dispenser",
+  "name": "Dispenser",
+  "imagePath": "/block/dispenser/latest.png",
+  "wiki": "https://minecraft.wiki/w/Dispenser",
+  "recipes": [
+    {
+      "id": "minecraft:dispenser",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:bow"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:dispenser", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:bow": {"name": "Bow", "imagePath": "/item/bow/latest.png", "wiki": "https://minecraft.wiki/w/Bow"},
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:dispenser": {
+      "name": "Dispenser",
+      "imagePath": "/block/dispenser/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dispenser"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    }
+  }
+}

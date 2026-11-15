@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:saddle",
+  "name": "Saddle",
+  "imagePath": "/item/saddle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Saddle",
+  "recipes": [
+    {
+      "id": "minecraft:saddle",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:leather"], null],
+        [["minecraft:leather"], ["minecraft:iron_ingot"], ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:saddle", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:saddle": {
+      "name": "Saddle",
+      "imagePath": "/item/saddle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Saddle"
+    }
+  }
+}

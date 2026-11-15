@@ -1,0 +1,77 @@
+{
+  "id": "minecraft:nether_brick_stairs",
+  "name": "Nether Brick Stairs",
+  "imagePath": "/block/nether_brick_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:nether_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_bricks"], null, null],
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], null],
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], ["minecraft:nether_bricks"]]
+      ],
+      "result": {"id": "minecraft:nether_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:nether_brick_stairs_from_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:nether_brick_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:nether_brick_stairs": {
+      "name": "Nether Brick Stairs",
+      "imagePath": "/block/nether_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs"
+    },
+    "minecraft:nether_bricks": {
+      "name": "Nether Bricks",
+      "imagePath": "/block/nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Bricks"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "id": "minecraft:furnace",
+  "name": "Furnace",
+  "imagePath": "/block/furnace/latest.png",
+  "wiki": "https://minecraft.wiki/w/Furnace",
+  "recipes": [
+    {
+      "id": "minecraft:furnace",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ],
+        [["#minecraft:stone_crafting_materials"], null, ["#minecraft:stone_crafting_materials"]],
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ]
+      ],
+      "result": {"id": "minecraft:furnace", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:blast_furnace",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:furnace"], ["minecraft:iron_ingot"]],
+        [["minecraft:smooth_stone"], ["minecraft:smooth_stone"], ["minecraft:smooth_stone"]]
+      ],
+      "result": {"id": "minecraft:blast_furnace", "count": 1}
+    },
+    {
+      "id": "minecraft:smoker",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["#minecraft:logs"], null],
+        [["#minecraft:logs"], ["minecraft:furnace"], ["#minecraft:logs"]],
+        [null, ["#minecraft:logs"], null]
+      ],
+      "result": {"id": "minecraft:smoker", "count": 1}
+    },
+    {
+      "id": "minecraft:furnace_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:furnace"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:furnace_minecart", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:cats_can_sit_on", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:acacia_log": {
+      "name": "Acacia Log",
+      "imagePath": "/block/acacia_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Acacia"
+    },
+    "minecraft:acacia_wood": {
+      "name": "Acacia Wood",
+      "imagePath": "/block/acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Acacia"
+    },
+    "minecraft:birch_log": {
+      "name": "Birch Log",
+      "imagePath": "/block/birch_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Birch"
+    },
+    "minecraft:birch_wood": {
+      "name": "Birch Wood",
+      "imagePath": "/block/birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Birch"
+    },
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:blast_furnace": {
+      "name": "Blast Furnace",
+      "imagePath": "/block/blast_furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blast_Furnace"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:dark_oak_log": {
+      "name": "Dark Oak Log",
+      "imagePath": "/block/dark_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
+    },
+    "minecraft:dark_oak_wood": {
+      "name": "Dark Oak Wood",
+      "imagePath": "/block/dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak"
+    },
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:furnace_minecart": {
+      "name": "Minecart with Furnace",
+      "imagePath": "/item/furnace_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_Furnace"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:jungle_log": {
+      "name": "Jungle Log",
+      "imagePath": "/block/jungle_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Jungle"
+    },
+    "minecraft:jungle_wood": {
+      "name": "Jungle Wood",
+      "imagePath": "/block/jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Jungle"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    },
+    "minecraft:oak_log": {
+      "name": "Oak Log",
+      "imagePath": "/block/oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Oak"
+    },
+    "minecraft:oak_wood": {
+      "name": "Oak Wood",
+      "imagePath": "/block/oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Oak"
+    },
+    "minecraft:pale_oak_log": {
+      "name": "Pale Oak Log",
+      "imagePath": "/block/pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Pale_Oak"
+    },
+    "minecraft:pale_oak_wood": {
+      "name": "Pale Oak Wood",
+      "imagePath": "/block/pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak"
+    },
+    "minecraft:smoker": {
+      "name": "Smoker",
+      "imagePath": "/block/smoker/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smoker"
+    },
+    "minecraft:smooth_stone": {
+      "name": "Smooth Stone",
+      "imagePath": "/block/smooth_stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone"
+    },
+    "minecraft:stripped_acacia_log": {"name": "Stripped Acacia Log", "imagePath": "/block/stripped_acacia_log/latest.png"},
+    "minecraft:stripped_acacia_wood": {
+      "name": "Stripped Acacia Wood",
+      "imagePath": "/block/stripped_acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"},
+    "minecraft:stripped_birch_wood": {
+      "name": "Stripped Birch Wood",
+      "imagePath": "/block/stripped_birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch"
+    },
+    "minecraft:stripped_dark_oak_log": {"name": "Stripped Dark Oak Log", "imagePath": "/block/stripped_dark_oak_log/latest.png"},
+    "minecraft:stripped_dark_oak_wood": {
+      "name": "Stripped Dark Oak Wood",
+      "imagePath": "/block/stripped_dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak"
+    },
+    "minecraft:stripped_jungle_log": {"name": "Stripped Jungle Log", "imagePath": "/block/stripped_jungle_log/latest.png"},
+    "minecraft:stripped_jungle_wood": {
+      "name": "Stripped Jungle Wood",
+      "imagePath": "/block/stripped_jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle"
+    },
+    "minecraft:stripped_oak_log": {"name": "Stripped Oak Log", "imagePath": "/block/stripped_oak_log/latest.png"},
+    "minecraft:stripped_oak_wood": {
+      "name": "Stripped Oak Wood",
+      "imagePath": "/block/stripped_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak"
+    },
+    "minecraft:stripped_pale_oak_log": {
+      "name": "Stripped Pale Oak Log",
+      "imagePath": "/block/stripped_pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+    },
+    "minecraft:stripped_pale_oak_wood": {
+      "name": "Stripped Pale Oak Wood",
+      "imagePath": "/block/stripped_pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak"
+    },
+    "#minecraft:logs": {
+      "items": [
+        "minecraft:dark_oak_log",
+        "minecraft:dark_oak_wood",
+        "minecraft:stripped_dark_oak_log",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:pale_oak_log",
+        "minecraft:pale_oak_wood",
+        "minecraft:stripped_pale_oak_log",
+        "minecraft:stripped_pale_oak_wood",
+        "minecraft:oak_log",
+        "minecraft:oak_wood",
+        "minecraft:stripped_oak_log",
+        "minecraft:stripped_oak_wood",
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood",
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood",
+        "minecraft:jungle_log",
+        "minecraft:jungle_wood",
+        "minecraft:stripped_jungle_log",
+        "minecraft:stripped_jungle_wood"
+      ]
+    },
+    "#minecraft:stone_crafting_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "minecraft:golden_hoe",
+  "name": "Golden Hoe",
+  "imagePath": "/item/golden_hoe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Golden_Hoe",
+  "recipes": [
+    {
+      "id": "minecraft:golden_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:gold_tool_materials"], ["#minecraft:gold_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:golden_hoe", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:gold_nugget_from_blasting",
+      "type": "blasting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:golden_pickaxe",
+          "minecraft:golden_shovel",
+          "minecraft:golden_axe",
+          "minecraft:golden_hoe",
+          "minecraft:golden_sword",
+          "minecraft:golden_spear",
+          "minecraft:golden_helmet",
+          "minecraft:golden_chestplate",
+          "minecraft:golden_leggings",
+          "minecraft:golden_boots",
+          "minecraft:golden_horse_armor",
+          "minecraft:golden_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:gold_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:gold_nugget_from_smelting",
+      "type": "smelting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:golden_pickaxe",
+          "minecraft:golden_shovel",
+          "minecraft:golden_axe",
+          "minecraft:golden_hoe",
+          "minecraft:golden_sword",
+          "minecraft:golden_spear",
+          "minecraft:golden_helmet",
+          "minecraft:golden_chestplate",
+          "minecraft:golden_leggings",
+          "minecraft:golden_boots",
+          "minecraft:golden_horse_armor",
+          "minecraft:golden_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:gold_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:hoes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:hoes", "registry": "item"},
+    {"id": "minecraft:piglin_loved", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:hoes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:golden_axe": {
+      "name": "Golden Axe",
+      "imagePath": "/item/golden_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Axe"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_helmet": {
+      "name": "Golden Helmet",
+      "imagePath": "/item/golden_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Helmet"
+    },
+    "minecraft:golden_hoe": {
+      "name": "Golden Hoe",
+      "imagePath": "/item/golden_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Hoe"
+    },
+    "minecraft:golden_horse_armor": {
+      "name": "Golden Horse Armor",
+      "imagePath": "/item/golden_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:golden_nautilus_armor": {
+      "name": "Golden Nautilus Armor",
+      "imagePath": "/item/golden_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor"
+    },
+    "minecraft:golden_pickaxe": {
+      "name": "Golden Pickaxe",
+      "imagePath": "/item/golden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Pickaxe"
+    },
+    "minecraft:golden_shovel": {
+      "name": "Golden Shovel",
+      "imagePath": "/item/golden_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Shovel"
+    },
+    "minecraft:golden_spear": {
+      "name": "Golden Spear",
+      "imagePath": "/item/golden_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Golden"
+    },
+    "minecraft:golden_sword": {
+      "name": "Golden Sword",
+      "imagePath": "/item/golden_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Sword"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "#minecraft:gold_tool_materials": {"items": ["minecraft:gold_ingot"]}
+  }
+}

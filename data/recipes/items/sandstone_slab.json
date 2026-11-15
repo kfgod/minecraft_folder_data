@@ -1,0 +1,90 @@
+{
+  "id": "minecraft:sandstone_slab",
+  "name": "Sandstone Slab",
+  "imagePath": "/block/sandstone_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sandstone_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:sandstone_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"],
+          ["minecraft:sandstone", "minecraft:chiseled_sandstone"]
+        ]
+      ],
+      "result": {"id": "minecraft:sandstone_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:sandstone_slab_from_sandstone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sandstone"]},
+      "result": {"id": "minecraft:sandstone_slab", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:chiseled_sandstone",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sandstone_slab"]], [["minecraft:sandstone_slab"]]],
+      "result": {"id": "minecraft:chiseled_sandstone", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chiseled_sandstone": {
+      "name": "Chiseled Sandstone",
+      "imagePath": "/block/chiseled_sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Sandstone"
+    },
+    "minecraft:sandstone": {
+      "name": "Sandstone",
+      "imagePath": "/block/sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone"
+    },
+    "minecraft:sandstone_slab": {
+      "name": "Sandstone Slab",
+      "imagePath": "/block/sandstone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sandstone_Slab"
+    }
+  }
+}

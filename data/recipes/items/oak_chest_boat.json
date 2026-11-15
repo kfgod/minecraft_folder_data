@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:oak_chest_boat",
+  "name": "Oak Boat with Chest",
+  "imagePath": "/item/oak_chest_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak",
+  "recipes": [
+    {
+      "id": "minecraft:oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:oak_boat"]],
+      "result": {"id": "minecraft:oak_chest_boat", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:boats", "registry": "item", "via": "minecraft:chest_boats"},
+    {"id": "minecraft:chest_boats", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:oak_boat": {
+      "name": "Oak Boat",
+      "imagePath": "/item/oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Oak"
+    },
+    "minecraft:oak_chest_boat": {
+      "name": "Oak Boat with Chest",
+      "imagePath": "/item/oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak"
+    }
+  }
+}

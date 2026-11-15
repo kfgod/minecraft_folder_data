@@ -1,0 +1,126 @@
+{
+  "id": "minecraft:chiseled_quartz_block",
+  "name": "Chiseled Quartz Block",
+  "imagePath": "/block/chiseled_quartz_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chiseled_Quartz_Block",
+  "recipes": [
+    {
+      "id": "minecraft:chiseled_quartz_block",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:quartz_slab"]], [["minecraft:quartz_slab"]]],
+      "result": {"id": "minecraft:chiseled_quartz_block", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_quartz_block_from_quartz_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:quartz_block"]},
+      "result": {"id": "minecraft:chiseled_quartz_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:quartz_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:quartz_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:quartz_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          null,
+          null
+        ],
+        [
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          null
+        ],
+        [
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"],
+          ["minecraft:chiseled_quartz_block", "minecraft:quartz_block", "minecraft:quartz_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:quartz_stairs", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_quartz_block": {
+      "name": "Chiseled Quartz Block",
+      "imagePath": "/block/chiseled_quartz_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Quartz_Block"
+    },
+    "minecraft:quartz_block": {
+      "name": "Block of Quartz",
+      "imagePath": "/block/quartz_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Quartz"
+    },
+    "minecraft:quartz_pillar": {
+      "name": "Quartz Pillar",
+      "imagePath": "/block/quartz_pillar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Quartz_Pillar"
+    },
+    "minecraft:quartz_slab": {
+      "name": "Quartz Slab",
+      "imagePath": "/block/quartz_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Quartz_Slab"
+    },
+    "minecraft:quartz_stairs": {
+      "name": "Quartz Stairs",
+      "imagePath": "/block/quartz_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Quartz_Stairs"
+    }
+  }
+}

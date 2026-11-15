@@ -1,0 +1,133 @@
+{
+  "id": "minecraft:breeze_rod",
+  "name": "Breeze Rod",
+  "imagePath": "/item/breeze_rod/latest.png",
+  "wiki": "https://minecraft.wiki/w/Breeze_Rod",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:wind_charged"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:wind_charged"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:wind_charged"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_breeze_rod",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:breeze_rod"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:flow_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:flow_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:breeze_rod"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:flow_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:mace",
+      "type": "crafting_shaped",
+      "grid": [[null, ["minecraft:heavy_core"], null], [null, ["minecraft:breeze_rod"], null]],
+      "result": {"id": "minecraft:mace", "count": 1}
+    },
+    {
+      "id": "minecraft:wind_charge",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:breeze_rod"]],
+      "result": {"id": "minecraft:wind_charge", "count": 4}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:breeze_rod": {
+      "name": "Breeze Rod",
+      "imagePath": "/item/breeze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Breeze_Rod"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+      "name": "Flow Armor Trim",
+      "imagePath": "/item/flow_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim"
+    },
+    "minecraft:heavy_core": {
+      "name": "Heavy Core",
+      "imagePath": "/block/heavy_core/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heavy_Core"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:mace": {"name": "Mace", "imagePath": "/item/mace/latest.png", "wiki": "https://minecraft.wiki/w/Mace"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:wind_charge": {
+      "name": "Wind Charge",
+      "imagePath": "/item/wind_charge/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wind_Charge"
+    }
+  }
+}

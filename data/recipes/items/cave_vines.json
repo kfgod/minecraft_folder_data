@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:cave_vines",
+  "name": "Cave Vines",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bee_growables", "registry": "block"},
+    {"id": "minecraft:can_glide_through", "registry": "block", "via": "minecraft:cave_vines"},
+    {"id": "minecraft:cave_vines", "registry": "block"},
+    {"id": "minecraft:climbable", "registry": "block"},
+    {"id": "minecraft:fall_damage_resetting", "registry": "block", "via": "minecraft:climbable"},
+    {
+      "id": "minecraft:lush_ground_replaceable",
+      "registry": "block",
+      "via": "minecraft:moss_replaceable"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:moss_replaceable", "registry": "block", "via": "minecraft:cave_vines"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:cave_vines": {"name": "Cave Vines"}}
+}

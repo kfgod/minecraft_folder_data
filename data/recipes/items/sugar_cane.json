@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:sugar_cane",
+  "name": "Sugar Cane",
+  "imagePath": "/item/sugar_cane/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sugar_Cane",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:paper",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sugar_cane"], ["minecraft:sugar_cane"], ["minecraft:sugar_cane"]]],
+      "result": {"id": "minecraft:paper", "count": 3}
+    },
+    {
+      "id": "minecraft:sugar_from_sugar_cane",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:sugar_cane"]],
+      "result": {"id": "minecraft:sugar", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"}
+  ],
+  "refs": {
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "minecraft:sugar_cane": {
+      "name": "Sugar Cane",
+      "imagePath": "/item/sugar_cane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar_Cane"
+    }
+  }
+}

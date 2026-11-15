@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:red_shrub",
+  "name": "Red Shrub",
+  "imagePath": "/block/red_shrub/latest.png",
+  "wiki": "https://minecraft.wiki/w/Red_Shrub",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:red_shrub": {
+      "name": "Red Shrub",
+      "imagePath": "/block/red_shrub/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Shrub"
+    }
+  }
+}

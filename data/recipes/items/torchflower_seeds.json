@@ -1,0 +1,26 @@
+{
+  "id": "minecraft:torchflower_seeds",
+  "name": "Torchflower Seeds",
+  "imagePath": "/item/torchflower_seeds/latest.png",
+  "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:chicken_food", "registry": "item"},
+    {"id": "minecraft:parrot_food", "registry": "item"},
+    {"id": "minecraft:sniffer_food", "registry": "item"},
+    {
+      "id": "minecraft:villager_picks_up",
+      "registry": "item",
+      "via": "minecraft:villager_plantable_seeds"
+    },
+    {"id": "minecraft:villager_plantable_seeds", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:torchflower_seeds": {
+      "name": "Torchflower Seeds",
+      "imagePath": "/item/torchflower_seeds/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torchflower_Seeds"
+    }
+  }
+}

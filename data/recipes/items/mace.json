@@ -1,0 +1,40 @@
+{
+  "id": "minecraft:mace",
+  "name": "Mace",
+  "imagePath": "/item/mace/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mace",
+  "recipes": [
+    {
+      "id": "minecraft:mace",
+      "type": "crafting_shaped",
+      "grid": [[null, ["minecraft:heavy_core"], null], [null, ["minecraft:breeze_rod"], null]],
+      "result": {"id": "minecraft:mace", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {"id": "minecraft:enchantable/fire_aspect", "registry": "item"},
+    {"id": "minecraft:enchantable/mace", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:enchantable/weapon", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:breeze_rod": {
+      "name": "Breeze Rod",
+      "imagePath": "/item/breeze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Breeze_Rod"
+    },
+    "minecraft:heavy_core": {
+      "name": "Heavy Core",
+      "imagePath": "/block/heavy_core/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heavy_Core"
+    },
+    "minecraft:mace": {"name": "Mace", "imagePath": "/item/mace/latest.png", "wiki": "https://minecraft.wiki/w/Mace"}
+  }
+}

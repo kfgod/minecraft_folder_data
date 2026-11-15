@@ -1,0 +1,40 @@
+{
+  "id": "minecraft:rail",
+  "name": "Rail",
+  "imagePath": "/block/rail/latest.png",
+  "wiki": "https://minecraft.wiki/w/Rail",
+  "recipes": [
+    {
+      "id": "minecraft:rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:rail", "count": 16}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:pathfinding/rails", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:prevent_mob_spawning_inside", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:rail": {"name": "Rail", "imagePath": "/block/rail/latest.png", "wiki": "https://minecraft.wiki/w/Rail"},
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

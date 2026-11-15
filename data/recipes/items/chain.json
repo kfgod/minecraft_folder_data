@@ -1,0 +1,28 @@
+{
+  "id": "minecraft:chain",
+  "name": "Chain",
+  "recipes": [
+    {
+      "id": "minecraft:chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:chain", "count": 1},
+      "removed": "1.21.9"
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:mineable/pickaxe", "registry": "block", "removed": "1.21.9"}],
+  "refs": {
+    "minecraft:chain": {"name": "Chain"},
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    }
+  }
+}

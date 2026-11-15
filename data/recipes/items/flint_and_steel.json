@@ -1,0 +1,41 @@
+{
+  "id": "minecraft:flint_and_steel",
+  "name": "Flint and Steel",
+  "imagePath": "/item/flint_and_steel/latest.png",
+  "wiki": "https://minecraft.wiki/w/Flint_and_Steel",
+  "recipes": [
+    {
+      "id": "minecraft:flint_and_steel",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:iron_ingot"], ["minecraft:flint"]],
+      "result": {"id": "minecraft:flint_and_steel", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:creeper_igniters", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:flint": {
+      "name": "Flint",
+      "imagePath": "/item/flint/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint"
+    },
+    "minecraft:flint_and_steel": {
+      "name": "Flint and Steel",
+      "imagePath": "/item/flint_and_steel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint_and_Steel"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    }
+  }
+}

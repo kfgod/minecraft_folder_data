@@ -1,0 +1,235 @@
+{
+  "id": "minecraft:shield",
+  "name": "Shield",
+  "imagePath": "/item/shield/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shield",
+  "recipes": [
+    {
+      "id": "minecraft:shield",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["minecraft:iron_ingot"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["#minecraft:wooden_tool_materials"], null]
+      ],
+      "result": {"id": "minecraft:shield", "count": 1}
+    },
+    {
+      "id": "minecraft:shield_decoration",
+      "type": "crafting_special_shielddecoration",
+      "inputs": {"target": ["minecraft:shield"], "banner": ["#minecraft:banners"]},
+      "result": {"id": "minecraft:shield", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:black_banner": {
+      "name": "Black Banner",
+      "imagePath": "/block/black_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Black"
+    },
+    "minecraft:blue_banner": {
+      "name": "Blue Banner",
+      "imagePath": "/block/blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Blue"
+    },
+    "minecraft:brown_banner": {
+      "name": "Brown Banner",
+      "imagePath": "/block/brown_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Brown"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:cyan_banner": {
+      "name": "Cyan Banner",
+      "imagePath": "/block/cyan_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Cyan"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:gray_banner": {
+      "name": "Gray Banner",
+      "imagePath": "/block/gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Gray"
+    },
+    "minecraft:green_banner": {
+      "name": "Green Banner",
+      "imagePath": "/block/green_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Green"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:light_blue_banner": {
+      "name": "Light Blue Banner",
+      "imagePath": "/block/light_blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Blue"
+    },
+    "minecraft:light_gray_banner": {
+      "name": "Light Gray Banner",
+      "imagePath": "/block/light_gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Gray"
+    },
+    "minecraft:lime_banner": {
+      "name": "Lime Banner",
+      "imagePath": "/block/lime_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Lime"
+    },
+    "minecraft:magenta_banner": {
+      "name": "Magenta Banner",
+      "imagePath": "/block/magenta_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Magenta"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:orange_banner": {
+      "name": "Orange Banner",
+      "imagePath": "/block/orange_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Orange"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:pink_banner": {
+      "name": "Pink Banner",
+      "imagePath": "/block/pink_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Pink"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:purple_banner": {
+      "name": "Purple Banner",
+      "imagePath": "/block/purple_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Purple"
+    },
+    "minecraft:red_banner": {
+      "name": "Red Banner",
+      "imagePath": "/block/red_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Red"
+    },
+    "minecraft:shield": {
+      "name": "Shield",
+      "imagePath": "/item/shield/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shield"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:white_banner": {
+      "name": "White Banner",
+      "imagePath": "/block/white_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#White"
+    },
+    "minecraft:yellow_banner": {
+      "name": "Yellow Banner",
+      "imagePath": "/block/yellow_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Yellow"
+    },
+    "#minecraft:banners": {
+      "items": [
+        "minecraft:white_banner",
+        "minecraft:orange_banner",
+        "minecraft:magenta_banner",
+        "minecraft:light_blue_banner",
+        "minecraft:yellow_banner",
+        "minecraft:lime_banner",
+        "minecraft:pink_banner",
+        "minecraft:gray_banner",
+        "minecraft:light_gray_banner",
+        "minecraft:cyan_banner",
+        "minecraft:purple_banner",
+        "minecraft:blue_banner",
+        "minecraft:brown_banner",
+        "minecraft:green_banner",
+        "minecraft:red_banner",
+        "minecraft:black_banner"
+      ]
+    },
+    "#minecraft:wooden_tool_materials": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:bamboo_chest_raft",
+  "name": "Bamboo Boat with Chest",
+  "imagePath": "/item/bamboo_chest_raft/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo",
+  "recipes": [
+    {
+      "id": "minecraft:bamboo_chest_raft",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:bamboo_raft"]],
+      "result": {"id": "minecraft:bamboo_chest_raft", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:boats", "registry": "item", "via": "minecraft:chest_boats"},
+    {"id": "minecraft:chest_boats", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:bamboo_chest_raft": {
+      "name": "Bamboo Boat with Chest",
+      "imagePath": "/item/bamboo_chest_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo"
+    },
+    "minecraft:bamboo_raft": {
+      "name": "Bamboo Raft",
+      "imagePath": "/item/bamboo_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Bamboo"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

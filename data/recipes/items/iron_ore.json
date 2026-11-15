@@ -1,0 +1,104 @@
+{
+  "id": "minecraft:iron_ore",
+  "name": "Iron Ore",
+  "imagePath": "/block/iron_ore/latest.png",
+  "wiki": "https://minecraft.wiki/w/Iron_Ore",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:iron_ingot_from_blasting_iron_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_iron_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:ores"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:iron_ores", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:ores", "registry": "block", "via": "minecraft:iron_ores"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:iron_ores",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:snaps_goat_horn", "registry": "block"},
+    {"id": "minecraft:iron_ores", "registry": "item"},
+    {"id": "minecraft:ores", "registry": "item", "via": "minecraft:iron_ores"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_flat",
+      "registry": "item",
+      "via": "minecraft:iron_ores"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_ore": {
+      "name": "Iron Ore",
+      "imagePath": "/block/iron_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ore"
+    }
+  }
+}

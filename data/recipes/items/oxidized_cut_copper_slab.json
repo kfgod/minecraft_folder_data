@@ -1,0 +1,128 @@
+{
+  "id": "minecraft:oxidized_cut_copper_slab",
+  "name": "Oxidized Cut Copper Slab",
+  "imagePath": "/block/oxidized_cut_copper_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized",
+  "recipes": [
+    {
+      "id": "minecraft:oxidized_cut_copper_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:oxidized_cut_copper"],
+          ["minecraft:oxidized_cut_copper"],
+          ["minecraft:oxidized_cut_copper"]
+        ]
+      ],
+      "result": {"id": "minecraft:oxidized_cut_copper_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:oxidized_cut_copper_slab_from_oxidized_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:oxidized_copper"]},
+      "result": {"id": "minecraft:oxidized_cut_copper_slab", "count": 8}
+    },
+    {
+      "id": "minecraft:oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:oxidized_cut_copper"]},
+      "result": {"id": "minecraft:oxidized_cut_copper_slab", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:oxidized_chiseled_copper",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:oxidized_cut_copper_slab"]], [["minecraft:oxidized_cut_copper_slab"]]],
+      "result": {"id": "minecraft:oxidized_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_cut_copper_slab"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_cut_copper_slab", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:oxidized_chiseled_copper": {
+      "name": "Oxidized Chiseled Copper",
+      "imagePath": "/block/oxidized_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper": {
+      "name": "Oxidized Copper",
+      "imagePath": "/block/oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:oxidized_cut_copper": {
+      "name": "Oxidized Cut Copper",
+      "imagePath": "/block/oxidized_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized"
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+      "name": "Oxidized Cut Copper Slab",
+      "imagePath": "/block/oxidized_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+      "name": "Waxed Oxidized Cut Copper Slab",
+      "imagePath": "/block/waxed_oxidized_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "minecraft:red_nether_brick_wall",
+  "name": "Red Nether Brick Wall",
+  "imagePath": "/block/red_nether_brick_wall/latest.png",
+  "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Wall",
+  "recipes": [
+    {
+      "id": "minecraft:red_nether_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:red_nether_bricks"],
+          ["minecraft:red_nether_bricks"],
+          ["minecraft:red_nether_bricks"]
+        ],
+        [
+          ["minecraft:red_nether_bricks"],
+          ["minecraft:red_nether_bricks"],
+          ["minecraft:red_nether_bricks"]
+        ]
+      ],
+      "result": {"id": "minecraft:red_nether_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:red_nether_bricks"]},
+      "result": {"id": "minecraft:red_nether_brick_wall", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:walls"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:red_nether_brick_wall": {
+      "name": "Red Nether Brick Wall",
+      "imagePath": "/block/red_nether_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Nether_Brick_Wall"
+    },
+    "minecraft:red_nether_bricks": {
+      "name": "Red Nether Bricks",
+      "imagePath": "/block/red_nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks"
+    }
+  }
+}

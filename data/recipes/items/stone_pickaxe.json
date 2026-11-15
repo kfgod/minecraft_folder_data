@@ -1,0 +1,65 @@
+{
+  "id": "minecraft:stone_pickaxe",
+  "name": "Stone Pickaxe",
+  "imagePath": "/item/stone_pickaxe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone_Pickaxe",
+  "recipes": [
+    {
+      "id": "minecraft:stone_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:stone_pickaxe", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:cluster_max_harvestables", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:pickaxes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:pickaxes", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:pickaxes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "imagePath": "/item/stone_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pickaxe"
+    },
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

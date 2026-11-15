@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:jungle_chest_boat",
+  "name": "Jungle Boat with Chest",
+  "imagePath": "/item/jungle_chest_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle",
+  "recipes": [
+    {
+      "id": "minecraft:jungle_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:jungle_boat"]],
+      "result": {"id": "minecraft:jungle_chest_boat", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:boats", "registry": "item", "via": "minecraft:chest_boats"},
+    {"id": "minecraft:chest_boats", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:jungle_boat": {
+      "name": "Jungle Boat",
+      "imagePath": "/item/jungle_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Jungle"
+    },
+    "minecraft:jungle_chest_boat": {
+      "name": "Jungle Boat with Chest",
+      "imagePath": "/item/jungle_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:flower_banner_pattern",
+  "name": "Flower Charge Banner Pattern",
+  "imagePath": "/item/flower_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Flower_Charge_Banner_Pattern",
+  "recipes": [
+    {
+      "id": "minecraft:flower_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:oxeye_daisy"]],
+      "result": {"id": "minecraft:flower_banner_pattern", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:flower_banner_pattern": {
+      "name": "Flower Charge Banner Pattern",
+      "imagePath": "/item/flower_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flower_Charge_Banner_Pattern"
+    },
+    "minecraft:oxeye_daisy": {
+      "name": "Oxeye Daisy",
+      "imagePath": "/block/oxeye_daisy/latest.png",
+      "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    }
+  }
+}

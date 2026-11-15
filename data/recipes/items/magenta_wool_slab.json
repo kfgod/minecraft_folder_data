@@ -1,0 +1,647 @@
+{
+  "id": "minecraft:magenta_wool_slab",
+  "name": "Magenta Wool Slab",
+  "imagePath": "/block/magenta_wool_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta",
+  "recipes": [
+    {
+      "id": "minecraft:magenta_wool_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:magenta_wool"], ["minecraft:magenta_wool"], ["minecraft:magenta_wool"]]],
+      "result": {"id": "minecraft:magenta_wool_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:dye_magenta_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_wool_slab", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:magenta_cushion",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:magenta_wool_slab"],
+          ["minecraft:magenta_wool_slab"],
+          ["minecraft:magenta_wool_slab"]
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_black_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:black_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:green_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_pink_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:red_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:white_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:brown_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_wool_slab", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dampens_vibrations", "registry": "block", "via": "minecraft:wool_slabs"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:shears_major_breaking_speed",
+      "registry": "block",
+      "via": "minecraft:wool_slabs"
+    },
+    {"id": "minecraft:slabs", "registry": "block", "via": "minecraft:wool_slabs"},
+    {"id": "minecraft:wool_slabs", "registry": "block"},
+    {"id": "minecraft:dampens_vibrations", "registry": "item", "via": "minecraft:wool_slabs"},
+    {"id": "minecraft:slabs", "registry": "item", "via": "minecraft:wool_slabs"},
+    {"id": "minecraft:wool_slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_wool_slab": {
+      "name": "Black Wool Slab",
+      "imagePath": "/block/black_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_wool_slab": {
+      "name": "Blue Wool Slab",
+      "imagePath": "/block/blue_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_wool_slab": {
+      "name": "Brown Wool Slab",
+      "imagePath": "/block/brown_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Brown"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_wool_slab": {
+      "name": "Cyan Wool Slab",
+      "imagePath": "/block/cyan_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Cyan"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_wool_slab": {
+      "name": "Gray Wool Slab",
+      "imagePath": "/block/gray_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_wool_slab": {
+      "name": "Green Wool Slab",
+      "imagePath": "/block/green_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Green"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_wool_slab": {
+      "name": "Light Blue Wool Slab",
+      "imagePath": "/block/light_blue_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_wool_slab": {
+      "name": "Light Gray Wool Slab",
+      "imagePath": "/block/light_gray_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_wool_slab": {
+      "name": "Lime Wool Slab",
+      "imagePath": "/block/lime_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Lime"
+    },
+    "minecraft:magenta_cushion": {
+      "name": "Magenta Cushion",
+      "imagePath": "/block/magenta_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:magenta_wool_slab": {
+      "name": "Magenta Wool Slab",
+      "imagePath": "/block/magenta_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_wool_slab": {
+      "name": "Orange Wool Slab",
+      "imagePath": "/block/orange_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_wool_slab": {
+      "name": "Pink Wool Slab",
+      "imagePath": "/block/pink_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_wool_slab": {
+      "name": "Purple Wool Slab",
+      "imagePath": "/block/purple_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_wool_slab": {
+      "name": "Red Wool Slab",
+      "imagePath": "/block/red_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Red"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_wool_slab": {
+      "name": "White Wool Slab",
+      "imagePath": "/block/white_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_wool_slab": {
+      "name": "Yellow Wool Slab",
+      "imagePath": "/block/yellow_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Yellow"
+    }
+  }
+}

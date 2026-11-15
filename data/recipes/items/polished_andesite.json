@@ -1,0 +1,128 @@
+{
+  "id": "minecraft:polished_andesite",
+  "name": "Polished Andesite",
+  "imagePath": "/block/polished_andesite/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Andesite",
+  "recipes": [
+    {
+      "id": "minecraft:polished_andesite",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:andesite"], ["minecraft:andesite"]],
+        [["minecraft:andesite"], ["minecraft:andesite"]]
+      ],
+      "result": {"id": "minecraft:polished_andesite", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_andesite_from_andesite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:andesite"]},
+      "result": {"id": "minecraft:polished_andesite", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:polished_andesite_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:polished_andesite"],
+          ["minecraft:polished_andesite"],
+          ["minecraft:polished_andesite"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_andesite_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_andesite_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_andesite"], null, null],
+        [["minecraft:polished_andesite"], ["minecraft:polished_andesite"], null],
+        [
+          ["minecraft:polished_andesite"],
+          ["minecraft:polished_andesite"],
+          ["minecraft:polished_andesite"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_andesite_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_andesite"]},
+      "result": {"id": "minecraft:polished_andesite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_andesite"]},
+      "result": {"id": "minecraft:polished_andesite_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:andesite": {
+      "name": "Andesite",
+      "imagePath": "/block/andesite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Andesite"
+    },
+    "minecraft:polished_andesite": {
+      "name": "Polished Andesite",
+      "imagePath": "/block/polished_andesite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Andesite"
+    },
+    "minecraft:polished_andesite_slab": {
+      "name": "Polished Andesite Slab",
+      "imagePath": "/block/polished_andesite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Andesite_Slab"
+    },
+    "minecraft:polished_andesite_stairs": {
+      "name": "Polished Andesite Stairs",
+      "imagePath": "/block/polished_andesite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Andesite_Stairs"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "minecraft:carrot",
+  "name": "Carrot",
+  "imagePath": "/item/carrot/latest.png",
+  "wiki": "https://minecraft.wiki/w/Carrot",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:carrot_on_a_stick",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:fishing_rod"], null], [null, ["minecraft:carrot"]]],
+      "result": {"id": "minecraft:carrot_on_a_stick", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_carrot",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:carrot"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:golden_carrot", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_brown_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:brown_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_red_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:red_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_shelf_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:shelf_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:horse_food", "registry": "item"},
+    {"id": "minecraft:pig_food", "registry": "item"},
+    {"id": "minecraft:rabbit_food", "registry": "item"},
+    {
+      "id": "minecraft:villager_picks_up",
+      "registry": "item",
+      "via": "minecraft:villager_plantable_seeds"
+    },
+    {"id": "minecraft:villager_plantable_seeds", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:baked_potato": {
+      "name": "Baked Potato",
+      "imagePath": "/item/baked_potato/latest.png",
+      "wiki": "https://minecraft.wiki/w/Baked_Potato"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:carrot_on_a_stick": {
+      "name": "Carrot on a Stick",
+      "imagePath": "/item/carrot_on_a_stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick"
+    },
+    "minecraft:cooked_rabbit": {
+      "name": "Cooked Rabbit",
+      "imagePath": "/item/cooked_rabbit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Rabbit"
+    },
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:golden_carrot": {
+      "name": "Golden Carrot",
+      "imagePath": "/item/golden_carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Carrot"
+    },
+    "minecraft:rabbit_stew": {
+      "name": "Rabbit Stew",
+      "imagePath": "/item/rabbit_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rabbit_Stew"
+    },
+    "minecraft:red_mushroom": {
+      "name": "Red Mushroom",
+      "imagePath": "/block/red_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "imagePath": "/block/shelf_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf_Mushroom"
+    }
+  }
+}

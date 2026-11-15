@@ -1,0 +1,28 @@
+{
+  "id": "minecraft:lead",
+  "name": "Lead",
+  "imagePath": "/item/lead/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lead",
+  "recipes": [
+    {
+      "id": "minecraft:lead",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:string"], ["minecraft:string"], null],
+        [["minecraft:string"], ["minecraft:string"], null],
+        [null, null, ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:lead", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:lead": {"name": "Lead", "imagePath": "/item/lead/latest.png", "wiki": "https://minecraft.wiki/w/Lead"},
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    }
+  }
+}

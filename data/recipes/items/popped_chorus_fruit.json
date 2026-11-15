@@ -1,0 +1,60 @@
+{
+  "id": "minecraft:popped_chorus_fruit",
+  "name": "Popped Chorus Fruit",
+  "imagePath": "/item/popped_chorus_fruit/latest.png",
+  "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit",
+  "recipes": [
+    {
+      "id": "minecraft:popped_chorus_fruit",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:chorus_fruit"]},
+      "result": {"id": "minecraft:popped_chorus_fruit", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:end_rod",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:blaze_rod"]], [["minecraft:popped_chorus_fruit"]]],
+      "result": {"id": "minecraft:end_rod", "count": 4}
+    },
+    {
+      "id": "minecraft:purpur_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:popped_chorus_fruit"], ["minecraft:popped_chorus_fruit"]],
+        [["minecraft:popped_chorus_fruit"], ["minecraft:popped_chorus_fruit"]]
+      ],
+      "result": {"id": "minecraft:purpur_block", "count": 4}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:chorus_fruit": {
+      "name": "Chorus Fruit",
+      "imagePath": "/item/chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chorus_Fruit"
+    },
+    "minecraft:end_rod": {
+      "name": "End Rod",
+      "imagePath": "/block/end_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Rod"
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "Popped Chorus Fruit",
+      "imagePath": "/item/popped_chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    },
+    "minecraft:purpur_block": {
+      "name": "Purpur Block",
+      "imagePath": "/block/purpur_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Block"
+    }
+  }
+}

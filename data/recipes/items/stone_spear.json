@@ -1,0 +1,73 @@
+{
+  "id": "minecraft:stone_spear",
+  "name": "Stone Spear",
+  "imagePath": "/item/stone_spear/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spear#Stone",
+  "recipes": [
+    {
+      "id": "minecraft:stone_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:stone_spear", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:spears"},
+    {
+      "id": "minecraft:enchantable/fire_aspect",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/lunge", "registry": "item", "via": "minecraft:spears"},
+    {"id": "minecraft:enchantable/melee_weapon", "registry": "item", "via": "minecraft:spears"},
+    {
+      "id": "minecraft:enchantable/sharp_weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    },
+    {"id": "minecraft:spears", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_spear": {
+      "name": "Stone Spear",
+      "imagePath": "/item/stone_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Stone"
+    },
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

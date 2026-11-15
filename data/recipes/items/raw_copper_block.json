@@ -1,0 +1,97 @@
+{
+  "id": "minecraft:raw_copper_block",
+  "name": "Block of Raw Copper",
+  "imagePath": "/block/raw_copper_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Block_of_Raw_Copper",
+  "recipes": [
+    {
+      "id": "minecraft:raw_copper_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:raw_copper"], ["minecraft:raw_copper"], ["minecraft:raw_copper"]],
+        [["minecraft:raw_copper"], ["minecraft:raw_copper"], ["minecraft:raw_copper"]],
+        [["minecraft:raw_copper"], ["minecraft:raw_copper"], ["minecraft:raw_copper"]]
+      ],
+      "result": {"id": "minecraft:raw_copper_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:raw_copper",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:raw_copper_block"]],
+      "result": {"id": "minecraft:raw_copper", "count": 9}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:sulfur_cube_archetype/slow_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:raw_copper": {
+      "name": "Raw Copper",
+      "imagePath": "/item/raw_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Copper"
+    },
+    "minecraft:raw_copper_block": {
+      "name": "Block of Raw Copper",
+      "imagePath": "/block/raw_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Raw_Copper"
+    }
+  }
+}

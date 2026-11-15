@@ -1,0 +1,39 @@
+{
+  "id": "minecraft:pitcher_plant",
+  "name": "Pitcher Plant",
+  "imagePath": "/block/pitcher_plant/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pitcher_Plant",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:cyan_dye_from_pitcher_plant",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pitcher_plant"]],
+      "result": {"id": "minecraft:cyan_dye", "count": 2}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:tall_flowers", "registry": "block", "removed": "1.21.4"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"},
+    {"id": "minecraft:tall_flowers", "registry": "item", "removed": "1.21.4"}
+  ],
+  "refs": {
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:pitcher_plant": {
+      "name": "Pitcher Plant",
+      "imagePath": "/block/pitcher_plant/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pitcher_Plant"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "minecraft:red_sand",
+  "name": "Red Sand",
+  "imagePath": "/block/red_sand/latest.png",
+  "wiki": "https://minecraft.wiki/w/Red_Sand",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:red_sandstone",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:red_sand"], ["minecraft:red_sand"]],
+        [["minecraft:red_sand"], ["minecraft:red_sand"]]
+      ],
+      "result": {"id": "minecraft:red_sandstone", "count": 1}
+    },
+    {
+      "id": "minecraft:tnt",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]],
+        [
+          ["minecraft:sand", "minecraft:red_sand"],
+          ["minecraft:gunpowder"],
+          ["minecraft:sand", "minecraft:red_sand"]
+        ],
+        [["minecraft:gunpowder"], ["minecraft:sand", "minecraft:red_sand"], ["minecraft:gunpowder"]]
+      ],
+      "result": {"id": "minecraft:tnt", "count": 1}
+    },
+    {
+      "id": "minecraft:glass",
+      "type": "smelting",
+      "inputs": {"ingredient": ["#minecraft:smelts_to_glass"]},
+      "result": {"id": "minecraft:glass", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:armadillo_spawnable_on", "registry": "block"},
+    {"id": "minecraft:azalea_grows_on", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:azalea_root_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:bamboo_plantable_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.1.2"
+    },
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:camel_sand_step_sound_blocks", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:camels_spawnable_on", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dead_bush_may_place_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "1.21.5"
+    },
+    {
+      "id": "minecraft:dry_vegetation_may_place_on",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.1.2"
+    },
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:sand",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:plays_ambient_desert_block_sounds", "registry": "block", "removed": "1.21.8"},
+    {"id": "minecraft:sand", "registry": "block"},
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:smelts_to_glass", "registry": "block"},
+    {"id": "minecraft:supports_bamboo", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_cactus", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_dry_vegetation", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:supports_sugar_cane", "registry": "block", "via": "minecraft:sand"},
+    {"id": "minecraft:triggers_ambient_desert_dry_vegetation_block_sounds", "registry": "block"},
+    {"id": "minecraft:triggers_ambient_desert_sand_block_sounds", "registry": "block"},
+    {"id": "minecraft:sand", "registry": "item"},
+    {"id": "minecraft:smelts_to_glass", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:red_sand": {
+      "name": "Red Sand",
+      "imagePath": "/block/red_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Sand"
+    },
+    "minecraft:red_sandstone": {
+      "name": "Red Sandstone",
+      "imagePath": "/block/red_sandstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Sandstone"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:tnt": {"name": "TNT", "imagePath": "/block/tnt/latest.png", "wiki": "https://minecraft.wiki/w/TNT"},
+    "#minecraft:smelts_to_glass": {"items": ["minecraft:sand", "minecraft:red_sand"]}
+  }
+}

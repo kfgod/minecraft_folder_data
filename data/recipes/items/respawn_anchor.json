@@ -1,0 +1,109 @@
+{
+  "id": "minecraft:respawn_anchor",
+  "name": "Respawn Anchor",
+  "imagePath": "/block/respawn_anchor/latest.png",
+  "wiki": "https://minecraft.wiki/w/Respawn_Anchor",
+  "recipes": [
+    {
+      "id": "minecraft:respawn_anchor",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:crying_obsidian"],
+          ["minecraft:crying_obsidian"],
+          ["minecraft:crying_obsidian"]
+        ],
+        [["minecraft:glowstone"], ["minecraft:glowstone"], ["minecraft:glowstone"]],
+        [
+          ["minecraft:crying_obsidian"],
+          ["minecraft:crying_obsidian"],
+          ["minecraft:crying_obsidian"]
+        ]
+      ],
+      "result": {"id": "minecraft:respawn_anchor", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dragon_immune", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:hoglin_repellents", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_copper_tool",
+      "registry": "block",
+      "via": "minecraft:needs_diamond_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_diamond_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_iron_tool",
+      "registry": "block",
+      "via": "minecraft:needs_diamond_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_stone_tool",
+      "registry": "block",
+      "via": "minecraft:needs_diamond_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_diamond_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_diamond_tool", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:crying_obsidian": {
+      "name": "Crying Obsidian",
+      "imagePath": "/block/crying_obsidian/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crying_Obsidian"
+    },
+    "minecraft:glowstone": {
+      "name": "Glowstone",
+      "imagePath": "/block/glowstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone"
+    },
+    "minecraft:respawn_anchor": {
+      "name": "Respawn Anchor",
+      "imagePath": "/block/respawn_anchor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Respawn_Anchor"
+    }
+  }
+}

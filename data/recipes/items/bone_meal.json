@@ -1,0 +1,57 @@
+{
+  "id": "minecraft:bone_meal",
+  "name": "Bone Meal",
+  "imagePath": "/item/bone_meal/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bone_Meal",
+  "recipes": [
+    {
+      "id": "minecraft:bone_meal",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bone"]],
+      "result": {"id": "minecraft:bone_meal", "count": 3}
+    },
+    {
+      "id": "minecraft:bone_meal_from_bone_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bone_block"]],
+      "result": {"id": "minecraft:bone_meal", "count": 9}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:bone_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]],
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]],
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]]
+      ],
+      "result": {"id": "minecraft:bone_block", "count": 1}
+    },
+    {
+      "id": "minecraft:white_dye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bone_meal"]],
+      "result": {"id": "minecraft:white_dye", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:bone": {"name": "Bone", "imagePath": "/item/bone/latest.png", "wiki": "https://minecraft.wiki/w/Bone"},
+    "minecraft:bone_block": {
+      "name": "Bone Block",
+      "imagePath": "/block/bone_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bone_Block"
+    },
+    "minecraft:bone_meal": {
+      "name": "Bone Meal",
+      "imagePath": "/item/bone_meal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bone_Meal"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    }
+  }
+}

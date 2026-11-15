@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:structure_void",
+  "name": "Structure Void",
+  "imagePath": "/block/structure_void/latest.png",
+  "wiki": "https://minecraft.wiki/w/Structure_Void",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:replaceable", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:structure_void": {
+      "name": "Structure Void",
+      "imagePath": "/block/structure_void/latest.png",
+      "wiki": "https://minecraft.wiki/w/Structure_Void"
+    }
+  }
+}

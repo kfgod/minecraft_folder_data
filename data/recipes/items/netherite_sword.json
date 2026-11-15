@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:netherite_sword",
+  "name": "Netherite Sword",
+  "imagePath": "/item/netherite_sword/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherite_Sword",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_sword_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_sword"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_sword", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:swords"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/fire_aspect",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/melee_weapon", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/sharp_weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/sweeping", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/sword",
+      "registry": "item",
+      "via": "minecraft:swords",
+      "removed": "1.21.11"
+    },
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    },
+    {"id": "minecraft:swords", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:swords", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:diamond_sword": {
+      "name": "Diamond Sword",
+      "imagePath": "/item/diamond_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Sword"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_sword": {
+      "name": "Netherite Sword",
+      "imagePath": "/item/netherite_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Sword"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

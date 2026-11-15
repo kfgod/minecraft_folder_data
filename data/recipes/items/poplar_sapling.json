@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:poplar_sapling",
+  "name": "Poplar Sapling",
+  "imagePath": "/block/poplar_sapling/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:saplings", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:saplings"},
+    {"id": "minecraft:saplings", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:poplar_sapling": {
+      "name": "Poplar Sapling",
+      "imagePath": "/block/poplar_sapling/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sapling#Poplar"
+    }
+  }
+}

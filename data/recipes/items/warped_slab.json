@@ -1,0 +1,314 @@
+{
+  "id": "minecraft:warped_slab",
+  "name": "Warped Slab",
+  "imagePath": "/block/warped_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped",
+  "recipes": [
+    {
+      "id": "minecraft:warped_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:warped_planks"], ["minecraft:warped_planks"], ["minecraft:warped_planks"]]],
+      "result": {"id": "minecraft:warped_slab", "count": 6}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:barrel",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:wooden_slabs"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:wooden_slabs"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:barrel", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_bookshelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:chiseled_bookshelf", "count": 1}
+    },
+    {
+      "id": "minecraft:composter",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_slabs"], null, ["#minecraft:wooden_slabs"]],
+        [["#minecraft:wooden_slabs"], null, ["#minecraft:wooden_slabs"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]]
+      ],
+      "result": {"id": "minecraft:composter", "count": 1}
+    },
+    {
+      "id": "minecraft:daylight_detector",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:quartz"], ["minecraft:quartz"], ["minecraft:quartz"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]]
+      ],
+      "result": {"id": "minecraft:daylight_detector", "count": 1}
+    },
+    {
+      "id": "minecraft:lectern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]],
+        [null, ["minecraft:bookshelf"], null],
+        [null, ["#minecraft:wooden_slabs"], null]
+      ],
+      "result": {"id": "minecraft:lectern", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_slabs"},
+    {"id": "minecraft:slabs", "registry": "block", "via": "minecraft:wooden_slabs"},
+    {"id": "minecraft:wooden_slabs", "registry": "block"},
+    {"id": "minecraft:non_flammable_wood", "registry": "item"},
+    {"id": "minecraft:slabs", "registry": "item", "via": "minecraft:wooden_slabs"},
+    {"id": "minecraft:wooden_slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:acacia_slab": {
+      "name": "Acacia Slab",
+      "imagePath": "/block/acacia_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    },
+    "minecraft:barrel": {
+      "name": "Barrel",
+      "imagePath": "/block/barrel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Barrel"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:birch_slab": {
+      "name": "Birch Slab",
+      "imagePath": "/block/birch_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+    },
+    "minecraft:bookshelf": {
+      "name": "Bookshelf",
+      "imagePath": "/block/bookshelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bookshelf"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:cherry_slab": {
+      "name": "Cherry Slab",
+      "imagePath": "/block/cherry_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+    },
+    "minecraft:chiseled_bookshelf": {
+      "name": "Chiseled Bookshelf",
+      "imagePath": "/block/chiseled_bookshelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Bookshelf"
+    },
+    "minecraft:composter": {
+      "name": "Composter",
+      "imagePath": "/block/composter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Composter"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crimson_slab": {
+      "name": "Crimson Slab",
+      "imagePath": "/block/crimson_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:dark_oak_slab": {
+      "name": "Dark Oak Slab",
+      "imagePath": "/block/dark_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+    },
+    "minecraft:daylight_detector": {
+      "name": "Daylight Detector",
+      "imagePath": "/block/daylight_detector/latest.png",
+      "wiki": "https://minecraft.wiki/w/Daylight_Detector"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:jungle_slab": {
+      "name": "Jungle Slab",
+      "imagePath": "/block/jungle_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+    },
+    "minecraft:lectern": {
+      "name": "Lectern",
+      "imagePath": "/block/lectern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lectern"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:mangrove_slab": {
+      "name": "Mangrove Slab",
+      "imagePath": "/block/mangrove_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oak_slab": {
+      "name": "Oak Slab",
+      "imagePath": "/block/oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:pale_oak_slab": {
+      "name": "Pale Oak Slab",
+      "imagePath": "/block/pale_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:poplar_slab": {
+      "name": "Poplar Slab",
+      "imagePath": "/block/poplar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:spruce_slab": {
+      "name": "Spruce Slab",
+      "imagePath": "/block/spruce_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:warped_slab": {
+      "name": "Warped Slab",
+      "imagePath": "/block/warped_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:wooden_slabs": {
+      "items": [
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:pale_oak_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:cherry_slab",
+        "minecraft:poplar_slab"
+      ]
+    }
+  }
+}

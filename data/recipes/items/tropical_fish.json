@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:tropical_fish",
+  "name": "Tropical Fish",
+  "imagePath": "/item/tropical_fish/latest.png",
+  "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:fishes", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:fishes"},
+    {"id": "minecraft:wolf_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:tropical_fish": {
+      "name": "Tropical Fish",
+      "imagePath": "/item/tropical_fish/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)"
+    }
+  }
+}

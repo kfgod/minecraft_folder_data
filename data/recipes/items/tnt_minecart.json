@@ -1,0 +1,29 @@
+{
+  "id": "minecraft:tnt_minecart",
+  "name": "Minecart with TNT",
+  "imagePath": "/item/tnt_minecart/latest.png",
+  "wiki": "https://minecraft.wiki/w/Minecart_with_TNT",
+  "recipes": [
+    {
+      "id": "minecraft:tnt_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:tnt"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:tnt_minecart", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    },
+    "minecraft:tnt": {"name": "TNT", "imagePath": "/block/tnt/latest.png", "wiki": "https://minecraft.wiki/w/TNT"},
+    "minecraft:tnt_minecart": {
+      "name": "Minecart with TNT",
+      "imagePath": "/item/tnt_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_TNT"
+    }
+  }
+}

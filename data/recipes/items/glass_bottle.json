@@ -1,0 +1,51 @@
+{
+  "id": "minecraft:glass_bottle",
+  "name": "Glass Bottle",
+  "imagePath": "/item/glass_bottle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glass_Bottle",
+  "recipes": [
+    {
+      "id": "minecraft:glass_bottle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:glass"], null, ["minecraft:glass"]], [null, ["minecraft:glass"], null]],
+      "result": {"id": "minecraft:glass_bottle", "count": 3}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:honey_bottle",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:honey_block"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"]
+      ],
+      "result": {"id": "minecraft:honey_bottle", "count": 4}
+    }
+  ],
+  "tags": [{"id": "minecraft:brewing_potion_inputs", "registry": "item"}],
+  "refs": {
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:glass_bottle": {
+      "name": "Glass Bottle",
+      "imagePath": "/item/glass_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Bottle"
+    },
+    "minecraft:honey_block": {
+      "name": "Honey Block",
+      "imagePath": "/block/honey_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Block"
+    },
+    "minecraft:honey_bottle": {
+      "name": "Honey Bottle",
+      "imagePath": "/item/honey_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+    }
+  }
+}

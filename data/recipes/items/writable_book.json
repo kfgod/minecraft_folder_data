@@ -1,0 +1,51 @@
+{
+  "id": "minecraft:writable_book",
+  "name": "Book and Quill",
+  "imagePath": "/item/writable_book/latest.png",
+  "wiki": "https://minecraft.wiki/w/Book_and_Quill",
+  "recipes": [
+    {
+      "id": "minecraft:writable_book",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:book"], ["minecraft:ink_sac"], ["minecraft:feather"]],
+      "result": {"id": "minecraft:writable_book", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:book_cloning",
+      "type": "crafting_special_bookcloning",
+      "inputs": {"material": ["#minecraft:book_cloning_target"], "source": ["minecraft:written_book"]},
+      "result": {"id": "minecraft:written_book", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:book_cloning_target", "registry": "item"},
+    {"id": "minecraft:bookshelf_books", "registry": "item"},
+    {"id": "minecraft:lectern_books", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:book": {"name": "Book", "imagePath": "/item/book/latest.png", "wiki": "https://minecraft.wiki/w/Book"},
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:ink_sac": {
+      "name": "Ink Sac",
+      "imagePath": "/item/ink_sac/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ink_Sac"
+    },
+    "minecraft:writable_book": {
+      "name": "Book and Quill",
+      "imagePath": "/item/writable_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Book_and_Quill"
+    },
+    "minecraft:written_book": {
+      "name": "Written Book",
+      "imagePath": "/item/written_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Written_Book"
+    },
+    "#minecraft:book_cloning_target": {"items": ["minecraft:writable_book"]}
+  }
+}

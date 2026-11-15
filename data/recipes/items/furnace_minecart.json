@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:furnace_minecart",
+  "name": "Minecart with Furnace",
+  "imagePath": "/item/furnace_minecart/latest.png",
+  "wiki": "https://minecraft.wiki/w/Minecart_with_Furnace",
+  "recipes": [
+    {
+      "id": "minecraft:furnace_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:furnace"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:furnace_minecart", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:furnace_minecart": {
+      "name": "Minecart with Furnace",
+      "imagePath": "/item/furnace_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_Furnace"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    }
+  }
+}

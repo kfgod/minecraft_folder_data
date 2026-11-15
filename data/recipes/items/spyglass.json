@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:spyglass",
+  "name": "Spyglass",
+  "imagePath": "/item/spyglass/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spyglass",
+  "recipes": [
+    {
+      "id": "minecraft:spyglass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:amethyst_shard"], null],
+        [null, ["minecraft:copper_ingot"], null],
+        [null, ["minecraft:copper_ingot"], null]
+      ],
+      "result": {"id": "minecraft:spyglass", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:spyglass": {
+      "name": "Spyglass",
+      "imagePath": "/item/spyglass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spyglass"
+    }
+  }
+}

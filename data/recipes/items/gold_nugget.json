@@ -1,0 +1,421 @@
+{
+  "id": "minecraft:gold_nugget",
+  "name": "Gold Nugget",
+  "imagePath": "/item/gold_nugget/latest.png",
+  "wiki": "https://minecraft.wiki/w/Gold_Nugget",
+  "recipes": [
+    {
+      "id": "minecraft:gold_nugget_from_blasting",
+      "type": "blasting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:golden_pickaxe",
+          "minecraft:golden_shovel",
+          "minecraft:golden_axe",
+          "minecraft:golden_hoe",
+          "minecraft:golden_sword",
+          "minecraft:golden_spear",
+          "minecraft:golden_helmet",
+          "minecraft:golden_chestplate",
+          "minecraft:golden_leggings",
+          "minecraft:golden_boots",
+          "minecraft:golden_horse_armor",
+          "minecraft:golden_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:gold_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:gold_ingot"]],
+      "result": {"id": "minecraft:gold_nugget", "count": 9}
+    },
+    {
+      "id": "minecraft:gold_nugget_from_smelting",
+      "type": "smelting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:golden_pickaxe",
+          "minecraft:golden_shovel",
+          "minecraft:golden_axe",
+          "minecraft:golden_hoe",
+          "minecraft:golden_sword",
+          "minecraft:golden_spear",
+          "minecraft:golden_helmet",
+          "minecraft:golden_chestplate",
+          "minecraft:golden_leggings",
+          "minecraft:golden_boots",
+          "minecraft:golden_horse_armor",
+          "minecraft:golden_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:gold_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:melon_slice"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:glistering_melon_slice", "count": 1}
+    },
+    {
+      "id": "minecraft:gold_ingot_from_nuggets",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:gold_ingot", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_carrot",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:carrot"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:golden_carrot", "count": 1}
+    },
+    {
+      "id": "minecraft:golden_dandelion",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:dandelion"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:golden_dandelion", "count": 1}
+    },
+    {
+      "id": "minecraft:name_tag",
+      "type": "crafting_shaped",
+      "grid": [[null, ["#minecraft:metal_nuggets"]], [["minecraft:paper"], null]],
+      "result": {"id": "minecraft:name_tag", "count": 1}
+    },
+    {
+      "id": "minecraft:firework_star",
+      "type": "crafting_special_firework_star",
+      "inputs": {
+        "dye": ["#minecraft:dyes"],
+        "fuel": ["minecraft:gunpowder"],
+        "trail": ["minecraft:diamond"],
+        "twinkle": ["minecraft:glowstone_dust"],
+        "shape.burst": ["minecraft:feather"],
+        "shape.creeper": ["#minecraft:skulls"],
+        "shape.large_ball": ["minecraft:fire_charge"],
+        "shape.star": ["minecraft:gold_nugget"]
+      },
+      "result": {"id": "minecraft:firework_star", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:metal_nuggets", "registry": "item"}],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:creeper_head": {
+      "name": "Creeper Head",
+      "imagePath": "/block/creeper_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Head"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:dandelion": {
+      "name": "Dandelion",
+      "imagePath": "/block/dandelion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dandelion"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:dragon_head": {
+      "name": "Dragon Head",
+      "imagePath": "/block/dragon_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dragon_Head"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:fire_charge": {
+      "name": "Fire Charge",
+      "imagePath": "/item/fire_charge/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fire_Charge"
+    },
+    "minecraft:firework_star": {
+      "name": "Firework Star",
+      "imagePath": "/item/firework_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Star"
+    },
+    "minecraft:glistering_melon_slice": {
+      "name": "Glistering Melon Slice",
+      "imagePath": "/item/glistering_melon_slice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glistering_Melon_Slice"
+    },
+    "minecraft:glowstone_dust": {
+      "name": "Glowstone Dust",
+      "imagePath": "/item/glowstone_dust/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:golden_axe": {
+      "name": "Golden Axe",
+      "imagePath": "/item/golden_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Axe"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_carrot": {
+      "name": "Golden Carrot",
+      "imagePath": "/item/golden_carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Carrot"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_dandelion": {
+      "name": "Golden Dandelion",
+      "imagePath": "/block/golden_dandelion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Dandelion"
+    },
+    "minecraft:golden_helmet": {
+      "name": "Golden Helmet",
+      "imagePath": "/item/golden_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Helmet"
+    },
+    "minecraft:golden_hoe": {
+      "name": "Golden Hoe",
+      "imagePath": "/item/golden_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Hoe"
+    },
+    "minecraft:golden_horse_armor": {
+      "name": "Golden Horse Armor",
+      "imagePath": "/item/golden_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:golden_nautilus_armor": {
+      "name": "Golden Nautilus Armor",
+      "imagePath": "/item/golden_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor"
+    },
+    "minecraft:golden_pickaxe": {
+      "name": "Golden Pickaxe",
+      "imagePath": "/item/golden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Pickaxe"
+    },
+    "minecraft:golden_shovel": {
+      "name": "Golden Shovel",
+      "imagePath": "/item/golden_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Shovel"
+    },
+    "minecraft:golden_spear": {
+      "name": "Golden Spear",
+      "imagePath": "/item/golden_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Golden"
+    },
+    "minecraft:golden_sword": {
+      "name": "Golden Sword",
+      "imagePath": "/item/golden_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Sword"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:melon_slice": {
+      "name": "Melon Slice",
+      "imagePath": "/item/melon_slice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon_Slice"
+    },
+    "minecraft:name_tag": {
+      "name": "Name Tag",
+      "imagePath": "/item/name_tag/latest.png",
+      "wiki": "https://minecraft.wiki/w/Name_Tag"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:piglin_head": {
+      "name": "Piglin Head",
+      "imagePath": "/block/piglin_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piglin_Head"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:player_head": {
+      "name": "Player Head",
+      "imagePath": "/block/player_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Player_Head"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:skeleton_skull": {
+      "name": "Skeleton Skull",
+      "imagePath": "/block/skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skeleton_Skull"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "name": "Wither Skeleton Skull",
+      "imagePath": "/block/wither_skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:zombie_head": {
+      "name": "Zombie Head",
+      "imagePath": "/block/zombie_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Zombie_Head"
+    },
+    "#minecraft:dyes": {
+      "items": [
+        "minecraft:white_dye",
+        "minecraft:orange_dye",
+        "minecraft:magenta_dye",
+        "minecraft:light_blue_dye",
+        "minecraft:yellow_dye",
+        "minecraft:lime_dye",
+        "minecraft:pink_dye",
+        "minecraft:gray_dye",
+        "minecraft:light_gray_dye",
+        "minecraft:cyan_dye",
+        "minecraft:purple_dye",
+        "minecraft:blue_dye",
+        "minecraft:brown_dye",
+        "minecraft:green_dye",
+        "minecraft:red_dye",
+        "minecraft:black_dye"
+      ]
+    },
+    "#minecraft:metal_nuggets": {"items": ["minecraft:copper_nugget", "minecraft:iron_nugget", "minecraft:gold_nugget"]},
+    "#minecraft:skulls": {
+      "items": [
+        "minecraft:player_head",
+        "minecraft:creeper_head",
+        "minecraft:zombie_head",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:dragon_head",
+        "minecraft:piglin_head"
+      ]
+    }
+  }
+}

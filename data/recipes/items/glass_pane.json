@@ -1,0 +1,387 @@
+{
+  "id": "minecraft:glass_pane",
+  "name": "Glass Pane",
+  "imagePath": "/block/glass_pane/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glass_Pane",
+  "recipes": [
+    {
+      "id": "minecraft:glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:glass_pane", "count": 16}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:black_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:black_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:black_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:blue_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:blue_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:blue_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:brown_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:brown_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:cyan_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:cyan_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:cyan_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:gray_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:gray_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:gray_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:green_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:green_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:green_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:light_blue_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:light_blue_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:light_blue_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:light_gray_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:light_gray_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:light_gray_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:lime_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:lime_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:lime_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:magenta_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:magenta_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:magenta_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:orange_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:orange_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:orange_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:pink_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:pink_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:pink_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:purple_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:purple_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:purple_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:red_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:red_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:red_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:white_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:white_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:white_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:yellow_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:yellow_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:yellow_stained_glass_pane", "count": 8}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    }
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_stained_glass_pane": {
+      "name": "Black Stained Glass Pane",
+      "imagePath": "/block/black_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_stained_glass_pane": {
+      "name": "Blue Stained Glass Pane",
+      "imagePath": "/block/blue_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_stained_glass_pane": {
+      "name": "Brown Stained Glass Pane",
+      "imagePath": "/block/brown_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_stained_glass_pane": {
+      "name": "Cyan Stained Glass Pane",
+      "imagePath": "/block/cyan_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:glass_pane": {
+      "name": "Glass Pane",
+      "imagePath": "/block/glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Pane"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_stained_glass_pane": {
+      "name": "Gray Stained Glass Pane",
+      "imagePath": "/block/gray_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_stained_glass_pane": {
+      "name": "Green Stained Glass Pane",
+      "imagePath": "/block/green_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_stained_glass_pane": {
+      "name": "Light Blue Stained Glass Pane",
+      "imagePath": "/block/light_blue_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_stained_glass_pane": {
+      "name": "Light Gray Stained Glass Pane",
+      "imagePath": "/block/light_gray_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_stained_glass_pane": {
+      "name": "Lime Stained Glass Pane",
+      "imagePath": "/block/lime_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_stained_glass_pane": {
+      "name": "Magenta Stained Glass Pane",
+      "imagePath": "/block/magenta_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_stained_glass_pane": {
+      "name": "Orange Stained Glass Pane",
+      "imagePath": "/block/orange_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_stained_glass_pane": {
+      "name": "Pink Stained Glass Pane",
+      "imagePath": "/block/pink_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_stained_glass_pane": {
+      "name": "Purple Stained Glass Pane",
+      "imagePath": "/block/purple_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_stained_glass_pane": {
+      "name": "Red Stained Glass Pane",
+      "imagePath": "/block/red_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_stained_glass_pane": {
+      "name": "White Stained Glass Pane",
+      "imagePath": "/block/white_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_stained_glass_pane": {
+      "name": "Yellow Stained Glass Pane",
+      "imagePath": "/block/yellow_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow"
+    }
+  }
+}

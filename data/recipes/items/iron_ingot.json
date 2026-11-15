@@ -1,0 +1,1279 @@
+{
+  "id": "minecraft:iron_ingot",
+  "name": "Iron Ingot",
+  "imagePath": "/item/iron_ingot/latest.png",
+  "wiki": "https://minecraft.wiki/w/Iron_Ingot",
+  "recipes": [
+    {
+      "id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:deepslate_iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_blasting_iron_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_blasting_raw_iron",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:raw_iron"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_nuggets",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:iron_ingot", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_iron_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:iron_block"]],
+      "result": {"id": "minecraft:iron_ingot", "count": 9}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:deepslate_iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_iron_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:iron_ore"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_raw_iron",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:raw_iron"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:activator_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone_torch"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:activator_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:anvil",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_block"], ["minecraft:iron_block"], ["minecraft:iron_block"]],
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:anvil", "count": 1}
+    },
+    {
+      "id": "minecraft:blast_furnace",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:furnace"], ["minecraft:iron_ingot"]],
+        [["minecraft:smooth_stone"], ["minecraft:smooth_stone"], ["minecraft:smooth_stone"]]
+      ],
+      "result": {"id": "minecraft:blast_furnace", "count": 1}
+    },
+    {
+      "id": "minecraft:bucket",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:bucket", "count": 1}
+    },
+    {
+      "id": "minecraft:cauldron",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:cauldron", "count": 1}
+    },
+    {
+      "id": "minecraft:compass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:iron_ingot"], ["minecraft:redstone"], ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:compass", "count": 1}
+    },
+    {
+      "id": "minecraft:crafter",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:crafting_table"], ["minecraft:iron_ingot"]],
+        [["minecraft:redstone"], ["minecraft:dropper"], ["minecraft:redstone"]]
+      ],
+      "result": {"id": "minecraft:crafter", "count": 1}
+    },
+    {
+      "id": "minecraft:crossbow",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:iron_ingot"], ["minecraft:stick"]],
+        [["minecraft:string"], ["minecraft:tripwire_hook"], ["minecraft:string"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crossbow", "count": 1}
+    },
+    {
+      "id": "minecraft:detector_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stone_pressure_plate"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:detector_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:heavy_weighted_pressure_plate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]],
+      "result": {"id": "minecraft:heavy_weighted_pressure_plate", "count": 1}
+    },
+    {
+      "id": "minecraft:hopper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:chest"], ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:hopper", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"], ["#minecraft:iron_tool_materials"]],
+        [["#minecraft:iron_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_bars",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_bars", "count": 16}
+    },
+    {
+      "id": "minecraft:iron_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_block", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_boots",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_boots", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:iron_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_chestplate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_chestplate", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_door",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_door", "count": 3}
+    },
+    {
+      "id": "minecraft:iron_helmet",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_helmet", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"], ["#minecraft:iron_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_leggings",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_leggings", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:iron_tool_materials"],
+          ["#minecraft:iron_tool_materials"],
+          ["#minecraft:iron_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:iron_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:iron_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:iron_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:iron_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:iron_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:iron_tool_materials"]],
+        [["#minecraft:iron_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:iron_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_trapdoor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:iron_trapdoor", "count": 1}
+    },
+    {
+      "id": "minecraft:lodestone",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:chiseled_stone_bricks"],
+          ["minecraft:chiseled_stone_bricks"],
+          ["minecraft:chiseled_stone_bricks"]
+        ],
+        [
+          ["minecraft:chiseled_stone_bricks"],
+          ["minecraft:iron_ingot"],
+          ["minecraft:chiseled_stone_bricks"]
+        ],
+        [
+          ["minecraft:chiseled_stone_bricks"],
+          ["minecraft:chiseled_stone_bricks"],
+          ["minecraft:chiseled_stone_bricks"]
+        ]
+      ],
+      "result": {"id": "minecraft:lodestone", "count": 1}
+    },
+    {
+      "id": "minecraft:minecart",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:minecart", "count": 1}
+    },
+    {
+      "id": "minecraft:piston",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:cobblestone"], ["minecraft:iron_ingot"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:piston", "count": 1}
+    },
+    {
+      "id": "minecraft:rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:rail", "count": 16}
+    },
+    {
+      "id": "minecraft:saddle",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:leather"], null],
+        [["minecraft:leather"], ["minecraft:iron_ingot"], ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:saddle", "count": 1}
+    },
+    {
+      "id": "minecraft:shears",
+      "type": "crafting_shaped",
+      "grid": [[null, ["minecraft:iron_ingot"]], [["minecraft:iron_ingot"], null]],
+      "result": {"id": "minecraft:shears", "count": 1}
+    },
+    {
+      "id": "minecraft:shield",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["minecraft:iron_ingot"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["#minecraft:wooden_tool_materials"], null]
+      ],
+      "result": {"id": "minecraft:shield", "count": 1}
+    },
+    {
+      "id": "minecraft:smithing_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:smithing_table", "count": 1}
+    },
+    {
+      "id": "minecraft:stonecutter",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:stonecutter", "count": 1}
+    },
+    {
+      "id": "minecraft:tripwire_hook",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_ingot"]], [["minecraft:stick"]], [["#minecraft:planks"]]],
+      "result": {"id": "minecraft:tripwire_hook", "count": 2}
+    },
+    {
+      "id": "minecraft:flint_and_steel",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:iron_ingot"], ["minecraft:flint"]],
+      "result": {"id": "minecraft:flint_and_steel", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:iron_ingot"]],
+      "result": {"id": "minecraft:iron_nugget", "count": 9}
+    },
+    {
+      "id": "minecraft:bolt_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:bolt_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:coast_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:coast_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:dune_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:dune_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:eye_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:eye_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:flow_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:flow_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:host_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:host_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:raiser_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:raiser_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:rib_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:rib_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:sentry_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:shaper_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:shaper_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:silence_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:snout_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:snout_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:spire_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:spire_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:tide_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:tide_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:vex_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:vex_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:ward_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:ward_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wayfinder_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wayfinder_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wild_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wild_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:chain", "count": 1},
+      "removed": "1.21.9"
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:beacon_payment_items", "registry": "item"},
+    {"id": "minecraft:iron_tool_materials", "registry": "item"},
+    {"id": "minecraft:repairs_chain_armor", "registry": "item"},
+    {"id": "minecraft:repairs_iron_armor", "registry": "item"},
+    {"id": "minecraft:trim_materials", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:activator_rail": {
+      "name": "Activator Rail",
+      "imagePath": "/block/activator_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Activator_Rail"
+    },
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:anvil": {
+      "name": "Anvil",
+      "imagePath": "/block/anvil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Anvil#Undamaged"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:blast_furnace": {
+      "name": "Blast Furnace",
+      "imagePath": "/block/blast_furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blast_Furnace"
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+      "name": "Bolt Armor Trim",
+      "imagePath": "/item/bolt_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim"
+    },
+    "minecraft:bucket": {
+      "name": "Bucket",
+      "imagePath": "/item/bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket"
+    },
+    "minecraft:cauldron": {
+      "name": "Cauldron",
+      "imagePath": "/block/cauldron/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cauldron"
+    },
+    "minecraft:chain": {"name": "Chain"},
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:chiseled_stone_bricks": {
+      "name": "Chiseled Stone Bricks",
+      "imagePath": "/block/chiseled_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks"
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+      "name": "Coast Armor Trim",
+      "imagePath": "/item/coast_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:compass": {
+      "name": "Compass",
+      "imagePath": "/item/compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Compass"
+    },
+    "minecraft:copper_boots": {
+      "name": "Copper Boots",
+      "imagePath": "/item/copper_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Boots"
+    },
+    "minecraft:copper_chestplate": {
+      "name": "Copper Chestplate",
+      "imagePath": "/item/copper_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+    },
+    "minecraft:copper_helmet": {
+      "name": "Copper Helmet",
+      "imagePath": "/item/copper_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_leggings": {
+      "name": "Copper Leggings",
+      "imagePath": "/item/copper_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+    },
+    "minecraft:crafter": {
+      "name": "Crafter",
+      "imagePath": "/block/crafter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crafter"
+    },
+    "minecraft:crafting_table": {
+      "name": "Crafting Table",
+      "imagePath": "/block/crafting_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crafting_Table"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crossbow": {
+      "name": "Crossbow",
+      "imagePath": "/item/crossbow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crossbow"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:deepslate_iron_ore": {
+      "name": "Deepslate Iron Ore",
+      "imagePath": "/block/deepslate_iron_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ore"
+    },
+    "minecraft:detector_rail": {
+      "name": "Detector Rail",
+      "imagePath": "/block/detector_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Detector_Rail"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_boots": {
+      "name": "Diamond Boots",
+      "imagePath": "/item/diamond_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "Diamond Chestplate",
+      "imagePath": "/item/diamond_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+    },
+    "minecraft:diamond_leggings": {
+      "name": "Diamond Leggings",
+      "imagePath": "/item/diamond_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+    },
+    "minecraft:dropper": {
+      "name": "Dropper",
+      "imagePath": "/block/dropper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dropper"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "name": "Dune Armor Trim",
+      "imagePath": "/item/dune_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+    },
+    "minecraft:emerald": {
+      "name": "Emerald",
+      "imagePath": "/item/emerald/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald"
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+      "name": "Eye Armor Trim",
+      "imagePath": "/item/eye_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim"
+    },
+    "minecraft:flint": {
+      "name": "Flint",
+      "imagePath": "/item/flint/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint"
+    },
+    "minecraft:flint_and_steel": {
+      "name": "Flint and Steel",
+      "imagePath": "/item/flint_and_steel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flint_and_Steel"
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+      "name": "Flow Armor Trim",
+      "imagePath": "/item/flow_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim"
+    },
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "name": "Heavy Weighted Pressure Plate",
+      "imagePath": "/block/heavy_weighted_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate"
+    },
+    "minecraft:hopper": {
+      "name": "Hopper",
+      "imagePath": "/block/hopper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hopper"
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "name": "Host Armor Trim",
+      "imagePath": "/item/host_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
+    },
+    "minecraft:iron_axe": {
+      "name": "Iron Axe",
+      "imagePath": "/item/iron_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Axe"
+    },
+    "minecraft:iron_bars": {
+      "name": "Iron Bars",
+      "imagePath": "/block/iron_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Bars"
+    },
+    "minecraft:iron_block": {
+      "name": "Block of Iron",
+      "imagePath": "/block/iron_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Iron"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chain": {
+      "name": "Iron Chain",
+      "imagePath": "/block/iron_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chain"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_door": {
+      "name": "Iron Door",
+      "imagePath": "/block/iron_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Door"
+    },
+    "minecraft:iron_helmet": {
+      "name": "Iron Helmet",
+      "imagePath": "/item/iron_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Helmet"
+    },
+    "minecraft:iron_hoe": {
+      "name": "Iron Hoe",
+      "imagePath": "/item/iron_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Hoe"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:iron_ore": {
+      "name": "Iron Ore",
+      "imagePath": "/block/iron_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ore"
+    },
+    "minecraft:iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "imagePath": "/item/iron_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Pickaxe"
+    },
+    "minecraft:iron_shovel": {
+      "name": "Iron Shovel",
+      "imagePath": "/item/iron_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Shovel"
+    },
+    "minecraft:iron_spear": {
+      "name": "Iron Spear",
+      "imagePath": "/item/iron_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Iron"
+    },
+    "minecraft:iron_sword": {
+      "name": "Iron Sword",
+      "imagePath": "/item/iron_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Sword"
+    },
+    "minecraft:iron_trapdoor": {
+      "name": "Iron Trapdoor",
+      "imagePath": "/block/iron_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Trapdoor"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "Lapis Lazuli",
+      "imagePath": "/item/lapis_lazuli/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:lodestone": {
+      "name": "Lodestone",
+      "imagePath": "/block/lodestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lodestone"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    },
+    "minecraft:netherite_boots": {
+      "name": "Netherite Boots",
+      "imagePath": "/item/netherite_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "Netherite Chestplate",
+      "imagePath": "/item/netherite_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_leggings": {
+      "name": "Netherite Leggings",
+      "imagePath": "/item/netherite_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:piston": {
+      "name": "Piston",
+      "imagePath": "/block/piston/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piston"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:rail": {"name": "Rail", "imagePath": "/block/rail/latest.png", "wiki": "https://minecraft.wiki/w/Rail"},
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "name": "Raiser Armor Trim",
+      "imagePath": "/item/raiser_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+    },
+    "minecraft:raw_iron": {
+      "name": "Raw Iron",
+      "imagePath": "/item/raw_iron/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Iron"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "name": "Rib Armor Trim",
+      "imagePath": "/item/rib_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
+    },
+    "minecraft:saddle": {
+      "name": "Saddle",
+      "imagePath": "/item/saddle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Saddle"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "name": "Sentry Armor Trim",
+      "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "name": "Shaper Armor Trim",
+      "imagePath": "/item/shaper_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+    },
+    "minecraft:shears": {
+      "name": "Shears",
+      "imagePath": "/item/shears/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shears"
+    },
+    "minecraft:shield": {
+      "name": "Shield",
+      "imagePath": "/item/shield/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shield"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "name": "Silence Armor Trim",
+      "imagePath": "/item/silence_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+    },
+    "minecraft:smithing_table": {
+      "name": "Smithing Table",
+      "imagePath": "/block/smithing_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smithing_Table"
+    },
+    "minecraft:smooth_stone": {
+      "name": "Smooth Stone",
+      "imagePath": "/block/smooth_stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone"
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "name": "Snout Armor Trim",
+      "imagePath": "/item/snout_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "name": "Spire Armor Trim",
+      "imagePath": "/item/spire_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:stone_pressure_plate": {
+      "name": "Stone Pressure Plate",
+      "imagePath": "/block/stone_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate"
+    },
+    "minecraft:stonecutter": {
+      "name": "Stonecutter",
+      "imagePath": "/block/stonecutter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stonecutter"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "name": "Tide Armor Trim",
+      "imagePath": "/item/tide_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+      "name": "Vex Armor Trim",
+      "imagePath": "/item/vex_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "name": "Ward Armor Trim",
+      "imagePath": "/item/ward_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "name": "Wayfinder Armor Trim",
+      "imagePath": "/item/wayfinder_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "name": "Wild Armor Trim",
+      "imagePath": "/item/wild_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
+    },
+    "#minecraft:iron_tool_materials": {"items": ["minecraft:iron_ingot"]},
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:trim_materials": {
+      "items": [
+        "minecraft:amethyst_shard",
+        "minecraft:copper_ingot",
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:lapis_lazuli",
+        "minecraft:netherite_ingot",
+        "minecraft:quartz",
+        "minecraft:redstone",
+        "minecraft:resin_brick"
+      ]
+    },
+    "#minecraft:trimmable_armor": {
+      "items": [
+        "minecraft:leather_boots",
+        "minecraft:copper_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:golden_boots",
+        "minecraft:iron_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots",
+        "minecraft:leather_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:chainmail_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:copper_chestplate",
+        "minecraft:chainmail_chestplate",
+        "minecraft:golden_chestplate",
+        "minecraft:iron_chestplate",
+        "minecraft:diamond_chestplate",
+        "minecraft:netherite_chestplate",
+        "minecraft:leather_helmet",
+        "minecraft:copper_helmet",
+        "minecraft:chainmail_helmet"
+      ]
+    },
+    "#minecraft:wooden_tool_materials": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

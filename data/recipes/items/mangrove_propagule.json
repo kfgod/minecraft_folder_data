@@ -1,0 +1,38 @@
+{
+  "id": "minecraft:mangrove_propagule",
+  "name": "Mangrove Propagule",
+  "imagePath": "/block/mangrove_propagule/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mangrove_Propagule",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:mangrove_logs_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mangrove_roots_can_grow_through", "registry": "block"},
+    {
+      "id": "minecraft:mineable/axe",
+      "registry": "block",
+      "via": "minecraft:saplings",
+      "removed": "1.21.5"
+    },
+    {"id": "minecraft:saplings", "registry": "block"},
+    {
+      "id": "minecraft:sword_efficient",
+      "registry": "block",
+      "via": "minecraft:saplings",
+      "removed": "1.21.5"
+    },
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:saplings"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"},
+    {"id": "minecraft:saplings", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:mangrove_propagule": {
+      "name": "Mangrove Propagule",
+      "imagePath": "/block/mangrove_propagule/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mangrove_Propagule"
+    }
+  }
+}

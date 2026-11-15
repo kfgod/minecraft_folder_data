@@ -1,0 +1,58 @@
+{
+  "id": "minecraft:crossbow",
+  "name": "Crossbow",
+  "imagePath": "/item/crossbow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Crossbow",
+  "recipes": [
+    {
+      "id": "minecraft:crossbow",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:iron_ingot"], ["minecraft:stick"]],
+        [["minecraft:string"], ["minecraft:tripwire_hook"], ["minecraft:string"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crossbow", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/crossbow", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:piglin_preferred_weapons", "registry": "item"},
+    {"id": "minecraft:pillager_preferred_weapons", "registry": "item"},
+    {"id": "minecraft:wither_skeleton_disliked_weapons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:crossbow": {
+      "name": "Crossbow",
+      "imagePath": "/item/crossbow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crossbow"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "minecraft:leather_horse_armor",
+  "name": "Leather Horse Armor",
+  "imagePath": "/item/leather_horse_armor/latest.png",
+  "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor",
+  "recipes": [
+    {
+      "id": "minecraft:leather_horse_armor_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_horse_armor"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_horse_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_horse_armor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], null, ["minecraft:leather"]],
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_horse_armor", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:cauldron_can_remove_dye", "registry": "item"},
+    {"id": "minecraft:dyeable", "registry": "item", "removed": "26.1.2"},
+    {"id": "minecraft:freeze_immune_wearables", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:leather_horse_armor": {
+      "name": "Leather Horse Armor",
+      "imagePath": "/item/leather_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "#minecraft:dyes": {
+      "items": [
+        "minecraft:white_dye",
+        "minecraft:orange_dye",
+        "minecraft:magenta_dye",
+        "minecraft:light_blue_dye",
+        "minecraft:yellow_dye",
+        "minecraft:lime_dye",
+        "minecraft:pink_dye",
+        "minecraft:gray_dye",
+        "minecraft:light_gray_dye",
+        "minecraft:cyan_dye",
+        "minecraft:purple_dye",
+        "minecraft:blue_dye",
+        "minecraft:brown_dye",
+        "minecraft:green_dye",
+        "minecraft:red_dye",
+        "minecraft:black_dye"
+      ]
+    }
+  }
+}

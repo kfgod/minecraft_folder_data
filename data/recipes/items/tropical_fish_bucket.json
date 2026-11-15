@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:tropical_fish_bucket",
+  "name": "Bucket of Tropical Fish",
+  "imagePath": "/item/tropical_fish_bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:axolotl_food", "registry": "item"},
+    {"id": "minecraft:axolotl_tempt_items", "registry": "item", "removed": "1.20.6"},
+    {"id": "minecraft:nautilus_bucket_food", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:nautilus_bucket_food"}
+  ],
+  "refs": {
+    "minecraft:tropical_fish_bucket": {
+      "name": "Bucket of Tropical Fish",
+      "imagePath": "/item/tropical_fish_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish"
+    }
+  }
+}

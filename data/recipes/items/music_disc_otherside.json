@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:music_disc_otherside",
+  "name": "Music Disc otherside",
+  "imagePath": "/item/music_disc_otherside/latest.png",
+  "wiki": "https://minecraft.wiki/w/Music_Disc_otherside",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:music_discs", "registry": "item", "removed": "1.21"}],
+  "refs": {
+    "minecraft:music_disc_otherside": {
+      "name": "Music Disc otherside",
+      "imagePath": "/item/music_disc_otherside/latest.png",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_otherside"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:pale_hanging_moss",
+  "name": "Pale Hanging Moss",
+  "imagePath": "/block/pale_hanging_moss/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pale_Hanging_Moss",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:pale_hanging_moss": {
+      "name": "Pale Hanging Moss",
+      "imagePath": "/block/pale_hanging_moss/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pale_Hanging_Moss"
+    }
+  }
+}

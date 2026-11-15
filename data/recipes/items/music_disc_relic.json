@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:music_disc_relic",
+  "name": "Music Disc Relic",
+  "imagePath": "/item/music_disc_relic/latest.png",
+  "wiki": "https://minecraft.wiki/w/Music_Disc_Relic",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:music_discs", "registry": "item", "removed": "1.21"}],
+  "refs": {
+    "minecraft:music_disc_relic": {
+      "name": "Music Disc Relic",
+      "imagePath": "/item/music_disc_relic/latest.png",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_Relic"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:oak_boat",
+  "name": "Oak Boat",
+  "imagePath": "/item/oak_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Oak",
+  "recipes": [
+    {
+      "id": "minecraft:oak_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:oak_planks"], null, ["minecraft:oak_planks"]],
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]]
+      ],
+      "result": {"id": "minecraft:oak_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:oak_boat"]],
+      "result": {"id": "minecraft:oak_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:oak_boat": {
+      "name": "Oak Boat",
+      "imagePath": "/item/oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Oak"
+    },
+    "minecraft:oak_chest_boat": {
+      "name": "Oak Boat with Chest",
+      "imagePath": "/item/oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    }
+  }
+}

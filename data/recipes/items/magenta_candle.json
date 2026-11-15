@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:magenta_candle",
+  "name": "Magenta Candle",
+  "imagePath": "/block/magenta_candle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Candle#Magenta",
+  "recipes": [
+    {
+      "id": "minecraft:magenta_candle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:candle"], ["minecraft:magenta_dye"]],
+      "result": {"id": "minecraft:magenta_candle", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:candles", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:candles"},
+    {"id": "minecraft:candles", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    },
+    "minecraft:magenta_candle": {
+      "name": "Magenta Candle",
+      "imagePath": "/block/magenta_candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    }
+  }
+}

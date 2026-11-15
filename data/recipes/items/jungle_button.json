@@ -1,0 +1,35 @@
+{
+  "id": "minecraft:jungle_button",
+  "name": "Jungle Button",
+  "imagePath": "/block/jungle_button/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle",
+  "recipes": [
+    {
+      "id": "minecraft:jungle_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:jungle_planks"]],
+      "result": {"id": "minecraft:jungle_button", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:buttons", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:buttons"},
+    {"id": "minecraft:wooden_buttons", "registry": "block"},
+    {"id": "minecraft:buttons", "registry": "item", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:wooden_buttons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:jungle_button": {
+      "name": "Jungle Button",
+      "imagePath": "/block/jungle_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    }
+  }
+}

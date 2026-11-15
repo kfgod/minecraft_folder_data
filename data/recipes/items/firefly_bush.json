@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:firefly_bush",
+  "name": "Firefly Bush",
+  "imagePath": "/block/firefly_bush/latest.png",
+  "wiki": "https://minecraft.wiki/w/Firefly_Bush",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:firefly_bush": {
+      "name": "Firefly Bush",
+      "imagePath": "/block/firefly_bush/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firefly_Bush"
+    }
+  }
+}

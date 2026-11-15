@@ -1,0 +1,180 @@
+{
+  "id": "minecraft:packed_ice",
+  "name": "Packed Ice",
+  "imagePath": "/block/packed_ice/latest.png",
+  "wiki": "https://minecraft.wiki/w/Packed_Ice",
+  "recipes": [
+    {
+      "id": "minecraft:packed_ice",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"],
+        ["minecraft:ice"]
+      ],
+      "result": {"id": "minecraft:packed_ice", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:packed_ice_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:packed_ice"], ["minecraft:packed_ice"]],
+        [["minecraft:packed_ice"], ["minecraft:packed_ice"]]
+      ],
+      "result": {"id": "minecraft:packed_ice_bricks", "count": 4}
+    },
+    {
+      "id": "minecraft:blue_ice",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"],
+        ["minecraft:packed_ice"]
+      ],
+      "result": {"id": "minecraft:blue_ice", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_packed_ice_from_packed_ice_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:packed_ice"]},
+      "result": {"id": "minecraft:chiseled_packed_ice", "count": 1}
+    },
+    {
+      "id": "minecraft:packed_ice_brick_slab_from_packed_ice_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:packed_ice"]},
+      "result": {"id": "minecraft:packed_ice_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:packed_ice_brick_stairs_from_packed_ice_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:packed_ice"]},
+      "result": {"id": "minecraft:packed_ice_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:packed_ice_brick_wall_from_packed_ice_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:packed_ice"]},
+      "result": {"id": "minecraft:packed_ice_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_from_packed_ice_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:packed_ice"]},
+      "result": {"id": "minecraft:packed_ice_bricks", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:ice"},
+    {"id": "minecraft:cannot_support_snow_layer", "registry": "block", "removed": "26.4-snapshot-7"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:geode_invalid_blocks", "registry": "block"},
+    {"id": "minecraft:goats_spawnable_on", "registry": "block"},
+    {"id": "minecraft:ice", "registry": "block"},
+    {"id": "minecraft:ice_cave_ore_replaceables", "registry": "block"},
+    {
+      "id": "minecraft:ice_crevasse_replaceables",
+      "registry": "block",
+      "via": "minecraft:ice_cave_ore_replaceables"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:large_icicle_replaceable", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:snaps_goat_horn", "registry": "block"},
+    {"id": "minecraft:snow_layer_cannot_survive_on", "registry": "block", "removed": "26.1.2"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_sliding", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_sliding"
+    }
+  ],
+  "refs": {
+    "minecraft:blue_ice": {
+      "name": "Blue Ice",
+      "imagePath": "/block/blue_ice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Ice"
+    },
+    "minecraft:chiseled_packed_ice": {
+      "name": "Chiseled Packed Ice",
+      "imagePath": "/block/chiseled_packed_ice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Packed_Ice"
+    },
+    "minecraft:ice": {"name": "Ice", "imagePath": "/block/ice/latest.png", "wiki": "https://minecraft.wiki/w/Ice"},
+    "minecraft:packed_ice": {
+      "name": "Packed Ice",
+      "imagePath": "/block/packed_ice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Ice"
+    },
+    "minecraft:packed_ice_brick_slab": {
+      "name": "Packed Ice Brick Slab",
+      "imagePath": "/block/packed_ice_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Slab"
+    },
+    "minecraft:packed_ice_brick_stairs": {
+      "name": "Packed Ice Brick Stairs",
+      "imagePath": "/block/packed_ice_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Stairs"
+    },
+    "minecraft:packed_ice_brick_wall": {
+      "name": "Packed Ice Brick Wall",
+      "imagePath": "/block/packed_ice_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Ice_Brick_Wall"
+    },
+    "minecraft:packed_ice_bricks": {
+      "name": "Packed Ice Bricks",
+      "imagePath": "/block/packed_ice_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Ice_Bricks"
+    }
+  }
+}

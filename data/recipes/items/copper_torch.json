@@ -1,0 +1,62 @@
+{
+  "id": "minecraft:copper_torch",
+  "name": "Copper Torch",
+  "imagePath": "/block/copper_torch/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Torch",
+  "recipes": [
+    {
+      "id": "minecraft:copper_torch",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_nugget"]],
+        [["minecraft:coal", "minecraft:charcoal"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_torch", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:copper_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_nugget"], ["minecraft:copper_nugget"], ["minecraft:copper_nugget"]],
+        [["minecraft:copper_nugget"], ["minecraft:copper_torch"], ["minecraft:copper_nugget"]],
+        [["minecraft:copper_nugget"], ["minecraft:copper_nugget"], ["minecraft:copper_nugget"]]
+      ],
+      "result": {"id": "minecraft:copper_lantern", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:charcoal": {
+      "name": "Charcoal",
+      "imagePath": "/item/charcoal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Charcoal"
+    },
+    "minecraft:coal": {"name": "Coal", "imagePath": "/item/coal/latest.png", "wiki": "https://minecraft.wiki/w/Coal"},
+    "minecraft:copper_lantern": {
+      "name": "Copper Lantern",
+      "imagePath": "/block/copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Unoxidized"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:copper_torch": {
+      "name": "Copper Torch",
+      "imagePath": "/block/copper_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Torch"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

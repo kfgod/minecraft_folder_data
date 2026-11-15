@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:soul_wall_torch",
+  "name": "Soul Wall Torch",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:piglin_repellents", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:soul_wall_torch": {"name": "Soul Wall Torch"}}
+}

@@ -1,0 +1,69 @@
+{
+  "id": "minecraft:bow",
+  "name": "Bow",
+  "imagePath": "/item/bow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bow",
+  "recipes": [
+    {
+      "id": "minecraft:bow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:bow", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dispenser",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:bow"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:dispenser", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:enchantable/bow", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:skeleton_preferred_weapons", "registry": "item"},
+    {"id": "minecraft:wither_skeleton_disliked_weapons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:bow": {"name": "Bow", "imagePath": "/item/bow/latest.png", "wiki": "https://minecraft.wiki/w/Bow"},
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:dispenser": {
+      "name": "Dispenser",
+      "imagePath": "/block/dispenser/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dispenser"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    }
+  }
+}

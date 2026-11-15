@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:glow_ink_sac",
+  "name": "Glow Ink Sac",
+  "imagePath": "/item/glow_ink_sac/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glow_Ink_Sac",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:glow_item_frame",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:item_frame"], ["minecraft:glow_ink_sac"]],
+      "result": {"id": "minecraft:glow_item_frame", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:glow_ink_sac": {
+      "name": "Glow Ink Sac",
+      "imagePath": "/item/glow_ink_sac/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glow_Ink_Sac"
+    },
+    "minecraft:glow_item_frame": {
+      "name": "Glow Item Frame",
+      "imagePath": "/block/glow_item_frame/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glow_Item_Frame"
+    },
+    "minecraft:item_frame": {
+      "name": "Item Frame",
+      "imagePath": "/block/item_frame/latest.png",
+      "wiki": "https://minecraft.wiki/w/Item_Frame"
+    }
+  }
+}

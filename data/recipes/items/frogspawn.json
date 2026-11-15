@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:frogspawn",
+  "name": "Frogspawn",
+  "imagePath": "/block/frogspawn/latest.png",
+  "wiki": "https://minecraft.wiki/w/Frogspawn",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:frogspawn": {
+      "name": "Frogspawn",
+      "imagePath": "/block/frogspawn/latest.png",
+      "wiki": "https://minecraft.wiki/w/Frogspawn"
+    }
+  }
+}

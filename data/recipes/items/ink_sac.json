@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:ink_sac",
+  "name": "Ink Sac",
+  "imagePath": "/item/ink_sac/latest.png",
+  "wiki": "https://minecraft.wiki/w/Ink_Sac",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:black_dye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:ink_sac"]],
+      "result": {"id": "minecraft:black_dye", "count": 1}
+    },
+    {
+      "id": "minecraft:writable_book",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:book"], ["minecraft:ink_sac"], ["minecraft:feather"]],
+      "result": {"id": "minecraft:writable_book", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:book": {"name": "Book", "imagePath": "/item/book/latest.png", "wiki": "https://minecraft.wiki/w/Book"},
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:ink_sac": {
+      "name": "Ink Sac",
+      "imagePath": "/item/ink_sac/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ink_Sac"
+    },
+    "minecraft:writable_book": {
+      "name": "Book and Quill",
+      "imagePath": "/item/writable_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Book_and_Quill"
+    }
+  }
+}

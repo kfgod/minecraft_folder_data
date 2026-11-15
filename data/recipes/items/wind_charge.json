@@ -1,0 +1,28 @@
+{
+  "id": "minecraft:wind_charge",
+  "name": "Wind Charge",
+  "imagePath": "/item/wind_charge/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wind_Charge",
+  "recipes": [
+    {
+      "id": "minecraft:wind_charge",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:breeze_rod"]],
+      "result": {"id": "minecraft:wind_charge", "count": 4}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:breeze_rod": {
+      "name": "Breeze Rod",
+      "imagePath": "/item/breeze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Breeze_Rod"
+    },
+    "minecraft:wind_charge": {
+      "name": "Wind Charge",
+      "imagePath": "/item/wind_charge/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wind_Charge"
+    }
+  }
+}

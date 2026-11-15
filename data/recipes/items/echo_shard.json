@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:echo_shard",
+  "name": "Echo Shard",
+  "imagePath": "/item/echo_shard/latest.png",
+  "wiki": "https://minecraft.wiki/w/Echo_Shard",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:recovery_compass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:echo_shard"], ["minecraft:echo_shard"], ["minecraft:echo_shard"]],
+        [["minecraft:echo_shard"], ["minecraft:compass"], ["minecraft:echo_shard"]],
+        [["minecraft:echo_shard"], ["minecraft:echo_shard"], ["minecraft:echo_shard"]]
+      ],
+      "result": {"id": "minecraft:recovery_compass", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:compass": {
+      "name": "Compass",
+      "imagePath": "/item/compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Compass"
+    },
+    "minecraft:echo_shard": {
+      "name": "Echo Shard",
+      "imagePath": "/item/echo_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Echo_Shard"
+    },
+    "minecraft:recovery_compass": {
+      "name": "Recovery Compass",
+      "imagePath": "/item/recovery_compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Recovery_Compass"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "minecraft:golden_apple",
+  "name": "Golden Apple",
+  "imagePath": "/item/golden_apple/latest.png",
+  "wiki": "https://minecraft.wiki/w/Golden_Apple",
+  "recipes": [
+    {
+      "id": "minecraft:golden_apple",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_ingot"], ["minecraft:gold_ingot"], ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:apple"], ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:gold_ingot"], ["minecraft:gold_ingot"]]
+      ],
+      "result": {"id": "minecraft:golden_apple", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:horse_food", "registry": "item"},
+    {"id": "minecraft:horse_tempt_items", "registry": "item"},
+    {"id": "minecraft:piglin_loved", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:apple": {
+      "name": "Apple",
+      "imagePath": "/item/apple/latest.png",
+      "wiki": "https://minecraft.wiki/w/Apple"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_apple": {
+      "name": "Golden Apple",
+      "imagePath": "/item/golden_apple/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Apple"
+    }
+  }
+}

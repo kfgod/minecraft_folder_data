@@ -1,0 +1,39 @@
+{
+  "id": "minecraft:snowball",
+  "name": "Snowball",
+  "imagePath": "/item/snowball/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snowball",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:snow_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snowball"], ["minecraft:snowball"]],
+        [["minecraft:snowball"], ["minecraft:snowball"]]
+      ],
+      "result": {"id": "minecraft:snow_block", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:happy_ghast_food", "registry": "item"},
+    {
+      "id": "minecraft:happy_ghast_tempt_items",
+      "registry": "item",
+      "via": "minecraft:happy_ghast_food"
+    },
+    {"id": "minecraft:knocks_back_players_even_with_zero_damage", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:snow_block": {
+      "name": "Snow Block",
+      "imagePath": "/block/snow_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Block"
+    },
+    "minecraft:snowball": {
+      "name": "Snowball",
+      "imagePath": "/item/snowball/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snowball"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "minecraft:dark_oak_leaves",
+  "name": "Dark Oak Leaves",
+  "imagePath": "/block/dark_oak_leaves/latest.png",
+  "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:leaf_litter",
+      "type": "smelting",
+      "inputs": {"ingredient": ["#minecraft:leaves"]},
+      "result": {"id": "minecraft:leaf_litter", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:blocks_motion", "registry": "block", "via": "minecraft:leaves"},
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:completes_find_tree_tutorial", "registry": "block", "via": "minecraft:leaves"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:lava_pool_stone_cannot_replace",
+      "registry": "block",
+      "via": "minecraft:leaves"
+    },
+    {"id": "minecraft:leaves", "registry": "block"},
+    {"id": "minecraft:mineable/hoe", "registry": "block", "via": "minecraft:leaves"},
+    {"id": "minecraft:parrots_spawnable_on", "registry": "block", "via": "minecraft:leaves"},
+    {"id": "minecraft:pathfinding/leaves", "registry": "block", "via": "minecraft:leaves"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block", "via": "minecraft:leaves"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block", "via": "minecraft:leaves"},
+    {
+      "id": "minecraft:shears_extreme_breaking_speed",
+      "registry": "block",
+      "via": "minecraft:leaves"
+    },
+    {"id": "minecraft:sword_efficient", "registry": "block", "via": "minecraft:leaves"},
+    {"id": "minecraft:completes_find_tree_tutorial", "registry": "item", "via": "minecraft:leaves"},
+    {"id": "minecraft:leaves", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_leaves": {
+      "name": "Acacia Leaves",
+      "imagePath": "/block/acacia_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Acacia"
+    },
+    "minecraft:azalea_leaves": {
+      "name": "Azalea Leaves",
+      "imagePath": "/block/azalea_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Azalea"
+    },
+    "minecraft:birch_leaves": {
+      "name": "Birch Leaves",
+      "imagePath": "/block/birch_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Birch"
+    },
+    "minecraft:cherry_leaves": {
+      "name": "Cherry Leaves",
+      "imagePath": "/block/cherry_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Cherry"
+    },
+    "minecraft:dark_oak_leaves": {
+      "name": "Dark Oak Leaves",
+      "imagePath": "/block/dark_oak_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak"
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "name": "Flowering Azalea Leaves",
+      "imagePath": "/block/flowering_azalea_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Flowering_Azalea"
+    },
+    "minecraft:jungle_leaves": {
+      "name": "Jungle Leaves",
+      "imagePath": "/block/jungle_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Jungle"
+    },
+    "minecraft:leaf_litter": {
+      "name": "Leaf Litter",
+      "imagePath": "/block/leaf_litter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaf_Litter"
+    },
+    "minecraft:mangrove_leaves": {
+      "name": "Mangrove Leaves",
+      "imagePath": "/block/mangrove_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Mangrove"
+    },
+    "minecraft:oak_leaves": {
+      "name": "Oak Leaves",
+      "imagePath": "/block/oak_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Oak"
+    },
+    "minecraft:orange_poplar_leaves": {
+      "name": "Orange Poplar Leaves",
+      "imagePath": "/block/orange_poplar_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar"
+    },
+    "minecraft:pale_oak_leaves": {
+      "name": "Pale Oak Leaves",
+      "imagePath": "/block/pale_oak_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak"
+    },
+    "minecraft:red_poplar_leaves": {
+      "name": "Red Poplar Leaves",
+      "imagePath": "/block/red_poplar_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar"
+    },
+    "minecraft:spruce_leaves": {
+      "name": "Spruce Leaves",
+      "imagePath": "/block/spruce_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Spruce"
+    },
+    "minecraft:yellow_poplar_leaves": {
+      "name": "Yellow Poplar Leaves",
+      "imagePath": "/block/yellow_poplar_leaves/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar"
+    },
+    "#minecraft:leaves": {
+      "items": [
+        "minecraft:jungle_leaves",
+        "minecraft:oak_leaves",
+        "minecraft:spruce_leaves",
+        "minecraft:pale_oak_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:acacia_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:azalea_leaves",
+        "minecraft:flowering_azalea_leaves",
+        "minecraft:mangrove_leaves",
+        "minecraft:cherry_leaves",
+        "minecraft:red_poplar_leaves",
+        "minecraft:orange_poplar_leaves",
+        "minecraft:yellow_poplar_leaves"
+      ]
+    }
+  }
+}

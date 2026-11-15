@@ -1,0 +1,39 @@
+{
+  "id": "minecraft:rose_bush",
+  "name": "Rose Bush",
+  "imagePath": "/block/rose_bush/latest.png",
+  "wiki": "https://minecraft.wiki/w/Rose_Bush",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:red_dye_from_rose_bush",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:rose_bush"]],
+      "result": {"id": "minecraft:red_dye", "count": 2}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bee_attractive", "registry": "block"},
+    {"id": "minecraft:flowers", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:tall_flowers", "registry": "block", "removed": "1.21.4"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:bee_food", "registry": "item"},
+    {"id": "minecraft:flowers", "registry": "item"},
+    {"id": "minecraft:tall_flowers", "registry": "item", "removed": "1.21.4"}
+  ],
+  "refs": {
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:rose_bush": {
+      "name": "Rose Bush",
+      "imagePath": "/block/rose_bush/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rose_Bush"
+    }
+  }
+}

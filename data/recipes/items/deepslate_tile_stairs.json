@@ -1,0 +1,124 @@
+{
+  "id": "minecraft:deepslate_tile_stairs",
+  "name": "Deepslate Tile Stairs",
+  "imagePath": "/block/deepslate_tile_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:deepslate_tile_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:deepslate_tiles"], null, null],
+        [["minecraft:deepslate_tiles"], ["minecraft:deepslate_tiles"], null],
+        [
+          ["minecraft:deepslate_tiles"],
+          ["minecraft:deepslate_tiles"],
+          ["minecraft:deepslate_tiles"]
+        ]
+      ],
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:deepslate_bricks"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:deepslate_tiles"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:deepslate": {
+      "name": "Deepslate",
+      "imagePath": "/block/deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate"
+    },
+    "minecraft:deepslate_bricks": {
+      "name": "Deepslate Bricks",
+      "imagePath": "/block/deepslate_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Bricks"
+    },
+    "minecraft:deepslate_tile_stairs": {
+      "name": "Deepslate Tile Stairs",
+      "imagePath": "/block/deepslate_tile_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Stairs"
+    },
+    "minecraft:deepslate_tiles": {
+      "name": "Deepslate Tiles",
+      "imagePath": "/block/deepslate_tiles/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tiles"
+    },
+    "minecraft:polished_deepslate": {
+      "name": "Polished Deepslate",
+      "imagePath": "/block/polished_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Deepslate"
+    }
+  }
+}

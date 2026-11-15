@@ -1,0 +1,894 @@
+{
+  "id": "minecraft:glass",
+  "name": "Glass",
+  "imagePath": "/block/glass/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glass",
+  "recipes": [
+    {
+      "id": "minecraft:glass",
+      "type": "smelting",
+      "inputs": {"ingredient": ["#minecraft:smelts_to_glass"]},
+      "result": {"id": "minecraft:glass", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:beacon",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:nether_star"], ["minecraft:glass"]],
+        [["minecraft:obsidian"], ["minecraft:obsidian"], ["minecraft:obsidian"]]
+      ],
+      "result": {"id": "minecraft:beacon", "count": 1}
+    },
+    {
+      "id": "minecraft:black_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:black_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:black_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:black_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:black_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:black_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:blue_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:blue_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:blue_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:blue_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:brown_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:brown_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:brown_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:brown_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:cyan_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:cyan_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:cyan_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:cyan_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:cyan_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:daylight_detector",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:quartz"], ["minecraft:quartz"], ["minecraft:quartz"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]]
+      ],
+      "result": {"id": "minecraft:daylight_detector", "count": 1}
+    },
+    {
+      "id": "minecraft:end_crystal",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ender_eye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ghast_tear"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:end_crystal", "count": 1}
+    },
+    {
+      "id": "minecraft:glass_bottle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:glass"], null, ["minecraft:glass"]], [null, ["minecraft:glass"], null]],
+      "result": {"id": "minecraft:glass_bottle", "count": 3}
+    },
+    {
+      "id": "minecraft:glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:glass_pane", "count": 16}
+    },
+    {
+      "id": "minecraft:gray_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:gray_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:gray_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:gray_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:green_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:green_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:green_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:green_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:green_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:green_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:light_blue_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:light_blue_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:light_blue_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_blue_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:light_gray_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:light_gray_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:light_gray_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_gray_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:lime_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:lime_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:lime_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:lime_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:lime_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:magenta_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:magenta_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:magenta_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:magenta_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:magenta_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:orange_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:orange_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:orange_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:orange_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:orange_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:orange_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:pink_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:pink_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:pink_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:pink_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:pink_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:pink_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:purple_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:purple_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:purple_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:purple_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:purple_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:purple_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:red_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:red_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:red_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:red_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:red_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:red_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:tinted_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:amethyst_shard"], null],
+        [["minecraft:amethyst_shard"], ["minecraft:glass"], ["minecraft:amethyst_shard"]],
+        [null, ["minecraft:amethyst_shard"], null]
+      ],
+      "result": {"id": "minecraft:tinted_glass", "count": 2}
+    },
+    {
+      "id": "minecraft:white_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:white_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:white_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:white_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:white_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:white_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:yellow_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:yellow_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:yellow_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:yellow_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:yellow_stained_glass", "count": 8}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:impermeable", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:acacia_slab": {
+      "name": "Acacia Slab",
+      "imagePath": "/block/acacia_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+    },
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    },
+    "minecraft:beacon": {
+      "name": "Beacon",
+      "imagePath": "/block/beacon/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beacon"
+    },
+    "minecraft:birch_slab": {
+      "name": "Birch Slab",
+      "imagePath": "/block/birch_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_harness": {
+      "name": "Black Harness",
+      "imagePath": "/item/black_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Black"
+    },
+    "minecraft:black_stained_glass": {
+      "name": "Black Stained Glass",
+      "imagePath": "/block/black_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Black"
+    },
+    "minecraft:black_wool": {
+      "name": "Black Wool",
+      "imagePath": "/block/black_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_harness": {
+      "name": "Blue Harness",
+      "imagePath": "/item/blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Blue"
+    },
+    "minecraft:blue_stained_glass": {
+      "name": "Blue Stained Glass",
+      "imagePath": "/block/blue_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue"
+    },
+    "minecraft:blue_wool": {
+      "name": "Blue Wool",
+      "imagePath": "/block/blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_harness": {
+      "name": "Brown Harness",
+      "imagePath": "/item/brown_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Brown"
+    },
+    "minecraft:brown_stained_glass": {
+      "name": "Brown Stained Glass",
+      "imagePath": "/block/brown_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:cherry_slab": {
+      "name": "Cherry Slab",
+      "imagePath": "/block/cherry_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+    },
+    "minecraft:crimson_slab": {
+      "name": "Crimson Slab",
+      "imagePath": "/block/crimson_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_harness": {
+      "name": "Cyan Harness",
+      "imagePath": "/item/cyan_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+    },
+    "minecraft:cyan_stained_glass": {
+      "name": "Cyan Stained Glass",
+      "imagePath": "/block/cyan_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:dark_oak_slab": {
+      "name": "Dark Oak Slab",
+      "imagePath": "/block/dark_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+    },
+    "minecraft:daylight_detector": {
+      "name": "Daylight Detector",
+      "imagePath": "/block/daylight_detector/latest.png",
+      "wiki": "https://minecraft.wiki/w/Daylight_Detector"
+    },
+    "minecraft:end_crystal": {
+      "name": "End Crystal",
+      "imagePath": "/block/end_crystal/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Crystal"
+    },
+    "minecraft:ender_eye": {
+      "name": "Eye of Ender",
+      "imagePath": "/item/ender_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_of_Ender"
+    },
+    "minecraft:ghast_tear": {
+      "name": "Ghast Tear",
+      "imagePath": "/item/ghast_tear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ghast_Tear"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:glass_bottle": {
+      "name": "Glass Bottle",
+      "imagePath": "/item/glass_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Bottle"
+    },
+    "minecraft:glass_pane": {
+      "name": "Glass Pane",
+      "imagePath": "/block/glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Pane"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_harness": {
+      "name": "Gray Harness",
+      "imagePath": "/item/gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Gray"
+    },
+    "minecraft:gray_stained_glass": {
+      "name": "Gray Stained Glass",
+      "imagePath": "/block/gray_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray"
+    },
+    "minecraft:gray_wool": {
+      "name": "Gray Wool",
+      "imagePath": "/block/gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_harness": {
+      "name": "Green Harness",
+      "imagePath": "/item/green_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Green"
+    },
+    "minecraft:green_stained_glass": {
+      "name": "Green Stained Glass",
+      "imagePath": "/block/green_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Green"
+    },
+    "minecraft:green_wool": {
+      "name": "Green Wool",
+      "imagePath": "/block/green_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Green"
+    },
+    "minecraft:jungle_slab": {
+      "name": "Jungle Slab",
+      "imagePath": "/block/jungle_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_harness": {
+      "name": "Light Blue Harness",
+      "imagePath": "/item/light_blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+    },
+    "minecraft:light_blue_stained_glass": {
+      "name": "Light Blue Stained Glass",
+      "imagePath": "/block/light_blue_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_harness": {
+      "name": "Light Gray Harness",
+      "imagePath": "/item/light_gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+    },
+    "minecraft:light_gray_stained_glass": {
+      "name": "Light Gray Stained Glass",
+      "imagePath": "/block/light_gray_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray"
+    },
+    "minecraft:light_gray_wool": {
+      "name": "Light Gray Wool",
+      "imagePath": "/block/light_gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_harness": {
+      "name": "Lime Harness",
+      "imagePath": "/item/lime_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Lime"
+    },
+    "minecraft:lime_stained_glass": {
+      "name": "Lime Stained Glass",
+      "imagePath": "/block/lime_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime"
+    },
+    "minecraft:lime_wool": {
+      "name": "Lime Wool",
+      "imagePath": "/block/lime_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_harness": {
+      "name": "Magenta Harness",
+      "imagePath": "/item/magenta_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+    },
+    "minecraft:magenta_stained_glass": {
+      "name": "Magenta Stained Glass",
+      "imagePath": "/block/magenta_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:mangrove_slab": {
+      "name": "Mangrove Slab",
+      "imagePath": "/block/mangrove_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+    },
+    "minecraft:nether_star": {
+      "name": "Nether Star",
+      "imagePath": "/item/nether_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Star"
+    },
+    "minecraft:oak_slab": {
+      "name": "Oak Slab",
+      "imagePath": "/block/oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+    },
+    "minecraft:obsidian": {
+      "name": "Obsidian",
+      "imagePath": "/block/obsidian/latest.png",
+      "wiki": "https://minecraft.wiki/w/Obsidian"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_harness": {
+      "name": "Orange Harness",
+      "imagePath": "/item/orange_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Orange"
+    },
+    "minecraft:orange_stained_glass": {
+      "name": "Orange Stained Glass",
+      "imagePath": "/block/orange_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange"
+    },
+    "minecraft:orange_wool": {
+      "name": "Orange Wool",
+      "imagePath": "/block/orange_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Orange"
+    },
+    "minecraft:pale_oak_slab": {
+      "name": "Pale Oak Slab",
+      "imagePath": "/block/pale_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_harness": {
+      "name": "Pink Harness",
+      "imagePath": "/item/pink_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Pink"
+    },
+    "minecraft:pink_stained_glass": {
+      "name": "Pink Stained Glass",
+      "imagePath": "/block/pink_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:poplar_slab": {
+      "name": "Poplar Slab",
+      "imagePath": "/block/poplar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_harness": {
+      "name": "Purple Harness",
+      "imagePath": "/item/purple_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Purple"
+    },
+    "minecraft:purple_stained_glass": {
+      "name": "Purple Stained Glass",
+      "imagePath": "/block/purple_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple"
+    },
+    "minecraft:purple_wool": {
+      "name": "Purple Wool",
+      "imagePath": "/block/purple_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Purple"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_harness": {
+      "name": "Red Harness",
+      "imagePath": "/item/red_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Red"
+    },
+    "minecraft:red_sand": {
+      "name": "Red Sand",
+      "imagePath": "/block/red_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Sand"
+    },
+    "minecraft:red_stained_glass": {
+      "name": "Red Stained Glass",
+      "imagePath": "/block/red_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Red"
+    },
+    "minecraft:red_wool": {
+      "name": "Red Wool",
+      "imagePath": "/block/red_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Red"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:spruce_slab": {
+      "name": "Spruce Slab",
+      "imagePath": "/block/spruce_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+    },
+    "minecraft:tinted_glass": {
+      "name": "Tinted Glass",
+      "imagePath": "/block/tinted_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tinted_Glass"
+    },
+    "minecraft:warped_slab": {
+      "name": "Warped Slab",
+      "imagePath": "/block/warped_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_harness": {
+      "name": "White Harness",
+      "imagePath": "/item/white_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#White"
+    },
+    "minecraft:white_stained_glass": {
+      "name": "White Stained Glass",
+      "imagePath": "/block/white_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#White"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_harness": {
+      "name": "Yellow Harness",
+      "imagePath": "/item/yellow_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+    },
+    "minecraft:yellow_stained_glass": {
+      "name": "Yellow Stained Glass",
+      "imagePath": "/block/yellow_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow"
+    },
+    "minecraft:yellow_wool": {
+      "name": "Yellow Wool",
+      "imagePath": "/block/yellow_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+    },
+    "#minecraft:smelts_to_glass": {"items": ["minecraft:sand", "minecraft:red_sand"]},
+    "#minecraft:wooden_slabs": {
+      "items": [
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:pale_oak_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:cherry_slab",
+        "minecraft:poplar_slab"
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "minecraft:buried_ancient_city_map",
+  "name": "Buried Ancient City Map",
+  "imagePath": "/item/buried_ancient_city_map/latest.png",
+  "wiki": "https://minecraft.wiki/w/Explorer_Map",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:map_cloning",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:clonable_maps"], "material": ["minecraft:map"]},
+      "result": null,
+      "extra": {"add_material_count_to_result": true, "material_count": {"max": 8, "min": 1}}
+    }
+  ],
+  "tags": [{"id": "minecraft:clonable_maps", "registry": "item"}],
+  "refs": {
+    "minecraft:abandoned_camp_map": {
+      "name": "Abandoned Camp Map",
+      "imagePath": "/item/abandoned_camp_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map"
+    },
+    "minecraft:buried_ancient_city_map": {
+      "name": "Buried Ancient City Map",
+      "imagePath": "/item/buried_ancient_city_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map"
+    },
+    "minecraft:buried_mineshaft_map": {
+      "name": "Buried Mineshaft Map",
+      "imagePath": "/item/buried_mineshaft_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map"
+    },
+    "minecraft:buried_treasure_map": {
+      "name": "Buried Treasure Map",
+      "imagePath": "/item/buried_treasure_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer"
+    },
+    "minecraft:buried_trial_chambers_map": {
+      "name": "Buried Trial Chambers Map",
+      "imagePath": "/item/buried_trial_chambers_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer"
+    },
+    "minecraft:desert_pyramid_map": {
+      "name": "Desert Pyramid Map",
+      "imagePath": "/item/desert_pyramid_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map"
+    },
+    "minecraft:desert_village_map": {"name": "Desert Village Map", "imagePath": "/item/desert_village_map/latest.png"},
+    "minecraft:filled_map": {
+      "name": "Map",
+      "imagePath": "/item/filled_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Map"
+    },
+    "minecraft:jungle_pyramid_map": {
+      "name": "Jungle Pyramid Map",
+      "imagePath": "/item/jungle_pyramid_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village"
+    },
+    "minecraft:map": {
+      "name": "Empty Map",
+      "imagePath": "/item/map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Map"
+    },
+    "minecraft:ocean_monument_map": {
+      "name": "Ocean Monument Map",
+      "imagePath": "/item/ocean_monument_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Ocean_Explorer"
+    },
+    "minecraft:plains_village_map": {"name": "Plains Village Map", "imagePath": "/item/plains_village_map/latest.png"},
+    "minecraft:savanna_village_map": {"name": "Savanna Village Map", "imagePath": "/item/savanna_village_map/latest.png"},
+    "minecraft:snowy_village_map": {"name": "Snowy Village Map", "imagePath": "/item/snowy_village_map/latest.png"},
+    "minecraft:swamp_hut_map": {
+      "name": "Swamp Hut Map",
+      "imagePath": "/item/swamp_hut_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village"
+    },
+    "minecraft:taiga_village_map": {"name": "Taiga Village Map", "imagePath": "/item/taiga_village_map/latest.png"},
+    "minecraft:warm_ocean_ruins_map": {
+      "name": "Warm Ocean Ruins Map",
+      "imagePath": "/item/warm_ocean_ruins_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map"
+    },
+    "minecraft:woodland_mansion_map": {
+      "name": "Woodland Mansion Map",
+      "imagePath": "/item/woodland_mansion_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Map#Woodland_Explorer"
+    },
+    "#minecraft:clonable_maps": {
+      "items": [
+        "minecraft:filled_map",
+        "minecraft:ocean_monument_map",
+        "minecraft:woodland_mansion_map",
+        "minecraft:buried_trial_chambers_map",
+        "minecraft:jungle_pyramid_map",
+        "minecraft:swamp_hut_map",
+        "minecraft:desert_village_map",
+        "minecraft:plains_village_map",
+        "minecraft:savanna_village_map",
+        "minecraft:snowy_village_map",
+        "minecraft:taiga_village_map",
+        "minecraft:buried_treasure_map",
+        "minecraft:buried_ancient_city_map",
+        "minecraft:buried_mineshaft_map",
+        "minecraft:desert_pyramid_map",
+        "minecraft:abandoned_camp_map",
+        "minecraft:warm_ocean_ruins_map"
+      ]
+    }
+  }
+}

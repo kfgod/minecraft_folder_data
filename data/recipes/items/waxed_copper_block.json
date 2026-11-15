@@ -1,0 +1,231 @@
+{
+  "id": "minecraft:waxed_copper_block",
+  "name": "Waxed Block of Copper",
+  "imagePath": "/block/waxed_copper_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized",
+  "recipes": [
+    {
+      "id": "minecraft:waxed_copper_block_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_block"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:bolt_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:bolt_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [
+          ["minecraft:diamond"],
+          ["minecraft:copper_block", "minecraft:waxed_copper_block"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:bolt_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:waxed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_copper_block"], null],
+        [
+          ["minecraft:waxed_copper_block"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_copper_block"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_copper_grate",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_copper_block"], null],
+        [["minecraft:waxed_copper_block"], null, ["minecraft:waxed_copper_block"]],
+        [null, ["minecraft:waxed_copper_block"], null]
+      ],
+      "result": {"id": "minecraft:waxed_copper_grate", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:waxed_copper_block"], ["minecraft:waxed_copper_block"]],
+        [["minecraft:waxed_copper_block"], ["minecraft:waxed_copper_block"]]
+      ],
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:copper_ingot_from_waxed_copper_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:waxed_copper_block"]],
+      "result": {"id": "minecraft:copper_ingot", "count": 9}
+    },
+    {
+      "id": "minecraft:waxed_chiseled_copper_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_chiseled_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_copper_grate_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_copper_grate", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_cut_copper_slab", "count": 8}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_cut_copper_stairs", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:copper"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:copper", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:copper", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+      "name": "Bolt Armor Trim",
+      "imagePath": "/item/bolt_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim"
+    },
+    "minecraft:copper_block": {
+      "name": "Block of Copper",
+      "imagePath": "/block/copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:waxed_chiseled_copper": {
+      "name": "Waxed Chiseled Copper",
+      "imagePath": "/block/waxed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_block": {
+      "name": "Waxed Block of Copper",
+      "imagePath": "/block/waxed_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "name": "Waxed Copper Bulb",
+      "imagePath": "/block/waxed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:waxed_copper_grate": {
+      "name": "Waxed Copper Grate",
+      "imagePath": "/block/waxed_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper": {
+      "name": "Waxed Cut Copper",
+      "imagePath": "/block/waxed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "name": "Waxed Cut Copper Slab",
+      "imagePath": "/block/waxed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "name": "Waxed Cut Copper Stairs",
+      "imagePath": "/block/waxed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized"
+    }
+  }
+}

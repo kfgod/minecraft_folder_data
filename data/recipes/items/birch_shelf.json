@@ -1,0 +1,78 @@
+{
+  "id": "minecraft:birch_shelf",
+  "name": "Birch Shelf",
+  "imagePath": "/block/birch_shelf/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shelf#Birch",
+  "recipes": [
+    {
+      "id": "minecraft:birch_shelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"]
+        ],
+        [null, null, null],
+        [
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:birch_shelf", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:wooden_shelves"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_shelves"},
+    {"id": "minecraft:wooden_shelves", "registry": "block"},
+    {"id": "minecraft:wooden_shelves", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:birch_shelf": {
+      "name": "Birch Shelf",
+      "imagePath": "/block/birch_shelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf#Birch"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"}
+  }
+}

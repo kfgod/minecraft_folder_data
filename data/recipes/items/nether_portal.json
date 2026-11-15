@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:nether_portal",
+  "name": "Nether Portal",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:hoglin_repellents", "registry": "block"},
+    {"id": "minecraft:portals", "registry": "block"}
+  ],
+  "refs": {"minecraft:nether_portal": {"name": "Nether Portal"}}
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pumpkin_stem",
+  "name": "Pumpkin Stem",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bee_growables", "registry": "block", "via": "minecraft:crops"},
+    {"id": "minecraft:crops", "registry": "block"},
+    {"id": "minecraft:maintains_farmland", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {
+      "id": "minecraft:sword_efficient",
+      "registry": "block",
+      "via": "minecraft:crops",
+      "removed": "1.21.5"
+    },
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:pumpkin_stem": {"name": "Pumpkin Stem"}}
+}

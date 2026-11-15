@@ -1,0 +1,85 @@
+{
+  "id": "minecraft:mossy_stone_brick_slab",
+  "name": "Mossy Stone Brick Slab",
+  "imagePath": "/block/mossy_stone_brick_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:mossy_stone_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:mossy_stone_bricks"],
+          ["minecraft:mossy_stone_bricks"],
+          ["minecraft:mossy_stone_bricks"]
+        ]
+      ],
+      "result": {"id": "minecraft:mossy_stone_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:mossy_stone_bricks"]},
+      "result": {"id": "minecraft:mossy_stone_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:mossy_stone_bricks"]},
+      "result": {"id": "minecraft:mossy_stone_brick_slab", "count": 2},
+      "removed": "26.1.2"
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:mossy_stone_brick_slab": {
+      "name": "Mossy Stone Brick Slab",
+      "imagePath": "/block/mossy_stone_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab"
+    },
+    "minecraft:mossy_stone_bricks": {
+      "name": "Mossy Stone Bricks",
+      "imagePath": "/block/mossy_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
+    }
+  }
+}

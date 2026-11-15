@@ -1,0 +1,131 @@
+{
+  "id": "minecraft:wooden_pickaxe",
+  "name": "Wooden Pickaxe",
+  "imagePath": "/item/wooden_pickaxe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe",
+  "recipes": [
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"],
+          ["#minecraft:wooden_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:wooden_pickaxe", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:cluster_max_harvestables", "registry": "item"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:pickaxes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:pickaxes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:pickaxes", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:pickaxes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:wooden_pickaxe": {
+      "name": "Wooden Pickaxe",
+      "imagePath": "/item/wooden_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe"
+    },
+    "#minecraft:wooden_tool_materials": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

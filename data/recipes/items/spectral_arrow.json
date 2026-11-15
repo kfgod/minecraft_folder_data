@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:spectral_arrow",
+  "name": "Spectral Arrow",
+  "imagePath": "/item/spectral_arrow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spectral_Arrow",
+  "recipes": [
+    {
+      "id": "minecraft:spectral_arrow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:glowstone_dust"], null],
+        [["minecraft:glowstone_dust"], ["minecraft:arrow"], ["minecraft:glowstone_dust"]],
+        [null, ["minecraft:glowstone_dust"], null]
+      ],
+      "result": {"id": "minecraft:spectral_arrow", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:arrows", "registry": "item"}],
+  "refs": {
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "imagePath": "/item/arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arrow"
+    },
+    "minecraft:glowstone_dust": {
+      "name": "Glowstone Dust",
+      "imagePath": "/item/glowstone_dust/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+    },
+    "minecraft:spectral_arrow": {
+      "name": "Spectral Arrow",
+      "imagePath": "/item/spectral_arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spectral_Arrow"
+    }
+  }
+}

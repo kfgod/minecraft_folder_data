@@ -1,0 +1,161 @@
+{
+  "id": "minecraft:purpur_block",
+  "name": "Purpur Block",
+  "imagePath": "/block/purpur_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Purpur_Block",
+  "recipes": [
+    {
+      "id": "minecraft:purpur_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:popped_chorus_fruit"], ["minecraft:popped_chorus_fruit"]],
+        [["minecraft:popped_chorus_fruit"], ["minecraft:popped_chorus_fruit"]]
+      ],
+      "result": {"id": "minecraft:purpur_block", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:purpur_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:purpur_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:purpur_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:purpur_block", "minecraft:purpur_pillar"], null, null],
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          null
+        ],
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:purpur_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:spire_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:spire_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:purpur_block"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:spire_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:purpur_pillar_from_purpur_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purpur_block"]},
+      "result": {"id": "minecraft:purpur_pillar", "count": 1}
+    },
+    {
+      "id": "minecraft:purpur_slab_from_purpur_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purpur_block"]},
+      "result": {"id": "minecraft:purpur_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:purpur_stairs_from_purpur_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purpur_block"]},
+      "result": {"id": "minecraft:purpur_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "Popped Chorus Fruit",
+      "imagePath": "/item/popped_chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    },
+    "minecraft:purpur_block": {
+      "name": "Purpur Block",
+      "imagePath": "/block/purpur_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Block"
+    },
+    "minecraft:purpur_pillar": {
+      "name": "Purpur Pillar",
+      "imagePath": "/block/purpur_pillar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Pillar"
+    },
+    "minecraft:purpur_slab": {
+      "name": "Purpur Slab",
+      "imagePath": "/block/purpur_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Slab"
+    },
+    "minecraft:purpur_stairs": {
+      "name": "Purpur Stairs",
+      "imagePath": "/block/purpur_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Stairs"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "name": "Spire Armor Trim",
+      "imagePath": "/item/spire_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
+    }
+  }
+}

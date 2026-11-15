@@ -1,0 +1,519 @@
+{
+  "id": "minecraft:terracotta",
+  "name": "Terracotta",
+  "imagePath": "/block/terracotta/latest.png",
+  "wiki": "https://minecraft.wiki/w/Terracotta",
+  "recipes": [
+    {
+      "id": "minecraft:terracotta",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:clay"]},
+      "result": {"id": "minecraft:terracotta", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:black_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:black_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:black_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:blue_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:blue_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:blue_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:brown_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:brown_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:cyan_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:cyan_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:cyan_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:gray_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:gray_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:gray_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:green_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:green_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:green_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:host_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:host_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:terracotta"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:host_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:light_blue_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:light_blue_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:light_blue_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:light_gray_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:light_gray_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:light_gray_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:lime_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:lime_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:lime_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:magenta_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:magenta_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:magenta_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:orange_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:orange_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:orange_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:pink_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:pink_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:pink_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:purple_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:purple_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:purple_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:raiser_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:raiser_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:terracotta"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:raiser_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:red_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:red_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:red_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:shaper_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:shaper_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:terracotta"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:shaper_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:wayfinder_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:wayfinder_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:terracotta"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:wayfinder_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:white_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:white_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:white_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:yellow_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:yellow_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:yellow_terracotta", "count": 8}
+    }
+  ],
+  "tags": [
+    {
+      "id": "minecraft:armadillo_spawnable_on",
+      "registry": "block",
+      "via": "minecraft:badlands_terracotta"
+    },
+    {"id": "minecraft:azalea_grows_on", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:azalea_root_replaceable", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:badlands_terracotta", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dead_bush_may_place_on",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "1.21.5"
+    },
+    {
+      "id": "minecraft:dry_vegetation_may_place_on",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "26.1.2"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:plays_ambient_desert_block_sounds",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "1.21.8"
+    },
+    {"id": "minecraft:sculk_replaceable", "registry": "block", "via": "minecraft:terracotta"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:supports_dry_vegetation", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:terracotta", "registry": "block"},
+    {
+      "id": "minecraft:triggers_ambient_desert_dry_vegetation_block_sounds",
+      "registry": "block",
+      "via": "minecraft:terracotta"
+    },
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:terracotta"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    },
+    {"id": "minecraft:terracotta", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_terracotta": {
+      "name": "Black Terracotta",
+      "imagePath": "/block/black_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_terracotta": {
+      "name": "Blue Terracotta",
+      "imagePath": "/block/blue_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_terracotta": {
+      "name": "Brown Terracotta",
+      "imagePath": "/block/brown_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown"
+    },
+    "minecraft:clay": {"name": "Clay", "imagePath": "/block/clay/latest.png", "wiki": "https://minecraft.wiki/w/Clay"},
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_terracotta": {
+      "name": "Cyan Terracotta",
+      "imagePath": "/block/cyan_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_terracotta": {
+      "name": "Gray Terracotta",
+      "imagePath": "/block/gray_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_terracotta": {
+      "name": "Green Terracotta",
+      "imagePath": "/block/green_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green"
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "name": "Host Armor Trim",
+      "imagePath": "/item/host_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_terracotta": {
+      "name": "Light Blue Terracotta",
+      "imagePath": "/block/light_blue_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_terracotta": {
+      "name": "Light Gray Terracotta",
+      "imagePath": "/block/light_gray_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_terracotta": {
+      "name": "Lime Terracotta",
+      "imagePath": "/block/lime_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_terracotta": {
+      "name": "Magenta Terracotta",
+      "imagePath": "/block/magenta_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_terracotta": {
+      "name": "Orange Terracotta",
+      "imagePath": "/block/orange_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_terracotta": {
+      "name": "Pink Terracotta",
+      "imagePath": "/block/pink_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_terracotta": {
+      "name": "Purple Terracotta",
+      "imagePath": "/block/purple_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple"
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "name": "Raiser Armor Trim",
+      "imagePath": "/item/raiser_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_terracotta": {
+      "name": "Red Terracotta",
+      "imagePath": "/block/red_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red"
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "name": "Shaper Armor Trim",
+      "imagePath": "/item/shaper_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+    },
+    "minecraft:terracotta": {
+      "name": "Terracotta",
+      "imagePath": "/block/terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Terracotta"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "name": "Wayfinder Armor Trim",
+      "imagePath": "/item/wayfinder_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_terracotta": {
+      "name": "White Terracotta",
+      "imagePath": "/block/white_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_terracotta": {
+      "name": "Yellow Terracotta",
+      "imagePath": "/block/yellow_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow"
+    }
+  }
+}

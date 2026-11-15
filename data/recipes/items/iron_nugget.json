@@ -1,0 +1,257 @@
+{
+  "id": "minecraft:iron_nugget",
+  "name": "Iron Nugget",
+  "imagePath": "/item/iron_nugget/latest.png",
+  "wiki": "https://minecraft.wiki/w/Iron_Nugget",
+  "recipes": [
+    {
+      "id": "minecraft:iron_nugget_from_blasting",
+      "type": "blasting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:iron_pickaxe",
+          "minecraft:iron_shovel",
+          "minecraft:iron_axe",
+          "minecraft:iron_hoe",
+          "minecraft:iron_sword",
+          "minecraft:iron_spear",
+          "minecraft:iron_helmet",
+          "minecraft:iron_chestplate",
+          "minecraft:iron_leggings",
+          "minecraft:iron_boots",
+          "minecraft:iron_horse_armor",
+          "minecraft:iron_nautilus_armor",
+          "minecraft:chainmail_helmet",
+          "minecraft:chainmail_chestplate",
+          "minecraft:chainmail_leggings",
+          "minecraft:chainmail_boots"
+        ]
+      },
+      "result": {"id": "minecraft:iron_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:iron_ingot"]],
+      "result": {"id": "minecraft:iron_nugget", "count": 9}
+    },
+    {
+      "id": "minecraft:iron_nugget_from_smelting",
+      "type": "smelting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:iron_pickaxe",
+          "minecraft:iron_shovel",
+          "minecraft:iron_axe",
+          "minecraft:iron_hoe",
+          "minecraft:iron_sword",
+          "minecraft:iron_spear",
+          "minecraft:iron_helmet",
+          "minecraft:iron_chestplate",
+          "minecraft:iron_leggings",
+          "minecraft:iron_boots",
+          "minecraft:iron_horse_armor",
+          "minecraft:chainmail_helmet",
+          "minecraft:chainmail_chestplate",
+          "minecraft:chainmail_leggings",
+          "minecraft:chainmail_boots",
+          "minecraft:iron_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:iron_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:iron_chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:iron_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_nuggets",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:iron_ingot", "count": 1}
+    },
+    {
+      "id": "minecraft:lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:torch"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:name_tag",
+      "type": "crafting_shaped",
+      "grid": [[null, ["#minecraft:metal_nuggets"]], [["minecraft:paper"], null]],
+      "result": {"id": "minecraft:name_tag", "count": 1}
+    },
+    {
+      "id": "minecraft:soul_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:soul_torch"], ["minecraft:iron_nugget"]],
+        [["minecraft:iron_nugget"], ["minecraft:iron_nugget"], ["minecraft:iron_nugget"]]
+      ],
+      "result": {"id": "minecraft:soul_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:chain", "count": 1},
+      "removed": "1.21.9"
+    }
+  ],
+  "tags": [{"id": "minecraft:metal_nuggets", "registry": "item"}],
+  "refs": {
+    "minecraft:chain": {"name": "Chain"},
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:iron_axe": {
+      "name": "Iron Axe",
+      "imagePath": "/item/iron_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Axe"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chain": {
+      "name": "Iron Chain",
+      "imagePath": "/block/iron_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chain"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_helmet": {
+      "name": "Iron Helmet",
+      "imagePath": "/item/iron_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Helmet"
+    },
+    "minecraft:iron_hoe": {
+      "name": "Iron Hoe",
+      "imagePath": "/item/iron_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Hoe"
+    },
+    "minecraft:iron_horse_armor": {
+      "name": "Iron Horse Armor",
+      "imagePath": "/item/iron_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:iron_nautilus_armor": {
+      "name": "Iron Nautilus Armor",
+      "imagePath": "/item/iron_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "imagePath": "/item/iron_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Pickaxe"
+    },
+    "minecraft:iron_shovel": {
+      "name": "Iron Shovel",
+      "imagePath": "/item/iron_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Shovel"
+    },
+    "minecraft:iron_spear": {
+      "name": "Iron Spear",
+      "imagePath": "/item/iron_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Iron"
+    },
+    "minecraft:iron_sword": {
+      "name": "Iron Sword",
+      "imagePath": "/item/iron_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Sword"
+    },
+    "minecraft:lantern": {
+      "name": "Lantern",
+      "imagePath": "/block/lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lantern"
+    },
+    "minecraft:name_tag": {
+      "name": "Name Tag",
+      "imagePath": "/item/name_tag/latest.png",
+      "wiki": "https://minecraft.wiki/w/Name_Tag"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:soul_lantern": {
+      "name": "Soul Lantern",
+      "imagePath": "/block/soul_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Lantern"
+    },
+    "minecraft:soul_torch": {
+      "name": "Soul Torch",
+      "imagePath": "/block/soul_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Torch"
+    },
+    "minecraft:torch": {
+      "name": "Torch",
+      "imagePath": "/block/torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torch"
+    },
+    "#minecraft:metal_nuggets": {"items": ["minecraft:copper_nugget", "minecraft:iron_nugget", "minecraft:gold_nugget"]}
+  }
+}

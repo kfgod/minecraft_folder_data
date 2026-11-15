@@ -1,0 +1,114 @@
+{
+  "id": "minecraft:snow_bricks",
+  "name": "Snow Bricks",
+  "imagePath": "/block/snow_bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snow_Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:snow_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snow_block"], ["minecraft:snow_block"]],
+        [["minecraft:snow_block"], ["minecraft:snow_block"]]
+      ],
+      "result": {"id": "minecraft:snow_bricks", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:snow_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:snow_bricks"], ["minecraft:snow_bricks"], ["minecraft:snow_bricks"]]],
+      "result": {"id": "minecraft:snow_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:snow_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snow_bricks"], null, null],
+        [["minecraft:snow_bricks"], ["minecraft:snow_bricks"], null],
+        [["minecraft:snow_bricks"], ["minecraft:snow_bricks"], ["minecraft:snow_bricks"]]
+      ],
+      "result": {"id": "minecraft:snow_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:snow_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snow_bricks"], ["minecraft:snow_bricks"], ["minecraft:snow_bricks"]],
+        [["minecraft:snow_bricks"], ["minecraft:snow_bricks"], ["minecraft:snow_bricks"]]
+      ],
+      "result": {"id": "minecraft:snow_brick_wall", "count": 6}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_sliding", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_sliding"
+    }
+  ],
+  "refs": {
+    "minecraft:snow_block": {
+      "name": "Snow Block",
+      "imagePath": "/block/snow_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Block"
+    },
+    "minecraft:snow_brick_slab": {
+      "name": "Snow Brick Slab",
+      "imagePath": "/block/snow_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Brick_Slab"
+    },
+    "minecraft:snow_brick_stairs": {
+      "name": "Snow Brick Stairs",
+      "imagePath": "/block/snow_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Brick_Stairs"
+    },
+    "minecraft:snow_brick_wall": {
+      "name": "Snow Brick Wall",
+      "imagePath": "/block/snow_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Brick_Wall"
+    },
+    "minecraft:snow_bricks": {
+      "name": "Snow Bricks",
+      "imagePath": "/block/snow_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Bricks"
+    }
+  }
+}

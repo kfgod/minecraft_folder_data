@@ -1,0 +1,87 @@
+{
+  "id": "minecraft:brewing_stand",
+  "name": "Brewing Stand",
+  "imagePath": "/block/brewing_stand/latest.png",
+  "wiki": "https://minecraft.wiki/w/Brewing_Stand",
+  "recipes": [
+    {
+      "id": "minecraft:brewing_stand",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:blaze_rod"], null],
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ]
+      ],
+      "result": {"id": "minecraft:brewing_stand", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:brewing_stand": {
+      "name": "Brewing Stand",
+      "imagePath": "/block/brewing_stand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brewing_Stand"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "#minecraft:stone_crafting_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

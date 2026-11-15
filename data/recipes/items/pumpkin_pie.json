@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:pumpkin_pie",
+  "name": "Pumpkin Pie",
+  "imagePath": "/item/pumpkin_pie/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pumpkin_Pie",
+  "recipes": [
+    {
+      "id": "minecraft:pumpkin_pie",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"], ["minecraft:sugar"], ["#minecraft:eggs"]],
+      "result": {"id": "minecraft:pumpkin_pie", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:blue_egg": {
+      "name": "Blue Egg",
+      "imagePath": "/item/blue_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Egg"
+    },
+    "minecraft:brown_egg": {
+      "name": "Brown Egg",
+      "imagePath": "/item/brown_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Egg"
+    },
+    "minecraft:egg": {"name": "Egg", "imagePath": "/item/egg/latest.png", "wiki": "https://minecraft.wiki/w/Egg"},
+    "minecraft:pumpkin": {
+      "name": "Pumpkin",
+      "imagePath": "/block/pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin"
+    },
+    "minecraft:pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "imagePath": "/item/pumpkin_pie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Pie"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "#minecraft:eggs": {"items": ["minecraft:egg", "minecraft:blue_egg", "minecraft:brown_egg"]}
+  }
+}

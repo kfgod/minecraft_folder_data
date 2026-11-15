@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:pink_candle",
+  "name": "Pink Candle",
+  "imagePath": "/block/pink_candle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Candle#Pink",
+  "recipes": [
+    {
+      "id": "minecraft:pink_candle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:candle"], ["minecraft:pink_dye"]],
+      "result": {"id": "minecraft:pink_candle", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:candles", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:candles"},
+    {"id": "minecraft:candles", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    },
+    "minecraft:pink_candle": {
+      "name": "Pink Candle",
+      "imagePath": "/block/pink_candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    }
+  }
+}

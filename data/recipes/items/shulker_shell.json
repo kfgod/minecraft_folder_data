@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:shulker_shell",
+  "name": "Shulker Shell",
+  "imagePath": "/item/shulker_shell/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shulker_Shell",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:shulker_box",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:shulker_shell"]], [["minecraft:chest"]], [["minecraft:shulker_shell"]]],
+      "result": {"id": "minecraft:shulker_box", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:shulker_box": {
+      "name": "Shulker Box",
+      "imagePath": "/block/shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain"
+    },
+    "minecraft:shulker_shell": {
+      "name": "Shulker Shell",
+      "imagePath": "/item/shulker_shell/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Shell"
+    }
+  }
+}

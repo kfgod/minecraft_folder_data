@@ -1,0 +1,396 @@
+{
+  "id": "minecraft:iron_chain",
+  "name": "Iron Chain",
+  "imagePath": "/block/iron_chain/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chain",
+  "recipes": [
+    {
+      "id": "minecraft:iron_chain",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_nugget"]], [["minecraft:iron_ingot"]], [["minecraft:iron_nugget"]]],
+      "result": {"id": "minecraft:iron_chain", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:acacia_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_acacia_log"],
+          ["minecraft:stripped_acacia_log"],
+          ["minecraft:stripped_acacia_log"]
+        ],
+        [
+          ["minecraft:stripped_acacia_log"],
+          ["minecraft:stripped_acacia_log"],
+          ["minecraft:stripped_acacia_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:acacia_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:bamboo_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ],
+        [
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"],
+          ["minecraft:stripped_bamboo_block"]
+        ]
+      ],
+      "result": {"id": "minecraft:bamboo_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:birch_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"]
+        ],
+        [
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"],
+          ["minecraft:stripped_birch_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:birch_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:cherry_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_cherry_log"],
+          ["minecraft:stripped_cherry_log"],
+          ["minecraft:stripped_cherry_log"]
+        ],
+        [
+          ["minecraft:stripped_cherry_log"],
+          ["minecraft:stripped_cherry_log"],
+          ["minecraft:stripped_cherry_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:cherry_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:crimson_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_crimson_stem"],
+          ["minecraft:stripped_crimson_stem"],
+          ["minecraft:stripped_crimson_stem"]
+        ],
+        [
+          ["minecraft:stripped_crimson_stem"],
+          ["minecraft:stripped_crimson_stem"],
+          ["minecraft:stripped_crimson_stem"]
+        ]
+      ],
+      "result": {"id": "minecraft:crimson_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:dark_oak_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_dark_oak_log"],
+          ["minecraft:stripped_dark_oak_log"],
+          ["minecraft:stripped_dark_oak_log"]
+        ],
+        [
+          ["minecraft:stripped_dark_oak_log"],
+          ["minecraft:stripped_dark_oak_log"],
+          ["minecraft:stripped_dark_oak_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:dark_oak_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:jungle_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_jungle_log"],
+          ["minecraft:stripped_jungle_log"],
+          ["minecraft:stripped_jungle_log"]
+        ],
+        [
+          ["minecraft:stripped_jungle_log"],
+          ["minecraft:stripped_jungle_log"],
+          ["minecraft:stripped_jungle_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:jungle_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:mangrove_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_mangrove_log"],
+          ["minecraft:stripped_mangrove_log"],
+          ["minecraft:stripped_mangrove_log"]
+        ],
+        [
+          ["minecraft:stripped_mangrove_log"],
+          ["minecraft:stripped_mangrove_log"],
+          ["minecraft:stripped_mangrove_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:mangrove_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:oak_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_oak_log"],
+          ["minecraft:stripped_oak_log"],
+          ["minecraft:stripped_oak_log"]
+        ],
+        [
+          ["minecraft:stripped_oak_log"],
+          ["minecraft:stripped_oak_log"],
+          ["minecraft:stripped_oak_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:oak_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:pale_oak_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"]
+        ],
+        [
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:pale_oak_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:poplar_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"]
+        ],
+        [
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:poplar_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:spruce_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_spruce_log"],
+          ["minecraft:stripped_spruce_log"],
+          ["minecraft:stripped_spruce_log"]
+        ],
+        [
+          ["minecraft:stripped_spruce_log"],
+          ["minecraft:stripped_spruce_log"],
+          ["minecraft:stripped_spruce_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:spruce_hanging_sign", "count": 6}
+    },
+    {
+      "id": "minecraft:warped_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_warped_stem"],
+          ["minecraft:stripped_warped_stem"],
+          ["minecraft:stripped_warped_stem"]
+        ],
+        [
+          ["minecraft:stripped_warped_stem"],
+          ["minecraft:stripped_warped_stem"],
+          ["minecraft:stripped_warped_stem"]
+        ]
+      ],
+      "result": {"id": "minecraft:warped_hanging_sign", "count": 6}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:chains"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:chains", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:chains"},
+    {"id": "minecraft:chains", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_hanging_sign": {
+      "name": "Acacia Hanging Sign",
+      "imagePath": "/block/acacia_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia"
+    },
+    "minecraft:bamboo_hanging_sign": {
+      "name": "Bamboo Hanging Sign",
+      "imagePath": "/block/bamboo_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo"
+    },
+    "minecraft:birch_hanging_sign": {
+      "name": "Birch Hanging Sign",
+      "imagePath": "/block/birch_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch"
+    },
+    "minecraft:cherry_hanging_sign": {
+      "name": "Cherry Hanging Sign",
+      "imagePath": "/block/cherry_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry"
+    },
+    "minecraft:crimson_hanging_sign": {
+      "name": "Crimson Hanging Sign",
+      "imagePath": "/block/crimson_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson"
+    },
+    "minecraft:dark_oak_hanging_sign": {
+      "name": "Dark Oak Hanging Sign",
+      "imagePath": "/block/dark_oak_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak"
+    },
+    "minecraft:iron_chain": {
+      "name": "Iron Chain",
+      "imagePath": "/block/iron_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chain"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:jungle_hanging_sign": {
+      "name": "Jungle Hanging Sign",
+      "imagePath": "/block/jungle_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle"
+    },
+    "minecraft:mangrove_hanging_sign": {
+      "name": "Mangrove Hanging Sign",
+      "imagePath": "/block/mangrove_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove"
+    },
+    "minecraft:oak_hanging_sign": {
+      "name": "Oak Hanging Sign",
+      "imagePath": "/block/oak_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak"
+    },
+    "minecraft:pale_oak_hanging_sign": {
+      "name": "Pale Oak Hanging Sign",
+      "imagePath": "/block/pale_oak_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak"
+    },
+    "minecraft:poplar_hanging_sign": {
+      "name": "Poplar Hanging Sign",
+      "imagePath": "/block/poplar_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar"
+    },
+    "minecraft:spruce_hanging_sign": {
+      "name": "Spruce Hanging Sign",
+      "imagePath": "/block/spruce_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce"
+    },
+    "minecraft:stripped_acacia_log": {"name": "Stripped Acacia Log", "imagePath": "/block/stripped_acacia_log/latest.png"},
+    "minecraft:stripped_bamboo_block": {
+      "name": "Block of Stripped Bamboo",
+      "imagePath": "/block/stripped_bamboo_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"},
+    "minecraft:stripped_cherry_log": {"name": "Stripped Cherry Log", "imagePath": "/block/stripped_cherry_log/latest.png"},
+    "minecraft:stripped_crimson_stem": {"name": "Stripped Crimson Stem", "imagePath": "/block/stripped_crimson_stem/latest.png"},
+    "minecraft:stripped_dark_oak_log": {"name": "Stripped Dark Oak Log", "imagePath": "/block/stripped_dark_oak_log/latest.png"},
+    "minecraft:stripped_jungle_log": {"name": "Stripped Jungle Log", "imagePath": "/block/stripped_jungle_log/latest.png"},
+    "minecraft:stripped_mangrove_log": {"name": "Stripped Mangrove Log", "imagePath": "/block/stripped_mangrove_log/latest.png"},
+    "minecraft:stripped_oak_log": {"name": "Stripped Oak Log", "imagePath": "/block/stripped_oak_log/latest.png"},
+    "minecraft:stripped_pale_oak_log": {
+      "name": "Stripped Pale Oak Log",
+      "imagePath": "/block/stripped_pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+    },
+    "minecraft:stripped_poplar_log": {
+      "name": "Stripped Poplar Log",
+      "imagePath": "/block/stripped_poplar_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar"
+    },
+    "minecraft:stripped_spruce_log": {"name": "Stripped Spruce Log", "imagePath": "/block/stripped_spruce_log/latest.png"},
+    "minecraft:stripped_warped_stem": {"name": "Stripped Warped Stem", "imagePath": "/block/stripped_warped_stem/latest.png"},
+    "minecraft:warped_hanging_sign": {
+      "name": "Warped Hanging Sign",
+      "imagePath": "/block/warped_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped"
+    }
+  }
+}

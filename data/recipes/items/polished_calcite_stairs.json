@@ -1,0 +1,91 @@
+{
+  "id": "minecraft:polished_calcite_stairs",
+  "name": "Polished Calcite Stairs",
+  "imagePath": "/block/polished_calcite_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Calcite_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:polished_calcite_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_calcite"], null, null],
+        [["minecraft:polished_calcite"], ["minecraft:polished_calcite"], null],
+        [
+          ["minecraft:polished_calcite"],
+          ["minecraft:polished_calcite"],
+          ["minecraft:polished_calcite"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_calcite_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_calcite_stairs_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_stairs_from_polished_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_calcite"]},
+      "result": {"id": "minecraft:polished_calcite_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:calcite": {
+      "name": "Calcite",
+      "imagePath": "/block/calcite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite"
+    },
+    "minecraft:polished_calcite": {
+      "name": "Polished Calcite",
+      "imagePath": "/block/polished_calcite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite"
+    },
+    "minecraft:polished_calcite_stairs": {
+      "name": "Polished Calcite Stairs",
+      "imagePath": "/block/polished_calcite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Stairs"
+    }
+  }
+}

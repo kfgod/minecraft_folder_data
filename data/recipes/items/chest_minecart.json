@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:chest_minecart",
+  "name": "Minecart with Chest",
+  "imagePath": "/item/chest_minecart/latest.png",
+  "wiki": "https://minecraft.wiki/w/Minecart_with_Chest",
+  "recipes": [
+    {
+      "id": "minecraft:chest_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:chest_minecart", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:chest_minecart": {
+      "name": "Minecart with Chest",
+      "imagePath": "/item/chest_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_Chest"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    }
+  }
+}

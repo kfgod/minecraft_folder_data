@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:scaffolding",
+  "name": "Scaffolding",
+  "imagePath": "/block/scaffolding/latest.png",
+  "wiki": "https://minecraft.wiki/w/Scaffolding",
+  "recipes": [
+    {
+      "id": "minecraft:scaffolding",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo"], ["minecraft:string"], ["minecraft:bamboo"]],
+        [["minecraft:bamboo"], null, ["minecraft:bamboo"]],
+        [["minecraft:bamboo"], null, ["minecraft:bamboo"]]
+      ],
+      "result": {"id": "minecraft:scaffolding", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:climbable", "registry": "block"},
+    {"id": "minecraft:fall_damage_resetting", "registry": "block", "via": "minecraft:climbable"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:bamboo": {
+      "name": "Bamboo",
+      "imagePath": "/block/bamboo/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo"
+    },
+    "minecraft:scaffolding": {
+      "name": "Scaffolding",
+      "imagePath": "/block/scaffolding/latest.png",
+      "wiki": "https://minecraft.wiki/w/Scaffolding"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    }
+  }
+}

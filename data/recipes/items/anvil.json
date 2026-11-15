@@ -1,0 +1,75 @@
+{
+  "id": "minecraft:anvil",
+  "name": "Anvil",
+  "imagePath": "/block/anvil/latest.png",
+  "wiki": "https://minecraft.wiki/w/Anvil#Undamaged",
+  "recipes": [
+    {
+      "id": "minecraft:anvil",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_block"], ["minecraft:iron_block"], ["minecraft:iron_block"]],
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:anvil", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:anvil", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:anvil"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:anvil"},
+    {"id": "minecraft:anvil", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:anvil": {
+      "name": "Anvil",
+      "imagePath": "/block/anvil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Anvil#Undamaged"
+    },
+    "minecraft:iron_block": {
+      "name": "Block of Iron",
+      "imagePath": "/block/iron_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Iron"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    }
+  }
+}

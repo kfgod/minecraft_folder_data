@@ -1,0 +1,221 @@
+{
+  "id": "minecraft:decorated_pot",
+  "name": "Decorated Pot",
+  "imagePath": "/block/decorated_pot/latest.png",
+  "wiki": "https://minecraft.wiki/w/Decorated_Pot",
+  "recipes": [
+    {
+      "id": "minecraft:decorated_pot",
+      "type": "crafting_decorated_pot",
+      "inputs": {
+        "front": ["#minecraft:decorated_pot_ingredients"],
+        "back": ["#minecraft:decorated_pot_ingredients"],
+        "left": ["#minecraft:decorated_pot_ingredients"],
+        "right": ["#minecraft:decorated_pot_ingredients"]
+      },
+      "result": {"id": "minecraft:decorated_pot", "count": 1}
+    },
+    {
+      "id": "minecraft:decorated_pot_simple",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:brick"], null],
+        [["minecraft:brick"], null, ["minecraft:brick"]],
+        [null, ["minecraft:brick"], null]
+      ],
+      "result": {"id": "minecraft:decorated_pot", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    }
+  ],
+  "refs": {
+    "minecraft:angler_pottery_sherd": {
+      "name": "Angler Pottery Sherd",
+      "imagePath": "/item/angler_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Angler_Pottery_Sherd"
+    },
+    "minecraft:archer_pottery_sherd": {
+      "name": "Archer Pottery Sherd",
+      "imagePath": "/item/archer_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Archer_Pottery_Sherd"
+    },
+    "minecraft:arms_up_pottery_sherd": {
+      "name": "Arms Up Pottery Sherd",
+      "imagePath": "/item/arms_up_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arms_Up_Pottery_Sherd"
+    },
+    "minecraft:blade_pottery_sherd": {
+      "name": "Blade Pottery Sherd",
+      "imagePath": "/item/blade_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blade_Pottery_Sherd"
+    },
+    "minecraft:brewer_pottery_sherd": {
+      "name": "Brewer Pottery Sherd",
+      "imagePath": "/item/brewer_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brewer_Pottery_Sherd"
+    },
+    "minecraft:brick": {
+      "name": "Brick",
+      "imagePath": "/item/brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick"
+    },
+    "minecraft:burn_pottery_sherd": {
+      "name": "Burn Pottery Sherd",
+      "imagePath": "/item/burn_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Burn_Pottery_Sherd"
+    },
+    "minecraft:danger_pottery_sherd": {
+      "name": "Danger Pottery Sherd",
+      "imagePath": "/item/danger_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Danger_Pottery_Sherd"
+    },
+    "minecraft:decorated_pot": {
+      "name": "Decorated Pot",
+      "imagePath": "/block/decorated_pot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Decorated_Pot"
+    },
+    "minecraft:explorer_pottery_sherd": {
+      "name": "Explorer Pottery Sherd",
+      "imagePath": "/item/explorer_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Explorer_Pottery_Sherd"
+    },
+    "minecraft:flow_pottery_sherd": {
+      "name": "Flow Pottery Sherd",
+      "imagePath": "/item/flow_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Pottery_Sherd"
+    },
+    "minecraft:friend_pottery_sherd": {
+      "name": "Friend Pottery Sherd",
+      "imagePath": "/item/friend_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Friend_Pottery_Sherd"
+    },
+    "minecraft:guster_pottery_sherd": {
+      "name": "Guster Pottery Sherd",
+      "imagePath": "/item/guster_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Guster_Pottery_Sherd"
+    },
+    "minecraft:heart_pottery_sherd": {
+      "name": "Heart Pottery Sherd",
+      "imagePath": "/item/heart_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heart_Pottery_Sherd"
+    },
+    "minecraft:heartbreak_pottery_sherd": {
+      "name": "Heartbreak Pottery Sherd",
+      "imagePath": "/item/heartbreak_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heartbreak_Pottery_Sherd"
+    },
+    "minecraft:howl_pottery_sherd": {
+      "name": "Howl Pottery Sherd",
+      "imagePath": "/item/howl_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Howl_Pottery_Sherd"
+    },
+    "minecraft:miner_pottery_sherd": {
+      "name": "Miner Pottery Sherd",
+      "imagePath": "/item/miner_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Miner_Pottery_Sherd"
+    },
+    "minecraft:mourner_pottery_sherd": {
+      "name": "Mourner Pottery Sherd",
+      "imagePath": "/item/mourner_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mourner_Pottery_Sherd"
+    },
+    "minecraft:plenty_pottery_sherd": {
+      "name": "Plenty Pottery Sherd",
+      "imagePath": "/item/plenty_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Plenty_Pottery_Sherd"
+    },
+    "minecraft:prize_pottery_sherd": {
+      "name": "Prize Pottery Sherd",
+      "imagePath": "/item/prize_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prize_Pottery_Sherd"
+    },
+    "minecraft:scrape_pottery_sherd": {
+      "name": "Scrape Pottery Sherd",
+      "imagePath": "/item/scrape_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Scrape_Pottery_Sherd"
+    },
+    "minecraft:sheaf_pottery_sherd": {
+      "name": "Sheaf Pottery Sherd",
+      "imagePath": "/item/sheaf_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sheaf_Pottery_Sherd"
+    },
+    "minecraft:shelter_pottery_sherd": {
+      "name": "Shelter Pottery Sherd",
+      "imagePath": "/item/shelter_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelter_Pottery_Sherd"
+    },
+    "minecraft:skull_pottery_sherd": {
+      "name": "Skull Pottery Sherd",
+      "imagePath": "/item/skull_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skull_Pottery_Sherd"
+    },
+    "minecraft:snort_pottery_sherd": {
+      "name": "Snort Pottery Sherd",
+      "imagePath": "/item/snort_pottery_sherd/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snort_Pottery_Sherd"
+    },
+    "#minecraft:decorated_pot_ingredients": {
+      "items": [
+        "minecraft:brick",
+        "minecraft:angler_pottery_sherd",
+        "minecraft:archer_pottery_sherd",
+        "minecraft:arms_up_pottery_sherd",
+        "minecraft:blade_pottery_sherd",
+        "minecraft:brewer_pottery_sherd",
+        "minecraft:burn_pottery_sherd",
+        "minecraft:danger_pottery_sherd",
+        "minecraft:explorer_pottery_sherd",
+        "minecraft:friend_pottery_sherd",
+        "minecraft:heart_pottery_sherd",
+        "minecraft:heartbreak_pottery_sherd",
+        "minecraft:howl_pottery_sherd",
+        "minecraft:miner_pottery_sherd",
+        "minecraft:mourner_pottery_sherd",
+        "minecraft:plenty_pottery_sherd",
+        "minecraft:prize_pottery_sherd",
+        "minecraft:sheaf_pottery_sherd",
+        "minecraft:shelter_pottery_sherd",
+        "minecraft:skull_pottery_sherd",
+        "minecraft:snort_pottery_sherd",
+        "minecraft:flow_pottery_sherd",
+        "minecraft:guster_pottery_sherd",
+        "minecraft:scrape_pottery_sherd"
+      ]
+    }
+  }
+}

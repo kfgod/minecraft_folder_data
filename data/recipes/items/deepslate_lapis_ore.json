@@ -1,0 +1,97 @@
+{
+  "id": "minecraft:deepslate_lapis_ore",
+  "name": "Deepslate Lapis Lazuli Ore",
+  "imagePath": "/block/deepslate_lapis_ore/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:deepslate_lapis_ore"]},
+      "result": {"id": "minecraft:lapis_lazuli", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    },
+    {
+      "id": "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:deepslate_lapis_ore"]},
+      "result": {"id": "minecraft:lapis_lazuli", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:ores"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:lapis_ores", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:ores", "registry": "block", "via": "minecraft:lapis_ores"},
+    {"id": "minecraft:lapis_ores", "registry": "item"},
+    {"id": "minecraft:ores", "registry": "item", "via": "minecraft:lapis_ores"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:lapis_ores"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:deepslate_lapis_ore": {
+      "name": "Deepslate Lapis Lazuli Ore",
+      "imagePath": "/block/deepslate_lapis_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli_Ore"
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "Lapis Lazuli",
+      "imagePath": "/item/lapis_lazuli/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+    }
+  }
+}

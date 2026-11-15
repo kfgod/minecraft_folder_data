@@ -1,0 +1,39 @@
+{
+  "id": "minecraft:kelp",
+  "name": "Kelp",
+  "imagePath": "/block/kelp/latest.png",
+  "wiki": "https://minecraft.wiki/w/Kelp",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:dried_kelp_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:dried_kelp_from_smelting",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:dried_kelp_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:dried_kelp": {
+      "name": "Dried Kelp",
+      "imagePath": "/item/dried_kelp/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dried_Kelp"
+    },
+    "minecraft:kelp": {"name": "Kelp", "imagePath": "/block/kelp/latest.png", "wiki": "https://minecraft.wiki/w/Kelp"}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:lever",
+  "name": "Lever",
+  "imagePath": "/block/lever/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lever",
+  "recipes": [
+    {
+      "id": "minecraft:lever",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stick"]], [["minecraft:cobblestone"]]],
+      "result": {"id": "minecraft:lever", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:lever": {
+      "name": "Lever",
+      "imagePath": "/block/lever/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lever"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

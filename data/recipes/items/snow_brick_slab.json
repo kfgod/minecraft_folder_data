@@ -1,0 +1,66 @@
+{
+  "id": "minecraft:snow_brick_slab",
+  "name": "Snow Brick Slab",
+  "imagePath": "/block/snow_brick_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snow_Brick_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:snow_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:snow_bricks"], ["minecraft:snow_bricks"], ["minecraft:snow_bricks"]]],
+      "result": {"id": "minecraft:snow_brick_slab", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:snow_brick_slab": {
+      "name": "Snow Brick Slab",
+      "imagePath": "/block/snow_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Brick_Slab"
+    },
+    "minecraft:snow_bricks": {
+      "name": "Snow Bricks",
+      "imagePath": "/block/snow_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Bricks"
+    }
+  }
+}

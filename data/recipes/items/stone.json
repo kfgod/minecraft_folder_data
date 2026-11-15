@@ -1,0 +1,452 @@
+{
+  "id": "minecraft:stone",
+  "name": "Stone",
+  "imagePath": "/block/stone/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone",
+  "recipes": [
+    {
+      "id": "minecraft:stone",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:cobblestone"]},
+      "result": {"id": "minecraft:stone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:infested"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:infested"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:infested"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_stone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:stone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:comparator",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone_torch"], null],
+        [["minecraft:redstone_torch"], ["minecraft:quartz"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:comparator", "count": 1}
+    },
+    {
+      "id": "minecraft:repeater",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:redstone_torch"], ["minecraft:redstone"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:repeater", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stone"], ["minecraft:stone"]], [["minecraft:stone"], ["minecraft:stone"]]],
+      "result": {"id": "minecraft:stone_bricks", "count": 4}
+    },
+    {
+      "id": "minecraft:stone_pressure_plate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stone"], ["minecraft:stone"]]],
+      "result": {"id": "minecraft:stone_pressure_plate", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]],
+      "result": {"id": "minecraft:stone_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:stone_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stone"], null, null],
+        [["minecraft:stone"], ["minecraft:stone"], null],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:stone_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:stonecutter",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:stonecutter", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:stone"]],
+      "result": {"id": "minecraft:stone_button", "count": 1}
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:smooth_stone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:chiseled_stone_bricks_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:chiseled_stone_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:cobblestone_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:cobblestone", "count": 1}
+    },
+    {
+      "id": "minecraft:cobblestone_slab_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:cobblestone_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:cobblestone_stairs_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:cobblestone_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:cobblestone_wall_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:cobblestone_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_slab_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:stone_brick_stairs_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_wall_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_bricks_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_slab_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:stone_stairs_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:chiseled_stone_bricks", "count": 1},
+      "removed": "26.1.2"
+    },
+    {
+      "id": "minecraft:stone_brick_walls_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1},
+      "removed": "26.1.2"
+    }
+  ],
+  "tags": [
+    {
+      "id": "minecraft:azalea_root_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {"id": "minecraft:base_stone_overworld", "registry": "block"},
+    {
+      "id": "minecraft:bats_spawnable_on",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dripstone_replaceable_blocks",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:forest_rock_can_place_on",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {"id": "minecraft:goats_spawnable_on", "registry": "block"},
+    {
+      "id": "minecraft:ice_crevasse_replaceables",
+      "registry": "block",
+      "via": "minecraft:stone_ore_replaceables"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:large_icicle_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:lush_ground_replaceable",
+      "registry": "block",
+      "via": "minecraft:moss_replaceable"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:moss_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:nether_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:sculk_replaceable",
+      "registry": "block",
+      "via": "minecraft:base_stone_overworld"
+    },
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:snaps_goat_horn", "registry": "block"},
+    {"id": "minecraft:stone_ore_replaceables", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_stone_bricks": {
+      "name": "Chiseled Stone Bricks",
+      "imagePath": "/block/chiseled_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:cobblestone_slab": {
+      "name": "Cobblestone Slab",
+      "imagePath": "/block/cobblestone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone_Slab"
+    },
+    "minecraft:cobblestone_stairs": {
+      "name": "Cobblestone Stairs",
+      "imagePath": "/block/cobblestone_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone_Stairs"
+    },
+    "minecraft:cobblestone_wall": {
+      "name": "Cobblestone Wall",
+      "imagePath": "/block/cobblestone_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone_Wall"
+    },
+    "minecraft:comparator": {
+      "name": "Redstone Comparator",
+      "imagePath": "/block/comparator/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Comparator"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:repeater": {
+      "name": "Redstone Repeater",
+      "imagePath": "/block/repeater/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Repeater"
+    },
+    "minecraft:smooth_stone": {
+      "name": "Smooth Stone",
+      "imagePath": "/block/smooth_stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:stone_brick_slab": {
+      "name": "Stone Brick Slab",
+      "imagePath": "/block/stone_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Slab"
+    },
+    "minecraft:stone_brick_stairs": {
+      "name": "Stone Brick Stairs",
+      "imagePath": "/block/stone_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Stairs"
+    },
+    "minecraft:stone_brick_wall": {
+      "name": "Stone Brick Wall",
+      "imagePath": "/block/stone_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall"
+    },
+    "minecraft:stone_bricks": {
+      "name": "Stone Bricks",
+      "imagePath": "/block/stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Bricks"
+    },
+    "minecraft:stone_button": {
+      "name": "Stone Button",
+      "imagePath": "/block/stone_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Button"
+    },
+    "minecraft:stone_pressure_plate": {
+      "name": "Stone Pressure Plate",
+      "imagePath": "/block/stone_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate"
+    },
+    "minecraft:stone_slab": {
+      "name": "Stone Slab",
+      "imagePath": "/block/stone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Slab"
+    },
+    "minecraft:stone_stairs": {
+      "name": "Stone Stairs",
+      "imagePath": "/block/stone_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Stairs"
+    },
+    "minecraft:stonecutter": {
+      "name": "Stonecutter",
+      "imagePath": "/block/stonecutter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stonecutter"
+    }
+  }
+}

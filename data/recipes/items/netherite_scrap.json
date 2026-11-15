@@ -1,0 +1,62 @@
+{
+  "id": "minecraft:netherite_scrap",
+  "name": "Netherite Scrap",
+  "imagePath": "/item/netherite_scrap/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherite_Scrap",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_scrap_from_blasting",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:ancient_debris"]},
+      "result": {"id": "minecraft:netherite_scrap", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 2.0}
+    },
+    {
+      "id": "minecraft:netherite_scrap",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:ancient_debris"]},
+      "result": {"id": "minecraft:netherite_scrap", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 2.0}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:netherite_ingot",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:netherite_scrap"],
+        ["minecraft:netherite_scrap"],
+        ["minecraft:netherite_scrap"],
+        ["minecraft:netherite_scrap"],
+        ["minecraft:gold_ingot"],
+        ["minecraft:gold_ingot"],
+        ["minecraft:gold_ingot"],
+        ["minecraft:gold_ingot"]
+      ],
+      "result": {"id": "minecraft:netherite_ingot", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:ancient_debris": {
+      "name": "Ancient Debris",
+      "imagePath": "/block/ancient_debris/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ancient_Debris"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_scrap": {
+      "name": "Netherite Scrap",
+      "imagePath": "/item/netherite_scrap/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Scrap"
+    }
+  }
+}

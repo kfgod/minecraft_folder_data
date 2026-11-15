@@ -1,0 +1,53 @@
+{
+  "id": "minecraft:small_amethyst_bud",
+  "name": "Small Amethyst Bud",
+  "imagePath": "/block/small_amethyst_bud/latest.png",
+  "wiki": "https://minecraft.wiki/w/Amethyst_Cluster#Small_Bud",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:inside_step_sound_blocks", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:small_amethyst_bud": {
+      "name": "Small Amethyst Bud",
+      "imagePath": "/block/small_amethyst_bud/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Cluster#Small_Bud"
+    }
+  }
+}

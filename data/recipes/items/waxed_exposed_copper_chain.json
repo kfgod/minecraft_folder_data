@@ -1,0 +1,71 @@
+{
+  "id": "minecraft:waxed_exposed_copper_chain",
+  "name": "Waxed Exposed Copper Chain",
+  "imagePath": "/block/waxed_exposed_copper_chain/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
+  "recipes": [
+    {
+      "id": "minecraft:waxed_exposed_copper_chain_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_chain"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_chain", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:chains"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:chains", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:chains"},
+    {"id": "minecraft:chains", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:exposed_copper_chain": {
+      "name": "Exposed Copper Chain",
+      "imagePath": "/block/exposed_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_exposed_copper_chain": {
+      "name": "Waxed Exposed Copper Chain",
+      "imagePath": "/block/waxed_exposed_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed"
+    }
+  }
+}

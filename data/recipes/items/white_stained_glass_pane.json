@@ -1,0 +1,94 @@
+{
+  "id": "minecraft:white_stained_glass_pane",
+  "name": "White Stained Glass Pane",
+  "imagePath": "/block/white_stained_glass_pane/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White",
+  "recipes": [
+    {
+      "id": "minecraft:white_stained_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:white_stained_glass"],
+          ["minecraft:white_stained_glass"],
+          ["minecraft:white_stained_glass"]
+        ],
+        [
+          ["minecraft:white_stained_glass"],
+          ["minecraft:white_stained_glass"],
+          ["minecraft:white_stained_glass"]
+        ]
+      ],
+      "result": {"id": "minecraft:white_stained_glass_pane", "count": 16}
+    },
+    {
+      "id": "minecraft:white_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:white_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:white_stained_glass_pane", "count": 8}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    }
+  ],
+  "refs": {
+    "minecraft:glass_pane": {
+      "name": "Glass Pane",
+      "imagePath": "/block/glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Pane"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_stained_glass": {
+      "name": "White Stained Glass",
+      "imagePath": "/block/white_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#White"
+    },
+    "minecraft:white_stained_glass_pane": {
+      "name": "White Stained Glass Pane",
+      "imagePath": "/block/white_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White"
+    }
+  }
+}

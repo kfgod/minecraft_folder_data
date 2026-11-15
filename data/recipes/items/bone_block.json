@@ -1,0 +1,81 @@
+{
+  "id": "minecraft:bone_block",
+  "name": "Bone Block",
+  "imagePath": "/block/bone_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bone_Block",
+  "recipes": [
+    {
+      "id": "minecraft:bone_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]],
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]],
+        [["minecraft:bone_meal"], ["minecraft:bone_meal"], ["minecraft:bone_meal"]]
+      ],
+      "result": {"id": "minecraft:bone_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:bone_meal_from_bone_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bone_block"]],
+      "result": {"id": "minecraft:bone_meal", "count": 9}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/regular", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/regular"
+    }
+  ],
+  "refs": {
+    "minecraft:bone_block": {
+      "name": "Bone Block",
+      "imagePath": "/block/bone_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bone_Block"
+    },
+    "minecraft:bone_meal": {
+      "name": "Bone Meal",
+      "imagePath": "/item/bone_meal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bone_Meal"
+    }
+  }
+}

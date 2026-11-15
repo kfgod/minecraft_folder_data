@@ -1,0 +1,47 @@
+{
+  "id": "minecraft:cooked_salmon",
+  "name": "Cooked Salmon",
+  "imagePath": "/item/cooked_salmon/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cooked_Salmon",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_salmon_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:salmon"]},
+      "result": {"id": "minecraft:cooked_salmon", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_salmon",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:salmon"]},
+      "result": {"id": "minecraft:cooked_salmon", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_salmon_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:salmon"]},
+      "result": {"id": "minecraft:cooked_salmon", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:fishes", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:fishes"},
+    {"id": "minecraft:wolf_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cooked_salmon": {
+      "name": "Cooked Salmon",
+      "imagePath": "/item/cooked_salmon/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Salmon"
+    },
+    "minecraft:salmon": {
+      "name": "Raw Salmon",
+      "imagePath": "/item/salmon/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Salmon"
+    }
+  }
+}

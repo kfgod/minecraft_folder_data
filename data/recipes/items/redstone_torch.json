@@ -1,0 +1,96 @@
+{
+  "id": "minecraft:redstone_torch",
+  "name": "Redstone Torch",
+  "imagePath": "/block/redstone_torch/latest.png",
+  "wiki": "https://minecraft.wiki/w/Redstone_Torch",
+  "recipes": [
+    {
+      "id": "minecraft:redstone_torch",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:redstone"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:redstone_torch", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:activator_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone_torch"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:activator_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:comparator",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone_torch"], null],
+        [["minecraft:redstone_torch"], ["minecraft:quartz"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:comparator", "count": 1}
+    },
+    {
+      "id": "minecraft:repeater",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:redstone_torch"], ["minecraft:redstone"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:repeater", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:activator_rail": {
+      "name": "Activator Rail",
+      "imagePath": "/block/activator_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Activator_Rail"
+    },
+    "minecraft:comparator": {
+      "name": "Redstone Comparator",
+      "imagePath": "/block/comparator/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Comparator"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:repeater": {
+      "name": "Redstone Repeater",
+      "imagePath": "/block/repeater/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Repeater"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    }
+  }
+}

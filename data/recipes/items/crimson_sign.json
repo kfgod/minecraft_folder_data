@@ -1,0 +1,46 @@
+{
+  "id": "minecraft:crimson_sign",
+  "name": "Crimson Sign",
+  "imagePath": "/block/crimson_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Crimson",
+  "recipes": [
+    {
+      "id": "minecraft:crimson_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:crimson_planks"], ["minecraft:crimson_planks"], ["minecraft:crimson_planks"]],
+        [["minecraft:crimson_planks"], ["minecraft:crimson_planks"], ["minecraft:crimson_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crimson_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:non_flammable_wood", "registry": "item"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crimson_sign": {
+      "name": "Crimson Sign",
+      "imagePath": "/block/crimson_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Crimson"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

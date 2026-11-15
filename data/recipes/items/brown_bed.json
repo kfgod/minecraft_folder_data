@@ -1,0 +1,719 @@
+{
+  "id": "minecraft:brown_bed",
+  "name": "Brown Bed",
+  "imagePath": "/block/brown_bed/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bed#Brown",
+  "recipes": [
+    {
+      "id": "minecraft:brown_bed",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:brown_wool"], ["minecraft:brown_wool"], ["minecraft:brown_wool"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:brown_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_bed", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dye_black_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:black_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:green_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_magenta_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_pink_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:red_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:white_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:brown_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_bed", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:beds", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:beds"},
+    {"id": "minecraft:cats_can_lie_on", "registry": "block", "via": "minecraft:beds"},
+    {"id": "minecraft:cats_can_sit_on", "registry": "block", "via": "minecraft:beds"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:speeds_up_zombie_villager_curing",
+      "registry": "block",
+      "via": "minecraft:beds"
+    },
+    {
+      "id": "minecraft:villager_babies_can_jump_on_bed",
+      "registry": "block",
+      "via": "minecraft:beds"
+    },
+    {"id": "minecraft:villagers_can_sleep_on_bed", "registry": "block", "via": "minecraft:beds"},
+    {"id": "minecraft:beds", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:black_bed": {
+      "name": "Black Bed",
+      "imagePath": "/block/black_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_bed": {
+      "name": "Blue Bed",
+      "imagePath": "/block/blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_bed": {
+      "name": "Brown Bed",
+      "imagePath": "/block/brown_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:cyan_bed": {
+      "name": "Cyan Bed",
+      "imagePath": "/block/cyan_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:gray_bed": {
+      "name": "Gray Bed",
+      "imagePath": "/block/gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_bed": {
+      "name": "Green Bed",
+      "imagePath": "/block/green_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:light_blue_bed": {
+      "name": "Light Blue Bed",
+      "imagePath": "/block/light_blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_bed": {
+      "name": "Light Gray Bed",
+      "imagePath": "/block/light_gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_bed": {
+      "name": "Lime Bed",
+      "imagePath": "/block/lime_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_bed": {
+      "name": "Magenta Bed",
+      "imagePath": "/block/magenta_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:orange_bed": {
+      "name": "Orange Bed",
+      "imagePath": "/block/orange_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:pink_bed": {
+      "name": "Pink Bed",
+      "imagePath": "/block/pink_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:purple_bed": {
+      "name": "Purple Bed",
+      "imagePath": "/block/purple_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_bed": {
+      "name": "Red Bed",
+      "imagePath": "/block/red_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:white_bed": {
+      "name": "White Bed",
+      "imagePath": "/block/white_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_bed": {
+      "name": "Yellow Bed",
+      "imagePath": "/block/yellow_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "minecraft:sea_pickle",
+  "name": "Sea Pickle",
+  "imagePath": "/block/sea_pickle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sea_Pickle",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:lime_dye_from_smelting",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:sea_pickle"]},
+      "result": {"id": "minecraft:lime_dye", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:sea_pickle": {
+      "name": "Sea Pickle",
+      "imagePath": "/block/sea_pickle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sea_Pickle"
+    }
+  }
+}

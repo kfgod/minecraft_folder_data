@@ -1,0 +1,191 @@
+{
+  "id": "minecraft:stone_bricks",
+  "name": "Stone Bricks",
+  "imagePath": "/block/stone_bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone_Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:stone_bricks",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stone"], ["minecraft:stone"]], [["minecraft:stone"], ["minecraft:stone"]]],
+      "result": {"id": "minecraft:stone_bricks", "count": 4}
+    },
+    {
+      "id": "minecraft:stone_bricks_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_bricks", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:stone_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]]],
+      "result": {"id": "minecraft:stone_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:stone_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stone_bricks"], null, null],
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], null],
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]]
+      ],
+      "result": {"id": "minecraft:stone_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:stone_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]],
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]]
+      ],
+      "result": {"id": "minecraft:stone_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:mossy_stone_bricks_from_moss_block",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:stone_bricks"], ["minecraft:moss_block"]],
+      "result": {"id": "minecraft:mossy_stone_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:mossy_stone_bricks_from_vine",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:stone_bricks"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:mossy_stone_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:cracked_stone_bricks",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:cracked_stone_bricks", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:chiseled_stone_bricks_from_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:chiseled_stone_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_slab_from_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:stone_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:stone_brick_stairs_from_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:stone_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_wall_from_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:stone_bricks"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stone_bricks", "registry": "block"},
+    {"id": "minecraft:stone_bricks", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_stone_bricks": {
+      "name": "Chiseled Stone Bricks",
+      "imagePath": "/block/chiseled_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Stone_Bricks"
+    },
+    "minecraft:cracked_stone_bricks": {
+      "name": "Cracked Stone Bricks",
+      "imagePath": "/block/cracked_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
+    },
+    "minecraft:moss_block": {
+      "name": "Moss Block",
+      "imagePath": "/block/moss_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Moss_Block"
+    },
+    "minecraft:mossy_stone_bricks": {
+      "name": "Mossy Stone Bricks",
+      "imagePath": "/block/mossy_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:stone_brick_slab": {
+      "name": "Stone Brick Slab",
+      "imagePath": "/block/stone_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Slab"
+    },
+    "minecraft:stone_brick_stairs": {
+      "name": "Stone Brick Stairs",
+      "imagePath": "/block/stone_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Stairs"
+    },
+    "minecraft:stone_brick_wall": {
+      "name": "Stone Brick Wall",
+      "imagePath": "/block/stone_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall"
+    },
+    "minecraft:stone_bricks": {
+      "name": "Stone Bricks",
+      "imagePath": "/block/stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Bricks"
+    },
+    "minecraft:vine": {
+      "name": "Vines",
+      "imagePath": "/block/vine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vines"
+    }
+  }
+}

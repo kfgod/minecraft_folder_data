@@ -1,0 +1,89 @@
+{
+  "id": "minecraft:cobweb",
+  "name": "Cobweb",
+  "imagePath": "/block/cobweb/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cobweb",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weaving"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weaving"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:weaving"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_cobweb",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:cobweb"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:fall_damage_resetting", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:cobweb": {
+      "name": "Cobweb",
+      "imagePath": "/block/cobweb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobweb"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:splash_potion": {"name": "Splash Potion"}
+  }
+}

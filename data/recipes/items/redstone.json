@@ -1,0 +1,1544 @@
+{
+  "id": "minecraft:redstone",
+  "name": "Redstone Dust",
+  "imagePath": "/item/redstone/latest.png",
+  "wiki": "https://minecraft.wiki/w/Redstone_Dust",
+  "recipes": [
+    {
+      "id": "minecraft:redstone_from_blasting_deepslate_redstone_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:deepslate_redstone_ore"]},
+      "result": {"id": "minecraft:redstone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:redstone_from_blasting_redstone_ore",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:redstone_ore"]},
+      "result": {"id": "minecraft:redstone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:redstone",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:redstone_block"]],
+      "result": {"id": "minecraft:redstone", "count": 9}
+    },
+    {
+      "id": "minecraft:redstone_from_smelting_deepslate_redstone_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:deepslate_redstone_ore"]},
+      "result": {"id": "minecraft:redstone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:redstone_from_smelting_redstone_ore",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:redstone_ore"]},
+      "result": {"id": "minecraft:redstone", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_fire_resistance_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_fire_resistance"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:fire_resistance"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_freezing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_freezing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:freezing"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_invisibility_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:invisibility"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_leaping_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_night_vision_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_night_vision"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_poison_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_regeneration_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_slow_falling_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slow_falling"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_slowness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_strength_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_swiftness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_turtle_master_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_breathing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water_breathing"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_weakness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:weakness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_fire_resistance_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_fire_resistance"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:fire_resistance"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_freezing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_freezing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:freezing"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_invisibility_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:invisibility"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_leaping_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_night_vision_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_night_vision"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_poison_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_regeneration_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_slow_falling_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slow_falling"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_slowness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_strength_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_swiftness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_turtle_master_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_breathing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water_breathing"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_weakness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:weakness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_fire_resistance_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_fire_resistance"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:fire_resistance"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_freezing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_freezing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:freezing"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_invisibility_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:invisibility"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_leaping_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_night_vision_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_night_vision"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:night_vision"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_poison_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_regeneration_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_slow_falling_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slow_falling"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_slowness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_strength_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_swiftness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_turtle_master_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_breathing_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water_breathing"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_weakness_redstone",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:redstone"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:long_weakness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:weakness"}}
+    },
+    {
+      "id": "minecraft:clock",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:gold_ingot"], null],
+        [["minecraft:gold_ingot"], ["minecraft:redstone"], ["minecraft:gold_ingot"]],
+        [null, ["minecraft:gold_ingot"], null]
+      ],
+      "result": {"id": "minecraft:clock", "count": 1}
+    },
+    {
+      "id": "minecraft:compass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:iron_ingot"], null],
+        [["minecraft:iron_ingot"], ["minecraft:redstone"], ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:compass", "count": 1}
+    },
+    {
+      "id": "minecraft:copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:copper_block"], null],
+        [["minecraft:copper_block"], ["minecraft:blaze_rod"], ["minecraft:copper_block"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:crafter",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:iron_ingot"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:crafting_table"], ["minecraft:iron_ingot"]],
+        [["minecraft:redstone"], ["minecraft:dropper"], ["minecraft:redstone"]]
+      ],
+      "result": {"id": "minecraft:crafter", "count": 1}
+    },
+    {
+      "id": "minecraft:detector_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stone_pressure_plate"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:detector_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:dispenser",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:bow"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:dispenser", "count": 1}
+    },
+    {
+      "id": "minecraft:dropper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], null, ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:dropper", "count": 1}
+    },
+    {
+      "id": "minecraft:exposed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:exposed_copper"], null],
+        [["minecraft:exposed_copper"], ["minecraft:blaze_rod"], ["minecraft:exposed_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:exposed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:note_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["minecraft:redstone"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:note_block", "count": 1}
+    },
+    {
+      "id": "minecraft:observer",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:redstone"], ["minecraft:redstone"], ["minecraft:quartz"]],
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:observer", "count": 1}
+    },
+    {
+      "id": "minecraft:oxidized_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:oxidized_copper"], null],
+        [["minecraft:oxidized_copper"], ["minecraft:blaze_rod"], ["minecraft:oxidized_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:oxidized_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:piston",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:cobblestone"], ["minecraft:iron_ingot"], ["minecraft:cobblestone"]],
+        [["minecraft:cobblestone"], ["minecraft:redstone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:piston", "count": 1}
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_ingot"], null, ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:stick"], ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:redstone"], ["minecraft:gold_ingot"]]
+      ],
+      "result": {"id": "minecraft:powered_rail", "count": 6}
+    },
+    {
+      "id": "minecraft:redstone_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:redstone"], ["minecraft:redstone"], ["minecraft:redstone"]],
+        [["minecraft:redstone"], ["minecraft:redstone"], ["minecraft:redstone"]],
+        [["minecraft:redstone"], ["minecraft:redstone"], ["minecraft:redstone"]]
+      ],
+      "result": {"id": "minecraft:redstone_block", "count": 1}
+    },
+    {
+      "id": "minecraft:redstone_lamp",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone"], null],
+        [["minecraft:redstone"], ["minecraft:glowstone"], ["minecraft:redstone"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:redstone_lamp", "count": 1}
+    },
+    {
+      "id": "minecraft:redstone_torch",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:redstone"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:redstone_torch", "count": 1}
+    },
+    {
+      "id": "minecraft:repeater",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:redstone_torch"], ["minecraft:redstone"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:repeater", "count": 1}
+    },
+    {
+      "id": "minecraft:target",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone"], null],
+        [["minecraft:redstone"], ["minecraft:hay_block"], ["minecraft:redstone"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:target", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_copper_block"], null],
+        [
+          ["minecraft:waxed_copper_block"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_copper_block"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_exposed_copper"], null],
+        [
+          ["minecraft:waxed_exposed_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_exposed_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_exposed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_oxidized_copper"], null],
+        [
+          ["minecraft:waxed_oxidized_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_oxidized_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_oxidized_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_weathered_copper"], null],
+        [
+          ["minecraft:waxed_weathered_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_weathered_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_weathered_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:weathered_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:weathered_copper"], null],
+        [["minecraft:weathered_copper"], ["minecraft:blaze_rod"], ["minecraft:weathered_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:weathered_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:bolt_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:bolt_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:coast_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:coast_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:dune_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:dune_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:eye_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:eye_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:flow_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:flow_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:host_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:host_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:raiser_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:raiser_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:rib_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:rib_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:sentry_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:shaper_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:shaper_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:silence_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:snout_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:snout_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:spire_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:spire_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:tide_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:tide_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:vex_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:vex_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:ward_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:ward_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wayfinder_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wayfinder_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wild_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wild_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    }
+  ],
+  "tags": [{"id": "minecraft:trim_materials", "registry": "item"}],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+      "name": "Bolt Armor Trim",
+      "imagePath": "/item/bolt_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim"
+    },
+    "minecraft:bow": {"name": "Bow", "imagePath": "/item/bow/latest.png", "wiki": "https://minecraft.wiki/w/Bow"},
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:clock": {
+      "name": "Clock",
+      "imagePath": "/item/clock/latest.png",
+      "wiki": "https://minecraft.wiki/w/Clock"
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+      "name": "Coast Armor Trim",
+      "imagePath": "/item/coast_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:compass": {
+      "name": "Compass",
+      "imagePath": "/item/compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Compass"
+    },
+    "minecraft:copper_block": {
+      "name": "Block of Copper",
+      "imagePath": "/block/copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:copper_boots": {
+      "name": "Copper Boots",
+      "imagePath": "/item/copper_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Boots"
+    },
+    "minecraft:copper_bulb": {
+      "name": "Copper Bulb",
+      "imagePath": "/block/copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:copper_chestplate": {
+      "name": "Copper Chestplate",
+      "imagePath": "/item/copper_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+    },
+    "minecraft:copper_helmet": {
+      "name": "Copper Helmet",
+      "imagePath": "/item/copper_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_leggings": {
+      "name": "Copper Leggings",
+      "imagePath": "/item/copper_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+    },
+    "minecraft:crafter": {
+      "name": "Crafter",
+      "imagePath": "/block/crafter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crafter"
+    },
+    "minecraft:crafting_table": {
+      "name": "Crafting Table",
+      "imagePath": "/block/crafting_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crafting_Table"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:deepslate_redstone_ore": {
+      "name": "Deepslate Redstone Ore",
+      "imagePath": "/block/deepslate_redstone_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Ore"
+    },
+    "minecraft:detector_rail": {
+      "name": "Detector Rail",
+      "imagePath": "/block/detector_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Detector_Rail"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_boots": {
+      "name": "Diamond Boots",
+      "imagePath": "/item/diamond_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "Diamond Chestplate",
+      "imagePath": "/item/diamond_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+    },
+    "minecraft:diamond_leggings": {
+      "name": "Diamond Leggings",
+      "imagePath": "/item/diamond_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+    },
+    "minecraft:dispenser": {
+      "name": "Dispenser",
+      "imagePath": "/block/dispenser/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dispenser"
+    },
+    "minecraft:dropper": {
+      "name": "Dropper",
+      "imagePath": "/block/dropper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dropper"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "name": "Dune Armor Trim",
+      "imagePath": "/item/dune_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+    },
+    "minecraft:emerald": {
+      "name": "Emerald",
+      "imagePath": "/item/emerald/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald"
+    },
+    "minecraft:exposed_copper": {
+      "name": "Exposed Copper",
+      "imagePath": "/block/exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:exposed_copper_bulb": {
+      "name": "Exposed Copper Bulb",
+      "imagePath": "/block/exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+      "name": "Eye Armor Trim",
+      "imagePath": "/item/eye_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim"
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+      "name": "Flow Armor Trim",
+      "imagePath": "/item/flow_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim"
+    },
+    "minecraft:glowstone": {
+      "name": "Glowstone",
+      "imagePath": "/block/glowstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:hay_block": {
+      "name": "Hay Bale",
+      "imagePath": "/block/hay_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hay_Bale"
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "name": "Host Armor Trim",
+      "imagePath": "/item/host_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "Lapis Lazuli",
+      "imagePath": "/item/lapis_lazuli/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:netherite_boots": {
+      "name": "Netherite Boots",
+      "imagePath": "/item/netherite_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "Netherite Chestplate",
+      "imagePath": "/item/netherite_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_leggings": {
+      "name": "Netherite Leggings",
+      "imagePath": "/item/netherite_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "minecraft:note_block": {
+      "name": "Note Block",
+      "imagePath": "/block/note_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Note_Block"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:observer": {
+      "name": "Observer",
+      "imagePath": "/block/observer/latest.png",
+      "wiki": "https://minecraft.wiki/w/Observer"
+    },
+    "minecraft:oxidized_copper": {
+      "name": "Oxidized Copper",
+      "imagePath": "/block/oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "name": "Oxidized Copper Bulb",
+      "imagePath": "/block/oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:piston": {
+      "name": "Piston",
+      "imagePath": "/block/piston/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piston"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:powered_rail": {
+      "name": "Powered Rail",
+      "imagePath": "/block/powered_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Powered_Rail"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "name": "Raiser Armor Trim",
+      "imagePath": "/item/raiser_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_block": {
+      "name": "Block of Redstone",
+      "imagePath": "/block/redstone_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Redstone"
+    },
+    "minecraft:redstone_lamp": {
+      "name": "Redstone Lamp",
+      "imagePath": "/block/redstone_lamp/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Lamp"
+    },
+    "minecraft:redstone_ore": {
+      "name": "Redstone Ore",
+      "imagePath": "/block/redstone_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Ore"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:repeater": {
+      "name": "Redstone Repeater",
+      "imagePath": "/block/repeater/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Repeater"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "name": "Rib Armor Trim",
+      "imagePath": "/item/rib_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "name": "Sentry Armor Trim",
+      "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "name": "Shaper Armor Trim",
+      "imagePath": "/item/shaper_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "name": "Silence Armor Trim",
+      "imagePath": "/item/silence_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "name": "Snout Armor Trim",
+      "imagePath": "/item/snout_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "name": "Spire Armor Trim",
+      "imagePath": "/item/spire_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:stone_pressure_plate": {
+      "name": "Stone Pressure Plate",
+      "imagePath": "/block/stone_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pressure_Plate"
+    },
+    "minecraft:target": {
+      "name": "Target",
+      "imagePath": "/block/target/latest.png",
+      "wiki": "https://minecraft.wiki/w/Target"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "name": "Tide Armor Trim",
+      "imagePath": "/item/tide_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+      "name": "Vex Armor Trim",
+      "imagePath": "/item/vex_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "name": "Ward Armor Trim",
+      "imagePath": "/item/ward_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:waxed_copper_block": {
+      "name": "Waxed Block of Copper",
+      "imagePath": "/block/waxed_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "name": "Waxed Copper Bulb",
+      "imagePath": "/block/waxed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:waxed_exposed_copper": {
+      "name": "Waxed Exposed Copper",
+      "imagePath": "/block/waxed_exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "name": "Waxed Exposed Copper Bulb",
+      "imagePath": "/block/waxed_exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:waxed_oxidized_copper": {
+      "name": "Waxed Oxidized Copper",
+      "imagePath": "/block/waxed_oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "name": "Waxed Oxidized Copper Bulb",
+      "imagePath": "/block/waxed_oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:waxed_weathered_copper": {
+      "name": "Waxed Weathered Copper",
+      "imagePath": "/block/waxed_weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+      "name": "Waxed Weathered Copper Bulb",
+      "imagePath": "/block/waxed_weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "name": "Wayfinder Armor Trim",
+      "imagePath": "/item/wayfinder_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+    },
+    "minecraft:weathered_copper": {
+      "name": "Weathered Copper",
+      "imagePath": "/block/weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:weathered_copper_bulb": {
+      "name": "Weathered Copper Bulb",
+      "imagePath": "/block/weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "name": "Wild Armor Trim",
+      "imagePath": "/item/wild_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    },
+    "#minecraft:trim_materials": {
+      "items": [
+        "minecraft:amethyst_shard",
+        "minecraft:copper_ingot",
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:lapis_lazuli",
+        "minecraft:netherite_ingot",
+        "minecraft:quartz",
+        "minecraft:redstone",
+        "minecraft:resin_brick"
+      ]
+    },
+    "#minecraft:trimmable_armor": {
+      "items": [
+        "minecraft:leather_boots",
+        "minecraft:copper_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:golden_boots",
+        "minecraft:iron_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots",
+        "minecraft:leather_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:chainmail_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:copper_chestplate",
+        "minecraft:chainmail_chestplate",
+        "minecraft:golden_chestplate",
+        "minecraft:iron_chestplate",
+        "minecraft:diamond_chestplate",
+        "minecraft:netherite_chestplate",
+        "minecraft:leather_helmet",
+        "minecraft:copper_helmet",
+        "minecraft:chainmail_helmet"
+      ]
+    }
+  }
+}

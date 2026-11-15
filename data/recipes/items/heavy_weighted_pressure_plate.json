@@ -1,0 +1,70 @@
+{
+  "id": "minecraft:heavy_weighted_pressure_plate",
+  "name": "Heavy Weighted Pressure Plate",
+  "imagePath": "/block/heavy_weighted_pressure_plate/latest.png",
+  "wiki": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate",
+  "recipes": [
+    {
+      "id": "minecraft:heavy_weighted_pressure_plate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:iron_ingot"], ["minecraft:iron_ingot"]]],
+      "result": {"id": "minecraft:heavy_weighted_pressure_plate", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:pressure_plates"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:pressure_plates", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:pressure_plates"}
+  ],
+  "refs": {
+    "minecraft:heavy_weighted_pressure_plate": {
+      "name": "Heavy Weighted Pressure Plate",
+      "imagePath": "/block/heavy_weighted_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    }
+  }
+}

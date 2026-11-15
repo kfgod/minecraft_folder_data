@@ -1,0 +1,55 @@
+{
+  "id": "minecraft:netherite_hoe",
+  "name": "Netherite Hoe",
+  "imagePath": "/item/netherite_hoe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherite_Hoe",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_hoe_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_hoe"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_hoe", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:hoes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:hoes", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:hoes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:diamond_hoe": {
+      "name": "Diamond Hoe",
+      "imagePath": "/item/diamond_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Hoe"
+    },
+    "minecraft:netherite_hoe": {
+      "name": "Netherite Hoe",
+      "imagePath": "/item/netherite_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Hoe"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "minecraft:magenta_terracotta",
+  "name": "Magenta Terracotta",
+  "imagePath": "/block/magenta_terracotta/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta",
+  "recipes": [
+    {
+      "id": "minecraft:magenta_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:magenta_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:magenta_terracotta", "count": 8}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:magenta_glazed_terracotta",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:magenta_terracotta"]},
+      "result": {"id": "minecraft:magenta_glazed_terracotta", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:azalea_grows_on", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:azalea_root_replaceable", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:dead_bush_may_place_on",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "1.21.5"
+    },
+    {
+      "id": "minecraft:dry_vegetation_may_place_on",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "26.1.2"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "26.4-snapshot-7"
+    },
+    {
+      "id": "minecraft:plays_ambient_desert_block_sounds",
+      "registry": "block",
+      "via": "minecraft:terracotta",
+      "removed": "1.21.8"
+    },
+    {"id": "minecraft:sculk_replaceable", "registry": "block", "via": "minecraft:terracotta"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:supports_dry_vegetation", "registry": "block", "via": "minecraft:terracotta"},
+    {"id": "minecraft:terracotta", "registry": "block"},
+    {
+      "id": "minecraft:triggers_ambient_desert_dry_vegetation_block_sounds",
+      "registry": "block",
+      "via": "minecraft:terracotta"
+    },
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:terracotta"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    },
+    {"id": "minecraft:terracotta", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_glazed_terracotta": {
+      "name": "Magenta Glazed Terracotta",
+      "imagePath": "/block/magenta_glazed_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glazed_Terracotta#Magenta"
+    },
+    "minecraft:magenta_terracotta": {
+      "name": "Magenta Terracotta",
+      "imagePath": "/block/magenta_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta"
+    },
+    "minecraft:terracotta": {
+      "name": "Terracotta",
+      "imagePath": "/block/terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Terracotta"
+    }
+  }
+}

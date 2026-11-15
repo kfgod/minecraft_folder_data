@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:bread",
+  "name": "Bread",
+  "imagePath": "/item/bread/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bread",
+  "recipes": [
+    {
+      "id": "minecraft:bread",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:wheat"], ["minecraft:wheat"], ["minecraft:wheat"]]],
+      "result": {"id": "minecraft:bread", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:villager_picks_up", "registry": "item"}],
+  "refs": {
+    "minecraft:bread": {
+      "name": "Bread",
+      "imagePath": "/item/bread/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bread"
+    },
+    "minecraft:wheat": {"name": "Wheat"}
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "minecraft:stone_sword",
+  "name": "Stone Sword",
+  "imagePath": "/item/stone_sword/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone_Sword",
+  "recipes": [
+    {
+      "id": "minecraft:stone_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"]],
+        [["#minecraft:stone_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_sword", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:swords"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/fire_aspect",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/melee_weapon", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/sharp_weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/melee_weapon"
+    },
+    {"id": "minecraft:enchantable/sweeping", "registry": "item", "via": "minecraft:swords"},
+    {
+      "id": "minecraft:enchantable/sword",
+      "registry": "item",
+      "via": "minecraft:swords",
+      "removed": "1.21.11"
+    },
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    },
+    {"id": "minecraft:swords", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:swords", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_sword": {
+      "name": "Stone Sword",
+      "imagePath": "/item/stone_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Sword"
+    },
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

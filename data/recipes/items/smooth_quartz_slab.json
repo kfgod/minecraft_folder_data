@@ -1,0 +1,72 @@
+{
+  "id": "minecraft:smooth_quartz_slab",
+  "name": "Smooth Quartz Slab",
+  "imagePath": "/block/smooth_quartz_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:smooth_quartz_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:smooth_quartz"], ["minecraft:smooth_quartz"], ["minecraft:smooth_quartz"]]],
+      "result": {"id": "minecraft:smooth_quartz_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:smooth_quartz"]},
+      "result": {"id": "minecraft:smooth_quartz_slab", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:smooth_quartz": {
+      "name": "Smooth Quartz Block",
+      "imagePath": "/block/smooth_quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Block"
+    },
+    "minecraft:smooth_quartz_slab": {
+      "name": "Smooth Quartz Slab",
+      "imagePath": "/block/smooth_quartz_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Quartz_Slab"
+    }
+  }
+}

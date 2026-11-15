@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:beetroot_soup",
+  "name": "Beetroot Soup",
+  "imagePath": "/item/beetroot_soup/latest.png",
+  "wiki": "https://minecraft.wiki/w/Beetroot_Soup",
+  "recipes": [
+    {
+      "id": "minecraft:beetroot_soup",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"],
+        ["minecraft:beetroot"]
+      ],
+      "result": {"id": "minecraft:beetroot_soup", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:beetroot": {
+      "name": "Beetroot",
+      "imagePath": "/item/beetroot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beetroot"
+    },
+    "minecraft:beetroot_soup": {
+      "name": "Beetroot Soup",
+      "imagePath": "/item/beetroot_soup/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beetroot_Soup"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"}
+  }
+}

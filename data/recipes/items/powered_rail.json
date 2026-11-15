@@ -1,0 +1,49 @@
+{
+  "id": "minecraft:powered_rail",
+  "name": "Powered Rail",
+  "imagePath": "/block/powered_rail/latest.png",
+  "wiki": "https://minecraft.wiki/w/Powered_Rail",
+  "recipes": [
+    {
+      "id": "minecraft:powered_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_ingot"], null, ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:stick"], ["minecraft:gold_ingot"]],
+        [["minecraft:gold_ingot"], ["minecraft:redstone"], ["minecraft:gold_ingot"]]
+      ],
+      "result": {"id": "minecraft:powered_rail", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:pathfinding/rails", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:prevent_mob_spawning_inside", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:powered_rail": {
+      "name": "Powered Rail",
+      "imagePath": "/block/powered_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Powered_Rail"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

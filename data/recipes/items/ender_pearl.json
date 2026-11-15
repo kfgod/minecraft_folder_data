@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:ender_pearl",
+  "name": "Ender Pearl",
+  "imagePath": "/item/ender_pearl/latest.png",
+  "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:ender_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:ender_pearl"], ["minecraft:blaze_powder"]],
+      "result": {"id": "minecraft:ender_eye", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:blaze_powder": {
+      "name": "Blaze Powder",
+      "imagePath": "/item/blaze_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Powder"
+    },
+    "minecraft:ender_eye": {
+      "name": "Eye of Ender",
+      "imagePath": "/item/ender_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_of_Ender"
+    },
+    "minecraft:ender_pearl": {
+      "name": "Ender Pearl",
+      "imagePath": "/item/ender_pearl/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rotten_Flesh"
+    }
+  }
+}

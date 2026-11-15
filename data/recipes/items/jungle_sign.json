@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:jungle_sign",
+  "name": "Jungle Sign",
+  "imagePath": "/block/jungle_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Jungle",
+  "recipes": [
+    {
+      "id": "minecraft:jungle_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:jungle_planks"], ["minecraft:jungle_planks"], ["minecraft:jungle_planks"]],
+        [["minecraft:jungle_planks"], ["minecraft:jungle_planks"], ["minecraft:jungle_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:jungle_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:jungle_sign": {
+      "name": "Jungle Sign",
+      "imagePath": "/block/jungle_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Jungle"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:melon_seeds",
+  "name": "Melon Seeds",
+  "imagePath": "/item/melon_seeds/latest.png",
+  "wiki": "https://minecraft.wiki/w/Melon_Seeds",
+  "recipes": [
+    {
+      "id": "minecraft:melon_seeds",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:melon_slice"]],
+      "result": {"id": "minecraft:melon_seeds", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:chicken_food", "registry": "item"},
+    {"id": "minecraft:parrot_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:melon_seeds": {
+      "name": "Melon Seeds",
+      "imagePath": "/item/melon_seeds/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon_Seeds"
+    },
+    "minecraft:melon_slice": {
+      "name": "Melon Slice",
+      "imagePath": "/item/melon_slice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon_Slice"
+    }
+  }
+}

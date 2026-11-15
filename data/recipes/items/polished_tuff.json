@@ -1,0 +1,195 @@
+{
+  "id": "minecraft:polished_tuff",
+  "name": "Polished Tuff",
+  "imagePath": "/block/polished_tuff/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Tuff",
+  "recipes": [
+    {
+      "id": "minecraft:polished_tuff",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:tuff"], ["minecraft:tuff"]], [["minecraft:tuff"], ["minecraft:tuff"]]],
+      "result": {"id": "minecraft:polished_tuff", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_tuff_from_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:tuff"]},
+      "result": {"id": "minecraft:polished_tuff", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:polished_tuff_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:polished_tuff"], ["minecraft:polished_tuff"], ["minecraft:polished_tuff"]]],
+      "result": {"id": "minecraft:polished_tuff_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_tuff_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_tuff"], null, null],
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"], null],
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"], ["minecraft:polished_tuff"]]
+      ],
+      "result": {"id": "minecraft:polished_tuff_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_tuff_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"], ["minecraft:polished_tuff"]],
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"], ["minecraft:polished_tuff"]]
+      ],
+      "result": {"id": "minecraft:polished_tuff_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:tuff_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"]],
+        [["minecraft:polished_tuff"], ["minecraft:polished_tuff"]]
+      ],
+      "result": {"id": "minecraft:tuff_bricks", "count": 4}
+    },
+    {
+      "id": "minecraft:chiseled_tuff_bricks_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:chiseled_tuff_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_tuff_slab_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:polished_tuff_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_tuff_stairs_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:polished_tuff_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_tuff_wall_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:polished_tuff_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:tuff_brick_slab_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:tuff_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:tuff_brick_stairs_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:tuff_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:tuff_brick_wall_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:tuff_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:tuff_bricks_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:tuff_bricks", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_tuff_bricks": {
+      "name": "Chiseled Tuff Bricks",
+      "imagePath": "/block/chiseled_tuff_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Tuff_Bricks"
+    },
+    "minecraft:polished_tuff": {
+      "name": "Polished Tuff",
+      "imagePath": "/block/polished_tuff/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Tuff"
+    },
+    "minecraft:polished_tuff_slab": {
+      "name": "Polished Tuff Slab",
+      "imagePath": "/block/polished_tuff_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Tuff_Slab"
+    },
+    "minecraft:polished_tuff_stairs": {
+      "name": "Polished Tuff Stairs",
+      "imagePath": "/block/polished_tuff_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Tuff_Stairs"
+    },
+    "minecraft:polished_tuff_wall": {
+      "name": "Polished Tuff Wall",
+      "imagePath": "/block/polished_tuff_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Tuff_Wall"
+    },
+    "minecraft:tuff": {"name": "Tuff", "imagePath": "/block/tuff/latest.png", "wiki": "https://minecraft.wiki/w/Tuff"},
+    "minecraft:tuff_brick_slab": {
+      "name": "Tuff Brick Slab",
+      "imagePath": "/block/tuff_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Brick_Slab"
+    },
+    "minecraft:tuff_brick_stairs": {
+      "name": "Tuff Brick Stairs",
+      "imagePath": "/block/tuff_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Brick_Stairs"
+    },
+    "minecraft:tuff_brick_wall": {
+      "name": "Tuff Brick Wall",
+      "imagePath": "/block/tuff_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Brick_Wall"
+    },
+    "minecraft:tuff_bricks": {
+      "name": "Tuff Bricks",
+      "imagePath": "/block/tuff_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Bricks"
+    }
+  }
+}

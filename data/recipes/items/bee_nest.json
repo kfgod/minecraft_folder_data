@@ -1,0 +1,54 @@
+{
+  "id": "minecraft:bee_nest",
+  "name": "Bee Nest",
+  "imagePath": "/block/bee_nest/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bee_Nest",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:beehives", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:does_not_block_hoppers", "registry": "block", "via": "minecraft:beehives"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:bee_nest": {
+      "name": "Bee Nest",
+      "imagePath": "/block/bee_nest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bee_Nest"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "minecraft:pink_concrete",
+  "name": "Pink Concrete",
+  "imagePath": "/block/pink_concrete/latest.png",
+  "wiki": "https://minecraft.wiki/w/Concrete#Pink",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:pink_concrete_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:pink_concrete"], ["minecraft:pink_concrete"], ["minecraft:pink_concrete"]]],
+      "result": {"id": "minecraft:pink_concrete_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:pink_concrete_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pink_concrete"], null, null],
+        [["minecraft:pink_concrete"], ["minecraft:pink_concrete"], null],
+        [["minecraft:pink_concrete"], ["minecraft:pink_concrete"], ["minecraft:pink_concrete"]]
+      ],
+      "result": {"id": "minecraft:pink_concrete_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:pink_concrete_slab_from_pink_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:pink_concrete"]},
+      "result": {"id": "minecraft:pink_concrete_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:pink_concrete_stairs_from_pink_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:pink_concrete"]},
+      "result": {"id": "minecraft:pink_concrete_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:concrete"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:concrete", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:concrete", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:concrete"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:pink_concrete": {
+      "name": "Pink Concrete",
+      "imagePath": "/block/pink_concrete/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete#Pink"
+    },
+    "minecraft:pink_concrete_slab": {
+      "name": "Pink Concrete Slab",
+      "imagePath": "/block/pink_concrete_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Slab#Pink"
+    },
+    "minecraft:pink_concrete_stairs": {
+      "name": "Pink Concrete Stairs",
+      "imagePath": "/block/pink_concrete_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Pink"
+    }
+  }
+}

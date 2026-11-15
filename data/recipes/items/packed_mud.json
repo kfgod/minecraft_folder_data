@@ -1,0 +1,82 @@
+{
+  "id": "minecraft:packed_mud",
+  "name": "Packed Mud",
+  "imagePath": "/block/packed_mud/latest.png",
+  "wiki": "https://minecraft.wiki/w/Packed_Mud",
+  "recipes": [
+    {
+      "id": "minecraft:packed_mud",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:mud"], ["minecraft:wheat"]],
+      "result": {"id": "minecraft:packed_mud", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:mud_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:packed_mud"], ["minecraft:packed_mud"]],
+        [["minecraft:packed_mud"], ["minecraft:packed_mud"]]
+      ],
+      "result": {"id": "minecraft:mud_bricks", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/regular", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/regular"
+    }
+  ],
+  "refs": {
+    "minecraft:mud": {"name": "Mud", "imagePath": "/block/mud/latest.png", "wiki": "https://minecraft.wiki/w/Mud"},
+    "minecraft:mud_bricks": {
+      "name": "Mud Bricks",
+      "imagePath": "/block/mud_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mud_Bricks"
+    },
+    "minecraft:packed_mud": {
+      "name": "Packed Mud",
+      "imagePath": "/block/packed_mud/latest.png",
+      "wiki": "https://minecraft.wiki/w/Packed_Mud"
+    },
+    "minecraft:wheat": {"name": "Wheat"}
+  }
+}

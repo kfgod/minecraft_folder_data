@@ -1,0 +1,170 @@
+{
+  "id": "minecraft:nether_bricks",
+  "name": "Nether Bricks",
+  "imagePath": "/block/nether_bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:nether_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_brick"], ["minecraft:nether_brick"]],
+        [["minecraft:nether_brick"], ["minecraft:nether_brick"]]
+      ],
+      "result": {"id": "minecraft:nether_bricks", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:nether_brick_fence",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_bricks"], ["minecraft:nether_brick"], ["minecraft:nether_bricks"]],
+        [["minecraft:nether_bricks"], ["minecraft:nether_brick"], ["minecraft:nether_bricks"]]
+      ],
+      "result": {"id": "minecraft:nether_brick_fence", "count": 6}
+    },
+    {
+      "id": "minecraft:nether_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:nether_bricks"], ["minecraft:nether_bricks"], ["minecraft:nether_bricks"]]],
+      "result": {"id": "minecraft:nether_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:nether_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_bricks"], null, null],
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], null],
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], ["minecraft:nether_bricks"]]
+      ],
+      "result": {"id": "minecraft:nether_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:nether_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], ["minecraft:nether_bricks"]],
+        [["minecraft:nether_bricks"], ["minecraft:nether_bricks"], ["minecraft:nether_bricks"]]
+      ],
+      "result": {"id": "minecraft:nether_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:cracked_nether_bricks",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:cracked_nether_bricks", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:chiseled_nether_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:nether_brick_slab_from_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:nether_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:nether_brick_stairs_from_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:nether_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:nether_brick_wall_from_nether_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:nether_bricks"]},
+      "result": {"id": "minecraft:nether_brick_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_nether_bricks": {
+      "name": "Chiseled Nether Bricks",
+      "imagePath": "/block/chiseled_nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Nether_Bricks"
+    },
+    "minecraft:cracked_nether_bricks": {
+      "name": "Cracked Nether Bricks",
+      "imagePath": "/block/cracked_nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cracked_Nether_Bricks"
+    },
+    "minecraft:nether_brick": {
+      "name": "Nether Brick",
+      "imagePath": "/item/nether_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick"
+    },
+    "minecraft:nether_brick_fence": {
+      "name": "Nether Brick Fence",
+      "imagePath": "/block/nether_brick_fence/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick_Fence"
+    },
+    "minecraft:nether_brick_slab": {
+      "name": "Nether Brick Slab",
+      "imagePath": "/block/nether_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick_Slab"
+    },
+    "minecraft:nether_brick_stairs": {
+      "name": "Nether Brick Stairs",
+      "imagePath": "/block/nether_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick_Stairs"
+    },
+    "minecraft:nether_brick_wall": {
+      "name": "Nether Brick Wall",
+      "imagePath": "/block/nether_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick_Wall"
+    },
+    "minecraft:nether_bricks": {
+      "name": "Nether Bricks",
+      "imagePath": "/block/nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Bricks"
+    }
+  }
+}

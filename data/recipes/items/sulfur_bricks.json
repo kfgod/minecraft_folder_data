@@ -1,0 +1,149 @@
+{
+  "id": "minecraft:sulfur_bricks",
+  "name": "Sulfur Bricks",
+  "imagePath": "/block/sulfur_bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sulfur_Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:sulfur_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_sulfur"], ["minecraft:polished_sulfur"]],
+        [["minecraft:polished_sulfur"], ["minecraft:polished_sulfur"]]
+      ],
+      "result": {"id": "minecraft:sulfur_bricks", "count": 4}
+    },
+    {
+      "id": "minecraft:sulfur_bricks_from_polished_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_sulfur"]},
+      "result": {"id": "minecraft:sulfur_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:sulfur_bricks_from_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur"]},
+      "result": {"id": "minecraft:sulfur_bricks", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:sulfur_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"]]],
+      "result": {"id": "minecraft:sulfur_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:sulfur_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sulfur_bricks"], null, null],
+        [["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"], null],
+        [["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"]]
+      ],
+      "result": {"id": "minecraft:sulfur_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:sulfur_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"]],
+        [["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"], ["minecraft:sulfur_bricks"]]
+      ],
+      "result": {"id": "minecraft:sulfur_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:sulfur_brick_slab_from_sulfur_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur_bricks"]},
+      "result": {"id": "minecraft:sulfur_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:sulfur_brick_stairs_from_sulfur_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur_bricks"]},
+      "result": {"id": "minecraft:sulfur_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:sulfur_brick_wall_from_sulfur_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur_bricks"]},
+      "result": {"id": "minecraft:sulfur_brick_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:polished_sulfur": {
+      "name": "Polished Sulfur",
+      "imagePath": "/block/polished_sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Sulfur"
+    },
+    "minecraft:sulfur": {
+      "name": "Sulfur",
+      "imagePath": "/block/sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur"
+    },
+    "minecraft:sulfur_brick_slab": {
+      "name": "Sulfur Brick Slab",
+      "imagePath": "/block/sulfur_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Slab"
+    },
+    "minecraft:sulfur_brick_stairs": {
+      "name": "Sulfur Brick Stairs",
+      "imagePath": "/block/sulfur_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Stairs"
+    },
+    "minecraft:sulfur_brick_wall": {
+      "name": "Sulfur Brick Wall",
+      "imagePath": "/block/sulfur_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Brick_Wall"
+    },
+    "minecraft:sulfur_bricks": {
+      "name": "Sulfur Bricks",
+      "imagePath": "/block/sulfur_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Bricks"
+    }
+  }
+}

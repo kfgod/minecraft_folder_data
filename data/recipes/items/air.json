@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:air",
+  "name": "Air",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:air", "registry": "block"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:parrots_spawnable_on", "registry": "block"},
+    {"id": "minecraft:pathfinding/open", "registry": "block", "via": "minecraft:air"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:air"}
+  ],
+  "refs": {"minecraft:air": {"name": "Air"}}
+}

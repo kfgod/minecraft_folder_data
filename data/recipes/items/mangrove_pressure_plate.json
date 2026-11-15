@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:mangrove_pressure_plate",
+  "name": "Mangrove Pressure Plate",
+  "imagePath": "/block/mangrove_pressure_plate/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove",
+  "recipes": [
+    {
+      "id": "minecraft:mangrove_pressure_plate",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:mangrove_planks"], ["minecraft:mangrove_planks"]]],
+      "result": {"id": "minecraft:mangrove_pressure_plate", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:pressure_plates"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_pressure_plates"},
+    {
+      "id": "minecraft:pressure_plates",
+      "registry": "block",
+      "via": "minecraft:wooden_pressure_plates"
+    },
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:pressure_plates"},
+    {"id": "minecraft:wooden_pressure_plates", "registry": "block"},
+    {"id": "minecraft:wooden_pressure_plates", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:mangrove_pressure_plate": {
+      "name": "Mangrove Pressure Plate",
+      "imagePath": "/block/mangrove_pressure_plate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove"
+    }
+  }
+}

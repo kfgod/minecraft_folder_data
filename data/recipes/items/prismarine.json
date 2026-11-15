@@ -1,0 +1,157 @@
+{
+  "id": "minecraft:prismarine",
+  "name": "Prismarine",
+  "imagePath": "/block/prismarine/latest.png",
+  "wiki": "https://minecraft.wiki/w/Prismarine",
+  "recipes": [
+    {
+      "id": "minecraft:prismarine",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:prismarine_shard"], ["minecraft:prismarine_shard"]],
+        [["minecraft:prismarine_shard"], ["minecraft:prismarine_shard"]]
+      ],
+      "result": {"id": "minecraft:prismarine", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:prismarine_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:prismarine"], ["minecraft:prismarine"], ["minecraft:prismarine"]]],
+      "result": {"id": "minecraft:prismarine_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:prismarine_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:prismarine"], null, null],
+        [["minecraft:prismarine"], ["minecraft:prismarine"], null],
+        [["minecraft:prismarine"], ["minecraft:prismarine"], ["minecraft:prismarine"]]
+      ],
+      "result": {"id": "minecraft:prismarine_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:prismarine_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:prismarine"], ["minecraft:prismarine"], ["minecraft:prismarine"]],
+        [["minecraft:prismarine"], ["minecraft:prismarine"], ["minecraft:prismarine"]]
+      ],
+      "result": {"id": "minecraft:prismarine_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:tide_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:tide_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:prismarine"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:tide_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:prismarine_slab_from_prismarine_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:prismarine"]},
+      "result": {"id": "minecraft:prismarine_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:prismarine_stairs_from_prismarine_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:prismarine"]},
+      "result": {"id": "minecraft:prismarine_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:prismarine_wall_from_prismarine_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:prismarine"]},
+      "result": {"id": "minecraft:prismarine_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:conduit_effect_block", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:prismarine": {
+      "name": "Prismarine",
+      "imagePath": "/block/prismarine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine"
+    },
+    "minecraft:prismarine_shard": {
+      "name": "Prismarine Shard",
+      "imagePath": "/item/prismarine_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Shard"
+    },
+    "minecraft:prismarine_slab": {
+      "name": "Prismarine Slab",
+      "imagePath": "/block/prismarine_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Slab"
+    },
+    "minecraft:prismarine_stairs": {
+      "name": "Prismarine Stairs",
+      "imagePath": "/block/prismarine_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Stairs"
+    },
+    "minecraft:prismarine_wall": {
+      "name": "Prismarine Wall",
+      "imagePath": "/block/prismarine_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Wall"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "name": "Tide Armor Trim",
+      "imagePath": "/item/tide_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "minecraft:honey_bottle",
+  "name": "Honey Bottle",
+  "imagePath": "/item/honey_bottle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Honey_Bottle",
+  "recipes": [
+    {
+      "id": "minecraft:honey_bottle",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:honey_block"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"]
+      ],
+      "result": {"id": "minecraft:honey_bottle", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:honey_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:honey_bottle"], ["minecraft:honey_bottle"]],
+        [["minecraft:honey_bottle"], ["minecraft:honey_bottle"]]
+      ],
+      "result": {"id": "minecraft:honey_block", "count": 1}
+    },
+    {
+      "id": "minecraft:sugar_from_honey_bottle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:honey_bottle"]],
+      "result": {"id": "minecraft:sugar", "count": 3}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:glass_bottle": {
+      "name": "Glass Bottle",
+      "imagePath": "/item/glass_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Bottle"
+    },
+    "minecraft:honey_block": {
+      "name": "Honey Block",
+      "imagePath": "/block/honey_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Block"
+    },
+    "minecraft:honey_bottle": {
+      "name": "Honey Bottle",
+      "imagePath": "/item/honey_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    }
+  }
+}

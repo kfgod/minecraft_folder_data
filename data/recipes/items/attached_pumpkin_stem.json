@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:attached_pumpkin_stem",
+  "name": "Attached Pumpkin Stem",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:maintains_farmland", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:attached_pumpkin_stem": {"name": "Attached Pumpkin Stem"}}
+}

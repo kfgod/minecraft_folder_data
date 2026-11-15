@@ -1,0 +1,28 @@
+{
+  "id": "minecraft:large_fern",
+  "name": "Large Fern",
+  "imagePath": "/block/large_fern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Large_Fern",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:large_fern": {
+      "name": "Large Fern",
+      "imagePath": "/block/large_fern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Large_Fern"
+    }
+  }
+}

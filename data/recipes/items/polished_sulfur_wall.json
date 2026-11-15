@@ -1,0 +1,94 @@
+{
+  "id": "minecraft:polished_sulfur_wall",
+  "name": "Polished Sulfur Wall",
+  "imagePath": "/block/polished_sulfur_wall/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Sulfur_Wall",
+  "recipes": [
+    {
+      "id": "minecraft:polished_sulfur_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:polished_sulfur"],
+          ["minecraft:polished_sulfur"],
+          ["minecraft:polished_sulfur"]
+        ],
+        [
+          ["minecraft:polished_sulfur"],
+          ["minecraft:polished_sulfur"],
+          ["minecraft:polished_sulfur"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_sulfur_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_sulfur_wall_from_polished_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_sulfur"]},
+      "result": {"id": "minecraft:polished_sulfur_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_sulfur_wall_from_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur"]},
+      "result": {"id": "minecraft:polished_sulfur_wall", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:walls"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:polished_sulfur": {
+      "name": "Polished Sulfur",
+      "imagePath": "/block/polished_sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Sulfur"
+    },
+    "minecraft:polished_sulfur_wall": {
+      "name": "Polished Sulfur Wall",
+      "imagePath": "/block/polished_sulfur_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Sulfur_Wall"
+    },
+    "minecraft:sulfur": {
+      "name": "Sulfur",
+      "imagePath": "/block/sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur"
+    }
+  }
+}

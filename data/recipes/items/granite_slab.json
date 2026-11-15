@@ -1,0 +1,72 @@
+{
+  "id": "minecraft:granite_slab",
+  "name": "Granite Slab",
+  "imagePath": "/block/granite_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/Granite_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:granite_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:granite"], ["minecraft:granite"], ["minecraft:granite"]]],
+      "result": {"id": "minecraft:granite_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:granite_slab_from_granite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:granite"]},
+      "result": {"id": "minecraft:granite_slab", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:granite": {
+      "name": "Granite",
+      "imagePath": "/block/granite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Granite"
+    },
+    "minecraft:granite_slab": {
+      "name": "Granite Slab",
+      "imagePath": "/block/granite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Granite_Slab"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:enchanted_book",
+  "name": "Enchanted Book",
+  "imagePath": "/item/enchanted_book/latest.png",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:bookshelf_books", "registry": "item"}],
+  "refs": {
+    "minecraft:enchanted_book": {"name": "Enchanted Book", "imagePath": "/item/enchanted_book/latest.png"}
+  }
+}

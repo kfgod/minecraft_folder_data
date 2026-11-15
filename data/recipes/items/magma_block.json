@@ -1,0 +1,98 @@
+{
+  "id": "minecraft:magma_block",
+  "name": "Magma Block",
+  "imagePath": "/block/magma_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Magma_Block",
+  "recipes": [
+    {
+      "id": "minecraft:magma_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:magma_cream"], ["minecraft:magma_cream"]],
+        [["minecraft:magma_cream"], ["minecraft:magma_cream"]]
+      ],
+      "result": {"id": "minecraft:magma_block", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:cannot_support_kelp", "registry": "block"},
+    {"id": "minecraft:cannot_support_seagrass", "registry": "block"},
+    {
+      "id": "minecraft:cat_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:causes_periodic_geyser_eruptions", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dangerous_for_teleportation", "registry": "block"},
+    {"id": "minecraft:enables_bubble_column_drag_down", "registry": "block"},
+    {
+      "id": "minecraft:enderman_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:happy_ghast_avoids", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:infiniburn_end", "registry": "block", "via": "minecraft:infiniburn_overworld"},
+    {
+      "id": "minecraft:infiniburn_nether",
+      "registry": "block",
+      "via": "minecraft:infiniburn_overworld"
+    },
+    {"id": "minecraft:infiniburn_overworld", "registry": "block"},
+    {"id": "minecraft:melts_icicle_above", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/hot", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/hot"
+    }
+  ],
+  "refs": {
+    "minecraft:magma_block": {
+      "name": "Magma Block",
+      "imagePath": "/block/magma_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magma_Block"
+    },
+    "minecraft:magma_cream": {
+      "name": "Magma Cream",
+      "imagePath": "/item/magma_cream/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magma_Cream"
+    }
+  }
+}

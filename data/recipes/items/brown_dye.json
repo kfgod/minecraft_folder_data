@@ -1,0 +1,1360 @@
+{
+  "id": "minecraft:brown_dye",
+  "name": "Brown Dye",
+  "imagePath": "/item/brown_dye/latest.png",
+  "wiki": "https://minecraft.wiki/w/Brown_Dye",
+  "recipes": [
+    {
+      "id": "minecraft:brown_dye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cocoa_beans"]],
+      "result": {"id": "minecraft:brown_dye", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:leather_boots_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_boots"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_boots", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_chestplate_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_chestplate"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_chestplate", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_helmet_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_helmet"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_helmet", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_horse_armor_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_horse_armor"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_horse_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_leggings_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:leather_leggings"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:leather_leggings", "count": 1}
+    },
+    {
+      "id": "minecraft:wolf_armor_dyed",
+      "type": "crafting_dye",
+      "inputs": {"target": ["minecraft:wolf_armor"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:wolf_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:brown_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:brown_stained_glass", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_stained_glass_pane_from_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:brown_dye"], ["minecraft:glass_pane"]],
+        [["minecraft:glass_pane"], ["minecraft:glass_pane"], ["minecraft:glass_pane"]]
+      ],
+      "result": {"id": "minecraft:brown_stained_glass_pane", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_terracotta",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:brown_dye"], ["minecraft:terracotta"]],
+        [["minecraft:terracotta"], ["minecraft:terracotta"], ["minecraft:terracotta"]]
+      ],
+      "result": {"id": "minecraft:brown_terracotta", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_candle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:candle"], ["minecraft:brown_dye"]],
+      "result": {"id": "minecraft:brown_candle", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:brown_concrete_powder", "count": 8}
+    },
+    {
+      "id": "minecraft:dye_brown_bed",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_bed",
+          "minecraft:orange_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed",
+          "minecraft:yellow_bed",
+          "minecraft:lime_bed",
+          "minecraft:pink_bed",
+          "minecraft:gray_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:cyan_bed",
+          "minecraft:purple_bed",
+          "minecraft:blue_bed",
+          "minecraft:green_bed",
+          "minecraft:red_bed",
+          "minecraft:black_bed"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_bed", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_carpet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_carpet",
+          "minecraft:orange_carpet",
+          "minecraft:magenta_carpet",
+          "minecraft:light_blue_carpet",
+          "minecraft:yellow_carpet",
+          "minecraft:lime_carpet",
+          "minecraft:pink_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:cyan_carpet",
+          "minecraft:purple_carpet",
+          "minecraft:blue_carpet",
+          "minecraft:green_carpet",
+          "minecraft:red_carpet",
+          "minecraft:black_carpet"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_carpet", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_cushion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_cushion",
+          "minecraft:orange_cushion",
+          "minecraft:magenta_cushion",
+          "minecraft:light_blue_cushion",
+          "minecraft:yellow_cushion",
+          "minecraft:lime_cushion",
+          "minecraft:pink_cushion",
+          "minecraft:gray_cushion",
+          "minecraft:light_gray_cushion",
+          "minecraft:cyan_cushion",
+          "minecraft:purple_cushion",
+          "minecraft:blue_cushion",
+          "minecraft:green_cushion",
+          "minecraft:red_cushion",
+          "minecraft:black_cushion"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_cushion", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_wool",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_wool",
+          "minecraft:orange_wool",
+          "minecraft:magenta_wool",
+          "minecraft:light_blue_wool",
+          "minecraft:yellow_wool",
+          "minecraft:lime_wool",
+          "minecraft:pink_wool",
+          "minecraft:gray_wool",
+          "minecraft:light_gray_wool",
+          "minecraft:cyan_wool",
+          "minecraft:purple_wool",
+          "minecraft:blue_wool",
+          "minecraft:green_wool",
+          "minecraft:red_wool",
+          "minecraft:black_wool"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_wool", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_wool_slab",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_wool_slab",
+          "minecraft:orange_wool_slab",
+          "minecraft:magenta_wool_slab",
+          "minecraft:light_blue_wool_slab",
+          "minecraft:yellow_wool_slab",
+          "minecraft:lime_wool_slab",
+          "minecraft:pink_wool_slab",
+          "minecraft:gray_wool_slab",
+          "minecraft:light_gray_wool_slab",
+          "minecraft:cyan_wool_slab",
+          "minecraft:purple_wool_slab",
+          "minecraft:blue_wool_slab",
+          "minecraft:green_wool_slab",
+          "minecraft:red_wool_slab",
+          "minecraft:black_wool_slab"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_wool_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:firework_star",
+      "type": "crafting_special_firework_star",
+      "inputs": {
+        "dye": ["#minecraft:dyes"],
+        "fuel": ["minecraft:gunpowder"],
+        "trail": ["minecraft:diamond"],
+        "twinkle": ["minecraft:glowstone_dust"],
+        "shape.burst": ["minecraft:feather"],
+        "shape.creeper": ["#minecraft:skulls"],
+        "shape.large_ball": ["minecraft:fire_charge"],
+        "shape.star": ["minecraft:gold_nugget"]
+      },
+      "result": {"id": "minecraft:firework_star", "count": 1}
+    },
+    {
+      "id": "minecraft:firework_star_fade",
+      "type": "crafting_special_firework_star_fade",
+      "inputs": {"target": ["minecraft:firework_star"], "dye": ["#minecraft:dyes"]},
+      "result": {"id": "minecraft:firework_star", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:brown_dye"]},
+      "result": {"id": "minecraft:brown_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_shulker_box",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:shulker_boxes"], "material": ["minecraft:brown_dye"]},
+      "result": {"id": "minecraft:brown_shulker_box", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:cat_collar_dyes", "registry": "item", "via": "minecraft:dyes"},
+    {"id": "minecraft:dyes", "registry": "item"},
+    {"id": "minecraft:loom_dyes", "registry": "item", "via": "minecraft:dyes"},
+    {"id": "minecraft:sheep_wool_dyes", "registry": "item", "via": "minecraft:dyes"},
+    {"id": "minecraft:wolf_collar_dyes", "registry": "item", "via": "minecraft:dyes"}
+  ],
+  "refs": {
+    "minecraft:black_bed": {
+      "name": "Black Bed",
+      "imagePath": "/block/black_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Black"
+    },
+    "minecraft:black_bundle": {
+      "name": "Black Bundle",
+      "imagePath": "/item/black_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Black"
+    },
+    "minecraft:black_carpet": {
+      "name": "Black Carpet",
+      "imagePath": "/block/black_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Black"
+    },
+    "minecraft:black_cushion": {
+      "name": "Black Cushion",
+      "imagePath": "/block/black_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_harness": {
+      "name": "Black Harness",
+      "imagePath": "/item/black_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Black"
+    },
+    "minecraft:black_shulker_box": {
+      "name": "Black Shulker Box",
+      "imagePath": "/block/black_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Black"
+    },
+    "minecraft:black_wool": {
+      "name": "Black Wool",
+      "imagePath": "/block/black_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Black"
+    },
+    "minecraft:black_wool_slab": {
+      "name": "Black Wool Slab",
+      "imagePath": "/block/black_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Black"
+    },
+    "minecraft:black_wool_stairs": {
+      "name": "Black Wool Stairs",
+      "imagePath": "/block/black_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Black"
+    },
+    "minecraft:blue_bed": {
+      "name": "Blue Bed",
+      "imagePath": "/block/blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Blue"
+    },
+    "minecraft:blue_bundle": {
+      "name": "Blue Bundle",
+      "imagePath": "/item/blue_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Blue"
+    },
+    "minecraft:blue_carpet": {
+      "name": "Blue Carpet",
+      "imagePath": "/block/blue_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Blue"
+    },
+    "minecraft:blue_cushion": {
+      "name": "Blue Cushion",
+      "imagePath": "/block/blue_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_harness": {
+      "name": "Blue Harness",
+      "imagePath": "/item/blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Blue"
+    },
+    "minecraft:blue_shulker_box": {
+      "name": "Blue Shulker Box",
+      "imagePath": "/block/blue_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue"
+    },
+    "minecraft:blue_wool": {
+      "name": "Blue Wool",
+      "imagePath": "/block/blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Blue"
+    },
+    "minecraft:blue_wool_slab": {
+      "name": "Blue Wool Slab",
+      "imagePath": "/block/blue_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Blue"
+    },
+    "minecraft:blue_wool_stairs": {
+      "name": "Blue Wool Stairs",
+      "imagePath": "/block/blue_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Blue"
+    },
+    "minecraft:brown_bed": {
+      "name": "Brown Bed",
+      "imagePath": "/block/brown_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Brown"
+    },
+    "minecraft:brown_bundle": {
+      "name": "Brown Bundle",
+      "imagePath": "/item/brown_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Brown"
+    },
+    "minecraft:brown_candle": {
+      "name": "Brown Candle",
+      "imagePath": "/block/brown_candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Brown"
+    },
+    "minecraft:brown_carpet": {
+      "name": "Brown Carpet",
+      "imagePath": "/block/brown_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Brown"
+    },
+    "minecraft:brown_concrete_powder": {
+      "name": "Brown Concrete Powder",
+      "imagePath": "/block/brown_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Brown"
+    },
+    "minecraft:brown_cushion": {
+      "name": "Brown Cushion",
+      "imagePath": "/block/brown_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_harness": {
+      "name": "Brown Harness",
+      "imagePath": "/item/brown_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Brown"
+    },
+    "minecraft:brown_shulker_box": {
+      "name": "Brown Shulker Box",
+      "imagePath": "/block/brown_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown"
+    },
+    "minecraft:brown_stained_glass": {
+      "name": "Brown Stained Glass",
+      "imagePath": "/block/brown_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown"
+    },
+    "minecraft:brown_stained_glass_pane": {
+      "name": "Brown Stained Glass Pane",
+      "imagePath": "/block/brown_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown"
+    },
+    "minecraft:brown_terracotta": {
+      "name": "Brown Terracotta",
+      "imagePath": "/block/brown_terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:brown_wool_slab": {
+      "name": "Brown Wool Slab",
+      "imagePath": "/block/brown_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Brown"
+    },
+    "minecraft:brown_wool_stairs": {
+      "name": "Brown Wool Stairs",
+      "imagePath": "/block/brown_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Brown"
+    },
+    "minecraft:bundle": {
+      "name": "Bundle",
+      "imagePath": "/item/bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Plain"
+    },
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    },
+    "minecraft:cocoa_beans": {
+      "name": "Cocoa Beans",
+      "imagePath": "/item/cocoa_beans/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cocoa_Beans"
+    },
+    "minecraft:creeper_head": {
+      "name": "Creeper Head",
+      "imagePath": "/block/creeper_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Head"
+    },
+    "minecraft:cyan_bed": {
+      "name": "Cyan Bed",
+      "imagePath": "/block/cyan_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Cyan"
+    },
+    "minecraft:cyan_bundle": {
+      "name": "Cyan Bundle",
+      "imagePath": "/item/cyan_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Cyan"
+    },
+    "minecraft:cyan_carpet": {
+      "name": "Cyan Carpet",
+      "imagePath": "/block/cyan_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Cyan"
+    },
+    "minecraft:cyan_cushion": {
+      "name": "Cyan Cushion",
+      "imagePath": "/block/cyan_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_harness": {
+      "name": "Cyan Harness",
+      "imagePath": "/item/cyan_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+    },
+    "minecraft:cyan_shulker_box": {
+      "name": "Cyan Shulker Box",
+      "imagePath": "/block/cyan_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:cyan_wool_slab": {
+      "name": "Cyan Wool Slab",
+      "imagePath": "/block/cyan_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Cyan"
+    },
+    "minecraft:cyan_wool_stairs": {
+      "name": "Cyan Wool Stairs",
+      "imagePath": "/block/cyan_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Cyan"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:dragon_head": {
+      "name": "Dragon Head",
+      "imagePath": "/block/dragon_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dragon_Head"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:fire_charge": {
+      "name": "Fire Charge",
+      "imagePath": "/item/fire_charge/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fire_Charge"
+    },
+    "minecraft:firework_star": {
+      "name": "Firework Star",
+      "imagePath": "/item/firework_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Star"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:glass_pane": {
+      "name": "Glass Pane",
+      "imagePath": "/block/glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Pane"
+    },
+    "minecraft:glowstone_dust": {
+      "name": "Glowstone Dust",
+      "imagePath": "/item/glowstone_dust/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:gravel": {
+      "name": "Gravel",
+      "imagePath": "/block/gravel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gravel"
+    },
+    "minecraft:gray_bed": {
+      "name": "Gray Bed",
+      "imagePath": "/block/gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Gray"
+    },
+    "minecraft:gray_bundle": {
+      "name": "Gray Bundle",
+      "imagePath": "/item/gray_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Gray"
+    },
+    "minecraft:gray_carpet": {
+      "name": "Gray Carpet",
+      "imagePath": "/block/gray_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Gray"
+    },
+    "minecraft:gray_cushion": {
+      "name": "Gray Cushion",
+      "imagePath": "/block/gray_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_harness": {
+      "name": "Gray Harness",
+      "imagePath": "/item/gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Gray"
+    },
+    "minecraft:gray_shulker_box": {
+      "name": "Gray Shulker Box",
+      "imagePath": "/block/gray_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray"
+    },
+    "minecraft:gray_wool": {
+      "name": "Gray Wool",
+      "imagePath": "/block/gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Gray"
+    },
+    "minecraft:gray_wool_slab": {
+      "name": "Gray Wool Slab",
+      "imagePath": "/block/gray_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Gray"
+    },
+    "minecraft:gray_wool_stairs": {
+      "name": "Gray Wool Stairs",
+      "imagePath": "/block/gray_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Gray"
+    },
+    "minecraft:green_bed": {
+      "name": "Green Bed",
+      "imagePath": "/block/green_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Green"
+    },
+    "minecraft:green_bundle": {
+      "name": "Green Bundle",
+      "imagePath": "/item/green_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Green"
+    },
+    "minecraft:green_carpet": {
+      "name": "Green Carpet",
+      "imagePath": "/block/green_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Green"
+    },
+    "minecraft:green_cushion": {
+      "name": "Green Cushion",
+      "imagePath": "/block/green_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_harness": {
+      "name": "Green Harness",
+      "imagePath": "/item/green_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Green"
+    },
+    "minecraft:green_shulker_box": {
+      "name": "Green Shulker Box",
+      "imagePath": "/block/green_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Green"
+    },
+    "minecraft:green_wool": {
+      "name": "Green Wool",
+      "imagePath": "/block/green_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Green"
+    },
+    "minecraft:green_wool_slab": {
+      "name": "Green Wool Slab",
+      "imagePath": "/block/green_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Green"
+    },
+    "minecraft:green_wool_stairs": {
+      "name": "Green Wool Stairs",
+      "imagePath": "/block/green_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Green"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_horse_armor": {
+      "name": "Leather Horse Armor",
+      "imagePath": "/item/leather_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:light_blue_bed": {
+      "name": "Light Blue Bed",
+      "imagePath": "/block/light_blue_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Blue"
+    },
+    "minecraft:light_blue_bundle": {
+      "name": "Light Blue Bundle",
+      "imagePath": "/item/light_blue_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue"
+    },
+    "minecraft:light_blue_carpet": {
+      "name": "Light Blue Carpet",
+      "imagePath": "/block/light_blue_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue"
+    },
+    "minecraft:light_blue_cushion": {
+      "name": "Light Blue Cushion",
+      "imagePath": "/block/light_blue_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_harness": {
+      "name": "Light Blue Harness",
+      "imagePath": "/item/light_blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+    },
+    "minecraft:light_blue_shulker_box": {
+      "name": "Light Blue Shulker Box",
+      "imagePath": "/block/light_blue_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_blue_wool_slab": {
+      "name": "Light Blue Wool Slab",
+      "imagePath": "/block/light_blue_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Blue"
+    },
+    "minecraft:light_blue_wool_stairs": {
+      "name": "Light Blue Wool Stairs",
+      "imagePath": "/block/light_blue_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Blue"
+    },
+    "minecraft:light_gray_bed": {
+      "name": "Light Gray Bed",
+      "imagePath": "/block/light_gray_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Light_Gray"
+    },
+    "minecraft:light_gray_bundle": {
+      "name": "Light Gray Bundle",
+      "imagePath": "/item/light_gray_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray"
+    },
+    "minecraft:light_gray_carpet": {
+      "name": "Light Gray Carpet",
+      "imagePath": "/block/light_gray_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray"
+    },
+    "minecraft:light_gray_cushion": {
+      "name": "Light Gray Cushion",
+      "imagePath": "/block/light_gray_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_harness": {
+      "name": "Light Gray Harness",
+      "imagePath": "/item/light_gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+    },
+    "minecraft:light_gray_shulker_box": {
+      "name": "Light Gray Shulker Box",
+      "imagePath": "/block/light_gray_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray"
+    },
+    "minecraft:light_gray_wool": {
+      "name": "Light Gray Wool",
+      "imagePath": "/block/light_gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+    },
+    "minecraft:light_gray_wool_slab": {
+      "name": "Light Gray Wool Slab",
+      "imagePath": "/block/light_gray_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Gray"
+    },
+    "minecraft:light_gray_wool_stairs": {
+      "name": "Light Gray Wool Stairs",
+      "imagePath": "/block/light_gray_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Gray"
+    },
+    "minecraft:lime_bed": {
+      "name": "Lime Bed",
+      "imagePath": "/block/lime_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Lime"
+    },
+    "minecraft:lime_bundle": {
+      "name": "Lime Bundle",
+      "imagePath": "/item/lime_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Lime"
+    },
+    "minecraft:lime_carpet": {
+      "name": "Lime Carpet",
+      "imagePath": "/block/lime_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Lime"
+    },
+    "minecraft:lime_cushion": {
+      "name": "Lime Cushion",
+      "imagePath": "/block/lime_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_harness": {
+      "name": "Lime Harness",
+      "imagePath": "/item/lime_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Lime"
+    },
+    "minecraft:lime_shulker_box": {
+      "name": "Lime Shulker Box",
+      "imagePath": "/block/lime_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime"
+    },
+    "minecraft:lime_wool": {
+      "name": "Lime Wool",
+      "imagePath": "/block/lime_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Lime"
+    },
+    "minecraft:lime_wool_slab": {
+      "name": "Lime Wool Slab",
+      "imagePath": "/block/lime_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Lime"
+    },
+    "minecraft:lime_wool_stairs": {
+      "name": "Lime Wool Stairs",
+      "imagePath": "/block/lime_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Lime"
+    },
+    "minecraft:magenta_bed": {
+      "name": "Magenta Bed",
+      "imagePath": "/block/magenta_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Magenta"
+    },
+    "minecraft:magenta_bundle": {
+      "name": "Magenta Bundle",
+      "imagePath": "/item/magenta_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Magenta"
+    },
+    "minecraft:magenta_carpet": {
+      "name": "Magenta Carpet",
+      "imagePath": "/block/magenta_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Magenta"
+    },
+    "minecraft:magenta_cushion": {
+      "name": "Magenta Cushion",
+      "imagePath": "/block/magenta_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_harness": {
+      "name": "Magenta Harness",
+      "imagePath": "/item/magenta_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+    },
+    "minecraft:magenta_shulker_box": {
+      "name": "Magenta Shulker Box",
+      "imagePath": "/block/magenta_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:magenta_wool_slab": {
+      "name": "Magenta Wool Slab",
+      "imagePath": "/block/magenta_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta"
+    },
+    "minecraft:magenta_wool_stairs": {
+      "name": "Magenta Wool Stairs",
+      "imagePath": "/block/magenta_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Magenta"
+    },
+    "minecraft:orange_bed": {
+      "name": "Orange Bed",
+      "imagePath": "/block/orange_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Orange"
+    },
+    "minecraft:orange_bundle": {
+      "name": "Orange Bundle",
+      "imagePath": "/item/orange_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Orange"
+    },
+    "minecraft:orange_carpet": {
+      "name": "Orange Carpet",
+      "imagePath": "/block/orange_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Orange"
+    },
+    "minecraft:orange_cushion": {
+      "name": "Orange Cushion",
+      "imagePath": "/block/orange_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_harness": {
+      "name": "Orange Harness",
+      "imagePath": "/item/orange_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Orange"
+    },
+    "minecraft:orange_shulker_box": {
+      "name": "Orange Shulker Box",
+      "imagePath": "/block/orange_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange"
+    },
+    "minecraft:orange_wool": {
+      "name": "Orange Wool",
+      "imagePath": "/block/orange_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Orange"
+    },
+    "minecraft:orange_wool_slab": {
+      "name": "Orange Wool Slab",
+      "imagePath": "/block/orange_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Orange"
+    },
+    "minecraft:orange_wool_stairs": {
+      "name": "Orange Wool Stairs",
+      "imagePath": "/block/orange_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Orange"
+    },
+    "minecraft:piglin_head": {
+      "name": "Piglin Head",
+      "imagePath": "/block/piglin_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piglin_Head"
+    },
+    "minecraft:pink_bed": {
+      "name": "Pink Bed",
+      "imagePath": "/block/pink_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Pink"
+    },
+    "minecraft:pink_bundle": {
+      "name": "Pink Bundle",
+      "imagePath": "/item/pink_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Pink"
+    },
+    "minecraft:pink_carpet": {
+      "name": "Pink Carpet",
+      "imagePath": "/block/pink_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Pink"
+    },
+    "minecraft:pink_cushion": {
+      "name": "Pink Cushion",
+      "imagePath": "/block/pink_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_harness": {
+      "name": "Pink Harness",
+      "imagePath": "/item/pink_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Pink"
+    },
+    "minecraft:pink_shulker_box": {
+      "name": "Pink Shulker Box",
+      "imagePath": "/block/pink_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:pink_wool_slab": {
+      "name": "Pink Wool Slab",
+      "imagePath": "/block/pink_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Pink"
+    },
+    "minecraft:pink_wool_stairs": {
+      "name": "Pink Wool Stairs",
+      "imagePath": "/block/pink_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink"
+    },
+    "minecraft:player_head": {
+      "name": "Player Head",
+      "imagePath": "/block/player_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Player_Head"
+    },
+    "minecraft:purple_bed": {
+      "name": "Purple Bed",
+      "imagePath": "/block/purple_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Purple"
+    },
+    "minecraft:purple_bundle": {
+      "name": "Purple Bundle",
+      "imagePath": "/item/purple_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Purple"
+    },
+    "minecraft:purple_carpet": {
+      "name": "Purple Carpet",
+      "imagePath": "/block/purple_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Purple"
+    },
+    "minecraft:purple_cushion": {
+      "name": "Purple Cushion",
+      "imagePath": "/block/purple_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_harness": {
+      "name": "Purple Harness",
+      "imagePath": "/item/purple_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Purple"
+    },
+    "minecraft:purple_shulker_box": {
+      "name": "Purple Shulker Box",
+      "imagePath": "/block/purple_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple"
+    },
+    "minecraft:purple_wool": {
+      "name": "Purple Wool",
+      "imagePath": "/block/purple_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Purple"
+    },
+    "minecraft:purple_wool_slab": {
+      "name": "Purple Wool Slab",
+      "imagePath": "/block/purple_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple"
+    },
+    "minecraft:purple_wool_stairs": {
+      "name": "Purple Wool Stairs",
+      "imagePath": "/block/purple_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Purple"
+    },
+    "minecraft:red_bed": {
+      "name": "Red Bed",
+      "imagePath": "/block/red_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Red"
+    },
+    "minecraft:red_bundle": {
+      "name": "Red Bundle",
+      "imagePath": "/item/red_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Red"
+    },
+    "minecraft:red_carpet": {
+      "name": "Red Carpet",
+      "imagePath": "/block/red_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Red"
+    },
+    "minecraft:red_cushion": {
+      "name": "Red Cushion",
+      "imagePath": "/block/red_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_harness": {
+      "name": "Red Harness",
+      "imagePath": "/item/red_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Red"
+    },
+    "minecraft:red_shulker_box": {
+      "name": "Red Shulker Box",
+      "imagePath": "/block/red_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Red"
+    },
+    "minecraft:red_wool": {
+      "name": "Red Wool",
+      "imagePath": "/block/red_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Red"
+    },
+    "minecraft:red_wool_slab": {
+      "name": "Red Wool Slab",
+      "imagePath": "/block/red_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Red"
+    },
+    "minecraft:red_wool_stairs": {
+      "name": "Red Wool Stairs",
+      "imagePath": "/block/red_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Red"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"},
+    "minecraft:shulker_box": {
+      "name": "Shulker Box",
+      "imagePath": "/block/shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain"
+    },
+    "minecraft:skeleton_skull": {
+      "name": "Skeleton Skull",
+      "imagePath": "/block/skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skeleton_Skull"
+    },
+    "minecraft:terracotta": {
+      "name": "Terracotta",
+      "imagePath": "/block/terracotta/latest.png",
+      "wiki": "https://minecraft.wiki/w/Terracotta"
+    },
+    "minecraft:white_bed": {
+      "name": "White Bed",
+      "imagePath": "/block/white_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#White"
+    },
+    "minecraft:white_bundle": {
+      "name": "White Bundle",
+      "imagePath": "/item/white_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#White"
+    },
+    "minecraft:white_carpet": {
+      "name": "White Carpet",
+      "imagePath": "/block/white_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#White"
+    },
+    "minecraft:white_cushion": {
+      "name": "White Cushion",
+      "imagePath": "/block/white_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_harness": {
+      "name": "White Harness",
+      "imagePath": "/item/white_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#White"
+    },
+    "minecraft:white_shulker_box": {
+      "name": "White Shulker Box",
+      "imagePath": "/block/white_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#White"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "minecraft:white_wool_slab": {
+      "name": "White Wool Slab",
+      "imagePath": "/block/white_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#White"
+    },
+    "minecraft:white_wool_stairs": {
+      "name": "White Wool Stairs",
+      "imagePath": "/block/white_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#White"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "name": "Wither Skeleton Skull",
+      "imagePath": "/block/wither_skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+    },
+    "minecraft:wolf_armor": {
+      "name": "Wolf Armor",
+      "imagePath": "/item/wolf_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wolf_Armor"
+    },
+    "minecraft:yellow_bed": {
+      "name": "Yellow Bed",
+      "imagePath": "/block/yellow_bed/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bed#Yellow"
+    },
+    "minecraft:yellow_bundle": {
+      "name": "Yellow Bundle",
+      "imagePath": "/item/yellow_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Yellow"
+    },
+    "minecraft:yellow_carpet": {
+      "name": "Yellow Carpet",
+      "imagePath": "/block/yellow_carpet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carpet#Yellow"
+    },
+    "minecraft:yellow_cushion": {
+      "name": "Yellow Cushion",
+      "imagePath": "/block/yellow_cushion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cushion#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_harness": {
+      "name": "Yellow Harness",
+      "imagePath": "/item/yellow_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+    },
+    "minecraft:yellow_shulker_box": {
+      "name": "Yellow Shulker Box",
+      "imagePath": "/block/yellow_shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow"
+    },
+    "minecraft:yellow_wool": {
+      "name": "Yellow Wool",
+      "imagePath": "/block/yellow_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+    },
+    "minecraft:yellow_wool_slab": {
+      "name": "Yellow Wool Slab",
+      "imagePath": "/block/yellow_wool_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Slab#Yellow"
+    },
+    "minecraft:yellow_wool_stairs": {
+      "name": "Yellow Wool Stairs",
+      "imagePath": "/block/yellow_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Yellow"
+    },
+    "minecraft:zombie_head": {
+      "name": "Zombie Head",
+      "imagePath": "/block/zombie_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Zombie_Head"
+    },
+    "#minecraft:bundles": {
+      "items": [
+        "minecraft:bundle",
+        "minecraft:white_bundle",
+        "minecraft:orange_bundle",
+        "minecraft:magenta_bundle",
+        "minecraft:light_blue_bundle",
+        "minecraft:yellow_bundle",
+        "minecraft:lime_bundle",
+        "minecraft:pink_bundle",
+        "minecraft:gray_bundle",
+        "minecraft:light_gray_bundle",
+        "minecraft:cyan_bundle",
+        "minecraft:purple_bundle",
+        "minecraft:blue_bundle",
+        "minecraft:brown_bundle",
+        "minecraft:green_bundle",
+        "minecraft:red_bundle",
+        "minecraft:black_bundle"
+      ]
+    },
+    "#minecraft:dyes": {
+      "items": [
+        "minecraft:white_dye",
+        "minecraft:orange_dye",
+        "minecraft:magenta_dye",
+        "minecraft:light_blue_dye",
+        "minecraft:yellow_dye",
+        "minecraft:lime_dye",
+        "minecraft:pink_dye",
+        "minecraft:gray_dye",
+        "minecraft:light_gray_dye",
+        "minecraft:cyan_dye",
+        "minecraft:purple_dye",
+        "minecraft:blue_dye",
+        "minecraft:brown_dye",
+        "minecraft:green_dye",
+        "minecraft:red_dye",
+        "minecraft:black_dye"
+      ]
+    },
+    "#minecraft:shulker_boxes": {
+      "items": [
+        "minecraft:shulker_box",
+        "minecraft:white_shulker_box",
+        "minecraft:orange_shulker_box",
+        "minecraft:magenta_shulker_box",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:yellow_shulker_box",
+        "minecraft:lime_shulker_box",
+        "minecraft:pink_shulker_box",
+        "minecraft:gray_shulker_box",
+        "minecraft:light_gray_shulker_box",
+        "minecraft:cyan_shulker_box",
+        "minecraft:purple_shulker_box",
+        "minecraft:blue_shulker_box",
+        "minecraft:brown_shulker_box",
+        "minecraft:green_shulker_box",
+        "minecraft:red_shulker_box",
+        "minecraft:black_shulker_box"
+      ]
+    },
+    "#minecraft:skulls": {
+      "items": [
+        "minecraft:player_head",
+        "minecraft:creeper_head",
+        "minecraft:zombie_head",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:dragon_head",
+        "minecraft:piglin_head"
+      ]
+    }
+  }
+}

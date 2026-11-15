@@ -1,0 +1,109 @@
+{
+  "id": "minecraft:snow_block",
+  "name": "Snow Block",
+  "imagePath": "/block/snow_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snow_Block",
+  "recipes": [
+    {
+      "id": "minecraft:snow_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snowball"], ["minecraft:snowball"]],
+        [["minecraft:snowball"], ["minecraft:snowball"]]
+      ],
+      "result": {"id": "minecraft:snow_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:snow",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:snow_block"], ["minecraft:snow_block"], ["minecraft:snow_block"]]],
+      "result": {"id": "minecraft:snow", "count": 6}
+    },
+    {
+      "id": "minecraft:snow_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:snow_block"], ["minecraft:snow_block"]],
+        [["minecraft:snow_block"], ["minecraft:snow_block"]]
+      ],
+      "result": {"id": "minecraft:snow_bricks", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:azalea_grows_on", "registry": "block"},
+    {"id": "minecraft:azalea_root_replaceable", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:foxes_spawnable_on", "registry": "block"},
+    {"id": "minecraft:goats_spawnable_on", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:ice_spike_replaceable", "registry": "block"},
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:snow",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:rabbits_spawnable_on", "registry": "block"},
+    {"id": "minecraft:snow", "registry": "block"},
+    {"id": "minecraft:wolves_spawnable_on", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_sliding", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_sliding"
+    }
+  ],
+  "refs": {
+    "minecraft:snow": {"name": "Snow", "imagePath": "/block/snow/latest.png", "wiki": "https://minecraft.wiki/w/Snow"},
+    "minecraft:snow_block": {
+      "name": "Snow Block",
+      "imagePath": "/block/snow_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Block"
+    },
+    "minecraft:snow_bricks": {
+      "name": "Snow Bricks",
+      "imagePath": "/block/snow_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Bricks"
+    },
+    "minecraft:snowball": {
+      "name": "Snowball",
+      "imagePath": "/item/snowball/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snowball"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:shears",
+  "name": "Shears",
+  "imagePath": "/item/shears/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shears",
+  "recipes": [
+    {
+      "id": "minecraft:shears",
+      "type": "crafting_shaped",
+      "grid": [[null, ["minecraft:iron_ingot"]], [["minecraft:iron_ingot"], null]],
+      "result": {"id": "minecraft:shears", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {"id": "minecraft:enchantable/mining", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:shears": {
+      "name": "Shears",
+      "imagePath": "/item/shears/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shears"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "minecraft:porkchop",
+  "name": "Raw Porkchop",
+  "imagePath": "/item/porkchop/latest.png",
+  "wiki": "https://minecraft.wiki/w/Raw_Porkchop",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:cooked_porkchop_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:porkchop"]},
+      "result": {"id": "minecraft:cooked_porkchop", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_porkchop",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:porkchop"]},
+      "result": {"id": "minecraft:cooked_porkchop", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_porkchop_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:porkchop"]},
+      "result": {"id": "minecraft:cooked_porkchop", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:piglin_food", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:cooked_porkchop": {
+      "name": "Cooked Porkchop",
+      "imagePath": "/item/cooked_porkchop/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Porkchop"
+    },
+    "minecraft:porkchop": {
+      "name": "Raw Porkchop",
+      "imagePath": "/item/porkchop/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Porkchop"
+    }
+  }
+}

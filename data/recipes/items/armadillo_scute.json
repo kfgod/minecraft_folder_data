@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:armadillo_scute",
+  "name": "Armadillo Scute",
+  "imagePath": "/item/armadillo_scute/latest.png",
+  "wiki": "https://minecraft.wiki/w/Armadillo_Scute",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:wolf_armor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:armadillo_scute"], null, null],
+        [
+          ["minecraft:armadillo_scute"],
+          ["minecraft:armadillo_scute"],
+          ["minecraft:armadillo_scute"]
+        ],
+        [["minecraft:armadillo_scute"], null, ["minecraft:armadillo_scute"]]
+      ],
+      "result": {"id": "minecraft:wolf_armor", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:repairs_wolf_armor", "registry": "item"}],
+  "refs": {
+    "minecraft:armadillo_scute": {
+      "name": "Armadillo Scute",
+      "imagePath": "/item/armadillo_scute/latest.png",
+      "wiki": "https://minecraft.wiki/w/Armadillo_Scute"
+    },
+    "minecraft:wolf_armor": {
+      "name": "Wolf Armor",
+      "imagePath": "/item/wolf_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wolf_Armor"
+    }
+  }
+}

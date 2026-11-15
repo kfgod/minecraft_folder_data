@@ -1,0 +1,83 @@
+{
+  "id": "minecraft:vine",
+  "name": "Vines",
+  "imagePath": "/block/vine/latest.png",
+  "wiki": "https://minecraft.wiki/w/Vines",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:bordure_indented_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:bordure_indented_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_from_vine",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cobblestone"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:mossy_cobblestone", "count": 1}
+    },
+    {
+      "id": "minecraft:mossy_stone_bricks_from_vine",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:stone_bricks"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:mossy_stone_bricks", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:can_glide_through", "registry": "block"},
+    {"id": "minecraft:climbable", "registry": "block"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:fall_damage_resetting", "registry": "block", "via": "minecraft:climbable"},
+    {"id": "minecraft:mangrove_logs_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mangrove_roots_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:replaceable_by_trees", "registry": "block"},
+    {"id": "minecraft:shears_minor_breaking_speed", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:bordure_indented_banner_pattern": {
+      "name": "Bordure Indented Banner Pattern",
+      "imagePath": "/item/bordure_indented_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:mossy_cobblestone": {
+      "name": "Mossy Cobblestone",
+      "imagePath": "/block/mossy_cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Cobblestone"
+    },
+    "minecraft:mossy_stone_bricks": {
+      "name": "Mossy Stone Bricks",
+      "imagePath": "/block/mossy_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:stone_bricks": {
+      "name": "Stone Bricks",
+      "imagePath": "/block/stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Bricks"
+    },
+    "minecraft:vine": {
+      "name": "Vines",
+      "imagePath": "/block/vine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vines"
+    }
+  }
+}

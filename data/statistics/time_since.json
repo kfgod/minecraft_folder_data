@@ -19,7 +19,8 @@
     "element": {
       "name": "Purple Concrete Slab",
       "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple",
-      "identifier": "purple_concrete_slab"
+      "identifier": "purple_concrete_slab",
+      "imagePath": "/block/purple_concrete_slab/latest.png"
     },
     "release_date": "2026-09-15T11:23:02+00:00"
   },
@@ -29,7 +30,8 @@
     "element": {
       "name": "Buried Ancient City Map",
       "wiki": "https://minecraft.wiki/w/Explorer_Map",
-      "identifier": "buried_ancient_city_map"
+      "identifier": "buried_ancient_city_map",
+      "imagePath": "/item/buried_ancient_city_map/latest.png"
     },
     "release_date": "2026-09-15T11:23:02+00:00"
   },
@@ -39,7 +41,8 @@
     "element": {
       "name": "Sulfur Cube",
       "wiki": "https://minecraft.wiki/w/Sulfur_Cube",
-      "identifier": "sulfur_cube"
+      "identifier": "sulfur_cube",
+      "imagePath": "/mob/sulfur_cube/latest.png"
     },
     "release_date": "2026-06-16T12:03:33+00:00"
   },
@@ -49,7 +52,8 @@
     "element": {
       "name": "Breath of the Nautilus",
       "wiki": "https://minecraft.wiki/w/Breath_of_the_Nautilus",
-      "identifier": "breath_of_the_nautilus"
+      "identifier": "breath_of_the_nautilus",
+      "imagePath": "/effect/breath_of_the_nautilus/latest.png"
     },
     "release_date": "2025-12-09T12:23:30+00:00"
   },
@@ -59,7 +63,8 @@
     "element": {
       "name": "Lunge",
       "wiki": "https://minecraft.wiki/w/Lunge",
-      "identifier": "lunge"
+      "identifier": "lunge",
+      "imagePath": null
     },
     "release_date": "2025-12-09T12:23:30+00:00"
   },
@@ -69,7 +74,8 @@
     "element": {
       "name": "Dennis – Sarah Boeving",
       "wiki": "https://minecraft.wiki/w/Painting",
-      "identifier": "dennis"
+      "identifier": "dennis",
+      "imagePath": "/painting/dennis/latest.png"
     },
     "release_date": "2025-06-30T09:32:16+00:00"
   },
@@ -79,7 +85,8 @@
     "element": {
       "name": "Uh Oh",
       "wiki": "https://minecraft.wiki/w/Advancement#Uh_Oh",
-      "identifier": "husbandry/uh_oh"
+      "identifier": "husbandry/uh_oh",
+      "imagePath": "/block/tnt/latest.png"
     },
     "release_date": "2026-06-16T12:03:33+00:00"
   },
@@ -89,7 +96,8 @@
     "element": {
       "name": "Coral Zombie Nautilus",
       "wiki": "https://minecraft.wiki/w/Zombie_Nautilus#Coral",
-      "identifier": "coral_zombie_nautilus"
+      "identifier": "coral_zombie_nautilus",
+      "imagePath": "/mob_variant/coral_zombie_nautilus/latest.png"
     },
     "release_date": "2025-12-09T12:23:30+00:00"
   },
@@ -99,7 +107,8 @@
     "element": {
       "name": "Dappled Forest",
       "wiki": "https://minecraft.wiki/w/Dappled_Forest",
-      "identifier": "dappled_forest"
+      "identifier": "dappled_forest",
+      "imagePath": "/biome/dappled_forest/latest.png"
     },
     "release_date": "2026-09-15T11:23:02+00:00"
   },
@@ -109,7 +118,8 @@
     "element": {
       "name": "Abandoned Camp",
       "wiki": "https://minecraft.wiki/w/Abandoned_Camp",
-      "identifier": "abandoned_camp"
+      "identifier": "abandoned_camp",
+      "imagePath": null
     },
     "release_date": "2026-09-15T11:23:02+00:00"
   }

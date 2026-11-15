@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:globe_banner_pattern",
+  "name": "Globe Banner Pattern",
+  "imagePath": "/item/globe_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Globe_Banner_Pattern",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:globe_banner_pattern": {
+      "name": "Globe Banner Pattern",
+      "imagePath": "/item/globe_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Globe_Banner_Pattern"
+    }
+  }
+}

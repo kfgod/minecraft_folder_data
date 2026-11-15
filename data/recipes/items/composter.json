@@ -1,0 +1,146 @@
+{
+  "id": "minecraft:composter",
+  "name": "Composter",
+  "imagePath": "/block/composter/latest.png",
+  "wiki": "https://minecraft.wiki/w/Composter",
+  "recipes": [
+    {
+      "id": "minecraft:composter",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:wooden_slabs"], null, ["#minecraft:wooden_slabs"]],
+        [["#minecraft:wooden_slabs"], null, ["#minecraft:wooden_slabs"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]]
+      ],
+      "result": {"id": "minecraft:composter", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:cushion_uses_collision_shape", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:acacia_slab": {
+      "name": "Acacia Slab",
+      "imagePath": "/block/acacia_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    },
+    "minecraft:birch_slab": {
+      "name": "Birch Slab",
+      "imagePath": "/block/birch_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+    },
+    "minecraft:cherry_slab": {
+      "name": "Cherry Slab",
+      "imagePath": "/block/cherry_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+    },
+    "minecraft:composter": {
+      "name": "Composter",
+      "imagePath": "/block/composter/latest.png",
+      "wiki": "https://minecraft.wiki/w/Composter"
+    },
+    "minecraft:crimson_slab": {
+      "name": "Crimson Slab",
+      "imagePath": "/block/crimson_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+    },
+    "minecraft:dark_oak_slab": {
+      "name": "Dark Oak Slab",
+      "imagePath": "/block/dark_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+    },
+    "minecraft:jungle_slab": {
+      "name": "Jungle Slab",
+      "imagePath": "/block/jungle_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+    },
+    "minecraft:mangrove_slab": {
+      "name": "Mangrove Slab",
+      "imagePath": "/block/mangrove_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+    },
+    "minecraft:oak_slab": {
+      "name": "Oak Slab",
+      "imagePath": "/block/oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+    },
+    "minecraft:pale_oak_slab": {
+      "name": "Pale Oak Slab",
+      "imagePath": "/block/pale_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+    },
+    "minecraft:poplar_slab": {
+      "name": "Poplar Slab",
+      "imagePath": "/block/poplar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+    },
+    "minecraft:spruce_slab": {
+      "name": "Spruce Slab",
+      "imagePath": "/block/spruce_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+    },
+    "minecraft:warped_slab": {
+      "name": "Warped Slab",
+      "imagePath": "/block/warped_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+    },
+    "#minecraft:wooden_slabs": {
+      "items": [
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:pale_oak_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:cherry_slab",
+        "minecraft:poplar_slab"
+      ]
+    }
+  }
+}

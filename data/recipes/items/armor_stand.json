@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:armor_stand",
+  "name": "Armor Stand",
+  "imagePath": "/block/armor_stand/latest.png",
+  "wiki": "https://minecraft.wiki/w/Armor_Stand",
+  "recipes": [
+    {
+      "id": "minecraft:armor_stand",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["minecraft:smooth_stone_slab"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:armor_stand", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:armor_stand": {
+      "name": "Armor Stand",
+      "imagePath": "/block/armor_stand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Armor_Stand"
+    },
+    "minecraft:smooth_stone_slab": {
+      "name": "Smooth Stone Slab",
+      "imagePath": "/block/smooth_stone_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Stone_Slab"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

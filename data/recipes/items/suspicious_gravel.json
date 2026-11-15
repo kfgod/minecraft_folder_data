@@ -1,0 +1,59 @@
+{
+  "id": "minecraft:suspicious_gravel",
+  "name": "Suspicious Gravel",
+  "imagePath": "/block/suspicious_gravel/latest.png",
+  "wiki": "https://minecraft.wiki/w/Suspicious_Gravel",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bamboo_plantable_on", "registry": "block", "removed": "26.1.2"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:supports_bamboo", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:suspicious_gravel": {
+      "name": "Suspicious Gravel",
+      "imagePath": "/block/suspicious_gravel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Suspicious_Gravel"
+    }
+  }
+}

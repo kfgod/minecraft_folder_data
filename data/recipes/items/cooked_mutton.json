@@ -1,0 +1,46 @@
+{
+  "id": "minecraft:cooked_mutton",
+  "name": "Cooked Mutton",
+  "imagePath": "/item/cooked_mutton/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cooked_Mutton",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_mutton_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:mutton"]},
+      "result": {"id": "minecraft:cooked_mutton", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_mutton",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:mutton"]},
+      "result": {"id": "minecraft:cooked_mutton", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_mutton_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:mutton"]},
+      "result": {"id": "minecraft:cooked_mutton", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:cooked_mutton": {
+      "name": "Cooked Mutton",
+      "imagePath": "/item/cooked_mutton/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Mutton"
+    },
+    "minecraft:mutton": {
+      "name": "Raw Mutton",
+      "imagePath": "/item/mutton/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Mutton"
+    }
+  }
+}

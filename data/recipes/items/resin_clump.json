@@ -1,0 +1,60 @@
+{
+  "id": "minecraft:resin_clump",
+  "name": "Resin Clump",
+  "imagePath": "/item/resin_clump/latest.png",
+  "wiki": "https://minecraft.wiki/w/Resin_Clump",
+  "recipes": [
+    {
+      "id": "minecraft:resin_clump",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:resin_block"]],
+      "result": {"id": "minecraft:resin_clump", "count": 9}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:resin_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:resin_clump"], ["minecraft:resin_clump"], ["minecraft:resin_clump"]],
+        [["minecraft:resin_clump"], ["minecraft:resin_clump"], ["minecraft:resin_clump"]],
+        [["minecraft:resin_clump"], ["minecraft:resin_clump"], ["minecraft:resin_clump"]]
+      ],
+      "result": {"id": "minecraft:resin_block", "count": 1}
+    },
+    {
+      "id": "minecraft:resin_brick",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:resin_clump"]},
+      "result": {"id": "minecraft:resin_brick", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:combination_step_sound_blocks", "registry": "block"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:resin_block": {
+      "name": "Block of Resin",
+      "imagePath": "/block/resin_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Resin"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:resin_clump": {
+      "name": "Resin Clump",
+      "imagePath": "/item/resin_clump/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Clump"
+    }
+  }
+}

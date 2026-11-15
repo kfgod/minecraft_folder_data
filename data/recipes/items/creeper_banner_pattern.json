@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:creeper_banner_pattern",
+  "name": "Creeper Charge Banner Pattern",
+  "imagePath": "/item/creeper_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Creeper_Charge_Banner_Pattern",
+  "recipes": [
+    {
+      "id": "minecraft:creeper_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:creeper_head"]],
+      "result": {"id": "minecraft:creeper_banner_pattern", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:creeper_banner_pattern": {
+      "name": "Creeper Charge Banner Pattern",
+      "imagePath": "/item/creeper_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Charge_Banner_Pattern"
+    },
+    "minecraft:creeper_head": {
+      "name": "Creeper Head",
+      "imagePath": "/block/creeper_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Head"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    }
+  }
+}

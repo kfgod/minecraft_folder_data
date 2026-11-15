@@ -1,0 +1,135 @@
+{
+  "id": "minecraft:netherrack",
+  "name": "Netherrack",
+  "imagePath": "/block/netherrack/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherrack",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:netherite_upgrade_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:netherrack"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:netherite_upgrade_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:rib_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:rib_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:netherrack"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:rib_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:nether_brick",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:netherrack"]},
+      "result": {"id": "minecraft:nether_brick", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:base_stone_nether", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:infiniburn_end", "registry": "block", "via": "minecraft:infiniburn_overworld"},
+    {
+      "id": "minecraft:infiniburn_nether",
+      "registry": "block",
+      "via": "minecraft:infiniburn_overworld"
+    },
+    {"id": "minecraft:infiniburn_overworld", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:nether_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:base_stone_nether",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:sculk_replaceable", "registry": "block", "via": "minecraft:base_stone_nether"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:supports_wither_rose", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:nether_brick": {
+      "name": "Nether Brick",
+      "imagePath": "/item/nether_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "minecraft:netherrack": {
+      "name": "Netherrack",
+      "imagePath": "/block/netherrack/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherrack"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "name": "Rib Armor Trim",
+      "imagePath": "/item/rib_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
+    }
+  }
+}

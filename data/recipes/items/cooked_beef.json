@@ -1,0 +1,46 @@
+{
+  "id": "minecraft:cooked_beef",
+  "name": "Steak",
+  "imagePath": "/item/cooked_beef/latest.png",
+  "wiki": "https://minecraft.wiki/w/Steak",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_beef_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:beef"]},
+      "result": {"id": "minecraft:cooked_beef", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_beef",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:beef"]},
+      "result": {"id": "minecraft:cooked_beef", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_beef_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:beef"]},
+      "result": {"id": "minecraft:cooked_beef", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:beef": {
+      "name": "Raw Beef",
+      "imagePath": "/item/beef/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Beef"
+    },
+    "minecraft:cooked_beef": {
+      "name": "Steak",
+      "imagePath": "/item/cooked_beef/latest.png",
+      "wiki": "https://minecraft.wiki/w/Steak"
+    }
+  }
+}

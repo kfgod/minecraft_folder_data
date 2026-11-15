@@ -1,0 +1,58 @@
+{
+  "id": "minecraft:pufferfish",
+  "name": "Pufferfish",
+  "imagePath": "/item/pufferfish/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pufferfish_(item)",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_pufferfish",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:pufferfish"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_pufferfish",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:pufferfish"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_pufferfish",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:pufferfish"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:water_breathing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:fishes", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:fishes"},
+    {"id": "minecraft:nautilus_taming_items", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "imagePath": "/item/pufferfish/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pufferfish_(item)"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"}
+  }
+}

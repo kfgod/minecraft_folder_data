@@ -1,0 +1,107 @@
+{
+  "id": "minecraft:spider_eye",
+  "name": "Spider Eye",
+  "imagePath": "/item/spider_eye/latest.png",
+  "wiki": "https://minecraft.wiki/w/Spider_Eye",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_spider_eye",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:spider_eye"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:fermented_spider_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:spider_eye"], ["minecraft:brown_mushroom"], ["minecraft:sugar"]],
+      "result": {"id": "minecraft:fermented_spider_eye", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:armadillo_food", "registry": "item"}],
+  "refs": {
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:fermented_spider_eye": {
+      "name": "Fermented Spider Eye",
+      "imagePath": "/item/fermented_spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:spider_eye": {
+      "name": "Spider Eye",
+      "imagePath": "/item/spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spider_Eye"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    }
+  }
+}

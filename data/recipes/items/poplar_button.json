@@ -1,0 +1,35 @@
+{
+  "id": "minecraft:poplar_button",
+  "name": "Poplar Button",
+  "imagePath": "/block/poplar_button/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar",
+  "recipes": [
+    {
+      "id": "minecraft:poplar_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:poplar_planks"]],
+      "result": {"id": "minecraft:poplar_button", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:buttons", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:buttons"},
+    {"id": "minecraft:wooden_buttons", "registry": "block"},
+    {"id": "minecraft:buttons", "registry": "item", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:wooden_buttons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:poplar_button": {
+      "name": "Poplar Button",
+      "imagePath": "/block/poplar_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    }
+  }
+}

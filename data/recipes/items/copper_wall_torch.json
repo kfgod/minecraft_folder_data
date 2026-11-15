@@ -1,0 +1,8 @@
+{
+  "id": "minecraft:copper_wall_torch",
+  "name": "Copper Wall Torch",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {"minecraft:copper_wall_torch": {"name": "Copper Wall Torch"}}
+}

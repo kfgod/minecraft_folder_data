@@ -1,0 +1,79 @@
+{
+  "id": "minecraft:ender_eye",
+  "name": "Eye of Ender",
+  "imagePath": "/item/ender_eye/latest.png",
+  "wiki": "https://minecraft.wiki/w/Eye_of_Ender",
+  "recipes": [
+    {
+      "id": "minecraft:ender_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:ender_pearl"], ["minecraft:blaze_powder"]],
+      "result": {"id": "minecraft:ender_eye", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:end_crystal",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ender_eye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:ghast_tear"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:end_crystal", "count": 1}
+    },
+    {
+      "id": "minecraft:ender_chest",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:obsidian"], ["minecraft:obsidian"], ["minecraft:obsidian"]],
+        [["minecraft:obsidian"], ["minecraft:ender_eye"], ["minecraft:obsidian"]],
+        [["minecraft:obsidian"], ["minecraft:obsidian"], ["minecraft:obsidian"]]
+      ],
+      "result": {"id": "minecraft:ender_chest", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:blaze_powder": {
+      "name": "Blaze Powder",
+      "imagePath": "/item/blaze_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Powder"
+    },
+    "minecraft:end_crystal": {
+      "name": "End Crystal",
+      "imagePath": "/block/end_crystal/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Crystal"
+    },
+    "minecraft:ender_chest": {
+      "name": "Ender Chest",
+      "imagePath": "/block/ender_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ender_Chest"
+    },
+    "minecraft:ender_eye": {
+      "name": "Eye of Ender",
+      "imagePath": "/item/ender_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_of_Ender"
+    },
+    "minecraft:ender_pearl": {
+      "name": "Ender Pearl",
+      "imagePath": "/item/ender_pearl/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rotten_Flesh"
+    },
+    "minecraft:ghast_tear": {
+      "name": "Ghast Tear",
+      "imagePath": "/item/ghast_tear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ghast_Tear"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:obsidian": {
+      "name": "Obsidian",
+      "imagePath": "/block/obsidian/latest.png",
+      "wiki": "https://minecraft.wiki/w/Obsidian"
+    }
+  }
+}

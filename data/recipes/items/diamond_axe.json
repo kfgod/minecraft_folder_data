@@ -1,0 +1,83 @@
+{
+  "id": "minecraft:diamond_axe",
+  "name": "Diamond Axe",
+  "imagePath": "/item/diamond_axe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Diamond_Axe",
+  "recipes": [
+    {
+      "id": "minecraft:diamond_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:diamond_tool_materials"], ["#minecraft:diamond_tool_materials"]],
+        [["#minecraft:diamond_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:diamond_axe", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:netherite_axe_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_axe"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_axe", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:axes", "registry": "item"},
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/sharp_weapon", "registry": "item", "via": "minecraft:axes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    },
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:axes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_axe": {
+      "name": "Diamond Axe",
+      "imagePath": "/item/diamond_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Axe"
+    },
+    "minecraft:netherite_axe": {
+      "name": "Netherite Axe",
+      "imagePath": "/item/netherite_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Axe"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "#minecraft:diamond_tool_materials": {"items": ["minecraft:diamond"]},
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:warped_button",
+  "name": "Warped Button",
+  "imagePath": "/block/warped_button/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
+  "recipes": [
+    {
+      "id": "minecraft:warped_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:warped_planks"]],
+      "result": {"id": "minecraft:warped_button", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:buttons", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:buttons"},
+    {"id": "minecraft:wooden_buttons", "registry": "block"},
+    {"id": "minecraft:buttons", "registry": "item", "via": "minecraft:wooden_buttons"},
+    {"id": "minecraft:non_flammable_wood", "registry": "item"},
+    {"id": "minecraft:wooden_buttons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:warped_button": {
+      "name": "Warped Button",
+      "imagePath": "/block/warped_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    }
+  }
+}

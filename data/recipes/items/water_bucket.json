@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:water_bucket",
+  "name": "Water Bucket",
+  "imagePath": "/item/water_bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Water_Bucket",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:furnace_fuel_bottom_takeable", "registry": "item"}],
+  "refs": {
+    "minecraft:water_bucket": {
+      "name": "Water Bucket",
+      "imagePath": "/item/water_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Water_Bucket"
+    }
+  }
+}

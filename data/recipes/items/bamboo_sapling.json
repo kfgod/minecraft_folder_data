@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:bamboo_sapling",
+  "name": "Bamboo Sapling",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bamboo_plantable_on", "registry": "block", "removed": "26.1.2"},
+    {"id": "minecraft:supports_bamboo", "registry": "block"},
+    {"id": "minecraft:sword_instantly_mines", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:bamboo_sapling": {"name": "Bamboo Sapling"}}
+}

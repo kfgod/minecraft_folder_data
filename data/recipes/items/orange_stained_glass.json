@@ -1,0 +1,96 @@
+{
+  "id": "minecraft:orange_stained_glass",
+  "name": "Orange Stained Glass",
+  "imagePath": "/block/orange_stained_glass/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange",
+  "recipes": [
+    {
+      "id": "minecraft:orange_stained_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:orange_dye"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:orange_stained_glass", "count": 8}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:orange_stained_glass_pane",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:orange_stained_glass"],
+          ["minecraft:orange_stained_glass"],
+          ["minecraft:orange_stained_glass"]
+        ],
+        [
+          ["minecraft:orange_stained_glass"],
+          ["minecraft:orange_stained_glass"],
+          ["minecraft:orange_stained_glass"]
+        ]
+      ],
+      "result": {"id": "minecraft:orange_stained_glass_pane", "count": 16}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:impermeable", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_stained_glass": {
+      "name": "Orange Stained Glass",
+      "imagePath": "/block/orange_stained_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange"
+    },
+    "minecraft:orange_stained_glass_pane": {
+      "name": "Orange Stained Glass Pane",
+      "imagePath": "/block/orange_stained_glass_pane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange"
+    }
+  }
+}

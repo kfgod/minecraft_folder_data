@@ -1,0 +1,436 @@
+{
+  "id": "minecraft:brown_mushroom",
+  "name": "Brown Mushroom",
+  "imagePath": "/block/brown_mushroom/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mushroom",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:fermented_spider_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:spider_eye"], ["minecraft:brown_mushroom"], ["minecraft:sugar"]],
+      "result": {"id": "minecraft:fermented_spider_eye", "count": 1}
+    },
+    {
+      "id": "minecraft:mushroom_stew",
+      "type": "crafting_shapeless",
+      "ingredients": [["#minecraft:mushrooms"], ["#minecraft:mushrooms"], ["minecraft:bowl"]],
+      "result": {"id": "minecraft:mushroom_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_brown_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:brown_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_allium",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bowl"], ["#minecraft:mushrooms"], ["#minecraft:mushrooms"], ["minecraft:allium"]],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 60, "id": "minecraft:fire_resistance"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_azure_bluet",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:azure_bluet"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 220, "id": "minecraft:blindness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_blue_orchid",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:blue_orchid"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 7, "id": "minecraft:saturation"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_closed_eyeblossom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:closed_eyeblossom"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:nausea"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_cornflower",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:cornflower"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 100, "id": "minecraft:jump_boost"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_dandelion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:dandelion"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 7, "id": "minecraft:saturation"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_golden_dandelion",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:golden_dandelion"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 7, "id": "minecraft:saturation"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_lily_of_the_valley",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:lily_of_the_valley"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 220, "id": "minecraft:poison"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_open_eyeblossom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:open_eyeblossom"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 220, "id": "minecraft:blindness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_orange_tulip",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:orange_tulip"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:weakness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_oxeye_daisy",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:oxeye_daisy"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:regeneration"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_pink_tulip",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:pink_tulip"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:weakness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_poppy",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:bowl"], ["#minecraft:mushrooms"], ["#minecraft:mushrooms"], ["minecraft:poppy"]],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 100, "id": "minecraft:night_vision"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_red_tulip",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:red_tulip"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:weakness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_torchflower",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:torchflower"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 100, "id": "minecraft:night_vision"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_white_tulip",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:white_tulip"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:weakness"}]}
+      }
+    },
+    {
+      "id": "minecraft:suspicious_stew_from_wither_rose",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:bowl"],
+        ["#minecraft:mushrooms"],
+        ["#minecraft:mushrooms"],
+        ["minecraft:wither_rose"]
+      ],
+      "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {"minecraft:suspicious_stew_effects": [{"duration": 140, "id": "minecraft:wither"}]}
+      }
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:replaceable_by_mushrooms", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:mushrooms", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:allium": {
+      "name": "Allium",
+      "imagePath": "/block/allium/latest.png",
+      "wiki": "https://minecraft.wiki/w/Allium"
+    },
+    "minecraft:azure_bluet": {
+      "name": "Azure Bluet",
+      "imagePath": "/block/azure_bluet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+    },
+    "minecraft:baked_potato": {
+      "name": "Baked Potato",
+      "imagePath": "/item/baked_potato/latest.png",
+      "wiki": "https://minecraft.wiki/w/Baked_Potato"
+    },
+    "minecraft:blue_orchid": {
+      "name": "Blue Orchid",
+      "imagePath": "/block/blue_orchid/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Orchid"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:closed_eyeblossom": {
+      "name": "Closed Eyeblossom",
+      "imagePath": "/block/closed_eyeblossom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eyeblossom#Closed"
+    },
+    "minecraft:cooked_rabbit": {
+      "name": "Cooked Rabbit",
+      "imagePath": "/item/cooked_rabbit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Rabbit"
+    },
+    "minecraft:cornflower": {
+      "name": "Cornflower",
+      "imagePath": "/block/cornflower/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cornflower"
+    },
+    "minecraft:dandelion": {
+      "name": "Dandelion",
+      "imagePath": "/block/dandelion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dandelion"
+    },
+    "minecraft:fermented_spider_eye": {
+      "name": "Fermented Spider Eye",
+      "imagePath": "/item/fermented_spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye"
+    },
+    "minecraft:golden_dandelion": {
+      "name": "Golden Dandelion",
+      "imagePath": "/block/golden_dandelion/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Dandelion"
+    },
+    "minecraft:lily_of_the_valley": {
+      "name": "Lily of the Valley",
+      "imagePath": "/block/lily_of_the_valley/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lily_of_the_Valley"
+    },
+    "minecraft:mushroom_stew": {
+      "name": "Mushroom Stew",
+      "imagePath": "/item/mushroom_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom_Stew"
+    },
+    "minecraft:open_eyeblossom": {
+      "name": "Open Eyeblossom",
+      "imagePath": "/block/open_eyeblossom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eyeblossom#Open"
+    },
+    "minecraft:orange_tulip": {
+      "name": "Orange Tulip",
+      "imagePath": "/block/orange_tulip/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tulip"
+    },
+    "minecraft:oxeye_daisy": {
+      "name": "Oxeye Daisy",
+      "imagePath": "/block/oxeye_daisy/latest.png",
+      "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+    },
+    "minecraft:pink_tulip": {
+      "name": "Pink Tulip",
+      "imagePath": "/block/pink_tulip/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tulip"
+    },
+    "minecraft:poppy": {
+      "name": "Poppy",
+      "imagePath": "/block/poppy/latest.png",
+      "wiki": "https://minecraft.wiki/w/Poppy"
+    },
+    "minecraft:rabbit_stew": {
+      "name": "Rabbit Stew",
+      "imagePath": "/item/rabbit_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rabbit_Stew"
+    },
+    "minecraft:red_mushroom": {
+      "name": "Red Mushroom",
+      "imagePath": "/block/red_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:red_tulip": {
+      "name": "Red Tulip",
+      "imagePath": "/block/red_tulip/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tulip"
+    },
+    "minecraft:shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "imagePath": "/block/shelf_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf_Mushroom"
+    },
+    "minecraft:spider_eye": {
+      "name": "Spider Eye",
+      "imagePath": "/item/spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spider_Eye"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "minecraft:suspicious_stew": {
+      "name": "Suspicious Stew",
+      "imagePath": "/item/suspicious_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Suspicious_Stew"
+    },
+    "minecraft:torchflower": {
+      "name": "Torchflower",
+      "imagePath": "/block/torchflower/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torchflower"
+    },
+    "minecraft:white_tulip": {
+      "name": "White Tulip",
+      "imagePath": "/block/white_tulip/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tulip"
+    },
+    "minecraft:wither_rose": {
+      "name": "Wither Rose",
+      "imagePath": "/block/wither_rose/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Rose"
+    },
+    "#minecraft:mushrooms": {"items": ["minecraft:brown_mushroom", "minecraft:red_mushroom", "minecraft:shelf_mushroom"]}
+  }
+}

@@ -1,0 +1,1104 @@
+{
+  "id": "minecraft:honeycomb",
+  "name": "Honeycomb",
+  "imagePath": "/item/honeycomb/latest.png",
+  "wiki": "https://minecraft.wiki/w/Honeycomb",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:beehive",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["minecraft:honeycomb"], ["minecraft:honeycomb"], ["minecraft:honeycomb"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:beehive", "count": 1}
+    },
+    {
+      "id": "minecraft:candle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"]], [["minecraft:honeycomb"]]],
+      "result": {"id": "minecraft:candle", "count": 1}
+    },
+    {
+      "id": "minecraft:honeycomb_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:honeycomb"], ["minecraft:honeycomb"]],
+        [["minecraft:honeycomb"], ["minecraft:honeycomb"]]
+      ],
+      "result": {"id": "minecraft:honeycomb_block", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_chiseled_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chiseled_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_bars_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_bars"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_bars", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_block_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_block"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_block", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_bulb_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_bulb"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_bulb", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_chain_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_chain"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_chest_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_chest"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_chest", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_door_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_door"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_door", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_golem_statue_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_golem_statue"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_golem_statue", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_grate_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_grate"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_grate", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_lantern_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_lantern"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_copper_trapdoor_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_trapdoor"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_trapdoor", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cut_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_slab_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cut_copper_slab"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_cut_copper_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_stairs_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cut_copper_stairs"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_cut_copper_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_chiseled_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_chiseled_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_bars_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_bars"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_bars", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_bulb_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_bulb"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_bulb", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_chain_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_chain"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_chest_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_chest"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_chest", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_door_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_door"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_door", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_golem_statue_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_golem_statue"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_grate_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_grate"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_grate", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_lantern_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_lantern"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_trapdoor_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper_trapdoor"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper_trapdoor", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_cut_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_cut_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_cut_copper_slab"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_cut_copper_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_cut_copper_stairs"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_cut_copper_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_exposed_lightning_rod_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_lightning_rod"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_lightning_rod", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_lightning_rod_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:lightning_rod"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_lightning_rod", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_chiseled_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_bars_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_bars"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_bars", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_bulb_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_bulb"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_bulb", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_chain_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_chain"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_chest_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_chest"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_chest", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_door_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_door"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_door", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_golem_statue_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_golem_statue"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_grate_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_grate"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_grate", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_lantern_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_lantern"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_trapdoor"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_trapdoor", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_cut_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_cut_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_cut_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_cut_copper_slab"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_cut_copper_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_cut_copper_stairs"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_cut_copper_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_oxidized_lightning_rod_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_lightning_rod"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_lightning_rod", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_chiseled_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_chiseled_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_bars_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_bars"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_bars", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_bulb_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_bulb"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_bulb", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_chain_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_chain"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_chain", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_chest_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_chest"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_chest", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_door_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_door"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_door", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_golem_statue_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_golem_statue"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_grate_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_grate"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_grate", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_lantern_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_lantern"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_lantern", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_trapdoor_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_copper_trapdoor"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_copper_trapdoor", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_cut_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_cut_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_cut_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_cut_copper_slab"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_cut_copper_slab", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_cut_copper_stairs"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_cut_copper_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_weathered_lightning_rod_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:weathered_lightning_rod"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_weathered_lightning_rod", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:beehive": {
+      "name": "Beehive",
+      "imagePath": "/block/beehive/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beehive"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:chiseled_copper": {
+      "name": "Chiseled Copper",
+      "imagePath": "/block/chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized"
+    },
+    "minecraft:copper_bars": {
+      "name": "Copper Bars",
+      "imagePath": "/block/copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized"
+    },
+    "minecraft:copper_block": {
+      "name": "Block of Copper",
+      "imagePath": "/block/copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:copper_bulb": {
+      "name": "Copper Bulb",
+      "imagePath": "/block/copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:copper_chain": {
+      "name": "Copper Chain",
+      "imagePath": "/block/copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Unoxidized"
+    },
+    "minecraft:copper_chest": {
+      "name": "Copper Chest",
+      "imagePath": "/block/copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized"
+    },
+    "minecraft:copper_door": {
+      "name": "Copper Door",
+      "imagePath": "/block/copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Unoxidized"
+    },
+    "minecraft:copper_golem_statue": {
+      "name": "Copper Golem Statue",
+      "imagePath": "/block/copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Unoxidized"
+    },
+    "minecraft:copper_grate": {
+      "name": "Copper Grate",
+      "imagePath": "/block/copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Unoxidized"
+    },
+    "minecraft:copper_lantern": {
+      "name": "Copper Lantern",
+      "imagePath": "/block/copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Unoxidized"
+    },
+    "minecraft:copper_trapdoor": {
+      "name": "Copper Trapdoor",
+      "imagePath": "/block/copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Unoxidized"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:cut_copper": {
+      "name": "Cut Copper",
+      "imagePath": "/block/cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+    },
+    "minecraft:cut_copper_slab": {
+      "name": "Cut Copper Slab",
+      "imagePath": "/block/cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized"
+    },
+    "minecraft:cut_copper_stairs": {
+      "name": "Cut Copper Stairs",
+      "imagePath": "/block/cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:exposed_chiseled_copper": {
+      "name": "Exposed Chiseled Copper",
+      "imagePath": "/block/exposed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed"
+    },
+    "minecraft:exposed_copper": {
+      "name": "Exposed Copper",
+      "imagePath": "/block/exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:exposed_copper_bars": {
+      "name": "Exposed Copper Bars",
+      "imagePath": "/block/exposed_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed"
+    },
+    "minecraft:exposed_copper_bulb": {
+      "name": "Exposed Copper Bulb",
+      "imagePath": "/block/exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:exposed_copper_chain": {
+      "name": "Exposed Copper Chain",
+      "imagePath": "/block/exposed_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed"
+    },
+    "minecraft:exposed_copper_chest": {
+      "name": "Exposed Copper Chest",
+      "imagePath": "/block/exposed_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Exposed"
+    },
+    "minecraft:exposed_copper_door": {
+      "name": "Exposed Copper Door",
+      "imagePath": "/block/exposed_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Exposed"
+    },
+    "minecraft:exposed_copper_golem_statue": {
+      "name": "Exposed Copper Golem Statue",
+      "imagePath": "/block/exposed_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Exposed"
+    },
+    "minecraft:exposed_copper_grate": {
+      "name": "Exposed Copper Grate",
+      "imagePath": "/block/exposed_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Exposed"
+    },
+    "minecraft:exposed_copper_lantern": {
+      "name": "Exposed Copper Lantern",
+      "imagePath": "/block/exposed_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Exposed"
+    },
+    "minecraft:exposed_copper_trapdoor": {
+      "name": "Exposed Copper Trapdoor",
+      "imagePath": "/block/exposed_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Exposed"
+    },
+    "minecraft:exposed_cut_copper": {
+      "name": "Exposed Cut Copper",
+      "imagePath": "/block/exposed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed"
+    },
+    "minecraft:exposed_cut_copper_slab": {
+      "name": "Exposed Cut Copper Slab",
+      "imagePath": "/block/exposed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed"
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+      "name": "Exposed Cut Copper Stairs",
+      "imagePath": "/block/exposed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed"
+    },
+    "minecraft:exposed_lightning_rod": {
+      "name": "Exposed Lightning Rod",
+      "imagePath": "/block/exposed_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:honeycomb_block": {
+      "name": "Honeycomb Block",
+      "imagePath": "/block/honeycomb_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb_Block"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:lightning_rod": {
+      "name": "Lightning Rod",
+      "imagePath": "/block/lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Unoxidized"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oxidized_chiseled_copper": {
+      "name": "Oxidized Chiseled Copper",
+      "imagePath": "/block/oxidized_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper": {
+      "name": "Oxidized Copper",
+      "imagePath": "/block/oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper_bars": {
+      "name": "Oxidized Copper Bars",
+      "imagePath": "/block/oxidized_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "name": "Oxidized Copper Bulb",
+      "imagePath": "/block/oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:oxidized_copper_chain": {
+      "name": "Oxidized Copper Chain",
+      "imagePath": "/block/oxidized_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Oxidized"
+    },
+    "minecraft:oxidized_copper_chest": {
+      "name": "Oxidized Copper Chest",
+      "imagePath": "/block/oxidized_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Oxidized"
+    },
+    "minecraft:oxidized_copper_door": {
+      "name": "Oxidized Copper Door",
+      "imagePath": "/block/oxidized_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Oxidized"
+    },
+    "minecraft:oxidized_copper_golem_statue": {
+      "name": "Oxidized Copper Golem Statue",
+      "imagePath": "/block/oxidized_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Oxidized"
+    },
+    "minecraft:oxidized_copper_grate": {
+      "name": "Oxidized Copper Grate",
+      "imagePath": "/block/oxidized_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Oxidized"
+    },
+    "minecraft:oxidized_copper_lantern": {
+      "name": "Oxidized Copper Lantern",
+      "imagePath": "/block/oxidized_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Oxidized"
+    },
+    "minecraft:oxidized_copper_trapdoor": {
+      "name": "Oxidized Copper Trapdoor",
+      "imagePath": "/block/oxidized_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Oxidized"
+    },
+    "minecraft:oxidized_cut_copper": {
+      "name": "Oxidized Cut Copper",
+      "imagePath": "/block/oxidized_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized"
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+      "name": "Oxidized Cut Copper Slab",
+      "imagePath": "/block/oxidized_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized"
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+      "name": "Oxidized Cut Copper Stairs",
+      "imagePath": "/block/oxidized_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Oxidized"
+    },
+    "minecraft:oxidized_lightning_rod": {
+      "name": "Oxidized Lightning Rod",
+      "imagePath": "/block/oxidized_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Oxidized"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:waxed_chiseled_copper": {
+      "name": "Waxed Chiseled Copper",
+      "imagePath": "/block/waxed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_bars": {
+      "name": "Waxed Copper Bars",
+      "imagePath": "/block/waxed_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized"
+    },
+    "minecraft:waxed_copper_block": {
+      "name": "Waxed Block of Copper",
+      "imagePath": "/block/waxed_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "name": "Waxed Copper Bulb",
+      "imagePath": "/block/waxed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized"
+    },
+    "minecraft:waxed_copper_chain": {
+      "name": "Waxed Copper Chain",
+      "imagePath": "/block/waxed_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Unoxidized"
+    },
+    "minecraft:waxed_copper_chest": {
+      "name": "Waxed Copper Chest",
+      "imagePath": "/block/waxed_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized"
+    },
+    "minecraft:waxed_copper_door": {
+      "name": "Waxed Copper Door",
+      "imagePath": "/block/waxed_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Unoxidized"
+    },
+    "minecraft:waxed_copper_golem_statue": {
+      "name": "Waxed Copper Golem Statue",
+      "imagePath": "/block/waxed_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Unoxidized"
+    },
+    "minecraft:waxed_copper_grate": {
+      "name": "Waxed Copper Grate",
+      "imagePath": "/block/waxed_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Unoxidized"
+    },
+    "minecraft:waxed_copper_lantern": {
+      "name": "Waxed Copper Lantern",
+      "imagePath": "/block/waxed_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Unoxidized"
+    },
+    "minecraft:waxed_copper_trapdoor": {
+      "name": "Waxed Copper Trapdoor",
+      "imagePath": "/block/waxed_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper": {
+      "name": "Waxed Cut Copper",
+      "imagePath": "/block/waxed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "name": "Waxed Cut Copper Slab",
+      "imagePath": "/block/waxed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "name": "Waxed Cut Copper Stairs",
+      "imagePath": "/block/waxed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized"
+    },
+    "minecraft:waxed_exposed_chiseled_copper": {
+      "name": "Waxed Exposed Chiseled Copper",
+      "imagePath": "/block/waxed_exposed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper": {
+      "name": "Waxed Exposed Copper",
+      "imagePath": "/block/waxed_exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_bars": {
+      "name": "Waxed Exposed Copper Bars",
+      "imagePath": "/block/waxed_exposed_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "name": "Waxed Exposed Copper Bulb",
+      "imagePath": "/block/waxed_exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_chain": {
+      "name": "Waxed Exposed Copper Chain",
+      "imagePath": "/block/waxed_exposed_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_chest": {
+      "name": "Waxed Exposed Copper Chest",
+      "imagePath": "/block/waxed_exposed_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_door": {
+      "name": "Waxed Exposed Copper Door",
+      "imagePath": "/block/waxed_exposed_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_golem_statue": {
+      "name": "Waxed Exposed Copper Golem Statue",
+      "imagePath": "/block/waxed_exposed_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_grate": {
+      "name": "Waxed Exposed Copper Grate",
+      "imagePath": "/block/waxed_exposed_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_lantern": {
+      "name": "Waxed Exposed Copper Lantern",
+      "imagePath": "/block/waxed_exposed_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_trapdoor": {
+      "name": "Waxed Exposed Copper Trapdoor",
+      "imagePath": "/block/waxed_exposed_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+      "name": "Waxed Exposed Cut Copper",
+      "imagePath": "/block/waxed_exposed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+      "name": "Waxed Exposed Cut Copper Slab",
+      "imagePath": "/block/waxed_exposed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+      "name": "Waxed Exposed Cut Copper Stairs",
+      "imagePath": "/block/waxed_exposed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed"
+    },
+    "minecraft:waxed_exposed_lightning_rod": {
+      "name": "Waxed Exposed Lightning Rod",
+      "imagePath": "/block/waxed_exposed_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed"
+    },
+    "minecraft:waxed_lightning_rod": {
+      "name": "Waxed Lightning Rod",
+      "imagePath": "/block/waxed_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Unoxidized"
+    },
+    "minecraft:waxed_oxidized_chiseled_copper": {
+      "name": "Waxed Oxidized Chiseled Copper",
+      "imagePath": "/block/waxed_oxidized_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper": {
+      "name": "Waxed Oxidized Copper",
+      "imagePath": "/block/waxed_oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_bars": {
+      "name": "Waxed Oxidized Copper Bars",
+      "imagePath": "/block/waxed_oxidized_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "name": "Waxed Oxidized Copper Bulb",
+      "imagePath": "/block/waxed_oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_chain": {
+      "name": "Waxed Oxidized Copper Chain",
+      "imagePath": "/block/waxed_oxidized_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_chest": {
+      "name": "Waxed Oxidized Copper Chest",
+      "imagePath": "/block/waxed_oxidized_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_door": {
+      "name": "Waxed Oxidized Copper Door",
+      "imagePath": "/block/waxed_oxidized_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_golem_statue": {
+      "name": "Waxed Oxidized Copper Golem Statue",
+      "imagePath": "/block/waxed_oxidized_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_grate": {
+      "name": "Waxed Oxidized Copper Grate",
+      "imagePath": "/block/waxed_oxidized_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_lantern": {
+      "name": "Waxed Oxidized Copper Lantern",
+      "imagePath": "/block/waxed_oxidized_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Oxidized"
+    },
+    "minecraft:waxed_oxidized_copper_trapdoor": {
+      "name": "Waxed Oxidized Copper Trapdoor",
+      "imagePath": "/block/waxed_oxidized_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Oxidized"
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+      "name": "Waxed Oxidized Cut Copper",
+      "imagePath": "/block/waxed_oxidized_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+      "name": "Waxed Oxidized Cut Copper Slab",
+      "imagePath": "/block/waxed_oxidized_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized"
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+      "name": "Waxed Oxidized Cut Copper Stairs",
+      "imagePath": "/block/waxed_oxidized_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Oxidized"
+    },
+    "minecraft:waxed_oxidized_lightning_rod": {
+      "name": "Waxed Oxidized Lightning Rod",
+      "imagePath": "/block/waxed_oxidized_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Oxidized"
+    },
+    "minecraft:waxed_weathered_chiseled_copper": {
+      "name": "Waxed Weathered Chiseled Copper",
+      "imagePath": "/block/waxed_weathered_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Weathered"
+    },
+    "minecraft:waxed_weathered_copper": {
+      "name": "Waxed Weathered Copper",
+      "imagePath": "/block/waxed_weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_bars": {
+      "name": "Waxed Weathered Copper Bars",
+      "imagePath": "/block/waxed_weathered_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+      "name": "Waxed Weathered Copper Bulb",
+      "imagePath": "/block/waxed_weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_chain": {
+      "name": "Waxed Weathered Copper Chain",
+      "imagePath": "/block/waxed_weathered_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_chest": {
+      "name": "Waxed Weathered Copper Chest",
+      "imagePath": "/block/waxed_weathered_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_door": {
+      "name": "Waxed Weathered Copper Door",
+      "imagePath": "/block/waxed_weathered_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_golem_statue": {
+      "name": "Waxed Weathered Copper Golem Statue",
+      "imagePath": "/block/waxed_weathered_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_grate": {
+      "name": "Waxed Weathered Copper Grate",
+      "imagePath": "/block/waxed_weathered_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_lantern": {
+      "name": "Waxed Weathered Copper Lantern",
+      "imagePath": "/block/waxed_weathered_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Weathered"
+    },
+    "minecraft:waxed_weathered_copper_trapdoor": {
+      "name": "Waxed Weathered Copper Trapdoor",
+      "imagePath": "/block/waxed_weathered_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Weathered"
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+      "name": "Waxed Weathered Cut Copper",
+      "imagePath": "/block/waxed_weathered_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered"
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+      "name": "Waxed Weathered Cut Copper Slab",
+      "imagePath": "/block/waxed_weathered_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Weathered"
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+      "name": "Waxed Weathered Cut Copper Stairs",
+      "imagePath": "/block/waxed_weathered_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Weathered"
+    },
+    "minecraft:waxed_weathered_lightning_rod": {
+      "name": "Waxed Weathered Lightning Rod",
+      "imagePath": "/block/waxed_weathered_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Weathered"
+    },
+    "minecraft:weathered_chiseled_copper": {
+      "name": "Weathered Chiseled Copper",
+      "imagePath": "/block/weathered_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Weathered"
+    },
+    "minecraft:weathered_copper": {
+      "name": "Weathered Copper",
+      "imagePath": "/block/weathered_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered"
+    },
+    "minecraft:weathered_copper_bars": {
+      "name": "Weathered Copper Bars",
+      "imagePath": "/block/weathered_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Weathered"
+    },
+    "minecraft:weathered_copper_bulb": {
+      "name": "Weathered Copper Bulb",
+      "imagePath": "/block/weathered_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered"
+    },
+    "minecraft:weathered_copper_chain": {
+      "name": "Weathered Copper Chain",
+      "imagePath": "/block/weathered_copper_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered"
+    },
+    "minecraft:weathered_copper_chest": {
+      "name": "Weathered Copper Chest",
+      "imagePath": "/block/weathered_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Weathered"
+    },
+    "minecraft:weathered_copper_door": {
+      "name": "Weathered Copper Door",
+      "imagePath": "/block/weathered_copper_door/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Door#Weathered"
+    },
+    "minecraft:weathered_copper_golem_statue": {
+      "name": "Weathered Copper Golem Statue",
+      "imagePath": "/block/weathered_copper_golem_statue/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered"
+    },
+    "minecraft:weathered_copper_grate": {
+      "name": "Weathered Copper Grate",
+      "imagePath": "/block/weathered_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Weathered"
+    },
+    "minecraft:weathered_copper_lantern": {
+      "name": "Weathered Copper Lantern",
+      "imagePath": "/block/weathered_copper_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Lantern#Weathered"
+    },
+    "minecraft:weathered_copper_trapdoor": {
+      "name": "Weathered Copper Trapdoor",
+      "imagePath": "/block/weathered_copper_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Weathered"
+    },
+    "minecraft:weathered_cut_copper": {
+      "name": "Weathered Cut Copper",
+      "imagePath": "/block/weathered_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered"
+    },
+    "minecraft:weathered_cut_copper_slab": {
+      "name": "Weathered Cut Copper Slab",
+      "imagePath": "/block/weathered_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Weathered"
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+      "name": "Weathered Cut Copper Stairs",
+      "imagePath": "/block/weathered_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Weathered"
+    },
+    "minecraft:weathered_lightning_rod": {
+      "name": "Weathered Lightning Rod",
+      "imagePath": "/block/weathered_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Weathered"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

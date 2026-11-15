@@ -1,0 +1,74 @@
+{
+  "id": "minecraft:slime_ball",
+  "name": "Slimeball",
+  "imagePath": "/item/slime_ball/latest.png",
+  "wiki": "https://minecraft.wiki/w/Slimeball",
+  "recipes": [
+    {
+      "id": "minecraft:slime_ball",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:slime_block"]],
+      "result": {"id": "minecraft:slime_ball", "count": 9}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:slime_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:slime_ball"], ["minecraft:slime_ball"], ["minecraft:slime_ball"]],
+        [["minecraft:slime_ball"], ["minecraft:slime_ball"], ["minecraft:slime_ball"]],
+        [["minecraft:slime_ball"], ["minecraft:slime_ball"], ["minecraft:slime_ball"]]
+      ],
+      "result": {"id": "minecraft:slime_block", "count": 1}
+    },
+    {
+      "id": "minecraft:sticky_piston",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:slime_ball"]], [["minecraft:piston"]]],
+      "result": {"id": "minecraft:sticky_piston", "count": 1}
+    },
+    {
+      "id": "minecraft:magma_cream",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:blaze_powder"], ["minecraft:slime_ball"]],
+      "result": {"id": "minecraft:magma_cream", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:frog_food", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:blaze_powder": {
+      "name": "Blaze Powder",
+      "imagePath": "/item/blaze_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Powder"
+    },
+    "minecraft:magma_cream": {
+      "name": "Magma Cream",
+      "imagePath": "/item/magma_cream/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magma_Cream"
+    },
+    "minecraft:piston": {
+      "name": "Piston",
+      "imagePath": "/block/piston/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piston"
+    },
+    "minecraft:slime_ball": {
+      "name": "Slimeball",
+      "imagePath": "/item/slime_ball/latest.png",
+      "wiki": "https://minecraft.wiki/w/Slimeball"
+    },
+    "minecraft:slime_block": {
+      "name": "Slime Block",
+      "imagePath": "/block/slime_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Slime_Block"
+    },
+    "minecraft:sticky_piston": {
+      "name": "Sticky Piston",
+      "imagePath": "/block/sticky_piston/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sticky_Piston"
+    }
+  }
+}

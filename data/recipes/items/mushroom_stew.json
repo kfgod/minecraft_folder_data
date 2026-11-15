@@ -1,0 +1,40 @@
+{
+  "id": "minecraft:mushroom_stew",
+  "name": "Mushroom Stew",
+  "imagePath": "/item/mushroom_stew/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mushroom_Stew",
+  "recipes": [
+    {
+      "id": "minecraft:mushroom_stew",
+      "type": "crafting_shapeless",
+      "ingredients": [["#minecraft:mushrooms"], ["#minecraft:mushrooms"], ["minecraft:bowl"]],
+      "result": {"id": "minecraft:mushroom_stew", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:mushroom_stew": {
+      "name": "Mushroom Stew",
+      "imagePath": "/item/mushroom_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom_Stew"
+    },
+    "minecraft:red_mushroom": {
+      "name": "Red Mushroom",
+      "imagePath": "/block/red_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "imagePath": "/block/shelf_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf_Mushroom"
+    },
+    "#minecraft:mushrooms": {"items": ["minecraft:brown_mushroom", "minecraft:red_mushroom", "minecraft:shelf_mushroom"]}
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "id": "minecraft:stripped_acacia_wood",
+  "name": "Stripped Acacia Wood",
+  "imagePath": "/block/stripped_acacia_wood/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
+  "recipes": [
+    {
+      "id": "minecraft:stripped_acacia_wood",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stripped_acacia_log"], ["minecraft:stripped_acacia_log"]],
+        [["minecraft:stripped_acacia_log"], ["minecraft:stripped_acacia_log"]]
+      ],
+      "result": {"id": "minecraft:stripped_acacia_wood", "count": 3}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:campfire",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["#minecraft:coals"], ["minecraft:stick"]],
+        [["#minecraft:logs"], ["#minecraft:logs"], ["#minecraft:logs"]]
+      ],
+      "result": {"id": "minecraft:campfire", "count": 1}
+    },
+    {
+      "id": "minecraft:smoker",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["#minecraft:logs"], null],
+        [["#minecraft:logs"], ["minecraft:furnace"], ["#minecraft:logs"]],
+        [null, ["#minecraft:logs"], null]
+      ],
+      "result": {"id": "minecraft:smoker", "count": 1}
+    },
+    {
+      "id": "minecraft:soul_campfire",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], ["#minecraft:soul_fire_base_blocks"], ["minecraft:stick"]],
+        [["#minecraft:logs"], ["#minecraft:logs"], ["#minecraft:logs"]]
+      ],
+      "result": {"id": "minecraft:soul_campfire", "count": 1}
+    },
+    {
+      "id": "minecraft:acacia_planks",
+      "type": "crafting_shapeless",
+      "ingredients": [["#minecraft:acacia_logs"]],
+      "result": {"id": "minecraft:acacia_planks", "count": 4}
+    },
+    {
+      "id": "minecraft:charcoal",
+      "type": "smelting",
+      "inputs": {"ingredient": ["#minecraft:logs_that_burn"]},
+      "result": {"id": "minecraft:charcoal", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.15}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:acacia_logs", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:logs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:completes_find_tree_tutorial", "registry": "block", "via": "minecraft:logs"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:lava_pool_stone_cannot_replace", "registry": "block", "via": "minecraft:logs"},
+    {"id": "minecraft:logs", "registry": "block", "via": "minecraft:logs_that_burn"},
+    {"id": "minecraft:logs_that_burn", "registry": "block", "via": "minecraft:acacia_logs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:logs"},
+    {"id": "minecraft:parrots_spawnable_on", "registry": "block", "via": "minecraft:logs"},
+    {"id": "minecraft:prevents_nearby_leaf_decay", "registry": "block", "via": "minecraft:logs"},
+    {"id": "minecraft:acacia_logs", "registry": "item"},
+    {"id": "minecraft:completes_find_tree_tutorial", "registry": "item", "via": "minecraft:logs"},
+    {"id": "minecraft:logs", "registry": "item", "via": "minecraft:logs_that_burn"},
+    {"id": "minecraft:logs_that_burn", "registry": "item", "via": "minecraft:acacia_logs"},
+    {"id": "minecraft:sulfur_cube_archetype/bouncy", "registry": "item", "via": "minecraft:logs"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:acacia_log": {
+      "name": "Acacia Log",
+      "imagePath": "/block/acacia_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Acacia"
+    },
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:acacia_wood": {
+      "name": "Acacia Wood",
+      "imagePath": "/block/acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Acacia"
+    },
+    "minecraft:birch_log": {
+      "name": "Birch Log",
+      "imagePath": "/block/birch_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Birch"
+    },
+    "minecraft:birch_wood": {
+      "name": "Birch Wood",
+      "imagePath": "/block/birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Birch"
+    },
+    "minecraft:campfire": {
+      "name": "Campfire",
+      "imagePath": "/block/campfire/latest.png",
+      "wiki": "https://minecraft.wiki/w/Campfire"
+    },
+    "minecraft:charcoal": {
+      "name": "Charcoal",
+      "imagePath": "/item/charcoal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Charcoal"
+    },
+    "minecraft:coal": {"name": "Coal", "imagePath": "/item/coal/latest.png", "wiki": "https://minecraft.wiki/w/Coal"},
+    "minecraft:dark_oak_log": {
+      "name": "Dark Oak Log",
+      "imagePath": "/block/dark_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Dark_Oak"
+    },
+    "minecraft:dark_oak_wood": {
+      "name": "Dark Oak Wood",
+      "imagePath": "/block/dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak"
+    },
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:jungle_log": {
+      "name": "Jungle Log",
+      "imagePath": "/block/jungle_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Jungle"
+    },
+    "minecraft:jungle_wood": {
+      "name": "Jungle Wood",
+      "imagePath": "/block/jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Jungle"
+    },
+    "minecraft:oak_log": {
+      "name": "Oak Log",
+      "imagePath": "/block/oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Oak"
+    },
+    "minecraft:oak_wood": {
+      "name": "Oak Wood",
+      "imagePath": "/block/oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Oak"
+    },
+    "minecraft:pale_oak_log": {
+      "name": "Pale Oak Log",
+      "imagePath": "/block/pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Log#Pale_Oak"
+    },
+    "minecraft:pale_oak_wood": {
+      "name": "Pale Oak Wood",
+      "imagePath": "/block/pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak"
+    },
+    "minecraft:smoker": {
+      "name": "Smoker",
+      "imagePath": "/block/smoker/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smoker"
+    },
+    "minecraft:soul_campfire": {
+      "name": "Soul Campfire",
+      "imagePath": "/block/soul_campfire/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Campfire"
+    },
+    "minecraft:soul_sand": {
+      "name": "Soul Sand",
+      "imagePath": "/block/soul_sand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Sand"
+    },
+    "minecraft:soul_soil": {
+      "name": "Soul Soil",
+      "imagePath": "/block/soul_soil/latest.png",
+      "wiki": "https://minecraft.wiki/w/Soul_Soil"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stripped_acacia_log": {"name": "Stripped Acacia Log", "imagePath": "/block/stripped_acacia_log/latest.png"},
+    "minecraft:stripped_acacia_wood": {
+      "name": "Stripped Acacia Wood",
+      "imagePath": "/block/stripped_acacia_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia"
+    },
+    "minecraft:stripped_birch_log": {"name": "Stripped Birch Log", "imagePath": "/block/stripped_birch_log/latest.png"},
+    "minecraft:stripped_birch_wood": {
+      "name": "Stripped Birch Wood",
+      "imagePath": "/block/stripped_birch_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch"
+    },
+    "minecraft:stripped_dark_oak_log": {"name": "Stripped Dark Oak Log", "imagePath": "/block/stripped_dark_oak_log/latest.png"},
+    "minecraft:stripped_dark_oak_wood": {
+      "name": "Stripped Dark Oak Wood",
+      "imagePath": "/block/stripped_dark_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak"
+    },
+    "minecraft:stripped_jungle_log": {"name": "Stripped Jungle Log", "imagePath": "/block/stripped_jungle_log/latest.png"},
+    "minecraft:stripped_jungle_wood": {
+      "name": "Stripped Jungle Wood",
+      "imagePath": "/block/stripped_jungle_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle"
+    },
+    "minecraft:stripped_oak_log": {"name": "Stripped Oak Log", "imagePath": "/block/stripped_oak_log/latest.png"},
+    "minecraft:stripped_oak_wood": {
+      "name": "Stripped Oak Wood",
+      "imagePath": "/block/stripped_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak"
+    },
+    "minecraft:stripped_pale_oak_log": {
+      "name": "Stripped Pale Oak Log",
+      "imagePath": "/block/stripped_pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+    },
+    "minecraft:stripped_pale_oak_wood": {
+      "name": "Stripped Pale Oak Wood",
+      "imagePath": "/block/stripped_pale_oak_wood/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak"
+    },
+    "#minecraft:acacia_logs": {
+      "items": [
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood"
+      ]
+    },
+    "#minecraft:coals": {"items": ["minecraft:coal", "minecraft:charcoal"]},
+    "#minecraft:logs": {
+      "items": [
+        "minecraft:dark_oak_log",
+        "minecraft:dark_oak_wood",
+        "minecraft:stripped_dark_oak_log",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:pale_oak_log",
+        "minecraft:pale_oak_wood",
+        "minecraft:stripped_pale_oak_log",
+        "minecraft:stripped_pale_oak_wood",
+        "minecraft:oak_log",
+        "minecraft:oak_wood",
+        "minecraft:stripped_oak_log",
+        "minecraft:stripped_oak_wood",
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood",
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood",
+        "minecraft:jungle_log",
+        "minecraft:jungle_wood",
+        "minecraft:stripped_jungle_log",
+        "minecraft:stripped_jungle_wood"
+      ]
+    },
+    "#minecraft:logs_that_burn": {
+      "items": [
+        "minecraft:dark_oak_log",
+        "minecraft:dark_oak_wood",
+        "minecraft:stripped_dark_oak_log",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:pale_oak_log",
+        "minecraft:pale_oak_wood",
+        "minecraft:stripped_pale_oak_log",
+        "minecraft:stripped_pale_oak_wood",
+        "minecraft:oak_log",
+        "minecraft:oak_wood",
+        "minecraft:stripped_oak_log",
+        "minecraft:stripped_oak_wood",
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood",
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood",
+        "minecraft:jungle_log",
+        "minecraft:jungle_wood",
+        "minecraft:stripped_jungle_log",
+        "minecraft:stripped_jungle_wood"
+      ]
+    },
+    "#minecraft:soul_fire_base_blocks": {"items": ["minecraft:soul_sand", "minecraft:soul_soil"]}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:cod_bucket",
+  "name": "Bucket of Cod",
+  "imagePath": "/item/cod_bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bucket_of_Cod",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:nautilus_bucket_food", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:nautilus_bucket_food"}
+  ],
+  "refs": {
+    "minecraft:cod_bucket": {
+      "name": "Bucket of Cod",
+      "imagePath": "/item/cod_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket_of_Cod"
+    }
+  }
+}

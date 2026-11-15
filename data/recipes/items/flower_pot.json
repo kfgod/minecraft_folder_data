@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:flower_pot",
+  "name": "Flower Pot",
+  "imagePath": "/block/flower_pot/latest.png",
+  "wiki": "https://minecraft.wiki/w/Flower_Pot",
+  "recipes": [
+    {
+      "id": "minecraft:flower_pot",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:brick"], null, ["minecraft:brick"]], [null, ["minecraft:brick"], null]],
+      "result": {"id": "minecraft:flower_pot", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:flower_pots", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:flower_pots"}
+  ],
+  "refs": {
+    "minecraft:brick": {
+      "name": "Brick",
+      "imagePath": "/item/brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick"
+    },
+    "minecraft:flower_pot": {
+      "name": "Flower Pot",
+      "imagePath": "/block/flower_pot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flower_Pot"
+    }
+  }
+}

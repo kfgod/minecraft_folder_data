@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:skull_banner_pattern",
+  "name": "Skull Charge Banner Pattern",
+  "imagePath": "/item/skull_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Skull_Charge_Banner_Pattern",
+  "recipes": [
+    {
+      "id": "minecraft:skull_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:wither_skeleton_skull"]],
+      "result": {"id": "minecraft:skull_banner_pattern", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:skull_banner_pattern": {
+      "name": "Skull Charge Banner Pattern",
+      "imagePath": "/item/skull_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skull_Charge_Banner_Pattern"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "name": "Wither Skeleton Skull",
+      "imagePath": "/block/wither_skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+    }
+  }
+}

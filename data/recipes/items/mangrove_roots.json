@@ -1,0 +1,68 @@
+{
+  "id": "minecraft:mangrove_roots",
+  "name": "Mangrove Roots",
+  "imagePath": "/block/mangrove_roots/latest.png",
+  "wiki": "https://minecraft.wiki/w/Mangrove_Roots",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:muddy_mangrove_roots",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:mud"], ["minecraft:mangrove_roots"]],
+      "result": {"id": "minecraft:muddy_mangrove_roots", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:frogs_spawnable_on", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mangrove_logs_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mangrove_roots_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:mangrove_roots": {
+      "name": "Mangrove Roots",
+      "imagePath": "/block/mangrove_roots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mangrove_Roots"
+    },
+    "minecraft:mud": {"name": "Mud", "imagePath": "/block/mud/latest.png", "wiki": "https://minecraft.wiki/w/Mud"},
+    "minecraft:muddy_mangrove_roots": {
+      "name": "Muddy Mangrove Roots",
+      "imagePath": "/block/muddy_mangrove_roots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Muddy_Mangrove_Roots"
+    }
+  }
+}

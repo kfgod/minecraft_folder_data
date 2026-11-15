@@ -1,0 +1,82 @@
+{
+  "id": "minecraft:poplar_shelf",
+  "name": "Poplar Shelf",
+  "imagePath": "/block/poplar_shelf/latest.png",
+  "wiki": "https://minecraft.wiki/w/Shelf#Poplar",
+  "recipes": [
+    {
+      "id": "minecraft:poplar_shelf",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"]
+        ],
+        [null, null, null],
+        [
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"],
+          ["minecraft:stripped_poplar_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:poplar_shelf", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:wooden_shelves"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_shelves"},
+    {"id": "minecraft:wooden_shelves", "registry": "block"},
+    {"id": "minecraft:wooden_shelves", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:poplar_shelf": {
+      "name": "Poplar Shelf",
+      "imagePath": "/block/poplar_shelf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf#Poplar"
+    },
+    "minecraft:stripped_poplar_log": {
+      "name": "Stripped Poplar Log",
+      "imagePath": "/block/stripped_poplar_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "minecraft:sulfur_spike",
+  "name": "Sulfur Spike",
+  "imagePath": "/block/sulfur_spike/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sulfur_Spike",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:sulfur_from_sulfur_spikes",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sulfur_spike"], ["minecraft:sulfur_spike"]],
+        [["minecraft:sulfur_spike"], ["minecraft:sulfur_spike"]]
+      ],
+      "result": {"id": "minecraft:sulfur", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:speleothems"},
+    {
+      "id": "minecraft:cat_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dangerous_for_teleportation", "registry": "block"},
+    {
+      "id": "minecraft:enderman_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:happy_ghast_avoids", "registry": "block", "via": "minecraft:speleothems"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:speleothems"},
+    {
+      "id": "minecraft:pathfinding/damage_cautious",
+      "registry": "block",
+      "via": "minecraft:speleothems"
+    },
+    {"id": "minecraft:speleothems", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:sulfur": {
+      "name": "Sulfur",
+      "imagePath": "/block/sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur"
+    },
+    "minecraft:sulfur_spike": {
+      "name": "Sulfur Spike",
+      "imagePath": "/block/sulfur_spike/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Spike"
+    }
+  }
+}

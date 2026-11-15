@@ -1,0 +1,62 @@
+{
+  "id": "minecraft:brown_egg",
+  "name": "Brown Egg",
+  "imagePath": "/item/brown_egg/latest.png",
+  "wiki": "https://minecraft.wiki/w/Brown_Egg",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:cake",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:milk_bucket"], ["minecraft:milk_bucket"], ["minecraft:milk_bucket"]],
+        [["minecraft:sugar"], ["#minecraft:eggs"], ["minecraft:sugar"]],
+        [["minecraft:wheat"], ["minecraft:wheat"], ["minecraft:wheat"]]
+      ],
+      "result": {"id": "minecraft:cake", "count": 1}
+    },
+    {
+      "id": "minecraft:pumpkin_pie",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"], ["minecraft:sugar"], ["#minecraft:eggs"]],
+      "result": {"id": "minecraft:pumpkin_pie", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:eggs", "registry": "item"}],
+  "refs": {
+    "minecraft:blue_egg": {
+      "name": "Blue Egg",
+      "imagePath": "/item/blue_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Egg"
+    },
+    "minecraft:brown_egg": {
+      "name": "Brown Egg",
+      "imagePath": "/item/brown_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Egg"
+    },
+    "minecraft:cake": {"name": "Cake", "imagePath": "/block/cake/latest.png", "wiki": "https://minecraft.wiki/w/Cake"},
+    "minecraft:egg": {"name": "Egg", "imagePath": "/item/egg/latest.png", "wiki": "https://minecraft.wiki/w/Egg"},
+    "minecraft:milk_bucket": {
+      "name": "Milk Bucket",
+      "imagePath": "/item/milk_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Milk_Bucket"
+    },
+    "minecraft:pumpkin": {
+      "name": "Pumpkin",
+      "imagePath": "/block/pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin"
+    },
+    "minecraft:pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "imagePath": "/item/pumpkin_pie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Pie"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "minecraft:wheat": {"name": "Wheat"},
+    "#minecraft:eggs": {"items": ["minecraft:egg", "minecraft:blue_egg", "minecraft:brown_egg"]}
+  }
+}

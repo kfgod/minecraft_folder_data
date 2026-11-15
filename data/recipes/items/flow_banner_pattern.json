@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:flow_banner_pattern",
+  "name": "Flow Banner Pattern",
+  "imagePath": "/item/flow_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Flow_Banner_Pattern",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:flow_banner_pattern": {
+      "name": "Flow Banner Pattern",
+      "imagePath": "/item/flow_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Banner_Pattern"
+    }
+  }
+}

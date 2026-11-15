@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:birch_sign",
+  "name": "Birch Sign",
+  "imagePath": "/block/birch_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Birch",
+  "recipes": [
+    {
+      "id": "minecraft:birch_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:birch_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:birch_sign": {
+      "name": "Birch Sign",
+      "imagePath": "/block/birch_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Birch"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

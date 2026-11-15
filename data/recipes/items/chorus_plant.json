@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:chorus_plant",
+  "name": "Chorus Plant",
+  "imagePath": "/block/chorus_plant/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chorus_Plant",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:chorus_plant": {
+      "name": "Chorus Plant",
+      "imagePath": "/block/chorus_plant/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chorus_Plant"
+    }
+  }
+}

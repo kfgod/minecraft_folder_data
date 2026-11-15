@@ -1,0 +1,93 @@
+{
+  "id": "minecraft:pale_oak_hanging_sign",
+  "name": "Pale Oak Hanging Sign",
+  "imagePath": "/block/pale_oak_hanging_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
+  "recipes": [
+    {
+      "id": "minecraft:pale_oak_hanging_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_chain"], null, ["minecraft:iron_chain"]],
+        [
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"]
+        ],
+        [
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"],
+          ["minecraft:stripped_pale_oak_log"]
+        ]
+      ],
+      "result": {"id": "minecraft:pale_oak_hanging_sign", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:all_hanging_signs",
+      "registry": "block",
+      "via": "minecraft:ceiling_hanging_signs"
+    },
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:all_hanging_signs"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:all_hanging_signs"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:ceiling_hanging_signs", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:all_hanging_signs"},
+    {"id": "minecraft:hanging_signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:iron_chain": {
+      "name": "Iron Chain",
+      "imagePath": "/block/iron_chain/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chain"
+    },
+    "minecraft:pale_oak_hanging_sign": {
+      "name": "Pale Oak Hanging Sign",
+      "imagePath": "/block/pale_oak_hanging_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak"
+    },
+    "minecraft:stripped_pale_oak_log": {
+      "name": "Stripped Pale Oak Log",
+      "imagePath": "/block/stripped_pale_oak_log/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak"
+    }
+  }
+}

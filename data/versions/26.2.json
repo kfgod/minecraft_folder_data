@@ -288,7 +288,9 @@
         ],
         "items": [
             {
-                "types": [],
+                "types": [
+                    "music_disc"
+                ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Bounce",
                 "name": "Music Disc Bounce",
                 "identifier": "music_disc_bounce",

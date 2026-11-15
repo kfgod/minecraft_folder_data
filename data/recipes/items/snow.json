@@ -1,0 +1,46 @@
+{
+  "id": "minecraft:snow",
+  "name": "Snow",
+  "imagePath": "/block/snow/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snow",
+  "recipes": [
+    {
+      "id": "minecraft:snow",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:snow_block"], ["minecraft:snow_block"], ["minecraft:snow_block"]]],
+      "result": {"id": "minecraft:snow", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:combination_step_sound_blocks", "registry": "block"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:foxes_spawnable_on", "registry": "block"},
+    {"id": "minecraft:goats_spawnable_on", "registry": "block"},
+    {"id": "minecraft:mangrove_roots_can_grow_through", "registry": "block"},
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "via": "minecraft:snow",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:rabbits_spawnable_on", "registry": "block"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:snow", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:wolves_spawnable_on", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:snow": {"name": "Snow", "imagePath": "/block/snow/latest.png", "wiki": "https://minecraft.wiki/w/Snow"},
+    "minecraft:snow_block": {
+      "name": "Snow Block",
+      "imagePath": "/block/snow_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snow_Block"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:jack_o_lantern",
+  "name": "Jack o'Lantern",
+  "imagePath": "/block/jack_o_lantern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Jack_o%27Lantern",
+  "recipes": [
+    {
+      "id": "minecraft:jack_o_lantern",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:carved_pumpkin"]], [["minecraft:torch"]]],
+      "result": {"id": "minecraft:jack_o_lantern", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:carved_pumpkin": {
+      "name": "Carved Pumpkin",
+      "imagePath": "/block/carved_pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carved_Pumpkin"
+    },
+    "minecraft:jack_o_lantern": {
+      "name": "Jack o'Lantern",
+      "imagePath": "/block/jack_o_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Jack_o%27Lantern"
+    },
+    "minecraft:torch": {
+      "name": "Torch",
+      "imagePath": "/block/torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Torch"
+    }
+  }
+}

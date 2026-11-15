@@ -1,0 +1,166 @@
+{
+  "id": "minecraft:waxed_cut_copper",
+  "name": "Waxed Cut Copper",
+  "imagePath": "/block/waxed_cut_copper/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized",
+  "recipes": [
+    {
+      "id": "minecraft:waxed_cut_copper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:waxed_copper_block"], ["minecraft:waxed_copper_block"]],
+        [["minecraft:waxed_copper_block"], ["minecraft:waxed_copper_block"]]
+      ],
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cut_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_copper_block"]},
+      "result": {"id": "minecraft:waxed_cut_copper", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_cut_copper_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:waxed_cut_copper"],
+          ["minecraft:waxed_cut_copper"],
+          ["minecraft:waxed_cut_copper"]
+        ]
+      ],
+      "result": {"id": "minecraft:waxed_cut_copper_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:waxed_cut_copper"], null, null],
+        [["minecraft:waxed_cut_copper"], ["minecraft:waxed_cut_copper"], null],
+        [
+          ["minecraft:waxed_cut_copper"],
+          ["minecraft:waxed_cut_copper"],
+          ["minecraft:waxed_cut_copper"]
+        ]
+      ],
+      "result": {"id": "minecraft:waxed_cut_copper_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_chiseled_copper_from_waxed_cut_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_cut_copper"]},
+      "result": {"id": "minecraft:waxed_chiseled_copper", "count": 1}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_cut_copper"]},
+      "result": {"id": "minecraft:waxed_cut_copper_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_cut_copper"]},
+      "result": {"id": "minecraft:waxed_cut_copper_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:cut_copper": {
+      "name": "Cut Copper",
+      "imagePath": "/block/cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_chiseled_copper": {
+      "name": "Waxed Chiseled Copper",
+      "imagePath": "/block/waxed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized"
+    },
+    "minecraft:waxed_copper_block": {
+      "name": "Waxed Block of Copper",
+      "imagePath": "/block/waxed_copper_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper": {
+      "name": "Waxed Cut Copper",
+      "imagePath": "/block/waxed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "name": "Waxed Cut Copper Slab",
+      "imagePath": "/block/waxed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "name": "Waxed Cut Copper Stairs",
+      "imagePath": "/block/waxed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized"
+    }
+  }
+}

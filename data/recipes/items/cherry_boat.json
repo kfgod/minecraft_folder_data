@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:cherry_boat",
+  "name": "Cherry Boat",
+  "imagePath": "/item/cherry_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Cherry",
+  "recipes": [
+    {
+      "id": "minecraft:cherry_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cherry_planks"], null, ["minecraft:cherry_planks"]],
+        [["minecraft:cherry_planks"], ["minecraft:cherry_planks"], ["minecraft:cherry_planks"]]
+      ],
+      "result": {"id": "minecraft:cherry_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:cherry_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:cherry_boat"]],
+      "result": {"id": "minecraft:cherry_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:cherry_boat": {
+      "name": "Cherry Boat",
+      "imagePath": "/item/cherry_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Cherry"
+    },
+    "minecraft:cherry_chest_boat": {
+      "name": "Cherry Boat with Chest",
+      "imagePath": "/item/cherry_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

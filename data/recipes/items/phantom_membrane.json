@@ -1,0 +1,53 @@
+{
+  "id": "minecraft:phantom_membrane",
+  "name": "Phantom Membrane",
+  "imagePath": "/item/phantom_membrane/latest.png",
+  "wiki": "https://minecraft.wiki/w/Phantom_Membrane",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_phantom_membrane",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:phantom_membrane"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_phantom_membrane",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:phantom_membrane"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_phantom_membrane",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:phantom_membrane"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:slow_falling"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:phantom_membrane": {
+      "name": "Phantom Membrane",
+      "imagePath": "/item/phantom_membrane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Phantom_Membrane"
+    },
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:splash_potion": {"name": "Splash Potion"}
+  }
+}

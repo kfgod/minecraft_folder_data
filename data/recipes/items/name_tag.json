@@ -1,0 +1,44 @@
+{
+  "id": "minecraft:name_tag",
+  "name": "Name Tag",
+  "imagePath": "/item/name_tag/latest.png",
+  "wiki": "https://minecraft.wiki/w/Name_Tag",
+  "recipes": [
+    {
+      "id": "minecraft:name_tag",
+      "type": "crafting_shaped",
+      "grid": [[null, ["#minecraft:metal_nuggets"]], [["minecraft:paper"], null]],
+      "result": {"id": "minecraft:name_tag", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:name_tag": {
+      "name": "Name Tag",
+      "imagePath": "/item/name_tag/latest.png",
+      "wiki": "https://minecraft.wiki/w/Name_Tag"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "#minecraft:metal_nuggets": {"items": ["minecraft:copper_nugget", "minecraft:iron_nugget", "minecraft:gold_nugget"]}
+  }
+}

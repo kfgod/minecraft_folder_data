@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:ice_crystal",
+  "name": "Ice Crystal",
+  "imagePath": "/block/ice_crystal/latest.png",
+  "wiki": "https://minecraft.wiki/w/Ice_Crystal",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:mineable/pickaxe", "registry": "block"}],
+  "refs": {
+    "minecraft:ice_crystal": {
+      "name": "Ice Crystal",
+      "imagePath": "/block/ice_crystal/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ice_Crystal"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:mangrove_chest_boat",
+  "name": "Mangrove Boat with Chest",
+  "imagePath": "/item/mangrove_chest_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove",
+  "recipes": [
+    {
+      "id": "minecraft:mangrove_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:mangrove_boat"]],
+      "result": {"id": "minecraft:mangrove_chest_boat", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:boats", "registry": "item", "via": "minecraft:chest_boats"},
+    {"id": "minecraft:chest_boats", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:mangrove_boat": {
+      "name": "Mangrove Boat",
+      "imagePath": "/item/mangrove_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Mangrove"
+    },
+    "minecraft:mangrove_chest_boat": {
+      "name": "Mangrove Boat with Chest",
+      "imagePath": "/item/mangrove_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove"
+    }
+  }
+}

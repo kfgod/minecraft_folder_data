@@ -1,0 +1,93 @@
+{
+  "id": "minecraft:tuff_brick_wall",
+  "name": "Tuff Brick Wall",
+  "imagePath": "/block/tuff_brick_wall/latest.png",
+  "wiki": "https://minecraft.wiki/w/Tuff_Brick_Wall",
+  "recipes": [
+    {
+      "id": "minecraft:tuff_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:tuff_bricks"], ["minecraft:tuff_bricks"], ["minecraft:tuff_bricks"]],
+        [["minecraft:tuff_bricks"], ["minecraft:tuff_bricks"], ["minecraft:tuff_bricks"]]
+      ],
+      "result": {"id": "minecraft:tuff_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:tuff_brick_wall_from_polished_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_tuff"]},
+      "result": {"id": "minecraft:tuff_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:tuff_brick_wall_from_tuff_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:tuff_bricks"]},
+      "result": {"id": "minecraft:tuff_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:tuff_brick_wall_from_tuff_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:tuff"]},
+      "result": {"id": "minecraft:tuff_brick_wall", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:walls"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:polished_tuff": {
+      "name": "Polished Tuff",
+      "imagePath": "/block/polished_tuff/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Tuff"
+    },
+    "minecraft:tuff": {"name": "Tuff", "imagePath": "/block/tuff/latest.png", "wiki": "https://minecraft.wiki/w/Tuff"},
+    "minecraft:tuff_brick_wall": {
+      "name": "Tuff Brick Wall",
+      "imagePath": "/block/tuff_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Brick_Wall"
+    },
+    "minecraft:tuff_bricks": {
+      "name": "Tuff Bricks",
+      "imagePath": "/block/tuff_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tuff_Bricks"
+    }
+  }
+}

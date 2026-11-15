@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:bubble_coral",
+  "name": "Bubble Coral",
+  "imagePath": "/block/bubble_coral/latest.png",
+  "wiki": "https://minecraft.wiki/w/Coral#Bubble",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:coral_plants", "registry": "block"},
+    {"id": "minecraft:corals", "registry": "block", "via": "minecraft:coral_plants"},
+    {"id": "minecraft:underwater_bonemeals", "registry": "block", "via": "minecraft:corals"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:corals"}
+  ],
+  "refs": {
+    "minecraft:bubble_coral": {
+      "name": "Bubble Coral",
+      "imagePath": "/block/bubble_coral/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coral#Bubble"
+    }
+  }
+}

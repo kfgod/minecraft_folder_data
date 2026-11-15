@@ -1,0 +1,114 @@
+{
+  "id": "minecraft:cooked_rabbit",
+  "name": "Cooked Rabbit",
+  "imagePath": "/item/cooked_rabbit/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cooked_Rabbit",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_rabbit_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:rabbit"]},
+      "result": {"id": "minecraft:cooked_rabbit", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_rabbit",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:rabbit"]},
+      "result": {"id": "minecraft:cooked_rabbit", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_rabbit_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:rabbit"]},
+      "result": {"id": "minecraft:cooked_rabbit", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:rabbit_stew_from_brown_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:brown_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_red_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:red_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    },
+    {
+      "id": "minecraft:rabbit_stew_from_shelf_mushroom",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:baked_potato"],
+        ["minecraft:cooked_rabbit"],
+        ["minecraft:bowl"],
+        ["minecraft:carrot"],
+        ["minecraft:shelf_mushroom"]
+      ],
+      "result": {"id": "minecraft:rabbit_stew", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:baked_potato": {
+      "name": "Baked Potato",
+      "imagePath": "/item/baked_potato/latest.png",
+      "wiki": "https://minecraft.wiki/w/Baked_Potato"
+    },
+    "minecraft:bowl": {"name": "Bowl", "imagePath": "/item/bowl/latest.png", "wiki": "https://minecraft.wiki/w/Bowl"},
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:cooked_rabbit": {
+      "name": "Cooked Rabbit",
+      "imagePath": "/item/cooked_rabbit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Rabbit"
+    },
+    "minecraft:rabbit": {
+      "name": "Raw Rabbit",
+      "imagePath": "/item/rabbit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Rabbit"
+    },
+    "minecraft:rabbit_stew": {
+      "name": "Rabbit Stew",
+      "imagePath": "/item/rabbit_stew/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rabbit_Stew"
+    },
+    "minecraft:red_mushroom": {
+      "name": "Red Mushroom",
+      "imagePath": "/block/red_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "imagePath": "/block/shelf_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shelf_Mushroom"
+    }
+  }
+}

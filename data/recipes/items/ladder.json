@@ -1,0 +1,36 @@
+{
+  "id": "minecraft:ladder",
+  "name": "Ladder",
+  "imagePath": "/block/ladder/latest.png",
+  "wiki": "https://minecraft.wiki/w/Ladder",
+  "recipes": [
+    {
+      "id": "minecraft:ladder",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], null, ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [["minecraft:stick"], null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:ladder", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:climbable", "registry": "block"},
+    {"id": "minecraft:fall_damage_resetting", "registry": "block", "via": "minecraft:climbable"},
+    {"id": "minecraft:mineable/axe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:ladder": {
+      "name": "Ladder",
+      "imagePath": "/block/ladder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ladder"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

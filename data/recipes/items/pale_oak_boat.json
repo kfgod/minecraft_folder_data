@@ -1,0 +1,52 @@
+{
+  "id": "minecraft:pale_oak_boat",
+  "name": "Pale Oak Boat",
+  "imagePath": "/item/pale_oak_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
+  "recipes": [
+    {
+      "id": "minecraft:pale_oak_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pale_oak_planks"], null, ["minecraft:pale_oak_planks"]],
+        [
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"],
+          ["minecraft:pale_oak_planks"]
+        ]
+      ],
+      "result": {"id": "minecraft:pale_oak_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:pale_oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:pale_oak_boat"]],
+      "result": {"id": "minecraft:pale_oak_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:pale_oak_boat": {
+      "name": "Pale Oak Boat",
+      "imagePath": "/item/pale_oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak"
+    },
+    "minecraft:pale_oak_chest_boat": {
+      "name": "Pale Oak Boat with Chest",
+      "imagePath": "/item/pale_oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    }
+  }
+}

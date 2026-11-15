@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:birch_boat",
+  "name": "Birch Boat",
+  "imagePath": "/item/birch_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Birch",
+  "recipes": [
+    {
+      "id": "minecraft:birch_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:birch_planks"], null, ["minecraft:birch_planks"]],
+        [["minecraft:birch_planks"], ["minecraft:birch_planks"], ["minecraft:birch_planks"]]
+      ],
+      "result": {"id": "minecraft:birch_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:birch_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:birch_boat"]],
+      "result": {"id": "minecraft:birch_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:birch_boat": {
+      "name": "Birch Boat",
+      "imagePath": "/item/birch_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Birch"
+    },
+    "minecraft:birch_chest_boat": {
+      "name": "Birch Boat with Chest",
+      "imagePath": "/item/birch_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

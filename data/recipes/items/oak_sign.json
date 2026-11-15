@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:oak_sign",
+  "name": "Oak Sign",
+  "imagePath": "/block/oak_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Oak",
+  "recipes": [
+    {
+      "id": "minecraft:oak_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]],
+        [["minecraft:oak_planks"], ["minecraft:oak_planks"], ["minecraft:oak_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:oak_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oak_sign": {
+      "name": "Oak Sign",
+      "imagePath": "/block/oak_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Oak"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

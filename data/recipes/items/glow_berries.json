@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:glow_berries",
+  "name": "Glow Berries",
+  "imagePath": "/item/glow_berries/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glow_Berries",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:fox_food", "registry": "item"}],
+  "refs": {
+    "minecraft:glow_berries": {
+      "name": "Glow Berries",
+      "imagePath": "/item/glow_berries/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glow_Berries"
+    }
+  }
+}

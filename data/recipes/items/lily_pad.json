@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:lily_pad",
+  "name": "Lily Pad",
+  "imagePath": "/block/lily_pad/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lily_Pad",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:frog_prefer_jump_to", "registry": "block"},
+    {"id": "minecraft:inside_step_sound_blocks", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:pathfinding/drop_down", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:lily_pad": {
+      "name": "Lily Pad",
+      "imagePath": "/block/lily_pad/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lily_Pad"
+    }
+  }
+}

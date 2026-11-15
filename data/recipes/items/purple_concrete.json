@@ -1,0 +1,113 @@
+{
+  "id": "minecraft:purple_concrete",
+  "name": "Purple Concrete",
+  "imagePath": "/block/purple_concrete/latest.png",
+  "wiki": "https://minecraft.wiki/w/Concrete#Purple",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:purple_concrete_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:purple_concrete"],
+          ["minecraft:purple_concrete"],
+          ["minecraft:purple_concrete"]
+        ]
+      ],
+      "result": {"id": "minecraft:purple_concrete_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:purple_concrete_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:purple_concrete"], null, null],
+        [["minecraft:purple_concrete"], ["minecraft:purple_concrete"], null],
+        [
+          ["minecraft:purple_concrete"],
+          ["minecraft:purple_concrete"],
+          ["minecraft:purple_concrete"]
+        ]
+      ],
+      "result": {"id": "minecraft:purple_concrete_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:purple_concrete_slab_from_purple_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purple_concrete"]},
+      "result": {"id": "minecraft:purple_concrete_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:purple_concrete_stairs_from_purple_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purple_concrete"]},
+      "result": {"id": "minecraft:purple_concrete_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:concrete"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:concrete", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:concrete", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/slow_bouncy",
+      "registry": "item",
+      "via": "minecraft:concrete"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:purple_concrete": {
+      "name": "Purple Concrete",
+      "imagePath": "/block/purple_concrete/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete#Purple"
+    },
+    "minecraft:purple_concrete_slab": {
+      "name": "Purple Concrete Slab",
+      "imagePath": "/block/purple_concrete_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple"
+    },
+    "minecraft:purple_concrete_stairs": {
+      "name": "Purple Concrete Stairs",
+      "imagePath": "/block/purple_concrete_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Purple"
+    }
+  }
+}

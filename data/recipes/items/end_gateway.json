@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:end_gateway",
+  "name": "End Gateway",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:dragon_immune", "registry": "block"},
+    {"id": "minecraft:invalid_spawn_inside", "registry": "block"},
+    {"id": "minecraft:portals", "registry": "block"},
+    {"id": "minecraft:wither_immune", "registry": "block"}
+  ],
+  "refs": {"minecraft:end_gateway": {"name": "End Gateway"}}
+}

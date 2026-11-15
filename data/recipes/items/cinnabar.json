@@ -1,0 +1,232 @@
+{
+  "id": "minecraft:cinnabar",
+  "name": "Cinnabar",
+  "imagePath": "/block/cinnabar/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cinnabar",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:cinnabar_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:cinnabar"], ["minecraft:cinnabar"], ["minecraft:cinnabar"]]],
+      "result": {"id": "minecraft:cinnabar_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:cinnabar_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cinnabar"], null, null],
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"], null],
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"], ["minecraft:cinnabar"]]
+      ],
+      "result": {"id": "minecraft:cinnabar_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:cinnabar_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"], ["minecraft:cinnabar"]],
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"], ["minecraft:cinnabar"]]
+      ],
+      "result": {"id": "minecraft:cinnabar_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_cinnabar",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"]],
+        [["minecraft:cinnabar"], ["minecraft:cinnabar"]]
+      ],
+      "result": {"id": "minecraft:polished_cinnabar", "count": 4}
+    },
+    {
+      "id": "minecraft:chiseled_cinnabar_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:chiseled_cinnabar", "count": 1}
+    },
+    {
+      "id": "minecraft:cinnabar_brick_slab_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:cinnabar_brick_stairs_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:cinnabar_brick_wall_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:cinnabar_bricks_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:cinnabar_slab_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:cinnabar_stairs_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:cinnabar_wall_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:cinnabar_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_cinnabar_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:polished_cinnabar", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_cinnabar_slab_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:polished_cinnabar_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_cinnabar_stairs_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:polished_cinnabar_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_cinnabar_wall_from_cinnabar_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cinnabar"]},
+      "result": {"id": "minecraft:polished_cinnabar_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:sulfur_spike_replaceable_blocks", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_cinnabar": {
+      "name": "Chiseled Cinnabar",
+      "imagePath": "/block/chiseled_cinnabar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Cinnabar"
+    },
+    "minecraft:cinnabar": {
+      "name": "Cinnabar",
+      "imagePath": "/block/cinnabar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar"
+    },
+    "minecraft:cinnabar_brick_slab": {
+      "name": "Cinnabar Brick Slab",
+      "imagePath": "/block/cinnabar_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Slab"
+    },
+    "minecraft:cinnabar_brick_stairs": {
+      "name": "Cinnabar Brick Stairs",
+      "imagePath": "/block/cinnabar_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Stairs"
+    },
+    "minecraft:cinnabar_brick_wall": {
+      "name": "Cinnabar Brick Wall",
+      "imagePath": "/block/cinnabar_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Brick_Wall"
+    },
+    "minecraft:cinnabar_bricks": {
+      "name": "Cinnabar Bricks",
+      "imagePath": "/block/cinnabar_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Bricks"
+    },
+    "minecraft:cinnabar_slab": {
+      "name": "Cinnabar Slab",
+      "imagePath": "/block/cinnabar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Slab"
+    },
+    "minecraft:cinnabar_stairs": {
+      "name": "Cinnabar Stairs",
+      "imagePath": "/block/cinnabar_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Stairs"
+    },
+    "minecraft:cinnabar_wall": {
+      "name": "Cinnabar Wall",
+      "imagePath": "/block/cinnabar_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cinnabar_Wall"
+    },
+    "minecraft:polished_cinnabar": {
+      "name": "Polished Cinnabar",
+      "imagePath": "/block/polished_cinnabar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Cinnabar"
+    },
+    "minecraft:polished_cinnabar_slab": {
+      "name": "Polished Cinnabar Slab",
+      "imagePath": "/block/polished_cinnabar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Slab"
+    },
+    "minecraft:polished_cinnabar_stairs": {
+      "name": "Polished Cinnabar Stairs",
+      "imagePath": "/block/polished_cinnabar_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Stairs"
+    },
+    "minecraft:polished_cinnabar_wall": {
+      "name": "Polished Cinnabar Wall",
+      "imagePath": "/block/polished_cinnabar_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Cinnabar_Wall"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "minecraft:warped_fungus",
+  "name": "Warped Fungus",
+  "imagePath": "/block/warped_fungus/latest.png",
+  "wiki": "https://minecraft.wiki/w/Warped_Fungus",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:fishing_rod"], null], [null, ["minecraft:warped_fungus"]]],
+      "result": {"id": "minecraft:warped_fungus_on_a_stick", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {"id": "minecraft:hoglin_repellents", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"},
+    {"id": "minecraft:strider_food", "registry": "item"},
+    {"id": "minecraft:strider_tempt_items", "registry": "item", "via": "minecraft:strider_food"}
+  ],
+  "refs": {
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    },
+    "minecraft:warped_fungus": {
+      "name": "Warped Fungus",
+      "imagePath": "/block/warped_fungus/latest.png",
+      "wiki": "https://minecraft.wiki/w/Warped_Fungus"
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+      "name": "Warped Fungus on a Stick",
+      "imagePath": "/item/warped_fungus_on_a_stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick"
+    }
+  }
+}

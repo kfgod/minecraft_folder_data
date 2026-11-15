@@ -1,0 +1,72 @@
+{
+  "id": "minecraft:bamboo_trapdoor",
+  "name": "Bamboo Trapdoor",
+  "imagePath": "/block/bamboo_trapdoor/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo",
+  "recipes": [
+    {
+      "id": "minecraft:bamboo_trapdoor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"]],
+        [["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"]]
+      ],
+      "result": {"id": "minecraft:bamboo_trapdoor", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:trapdoors"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:wooden_trapdoors"},
+    {"id": "minecraft:pathfinding/drop_down", "registry": "block", "via": "minecraft:trapdoors"},
+    {"id": "minecraft:trapdoors", "registry": "block", "via": "minecraft:wooden_trapdoors"},
+    {"id": "minecraft:wooden_trapdoors", "registry": "block"},
+    {"id": "minecraft:trapdoors", "registry": "item", "via": "minecraft:wooden_trapdoors"},
+    {"id": "minecraft:wooden_trapdoors", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_trapdoor": {
+      "name": "Bamboo Trapdoor",
+      "imagePath": "/block/bamboo_trapdoor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo"
+    }
+  }
+}

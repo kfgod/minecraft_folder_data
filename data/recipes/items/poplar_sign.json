@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:poplar_sign",
+  "name": "Poplar Sign",
+  "imagePath": "/block/poplar_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Poplar",
+  "recipes": [
+    {
+      "id": "minecraft:poplar_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:poplar_planks"], ["minecraft:poplar_planks"], ["minecraft:poplar_planks"]],
+        [["minecraft:poplar_planks"], ["minecraft:poplar_planks"], ["minecraft:poplar_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:poplar_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:poplar_sign": {
+      "name": "Poplar Sign",
+      "imagePath": "/block/poplar_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Poplar"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

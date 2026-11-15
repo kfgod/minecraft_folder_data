@@ -1,0 +1,91 @@
+{
+  "id": "minecraft:polished_granite_stairs",
+  "name": "Polished Granite Stairs",
+  "imagePath": "/block/polished_granite_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Granite_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:polished_granite_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:polished_granite"], null, null],
+        [["minecraft:polished_granite"], ["minecraft:polished_granite"], null],
+        [
+          ["minecraft:polished_granite"],
+          ["minecraft:polished_granite"],
+          ["minecraft:polished_granite"]
+        ]
+      ],
+      "result": {"id": "minecraft:polished_granite_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:polished_granite_stairs_from_granite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:granite"]},
+      "result": {"id": "minecraft:polished_granite_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_granite_stairs_from_polished_granite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:polished_granite"]},
+      "result": {"id": "minecraft:polished_granite_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:granite": {
+      "name": "Granite",
+      "imagePath": "/block/granite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Granite"
+    },
+    "minecraft:polished_granite": {
+      "name": "Polished Granite",
+      "imagePath": "/block/polished_granite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Granite"
+    },
+    "minecraft:polished_granite_stairs": {
+      "name": "Polished Granite Stairs",
+      "imagePath": "/block/polished_granite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Granite_Stairs"
+    }
+  }
+}

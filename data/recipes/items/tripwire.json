@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:tripwire",
+  "name": "Tripwire",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:wall_post_override", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:tripwire": {"name": "Tripwire"}}
+}

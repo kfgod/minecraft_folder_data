@@ -1,0 +1,76 @@
+{
+  "id": "minecraft:sulfur_stairs",
+  "name": "Sulfur Stairs",
+  "imagePath": "/block/sulfur_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sulfur_Stairs",
+  "recipes": [
+    {
+      "id": "minecraft:sulfur_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:sulfur"], null, null],
+        [["minecraft:sulfur"], ["minecraft:sulfur"], null],
+        [["minecraft:sulfur"], ["minecraft:sulfur"], ["minecraft:sulfur"]]
+      ],
+      "result": {"id": "minecraft:sulfur_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:sulfur_stairs_from_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur"]},
+      "result": {"id": "minecraft:sulfur_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:sulfur": {
+      "name": "Sulfur",
+      "imagePath": "/block/sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur"
+    },
+    "minecraft:sulfur_stairs": {
+      "name": "Sulfur Stairs",
+      "imagePath": "/block/sulfur_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Stairs"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "minecraft:nether_quartz_ore",
+  "name": "Nether Quartz Ore",
+  "imagePath": "/block/nether_quartz_ore/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:quartz_from_blasting",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:nether_quartz_ore"]},
+      "result": {"id": "minecraft:quartz", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    },
+    {
+      "id": "minecraft:quartz",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:nether_quartz_ore"]},
+      "result": {"id": "minecraft:quartz", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:ores"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:ores", "registry": "block"},
+    {"id": "minecraft:ores", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:nether_quartz_ore": {
+      "name": "Nether Quartz Ore",
+      "imagePath": "/block/nether_quartz_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "minecraft:activator_rail",
+  "name": "Activator Rail",
+  "imagePath": "/block/activator_rail/latest.png",
+  "wiki": "https://minecraft.wiki/w/Activator_Rail",
+  "recipes": [
+    {
+      "id": "minecraft:activator_rail",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:redstone_torch"], ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:stick"], ["minecraft:iron_ingot"]]
+      ],
+      "result": {"id": "minecraft:activator_rail", "count": 6}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:pathfinding/rails", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:prevent_mob_spawning_inside", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:rails"},
+    {"id": "minecraft:rails", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:activator_rail": {
+      "name": "Activator Rail",
+      "imagePath": "/block/activator_rail/latest.png",
+      "wiki": "https://minecraft.wiki/w/Activator_Rail"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

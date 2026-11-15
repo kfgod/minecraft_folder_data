@@ -1,0 +1,175 @@
+{
+  "id": "minecraft:sugar",
+  "name": "Sugar",
+  "imagePath": "/item/sugar/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sugar",
+  "recipes": [
+    {
+      "id": "minecraft:sugar_from_honey_bottle",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:honey_bottle"]],
+      "result": {"id": "minecraft:sugar", "count": 3}
+    },
+    {
+      "id": "minecraft:sugar_from_sugar_cane",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:sugar_cane"]],
+      "result": {"id": "minecraft:sugar", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_awkward_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_awkward_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_awkward_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:awkward"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_sugar",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:sugar"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:mundane"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:cake",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:milk_bucket"], ["minecraft:milk_bucket"], ["minecraft:milk_bucket"]],
+        [["minecraft:sugar"], ["#minecraft:eggs"], ["minecraft:sugar"]],
+        [["minecraft:wheat"], ["minecraft:wheat"], ["minecraft:wheat"]]
+      ],
+      "result": {"id": "minecraft:cake", "count": 1}
+    },
+    {
+      "id": "minecraft:fermented_spider_eye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:spider_eye"], ["minecraft:brown_mushroom"], ["minecraft:sugar"]],
+      "result": {"id": "minecraft:fermented_spider_eye", "count": 1}
+    },
+    {
+      "id": "minecraft:pumpkin_pie",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"], ["minecraft:sugar"], ["#minecraft:eggs"]],
+      "result": {"id": "minecraft:pumpkin_pie", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:horse_food", "registry": "item"}],
+  "refs": {
+    "minecraft:blue_egg": {
+      "name": "Blue Egg",
+      "imagePath": "/item/blue_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Egg"
+    },
+    "minecraft:brown_egg": {
+      "name": "Brown Egg",
+      "imagePath": "/item/brown_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Egg"
+    },
+    "minecraft:brown_mushroom": {
+      "name": "Brown Mushroom",
+      "imagePath": "/block/brown_mushroom/latest.png",
+      "wiki": "https://minecraft.wiki/w/Mushroom"
+    },
+    "minecraft:cake": {"name": "Cake", "imagePath": "/block/cake/latest.png", "wiki": "https://minecraft.wiki/w/Cake"},
+    "minecraft:egg": {"name": "Egg", "imagePath": "/item/egg/latest.png", "wiki": "https://minecraft.wiki/w/Egg"},
+    "minecraft:fermented_spider_eye": {
+      "name": "Fermented Spider Eye",
+      "imagePath": "/item/fermented_spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fermented_Spider_Eye"
+    },
+    "minecraft:honey_bottle": {
+      "name": "Honey Bottle",
+      "imagePath": "/item/honey_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:milk_bucket": {
+      "name": "Milk Bucket",
+      "imagePath": "/item/milk_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Milk_Bucket"
+    },
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:pumpkin": {
+      "name": "Pumpkin",
+      "imagePath": "/block/pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin"
+    },
+    "minecraft:pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "imagePath": "/item/pumpkin_pie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Pie"
+    },
+    "minecraft:spider_eye": {
+      "name": "Spider Eye",
+      "imagePath": "/item/spider_eye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spider_Eye"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "minecraft:sugar_cane": {
+      "name": "Sugar Cane",
+      "imagePath": "/item/sugar_cane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar_Cane"
+    },
+    "minecraft:wheat": {"name": "Wheat"},
+    "#minecraft:eggs": {"items": ["minecraft:egg", "minecraft:blue_egg", "minecraft:brown_egg"]}
+  }
+}

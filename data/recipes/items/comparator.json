@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:comparator",
+  "name": "Redstone Comparator",
+  "imagePath": "/block/comparator/latest.png",
+  "wiki": "https://minecraft.wiki/w/Redstone_Comparator",
+  "recipes": [
+    {
+      "id": "minecraft:comparator",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone_torch"], null],
+        [["minecraft:redstone_torch"], ["minecraft:quartz"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:comparator", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:comparator": {
+      "name": "Redstone Comparator",
+      "imagePath": "/block/comparator/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Comparator"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    }
+  }
+}

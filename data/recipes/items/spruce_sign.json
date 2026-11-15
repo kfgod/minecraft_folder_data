@@ -1,0 +1,45 @@
+{
+  "id": "minecraft:spruce_sign",
+  "name": "Spruce Sign",
+  "imagePath": "/block/spruce_sign/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sign#Spruce",
+  "recipes": [
+    {
+      "id": "minecraft:spruce_sign",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:spruce_planks"], ["minecraft:spruce_planks"], ["minecraft:spruce_planks"]],
+        [["minecraft:spruce_planks"], ["minecraft:spruce_planks"], ["minecraft:spruce_planks"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:spruce_sign", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:standing_signs"},
+    {"id": "minecraft:standing_signs", "registry": "block"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:spruce_sign": {
+      "name": "Spruce Sign",
+      "imagePath": "/block/spruce_sign/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sign#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    }
+  }
+}

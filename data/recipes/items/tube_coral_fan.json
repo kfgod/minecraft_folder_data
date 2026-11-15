@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:tube_coral_fan",
+  "name": "Tube Coral Fan",
+  "imagePath": "/block/tube_coral_fan/latest.png",
+  "wiki": "https://minecraft.wiki/w/Coral_Fan#Tube",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:corals", "registry": "block"},
+    {"id": "minecraft:underwater_bonemeals", "registry": "block", "via": "minecraft:corals"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:corals"}
+  ],
+  "refs": {
+    "minecraft:tube_coral_fan": {
+      "name": "Tube Coral Fan",
+      "imagePath": "/block/tube_coral_fan/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coral_Fan#Tube"
+    }
+  }
+}

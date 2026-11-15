@@ -1,0 +1,73 @@
+{
+  "id": "minecraft:conduit",
+  "name": "Conduit",
+  "imagePath": "/block/conduit/latest.png",
+  "wiki": "https://minecraft.wiki/w/Conduit",
+  "recipes": [
+    {
+      "id": "minecraft:conduit",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nautilus_shell"], ["minecraft:nautilus_shell"], ["minecraft:nautilus_shell"]],
+        [["minecraft:nautilus_shell"], ["minecraft:heart_of_the_sea"], ["minecraft:nautilus_shell"]],
+        [["minecraft:nautilus_shell"], ["minecraft:nautilus_shell"], ["minecraft:nautilus_shell"]]
+      ],
+      "result": {"id": "minecraft:conduit", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:conduit": {
+      "name": "Conduit",
+      "imagePath": "/block/conduit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Conduit"
+    },
+    "minecraft:heart_of_the_sea": {
+      "name": "Heart of the Sea",
+      "imagePath": "/item/heart_of_the_sea/latest.png",
+      "wiki": "https://minecraft.wiki/w/Heart_of_the_Sea"
+    },
+    "minecraft:nautilus_shell": {
+      "name": "Nautilus Shell",
+      "imagePath": "/item/nautilus_shell/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nautilus_Shell"
+    }
+  }
+}

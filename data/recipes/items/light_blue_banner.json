@@ -1,0 +1,197 @@
+{
+  "id": "minecraft:light_blue_banner",
+  "name": "Light Blue Banner",
+  "imagePath": "/block/light_blue_banner/latest.png",
+  "wiki": "https://minecraft.wiki/w/Banner#Light_Blue",
+  "recipes": [
+    {
+      "id": "minecraft:light_blue_banner",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"]
+        ],
+        [
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"],
+          ["minecraft:light_blue_wool"]
+        ],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:light_blue_banner", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_banner_duplicate",
+      "type": "crafting_special_bannerduplicate",
+      "inputs": {"banner": ["minecraft:light_blue_banner"]},
+      "result": {"id": "minecraft:light_blue_banner", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:shield_decoration",
+      "type": "crafting_special_shielddecoration",
+      "inputs": {"target": ["minecraft:shield"], "banner": ["#minecraft:banners"]},
+      "result": {"id": "minecraft:shield", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:banners", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:banners"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:banners"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:banners"},
+    {"id": "minecraft:banners", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_banner": {
+      "name": "Black Banner",
+      "imagePath": "/block/black_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Black"
+    },
+    "minecraft:blue_banner": {
+      "name": "Blue Banner",
+      "imagePath": "/block/blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Blue"
+    },
+    "minecraft:brown_banner": {
+      "name": "Brown Banner",
+      "imagePath": "/block/brown_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Brown"
+    },
+    "minecraft:cyan_banner": {
+      "name": "Cyan Banner",
+      "imagePath": "/block/cyan_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Cyan"
+    },
+    "minecraft:gray_banner": {
+      "name": "Gray Banner",
+      "imagePath": "/block/gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Gray"
+    },
+    "minecraft:green_banner": {
+      "name": "Green Banner",
+      "imagePath": "/block/green_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Green"
+    },
+    "minecraft:light_blue_banner": {
+      "name": "Light Blue Banner",
+      "imagePath": "/block/light_blue_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_gray_banner": {
+      "name": "Light Gray Banner",
+      "imagePath": "/block/light_gray_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Light_Gray"
+    },
+    "minecraft:lime_banner": {
+      "name": "Lime Banner",
+      "imagePath": "/block/lime_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Lime"
+    },
+    "minecraft:magenta_banner": {
+      "name": "Magenta Banner",
+      "imagePath": "/block/magenta_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Magenta"
+    },
+    "minecraft:orange_banner": {
+      "name": "Orange Banner",
+      "imagePath": "/block/orange_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Orange"
+    },
+    "minecraft:pink_banner": {
+      "name": "Pink Banner",
+      "imagePath": "/block/pink_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Pink"
+    },
+    "minecraft:purple_banner": {
+      "name": "Purple Banner",
+      "imagePath": "/block/purple_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Purple"
+    },
+    "minecraft:red_banner": {
+      "name": "Red Banner",
+      "imagePath": "/block/red_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Red"
+    },
+    "minecraft:shield": {
+      "name": "Shield",
+      "imagePath": "/item/shield/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shield"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:white_banner": {
+      "name": "White Banner",
+      "imagePath": "/block/white_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#White"
+    },
+    "minecraft:yellow_banner": {
+      "name": "Yellow Banner",
+      "imagePath": "/block/yellow_banner/latest.png",
+      "wiki": "https://minecraft.wiki/w/Banner#Yellow"
+    },
+    "#minecraft:banners": {
+      "items": [
+        "minecraft:white_banner",
+        "minecraft:orange_banner",
+        "minecraft:magenta_banner",
+        "minecraft:light_blue_banner",
+        "minecraft:yellow_banner",
+        "minecraft:lime_banner",
+        "minecraft:pink_banner",
+        "minecraft:gray_banner",
+        "minecraft:light_gray_banner",
+        "minecraft:cyan_banner",
+        "minecraft:purple_banner",
+        "minecraft:blue_banner",
+        "minecraft:brown_banner",
+        "minecraft:green_banner",
+        "minecraft:red_banner",
+        "minecraft:black_banner"
+      ]
+    }
+  }
+}

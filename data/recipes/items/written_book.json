@@ -1,0 +1,32 @@
+{
+  "id": "minecraft:written_book",
+  "name": "Written Book",
+  "imagePath": "/item/written_book/latest.png",
+  "wiki": "https://minecraft.wiki/w/Written_Book",
+  "recipes": [
+    {
+      "id": "minecraft:book_cloning",
+      "type": "crafting_special_bookcloning",
+      "inputs": {"material": ["#minecraft:book_cloning_target"], "source": ["minecraft:written_book"]},
+      "result": {"id": "minecraft:written_book", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bookshelf_books", "registry": "item"},
+    {"id": "minecraft:lectern_books", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:writable_book": {
+      "name": "Book and Quill",
+      "imagePath": "/item/writable_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Book_and_Quill"
+    },
+    "minecraft:written_book": {
+      "name": "Written Book",
+      "imagePath": "/item/written_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Written_Book"
+    },
+    "#minecraft:book_cloning_target": {"items": ["minecraft:writable_book"]}
+  }
+}

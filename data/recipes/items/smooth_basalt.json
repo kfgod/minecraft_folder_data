@@ -1,0 +1,77 @@
+{
+  "id": "minecraft:smooth_basalt",
+  "name": "Smooth Basalt",
+  "imagePath": "/block/smooth_basalt/latest.png",
+  "wiki": "https://minecraft.wiki/w/Smooth_Basalt",
+  "recipes": [
+    {
+      "id": "minecraft:smooth_basalt",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:basalt"]},
+      "result": {"id": "minecraft:smooth_basalt", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:basalt": {
+      "name": "Basalt",
+      "imagePath": "/block/basalt/latest.png",
+      "wiki": "https://minecraft.wiki/w/Basalt"
+    },
+    "minecraft:smooth_basalt": {
+      "name": "Smooth Basalt",
+      "imagePath": "/block/smooth_basalt/latest.png",
+      "wiki": "https://minecraft.wiki/w/Smooth_Basalt"
+    }
+  }
+}

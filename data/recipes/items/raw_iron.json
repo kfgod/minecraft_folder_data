@@ -1,0 +1,58 @@
+{
+  "id": "minecraft:raw_iron",
+  "name": "Raw Iron",
+  "imagePath": "/item/raw_iron/latest.png",
+  "wiki": "https://minecraft.wiki/w/Raw_Iron",
+  "recipes": [
+    {
+      "id": "minecraft:raw_iron",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:raw_iron_block"]],
+      "result": {"id": "minecraft:raw_iron", "count": 9}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:iron_ingot_from_blasting_raw_iron",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:raw_iron"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    },
+    {
+      "id": "minecraft:raw_iron_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:raw_iron"], ["minecraft:raw_iron"], ["minecraft:raw_iron"]],
+        [["minecraft:raw_iron"], ["minecraft:raw_iron"], ["minecraft:raw_iron"]],
+        [["minecraft:raw_iron"], ["minecraft:raw_iron"], ["minecraft:raw_iron"]]
+      ],
+      "result": {"id": "minecraft:raw_iron_block", "count": 1}
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_raw_iron",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:raw_iron"]},
+      "result": {"id": "minecraft:iron_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.7}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:raw_iron": {
+      "name": "Raw Iron",
+      "imagePath": "/item/raw_iron/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Iron"
+    },
+    "minecraft:raw_iron_block": {
+      "name": "Block of Raw Iron",
+      "imagePath": "/block/raw_iron_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Raw_Iron"
+    }
+  }
+}

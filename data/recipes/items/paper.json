@@ -1,0 +1,324 @@
+{
+  "id": "minecraft:paper",
+  "name": "Paper",
+  "imagePath": "/item/paper/latest.png",
+  "wiki": "https://minecraft.wiki/w/Paper",
+  "recipes": [
+    {
+      "id": "minecraft:paper",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sugar_cane"], ["minecraft:sugar_cane"], ["minecraft:sugar_cane"]]],
+      "result": {"id": "minecraft:paper", "count": 3}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:cartography_table",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:paper"], ["minecraft:paper"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:cartography_table", "count": 1}
+    },
+    {
+      "id": "minecraft:map",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"]],
+        [["minecraft:paper"], ["minecraft:compass"], ["minecraft:paper"]],
+        [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"]]
+      ],
+      "result": {"id": "minecraft:map", "count": 1}
+    },
+    {
+      "id": "minecraft:name_tag",
+      "type": "crafting_shaped",
+      "grid": [[null, ["#minecraft:metal_nuggets"]], [["minecraft:paper"], null]],
+      "result": {"id": "minecraft:name_tag", "count": 1}
+    },
+    {
+      "id": "minecraft:book",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"], ["minecraft:leather"]],
+      "result": {"id": "minecraft:book", "count": 1}
+    },
+    {
+      "id": "minecraft:bordure_indented_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:vine"]],
+      "result": {"id": "minecraft:bordure_indented_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:creeper_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:creeper_head"]],
+      "result": {"id": "minecraft:creeper_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:field_masoned_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:bricks"]],
+      "result": {"id": "minecraft:field_masoned_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:firework_rocket_simple",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:gunpowder"], ["minecraft:paper"]],
+      "result": {"id": "minecraft:firework_rocket", "count": 3}
+    },
+    {
+      "id": "minecraft:flower_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:oxeye_daisy"]],
+      "result": {"id": "minecraft:flower_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:mojang_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:enchanted_golden_apple"]],
+      "result": {"id": "minecraft:mojang_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:skull_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:wither_skeleton_skull"]],
+      "result": {"id": "minecraft:skull_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:firework_rocket",
+      "type": "crafting_special_firework_rocket",
+      "inputs": {
+        "fuel": ["minecraft:gunpowder"],
+        "shell": ["minecraft:paper"],
+        "star": ["minecraft:firework_star"]
+      },
+      "result": {"id": "minecraft:firework_rocket", "count": 3}
+    },
+    {
+      "id": "minecraft:map_extending",
+      "type": "crafting_special_mapextending",
+      "inputs": {"material": ["minecraft:paper"], "map": ["#minecraft:extendable_maps"]},
+      "result": null
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:book": {"name": "Book", "imagePath": "/item/book/latest.png", "wiki": "https://minecraft.wiki/w/Book"},
+    "minecraft:bordure_indented_banner_pattern": {
+      "name": "Bordure Indented Banner Pattern",
+      "imagePath": "/item/bordure_indented_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern"
+    },
+    "minecraft:bricks": {
+      "name": "Bricks",
+      "imagePath": "/block/bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bricks"
+    },
+    "minecraft:cartography_table": {
+      "name": "Cartography Table",
+      "imagePath": "/block/cartography_table/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cartography_Table"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:compass": {
+      "name": "Compass",
+      "imagePath": "/item/compass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Compass"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:creeper_banner_pattern": {
+      "name": "Creeper Charge Banner Pattern",
+      "imagePath": "/item/creeper_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Charge_Banner_Pattern"
+    },
+    "minecraft:creeper_head": {
+      "name": "Creeper Head",
+      "imagePath": "/block/creeper_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Head"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:enchanted_golden_apple": {
+      "name": "Enchanted Golden Apple",
+      "imagePath": "/item/enchanted_golden_apple/latest.png",
+      "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+    },
+    "minecraft:field_masoned_banner_pattern": {
+      "name": "Field Masoned Banner Pattern",
+      "imagePath": "/item/field_masoned_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern"
+    },
+    "minecraft:filled_map": {
+      "name": "Map",
+      "imagePath": "/item/filled_map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Map"
+    },
+    "minecraft:firework_rocket": {
+      "name": "Firework Rocket",
+      "imagePath": "/item/firework_rocket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Rocket"
+    },
+    "minecraft:firework_star": {
+      "name": "Firework Star",
+      "imagePath": "/item/firework_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Star"
+    },
+    "minecraft:flower_banner_pattern": {
+      "name": "Flower Charge Banner Pattern",
+      "imagePath": "/item/flower_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flower_Charge_Banner_Pattern"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:iron_nugget": {
+      "name": "Iron Nugget",
+      "imagePath": "/item/iron_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Nugget"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:map": {
+      "name": "Empty Map",
+      "imagePath": "/item/map/latest.png",
+      "wiki": "https://minecraft.wiki/w/Map"
+    },
+    "minecraft:mojang_banner_pattern": {
+      "name": "Thing Banner Pattern",
+      "imagePath": "/item/mojang_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Thing_Banner_Pattern"
+    },
+    "minecraft:name_tag": {
+      "name": "Name Tag",
+      "imagePath": "/item/name_tag/latest.png",
+      "wiki": "https://minecraft.wiki/w/Name_Tag"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:oxeye_daisy": {
+      "name": "Oxeye Daisy",
+      "imagePath": "/block/oxeye_daisy/latest.png",
+      "wiki": "https://minecraft.wiki/w/Azure_Bluet"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:skull_banner_pattern": {
+      "name": "Skull Charge Banner Pattern",
+      "imagePath": "/item/skull_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skull_Charge_Banner_Pattern"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:sugar_cane": {
+      "name": "Sugar Cane",
+      "imagePath": "/item/sugar_cane/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar_Cane"
+    },
+    "minecraft:vine": {
+      "name": "Vines",
+      "imagePath": "/block/vine/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vines"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "name": "Wither Skeleton Skull",
+      "imagePath": "/block/wither_skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+    },
+    "#minecraft:extendable_maps": {"items": ["minecraft:filled_map"]},
+    "#minecraft:metal_nuggets": {"items": ["minecraft:copper_nugget", "minecraft:iron_nugget", "minecraft:gold_nugget"]},
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

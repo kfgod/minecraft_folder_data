@@ -1,0 +1,102 @@
+{
+  "id": "minecraft:magenta_concrete_powder",
+  "name": "Magenta Concrete Powder",
+  "imagePath": "/block/magenta_concrete_powder/latest.png",
+  "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta",
+  "recipes": [
+    {
+      "id": "minecraft:magenta_concrete_powder",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:sand"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"],
+        ["minecraft:gravel"]
+      ],
+      "result": {"id": "minecraft:magenta_concrete_powder", "count": 8}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:concrete_powders"
+    },
+    {
+      "id": "minecraft:camel_sand_step_sound_blocks",
+      "registry": "block",
+      "via": "minecraft:concrete_powders"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:concrete_powder", "registry": "block", "removed": "26.4-snapshot-7"},
+    {"id": "minecraft:concrete_powders", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block", "via": "minecraft:concrete_powders"},
+    {"id": "minecraft:concrete_powders", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_archetype/regular",
+      "registry": "item",
+      "via": "minecraft:concrete_powders"
+    },
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/regular"
+    }
+  ],
+  "refs": {
+    "minecraft:gravel": {
+      "name": "Gravel",
+      "imagePath": "/block/gravel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gravel"
+    },
+    "minecraft:magenta_concrete_powder": {
+      "name": "Magenta Concrete Powder",
+      "imagePath": "/block/magenta_concrete_powder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Powder#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:sand": {"name": "Sand", "imagePath": "/block/sand/latest.png", "wiki": "https://minecraft.wiki/w/Sand"}
+  }
+}

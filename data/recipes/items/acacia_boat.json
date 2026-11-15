@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:acacia_boat",
+  "name": "Acacia Boat",
+  "imagePath": "/item/acacia_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Acacia",
+  "recipes": [
+    {
+      "id": "minecraft:acacia_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:acacia_planks"], null, ["minecraft:acacia_planks"]],
+        [["minecraft:acacia_planks"], ["minecraft:acacia_planks"], ["minecraft:acacia_planks"]]
+      ],
+      "result": {"id": "minecraft:acacia_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:acacia_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:acacia_boat"]],
+      "result": {"id": "minecraft:acacia_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:acacia_boat": {
+      "name": "Acacia Boat",
+      "imagePath": "/item/acacia_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Acacia"
+    },
+    "minecraft:acacia_chest_boat": {
+      "name": "Acacia Boat with Chest",
+      "imagePath": "/item/acacia_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia"
+    },
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

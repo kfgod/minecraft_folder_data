@@ -1,0 +1,31 @@
+{
+  "id": "minecraft:turtle_scute",
+  "name": "Turtle Scute",
+  "imagePath": "/item/turtle_scute/latest.png",
+  "wiki": "https://minecraft.wiki/w/Turtle_Scute",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:turtle_helmet",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:turtle_scute"], ["minecraft:turtle_scute"], ["minecraft:turtle_scute"]],
+        [["minecraft:turtle_scute"], null, ["minecraft:turtle_scute"]]
+      ],
+      "result": {"id": "minecraft:turtle_helmet", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:repairs_turtle_helmet", "registry": "item"}],
+  "refs": {
+    "minecraft:turtle_helmet": {
+      "name": "Turtle Shell",
+      "imagePath": "/item/turtle_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Turtle_Shell"
+    },
+    "minecraft:turtle_scute": {
+      "name": "Turtle Scute",
+      "imagePath": "/item/turtle_scute/latest.png",
+      "wiki": "https://minecraft.wiki/w/Turtle_Scute"
+    }
+  }
+}

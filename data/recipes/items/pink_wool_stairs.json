@@ -1,0 +1,634 @@
+{
+  "id": "minecraft:pink_wool_stairs",
+  "name": "Pink Wool Stairs",
+  "imagePath": "/block/pink_wool_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink",
+  "recipes": [
+    {
+      "id": "minecraft:pink_wool_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:pink_wool"], null, null],
+        [["minecraft:pink_wool"], ["minecraft:pink_wool"], null],
+        [["minecraft:pink_wool"], ["minecraft:pink_wool"], ["minecraft:pink_wool"]]
+      ],
+      "result": {"id": "minecraft:pink_wool_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:dye_pink_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_wool_stairs", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dye_black_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:black_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:green_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_magenta_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:red_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:yellow_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:white_wool_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_wool_stairs",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_wool_stairs",
+          "minecraft:orange_wool_stairs",
+          "minecraft:magenta_wool_stairs",
+          "minecraft:light_blue_wool_stairs",
+          "minecraft:lime_wool_stairs",
+          "minecraft:pink_wool_stairs",
+          "minecraft:gray_wool_stairs",
+          "minecraft:light_gray_wool_stairs",
+          "minecraft:cyan_wool_stairs",
+          "minecraft:purple_wool_stairs",
+          "minecraft:blue_wool_stairs",
+          "minecraft:brown_wool_stairs",
+          "minecraft:green_wool_stairs",
+          "minecraft:red_wool_stairs",
+          "minecraft:black_wool_stairs"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_wool_stairs", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dampens_vibrations", "registry": "block", "via": "minecraft:wool_stairs"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:shears_major_breaking_speed",
+      "registry": "block",
+      "via": "minecraft:wool_stairs"
+    },
+    {"id": "minecraft:stairs", "registry": "block", "via": "minecraft:wool_stairs"},
+    {"id": "minecraft:wool_stairs", "registry": "block"},
+    {"id": "minecraft:dampens_vibrations", "registry": "item", "via": "minecraft:wool_stairs"},
+    {"id": "minecraft:stairs", "registry": "item", "via": "minecraft:wool_stairs"},
+    {"id": "minecraft:wool_stairs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_wool_stairs": {
+      "name": "Black Wool Stairs",
+      "imagePath": "/block/black_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_wool_stairs": {
+      "name": "Blue Wool Stairs",
+      "imagePath": "/block/blue_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_wool_stairs": {
+      "name": "Brown Wool Stairs",
+      "imagePath": "/block/brown_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Brown"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_wool_stairs": {
+      "name": "Cyan Wool Stairs",
+      "imagePath": "/block/cyan_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Cyan"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_wool_stairs": {
+      "name": "Gray Wool Stairs",
+      "imagePath": "/block/gray_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_wool_stairs": {
+      "name": "Green Wool Stairs",
+      "imagePath": "/block/green_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Green"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_wool_stairs": {
+      "name": "Light Blue Wool Stairs",
+      "imagePath": "/block/light_blue_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_wool_stairs": {
+      "name": "Light Gray Wool Stairs",
+      "imagePath": "/block/light_gray_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_wool_stairs": {
+      "name": "Lime Wool Stairs",
+      "imagePath": "/block/lime_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_wool_stairs": {
+      "name": "Magenta Wool Stairs",
+      "imagePath": "/block/magenta_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_wool_stairs": {
+      "name": "Orange Wool Stairs",
+      "imagePath": "/block/orange_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:pink_wool_stairs": {
+      "name": "Pink Wool Stairs",
+      "imagePath": "/block/pink_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_wool_stairs": {
+      "name": "Purple Wool Stairs",
+      "imagePath": "/block/purple_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Purple"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_wool_stairs": {
+      "name": "Red Wool Stairs",
+      "imagePath": "/block/red_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Red"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_wool_stairs": {
+      "name": "White Wool Stairs",
+      "imagePath": "/block/white_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_wool_stairs": {
+      "name": "Yellow Wool Stairs",
+      "imagePath": "/block/yellow_wool_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool_Stairs#Yellow"
+    }
+  }
+}

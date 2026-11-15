@@ -1,0 +1,96 @@
+{
+  "id": "minecraft:end_stone_brick_slab",
+  "name": "End Stone Brick Slab",
+  "imagePath": "/block/end_stone_brick_slab/latest.png",
+  "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Slab",
+  "recipes": [
+    {
+      "id": "minecraft:end_stone_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:end_stone_bricks"],
+          ["minecraft:end_stone_bricks"],
+          ["minecraft:end_stone_bricks"]
+        ]
+      ],
+      "result": {"id": "minecraft:end_stone_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:end_stone_brick_slab_from_end_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:end_stone_bricks"]},
+      "result": {"id": "minecraft:end_stone_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:end_stone_brick_slab_from_end_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:end_stone"]},
+      "result": {"id": "minecraft:end_stone_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:end_stone_bricks"]},
+      "result": {"id": "minecraft:end_stone_brick_slab", "count": 2},
+      "removed": "26.1.2"
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:slabs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "block"},
+    {"id": "minecraft:slabs", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:end_stone": {
+      "name": "End Stone",
+      "imagePath": "/block/end_stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Stone"
+    },
+    "minecraft:end_stone_brick_slab": {
+      "name": "End Stone Brick Slab",
+      "imagePath": "/block/end_stone_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Stone_Brick_Slab"
+    },
+    "minecraft:end_stone_bricks": {
+      "name": "End Stone Bricks",
+      "imagePath": "/block/end_stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Stone_Bricks"
+    }
+  }
+}

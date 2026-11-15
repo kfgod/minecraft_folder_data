@@ -1,0 +1,295 @@
+{
+  "id": "minecraft:pink_bundle",
+  "name": "Pink Bundle",
+  "imagePath": "/item/pink_bundle/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bundle#Pink",
+  "recipes": [
+    {
+      "id": "minecraft:pink_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:pink_dye"]},
+      "result": {"id": "minecraft:pink_bundle", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:black_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:black_dye"]},
+      "result": {"id": "minecraft:black_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:blue_dye"]},
+      "result": {"id": "minecraft:blue_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:brown_dye"]},
+      "result": {"id": "minecraft:brown_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:cyan_dye"]},
+      "result": {"id": "minecraft:cyan_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:gray_dye"]},
+      "result": {"id": "minecraft:gray_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:green_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:green_dye"]},
+      "result": {"id": "minecraft:green_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:light_blue_dye"]},
+      "result": {"id": "minecraft:light_blue_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:light_gray_dye"]},
+      "result": {"id": "minecraft:light_gray_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:lime_dye"]},
+      "result": {"id": "minecraft:lime_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:magenta_dye"]},
+      "result": {"id": "minecraft:magenta_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:orange_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:orange_dye"]},
+      "result": {"id": "minecraft:orange_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:purple_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:purple_dye"]},
+      "result": {"id": "minecraft:purple_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:red_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:red_dye"]},
+      "result": {"id": "minecraft:red_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:white_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:white_dye"]},
+      "result": {"id": "minecraft:white_bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_bundle",
+      "type": "crafting_transmute",
+      "inputs": {"input": ["#minecraft:bundles"], "material": ["minecraft:yellow_dye"]},
+      "result": {"id": "minecraft:yellow_bundle", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:bundles", "registry": "item"}],
+  "refs": {
+    "minecraft:black_bundle": {
+      "name": "Black Bundle",
+      "imagePath": "/item/black_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Black"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_bundle": {
+      "name": "Blue Bundle",
+      "imagePath": "/item/blue_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Blue"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_bundle": {
+      "name": "Brown Bundle",
+      "imagePath": "/item/brown_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Brown"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:bundle": {
+      "name": "Bundle",
+      "imagePath": "/item/bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Plain"
+    },
+    "minecraft:cyan_bundle": {
+      "name": "Cyan Bundle",
+      "imagePath": "/item/cyan_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Cyan"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:gray_bundle": {
+      "name": "Gray Bundle",
+      "imagePath": "/item/gray_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Gray"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_bundle": {
+      "name": "Green Bundle",
+      "imagePath": "/item/green_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Green"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:light_blue_bundle": {
+      "name": "Light Blue Bundle",
+      "imagePath": "/item/light_blue_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_bundle": {
+      "name": "Light Gray Bundle",
+      "imagePath": "/item/light_gray_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_bundle": {
+      "name": "Lime Bundle",
+      "imagePath": "/item/lime_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Lime"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:magenta_bundle": {
+      "name": "Magenta Bundle",
+      "imagePath": "/item/magenta_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Magenta"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:orange_bundle": {
+      "name": "Orange Bundle",
+      "imagePath": "/item/orange_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Orange"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:pink_bundle": {
+      "name": "Pink Bundle",
+      "imagePath": "/item/pink_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Pink"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:purple_bundle": {
+      "name": "Purple Bundle",
+      "imagePath": "/item/purple_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Purple"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_bundle": {
+      "name": "Red Bundle",
+      "imagePath": "/item/red_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Red"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:white_bundle": {
+      "name": "White Bundle",
+      "imagePath": "/item/white_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#White"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:yellow_bundle": {
+      "name": "Yellow Bundle",
+      "imagePath": "/item/yellow_bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Yellow"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "#minecraft:bundles": {
+      "items": [
+        "minecraft:bundle",
+        "minecraft:white_bundle",
+        "minecraft:orange_bundle",
+        "minecraft:magenta_bundle",
+        "minecraft:light_blue_bundle",
+        "minecraft:yellow_bundle",
+        "minecraft:lime_bundle",
+        "minecraft:pink_bundle",
+        "minecraft:gray_bundle",
+        "minecraft:light_gray_bundle",
+        "minecraft:cyan_bundle",
+        "minecraft:purple_bundle",
+        "minecraft:blue_bundle",
+        "minecraft:brown_bundle",
+        "minecraft:green_bundle",
+        "minecraft:red_bundle",
+        "minecraft:black_bundle"
+      ]
+    }
+  }
+}

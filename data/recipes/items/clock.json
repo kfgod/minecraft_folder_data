@@ -1,0 +1,37 @@
+{
+  "id": "minecraft:clock",
+  "name": "Clock",
+  "imagePath": "/item/clock/latest.png",
+  "wiki": "https://minecraft.wiki/w/Clock",
+  "recipes": [
+    {
+      "id": "minecraft:clock",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:gold_ingot"], null],
+        [["minecraft:gold_ingot"], ["minecraft:redstone"], ["minecraft:gold_ingot"]],
+        [null, ["minecraft:gold_ingot"], null]
+      ],
+      "result": {"id": "minecraft:clock", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:piglin_loved", "registry": "item"}],
+  "refs": {
+    "minecraft:clock": {
+      "name": "Clock",
+      "imagePath": "/item/clock/latest.png",
+      "wiki": "https://minecraft.wiki/w/Clock"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    }
+  }
+}

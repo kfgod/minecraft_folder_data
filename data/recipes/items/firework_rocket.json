@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:firework_rocket",
+  "name": "Firework Rocket",
+  "imagePath": "/item/firework_rocket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Firework_Rocket",
+  "recipes": [
+    {
+      "id": "minecraft:firework_rocket_simple",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:gunpowder"], ["minecraft:paper"]],
+      "result": {"id": "minecraft:firework_rocket", "count": 3}
+    },
+    {
+      "id": "minecraft:firework_rocket",
+      "type": "crafting_special_firework_rocket",
+      "inputs": {
+        "fuel": ["minecraft:gunpowder"],
+        "shell": ["minecraft:paper"],
+        "star": ["minecraft:firework_star"]
+      },
+      "result": {"id": "minecraft:firework_rocket", "count": 3}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:firework_rocket": {
+      "name": "Firework Rocket",
+      "imagePath": "/item/firework_rocket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Rocket"
+    },
+    "minecraft:firework_star": {
+      "name": "Firework Star",
+      "imagePath": "/item/firework_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Star"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    }
+  }
+}

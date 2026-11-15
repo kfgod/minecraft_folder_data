@@ -1,0 +1,192 @@
+{
+  "id": "minecraft:waxed_exposed_copper",
+  "name": "Waxed Exposed Copper",
+  "imagePath": "/block/waxed_exposed_copper/latest.png",
+  "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed",
+  "recipes": [
+    {
+      "id": "minecraft:waxed_exposed_copper_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_copper"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_copper", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_exposed_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_exposed_copper"], null],
+        [
+          ["minecraft:waxed_exposed_copper"],
+          ["minecraft:blaze_rod"],
+          ["minecraft:waxed_exposed_copper"]
+        ],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:waxed_exposed_copper_bulb", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_grate",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:waxed_exposed_copper"], null],
+        [["minecraft:waxed_exposed_copper"], null, ["minecraft:waxed_exposed_copper"]],
+        [null, ["minecraft:waxed_exposed_copper"], null]
+      ],
+      "result": {"id": "minecraft:waxed_exposed_copper_grate", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:waxed_exposed_copper"], ["minecraft:waxed_exposed_copper"]],
+        [["minecraft:waxed_exposed_copper"], ["minecraft:waxed_exposed_copper"]]
+      ],
+      "result": {"id": "minecraft:waxed_exposed_cut_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_exposed_copper"]},
+      "result": {"id": "minecraft:waxed_exposed_chiseled_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_exposed_copper"]},
+      "result": {"id": "minecraft:waxed_exposed_copper_grate", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_exposed_copper"]},
+      "result": {"id": "minecraft:waxed_exposed_cut_copper", "count": 4}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_exposed_copper"]},
+      "result": {"id": "minecraft:waxed_exposed_cut_copper_slab", "count": 8}
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:waxed_exposed_copper"]},
+      "result": {"id": "minecraft:waxed_exposed_cut_copper_stairs", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:copper"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:copper", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:copper", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:exposed_copper": {
+      "name": "Exposed Copper",
+      "imagePath": "/block/exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:waxed_exposed_chiseled_copper": {
+      "name": "Waxed Exposed Chiseled Copper",
+      "imagePath": "/block/waxed_exposed_chiseled_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper": {
+      "name": "Waxed Exposed Copper",
+      "imagePath": "/block/waxed_exposed_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "name": "Waxed Exposed Copper Bulb",
+      "imagePath": "/block/waxed_exposed_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed"
+    },
+    "minecraft:waxed_exposed_copper_grate": {
+      "name": "Waxed Exposed Copper Grate",
+      "imagePath": "/block/waxed_exposed_copper_grate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Grate#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+      "name": "Waxed Exposed Cut Copper",
+      "imagePath": "/block/waxed_exposed_cut_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+      "name": "Waxed Exposed Cut Copper Slab",
+      "imagePath": "/block/waxed_exposed_cut_copper_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+      "name": "Waxed Exposed Cut Copper Stairs",
+      "imagePath": "/block/waxed_exposed_cut_copper_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed"
+    }
+  }
+}

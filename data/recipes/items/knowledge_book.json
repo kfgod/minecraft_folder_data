@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:knowledge_book",
+  "name": "Knowledge Book",
+  "imagePath": "/item/knowledge_book/latest.png",
+  "wiki": "https://minecraft.wiki/w/Knowledge_Book",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:bookshelf_books", "registry": "item"}],
+  "refs": {
+    "minecraft:knowledge_book": {
+      "name": "Knowledge Book",
+      "imagePath": "/item/knowledge_book/latest.png",
+      "wiki": "https://minecraft.wiki/w/Knowledge_Book"
+    }
+  }
+}

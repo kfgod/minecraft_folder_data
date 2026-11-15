@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:small_dripleaf",
+  "name": "Small Dripleaf",
+  "imagePath": "/block/small_dripleaf/latest.png",
+  "wiki": "https://minecraft.wiki/w/Small_Dripleaf",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:small_dripleaf": {
+      "name": "Small Dripleaf",
+      "imagePath": "/block/small_dripleaf/latest.png",
+      "wiki": "https://minecraft.wiki/w/Small_Dripleaf"
+    }
+  }
+}

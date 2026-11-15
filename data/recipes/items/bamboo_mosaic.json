@@ -1,0 +1,97 @@
+{
+  "id": "minecraft:bamboo_mosaic",
+  "name": "Bamboo Mosaic",
+  "imagePath": "/block/bamboo_mosaic/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic",
+  "recipes": [
+    {
+      "id": "minecraft:bamboo_mosaic",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:bamboo_slab"]], [["minecraft:bamboo_slab"]]],
+      "result": {"id": "minecraft:bamboo_mosaic", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:bamboo_mosaic_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:bamboo_mosaic"], ["minecraft:bamboo_mosaic"], ["minecraft:bamboo_mosaic"]]],
+      "result": {"id": "minecraft:bamboo_mosaic_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:bamboo_mosaic_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo_mosaic"], null, null],
+        [["minecraft:bamboo_mosaic"], ["minecraft:bamboo_mosaic"], null],
+        [["minecraft:bamboo_mosaic"], ["minecraft:bamboo_mosaic"], ["minecraft:bamboo_mosaic"]]
+      ],
+      "result": {"id": "minecraft:bamboo_mosaic_stairs", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:bamboo_mosaic": {
+      "name": "Bamboo Mosaic",
+      "imagePath": "/block/bamboo_mosaic/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic"
+    },
+    "minecraft:bamboo_mosaic_slab": {
+      "name": "Bamboo Mosaic Slab",
+      "imagePath": "/block/bamboo_mosaic_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Slab"
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+      "name": "Bamboo Mosaic Stairs",
+      "imagePath": "/block/bamboo_mosaic_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo_Mosaic_Stairs"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    }
+  }
+}

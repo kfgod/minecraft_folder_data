@@ -1,0 +1,35 @@
+{
+  "id": "minecraft:polished_blackstone_button",
+  "name": "Polished Blackstone Button",
+  "imagePath": "/block/polished_blackstone_button/latest.png",
+  "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Button",
+  "recipes": [
+    {
+      "id": "minecraft:polished_blackstone_button",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:polished_blackstone"]],
+      "result": {"id": "minecraft:polished_blackstone_button", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:buttons", "registry": "block", "via": "minecraft:stone_buttons"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:stone_buttons"},
+    {"id": "minecraft:stone_buttons", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:buttons"},
+    {"id": "minecraft:buttons", "registry": "item", "via": "minecraft:stone_buttons"},
+    {"id": "minecraft:stone_buttons", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:polished_blackstone": {
+      "name": "Polished Blackstone",
+      "imagePath": "/block/polished_blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Blackstone"
+    },
+    "minecraft:polished_blackstone_button": {
+      "name": "Polished Blackstone Button",
+      "imagePath": "/block/polished_blackstone_button/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Blackstone_Button"
+    }
+  }
+}

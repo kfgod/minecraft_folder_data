@@ -1,0 +1,264 @@
+{
+  "id": "minecraft:sentry_armor_trim_smithing_template",
+  "name": "Sentry Armor Trim",
+  "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png",
+  "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim",
+  "recipes": [
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:sentry_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:cobblestone"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:sentry_armor_trim_smithing_template", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:sentry_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    }
+  ],
+  "tags": [{"id": "minecraft:trim_templates", "registry": "item", "removed": "1.21.4"}],
+  "refs": {
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:copper_boots": {
+      "name": "Copper Boots",
+      "imagePath": "/item/copper_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Boots"
+    },
+    "minecraft:copper_chestplate": {
+      "name": "Copper Chestplate",
+      "imagePath": "/item/copper_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+    },
+    "minecraft:copper_helmet": {
+      "name": "Copper Helmet",
+      "imagePath": "/item/copper_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_leggings": {
+      "name": "Copper Leggings",
+      "imagePath": "/item/copper_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_boots": {
+      "name": "Diamond Boots",
+      "imagePath": "/item/diamond_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "Diamond Chestplate",
+      "imagePath": "/item/diamond_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+    },
+    "minecraft:diamond_leggings": {
+      "name": "Diamond Leggings",
+      "imagePath": "/item/diamond_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+    },
+    "minecraft:emerald": {
+      "name": "Emerald",
+      "imagePath": "/item/emerald/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "Lapis Lazuli",
+      "imagePath": "/item/lapis_lazuli/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:netherite_boots": {
+      "name": "Netherite Boots",
+      "imagePath": "/item/netherite_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "Netherite Chestplate",
+      "imagePath": "/item/netherite_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_leggings": {
+      "name": "Netherite Leggings",
+      "imagePath": "/item/netherite_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "name": "Sentry Armor Trim",
+      "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+    },
+    "#minecraft:trim_materials": {
+      "items": [
+        "minecraft:amethyst_shard",
+        "minecraft:copper_ingot",
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:lapis_lazuli",
+        "minecraft:netherite_ingot",
+        "minecraft:quartz",
+        "minecraft:redstone",
+        "minecraft:resin_brick"
+      ]
+    },
+    "#minecraft:trimmable_armor": {
+      "items": [
+        "minecraft:leather_boots",
+        "minecraft:copper_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:golden_boots",
+        "minecraft:iron_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots",
+        "minecraft:leather_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:chainmail_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:copper_chestplate",
+        "minecraft:chainmail_chestplate",
+        "minecraft:golden_chestplate",
+        "minecraft:iron_chestplate",
+        "minecraft:diamond_chestplate",
+        "minecraft:netherite_chestplate",
+        "minecraft:leather_helmet",
+        "minecraft:copper_helmet",
+        "minecraft:chainmail_helmet"
+      ]
+    }
+  }
+}

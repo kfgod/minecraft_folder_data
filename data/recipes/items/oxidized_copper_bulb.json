@@ -1,0 +1,112 @@
+{
+  "id": "minecraft:oxidized_copper_bulb",
+  "name": "Oxidized Copper Bulb",
+  "imagePath": "/block/oxidized_copper_bulb/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized",
+  "recipes": [
+    {
+      "id": "minecraft:oxidized_copper_bulb",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:oxidized_copper"], null],
+        [["minecraft:oxidized_copper"], ["minecraft:blaze_rod"], ["minecraft:oxidized_copper"]],
+        [null, ["minecraft:redstone"], null]
+      ],
+      "result": {"id": "minecraft:oxidized_copper_bulb", "count": 4}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_oxidized_copper_bulb_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:oxidized_copper_bulb"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_oxidized_copper_bulb", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:oxidized_copper": {
+      "name": "Oxidized Copper",
+      "imagePath": "/block/oxidized_copper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "name": "Oxidized Copper Bulb",
+      "imagePath": "/block/oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "name": "Waxed Oxidized Copper Bulb",
+      "imagePath": "/block/waxed_oxidized_copper_bulb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized"
+    }
+  }
+}

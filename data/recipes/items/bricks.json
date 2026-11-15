@@ -1,0 +1,145 @@
+{
+  "id": "minecraft:bricks",
+  "name": "Bricks",
+  "imagePath": "/block/bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:bricks",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:brick"], ["minecraft:brick"]], [["minecraft:brick"], ["minecraft:brick"]]],
+      "result": {"id": "minecraft:bricks", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:bricks"], ["minecraft:bricks"], ["minecraft:bricks"]]],
+      "result": {"id": "minecraft:brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bricks"], null, null],
+        [["minecraft:bricks"], ["minecraft:bricks"], null],
+        [["minecraft:bricks"], ["minecraft:bricks"], ["minecraft:bricks"]]
+      ],
+      "result": {"id": "minecraft:brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bricks"], ["minecraft:bricks"], ["minecraft:bricks"]],
+        [["minecraft:bricks"], ["minecraft:bricks"], ["minecraft:bricks"]]
+      ],
+      "result": {"id": "minecraft:brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:field_masoned_banner_pattern",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:bricks"]],
+      "result": {"id": "minecraft:field_masoned_banner_pattern", "count": 1}
+    },
+    {
+      "id": "minecraft:brick_slab_from_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:bricks"]},
+      "result": {"id": "minecraft:brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:brick_stairs_from_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:bricks"]},
+      "result": {"id": "minecraft:brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:brick_wall_from_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:bricks"]},
+      "result": {"id": "minecraft:brick_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:brick": {
+      "name": "Brick",
+      "imagePath": "/item/brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick"
+    },
+    "minecraft:brick_slab": {
+      "name": "Brick Slab",
+      "imagePath": "/block/brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick_Slab"
+    },
+    "minecraft:brick_stairs": {
+      "name": "Brick Stairs",
+      "imagePath": "/block/brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick_Stairs"
+    },
+    "minecraft:brick_wall": {
+      "name": "Brick Wall",
+      "imagePath": "/block/brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brick_Wall"
+    },
+    "minecraft:bricks": {
+      "name": "Bricks",
+      "imagePath": "/block/bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bricks"
+    },
+    "minecraft:field_masoned_banner_pattern": {
+      "name": "Field Masoned Banner Pattern",
+      "imagePath": "/item/field_masoned_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    }
+  }
+}

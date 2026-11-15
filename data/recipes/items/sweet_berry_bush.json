@@ -1,0 +1,28 @@
+{
+  "id": "minecraft:sweet_berry_bush",
+  "name": "Sweet Berry Bush",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:bee_growables", "registry": "block"},
+    {
+      "id": "minecraft:cat_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:dangerous_for_teleportation", "registry": "block"},
+    {
+      "id": "minecraft:enderman_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:fall_damage_resetting", "registry": "block"},
+    {"id": "minecraft:fox_immune_to", "registry": "block"},
+    {"id": "minecraft:happy_ghast_avoids", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:pathfinding/damaging", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:sweet_berry_bush": {"name": "Sweet Berry Bush"}}
+}

@@ -1,0 +1,86 @@
+{
+  "id": "minecraft:copper_bars",
+  "name": "Copper Bars",
+  "imagePath": "/block/copper_bars/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized",
+  "recipes": [
+    {
+      "id": "minecraft:copper_bars",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]],
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]]
+      ],
+      "result": {"id": "minecraft:copper_bars", "count": 16}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_copper_bars_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_bars"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_bars", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:bars", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:bars"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:bars"},
+    {"id": "minecraft:bars", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:copper_bars": {
+      "name": "Copper Bars",
+      "imagePath": "/block/copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_copper_bars": {
+      "name": "Waxed Copper Bars",
+      "imagePath": "/block/waxed_copper_bars/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized"
+    }
+  }
+}

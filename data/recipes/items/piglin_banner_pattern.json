@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:piglin_banner_pattern",
+  "name": "Snout Banner Pattern",
+  "imagePath": "/item/piglin_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Snout_Banner_Pattern",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:piglin_banner_pattern": {
+      "name": "Snout Banner Pattern",
+      "imagePath": "/item/piglin_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snout_Banner_Pattern"
+    }
+  }
+}

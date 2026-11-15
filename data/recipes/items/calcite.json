@@ -1,0 +1,249 @@
+{
+  "id": "minecraft:calcite",
+  "name": "Calcite",
+  "imagePath": "/block/calcite/latest.png",
+  "wiki": "https://minecraft.wiki/w/Calcite",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:calcite_pillar",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:calcite"]], [["minecraft:calcite"]]],
+      "result": {"id": "minecraft:calcite_pillar", "count": 2}
+    },
+    {
+      "id": "minecraft:calcite_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:calcite"], ["minecraft:calcite"], ["minecraft:calcite"]]],
+      "result": {"id": "minecraft:calcite_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:calcite_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:calcite"], null, null],
+        [["minecraft:calcite"], ["minecraft:calcite"], null],
+        [["minecraft:calcite"], ["minecraft:calcite"], ["minecraft:calcite"]]
+      ],
+      "result": {"id": "minecraft:calcite_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:calcite_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:calcite"], ["minecraft:calcite"], ["minecraft:calcite"]],
+        [["minecraft:calcite"], ["minecraft:calcite"], ["minecraft:calcite"]]
+      ],
+      "result": {"id": "minecraft:calcite_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:polished_calcite",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:calcite"], ["minecraft:calcite"]],
+        [["minecraft:calcite"], ["minecraft:calcite"]]
+      ],
+      "result": {"id": "minecraft:polished_calcite", "count": 4}
+    },
+    {
+      "id": "minecraft:calcite_pillar_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:calcite_pillar", "count": 1}
+    },
+    {
+      "id": "minecraft:calcite_slab_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:calcite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:calcite_stairs_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:calcite_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:calcite_wall_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:calcite_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_slab_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_stairs_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_wall_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_bricks_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_slab_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_calcite_stairs_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_calcite_wall_from_calcite_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:calcite"]},
+      "result": {"id": "minecraft:polished_calcite_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:ice_cave_ore_replaceables", "registry": "block"},
+    {
+      "id": "minecraft:ice_crevasse_replaceables",
+      "registry": "block",
+      "via": "minecraft:ice_cave_ore_replaceables"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:large_icicle_replaceable", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {
+      "id": "minecraft:overworld_carver_replaceables",
+      "registry": "block",
+      "removed": "26.4-snapshot-7"
+    },
+    {"id": "minecraft:sculk_replaceable", "registry": "block"},
+    {
+      "id": "minecraft:sculk_replaceable_world_gen",
+      "registry": "block",
+      "via": "minecraft:sculk_replaceable"
+    },
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:calcite": {
+      "name": "Calcite",
+      "imagePath": "/block/calcite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite"
+    },
+    "minecraft:calcite_pillar": {
+      "name": "Calcite Pillar",
+      "imagePath": "/block/calcite_pillar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite_Pillar"
+    },
+    "minecraft:calcite_slab": {
+      "name": "Calcite Slab",
+      "imagePath": "/block/calcite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite_Slab"
+    },
+    "minecraft:calcite_stairs": {
+      "name": "Calcite Stairs",
+      "imagePath": "/block/calcite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite_Stairs"
+    },
+    "minecraft:calcite_wall": {
+      "name": "Calcite Wall",
+      "imagePath": "/block/calcite_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Calcite_Wall"
+    },
+    "minecraft:polished_calcite": {
+      "name": "Polished Calcite",
+      "imagePath": "/block/polished_calcite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite"
+    },
+    "minecraft:polished_calcite_brick_slab": {
+      "name": "Polished Calcite Brick Slab",
+      "imagePath": "/block/polished_calcite_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Slab"
+    },
+    "minecraft:polished_calcite_brick_stairs": {
+      "name": "Polished Calcite Brick Stairs",
+      "imagePath": "/block/polished_calcite_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Stairs"
+    },
+    "minecraft:polished_calcite_brick_wall": {
+      "name": "Polished Calcite Brick Wall",
+      "imagePath": "/block/polished_calcite_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Brick_Wall"
+    },
+    "minecraft:polished_calcite_bricks": {
+      "name": "Polished Calcite Bricks",
+      "imagePath": "/block/polished_calcite_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Bricks"
+    },
+    "minecraft:polished_calcite_slab": {
+      "name": "Polished Calcite Slab",
+      "imagePath": "/block/polished_calcite_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Slab"
+    },
+    "minecraft:polished_calcite_stairs": {
+      "name": "Polished Calcite Stairs",
+      "imagePath": "/block/polished_calcite_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Stairs"
+    },
+    "minecraft:polished_calcite_wall": {
+      "name": "Polished Calcite Wall",
+      "imagePath": "/block/polished_calcite_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Calcite_Wall"
+    }
+  }
+}

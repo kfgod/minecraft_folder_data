@@ -1,0 +1,575 @@
+{
+  "id": "minecraft:glowstone_dust",
+  "name": "Glowstone Dust",
+  "imagePath": "/item/glowstone_dust/latest.png",
+  "wiki": "https://minecraft.wiki/w/Glowstone_Dust",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_harming_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:harming"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_healing_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_healing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_leaping_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_poison_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_regeneration_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_slowness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_strength_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_swiftness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_turtle_master_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/lingering_potion_water_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:thick"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_harming_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:harming"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_healing_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_healing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_leaping_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_poison_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_regeneration_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_slowness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_strength_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_swiftness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_turtle_master_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:thick"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_harming_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_harming"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:harming"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_healing_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_healing"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:healing"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_leaping_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_leaping"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:leaping"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_poison_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_poison"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:poison"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_regeneration_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_regeneration"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:regeneration"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_slowness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_slowness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:slowness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_strength_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_strength"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:strength"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_swiftness_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_swiftness"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:swiftness"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_turtle_master_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:strong_turtle_master"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:turtle_master"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_glowstone_dust",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:glowstone_dust"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:thick"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:glowstone",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glowstone_dust"], ["minecraft:glowstone_dust"]],
+        [["minecraft:glowstone_dust"], ["minecraft:glowstone_dust"]]
+      ],
+      "result": {"id": "minecraft:glowstone", "count": 1}
+    },
+    {
+      "id": "minecraft:spectral_arrow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:glowstone_dust"], null],
+        [["minecraft:glowstone_dust"], ["minecraft:arrow"], ["minecraft:glowstone_dust"]],
+        [null, ["minecraft:glowstone_dust"], null]
+      ],
+      "result": {"id": "minecraft:spectral_arrow", "count": 2}
+    },
+    {
+      "id": "minecraft:firework_star",
+      "type": "crafting_special_firework_star",
+      "inputs": {
+        "dye": ["#minecraft:dyes"],
+        "fuel": ["minecraft:gunpowder"],
+        "trail": ["minecraft:diamond"],
+        "twinkle": ["minecraft:glowstone_dust"],
+        "shape.burst": ["minecraft:feather"],
+        "shape.creeper": ["#minecraft:skulls"],
+        "shape.large_ball": ["minecraft:fire_charge"],
+        "shape.star": ["minecraft:gold_nugget"]
+      },
+      "result": {"id": "minecraft:firework_star", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "imagePath": "/item/arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Arrow"
+    },
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:creeper_head": {
+      "name": "Creeper Head",
+      "imagePath": "/block/creeper_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Creeper_Head"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:dragon_head": {
+      "name": "Dragon Head",
+      "imagePath": "/block/dragon_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dragon_Head"
+    },
+    "minecraft:feather": {
+      "name": "Feather",
+      "imagePath": "/item/feather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Feather"
+    },
+    "minecraft:fire_charge": {
+      "name": "Fire Charge",
+      "imagePath": "/item/fire_charge/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fire_Charge"
+    },
+    "minecraft:firework_star": {
+      "name": "Firework Star",
+      "imagePath": "/item/firework_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Firework_Star"
+    },
+    "minecraft:glowstone": {
+      "name": "Glowstone",
+      "imagePath": "/block/glowstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone"
+    },
+    "minecraft:glowstone_dust": {
+      "name": "Glowstone Dust",
+      "imagePath": "/item/glowstone_dust/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glowstone_Dust"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:gunpowder": {
+      "name": "Gunpowder",
+      "imagePath": "/item/gunpowder/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gunpowder"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:piglin_head": {
+      "name": "Piglin Head",
+      "imagePath": "/block/piglin_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Piglin_Head"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:player_head": {
+      "name": "Player Head",
+      "imagePath": "/block/player_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Player_Head"
+    },
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:skeleton_skull": {
+      "name": "Skeleton Skull",
+      "imagePath": "/block/skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Skeleton_Skull"
+    },
+    "minecraft:spectral_arrow": {
+      "name": "Spectral Arrow",
+      "imagePath": "/item/spectral_arrow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spectral_Arrow"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"},
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "name": "Wither Skeleton Skull",
+      "imagePath": "/block/wither_skeleton_skull/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:zombie_head": {
+      "name": "Zombie Head",
+      "imagePath": "/block/zombie_head/latest.png",
+      "wiki": "https://minecraft.wiki/w/Zombie_Head"
+    },
+    "#minecraft:dyes": {
+      "items": [
+        "minecraft:white_dye",
+        "minecraft:orange_dye",
+        "minecraft:magenta_dye",
+        "minecraft:light_blue_dye",
+        "minecraft:yellow_dye",
+        "minecraft:lime_dye",
+        "minecraft:pink_dye",
+        "minecraft:gray_dye",
+        "minecraft:light_gray_dye",
+        "minecraft:cyan_dye",
+        "minecraft:purple_dye",
+        "minecraft:blue_dye",
+        "minecraft:brown_dye",
+        "minecraft:green_dye",
+        "minecraft:red_dye",
+        "minecraft:black_dye"
+      ]
+    },
+    "#minecraft:skulls": {
+      "items": [
+        "minecraft:player_head",
+        "minecraft:creeper_head",
+        "minecraft:zombie_head",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:dragon_head",
+        "minecraft:piglin_head"
+      ]
+    }
+  }
+}

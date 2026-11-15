@@ -1,0 +1,43 @@
+{
+  "id": "minecraft:netherite_nautilus_armor",
+  "name": "Netherite Nautilus Armor",
+  "imagePath": "/item/netherite_nautilus_armor/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_nautilus_armor_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_nautilus_armor"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_nautilus_armor", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [],
+  "refs": {
+    "minecraft:diamond_nautilus_armor": {
+      "name": "Diamond Nautilus Armor",
+      "imagePath": "/item/diamond_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_nautilus_armor": {
+      "name": "Netherite Nautilus Armor",
+      "imagePath": "/item/netherite_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

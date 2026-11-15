@@ -1,0 +1,93 @@
+{
+  "id": "minecraft:stone_brick_wall",
+  "name": "Stone Brick Wall",
+  "imagePath": "/block/stone_brick_wall/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall",
+  "recipes": [
+    {
+      "id": "minecraft:stone_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]],
+        [["minecraft:stone_bricks"], ["minecraft:stone_bricks"], ["minecraft:stone_bricks"]]
+      ],
+      "result": {"id": "minecraft:stone_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:stone_brick_wall_from_stone_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone_bricks"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_wall_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_brick_walls_from_stone_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:stone"]},
+      "result": {"id": "minecraft:stone_brick_wall", "count": 1},
+      "removed": "26.1.2"
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:walls"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "block"},
+    {"id": "minecraft:walls", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:stone_brick_wall": {
+      "name": "Stone Brick Wall",
+      "imagePath": "/block/stone_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Brick_Wall"
+    },
+    "minecraft:stone_bricks": {
+      "name": "Stone Bricks",
+      "imagePath": "/block/stone_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Bricks"
+    }
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "id": "minecraft:cobbled_deepslate",
+  "name": "Cobbled Deepslate",
+  "imagePath": "/block/cobbled_deepslate/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate",
+  "recipes": [
+    {
+      "id": "minecraft:cobbled_deepslate_from_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:brewing_stand",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:blaze_rod"], null],
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ]
+      ],
+      "result": {"id": "minecraft:brewing_stand", "count": 1}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"]
+        ]
+      ],
+      "result": {"id": "minecraft:cobbled_deepslate_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobbled_deepslate"], null, null],
+        [["minecraft:cobbled_deepslate"], ["minecraft:cobbled_deepslate"], null],
+        [
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"]
+        ]
+      ],
+      "result": {"id": "minecraft:cobbled_deepslate_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"]
+        ],
+        [
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"],
+          ["minecraft:cobbled_deepslate"]
+        ]
+      ],
+      "result": {"id": "minecraft:cobbled_deepslate_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:furnace",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ],
+        [["#minecraft:stone_crafting_materials"], null, ["#minecraft:stone_crafting_materials"]],
+        [
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"],
+          ["#minecraft:stone_crafting_materials"]
+        ]
+      ],
+      "result": {"id": "minecraft:furnace", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_deepslate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobbled_deepslate"], ["minecraft:cobbled_deepslate"]],
+        [["minecraft:cobbled_deepslate"], ["minecraft:cobbled_deepslate"]]
+      ],
+      "result": {"id": "minecraft:polished_deepslate", "count": 4}
+    },
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:silence_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:cobbled_deepslate"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:silence_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:stone_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"], ["#minecraft:stone_tool_materials"]],
+        [["#minecraft:stone_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"], ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_pickaxe",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"],
+          ["#minecraft:stone_tool_materials"]
+        ],
+        [null, ["minecraft:stick"], null],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:stone_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_shovel",
+      "type": "crafting_shaped",
+      "grid": [[["#minecraft:stone_tool_materials"]], [["minecraft:stick"]], [["minecraft:stick"]]],
+      "result": {"id": "minecraft:stone_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_spear",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"], null],
+        [["minecraft:stick"], null, null]
+      ],
+      "result": {"id": "minecraft:stone_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:stone_sword",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"]],
+        [["#minecraft:stone_tool_materials"]],
+        [["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_sword", "count": 1}
+    },
+    {
+      "id": "minecraft:ward_armor_trim_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:ward_armor_trim_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:cobbled_deepslate"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:ward_armor_trim_smithing_template", "count": 2}
+    },
+    {
+      "id": "minecraft:deepslate",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:chiseled_deepslate", "count": 1}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:cobbled_deepslate_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_brick_wall_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_brick_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_slab_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tile_wall", "count": 1}
+    },
+    {
+      "id": "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:deepslate_tiles", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:polished_deepslate", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:polished_deepslate_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:polished_deepslate_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:cobbled_deepslate"]},
+      "result": {"id": "minecraft:polished_deepslate_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:ancient_city_replaceable", "registry": "block"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sculk_replaceable_world_gen", "registry": "block"},
+    {"id": "minecraft:stone_crafting_materials", "registry": "item"},
+    {"id": "minecraft:stone_tool_materials", "registry": "item"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:brewing_stand": {
+      "name": "Brewing Stand",
+      "imagePath": "/block/brewing_stand/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brewing_Stand"
+    },
+    "minecraft:chiseled_deepslate": {
+      "name": "Chiseled Deepslate",
+      "imagePath": "/block/chiseled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Deepslate"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobbled_deepslate_slab": {
+      "name": "Cobbled Deepslate Slab",
+      "imagePath": "/block/cobbled_deepslate_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab"
+    },
+    "minecraft:cobbled_deepslate_stairs": {
+      "name": "Cobbled Deepslate Stairs",
+      "imagePath": "/block/cobbled_deepslate_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Stairs"
+    },
+    "minecraft:cobbled_deepslate_wall": {
+      "name": "Cobbled Deepslate Wall",
+      "imagePath": "/block/cobbled_deepslate_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate_Wall"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:deepslate": {
+      "name": "Deepslate",
+      "imagePath": "/block/deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate"
+    },
+    "minecraft:deepslate_brick_slab": {
+      "name": "Deepslate Brick Slab",
+      "imagePath": "/block/deepslate_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Slab"
+    },
+    "minecraft:deepslate_brick_stairs": {
+      "name": "Deepslate Brick Stairs",
+      "imagePath": "/block/deepslate_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Stairs"
+    },
+    "minecraft:deepslate_brick_wall": {
+      "name": "Deepslate Brick Wall",
+      "imagePath": "/block/deepslate_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Brick_Wall"
+    },
+    "minecraft:deepslate_bricks": {
+      "name": "Deepslate Bricks",
+      "imagePath": "/block/deepslate_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Bricks"
+    },
+    "minecraft:deepslate_tile_slab": {
+      "name": "Deepslate Tile Slab",
+      "imagePath": "/block/deepslate_tile_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Slab"
+    },
+    "minecraft:deepslate_tile_stairs": {
+      "name": "Deepslate Tile Stairs",
+      "imagePath": "/block/deepslate_tile_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Stairs"
+    },
+    "minecraft:deepslate_tile_wall": {
+      "name": "Deepslate Tile Wall",
+      "imagePath": "/block/deepslate_tile_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tile_Wall"
+    },
+    "minecraft:deepslate_tiles": {
+      "name": "Deepslate Tiles",
+      "imagePath": "/block/deepslate_tiles/latest.png",
+      "wiki": "https://minecraft.wiki/w/Deepslate_Tiles"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:furnace": {
+      "name": "Furnace",
+      "imagePath": "/block/furnace/latest.png",
+      "wiki": "https://minecraft.wiki/w/Furnace"
+    },
+    "minecraft:polished_deepslate": {
+      "name": "Polished Deepslate",
+      "imagePath": "/block/polished_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Deepslate"
+    },
+    "minecraft:polished_deepslate_slab": {
+      "name": "Polished Deepslate Slab",
+      "imagePath": "/block/polished_deepslate_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Slab"
+    },
+    "minecraft:polished_deepslate_stairs": {
+      "name": "Polished Deepslate Stairs",
+      "imagePath": "/block/polished_deepslate_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Stairs"
+    },
+    "minecraft:polished_deepslate_wall": {
+      "name": "Polished Deepslate Wall",
+      "imagePath": "/block/polished_deepslate_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Polished_Deepslate_Wall"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "name": "Silence Armor Trim",
+      "imagePath": "/item/silence_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_axe": {
+      "name": "Stone Axe",
+      "imagePath": "/item/stone_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Axe"
+    },
+    "minecraft:stone_hoe": {
+      "name": "Stone Hoe",
+      "imagePath": "/item/stone_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Hoe"
+    },
+    "minecraft:stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "imagePath": "/item/stone_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Pickaxe"
+    },
+    "minecraft:stone_shovel": {
+      "name": "Stone Shovel",
+      "imagePath": "/item/stone_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Shovel"
+    },
+    "minecraft:stone_spear": {
+      "name": "Stone Spear",
+      "imagePath": "/item/stone_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Stone"
+    },
+    "minecraft:stone_sword": {
+      "name": "Stone Sword",
+      "imagePath": "/item/stone_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Sword"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "name": "Ward Armor Trim",
+      "imagePath": "/item/ward_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
+    },
+    "#minecraft:stone_crafting_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]},
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

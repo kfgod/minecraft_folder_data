@@ -1,0 +1,484 @@
+{
+  "id": "minecraft:leather",
+  "name": "Leather",
+  "imagePath": "/item/leather/latest.png",
+  "wiki": "https://minecraft.wiki/w/Leather",
+  "recipes": [
+    {
+      "id": "minecraft:leather",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:rabbit_hide"], ["minecraft:rabbit_hide"]],
+        [["minecraft:rabbit_hide"], ["minecraft:rabbit_hide"]]
+      ],
+      "result": {"id": "minecraft:leather", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:black_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:black_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:black_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:blue_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:blue_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:brown_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:brown_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:brown_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:bundle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"]], [["minecraft:leather"]]],
+      "result": {"id": "minecraft:bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:cyan_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:cyan_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:cyan_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:gray_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:gray_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:green_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:green_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:green_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:item_frame",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:leather"], ["minecraft:stick"]],
+        [["minecraft:stick"], ["minecraft:stick"], ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:item_frame", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_boots",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], null, ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_boots", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_chestplate",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], null, ["minecraft:leather"]],
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_chestplate", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_helmet",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_helmet", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_horse_armor",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], null, ["minecraft:leather"]],
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_horse_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:leather_leggings",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]],
+        [["minecraft:leather"], null, ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:leather_leggings", "count": 1}
+    },
+    {
+      "id": "minecraft:light_blue_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:light_blue_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:light_gray_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:light_gray_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:light_gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:lime_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:lime_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:lime_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:magenta_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:magenta_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:magenta_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:orange_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:orange_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:orange_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:pink_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:pink_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:pink_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:purple_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:purple_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:purple_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:red_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:red_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:red_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:saddle",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:leather"], null],
+        [["minecraft:leather"], ["minecraft:iron_ingot"], ["minecraft:leather"]]
+      ],
+      "result": {"id": "minecraft:saddle", "count": 1}
+    },
+    {
+      "id": "minecraft:white_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:white_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:white_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:yellow_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:yellow_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:yellow_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:book",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:paper"], ["minecraft:paper"], ["minecraft:paper"], ["minecraft:leather"]],
+      "result": {"id": "minecraft:book", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:ignored_by_piglin_babies", "registry": "item"},
+    {"id": "minecraft:repairs_leather_armor", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_harness": {
+      "name": "Black Harness",
+      "imagePath": "/item/black_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Black"
+    },
+    "minecraft:black_wool": {
+      "name": "Black Wool",
+      "imagePath": "/block/black_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Black"
+    },
+    "minecraft:blue_harness": {
+      "name": "Blue Harness",
+      "imagePath": "/item/blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Blue"
+    },
+    "minecraft:blue_wool": {
+      "name": "Blue Wool",
+      "imagePath": "/block/blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Blue"
+    },
+    "minecraft:book": {"name": "Book", "imagePath": "/item/book/latest.png", "wiki": "https://minecraft.wiki/w/Book"},
+    "minecraft:brown_harness": {
+      "name": "Brown Harness",
+      "imagePath": "/item/brown_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Brown"
+    },
+    "minecraft:brown_wool": {
+      "name": "Brown Wool",
+      "imagePath": "/block/brown_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Brown"
+    },
+    "minecraft:bundle": {
+      "name": "Bundle",
+      "imagePath": "/item/bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Plain"
+    },
+    "minecraft:cyan_harness": {
+      "name": "Cyan Harness",
+      "imagePath": "/item/cyan_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:gray_harness": {
+      "name": "Gray Harness",
+      "imagePath": "/item/gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Gray"
+    },
+    "minecraft:gray_wool": {
+      "name": "Gray Wool",
+      "imagePath": "/block/gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Gray"
+    },
+    "minecraft:green_harness": {
+      "name": "Green Harness",
+      "imagePath": "/item/green_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Green"
+    },
+    "minecraft:green_wool": {
+      "name": "Green Wool",
+      "imagePath": "/block/green_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Green"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:item_frame": {
+      "name": "Item Frame",
+      "imagePath": "/block/item_frame/latest.png",
+      "wiki": "https://minecraft.wiki/w/Item_Frame"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_horse_armor": {
+      "name": "Leather Horse Armor",
+      "imagePath": "/item/leather_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:light_blue_harness": {
+      "name": "Light Blue Harness",
+      "imagePath": "/item/light_blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+    },
+    "minecraft:light_blue_wool": {
+      "name": "Light Blue Wool",
+      "imagePath": "/block/light_blue_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Blue"
+    },
+    "minecraft:light_gray_harness": {
+      "name": "Light Gray Harness",
+      "imagePath": "/item/light_gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+    },
+    "minecraft:light_gray_wool": {
+      "name": "Light Gray Wool",
+      "imagePath": "/block/light_gray_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Light_Gray"
+    },
+    "minecraft:lime_harness": {
+      "name": "Lime Harness",
+      "imagePath": "/item/lime_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Lime"
+    },
+    "minecraft:lime_wool": {
+      "name": "Lime Wool",
+      "imagePath": "/block/lime_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Lime"
+    },
+    "minecraft:magenta_harness": {
+      "name": "Magenta Harness",
+      "imagePath": "/item/magenta_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+    },
+    "minecraft:magenta_wool": {
+      "name": "Magenta Wool",
+      "imagePath": "/block/magenta_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Magenta"
+    },
+    "minecraft:orange_harness": {
+      "name": "Orange Harness",
+      "imagePath": "/item/orange_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Orange"
+    },
+    "minecraft:orange_wool": {
+      "name": "Orange Wool",
+      "imagePath": "/block/orange_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Orange"
+    },
+    "minecraft:paper": {
+      "name": "Paper",
+      "imagePath": "/item/paper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Paper"
+    },
+    "minecraft:pink_harness": {
+      "name": "Pink Harness",
+      "imagePath": "/item/pink_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Pink"
+    },
+    "minecraft:pink_wool": {
+      "name": "Pink Wool",
+      "imagePath": "/block/pink_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Pink"
+    },
+    "minecraft:purple_harness": {
+      "name": "Purple Harness",
+      "imagePath": "/item/purple_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Purple"
+    },
+    "minecraft:purple_wool": {
+      "name": "Purple Wool",
+      "imagePath": "/block/purple_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Purple"
+    },
+    "minecraft:rabbit_hide": {
+      "name": "Rabbit Hide",
+      "imagePath": "/item/rabbit_hide/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rabbit_Hide"
+    },
+    "minecraft:red_harness": {
+      "name": "Red Harness",
+      "imagePath": "/item/red_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Red"
+    },
+    "minecraft:red_wool": {
+      "name": "Red Wool",
+      "imagePath": "/block/red_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Red"
+    },
+    "minecraft:saddle": {
+      "name": "Saddle",
+      "imagePath": "/item/saddle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Saddle"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:white_harness": {
+      "name": "White Harness",
+      "imagePath": "/item/white_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#White"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "minecraft:yellow_harness": {
+      "name": "Yellow Harness",
+      "imagePath": "/item/yellow_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+    },
+    "minecraft:yellow_wool": {
+      "name": "Yellow Wool",
+      "imagePath": "/block/yellow_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Yellow"
+    }
+  }
+}

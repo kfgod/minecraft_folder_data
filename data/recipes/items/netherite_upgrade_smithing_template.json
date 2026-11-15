@@ -1,0 +1,288 @@
+{
+  "id": "minecraft:netherite_upgrade_smithing_template",
+  "name": "Netherite Upgrade",
+  "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+  "wiki": "https://minecraft.wiki/w/Netherite_Upgrade",
+  "recipes": [
+    {
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:diamond"],
+          ["minecraft:netherite_upgrade_smithing_template"],
+          ["minecraft:diamond"]
+        ],
+        [["minecraft:diamond"], ["minecraft:netherrack"], ["minecraft:diamond"]],
+        [["minecraft:diamond"], ["minecraft:diamond"], ["minecraft:diamond"]]
+      ],
+      "result": {"id": "minecraft:netherite_upgrade_smithing_template", "count": 2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:netherite_axe_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_axe"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_axe", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_boots_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_boots"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_boots", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_chestplate_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_chestplate"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_chestplate", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_helmet_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_helmet"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_helmet", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_hoe_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_hoe"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_hoe", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_horse_armor_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_horse_armor"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_horse_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_leggings_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_leggings"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_leggings", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_nautilus_armor_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_nautilus_armor"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_nautilus_armor", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_pickaxe_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_pickaxe"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_pickaxe", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_shovel_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_shovel"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_shovel", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_spear_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_spear"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_spear", "count": 1}
+    },
+    {
+      "id": "minecraft:netherite_sword_smithing",
+      "type": "smithing_transform",
+      "inputs": {
+        "template": ["minecraft:netherite_upgrade_smithing_template"],
+        "base": ["minecraft:diamond_sword"],
+        "addition": ["#minecraft:netherite_tool_materials"]
+      },
+      "result": {"id": "minecraft:netherite_sword", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_axe": {
+      "name": "Diamond Axe",
+      "imagePath": "/item/diamond_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Axe"
+    },
+    "minecraft:diamond_boots": {
+      "name": "Diamond Boots",
+      "imagePath": "/item/diamond_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "Diamond Chestplate",
+      "imagePath": "/item/diamond_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+    },
+    "minecraft:diamond_helmet": {
+      "name": "Diamond Helmet",
+      "imagePath": "/item/diamond_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Helmet"
+    },
+    "minecraft:diamond_hoe": {
+      "name": "Diamond Hoe",
+      "imagePath": "/item/diamond_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Hoe"
+    },
+    "minecraft:diamond_horse_armor": {
+      "name": "Diamond Horse Armor",
+      "imagePath": "/item/diamond_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Horse_Armor"
+    },
+    "minecraft:diamond_leggings": {
+      "name": "Diamond Leggings",
+      "imagePath": "/item/diamond_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+    },
+    "minecraft:diamond_nautilus_armor": {
+      "name": "Diamond Nautilus Armor",
+      "imagePath": "/item/diamond_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor"
+    },
+    "minecraft:diamond_pickaxe": {
+      "name": "Diamond Pickaxe",
+      "imagePath": "/item/diamond_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe"
+    },
+    "minecraft:diamond_shovel": {
+      "name": "Diamond Shovel",
+      "imagePath": "/item/diamond_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Shovel"
+    },
+    "minecraft:diamond_spear": {
+      "name": "Diamond Spear",
+      "imagePath": "/item/diamond_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Diamond"
+    },
+    "minecraft:diamond_sword": {
+      "name": "Diamond Sword",
+      "imagePath": "/item/diamond_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Sword"
+    },
+    "minecraft:netherite_axe": {
+      "name": "Netherite Axe",
+      "imagePath": "/item/netherite_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Axe"
+    },
+    "minecraft:netherite_boots": {
+      "name": "Netherite Boots",
+      "imagePath": "/item/netherite_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "Netherite Chestplate",
+      "imagePath": "/item/netherite_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+    },
+    "minecraft:netherite_helmet": {
+      "name": "Netherite Helmet",
+      "imagePath": "/item/netherite_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Helmet"
+    },
+    "minecraft:netherite_hoe": {
+      "name": "Netherite Hoe",
+      "imagePath": "/item/netherite_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Hoe"
+    },
+    "minecraft:netherite_horse_armor": {
+      "name": "Netherite Horse Armor",
+      "imagePath": "/item/netherite_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_leggings": {
+      "name": "Netherite Leggings",
+      "imagePath": "/item/netherite_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "minecraft:netherite_nautilus_armor": {
+      "name": "Netherite Nautilus Armor",
+      "imagePath": "/item/netherite_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor"
+    },
+    "minecraft:netherite_pickaxe": {
+      "name": "Netherite Pickaxe",
+      "imagePath": "/item/netherite_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe"
+    },
+    "minecraft:netherite_shovel": {
+      "name": "Netherite Shovel",
+      "imagePath": "/item/netherite_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Shovel"
+    },
+    "minecraft:netherite_spear": {
+      "name": "Netherite Spear",
+      "imagePath": "/item/netherite_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Netherite"
+    },
+    "minecraft:netherite_sword": {
+      "name": "Netherite Sword",
+      "imagePath": "/item/netherite_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Sword"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "name": "Netherite Upgrade",
+      "imagePath": "/item/netherite_upgrade_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Upgrade"
+    },
+    "minecraft:netherrack": {
+      "name": "Netherrack",
+      "imagePath": "/block/netherrack/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherrack"
+    },
+    "#minecraft:netherite_tool_materials": {"items": ["minecraft:netherite_ingot"]}
+  }
+}

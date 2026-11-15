@@ -1,0 +1,47 @@
+{
+  "id": "minecraft:cooked_cod",
+  "name": "Cooked Cod",
+  "imagePath": "/item/cooked_cod/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cooked_Cod",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_cod_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:cod"]},
+      "result": {"id": "minecraft:cooked_cod", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_cod",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:cod"]},
+      "result": {"id": "minecraft:cooked_cod", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_cod_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:cod"]},
+      "result": {"id": "minecraft:cooked_cod", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:fishes", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:fishes"},
+    {"id": "minecraft:wolf_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cod": {
+      "name": "Raw Cod",
+      "imagePath": "/item/cod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Cod"
+    },
+    "minecraft:cooked_cod": {
+      "name": "Cooked Cod",
+      "imagePath": "/item/cooked_cod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Cod"
+    }
+  }
+}

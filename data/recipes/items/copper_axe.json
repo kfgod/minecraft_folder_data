@@ -1,0 +1,160 @@
+{
+  "id": "minecraft:copper_axe",
+  "name": "Copper Axe",
+  "imagePath": "/item/copper_axe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Axe",
+  "recipes": [
+    {
+      "id": "minecraft:copper_axe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:copper_tool_materials"], ["#minecraft:copper_tool_materials"]],
+        [["#minecraft:copper_tool_materials"], ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:copper_axe", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:copper_nugget_from_blasting",
+      "type": "blasting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:copper_pickaxe",
+          "minecraft:copper_shovel",
+          "minecraft:copper_axe",
+          "minecraft:copper_hoe",
+          "minecraft:copper_sword",
+          "minecraft:copper_spear",
+          "minecraft:copper_helmet",
+          "minecraft:copper_chestplate",
+          "minecraft:copper_leggings",
+          "minecraft:copper_boots",
+          "minecraft:copper_horse_armor",
+          "minecraft:copper_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:copper_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:copper_nugget_from_smelting",
+      "type": "smelting",
+      "inputs": {
+        "ingredient": [
+          "minecraft:copper_pickaxe",
+          "minecraft:copper_shovel",
+          "minecraft:copper_axe",
+          "minecraft:copper_hoe",
+          "minecraft:copper_sword",
+          "minecraft:copper_spear",
+          "minecraft:copper_helmet",
+          "minecraft:copper_chestplate",
+          "minecraft:copper_leggings",
+          "minecraft:copper_boots",
+          "minecraft:copper_horse_armor",
+          "minecraft:copper_nautilus_armor"
+        ]
+      },
+      "result": {"id": "minecraft:copper_nugget", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:axes", "registry": "item"},
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:axes"},
+    {"id": "minecraft:enchantable/sharp_weapon", "registry": "item", "via": "minecraft:axes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {
+      "id": "minecraft:enchantable/weapon",
+      "registry": "item",
+      "via": "minecraft:enchantable/sharp_weapon"
+    }
+  ],
+  "refs": {
+    "minecraft:copper_axe": {
+      "name": "Copper Axe",
+      "imagePath": "/item/copper_axe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Axe"
+    },
+    "minecraft:copper_boots": {
+      "name": "Copper Boots",
+      "imagePath": "/item/copper_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Boots"
+    },
+    "minecraft:copper_chestplate": {
+      "name": "Copper Chestplate",
+      "imagePath": "/item/copper_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+    },
+    "minecraft:copper_helmet": {
+      "name": "Copper Helmet",
+      "imagePath": "/item/copper_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+    },
+    "minecraft:copper_hoe": {
+      "name": "Copper Hoe",
+      "imagePath": "/item/copper_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Hoe"
+    },
+    "minecraft:copper_horse_armor": {
+      "name": "Copper Horse Armor",
+      "imagePath": "/item/copper_horse_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Horse_Armor"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_leggings": {
+      "name": "Copper Leggings",
+      "imagePath": "/item/copper_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+    },
+    "minecraft:copper_nautilus_armor": {
+      "name": "Copper Nautilus Armor",
+      "imagePath": "/item/copper_nautilus_armor/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor"
+    },
+    "minecraft:copper_nugget": {
+      "name": "Copper Nugget",
+      "imagePath": "/item/copper_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Nugget"
+    },
+    "minecraft:copper_pickaxe": {
+      "name": "Copper Pickaxe",
+      "imagePath": "/item/copper_pickaxe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Pickaxe"
+    },
+    "minecraft:copper_shovel": {
+      "name": "Copper Shovel",
+      "imagePath": "/item/copper_shovel/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Shovel"
+    },
+    "minecraft:copper_spear": {
+      "name": "Copper Spear",
+      "imagePath": "/item/copper_spear/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spear#Copper"
+    },
+    "minecraft:copper_sword": {
+      "name": "Copper Sword",
+      "imagePath": "/item/copper_sword/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Sword"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "#minecraft:copper_tool_materials": {"items": ["minecraft:copper_ingot"]}
+  }
+}

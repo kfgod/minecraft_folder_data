@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:rotten_flesh",
+  "name": "Rotten Flesh",
+  "imagePath": "/item/rotten_flesh/latest.png",
+  "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:rotten_flesh": {
+      "name": "Rotten Flesh",
+      "imagePath": "/item/rotten_flesh/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rotten_Flesh"
+    }
+  }
+}

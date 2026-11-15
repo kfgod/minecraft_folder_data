@@ -1,0 +1,40 @@
+{
+  "id": "minecraft:carrot_on_a_stick",
+  "name": "Carrot on a Stick",
+  "imagePath": "/item/carrot_on_a_stick/latest.png",
+  "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick",
+  "recipes": [
+    {
+      "id": "minecraft:carrot_on_a_stick",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:fishing_rod"], null], [null, ["minecraft:carrot"]]],
+      "result": {"id": "minecraft:carrot_on_a_stick", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:carrot_on_a_stick": {
+      "name": "Carrot on a Stick",
+      "imagePath": "/item/carrot_on_a_stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick"
+    },
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    }
+  }
+}

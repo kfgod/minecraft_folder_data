@@ -1,0 +1,58 @@
+{
+  "id": "minecraft:raw_gold",
+  "name": "Raw Gold",
+  "imagePath": "/item/raw_gold/latest.png",
+  "wiki": "https://minecraft.wiki/w/Raw_Gold",
+  "recipes": [
+    {
+      "id": "minecraft:raw_gold",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:raw_gold_block"]],
+      "result": {"id": "minecraft:raw_gold", "count": 9}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:gold_ingot_from_blasting_raw_gold",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:raw_gold"]},
+      "result": {"id": "minecraft:gold_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 1.0}
+    },
+    {
+      "id": "minecraft:raw_gold_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:raw_gold"], ["minecraft:raw_gold"], ["minecraft:raw_gold"]],
+        [["minecraft:raw_gold"], ["minecraft:raw_gold"], ["minecraft:raw_gold"]],
+        [["minecraft:raw_gold"], ["minecraft:raw_gold"], ["minecraft:raw_gold"]]
+      ],
+      "result": {"id": "minecraft:raw_gold_block", "count": 1}
+    },
+    {
+      "id": "minecraft:gold_ingot_from_smelting_raw_gold",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:raw_gold"]},
+      "result": {"id": "minecraft:gold_ingot", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 1.0}
+    }
+  ],
+  "tags": [{"id": "minecraft:piglin_loved", "registry": "item"}],
+  "refs": {
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:raw_gold": {
+      "name": "Raw Gold",
+      "imagePath": "/item/raw_gold/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Gold"
+    },
+    "minecraft:raw_gold_block": {
+      "name": "Block of Raw Gold",
+      "imagePath": "/block/raw_gold_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Raw_Gold"
+    }
+  }
+}

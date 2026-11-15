@@ -1,0 +1,69 @@
+{
+  "id": "minecraft:melon_slice",
+  "name": "Melon Slice",
+  "imagePath": "/item/melon_slice/latest.png",
+  "wiki": "https://minecraft.wiki/w/Melon_Slice",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:melon_slice"], ["minecraft:gold_nugget"]],
+        [["minecraft:gold_nugget"], ["minecraft:gold_nugget"], ["minecraft:gold_nugget"]]
+      ],
+      "result": {"id": "minecraft:glistering_melon_slice", "count": 1}
+    },
+    {
+      "id": "minecraft:melon",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"],
+        ["minecraft:melon_slice"]
+      ],
+      "result": {"id": "minecraft:melon", "count": 1}
+    },
+    {
+      "id": "minecraft:melon_seeds",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:melon_slice"]],
+      "result": {"id": "minecraft:melon_seeds", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:glistering_melon_slice": {
+      "name": "Glistering Melon Slice",
+      "imagePath": "/item/glistering_melon_slice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glistering_Melon_Slice"
+    },
+    "minecraft:gold_nugget": {
+      "name": "Gold Nugget",
+      "imagePath": "/item/gold_nugget/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Nugget"
+    },
+    "minecraft:melon": {
+      "name": "Melon",
+      "imagePath": "/block/melon/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon"
+    },
+    "minecraft:melon_seeds": {
+      "name": "Melon Seeds",
+      "imagePath": "/item/melon_seeds/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon_Seeds"
+    },
+    "minecraft:melon_slice": {
+      "name": "Melon Slice",
+      "imagePath": "/item/melon_slice/latest.png",
+      "wiki": "https://minecraft.wiki/w/Melon_Slice"
+    }
+  }
+}

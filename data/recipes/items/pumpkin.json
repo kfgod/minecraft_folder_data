@@ -1,0 +1,100 @@
+{
+  "id": "minecraft:pumpkin",
+  "name": "Pumpkin",
+  "imagePath": "/block/pumpkin/latest.png",
+  "wiki": "https://minecraft.wiki/w/Pumpkin",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:pumpkin_pie",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"], ["minecraft:sugar"], ["#minecraft:eggs"]],
+      "result": {"id": "minecraft:pumpkin_pie", "count": 1}
+    },
+    {
+      "id": "minecraft:pumpkin_seeds",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:pumpkin"]],
+      "result": {"id": "minecraft:pumpkin_seeds", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:sword_efficient", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:blue_egg": {
+      "name": "Blue Egg",
+      "imagePath": "/item/blue_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Egg"
+    },
+    "minecraft:brown_egg": {
+      "name": "Brown Egg",
+      "imagePath": "/item/brown_egg/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Egg"
+    },
+    "minecraft:egg": {"name": "Egg", "imagePath": "/item/egg/latest.png", "wiki": "https://minecraft.wiki/w/Egg"},
+    "minecraft:pumpkin": {
+      "name": "Pumpkin",
+      "imagePath": "/block/pumpkin/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin"
+    },
+    "minecraft:pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "imagePath": "/item/pumpkin_pie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Pie"
+    },
+    "minecraft:pumpkin_seeds": {
+      "name": "Pumpkin Seeds",
+      "imagePath": "/item/pumpkin_seeds/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds"
+    },
+    "minecraft:sugar": {
+      "name": "Sugar",
+      "imagePath": "/item/sugar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sugar"
+    },
+    "#minecraft:eggs": {"items": ["minecraft:egg", "minecraft:blue_egg", "minecraft:brown_egg"]}
+  }
+}

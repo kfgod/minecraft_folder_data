@@ -1,0 +1,600 @@
+{
+  "id": "minecraft:cyan_harness",
+  "name": "Cyan Harness",
+  "imagePath": "/item/cyan_harness/latest.png",
+  "wiki": "https://minecraft.wiki/w/Harness#Cyan",
+  "recipes": [
+    {
+      "id": "minecraft:cyan_harness",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:leather"], ["minecraft:leather"], ["minecraft:leather"]],
+        [["minecraft:glass"], ["minecraft:cyan_wool"], ["minecraft:glass"]]
+      ],
+      "result": {"id": "minecraft:cyan_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_cyan_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:cyan_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:cyan_harness", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dye_black_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:black_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:black_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_blue_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:blue_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_brown_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:brown_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:brown_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_gray_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:gray_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_green_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:green_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:green_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_blue_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_blue_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:light_blue_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_light_gray_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:light_gray_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:light_gray_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_lime_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:lime_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:lime_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_magenta_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:magenta_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:magenta_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_orange_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:orange_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:orange_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_pink_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:pink_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:pink_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_purple_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:purple_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:purple_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_red_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:red_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:red_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_white_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:white_dye"],
+        [
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:yellow_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:white_harness", "count": 1}
+    },
+    {
+      "id": "minecraft:dye_yellow_harness",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:yellow_dye"],
+        [
+          "minecraft:white_harness",
+          "minecraft:orange_harness",
+          "minecraft:magenta_harness",
+          "minecraft:light_blue_harness",
+          "minecraft:lime_harness",
+          "minecraft:pink_harness",
+          "minecraft:gray_harness",
+          "minecraft:light_gray_harness",
+          "minecraft:cyan_harness",
+          "minecraft:purple_harness",
+          "minecraft:blue_harness",
+          "minecraft:brown_harness",
+          "minecraft:green_harness",
+          "minecraft:red_harness",
+          "minecraft:black_harness"
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_harness", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:happy_ghast_tempt_items", "registry": "item", "via": "minecraft:harnesses"},
+    {"id": "minecraft:harnesses", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:black_dye": {
+      "name": "Black Dye",
+      "imagePath": "/item/black_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Black_Dye"
+    },
+    "minecraft:black_harness": {
+      "name": "Black Harness",
+      "imagePath": "/item/black_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Black"
+    },
+    "minecraft:blue_dye": {
+      "name": "Blue Dye",
+      "imagePath": "/item/blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blue_Dye"
+    },
+    "minecraft:blue_harness": {
+      "name": "Blue Harness",
+      "imagePath": "/item/blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Blue"
+    },
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:brown_harness": {
+      "name": "Brown Harness",
+      "imagePath": "/item/brown_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Brown"
+    },
+    "minecraft:cyan_dye": {
+      "name": "Cyan Dye",
+      "imagePath": "/item/cyan_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cyan_Dye"
+    },
+    "minecraft:cyan_harness": {
+      "name": "Cyan Harness",
+      "imagePath": "/item/cyan_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Cyan"
+    },
+    "minecraft:cyan_wool": {
+      "name": "Cyan Wool",
+      "imagePath": "/block/cyan_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#Cyan"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:gray_dye": {
+      "name": "Gray Dye",
+      "imagePath": "/item/gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gray_Dye"
+    },
+    "minecraft:gray_harness": {
+      "name": "Gray Harness",
+      "imagePath": "/item/gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Gray"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    },
+    "minecraft:green_harness": {
+      "name": "Green Harness",
+      "imagePath": "/item/green_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Green"
+    },
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:light_blue_dye": {
+      "name": "Light Blue Dye",
+      "imagePath": "/item/light_blue_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Blue_Dye"
+    },
+    "minecraft:light_blue_harness": {
+      "name": "Light Blue Harness",
+      "imagePath": "/item/light_blue_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Blue"
+    },
+    "minecraft:light_gray_dye": {
+      "name": "Light Gray Dye",
+      "imagePath": "/item/light_gray_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Light_Gray_Dye"
+    },
+    "minecraft:light_gray_harness": {
+      "name": "Light Gray Harness",
+      "imagePath": "/item/light_gray_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Light_Gray"
+    },
+    "minecraft:lime_dye": {
+      "name": "Lime Dye",
+      "imagePath": "/item/lime_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lime_Dye"
+    },
+    "minecraft:lime_harness": {
+      "name": "Lime Harness",
+      "imagePath": "/item/lime_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Lime"
+    },
+    "minecraft:magenta_dye": {
+      "name": "Magenta Dye",
+      "imagePath": "/item/magenta_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Magenta_Dye"
+    },
+    "minecraft:magenta_harness": {
+      "name": "Magenta Harness",
+      "imagePath": "/item/magenta_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Magenta"
+    },
+    "minecraft:orange_dye": {
+      "name": "Orange Dye",
+      "imagePath": "/item/orange_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Orange_Dye"
+    },
+    "minecraft:orange_harness": {
+      "name": "Orange Harness",
+      "imagePath": "/item/orange_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Orange"
+    },
+    "minecraft:pink_dye": {
+      "name": "Pink Dye",
+      "imagePath": "/item/pink_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Pink_Dye"
+    },
+    "minecraft:pink_harness": {
+      "name": "Pink Harness",
+      "imagePath": "/item/pink_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Pink"
+    },
+    "minecraft:purple_dye": {
+      "name": "Purple Dye",
+      "imagePath": "/item/purple_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purple_Dye"
+    },
+    "minecraft:purple_harness": {
+      "name": "Purple Harness",
+      "imagePath": "/item/purple_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Purple"
+    },
+    "minecraft:red_dye": {
+      "name": "Red Dye",
+      "imagePath": "/item/red_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Dye"
+    },
+    "minecraft:red_harness": {
+      "name": "Red Harness",
+      "imagePath": "/item/red_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Red"
+    },
+    "minecraft:white_dye": {
+      "name": "White Dye",
+      "imagePath": "/item/white_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/White_Dye"
+    },
+    "minecraft:white_harness": {
+      "name": "White Harness",
+      "imagePath": "/item/white_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#White"
+    },
+    "minecraft:yellow_dye": {
+      "name": "Yellow Dye",
+      "imagePath": "/item/yellow_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Yellow_Dye"
+    },
+    "minecraft:yellow_harness": {
+      "name": "Yellow Harness",
+      "imagePath": "/item/yellow_harness/latest.png",
+      "wiki": "https://minecraft.wiki/w/Harness#Yellow"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "minecraft:honey_block",
+  "name": "Honey Block",
+  "imagePath": "/block/honey_block/latest.png",
+  "wiki": "https://minecraft.wiki/w/Honey_Block",
+  "recipes": [
+    {
+      "id": "minecraft:honey_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:honey_bottle"], ["minecraft:honey_bottle"]],
+        [["minecraft:honey_bottle"], ["minecraft:honey_bottle"]]
+      ],
+      "result": {"id": "minecraft:honey_block", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:honey_bottle",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:honey_block"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"],
+        ["minecraft:glass_bottle"]
+      ],
+      "result": {"id": "minecraft:honey_bottle", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:pathfinding/sticky", "registry": "block"},
+    {"id": "minecraft:snow_layer_can_survive_on", "registry": "block", "removed": "26.1.2"},
+    {"id": "minecraft:support_override_snow_layer", "registry": "block"},
+    {"id": "minecraft:suppresses_bounce", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:glass_bottle": {
+      "name": "Glass Bottle",
+      "imagePath": "/item/glass_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass_Bottle"
+    },
+    "minecraft:honey_block": {
+      "name": "Honey Block",
+      "imagePath": "/block/honey_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Block"
+    },
+    "minecraft:honey_bottle": {
+      "name": "Honey Bottle",
+      "imagePath": "/item/honey_bottle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honey_Bottle"
+    }
+  }
+}

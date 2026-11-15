@@ -1,0 +1,143 @@
+{
+  "id": "minecraft:resin_bricks",
+  "name": "Resin Bricks",
+  "imagePath": "/block/resin_bricks/latest.png",
+  "wiki": "https://minecraft.wiki/w/Resin_Bricks",
+  "recipes": [
+    {
+      "id": "minecraft:resin_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:resin_brick"], ["minecraft:resin_brick"]],
+        [["minecraft:resin_brick"], ["minecraft:resin_brick"]]
+      ],
+      "result": {"id": "minecraft:resin_bricks", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:resin_brick_slab",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:resin_bricks"], ["minecraft:resin_bricks"], ["minecraft:resin_bricks"]]],
+      "result": {"id": "minecraft:resin_brick_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:resin_brick_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:resin_bricks"], null, null],
+        [["minecraft:resin_bricks"], ["minecraft:resin_bricks"], null],
+        [["minecraft:resin_bricks"], ["minecraft:resin_bricks"], ["minecraft:resin_bricks"]]
+      ],
+      "result": {"id": "minecraft:resin_brick_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:resin_brick_wall",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:resin_bricks"], ["minecraft:resin_bricks"], ["minecraft:resin_bricks"]],
+        [["minecraft:resin_bricks"], ["minecraft:resin_bricks"], ["minecraft:resin_bricks"]]
+      ],
+      "result": {"id": "minecraft:resin_brick_wall", "count": 6}
+    },
+    {
+      "id": "minecraft:chiseled_resin_bricks_from_resin_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:resin_bricks"]},
+      "result": {"id": "minecraft:chiseled_resin_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:resin_brick_slab_from_resin_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:resin_bricks"]},
+      "result": {"id": "minecraft:resin_brick_slab", "count": 2}
+    },
+    {
+      "id": "minecraft:resin_brick_stairs_from_resin_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:resin_bricks"]},
+      "result": {"id": "minecraft:resin_brick_stairs", "count": 1}
+    },
+    {
+      "id": "minecraft:resin_brick_wall_from_resin_bricks_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:resin_bricks"]},
+      "result": {"id": "minecraft:resin_brick_wall", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/fast_flat", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/fast_flat"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_resin_bricks": {
+      "name": "Chiseled Resin Bricks",
+      "imagePath": "/block/chiseled_resin_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Resin_Bricks"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:resin_brick_slab": {
+      "name": "Resin Brick Slab",
+      "imagePath": "/block/resin_brick_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick_Slab"
+    },
+    "minecraft:resin_brick_stairs": {
+      "name": "Resin Brick Stairs",
+      "imagePath": "/block/resin_brick_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick_Stairs"
+    },
+    "minecraft:resin_brick_wall": {
+      "name": "Resin Brick Wall",
+      "imagePath": "/block/resin_brick_wall/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick_Wall"
+    },
+    "minecraft:resin_bricks": {
+      "name": "Resin Bricks",
+      "imagePath": "/block/resin_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Bricks"
+    }
+  }
+}

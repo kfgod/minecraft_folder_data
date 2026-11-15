@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pufferfish_bucket",
+  "name": "Bucket of Pufferfish",
+  "imagePath": "/item/pufferfish_bucket/latest.png",
+  "wiki": "https://minecraft.wiki/w/Bucket_of_Pufferfish",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:nautilus_bucket_food", "registry": "item"},
+    {"id": "minecraft:nautilus_food", "registry": "item", "via": "minecraft:nautilus_bucket_food"},
+    {"id": "minecraft:nautilus_taming_items", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:pufferfish_bucket": {
+      "name": "Bucket of Pufferfish",
+      "imagePath": "/item/pufferfish_bucket/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bucket_of_Pufferfish"
+    }
+  }
+}

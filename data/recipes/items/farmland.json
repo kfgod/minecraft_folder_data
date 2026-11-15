@@ -1,0 +1,126 @@
+{
+  "id": "minecraft:farmland",
+  "name": "Farmland",
+  "imagePath": "/block/farmland/latest.png",
+  "wiki": "https://minecraft.wiki/w/Farmland",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:big_dripleaf_placeable", "registry": "block", "removed": "26.1.2"},
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dry_vegetation_may_place_on", "registry": "block", "removed": "26.1.2"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:grows_crops", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/shovel", "registry": "block"},
+    {"id": "minecraft:support_override_cactus_flower", "registry": "block"},
+    {"id": "minecraft:supports_azalea", "registry": "block", "via": "minecraft:supports_vegetation"},
+    {"id": "minecraft:supports_big_dripleaf", "registry": "block"},
+    {
+      "id": "minecraft:supports_crimson_fungus",
+      "registry": "block",
+      "via": "minecraft:supports_warped_fungus"
+    },
+    {
+      "id": "minecraft:supports_crimson_roots",
+      "registry": "block",
+      "via": "minecraft:supports_warped_roots"
+    },
+    {"id": "minecraft:supports_crops", "registry": "block"},
+    {
+      "id": "minecraft:supports_dry_vegetation",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {
+      "id": "minecraft:supports_mangrove_propagule",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {
+      "id": "minecraft:supports_melon_stem",
+      "registry": "block",
+      "via": "minecraft:supports_stem_crops"
+    },
+    {
+      "id": "minecraft:supports_melon_stem_fruit",
+      "registry": "block",
+      "via": "minecraft:supports_stem_fruit"
+    },
+    {
+      "id": "minecraft:supports_nether_sprouts",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {
+      "id": "minecraft:supports_pumpkin_stem",
+      "registry": "block",
+      "via": "minecraft:supports_stem_crops"
+    },
+    {
+      "id": "minecraft:supports_pumpkin_stem_fruit",
+      "registry": "block",
+      "via": "minecraft:supports_stem_fruit"
+    },
+    {"id": "minecraft:supports_stem_crops", "registry": "block", "via": "minecraft:supports_crops"},
+    {
+      "id": "minecraft:supports_stem_fruit",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {"id": "minecraft:supports_vegetation", "registry": "block"},
+    {
+      "id": "minecraft:supports_warped_fungus",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {
+      "id": "minecraft:supports_warped_roots",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    },
+    {
+      "id": "minecraft:supports_wither_rose",
+      "registry": "block",
+      "via": "minecraft:supports_vegetation"
+    }
+  ],
+  "refs": {
+    "minecraft:farmland": {
+      "name": "Farmland",
+      "imagePath": "/block/farmland/latest.png",
+      "wiki": "https://minecraft.wiki/w/Farmland"
+    }
+  }
+}

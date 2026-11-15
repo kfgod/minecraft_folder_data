@@ -1,0 +1,421 @@
+{
+  "id": "minecraft:chest",
+  "name": "Chest",
+  "imagePath": "/block/chest/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chest",
+  "recipes": [
+    {
+      "id": "minecraft:chest",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]],
+        [["#minecraft:planks"], null, ["#minecraft:planks"]],
+        [["#minecraft:planks"], ["#minecraft:planks"], ["#minecraft:planks"]]
+      ],
+      "result": {"id": "minecraft:chest", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:copper_chest",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]],
+        [["minecraft:copper_ingot"], ["minecraft:chest"], ["minecraft:copper_ingot"]],
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]]
+      ],
+      "result": {"id": "minecraft:copper_chest", "count": 1}
+    },
+    {
+      "id": "minecraft:hopper",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:iron_ingot"], null, ["minecraft:iron_ingot"]],
+        [["minecraft:iron_ingot"], ["minecraft:chest"], ["minecraft:iron_ingot"]],
+        [null, ["minecraft:iron_ingot"], null]
+      ],
+      "result": {"id": "minecraft:hopper", "count": 1}
+    },
+    {
+      "id": "minecraft:shulker_box",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:shulker_shell"]], [["minecraft:chest"]], [["minecraft:shulker_shell"]]],
+      "result": {"id": "minecraft:shulker_box", "count": 1}
+    },
+    {
+      "id": "minecraft:acacia_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:acacia_boat"]],
+      "result": {"id": "minecraft:acacia_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:bamboo_chest_raft",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:bamboo_raft"]],
+      "result": {"id": "minecraft:bamboo_chest_raft", "count": 1}
+    },
+    {
+      "id": "minecraft:birch_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:birch_boat"]],
+      "result": {"id": "minecraft:birch_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:cherry_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:cherry_boat"]],
+      "result": {"id": "minecraft:cherry_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:chest_minecart",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:minecart"]],
+      "result": {"id": "minecraft:chest_minecart", "count": 1}
+    },
+    {
+      "id": "minecraft:dark_oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:dark_oak_boat"]],
+      "result": {"id": "minecraft:dark_oak_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:jungle_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:jungle_boat"]],
+      "result": {"id": "minecraft:jungle_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:mangrove_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:mangrove_boat"]],
+      "result": {"id": "minecraft:mangrove_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:oak_boat"]],
+      "result": {"id": "minecraft:oak_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:pale_oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:pale_oak_boat"]],
+      "result": {"id": "minecraft:pale_oak_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:poplar_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:poplar_boat"]],
+      "result": {"id": "minecraft:poplar_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:spruce_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:spruce_boat"]],
+      "result": {"id": "minecraft:spruce_chest_boat", "count": 1}
+    },
+    {
+      "id": "minecraft:trapped_chest",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:tripwire_hook"]],
+      "result": {"id": "minecraft:trapped_chest", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:cats_can_sit_on", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:features_cannot_replace", "registry": "block"},
+    {"id": "minecraft:guarded_by_piglins", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:jukebox_containers", "registry": "block"},
+    {
+      "id": "minecraft:lava_pool_stone_cannot_replace",
+      "registry": "block",
+      "via": "minecraft:features_cannot_replace"
+    },
+    {"id": "minecraft:mineable/axe", "registry": "block"},
+    {"id": "minecraft:jukebox_containers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:acacia_boat": {
+      "name": "Acacia Boat",
+      "imagePath": "/item/acacia_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Acacia"
+    },
+    "minecraft:acacia_chest_boat": {
+      "name": "Acacia Boat with Chest",
+      "imagePath": "/item/acacia_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia"
+    },
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo_chest_raft": {
+      "name": "Bamboo Boat with Chest",
+      "imagePath": "/item/bamboo_chest_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_raft": {
+      "name": "Bamboo Raft",
+      "imagePath": "/item/bamboo_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Bamboo"
+    },
+    "minecraft:birch_boat": {
+      "name": "Birch Boat",
+      "imagePath": "/item/birch_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Birch"
+    },
+    "minecraft:birch_chest_boat": {
+      "name": "Birch Boat with Chest",
+      "imagePath": "/item/birch_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:cherry_boat": {
+      "name": "Cherry Boat",
+      "imagePath": "/item/cherry_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Cherry"
+    },
+    "minecraft:cherry_chest_boat": {
+      "name": "Cherry Boat with Chest",
+      "imagePath": "/item/cherry_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:chest_minecart": {
+      "name": "Minecart with Chest",
+      "imagePath": "/item/chest_minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart_with_Chest"
+    },
+    "minecraft:copper_chest": {
+      "name": "Copper Chest",
+      "imagePath": "/block/copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:dark_oak_boat": {
+      "name": "Dark Oak Boat",
+      "imagePath": "/item/dark_oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak"
+    },
+    "minecraft:dark_oak_chest_boat": {
+      "name": "Dark Oak Boat with Chest",
+      "imagePath": "/item/dark_oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:hopper": {
+      "name": "Hopper",
+      "imagePath": "/block/hopper/latest.png",
+      "wiki": "https://minecraft.wiki/w/Hopper"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:jungle_boat": {
+      "name": "Jungle Boat",
+      "imagePath": "/item/jungle_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Jungle"
+    },
+    "minecraft:jungle_chest_boat": {
+      "name": "Jungle Boat with Chest",
+      "imagePath": "/item/jungle_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:mangrove_boat": {
+      "name": "Mangrove Boat",
+      "imagePath": "/item/mangrove_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Mangrove"
+    },
+    "minecraft:mangrove_chest_boat": {
+      "name": "Mangrove Boat with Chest",
+      "imagePath": "/item/mangrove_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove"
+    },
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "imagePath": "/item/minecart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Minecart"
+    },
+    "minecraft:oak_boat": {
+      "name": "Oak Boat",
+      "imagePath": "/item/oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Oak"
+    },
+    "minecraft:oak_chest_boat": {
+      "name": "Oak Boat with Chest",
+      "imagePath": "/item/oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:pale_oak_boat": {
+      "name": "Pale Oak Boat",
+      "imagePath": "/item/pale_oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak"
+    },
+    "minecraft:pale_oak_chest_boat": {
+      "name": "Pale Oak Boat with Chest",
+      "imagePath": "/item/pale_oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:poplar_boat": {
+      "name": "Poplar Boat",
+      "imagePath": "/item/poplar_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Poplar"
+    },
+    "minecraft:poplar_chest_boat": {
+      "name": "Poplar Boat with Chest",
+      "imagePath": "/item/poplar_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:shulker_box": {
+      "name": "Shulker Box",
+      "imagePath": "/block/shulker_box/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Box#Plain"
+    },
+    "minecraft:shulker_shell": {
+      "name": "Shulker Shell",
+      "imagePath": "/item/shulker_shell/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shulker_Shell"
+    },
+    "minecraft:spruce_boat": {
+      "name": "Spruce Boat",
+      "imagePath": "/item/spruce_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Spruce"
+    },
+    "minecraft:spruce_chest_boat": {
+      "name": "Spruce Boat with Chest",
+      "imagePath": "/item/spruce_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:trapped_chest": {
+      "name": "Trapped Chest",
+      "imagePath": "/block/trapped_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Trapped_Chest"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

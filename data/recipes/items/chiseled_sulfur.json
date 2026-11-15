@@ -1,0 +1,81 @@
+{
+  "id": "minecraft:chiseled_sulfur",
+  "name": "Chiseled Sulfur",
+  "imagePath": "/block/chiseled_sulfur/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chiseled_Sulfur",
+  "recipes": [
+    {
+      "id": "minecraft:chiseled_sulfur",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:sulfur_slab"]], [["minecraft:sulfur_slab"]]],
+      "result": {"id": "minecraft:chiseled_sulfur", "count": 1}
+    },
+    {
+      "id": "minecraft:chiseled_sulfur_from_sulfur_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:sulfur"]},
+      "result": {"id": "minecraft:chiseled_sulfur", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:chiseled_sulfur": {
+      "name": "Chiseled Sulfur",
+      "imagePath": "/block/chiseled_sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chiseled_Sulfur"
+    },
+    "minecraft:sulfur": {
+      "name": "Sulfur",
+      "imagePath": "/block/sulfur/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur"
+    },
+    "minecraft:sulfur_slab": {
+      "name": "Sulfur Slab",
+      "imagePath": "/block/sulfur_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sulfur_Slab"
+    }
+  }
+}

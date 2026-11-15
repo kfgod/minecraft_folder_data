@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:poplar_wall_sign",
+  "name": "Poplar Wall Sign",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:all_signs", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:all_signs"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:signs", "registry": "block", "via": "minecraft:wall_signs"},
+    {"id": "minecraft:wall_post_override", "registry": "block", "via": "minecraft:signs"},
+    {"id": "minecraft:wall_signs", "registry": "block"}
+  ],
+  "refs": {"minecraft:poplar_wall_sign": {"name": "Poplar Wall Sign"}}
+}

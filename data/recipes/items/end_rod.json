@@ -1,0 +1,33 @@
+{
+  "id": "minecraft:end_rod",
+  "name": "End Rod",
+  "imagePath": "/block/end_rod/latest.png",
+  "wiki": "https://minecraft.wiki/w/End_Rod",
+  "recipes": [
+    {
+      "id": "minecraft:end_rod",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:blaze_rod"]], [["minecraft:popped_chorus_fruit"]]],
+      "result": {"id": "minecraft:end_rod", "count": 4}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:washed_away_by_fluids", "registry": "block"}],
+  "refs": {
+    "minecraft:blaze_rod": {
+      "name": "Blaze Rod",
+      "imagePath": "/item/blaze_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blaze_Rod"
+    },
+    "minecraft:end_rod": {
+      "name": "End Rod",
+      "imagePath": "/block/end_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/End_Rod"
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "Popped Chorus Fruit",
+      "imagePath": "/item/popped_chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    }
+  }
+}

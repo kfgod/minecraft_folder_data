@@ -1,0 +1,60 @@
+{
+  "id": "minecraft:stone_hoe",
+  "name": "Stone Hoe",
+  "imagePath": "/item/stone_hoe/latest.png",
+  "wiki": "https://minecraft.wiki/w/Stone_Hoe",
+  "recipes": [
+    {
+      "id": "minecraft:stone_hoe",
+      "type": "crafting_shaped",
+      "grid": [
+        [["#minecraft:stone_tool_materials"], ["#minecraft:stone_tool_materials"]],
+        [null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"]]
+      ],
+      "result": {"id": "minecraft:stone_hoe", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:breaks_decorated_pots", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/durability", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining", "registry": "item", "via": "minecraft:hoes"},
+    {"id": "minecraft:enchantable/mining_loot", "registry": "item", "via": "minecraft:hoes"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    },
+    {"id": "minecraft:hoes", "registry": "item"},
+    {"id": "minecraft:tools", "registry": "item", "via": "minecraft:hoes", "removed": "1.20.6"}
+  ],
+  "refs": {
+    "minecraft:blackstone": {
+      "name": "Blackstone",
+      "imagePath": "/block/blackstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Blackstone"
+    },
+    "minecraft:cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "imagePath": "/block/cobbled_deepslate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobbled_Deepslate"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:stone_hoe": {
+      "name": "Stone Hoe",
+      "imagePath": "/item/stone_hoe/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone_Hoe"
+    },
+    "#minecraft:stone_tool_materials": {"items": ["minecraft:cobblestone", "minecraft:blackstone", "minecraft:cobbled_deepslate"]}
+  }
+}

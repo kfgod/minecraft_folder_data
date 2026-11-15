@@ -1,0 +1,40 @@
+{
+  "id": "minecraft:cocoa_beans",
+  "name": "Cocoa Beans",
+  "imagePath": "/item/cocoa_beans/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cocoa_Beans",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:cookie",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:wheat"], ["minecraft:cocoa_beans"], ["minecraft:wheat"]]],
+      "result": {"id": "minecraft:cookie", "count": 8}
+    },
+    {
+      "id": "minecraft:brown_dye",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:cocoa_beans"]],
+      "result": {"id": "minecraft:brown_dye", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:brown_dye": {
+      "name": "Brown Dye",
+      "imagePath": "/item/brown_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Brown_Dye"
+    },
+    "minecraft:cocoa_beans": {
+      "name": "Cocoa Beans",
+      "imagePath": "/item/cocoa_beans/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cocoa_Beans"
+    },
+    "minecraft:cookie": {
+      "name": "Cookie",
+      "imagePath": "/item/cookie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cookie"
+    },
+    "minecraft:wheat": {"name": "Wheat"}
+  }
+}

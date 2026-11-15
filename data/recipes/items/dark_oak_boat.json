@@ -1,0 +1,52 @@
+{
+  "id": "minecraft:dark_oak_boat",
+  "name": "Dark Oak Boat",
+  "imagePath": "/item/dark_oak_boat/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak",
+  "recipes": [
+    {
+      "id": "minecraft:dark_oak_boat",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:dark_oak_planks"], null, ["minecraft:dark_oak_planks"]],
+        [
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"],
+          ["minecraft:dark_oak_planks"]
+        ]
+      ],
+      "result": {"id": "minecraft:dark_oak_boat", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dark_oak_chest_boat",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:dark_oak_boat"]],
+      "result": {"id": "minecraft:dark_oak_chest_boat", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:dark_oak_boat": {
+      "name": "Dark Oak Boat",
+      "imagePath": "/item/dark_oak_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak"
+    },
+    "minecraft:dark_oak_chest_boat": {
+      "name": "Dark Oak Boat with Chest",
+      "imagePath": "/item/dark_oak_chest_boat/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    }
+  }
+}

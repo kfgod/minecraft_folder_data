@@ -1,0 +1,86 @@
+{
+  "id": "minecraft:exposed_lightning_rod",
+  "name": "Exposed Lightning Rod",
+  "imagePath": "/block/exposed_lightning_rod/latest.png",
+  "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_exposed_lightning_rod_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:exposed_lightning_rod"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_exposed_lightning_rod", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:lightning_rods"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:lightning_rods", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:lightning_rods"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block", "via": "minecraft:lightning_rods"},
+    {"id": "minecraft:lightning_rods", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:exposed_lightning_rod": {
+      "name": "Exposed Lightning Rod",
+      "imagePath": "/block/exposed_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_exposed_lightning_rod": {
+      "name": "Waxed Exposed Lightning Rod",
+      "imagePath": "/block/waxed_exposed_lightning_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed"
+    }
+  }
+}

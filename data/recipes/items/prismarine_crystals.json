@@ -1,0 +1,49 @@
+{
+  "id": "minecraft:prismarine_crystals",
+  "name": "Prismarine Crystals",
+  "imagePath": "/item/prismarine_crystals/latest.png",
+  "wiki": "https://minecraft.wiki/w/Prismarine_Crystals",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:sea_lantern",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_shard"]
+        ],
+        [
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_crystals"]
+        ],
+        [
+          ["minecraft:prismarine_shard"],
+          ["minecraft:prismarine_crystals"],
+          ["minecraft:prismarine_shard"]
+        ]
+      ],
+      "result": {"id": "minecraft:sea_lantern", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:prismarine_crystals": {
+      "name": "Prismarine Crystals",
+      "imagePath": "/item/prismarine_crystals/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Crystals"
+    },
+    "minecraft:prismarine_shard": {
+      "name": "Prismarine Shard",
+      "imagePath": "/item/prismarine_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Prismarine_Shard"
+    },
+    "minecraft:sea_lantern": {
+      "name": "Sea Lantern",
+      "imagePath": "/block/sea_lantern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sea_Lantern"
+    }
+  }
+}

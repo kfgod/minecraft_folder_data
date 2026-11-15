@@ -1,0 +1,29 @@
+{
+  "id": "minecraft:chorus_fruit",
+  "name": "Chorus Fruit",
+  "imagePath": "/item/chorus_fruit/latest.png",
+  "wiki": "https://minecraft.wiki/w/Chorus_Fruit",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:popped_chorus_fruit",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:chorus_fruit"]},
+      "result": {"id": "minecraft:popped_chorus_fruit", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:chorus_fruit": {
+      "name": "Chorus Fruit",
+      "imagePath": "/item/chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chorus_Fruit"
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "Popped Chorus Fruit",
+      "imagePath": "/item/popped_chorus_fruit/latest.png",
+      "wiki": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    }
+  }
+}

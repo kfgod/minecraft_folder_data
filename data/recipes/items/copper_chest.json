@@ -1,0 +1,110 @@
+{
+  "id": "minecraft:copper_chest",
+  "name": "Copper Chest",
+  "imagePath": "/block/copper_chest/latest.png",
+  "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized",
+  "recipes": [
+    {
+      "id": "minecraft:copper_chest",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]],
+        [["minecraft:copper_ingot"], ["minecraft:chest"], ["minecraft:copper_ingot"]],
+        [["minecraft:copper_ingot"], ["minecraft:copper_ingot"], ["minecraft:copper_ingot"]]
+      ],
+      "result": {"id": "minecraft:copper_chest", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:waxed_copper_chest_from_honeycomb",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:copper_chest"], ["minecraft:honeycomb"]],
+      "result": {"id": "minecraft:waxed_copper_chest", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_no_leaves",
+      "registry": "block",
+      "via": "minecraft:copper_chests"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:copper_chests", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:guarded_by_piglins", "registry": "block", "via": "minecraft:copper_chests"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:incorrect_for_gold_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {
+      "id": "minecraft:incorrect_for_wooden_tool",
+      "registry": "block",
+      "via": "minecraft:needs_stone_tool"
+    },
+    {"id": "minecraft:jukebox_containers", "registry": "block"},
+    {"id": "minecraft:mineable/pickaxe", "registry": "block", "via": "minecraft:copper_chests"},
+    {"id": "minecraft:needs_stone_tool", "registry": "block", "via": "minecraft:copper_chests"},
+    {"id": "minecraft:copper_chests", "registry": "item"},
+    {"id": "minecraft:jukebox_containers", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    },
+    "minecraft:copper_chest": {
+      "name": "Copper Chest",
+      "imagePath": "/block/copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:waxed_copper_chest": {
+      "name": "Waxed Copper Chest",
+      "imagePath": "/block/waxed_copper_chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:guster_banner_pattern",
+  "name": "Guster Banner Pattern",
+  "imagePath": "/item/guster_banner_pattern/latest.png",
+  "wiki": "https://minecraft.wiki/w/Guster_Banner_Pattern",
+  "recipes": [],
+  "used_in": [],
+  "tags": [{"id": "minecraft:loom_patterns", "registry": "item"}],
+  "refs": {
+    "minecraft:guster_banner_pattern": {
+      "name": "Guster Banner Pattern",
+      "imagePath": "/item/guster_banner_pattern/latest.png",
+      "wiki": "https://minecraft.wiki/w/Guster_Banner_Pattern"
+    }
+  }
+}

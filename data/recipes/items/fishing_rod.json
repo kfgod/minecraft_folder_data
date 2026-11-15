@@ -1,0 +1,78 @@
+{
+  "id": "minecraft:fishing_rod",
+  "name": "Fishing Rod",
+  "imagePath": "/item/fishing_rod/latest.png",
+  "wiki": "https://minecraft.wiki/w/Fishing_Rod",
+  "recipes": [
+    {
+      "id": "minecraft:fishing_rod",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:fishing_rod", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:carrot_on_a_stick",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:fishing_rod"], null], [null, ["minecraft:carrot"]]],
+      "result": {"id": "minecraft:carrot_on_a_stick", "count": 1}
+    },
+    {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:fishing_rod"], null], [null, ["minecraft:warped_fungus"]]],
+      "result": {"id": "minecraft:warped_fungus_on_a_stick", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:enchantable/durability", "registry": "item"},
+    {"id": "minecraft:enchantable/fishing", "registry": "item"},
+    {
+      "id": "minecraft:enchantable/vanishing",
+      "registry": "item",
+      "via": "minecraft:enchantable/durability"
+    }
+  ],
+  "refs": {
+    "minecraft:carrot": {
+      "name": "Carrot",
+      "imagePath": "/item/carrot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot"
+    },
+    "minecraft:carrot_on_a_stick": {
+      "name": "Carrot on a Stick",
+      "imagePath": "/item/carrot_on_a_stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick"
+    },
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:warped_fungus": {
+      "name": "Warped Fungus",
+      "imagePath": "/block/warped_fungus/latest.png",
+      "wiki": "https://minecraft.wiki/w/Warped_Fungus"
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+      "name": "Warped Fungus on a Stick",
+      "imagePath": "/item/warped_fungus_on_a_stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick"
+    }
+  }
+}

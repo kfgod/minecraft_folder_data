@@ -1,0 +1,46 @@
+{
+  "id": "minecraft:cooked_chicken",
+  "name": "Cooked Chicken",
+  "imagePath": "/item/cooked_chicken/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cooked_Chicken",
+  "recipes": [
+    {
+      "id": "minecraft:cooked_chicken_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:chicken"]},
+      "result": {"id": "minecraft:cooked_chicken", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_chicken",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:chicken"]},
+      "result": {"id": "minecraft:cooked_chicken", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    },
+    {
+      "id": "minecraft:cooked_chicken_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:chicken"]},
+      "result": {"id": "minecraft:cooked_chicken", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.35}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:meat", "registry": "item"},
+    {"id": "minecraft:wolf_food", "registry": "item", "via": "minecraft:meat"}
+  ],
+  "refs": {
+    "minecraft:chicken": {
+      "name": "Raw Chicken",
+      "imagePath": "/item/chicken/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raw_Chicken"
+    },
+    "minecraft:cooked_chicken": {
+      "name": "Cooked Chicken",
+      "imagePath": "/item/cooked_chicken/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cooked_Chicken"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "minecraft:cookie",
+  "name": "Cookie",
+  "imagePath": "/item/cookie/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cookie",
+  "recipes": [
+    {
+      "id": "minecraft:cookie",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:wheat"], ["minecraft:cocoa_beans"], ["minecraft:wheat"]]],
+      "result": {"id": "minecraft:cookie", "count": 8}
+    }
+  ],
+  "used_in": [],
+  "tags": [{"id": "minecraft:parrot_poisonous_food", "registry": "item"}],
+  "refs": {
+    "minecraft:cocoa_beans": {
+      "name": "Cocoa Beans",
+      "imagePath": "/item/cocoa_beans/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cocoa_Beans"
+    },
+    "minecraft:cookie": {
+      "name": "Cookie",
+      "imagePath": "/item/cookie/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cookie"
+    },
+    "minecraft:wheat": {"name": "Wheat"}
+  }
+}

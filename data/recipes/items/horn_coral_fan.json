@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:horn_coral_fan",
+  "name": "Horn Coral Fan",
+  "imagePath": "/block/horn_coral_fan/latest.png",
+  "wiki": "https://minecraft.wiki/w/Coral_Fan#Horn",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:corals", "registry": "block"},
+    {"id": "minecraft:underwater_bonemeals", "registry": "block", "via": "minecraft:corals"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:corals"}
+  ],
+  "refs": {
+    "minecraft:horn_coral_fan": {
+      "name": "Horn Coral Fan",
+      "imagePath": "/block/horn_coral_fan/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coral_Fan#Horn"
+    }
+  }
+}

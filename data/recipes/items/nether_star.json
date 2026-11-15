@@ -1,0 +1,42 @@
+{
+  "id": "minecraft:nether_star",
+  "name": "Nether Star",
+  "imagePath": "/item/nether_star/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Star",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:beacon",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:glass"], ["minecraft:nether_star"], ["minecraft:glass"]],
+        [["minecraft:obsidian"], ["minecraft:obsidian"], ["minecraft:obsidian"]]
+      ],
+      "result": {"id": "minecraft:beacon", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:beacon": {
+      "name": "Beacon",
+      "imagePath": "/block/beacon/latest.png",
+      "wiki": "https://minecraft.wiki/w/Beacon"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:nether_star": {
+      "name": "Nether Star",
+      "imagePath": "/item/nether_star/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Star"
+    },
+    "minecraft:obsidian": {
+      "name": "Obsidian",
+      "imagePath": "/block/obsidian/latest.png",
+      "wiki": "https://minecraft.wiki/w/Obsidian"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "minecraft:nether_wart",
+  "name": "Nether Wart",
+  "imagePath": "/item/nether_wart/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Wart",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:brewing/lingering_potion_water_nether_wart",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:lingering_potion"], "reagent": ["minecraft:nether_wart"]},
+      "result": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:awkward"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/potion_water_nether_wart",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:potion"], "reagent": ["minecraft:nether_wart"]},
+      "result": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:awkward"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:brewing/splash_potion_water_nether_wart",
+      "type": "brewing",
+      "inputs": {"input": ["minecraft:splash_potion"], "reagent": ["minecraft:nether_wart"]},
+      "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {"minecraft:potion_contents": {"potion": "minecraft:awkward"}}
+      },
+      "extra": {"input.potion_contents": {"potions": "minecraft:water"}}
+    },
+    {
+      "id": "minecraft:red_nether_bricks",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:nether_brick"], ["minecraft:nether_wart"]],
+        [["minecraft:nether_wart"], ["minecraft:nether_brick"]]
+      ],
+      "result": {"id": "minecraft:red_nether_bricks", "count": 1}
+    },
+    {
+      "id": "minecraft:nether_wart_block",
+      "type": "crafting_shapeless",
+      "ingredients": [
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"],
+        ["minecraft:nether_wart"]
+      ],
+      "result": {"id": "minecraft:nether_wart_block", "count": 1}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:mineable/axe", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:sword_efficient", "registry": "block", "removed": "1.21.5"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:lingering_potion": {"name": "Lingering Potion"},
+    "minecraft:nether_brick": {
+      "name": "Nether Brick",
+      "imagePath": "/item/nether_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Brick"
+    },
+    "minecraft:nether_wart": {
+      "name": "Nether Wart",
+      "imagePath": "/item/nether_wart/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Wart"
+    },
+    "minecraft:nether_wart_block": {
+      "name": "Nether Wart Block",
+      "imagePath": "/block/nether_wart_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Wart_Block"
+    },
+    "minecraft:potion": {"name": "Potion"},
+    "minecraft:red_nether_bricks": {
+      "name": "Red Nether Bricks",
+      "imagePath": "/block/red_nether_bricks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Red_Nether_Bricks"
+    },
+    "minecraft:splash_potion": {"name": "Splash Potion"}
+  }
+}

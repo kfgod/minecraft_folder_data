@@ -1,0 +1,80 @@
+{
+  "id": "minecraft:cactus",
+  "name": "Cactus",
+  "imagePath": "/block/cactus/latest.png",
+  "wiki": "https://minecraft.wiki/w/Cactus",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:green_dye",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:cactus"]},
+      "result": {"id": "minecraft:green_dye", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 1.0}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {
+      "id": "minecraft:cat_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:dangerous_for_teleportation", "registry": "block"},
+    {
+      "id": "minecraft:enderman_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:enderman_holdable", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:happy_ghast_avoids", "registry": "block"},
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:pathfinding/damaging", "registry": "block"},
+    {"id": "minecraft:support_override_cactus_flower", "registry": "block"},
+    {"id": "minecraft:camel_food", "registry": "item"}
+  ],
+  "refs": {
+    "minecraft:cactus": {
+      "name": "Cactus",
+      "imagePath": "/block/cactus/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cactus"
+    },
+    "minecraft:green_dye": {
+      "name": "Green Dye",
+      "imagePath": "/item/green_dye/latest.png",
+      "wiki": "https://minecraft.wiki/w/Green_Dye"
+    }
+  }
+}

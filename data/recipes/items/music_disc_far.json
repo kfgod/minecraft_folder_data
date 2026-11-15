@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:music_disc_far",
+  "name": "Music Disc far",
+  "imagePath": "/item/music_disc_far/latest.png",
+  "wiki": "https://minecraft.wiki/w/Music_Disc_far",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:creeper_drop_music_discs", "registry": "item"},
+    {
+      "id": "minecraft:music_discs",
+      "registry": "item",
+      "via": "minecraft:creeper_drop_music_discs",
+      "removed": "1.21"
+    }
+  ],
+  "refs": {
+    "minecraft:music_disc_far": {
+      "name": "Music Disc far",
+      "imagePath": "/item/music_disc_far/latest.png",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_far"
+    }
+  }
+}

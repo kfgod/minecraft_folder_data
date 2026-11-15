@@ -1,0 +1,236 @@
+{
+  "id": "minecraft:string",
+  "name": "String",
+  "imagePath": "/item/string/latest.png",
+  "wiki": "https://minecraft.wiki/w/String",
+  "recipes": [],
+  "used_in": [
+    {
+      "id": "minecraft:bow",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:bow", "count": 1}
+    },
+    {
+      "id": "minecraft:bundle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"]], [["minecraft:leather"]]],
+      "result": {"id": "minecraft:bundle", "count": 1}
+    },
+    {
+      "id": "minecraft:candle",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"]], [["minecraft:honeycomb"]]],
+      "result": {"id": "minecraft:candle", "count": 1}
+    },
+    {
+      "id": "minecraft:crossbow",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:stick"], ["minecraft:iron_ingot"], ["minecraft:stick"]],
+        [["minecraft:string"], ["minecraft:tripwire_hook"], ["minecraft:string"]],
+        [null, ["minecraft:stick"], null]
+      ],
+      "result": {"id": "minecraft:crossbow", "count": 1}
+    },
+    {
+      "id": "minecraft:fishing_rod",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, null, ["minecraft:stick"]],
+        [null, ["minecraft:stick"], ["minecraft:string"]],
+        [["minecraft:stick"], null, ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:fishing_rod", "count": 1}
+    },
+    {
+      "id": "minecraft:lead",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:string"], ["minecraft:string"], null],
+        [["minecraft:string"], ["minecraft:string"], null],
+        [null, null, ["minecraft:string"]]
+      ],
+      "result": {"id": "minecraft:lead", "count": 2}
+    },
+    {
+      "id": "minecraft:loom",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"], ["minecraft:string"]], [["#minecraft:planks"], ["#minecraft:planks"]]],
+      "result": {"id": "minecraft:loom", "count": 1}
+    },
+    {
+      "id": "minecraft:scaffolding",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo"], ["minecraft:string"], ["minecraft:bamboo"]],
+        [["minecraft:bamboo"], null, ["minecraft:bamboo"]],
+        [["minecraft:bamboo"], null, ["minecraft:bamboo"]]
+      ],
+      "result": {"id": "minecraft:scaffolding", "count": 6}
+    },
+    {
+      "id": "minecraft:white_wool_from_string",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:string"], ["minecraft:string"]], [["minecraft:string"], ["minecraft:string"]]],
+      "result": {"id": "minecraft:white_wool", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:acacia_planks": {
+      "name": "Acacia Planks",
+      "imagePath": "/block/acacia_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Acacia"
+    },
+    "minecraft:bamboo": {
+      "name": "Bamboo",
+      "imagePath": "/block/bamboo/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bamboo"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:birch_planks": {
+      "name": "Birch Planks",
+      "imagePath": "/block/birch_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Birch"
+    },
+    "minecraft:bow": {"name": "Bow", "imagePath": "/item/bow/latest.png", "wiki": "https://minecraft.wiki/w/Bow"},
+    "minecraft:bundle": {
+      "name": "Bundle",
+      "imagePath": "/item/bundle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bundle#Plain"
+    },
+    "minecraft:candle": {
+      "name": "Candle",
+      "imagePath": "/block/candle/latest.png",
+      "wiki": "https://minecraft.wiki/w/Candle#Plain"
+    },
+    "minecraft:cherry_planks": {
+      "name": "Cherry Planks",
+      "imagePath": "/block/cherry_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Cherry"
+    },
+    "minecraft:crimson_planks": {
+      "name": "Crimson Planks",
+      "imagePath": "/block/crimson_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Crimson"
+    },
+    "minecraft:crossbow": {
+      "name": "Crossbow",
+      "imagePath": "/item/crossbow/latest.png",
+      "wiki": "https://minecraft.wiki/w/Crossbow"
+    },
+    "minecraft:dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "imagePath": "/block/dark_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak"
+    },
+    "minecraft:fishing_rod": {
+      "name": "Fishing Rod",
+      "imagePath": "/item/fishing_rod/latest.png",
+      "wiki": "https://minecraft.wiki/w/Fishing_Rod"
+    },
+    "minecraft:honeycomb": {
+      "name": "Honeycomb",
+      "imagePath": "/item/honeycomb/latest.png",
+      "wiki": "https://minecraft.wiki/w/Honeycomb"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:jungle_planks": {
+      "name": "Jungle Planks",
+      "imagePath": "/block/jungle_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Jungle"
+    },
+    "minecraft:lead": {"name": "Lead", "imagePath": "/item/lead/latest.png", "wiki": "https://minecraft.wiki/w/Lead"},
+    "minecraft:leather": {
+      "name": "Leather",
+      "imagePath": "/item/leather/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather"
+    },
+    "minecraft:loom": {"name": "Loom", "imagePath": "/block/loom/latest.png", "wiki": "https://minecraft.wiki/w/Loom"},
+    "minecraft:mangrove_planks": {
+      "name": "Mangrove Planks",
+      "imagePath": "/block/mangrove_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Mangrove"
+    },
+    "minecraft:oak_planks": {
+      "name": "Oak Planks",
+      "imagePath": "/block/oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Oak"
+    },
+    "minecraft:pale_oak_planks": {
+      "name": "Pale Oak Planks",
+      "imagePath": "/block/pale_oak_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak"
+    },
+    "minecraft:poplar_planks": {
+      "name": "Poplar Planks",
+      "imagePath": "/block/poplar_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Poplar"
+    },
+    "minecraft:scaffolding": {
+      "name": "Scaffolding",
+      "imagePath": "/block/scaffolding/latest.png",
+      "wiki": "https://minecraft.wiki/w/Scaffolding"
+    },
+    "minecraft:spruce_planks": {
+      "name": "Spruce Planks",
+      "imagePath": "/block/spruce_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Spruce"
+    },
+    "minecraft:stick": {
+      "name": "Stick",
+      "imagePath": "/item/stick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stick"
+    },
+    "minecraft:string": {
+      "name": "String",
+      "imagePath": "/item/string/latest.png",
+      "wiki": "https://minecraft.wiki/w/String"
+    },
+    "minecraft:tripwire_hook": {
+      "name": "Tripwire Hook",
+      "imagePath": "/block/tripwire_hook/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tripwire_Hook"
+    },
+    "minecraft:warped_planks": {
+      "name": "Warped Planks",
+      "imagePath": "/block/warped_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Warped"
+    },
+    "minecraft:white_wool": {
+      "name": "White Wool",
+      "imagePath": "/block/white_wool/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wool#White"
+    },
+    "#minecraft:planks": {
+      "items": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:cherry_planks",
+        "minecraft:poplar_planks"
+      ]
+    }
+  }
+}

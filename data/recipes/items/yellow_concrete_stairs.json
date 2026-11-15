@@ -1,0 +1,82 @@
+{
+  "id": "minecraft:yellow_concrete_stairs",
+  "name": "Yellow Concrete Stairs",
+  "imagePath": "/block/yellow_concrete_stairs/latest.png",
+  "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Yellow",
+  "recipes": [
+    {
+      "id": "minecraft:yellow_concrete_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:yellow_concrete"], null, null],
+        [["minecraft:yellow_concrete"], ["minecraft:yellow_concrete"], null],
+        [
+          ["minecraft:yellow_concrete"],
+          ["minecraft:yellow_concrete"],
+          ["minecraft:yellow_concrete"]
+        ]
+      ],
+      "result": {"id": "minecraft:yellow_concrete_stairs", "count": 4}
+    },
+    {
+      "id": "minecraft:yellow_concrete_stairs_from_yellow_concrete_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:yellow_concrete"]},
+      "result": {"id": "minecraft:yellow_concrete_stairs", "count": 1}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block", "via": "minecraft:stairs"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:concrete_stairs", "registry": "block"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:stairs", "registry": "block", "via": "minecraft:concrete_stairs"},
+    {"id": "minecraft:concrete_stairs", "registry": "item"},
+    {"id": "minecraft:stairs", "registry": "item", "via": "minecraft:concrete_stairs"}
+  ],
+  "refs": {
+    "minecraft:yellow_concrete": {
+      "name": "Yellow Concrete",
+      "imagePath": "/block/yellow_concrete/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete#Yellow"
+    },
+    "minecraft:yellow_concrete_stairs": {
+      "name": "Yellow Concrete Stairs",
+      "imagePath": "/block/yellow_concrete_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Yellow"
+    }
+  }
+}

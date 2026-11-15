@@ -1,0 +1,30 @@
+{
+  "id": "minecraft:fire",
+  "name": "Fire",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:cat_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:dangerous_for_teleportation", "registry": "block"},
+    {"id": "minecraft:dragon_transparent", "registry": "block", "via": "minecraft:fire"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {
+      "id": "minecraft:enderman_does_not_teleport_to",
+      "registry": "block",
+      "via": "minecraft:dangerous_for_teleportation"
+    },
+    {"id": "minecraft:fire", "registry": "block"},
+    {"id": "minecraft:happy_ghast_avoids", "registry": "block"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block", "via": "minecraft:fire"}
+  ],
+  "refs": {"minecraft:fire": {"name": "Fire"}}
+}

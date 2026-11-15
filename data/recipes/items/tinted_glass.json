@@ -1,0 +1,73 @@
+{
+  "id": "minecraft:tinted_glass",
+  "name": "Tinted Glass",
+  "imagePath": "/block/tinted_glass/latest.png",
+  "wiki": "https://minecraft.wiki/w/Tinted_Glass",
+  "recipes": [
+    {
+      "id": "minecraft:tinted_glass",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:amethyst_shard"], null],
+        [["minecraft:amethyst_shard"], ["minecraft:glass"], ["minecraft:amethyst_shard"]],
+        [null, ["minecraft:amethyst_shard"], null]
+      ],
+      "result": {"id": "minecraft:tinted_glass", "count": 2}
+    }
+  ],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:impermeable", "registry": "block"}
+  ],
+  "refs": {
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:tinted_glass": {
+      "name": "Tinted Glass",
+      "imagePath": "/block/tinted_glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tinted_Glass"
+    }
+  }
+}

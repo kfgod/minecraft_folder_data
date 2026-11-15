@@ -1,0 +1,61 @@
+{
+  "id": "minecraft:dried_kelp",
+  "name": "Dried Kelp",
+  "imagePath": "/item/dried_kelp/latest.png",
+  "wiki": "https://minecraft.wiki/w/Dried_Kelp",
+  "recipes": [
+    {
+      "id": "minecraft:dried_kelp_from_campfire_cooking",
+      "type": "campfire_cooking",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 600, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:dried_kelp",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:dried_kelp_block"]],
+      "result": {"id": "minecraft:dried_kelp", "count": 9}
+    },
+    {
+      "id": "minecraft:dried_kelp_from_smelting",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    },
+    {
+      "id": "minecraft:dried_kelp_from_smoking",
+      "type": "smoking",
+      "inputs": {"ingredient": ["minecraft:kelp"]},
+      "result": {"id": "minecraft:dried_kelp", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:dried_kelp_block",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:dried_kelp"], ["minecraft:dried_kelp"], ["minecraft:dried_kelp"]],
+        [["minecraft:dried_kelp"], ["minecraft:dried_kelp"], ["minecraft:dried_kelp"]],
+        [["minecraft:dried_kelp"], ["minecraft:dried_kelp"], ["minecraft:dried_kelp"]]
+      ],
+      "result": {"id": "minecraft:dried_kelp_block", "count": 1}
+    }
+  ],
+  "tags": [],
+  "refs": {
+    "minecraft:dried_kelp": {
+      "name": "Dried Kelp",
+      "imagePath": "/item/dried_kelp/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dried_Kelp"
+    },
+    "minecraft:dried_kelp_block": {
+      "name": "Dried Kelp Block",
+      "imagePath": "/block/dried_kelp_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dried_Kelp_Block"
+    },
+    "minecraft:kelp": {"name": "Kelp", "imagePath": "/block/kelp/latest.png", "wiki": "https://minecraft.wiki/w/Kelp"}
+  }
+}

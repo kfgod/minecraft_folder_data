@@ -1,0 +1,48 @@
+{
+  "id": "minecraft:bamboo_raft",
+  "name": "Bamboo Raft",
+  "imagePath": "/item/bamboo_raft/latest.png",
+  "wiki": "https://minecraft.wiki/w/Boat#Bamboo",
+  "recipes": [
+    {
+      "id": "minecraft:bamboo_raft",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:bamboo_planks"], null, ["minecraft:bamboo_planks"]],
+        [["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"], ["minecraft:bamboo_planks"]]
+      ],
+      "result": {"id": "minecraft:bamboo_raft", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:bamboo_chest_raft",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:chest"], ["minecraft:bamboo_raft"]],
+      "result": {"id": "minecraft:bamboo_chest_raft", "count": 1}
+    }
+  ],
+  "tags": [{"id": "minecraft:boats", "registry": "item"}],
+  "refs": {
+    "minecraft:bamboo_chest_raft": {
+      "name": "Bamboo Boat with Chest",
+      "imagePath": "/item/bamboo_chest_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo"
+    },
+    "minecraft:bamboo_planks": {
+      "name": "Bamboo Planks",
+      "imagePath": "/block/bamboo_planks/latest.png",
+      "wiki": "https://minecraft.wiki/w/Planks#Bamboo"
+    },
+    "minecraft:bamboo_raft": {
+      "name": "Bamboo Raft",
+      "imagePath": "/item/bamboo_raft/latest.png",
+      "wiki": "https://minecraft.wiki/w/Boat#Bamboo"
+    },
+    "minecraft:chest": {
+      "name": "Chest",
+      "imagePath": "/block/chest/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chest"
+    }
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "id": "minecraft:quartz",
+  "name": "Nether Quartz",
+  "imagePath": "/item/quartz/latest.png",
+  "wiki": "https://minecraft.wiki/w/Nether_Quartz",
+  "recipes": [
+    {
+      "id": "minecraft:quartz_from_blasting",
+      "type": "blasting",
+      "inputs": {"ingredient": ["minecraft:nether_quartz_ore"]},
+      "result": {"id": "minecraft:quartz", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    },
+    {
+      "id": "minecraft:quartz",
+      "type": "smelting",
+      "inputs": {"ingredient": ["minecraft:nether_quartz_ore"]},
+      "result": {"id": "minecraft:quartz", "count": 1},
+      "extra": {"cookingtime": 200, "experience": 0.2}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:comparator",
+      "type": "crafting_shaped",
+      "grid": [
+        [null, ["minecraft:redstone_torch"], null],
+        [["minecraft:redstone_torch"], ["minecraft:quartz"], ["minecraft:redstone_torch"]],
+        [["minecraft:stone"], ["minecraft:stone"], ["minecraft:stone"]]
+      ],
+      "result": {"id": "minecraft:comparator", "count": 1}
+    },
+    {
+      "id": "minecraft:daylight_detector",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:glass"], ["minecraft:glass"], ["minecraft:glass"]],
+        [["minecraft:quartz"], ["minecraft:quartz"], ["minecraft:quartz"]],
+        [["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"], ["#minecraft:wooden_slabs"]]
+      ],
+      "result": {"id": "minecraft:daylight_detector", "count": 1}
+    },
+    {
+      "id": "minecraft:diorite",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:quartz"]],
+        [["minecraft:quartz"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:diorite", "count": 2}
+    },
+    {
+      "id": "minecraft:observer",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]],
+        [["minecraft:redstone"], ["minecraft:redstone"], ["minecraft:quartz"]],
+        [["minecraft:cobblestone"], ["minecraft:cobblestone"], ["minecraft:cobblestone"]]
+      ],
+      "result": {"id": "minecraft:observer", "count": 1}
+    },
+    {
+      "id": "minecraft:quartz_block",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:quartz"], ["minecraft:quartz"]], [["minecraft:quartz"], ["minecraft:quartz"]]],
+      "result": {"id": "minecraft:quartz_block", "count": 1}
+    },
+    {
+      "id": "minecraft:granite",
+      "type": "crafting_shapeless",
+      "ingredients": [["minecraft:diorite"], ["minecraft:quartz"]],
+      "result": {"id": "minecraft:granite", "count": 1}
+    },
+    {
+      "id": "minecraft:bolt_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:bolt_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:coast_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:coast_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:dune_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:dune_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:eye_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:eye_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:flow_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:flow_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:host_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:host_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:raiser_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:raiser_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:rib_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:rib_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:sentry_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:shaper_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:shaper_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:silence_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:snout_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:snout_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:spire_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:spire_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:tide_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:tide_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:vex_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:vex_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:ward_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:ward_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wayfinder_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wayfinder_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    },
+    {
+      "id": "minecraft:wild_armor_trim_smithing_template_smithing_trim",
+      "type": "smithing_trim",
+      "inputs": {
+        "template": ["minecraft:wild_armor_trim_smithing_template"],
+        "base": ["#minecraft:trimmable_armor"],
+        "addition": ["#minecraft:trim_materials"]
+      }
+    }
+  ],
+  "tags": [{"id": "minecraft:trim_materials", "registry": "item"}],
+  "refs": {
+    "minecraft:acacia_slab": {
+      "name": "Acacia Slab",
+      "imagePath": "/block/acacia_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia"
+    },
+    "minecraft:amethyst_shard": {
+      "name": "Amethyst Shard",
+      "imagePath": "/item/amethyst_shard/latest.png",
+      "wiki": "https://minecraft.wiki/w/Amethyst_Shard"
+    },
+    "minecraft:bamboo_slab": {
+      "name": "Bamboo Slab",
+      "imagePath": "/block/bamboo_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo"
+    },
+    "minecraft:birch_slab": {
+      "name": "Birch Slab",
+      "imagePath": "/block/birch_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch"
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+      "name": "Bolt Armor Trim",
+      "imagePath": "/item/bolt_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim"
+    },
+    "minecraft:chainmail_boots": {
+      "name": "Chainmail Boots",
+      "imagePath": "/item/chainmail_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Boots"
+    },
+    "minecraft:chainmail_chestplate": {
+      "name": "Chainmail Chestplate",
+      "imagePath": "/item/chainmail_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate"
+    },
+    "minecraft:chainmail_helmet": {
+      "name": "Chainmail Helmet",
+      "imagePath": "/item/chainmail_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Helmet"
+    },
+    "minecraft:chainmail_leggings": {
+      "name": "Chainmail Leggings",
+      "imagePath": "/item/chainmail_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Chainmail_Leggings"
+    },
+    "minecraft:cherry_slab": {
+      "name": "Cherry Slab",
+      "imagePath": "/block/cherry_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry"
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+      "name": "Coast Armor Trim",
+      "imagePath": "/item/coast_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim"
+    },
+    "minecraft:cobblestone": {
+      "name": "Cobblestone",
+      "imagePath": "/block/cobblestone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Cobblestone"
+    },
+    "minecraft:comparator": {
+      "name": "Redstone Comparator",
+      "imagePath": "/block/comparator/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Comparator"
+    },
+    "minecraft:copper_boots": {
+      "name": "Copper Boots",
+      "imagePath": "/item/copper_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Boots"
+    },
+    "minecraft:copper_chestplate": {
+      "name": "Copper Chestplate",
+      "imagePath": "/item/copper_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Chestplate"
+    },
+    "minecraft:copper_helmet": {
+      "name": "Copper Helmet",
+      "imagePath": "/item/copper_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Helmet"
+    },
+    "minecraft:copper_ingot": {
+      "name": "Copper Ingot",
+      "imagePath": "/item/copper_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    "minecraft:copper_leggings": {
+      "name": "Copper Leggings",
+      "imagePath": "/item/copper_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings"
+    },
+    "minecraft:crimson_slab": {
+      "name": "Crimson Slab",
+      "imagePath": "/block/crimson_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson"
+    },
+    "minecraft:dark_oak_slab": {
+      "name": "Dark Oak Slab",
+      "imagePath": "/block/dark_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak"
+    },
+    "minecraft:daylight_detector": {
+      "name": "Daylight Detector",
+      "imagePath": "/block/daylight_detector/latest.png",
+      "wiki": "https://minecraft.wiki/w/Daylight_Detector"
+    },
+    "minecraft:diamond": {
+      "name": "Diamond",
+      "imagePath": "/item/diamond/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond"
+    },
+    "minecraft:diamond_boots": {
+      "name": "Diamond Boots",
+      "imagePath": "/item/diamond_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Boots"
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "Diamond Chestplate",
+      "imagePath": "/item/diamond_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Chestplate"
+    },
+    "minecraft:diamond_leggings": {
+      "name": "Diamond Leggings",
+      "imagePath": "/item/diamond_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diamond_Leggings"
+    },
+    "minecraft:diorite": {
+      "name": "Diorite",
+      "imagePath": "/block/diorite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Diorite"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "name": "Dune Armor Trim",
+      "imagePath": "/item/dune_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim"
+    },
+    "minecraft:emerald": {
+      "name": "Emerald",
+      "imagePath": "/item/emerald/latest.png",
+      "wiki": "https://minecraft.wiki/w/Emerald"
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+      "name": "Eye Armor Trim",
+      "imagePath": "/item/eye_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim"
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+      "name": "Flow Armor Trim",
+      "imagePath": "/item/flow_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim"
+    },
+    "minecraft:glass": {
+      "name": "Glass",
+      "imagePath": "/block/glass/latest.png",
+      "wiki": "https://minecraft.wiki/w/Glass"
+    },
+    "minecraft:gold_ingot": {
+      "name": "Gold Ingot",
+      "imagePath": "/item/gold_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Gold_Ingot"
+    },
+    "minecraft:golden_boots": {
+      "name": "Golden Boots",
+      "imagePath": "/item/golden_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Boots"
+    },
+    "minecraft:golden_chestplate": {
+      "name": "Golden Chestplate",
+      "imagePath": "/item/golden_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Chestplate"
+    },
+    "minecraft:golden_leggings": {
+      "name": "Golden Leggings",
+      "imagePath": "/item/golden_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Golden_Leggings"
+    },
+    "minecraft:granite": {
+      "name": "Granite",
+      "imagePath": "/block/granite/latest.png",
+      "wiki": "https://minecraft.wiki/w/Granite"
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "name": "Host Armor Trim",
+      "imagePath": "/item/host_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Host_Armor_Trim"
+    },
+    "minecraft:iron_boots": {
+      "name": "Iron Boots",
+      "imagePath": "/item/iron_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Boots"
+    },
+    "minecraft:iron_chestplate": {
+      "name": "Iron Chestplate",
+      "imagePath": "/item/iron_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Chestplate"
+    },
+    "minecraft:iron_ingot": {
+      "name": "Iron Ingot",
+      "imagePath": "/item/iron_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Ingot"
+    },
+    "minecraft:iron_leggings": {
+      "name": "Iron Leggings",
+      "imagePath": "/item/iron_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Iron_Leggings"
+    },
+    "minecraft:jungle_slab": {
+      "name": "Jungle Slab",
+      "imagePath": "/block/jungle_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle"
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "Lapis Lazuli",
+      "imagePath": "/item/lapis_lazuli/latest.png",
+      "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+    },
+    "minecraft:leather_boots": {
+      "name": "Leather Boots",
+      "imagePath": "/item/leather_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Boots"
+    },
+    "minecraft:leather_chestplate": {
+      "name": "Leather Tunic",
+      "imagePath": "/item/leather_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Tunic"
+    },
+    "minecraft:leather_helmet": {
+      "name": "Leather Cap",
+      "imagePath": "/item/leather_helmet/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Cap"
+    },
+    "minecraft:leather_leggings": {
+      "name": "Leather Pants",
+      "imagePath": "/item/leather_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Leather_Pants"
+    },
+    "minecraft:mangrove_slab": {
+      "name": "Mangrove Slab",
+      "imagePath": "/block/mangrove_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove"
+    },
+    "minecraft:nether_quartz_ore": {
+      "name": "Nether Quartz Ore",
+      "imagePath": "/block/nether_quartz_ore/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz_Ore"
+    },
+    "minecraft:netherite_boots": {
+      "name": "Netherite Boots",
+      "imagePath": "/item/netherite_boots/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "Netherite Chestplate",
+      "imagePath": "/item/netherite_chestplate/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Chestplate"
+    },
+    "minecraft:netherite_ingot": {
+      "name": "Netherite Ingot",
+      "imagePath": "/item/netherite_ingot/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Ingot"
+    },
+    "minecraft:netherite_leggings": {
+      "name": "Netherite Leggings",
+      "imagePath": "/item/netherite_leggings/latest.png",
+      "wiki": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "minecraft:oak_slab": {
+      "name": "Oak Slab",
+      "imagePath": "/block/oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak"
+    },
+    "minecraft:observer": {
+      "name": "Observer",
+      "imagePath": "/block/observer/latest.png",
+      "wiki": "https://minecraft.wiki/w/Observer"
+    },
+    "minecraft:pale_oak_slab": {
+      "name": "Pale Oak Slab",
+      "imagePath": "/block/pale_oak_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak"
+    },
+    "minecraft:poplar_slab": {
+      "name": "Poplar Slab",
+      "imagePath": "/block/poplar_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar"
+    },
+    "minecraft:quartz": {
+      "name": "Nether Quartz",
+      "imagePath": "/item/quartz/latest.png",
+      "wiki": "https://minecraft.wiki/w/Nether_Quartz"
+    },
+    "minecraft:quartz_block": {
+      "name": "Block of Quartz",
+      "imagePath": "/block/quartz_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Block_of_Quartz"
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "name": "Raiser Armor Trim",
+      "imagePath": "/item/raiser_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+    },
+    "minecraft:redstone": {
+      "name": "Redstone Dust",
+      "imagePath": "/item/redstone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Dust"
+    },
+    "minecraft:redstone_torch": {
+      "name": "Redstone Torch",
+      "imagePath": "/block/redstone_torch/latest.png",
+      "wiki": "https://minecraft.wiki/w/Redstone_Torch"
+    },
+    "minecraft:resin_brick": {
+      "name": "Resin Brick",
+      "imagePath": "/item/resin_brick/latest.png",
+      "wiki": "https://minecraft.wiki/w/Resin_Brick"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "name": "Rib Armor Trim",
+      "imagePath": "/item/rib_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "name": "Sentry Armor Trim",
+      "imagePath": "/item/sentry_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "name": "Shaper Armor Trim",
+      "imagePath": "/item/shaper_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "name": "Silence Armor Trim",
+      "imagePath": "/item/silence_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim"
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "name": "Snout Armor Trim",
+      "imagePath": "/item/snout_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "name": "Spire Armor Trim",
+      "imagePath": "/item/spire_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim"
+    },
+    "minecraft:spruce_slab": {
+      "name": "Spruce Slab",
+      "imagePath": "/block/spruce_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce"
+    },
+    "minecraft:stone": {
+      "name": "Stone",
+      "imagePath": "/block/stone/latest.png",
+      "wiki": "https://minecraft.wiki/w/Stone"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "name": "Tide Armor Trim",
+      "imagePath": "/item/tide_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim"
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+      "name": "Vex Armor Trim",
+      "imagePath": "/item/vex_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "name": "Ward Armor Trim",
+      "imagePath": "/item/ward_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim"
+    },
+    "minecraft:warped_slab": {
+      "name": "Warped Slab",
+      "imagePath": "/block/warped_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "name": "Wayfinder Armor Trim",
+      "imagePath": "/item/wayfinder_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "name": "Wild Armor Trim",
+      "imagePath": "/item/wild_armor_trim_smithing_template/latest.png",
+      "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim"
+    },
+    "#minecraft:trim_materials": {
+      "items": [
+        "minecraft:amethyst_shard",
+        "minecraft:copper_ingot",
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:lapis_lazuli",
+        "minecraft:netherite_ingot",
+        "minecraft:quartz",
+        "minecraft:redstone",
+        "minecraft:resin_brick"
+      ]
+    },
+    "#minecraft:trimmable_armor": {
+      "items": [
+        "minecraft:leather_boots",
+        "minecraft:copper_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:golden_boots",
+        "minecraft:iron_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots",
+        "minecraft:leather_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:chainmail_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:copper_chestplate",
+        "minecraft:chainmail_chestplate",
+        "minecraft:golden_chestplate",
+        "minecraft:iron_chestplate",
+        "minecraft:diamond_chestplate",
+        "minecraft:netherite_chestplate",
+        "minecraft:leather_helmet",
+        "minecraft:copper_helmet",
+        "minecraft:chainmail_helmet"
+      ]
+    },
+    "#minecraft:wooden_slabs": {
+      "items": [
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:pale_oak_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:cherry_slab",
+        "minecraft:poplar_slab"
+      ]
+    }
+  }
+}

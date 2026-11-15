@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:lava",
+  "name": "Lava",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {"id": "minecraft:cannot_place_basalt_pillar_on", "registry": "block"},
+    {"id": "minecraft:causes_continuous_geyser_eruptions", "registry": "block"},
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:geode_invalid_blocks", "registry": "block"},
+    {"id": "minecraft:replaceable", "registry": "block"},
+    {"id": "minecraft:strider_warm_blocks", "registry": "block"},
+    {"id": "minecraft:washed_away_by_fluids", "registry": "block"}
+  ],
+  "refs": {"minecraft:lava": {"name": "Lava"}}
+}

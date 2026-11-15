@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:bubble_column",
+  "name": "Bubble Column",
+  "recipes": [],
+  "used_in": [],
+  "tags": [
+    {
+      "id": "minecraft:enchantment_power_transmitter",
+      "registry": "block",
+      "via": "minecraft:replaceable"
+    },
+    {"id": "minecraft:replaceable", "registry": "block"}
+  ],
+  "refs": {"minecraft:bubble_column": {"name": "Bubble Column"}}
+}

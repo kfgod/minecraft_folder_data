@@ -1,0 +1,117 @@
+{
+  "id": "minecraft:purpur_pillar",
+  "name": "Purpur Pillar",
+  "imagePath": "/block/purpur_pillar/latest.png",
+  "wiki": "https://minecraft.wiki/w/Purpur_Pillar",
+  "recipes": [
+    {
+      "id": "minecraft:purpur_pillar",
+      "type": "crafting_shaped",
+      "grid": [[["minecraft:purpur_slab"]], [["minecraft:purpur_slab"]]],
+      "result": {"id": "minecraft:purpur_pillar", "count": 1}
+    },
+    {
+      "id": "minecraft:purpur_pillar_from_purpur_block_stonecutting",
+      "type": "stonecutting",
+      "inputs": {"ingredient": ["minecraft:purpur_block"]},
+      "result": {"id": "minecraft:purpur_pillar", "count": 1}
+    }
+  ],
+  "used_in": [
+    {
+      "id": "minecraft:purpur_slab",
+      "type": "crafting_shaped",
+      "grid": [
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:purpur_slab", "count": 6}
+    },
+    {
+      "id": "minecraft:purpur_stairs",
+      "type": "crafting_shaped",
+      "grid": [
+        [["minecraft:purpur_block", "minecraft:purpur_pillar"], null, null],
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          null
+        ],
+        [
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"],
+          ["minecraft:purpur_block", "minecraft:purpur_pillar"]
+        ]
+      ],
+      "result": {"id": "minecraft:purpur_stairs", "count": 4}
+    }
+  ],
+  "tags": [
+    {"id": "minecraft:blocks_dolphin_jump", "registry": "block", "via": "minecraft:blocks_motion"},
+    {"id": "minecraft:blocks_fluid_flow", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:blocks_lava_fire_spread",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:blocks_motion_in_heightmap_no_leaves",
+      "registry": "block",
+      "via": "minecraft:blocks_motion_no_leaves"
+    },
+    {"id": "minecraft:blocks_motion_no_leaves", "registry": "block"},
+    {"id": "minecraft:causes_suffocation", "registry": "block", "via": "minecraft:blocks_motion"},
+    {
+      "id": "minecraft:entities_can_teleport_to",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {
+      "id": "minecraft:ice_melts_when_destroyed_above",
+      "registry": "block",
+      "via": "minecraft:blocks_motion"
+    },
+    {"id": "minecraft:mineable/pickaxe", "registry": "block"},
+    {"id": "minecraft:sulfur_cube_archetype/slow_bouncy", "registry": "item"},
+    {
+      "id": "minecraft:sulfur_cube_swallowable",
+      "registry": "item",
+      "via": "minecraft:sulfur_cube_archetype/slow_bouncy"
+    }
+  ],
+  "refs": {
+    "minecraft:purpur_block": {
+      "name": "Purpur Block",
+      "imagePath": "/block/purpur_block/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Block"
+    },
+    "minecraft:purpur_pillar": {
+      "name": "Purpur Pillar",
+      "imagePath": "/block/purpur_pillar/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Pillar"
+    },
+    "minecraft:purpur_slab": {
+      "name": "Purpur Slab",
+      "imagePath": "/block/purpur_slab/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Slab"
+    },
+    "minecraft:purpur_stairs": {
+      "name": "Purpur Stairs",
+      "imagePath": "/block/purpur_stairs/latest.png",
+      "wiki": "https://minecraft.wiki/w/Purpur_Stairs"
+    }
+  }
+}
