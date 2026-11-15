@@ -214,8 +214,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chorus_Fruit",
                 "name": "Chorus Fruit",
@@ -225,8 +224,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Beetroot",
                 "name": "Beetroot",

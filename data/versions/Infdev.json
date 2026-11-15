@@ -107,8 +107,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/supernatural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Apple",
                 "name": "Golden Apple",

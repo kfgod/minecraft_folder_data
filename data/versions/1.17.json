@@ -1040,8 +1040,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Glow_Berries",
                 "name": "Glow Berries",

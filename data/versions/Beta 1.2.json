@@ -79,7 +79,9 @@
                 "imagePath": "/block/dispenser/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cake",
                 "name": "Cake",
                 "identifier": "cake",

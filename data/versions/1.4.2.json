@@ -152,8 +152,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Carrot",
                 "name": "Carrot",
@@ -162,8 +161,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/supernatural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Carrot",
                 "name": "Golden Carrot",
@@ -173,8 +171,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potato",
                 "name": "Potato",
@@ -183,8 +180,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Baked_Potato",
                 "name": "Baked Potato",
@@ -193,8 +189,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Poisonous_Potato",
                 "name": "Poisonous Potato",

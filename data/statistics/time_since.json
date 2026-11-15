@@ -122,5 +122,16 @@
       "imagePath": null
     },
     "release_date": "2026-09-15T11:23:02+00:00"
+  },
+  "last_food": {
+    "version": "1.17",
+    "version_name": "Caves & Cliffs: Part I",
+    "element": {
+      "name": "Glow Berries",
+      "wiki": "https://minecraft.wiki/w/Glow_Berries",
+      "identifier": "glow_berries",
+      "imagePath": "/item/glow_berries/latest.png"
+    },
+    "release_date": "2021-06-08T11:00:40+00:00"
   }
 }

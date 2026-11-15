@@ -491,8 +491,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Apple",
                 "name": "Apple",
@@ -500,28 +499,36 @@
                 "imagePath": "/item/apple/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Raw_Porkchop",
                 "name": "Raw Porkchop",
                 "identifier": "porkchop",
                 "imagePath": "/item/porkchop/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Porkchop",
                 "name": "Cooked Porkchop",
                 "identifier": "cooked_porkchop",
                 "imagePath": "/item/cooked_porkchop/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Bread",
                 "name": "Bread",
                 "identifier": "bread",
                 "imagePath": "/item/bread/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Mushroom_Stew",
                 "name": "Mushroom Stew",
                 "identifier": "mushroom_stew",

@@ -663,8 +663,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sweet_Berries",
                 "name": "Sweet Berries",

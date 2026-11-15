@@ -186,8 +186,7 @@
             {
                 "types": [
                     "vegetation",
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Melon_Slice",
                 "name": "Melon Slice",
@@ -195,35 +194,45 @@
                 "imagePath": "/item/melon_slice/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Raw_Beef",
                 "name": "Raw Beef",
                 "identifier": "beef",
                 "imagePath": "/item/beef/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Steak",
                 "name": "Steak",
                 "identifier": "cooked_beef",
                 "imagePath": "/item/cooked_beef/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Raw_Chicken",
                 "name": "Raw Chicken",
                 "identifier": "chicken",
                 "imagePath": "/item/chicken/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Chicken",
                 "name": "Cooked Chicken",
                 "identifier": "cooked_chicken",
                 "imagePath": "/item/cooked_chicken/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
                 "name": "Rotten Flesh",
                 "identifier": "rotten_flesh",

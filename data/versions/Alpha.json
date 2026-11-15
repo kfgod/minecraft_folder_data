@@ -296,14 +296,18 @@
                 "imagePath": "/item/egg/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Raw_Cod",
                 "name": "Raw Cod",
                 "identifier": "cod",
                 "imagePath": "/item/cod/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Cod",
                 "name": "Cooked Cod",
                 "identifier": "cooked_cod",

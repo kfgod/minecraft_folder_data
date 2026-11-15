@@ -160,8 +160,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/supernatural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple",
                 "name": "Enchanted Golden Apple",

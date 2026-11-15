@@ -203,8 +203,7 @@
             },
             {
                 "types": [
-                    "food",
-                    "food/natural"
+                    "food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spider_Eye",
                 "name": "Spider Eye",

@@ -2,7 +2,9 @@
     "added": {
         "items": [
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Cookie",
                 "name": "Cookie",
                 "identifier": "cookie",

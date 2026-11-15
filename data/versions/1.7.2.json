@@ -664,7 +664,9 @@
                 "imagePath": "/item/cooked_salmon/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "food"
+                ],
                 "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)",
                 "name": "Tropical Fish",
                 "identifier": "tropical_fish",
