@@ -190,7 +190,9 @@
                 "imagePath": "/item/dark_oak_boat/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shield",
                 "name": "Shield",
                 "identifier": "shield",

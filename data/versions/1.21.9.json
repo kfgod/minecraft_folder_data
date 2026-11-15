@@ -578,63 +578,91 @@
         ],
         "items": [
             {
-                "types": [],
+                "types": [
+                    "copper/shovel",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Shovel",
                 "name": "Copper Shovel",
                 "identifier": "copper_shovel",
                 "imagePath": "/item/copper_shovel/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/pickaxe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Pickaxe",
                 "name": "Copper Pickaxe",
                 "identifier": "copper_pickaxe",
                 "imagePath": "/item/copper_pickaxe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "copper/axe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Axe",
                 "name": "Copper Axe",
                 "identifier": "copper_axe",
                 "imagePath": "/item/copper_axe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/hoe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Hoe",
                 "name": "Copper Hoe",
                 "identifier": "copper_hoe",
                 "imagePath": "/item/copper_hoe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/sword",
+                    "weapon"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Sword",
                 "name": "Copper Sword",
                 "identifier": "copper_sword",
                 "imagePath": "/item/copper_sword/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/helmet",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Helmet",
                 "name": "Copper Helmet",
                 "identifier": "copper_helmet",
                 "imagePath": "/item/copper_helmet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/chestplate",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chestplate",
                 "name": "Copper Chestplate",
                 "identifier": "copper_chestplate",
                 "imagePath": "/item/copper_chestplate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/leggings",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Leggings",
                 "name": "Copper Leggings",
                 "identifier": "copper_leggings",
                 "imagePath": "/item/copper_leggings/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "copper/boots",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Boots",
                 "name": "Copper Boots",
                 "identifier": "copper_boots",

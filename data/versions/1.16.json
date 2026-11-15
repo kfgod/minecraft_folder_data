@@ -682,35 +682,50 @@
         ],
         "items": [
             {
-                "types": [],
+                "types": [
+                    "netherite/shovel",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Shovel",
                 "name": "Netherite Shovel",
                 "identifier": "netherite_shovel",
                 "imagePath": "/item/netherite_shovel/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/pickaxe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe",
                 "name": "Netherite Pickaxe",
                 "identifier": "netherite_pickaxe",
                 "imagePath": "/item/netherite_pickaxe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "netherite/axe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Axe",
                 "name": "Netherite Axe",
                 "identifier": "netherite_axe",
                 "imagePath": "/item/netherite_axe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/hoe",
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Hoe",
                 "name": "Netherite Hoe",
                 "identifier": "netherite_hoe",
                 "imagePath": "/item/netherite_hoe/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
                 "name": "Warped Fungus on a Stick",
                 "identifier": "warped_fungus_on_a_stick",
@@ -726,35 +741,50 @@
                 "imagePath": "/item/music_disc_pigstep/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/sword",
+                    "weapon"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Sword",
                 "name": "Netherite Sword",
                 "identifier": "netherite_sword",
                 "imagePath": "/item/netherite_sword/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/helmet",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Helmet",
                 "name": "Netherite Helmet",
                 "identifier": "netherite_helmet",
                 "imagePath": "/item/netherite_helmet/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/chestplate",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
                 "name": "Netherite Chestplate",
                 "identifier": "netherite_chestplate",
                 "imagePath": "/item/netherite_chestplate/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/leggings",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Leggings",
                 "name": "Netherite Leggings",
                 "identifier": "netherite_leggings",
                 "imagePath": "/item/netherite_leggings/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "netherite/boots",
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Boots",
                 "name": "Netherite Boots",
                 "identifier": "netherite_boots",

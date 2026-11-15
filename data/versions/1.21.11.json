@@ -2,49 +2,70 @@
     "added": {
         "items": [
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "wood/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Wooden",
                 "name": "Wooden Spear",
                 "identifier": "wooden_spear",
                 "imagePath": "/item/wooden_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "stone/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Stone",
                 "name": "Stone Spear",
                 "identifier": "stone_spear",
                 "imagePath": "/item/stone_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "copper/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Copper",
                 "name": "Copper Spear",
                 "identifier": "copper_spear",
                 "imagePath": "/item/copper_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "iron/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Iron",
                 "name": "Iron Spear",
                 "identifier": "iron_spear",
                 "imagePath": "/item/iron_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "gold/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Golden",
                 "name": "Golden Spear",
                 "identifier": "golden_spear",
                 "imagePath": "/item/golden_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "diamond/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Diamond",
                 "name": "Diamond Spear",
                 "identifier": "diamond_spear",
                 "imagePath": "/item/diamond_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon",
+                    "netherite/spear"
+                ],
                 "wiki": "https://minecraft.wiki/w/Spear#Netherite",
                 "name": "Netherite Spear",
                 "identifier": "netherite_spear",

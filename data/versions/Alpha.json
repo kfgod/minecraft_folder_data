@@ -233,7 +233,9 @@
                 "imagePath": "/item/milk_bucket/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Fishing_Rod",
                 "name": "Fishing Rod",
                 "identifier": "fishing_rod",

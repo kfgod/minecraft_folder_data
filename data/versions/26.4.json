@@ -302,7 +302,9 @@
                 "imagePath": "/item/frostbite_spawn_egg/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon"
+                ],
                 "wiki": "https://minecraft.wiki/w/Ice_Ball",
                 "name": "Ice Ball",
                 "identifier": "ice_ball",
@@ -374,7 +376,7 @@
         ]
     },
     "image": null,
-    "name": "Winter Drop",
+    "name": "Deep Freeze",
     "release_date": "2026",
     "release_version": {
         "bedrock": null,

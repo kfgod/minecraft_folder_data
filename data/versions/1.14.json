@@ -678,7 +678,9 @@
                 "imagePath": "/item/leather_horse_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon"
+                ],
                 "wiki": "https://minecraft.wiki/w/Crossbow",
                 "name": "Crossbow",
                 "identifier": "crossbow",
@@ -695,7 +697,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "dye"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/White_Dye",
@@ -705,7 +708,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "dye"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Black_Dye",
@@ -715,7 +719,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "dye"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Brown_Dye",
@@ -725,7 +730,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "dye"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Blue_Dye",

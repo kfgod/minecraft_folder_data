@@ -18,7 +18,9 @@
         ],
         "items": [
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Shears",
                 "name": "Shears",
                 "identifier": "shears",

@@ -143,7 +143,9 @@
                 "imagePath": "/item/map/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick",
                 "name": "Carrot on a Stick",
                 "identifier": "carrot_on_a_stick",

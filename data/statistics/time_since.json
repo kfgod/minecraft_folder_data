@@ -133,5 +133,104 @@
       "imagePath": "/item/glow_berries/latest.png"
     },
     "release_date": "2021-06-08T11:00:40+00:00"
+  },
+  "last_smithing_template": {
+    "version": "1.21",
+    "version_name": "Tricky Trials",
+    "element": {
+      "name": "Flow Armor Trim",
+      "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim",
+      "identifier": "flow_armor_trim_smithing_template",
+      "imagePath": "/item/flow_armor_trim_smithing_template/latest.png"
+    },
+    "release_date": "2024-06-13T08:24:03+00:00"
+  },
+  "last_weapon": {
+    "version": "1.21.11",
+    "version_name": "Mounts of Mayhem",
+    "element": {
+      "name": "Golden Spear",
+      "wiki": "https://minecraft.wiki/w/Spear#Golden",
+      "identifier": "golden_spear",
+      "imagePath": "/item/golden_spear/latest.png"
+    },
+    "release_date": "2025-12-09T12:23:30+00:00"
+  },
+  "last_tool": {
+    "version": "1.21.9",
+    "version_name": "The Copper Age",
+    "element": {
+      "name": "Copper Pickaxe",
+      "wiki": "https://minecraft.wiki/w/Copper_Pickaxe",
+      "identifier": "copper_pickaxe",
+      "imagePath": "/item/copper_pickaxe/latest.png"
+    },
+    "release_date": "2025-09-30T11:58:43+00:00"
+  },
+  "last_armor": {
+    "version": "1.21.9",
+    "version_name": "The Copper Age",
+    "element": {
+      "name": "Copper Leggings",
+      "wiki": "https://minecraft.wiki/w/Copper_Leggings",
+      "identifier": "copper_leggings",
+      "imagePath": "/item/copper_leggings/latest.png"
+    },
+    "release_date": "2025-09-30T11:58:43+00:00"
+  },
+  "last_pottery_sherd": {
+    "version": "1.21",
+    "version_name": "Tricky Trials",
+    "element": {
+      "name": "Scrape Pottery Sherd",
+      "wiki": "https://minecraft.wiki/w/Scrape_Pottery_Sherd",
+      "identifier": "scrape_pottery_sherd",
+      "imagePath": "/item/scrape_pottery_sherd/latest.png"
+    },
+    "release_date": "2024-06-13T08:24:03+00:00"
+  },
+  "last_banner_pattern": {
+    "version": "1.21.2",
+    "version_name": "Bundles of Bravery",
+    "element": {
+      "name": "Field Masoned Banner Pattern",
+      "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
+      "identifier": "field_masoned_banner_pattern",
+      "imagePath": "/item/field_masoned_banner_pattern/latest.png"
+    },
+    "release_date": "2024-10-22T09:58:55+00:00"
+  },
+  "last_dye": {
+    "version": "1.14",
+    "version_name": "Village & Pillage",
+    "element": {
+      "name": "Black Dye",
+      "wiki": "https://minecraft.wiki/w/Black_Dye",
+      "identifier": "black_dye",
+      "imagePath": "/item/black_dye/latest.png"
+    },
+    "release_date": "2019-04-23T14:52:44+00:00"
+  },
+  "last_seeds": {
+    "version": "1.20",
+    "version_name": "Trails & Tales",
+    "element": {
+      "name": "Pitcher Pod",
+      "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
+      "identifier": "pitcher_pod",
+      "imagePath": "/item/pitcher_pod/latest.png"
+    },
+    "release_date": "2023-06-02T08:36:17+00:00"
+  },
+  "last_music_disc": {
+    "version": "26.2",
+    "version_name": "Chaos Cubed",
+    "element": {
+      "name": "Music Disc Bounce",
+      "wiki": "https://minecraft.wiki/w/Music_Disc_Bounce",
+      "identifier": "music_disc_bounce",
+      "imagePath": "/item/music_disc_bounce/latest.png"
+    },
+    "release_date": "2026-06-16T12:03:33+00:00"
   }
 }

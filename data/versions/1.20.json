@@ -526,7 +526,9 @@
                 "imagePath": "/item/bamboo_chest_raft/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "tool"
+                ],
                 "wiki": "https://minecraft.wiki/w/Brush",
                 "name": "Brush",
                 "identifier": "brush",

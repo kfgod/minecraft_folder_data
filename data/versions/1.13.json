@@ -616,14 +616,18 @@
                 "imagePath": "/item/pufferfish_bucket/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "weapon"
+                ],
                 "wiki": "https://minecraft.wiki/w/Trident",
                 "name": "Trident",
                 "identifier": "trident",
                 "imagePath": "/item/trident/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Turtle_Shell",
                 "name": "Turtle Shell",
                 "identifier": "turtle_helmet",
