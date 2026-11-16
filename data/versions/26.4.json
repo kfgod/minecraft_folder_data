@@ -346,7 +346,8 @@
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Freezing",
                 "name": "Freezing",
-                "identifier": "freezing"
+                "identifier": "freezing",
+                "imagePath": "/effect/freezing/latest.png"
             }
         ],
         "advancements": [
