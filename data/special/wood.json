@@ -31,7 +31,7 @@
     {
       "group": "oak",
       "group_name": "Oak",
-      "generated_from": "family:oak",
+      "generated_from": "wood:oak",
       "items": {
         "log": {
           "identifier": "oak_log",
@@ -157,7 +157,7 @@
     {
       "group": "spruce",
       "group_name": "Spruce",
-      "generated_from": "family:spruce",
+      "generated_from": "wood:spruce",
       "items": {
         "log": {
           "identifier": "spruce_log",
@@ -283,7 +283,7 @@
     {
       "group": "birch",
       "group_name": "Birch",
-      "generated_from": "family:birch",
+      "generated_from": "wood:birch",
       "items": {
         "log": {
           "identifier": "birch_log",
@@ -409,7 +409,7 @@
     {
       "group": "jungle",
       "group_name": "Jungle",
-      "generated_from": "family:jungle",
+      "generated_from": "wood:jungle",
       "items": {
         "log": {
           "identifier": "jungle_log",
@@ -535,7 +535,7 @@
     {
       "group": "acacia",
       "group_name": "Acacia",
-      "generated_from": "family:acacia",
+      "generated_from": "wood:acacia",
       "items": {
         "log": {
           "identifier": "acacia_log",
@@ -661,7 +661,7 @@
     {
       "group": "dark_oak",
       "group_name": "Dark Oak",
-      "generated_from": "family:dark_oak",
+      "generated_from": "wood:dark_oak",
       "items": {
         "log": {
           "identifier": "dark_oak_log",
@@ -787,7 +787,7 @@
     {
       "group": "mangrove",
       "group_name": "Mangrove",
-      "generated_from": "family:mangrove",
+      "generated_from": "wood:mangrove",
       "items": {
         "log": {
           "identifier": "mangrove_log",
@@ -913,7 +913,7 @@
     {
       "group": "cherry",
       "group_name": "Cherry",
-      "generated_from": "family:cherry",
+      "generated_from": "wood:cherry",
       "items": {
         "log": {
           "identifier": "cherry_log",
@@ -1039,7 +1039,7 @@
     {
       "group": "pale_oak",
       "group_name": "Pale Oak",
-      "generated_from": "family:pale_oak",
+      "generated_from": "wood:pale_oak",
       "items": {
         "log": {
           "identifier": "pale_oak_log",
@@ -1166,7 +1166,7 @@
     {
       "group": "poplar",
       "group_name": "Poplar",
-      "generated_from": "family:poplar",
+      "generated_from": "wood:poplar",
       "items": {
         "log": {
           "identifier": "poplar_log",
@@ -1305,7 +1305,7 @@
     {
       "group": "bamboo",
       "group_name": "Bamboo",
-      "generated_from": "family:bamboo",
+      "generated_from": "wood:bamboo",
       "items": {
         "log": {
           "identifier": "bamboo_block",
@@ -1414,7 +1414,7 @@
     {
       "group": "crimson",
       "group_name": "Crimson",
-      "generated_from": "family:crimson",
+      "generated_from": "wood:crimson",
       "items": {
         "log": {
           "identifier": "crimson_stem",
@@ -1528,7 +1528,7 @@
     {
       "group": "warped",
       "group_name": "Warped",
-      "generated_from": "family:warped",
+      "generated_from": "wood:warped",
       "items": {
         "log": {
           "identifier": "warped_stem",
@@ -1642,7 +1642,7 @@
     {
       "group": "azalea",
       "group_name": "Azalea",
-      "generated_from": "family:azalea",
+      "generated_from": "wood:azalea",
       "items": {
         "sapling": {
           "identifier": "azalea",

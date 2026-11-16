@@ -3,7 +3,7 @@
         "items": [
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_wait",
                 "name": "Music Disc wait",

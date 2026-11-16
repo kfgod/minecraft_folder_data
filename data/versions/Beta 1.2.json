@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Spruce",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Birch",
@@ -46,7 +46,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Spruce",
@@ -56,7 +56,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Birch",
@@ -80,7 +80,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cake",
                 "name": "Cake",
@@ -91,8 +91,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cocoa_Beans",
                 "name": "Cocoa Beans",
@@ -137,7 +137,8 @@
             {
                 "types": [
                     "color:light_gray",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Light_Gray_Dye",
@@ -148,7 +149,8 @@
             {
                 "types": [
                     "color:gray",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Gray_Dye",
@@ -159,7 +161,8 @@
             {
                 "types": [
                     "color:red",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Red_Dye",
@@ -170,7 +173,8 @@
             {
                 "types": [
                     "color:orange",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Orange_Dye",
@@ -181,7 +185,8 @@
             {
                 "types": [
                     "color:yellow",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Yellow_Dye",
@@ -192,7 +197,8 @@
             {
                 "types": [
                     "color:lime",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Lime_Dye",
@@ -203,7 +209,8 @@
             {
                 "types": [
                     "color:green",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Green_Dye",
@@ -214,7 +221,8 @@
             {
                 "types": [
                     "color:cyan",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Cyan_Dye",
@@ -225,7 +233,8 @@
             {
                 "types": [
                     "color:light_blue",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Light_Blue_Dye",
@@ -236,7 +245,8 @@
             {
                 "types": [
                     "color:purple",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Purple_Dye",
@@ -247,7 +257,8 @@
             {
                 "types": [
                     "color:magenta",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Magenta_Dye",
@@ -258,7 +269,8 @@
             {
                 "types": [
                     "color:pink",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Pink_Dye",

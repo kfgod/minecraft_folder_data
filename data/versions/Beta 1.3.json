@@ -33,7 +33,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:bed"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Bed#Red",

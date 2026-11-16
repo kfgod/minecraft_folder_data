@@ -782,7 +782,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Creator_(Music_Box)",
                 "name": "Music Disc Creator (Music Box)",
@@ -791,7 +791,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Creator",
                 "name": "Music Disc Creator",
@@ -800,7 +800,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Precipice",
                 "name": "Music Disc Precipice",
@@ -809,7 +809,7 @@
             },
             {
                 "types": [
-                    "weapon"
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mace",
                 "name": "Mace",
@@ -838,7 +838,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flow_Banner_Pattern",
                 "name": "Flow Banner Pattern",
@@ -847,7 +847,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Guster_Banner_Pattern",
                 "name": "Guster Banner Pattern",
@@ -856,7 +856,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flow_Pottery_Sherd",
                 "name": "Flow Pottery Sherd",
@@ -865,7 +865,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Guster_Pottery_Sherd",
                 "name": "Guster Pottery Sherd",
@@ -874,7 +874,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Scrape_Pottery_Sherd",
                 "name": "Scrape Pottery Sherd",
@@ -883,7 +883,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flow_Armor_Trim",
                 "name": "Flow Armor Trim",
@@ -892,7 +892,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bolt_Armor_Trim",
                 "name": "Bolt Armor Trim",
@@ -919,7 +919,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Bogged Spawn Egg",
@@ -928,7 +928,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Breeze Spawn Egg",

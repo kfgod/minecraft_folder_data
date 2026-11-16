@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Oak",

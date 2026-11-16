@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Spruce",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Birch",

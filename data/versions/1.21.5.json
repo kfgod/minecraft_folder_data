@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Short_Dry_Grass",
                 "name": "Short Dry Grass",
@@ -12,7 +12,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bush",
                 "name": "Bush",
@@ -21,8 +21,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cactus_Flower",
                 "name": "Cactus Flower",
@@ -31,8 +31,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wildflowers",
                 "name": "Wildflowers",
@@ -41,7 +41,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaf_Litter",
                 "name": "Leaf Litter",
@@ -50,7 +50,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Firefly_Bush",
                 "name": "Firefly Bush",
@@ -59,7 +59,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tall_Dry_Grass",
                 "name": "Tall Dry Grass",

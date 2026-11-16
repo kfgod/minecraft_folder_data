@@ -10,7 +10,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:carpet"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Carpet#White",
@@ -20,7 +21,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:carpet"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Carpet#Light_Gray",
@@ -30,7 +32,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:carpet"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Carpet#Gray",
@@ -40,7 +43,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:carpet"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Carpet#Black",
@@ -50,7 +54,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:carpet"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Carpet#Brown",
@@ -60,7 +65,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:carpet"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Carpet#Red",
@@ -70,7 +76,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:carpet"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Carpet#Orange",
@@ -80,7 +87,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:carpet"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Carpet#Yellow",
@@ -90,7 +98,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:carpet"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Carpet#Lime",
@@ -100,7 +109,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:carpet"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Carpet#Green",
@@ -110,7 +120,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:carpet"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Carpet#Cyan",
@@ -120,7 +131,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:carpet"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Carpet#Light_Blue",
@@ -130,7 +142,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:carpet"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Carpet#Blue",
@@ -140,7 +153,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:carpet"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Carpet#Purple",
@@ -150,7 +164,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:carpet"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Carpet#Magenta",
@@ -160,7 +175,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:carpet"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Carpet#Pink",
@@ -177,7 +193,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:stained_terracotta"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#White",
@@ -187,7 +204,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:stained_terracotta"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Gray",
@@ -197,7 +215,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:stained_terracotta"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Gray",
@@ -207,7 +226,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:stained_terracotta"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Black",
@@ -217,7 +237,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:stained_terracotta"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Brown",
@@ -227,7 +248,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:stained_terracotta"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Red",
@@ -237,7 +259,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:stained_terracotta"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Orange",
@@ -247,7 +270,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:stained_terracotta"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Yellow",
@@ -257,7 +281,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:stained_terracotta"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Lime",
@@ -267,7 +292,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:stained_terracotta"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Green",
@@ -277,7 +303,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:stained_terracotta"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Cyan",
@@ -287,7 +314,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:stained_terracotta"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Light_Blue",
@@ -297,7 +325,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:stained_terracotta"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Blue",
@@ -307,7 +336,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:stained_terracotta"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Purple",
@@ -317,7 +347,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:stained_terracotta"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Magenta",
@@ -327,7 +358,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:stained_terracotta"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Terracotta#Pink",
@@ -359,21 +391,33 @@
                 "imagePath": "/item/lead/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:iron",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Iron_Horse_Armor",
                 "name": "Iron Horse Armor",
                 "identifier": "iron_horse_armor",
                 "imagePath": "/item/iron_horse_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:gold",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Golden_Horse_Armor",
                 "name": "Golden Horse Armor",
                 "identifier": "golden_horse_armor",
                 "imagePath": "/item/golden_horse_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:diamond",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Horse_Armor",
                 "name": "Diamond Horse Armor",
                 "identifier": "diamond_horse_armor",
@@ -381,7 +425,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Horse Spawn Egg",

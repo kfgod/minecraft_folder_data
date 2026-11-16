@@ -3,7 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:shulker_box"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#White",
@@ -13,7 +14,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:shulker_box"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Gray",
@@ -23,7 +25,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:shulker_box"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Gray",
@@ -33,7 +36,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:shulker_box"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Black",
@@ -43,7 +47,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:shulker_box"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Brown",
@@ -53,7 +58,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:shulker_box"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Red",
@@ -63,7 +69,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:shulker_box"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Orange",
@@ -73,7 +80,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:shulker_box"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Yellow",
@@ -83,7 +91,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:shulker_box"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Lime",
@@ -93,7 +102,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:shulker_box"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Green",
@@ -103,7 +113,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:shulker_box"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Cyan",
@@ -113,7 +124,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:shulker_box"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Light_Blue",
@@ -123,7 +135,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:shulker_box"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Blue",
@@ -133,7 +146,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:shulker_box"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Purple",
@@ -143,7 +157,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:shulker_box"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Magenta",
@@ -153,7 +168,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:shulker_box"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Shulker_Box#Pink",
@@ -186,7 +202,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Donkey Spawn Egg",
@@ -195,7 +211,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Mule Spawn Egg",
@@ -204,7 +220,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Llama Spawn Egg",
@@ -213,7 +229,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Husk Spawn Egg",
@@ -222,7 +238,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Skeleton Horse Spawn Egg",
@@ -231,7 +247,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Stray Spawn Egg",
@@ -240,7 +256,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombie Horse Spawn Egg",
@@ -249,7 +265,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombie Villager Spawn Egg",
@@ -258,7 +274,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Elder Guardian Spawn Egg",
@@ -267,7 +283,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Evoker Spawn Egg",
@@ -276,7 +292,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Vex Spawn Egg",
@@ -285,7 +301,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Vindicator Spawn Egg",
@@ -294,7 +310,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Wither Skeleton Spawn Egg",

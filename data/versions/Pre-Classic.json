@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Oak",
@@ -45,7 +45,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Oak",

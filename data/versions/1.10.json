@@ -26,7 +26,10 @@
                 "imagePath": "/block/bone_block/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "wood:crimson",
+                    "form:leaves"
+                ],
                 "wiki": "https://minecraft.wiki/w/Nether_Wart_Block",
                 "name": "Nether Wart Block",
                 "identifier": "nether_wart_block",
@@ -43,7 +46,7 @@
         "items": [
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Polar Bear Spawn Egg",

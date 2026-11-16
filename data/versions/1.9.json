@@ -59,7 +59,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chorus_Plant",
                 "name": "Chorus Plant",
@@ -68,8 +68,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chorus_Flower",
                 "name": "Chorus Flower",
@@ -92,7 +92,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dragon_Head",
                 "name": "Dragon Head",
@@ -124,8 +124,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Beetroot_Seeds",
                 "name": "Beetroot Seeds",
@@ -141,7 +141,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Spruce",
@@ -151,7 +151,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Birch",
@@ -161,7 +161,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Jungle",
@@ -171,7 +171,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Acacia",
@@ -181,7 +181,7 @@
             },
             {
                 "types": [
-                    "family: dark_oak",
+                    "wood:dark_oak",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Dark_Oak",
@@ -191,7 +191,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shield",
                 "name": "Shield",
@@ -215,8 +215,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chorus_Fruit",
                 "name": "Chorus Fruit",
@@ -225,8 +225,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Beetroot",
                 "name": "Beetroot",
@@ -235,7 +235,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Beetroot_Soup",
                 "name": "Beetroot Soup",
@@ -258,7 +258,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Shulker Spawn Egg",

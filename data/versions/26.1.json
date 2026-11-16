@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "flower"
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Dandelion",
                 "name": "Golden Dandelion",

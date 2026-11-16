@@ -1,9 +1,26 @@
 {
   "name": "Tiered Materials",
+  "order": 2,
+  "generated": "tiered",
+  "columns_order": [
+    "axe",
+    "hoe",
+    "pickaxe",
+    "shovel",
+    "spear",
+    "sword",
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots",
+    "nautilus_armor",
+    "horse_armor"
+  ],
   "groups": [
     {
       "group": "wooden",
       "group_name": "Wooden",
+      "generated_from": "material:wood",
       "material": {
         "identifier": "oak_planks",
         "name": "Oak Planks",
@@ -52,6 +69,7 @@
     {
       "group": "stone",
       "group_name": "Stone",
+      "generated_from": "material:stone",
       "material": {
         "identifier": "stone",
         "name": "Stone",
@@ -100,6 +118,7 @@
     {
       "group": "leather",
       "group_name": "Leather",
+      "generated_from": "material:leather",
       "material": {
         "identifier": "leather",
         "name": "Leather",
@@ -142,6 +161,7 @@
     {
       "group": "copper",
       "group_name": "Copper",
+      "generated_from": "material:copper",
       "material": {
         "identifier": "copper_ingot",
         "name": "Copper Ingot",
@@ -226,6 +246,7 @@
     {
       "group": "gold",
       "group_name": "Gold",
+      "generated_from": "material:gold",
       "material": {
         "identifier": "gold_ingot",
         "name": "Gold Ingot",
@@ -308,8 +329,40 @@
       }
     },
     {
+      "group": "chainmail",
+      "group_name": "Chainmail",
+      "generated_from": "material:chainmail",
+      "items": {
+        "helmet": {
+          "identifier": "chainmail_helmet",
+          "name": "Chainmail Helmet",
+          "wiki": "https://minecraft.wiki/w/Chainmail_Helmet",
+          "imagePath": "/item/chainmail_helmet/latest.png"
+        },
+        "chestplate": {
+          "identifier": "chainmail_chestplate",
+          "name": "Chainmail Chestplate",
+          "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate",
+          "imagePath": "/item/chainmail_chestplate/latest.png"
+        },
+        "leggings": {
+          "identifier": "chainmail_leggings",
+          "name": "Chainmail Leggings",
+          "wiki": "https://minecraft.wiki/w/Chainmail_Leggings",
+          "imagePath": "/item/chainmail_leggings/latest.png"
+        },
+        "boots": {
+          "identifier": "chainmail_boots",
+          "name": "Chainmail Boots",
+          "wiki": "https://minecraft.wiki/w/Chainmail_Boots",
+          "imagePath": "/item/chainmail_boots/latest.png"
+        }
+      }
+    },
+    {
       "group": "iron",
       "group_name": "Iron",
+      "generated_from": "material:iron",
       "material": {
         "identifier": "iron_ingot",
         "name": "Iron Ingot",
@@ -394,6 +447,7 @@
     {
       "group": "diamond",
       "group_name": "Diamond",
+      "generated_from": "material:diamond",
       "material": {
         "identifier": "diamond",
         "name": "Diamond",
@@ -478,6 +532,7 @@
     {
       "group": "netherite",
       "group_name": "Netherite",
+      "generated_from": "material:netherite",
       "material": {
         "identifier": "netherite_ingot",
         "name": "Netherite Ingot",
@@ -559,6 +614,5 @@
         }
       }
     }
-  ],
-  "order": 2
+  ]
 }

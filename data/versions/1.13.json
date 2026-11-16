@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Oak",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Spruce",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Spruce",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Spruce",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Spruce",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Birch",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Birch",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Birch",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Birch",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -133,7 +133,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Jungle",
@@ -143,7 +143,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Jungle",
@@ -153,7 +153,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Jungle",
@@ -163,7 +163,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Jungle",
@@ -173,7 +173,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -183,7 +183,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Acacia",
@@ -193,7 +193,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Acacia",
@@ -203,7 +203,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Acacia",
@@ -213,7 +213,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Acacia",
@@ -223,7 +223,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -233,7 +233,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Dark_Oak",
@@ -243,7 +243,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Dark_Oak",
@@ -253,7 +253,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Dark_Oak",
@@ -263,7 +263,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Dark_Oak",
@@ -356,7 +356,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Seagrass",
                 "name": "Seagrass",
@@ -372,7 +372,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Kelp",
                 "name": "Kelp",
@@ -563,7 +563,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pumpkin",
                 "name": "Pumpkin",
@@ -581,7 +581,7 @@
         "items": [
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Cod",
                 "name": "Bucket of Cod",
@@ -590,7 +590,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Salmon",
                 "name": "Bucket of Salmon",
@@ -599,7 +599,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Tropical_Fish",
                 "name": "Bucket of Tropical Fish",
@@ -608,7 +608,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Pufferfish",
                 "name": "Bucket of Pufferfish",
@@ -617,7 +617,7 @@
             },
             {
                 "types": [
-                    "weapon"
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trident",
                 "name": "Trident",
@@ -626,7 +626,7 @@
             },
             {
                 "types": [
-                    "armor"
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Turtle_Shell",
                 "name": "Turtle Shell",
@@ -635,7 +635,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dried_Kelp",
                 "name": "Dried Kelp",
@@ -672,7 +672,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Cod Spawn Egg",
@@ -681,7 +681,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Dolphin Spawn Egg",
@@ -690,7 +690,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Pufferfish Spawn Egg",
@@ -699,7 +699,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Salmon Spawn Egg",
@@ -708,7 +708,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Tropical Fish Spawn Egg",
@@ -717,7 +717,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Turtle Spawn Egg",
@@ -726,7 +726,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Drowned Spawn Egg",
@@ -735,7 +735,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Phantom Spawn Egg",

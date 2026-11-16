@@ -33,7 +33,7 @@
         "items": [
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Honey_Bottle",
                 "name": "Honey Bottle",
@@ -49,7 +49,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Bee Spawn Egg",

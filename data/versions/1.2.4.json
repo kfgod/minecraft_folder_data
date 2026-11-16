@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Spruce",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Birch",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Jungle",

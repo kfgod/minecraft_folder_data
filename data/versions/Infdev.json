@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Oak",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Oak",
@@ -40,7 +40,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Oak",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket",
                 "name": "Bucket",
@@ -82,7 +82,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Water_Bucket",
                 "name": "Water Bucket",
@@ -91,7 +91,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lava_Bucket",
                 "name": "Lava Bucket",
@@ -107,7 +107,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Apple",
                 "name": "Golden Apple",

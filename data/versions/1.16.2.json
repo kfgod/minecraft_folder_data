@@ -3,7 +3,7 @@
         "items": [
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Piglin Brute Spawn Egg",

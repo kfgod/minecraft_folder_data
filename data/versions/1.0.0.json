@@ -51,7 +51,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lily_Pad",
                 "name": "Lily Pad",
@@ -105,8 +105,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Wart",
                 "name": "Nether Wart",
@@ -122,7 +122,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_blocks",
                 "name": "Music Disc blocks",
@@ -131,7 +131,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_chirp",
                 "name": "Music Disc chirp",
@@ -140,7 +140,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_far",
                 "name": "Music Disc far",
@@ -149,7 +149,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_mall",
                 "name": "Music Disc mall",
@@ -158,7 +158,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_mellohi",
                 "name": "Music Disc mellohi",
@@ -167,7 +167,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_stal",
                 "name": "Music Disc stal",
@@ -176,7 +176,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_strad",
                 "name": "Music Disc strad",
@@ -185,7 +185,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_ward",
                 "name": "Music Disc ward",
@@ -194,7 +194,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_11",
                 "name": "Music Disc 11",
@@ -203,7 +203,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spider_Eye",
                 "name": "Spider Eye",

@@ -450,8 +450,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cornflower",
                 "name": "Cornflower",
@@ -460,8 +460,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lily_of_the_Valley",
                 "name": "Lily of the Valley",
@@ -470,8 +470,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wither_Rose",
                 "name": "Wither Rose",
@@ -480,7 +480,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bamboo",
@@ -588,7 +588,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Spruce",
@@ -598,7 +598,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Birch",
@@ -608,7 +608,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Jungle",
@@ -618,7 +618,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Acacia",
@@ -628,7 +628,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Dark_Oak",
@@ -662,8 +662,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sweet_Berries",
                 "name": "Sweet Berries",
@@ -671,7 +671,11 @@
                 "imagePath": "/item/sweet_berries/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:leather",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Leather_Horse_Armor",
                 "name": "Leather Horse Armor",
                 "identifier": "leather_horse_armor",
@@ -679,7 +683,7 @@
             },
             {
                 "types": [
-                    "weapon"
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Crossbow",
                 "name": "Crossbow",
@@ -688,7 +692,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Suspicious_Stew",
                 "name": "Suspicious Stew",
@@ -698,7 +702,8 @@
             {
                 "types": [
                     "color:white",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/White_Dye",
@@ -709,7 +714,8 @@
             {
                 "types": [
                     "color:black",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Black_Dye",
@@ -720,7 +726,8 @@
             {
                 "types": [
                     "color:brown",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Brown_Dye",
@@ -731,7 +738,8 @@
             {
                 "types": [
                     "color:blue",
-                    "dye"
+                    "kind:dye",
+                    "form:dye"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Blue_Dye",
@@ -741,7 +749,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flower_Charge_Banner_Pattern",
                 "name": "Flower Charge Banner Pattern",
@@ -750,7 +758,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Creeper_Charge_Banner_Pattern",
                 "name": "Creeper Charge Banner Pattern",
@@ -759,7 +767,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Skull_Charge_Banner_Pattern",
                 "name": "Skull Charge Banner Pattern",
@@ -768,7 +776,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Thing_Banner_Pattern",
                 "name": "Thing Banner Pattern",
@@ -777,7 +785,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Globe_Banner_Pattern",
                 "name": "Globe Banner Pattern",
@@ -786,7 +794,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Cat Spawn Egg",
@@ -795,7 +803,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Fox Spawn Egg",
@@ -804,7 +812,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Panda Spawn Egg",
@@ -813,7 +821,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Trader Llama Spawn Egg",
@@ -822,7 +830,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Wandering Trader Spawn Egg",
@@ -831,7 +839,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Pillager Spawn Egg",
@@ -840,7 +848,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Ravager Spawn Egg",

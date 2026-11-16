@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Acacia",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Acacia",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Acacia",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Acacia",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Acacia",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Dark_Oak",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Dark_Oak",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Dark_Oak",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Dark_Oak",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Dark_Oak",
@@ -103,7 +103,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:stained_glass"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#White",
@@ -113,7 +114,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:stained_glass"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Gray",
@@ -123,7 +125,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:stained_glass"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Gray",
@@ -133,7 +136,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:stained_glass"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Black",
@@ -143,7 +147,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:stained_glass"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Brown",
@@ -153,7 +158,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:stained_glass"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Red",
@@ -163,7 +169,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:stained_glass"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Orange",
@@ -173,7 +180,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:stained_glass"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Yellow",
@@ -183,7 +191,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:stained_glass"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Lime",
@@ -193,7 +202,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:stained_glass"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Green",
@@ -203,7 +213,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:stained_glass"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Cyan",
@@ -213,7 +224,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:stained_glass"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Light_Blue",
@@ -223,7 +235,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:stained_glass"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Blue",
@@ -233,7 +246,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:stained_glass"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Purple",
@@ -243,7 +257,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:stained_glass"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Magenta",
@@ -253,7 +268,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:stained_glass"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass#Pink",
@@ -263,7 +279,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:stained_glass_pane"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#White",
@@ -273,7 +290,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:stained_glass_pane"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Gray",
@@ -283,7 +301,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:stained_glass_pane"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Gray",
@@ -293,7 +312,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:stained_glass_pane"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Black",
@@ -303,7 +323,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:stained_glass_pane"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Brown",
@@ -313,7 +334,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:stained_glass_pane"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Red",
@@ -323,7 +345,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:stained_glass_pane"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Orange",
@@ -333,7 +356,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:stained_glass_pane"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Yellow",
@@ -343,7 +367,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:stained_glass_pane"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Lime",
@@ -353,7 +378,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:stained_glass_pane"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Green",
@@ -363,7 +389,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:stained_glass_pane"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Cyan",
@@ -373,7 +400,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:stained_glass_pane"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Light_Blue",
@@ -383,7 +411,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:stained_glass_pane"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Blue",
@@ -393,7 +422,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:stained_glass_pane"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Purple",
@@ -403,7 +433,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:stained_glass_pane"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Magenta",
@@ -413,7 +444,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:stained_glass_pane"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Stained_Glass_Pane#Pink",
@@ -446,7 +478,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Acacia",
@@ -456,7 +488,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Dark_Oak",
@@ -466,7 +498,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Acacia",
@@ -476,7 +508,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Dark_Oak",
@@ -486,8 +518,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Blue_Orchid",
                 "name": "Blue Orchid",
@@ -496,8 +528,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Allium",
                 "name": "Allium",
@@ -506,8 +538,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Azure Bluet",
@@ -516,8 +548,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Red Tulip",
@@ -526,8 +558,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Orange Tulip",
@@ -536,8 +568,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "White Tulip",
@@ -546,8 +578,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Pink Tulip",
@@ -556,8 +588,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Oxeye Daisy",
@@ -566,7 +598,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tall_Grass",
                 "name": "Tall Grass",
@@ -575,7 +607,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Large_Fern",
                 "name": "Large Fern",
@@ -584,8 +616,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sunflower",
                 "name": "Sunflower",
@@ -594,8 +626,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lilac",
                 "name": "Lilac",
@@ -604,8 +636,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rose_Bush",
                 "name": "Rose Bush",
@@ -614,8 +646,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Peony",
                 "name": "Peony",
@@ -647,7 +679,7 @@
         "items": [
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Salmon",
                 "name": "Raw Salmon",
@@ -656,7 +688,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Salmon",
                 "name": "Cooked Salmon",
@@ -665,7 +697,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tropical_Fish_(item)",
                 "name": "Tropical Fish",
@@ -674,7 +706,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pufferfish_(item)",
                 "name": "Pufferfish",

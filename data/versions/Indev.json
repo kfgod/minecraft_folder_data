@@ -54,8 +54,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wheat_Seeds",
                 "name": "Wheat Seeds",
@@ -71,8 +71,9 @@
             },
             {
                 "types": [
-                    "wood/shovel",
-                    "tool"
+                    "material:wood",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Shovel",
                 "name": "Wooden Shovel",
@@ -81,8 +82,9 @@
             },
             {
                 "types": [
-                    "wood/pickaxe",
-                    "tool"
+                    "material:wood",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pickaxe",
                 "name": "Wooden Pickaxe",
@@ -91,9 +93,10 @@
             },
             {
                 "types": [
-                    "wood/axe",
-                    "weapon",
-                    "tool"
+                    "material:wood",
+                    "form:axe",
+                    "use:weapon",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Axe",
                 "name": "Wooden Axe",
@@ -102,8 +105,9 @@
             },
             {
                 "types": [
-                    "wood/hoe",
-                    "tool"
+                    "material:wood",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Hoe",
                 "name": "Wooden Hoe",
@@ -112,8 +116,9 @@
             },
             {
                 "types": [
-                    "stone/shovel",
-                    "tool"
+                    "material:stone",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stone_Shovel",
                 "name": "Stone Shovel",
@@ -122,8 +127,9 @@
             },
             {
                 "types": [
-                    "stone/pickaxe",
-                    "tool"
+                    "material:stone",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stone_Pickaxe",
                 "name": "Stone Pickaxe",
@@ -132,9 +138,10 @@
             },
             {
                 "types": [
-                    "stone/axe",
-                    "weapon",
-                    "tool"
+                    "material:stone",
+                    "form:axe",
+                    "use:weapon",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stone_Axe",
                 "name": "Stone Axe",
@@ -143,8 +150,9 @@
             },
             {
                 "types": [
-                    "stone/hoe",
-                    "tool"
+                    "material:stone",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stone_Hoe",
                 "name": "Stone Hoe",
@@ -153,8 +161,9 @@
             },
             {
                 "types": [
-                    "iron/shovel",
-                    "tool"
+                    "material:iron",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Shovel",
                 "name": "Iron Shovel",
@@ -163,8 +172,9 @@
             },
             {
                 "types": [
-                    "iron/pickaxe",
-                    "tool"
+                    "material:iron",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Pickaxe",
                 "name": "Iron Pickaxe",
@@ -173,9 +183,10 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "iron/axe",
-                    "tool"
+                    "use:weapon",
+                    "material:iron",
+                    "form:axe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Axe",
                 "name": "Iron Axe",
@@ -184,8 +195,9 @@
             },
             {
                 "types": [
-                    "iron/hoe",
-                    "tool"
+                    "material:iron",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Hoe",
                 "name": "Iron Hoe",
@@ -194,8 +206,9 @@
             },
             {
                 "types": [
-                    "gold/shovel",
-                    "tool"
+                    "material:gold",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Shovel",
                 "name": "Golden Shovel",
@@ -204,8 +217,9 @@
             },
             {
                 "types": [
-                    "gold/pickaxe",
-                    "tool"
+                    "material:gold",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Pickaxe",
                 "name": "Golden Pickaxe",
@@ -214,9 +228,10 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "gold/axe",
-                    "tool"
+                    "use:weapon",
+                    "material:gold",
+                    "form:axe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Axe",
                 "name": "Golden Axe",
@@ -225,8 +240,9 @@
             },
             {
                 "types": [
-                    "gold/hoe",
-                    "tool"
+                    "material:gold",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Hoe",
                 "name": "Golden Hoe",
@@ -235,8 +251,9 @@
             },
             {
                 "types": [
-                    "diamond/shovel",
-                    "tool"
+                    "material:diamond",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Shovel",
                 "name": "Diamond Shovel",
@@ -245,8 +262,9 @@
             },
             {
                 "types": [
-                    "diamond/pickaxe",
-                    "tool"
+                    "material:diamond",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Pickaxe",
                 "name": "Diamond Pickaxe",
@@ -255,9 +273,10 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "diamond/axe",
-                    "tool"
+                    "use:weapon",
+                    "material:diamond",
+                    "form:axe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Axe",
                 "name": "Diamond Axe",
@@ -266,8 +285,9 @@
             },
             {
                 "types": [
-                    "diamond/hoe",
-                    "tool"
+                    "material:diamond",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Hoe",
                 "name": "Diamond Hoe",
@@ -276,7 +296,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flint_and_Steel",
                 "name": "Flint and Steel",
@@ -285,8 +305,9 @@
             },
             {
                 "types": [
-                    "wood/sword",
-                    "weapon"
+                    "material:wood",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Sword",
                 "name": "Wooden Sword",
@@ -295,8 +316,9 @@
             },
             {
                 "types": [
-                    "stone/sword",
-                    "weapon"
+                    "material:stone",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stone_Sword",
                 "name": "Stone Sword",
@@ -305,8 +327,9 @@
             },
             {
                 "types": [
-                    "iron/sword",
-                    "weapon"
+                    "material:iron",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Sword",
                 "name": "Iron Sword",
@@ -315,8 +338,9 @@
             },
             {
                 "types": [
-                    "gold/sword",
-                    "weapon"
+                    "material:gold",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Sword",
                 "name": "Golden Sword",
@@ -325,8 +349,9 @@
             },
             {
                 "types": [
-                    "diamond/sword",
-                    "weapon"
+                    "material:diamond",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Sword",
                 "name": "Diamond Sword",
@@ -335,8 +360,9 @@
             },
             {
                 "types": [
-                    "leather/helmet",
-                    "armor"
+                    "material:leather",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leather_Cap",
                 "name": "Leather Cap",
@@ -345,8 +371,9 @@
             },
             {
                 "types": [
-                    "leather/chestplate",
-                    "armor"
+                    "material:leather",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leather_Tunic",
                 "name": "Leather Tunic",
@@ -355,8 +382,9 @@
             },
             {
                 "types": [
-                    "leather/leggins",
-                    "armor"
+                    "material:leather",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leather_Pants",
                 "name": "Leather Pants",
@@ -365,8 +393,9 @@
             },
             {
                 "types": [
-                    "leather/boots",
-                    "armor"
+                    "material:leather",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leather_Boots",
                 "name": "Leather Boots",
@@ -375,8 +404,9 @@
             },
             {
                 "types": [
-                    "chainmail/helmet",
-                    "armor"
+                    "material:chainmail",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chainmail_Helmet",
                 "name": "Chainmail Helmet",
@@ -385,8 +415,9 @@
             },
             {
                 "types": [
-                    "chainmail/chestplate",
-                    "armor"
+                    "material:chainmail",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chainmail_Chestplate",
                 "name": "Chainmail Chestplate",
@@ -395,8 +426,9 @@
             },
             {
                 "types": [
-                    "chainmail/leggins",
-                    "armor"
+                    "material:chainmail",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chainmail_Leggings",
                 "name": "Chainmail Leggings",
@@ -405,8 +437,9 @@
             },
             {
                 "types": [
-                    "chainmail/boots",
-                    "armor"
+                    "material:chainmail",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chainmail_Boots",
                 "name": "Chainmail Boots",
@@ -415,8 +448,9 @@
             },
             {
                 "types": [
-                    "iron/helmet",
-                    "armor"
+                    "material:iron",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Helmet",
                 "name": "Iron Helmet",
@@ -425,8 +459,9 @@
             },
             {
                 "types": [
-                    "iron/chestplate",
-                    "armor"
+                    "material:iron",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Chestplate",
                 "name": "Iron Chestplate",
@@ -435,8 +470,9 @@
             },
             {
                 "types": [
-                    "iron/leggins",
-                    "armor"
+                    "material:iron",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Leggings",
                 "name": "Iron Leggings",
@@ -445,8 +481,9 @@
             },
             {
                 "types": [
-                    "iron/boots",
-                    "armor"
+                    "material:iron",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Boots",
                 "name": "Iron Boots",
@@ -455,8 +492,9 @@
             },
             {
                 "types": [
-                    "gold/helmet",
-                    "armor"
+                    "material:gold",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Helmet",
                 "name": "Golden Helmet",
@@ -465,8 +503,9 @@
             },
             {
                 "types": [
-                    "gold/chestplate",
-                    "armor"
+                    "material:gold",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Chestplate",
                 "name": "Golden Chestplate",
@@ -475,8 +514,9 @@
             },
             {
                 "types": [
-                    "gold/leggins",
-                    "armor"
+                    "material:gold",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Leggings",
                 "name": "Golden Leggings",
@@ -485,8 +525,9 @@
             },
             {
                 "types": [
-                    "gold/boots",
-                    "armor"
+                    "material:gold",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Boots",
                 "name": "Golden Boots",
@@ -495,8 +536,9 @@
             },
             {
                 "types": [
-                    "diamond/helmet",
-                    "armor"
+                    "material:diamond",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Helmet",
                 "name": "Diamond Helmet",
@@ -505,8 +547,9 @@
             },
             {
                 "types": [
-                    "diamond/chestplate",
-                    "armor"
+                    "material:diamond",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Chestplate",
                 "name": "Diamond Chestplate",
@@ -515,8 +558,9 @@
             },
             {
                 "types": [
-                    "diamond/leggins",
-                    "armor"
+                    "material:diamond",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Leggings",
                 "name": "Diamond Leggings",
@@ -525,8 +569,9 @@
             },
             {
                 "types": [
-                    "diamond/boots",
-                    "armor"
+                    "material:diamond",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Boots",
                 "name": "Diamond Boots",
@@ -535,7 +580,7 @@
             },
             {
                 "types": [
-                    "weapon"
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bow",
                 "name": "Bow",
@@ -544,8 +589,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Apple",
                 "name": "Apple",
@@ -554,7 +599,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Porkchop",
                 "name": "Raw Porkchop",
@@ -563,7 +608,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Porkchop",
                 "name": "Cooked Porkchop",
@@ -572,7 +617,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bread",
                 "name": "Bread",
@@ -581,7 +626,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mushroom_Stew",
                 "name": "Mushroom Stew",
@@ -590,7 +635,7 @@
             },
             {
                 "types": [
-                    "coal"
+                    "material:coal"
                 ],
                 "wiki": "https://minecraft.wiki/w/Coal",
                 "name": "Coal",
@@ -599,7 +644,7 @@
             },
             {
                 "types": [
-                    "diamond"
+                    "material:diamond"
                 ],
                 "wiki": "https://minecraft.wiki/w/Diamond",
                 "name": "Diamond",
@@ -608,7 +653,7 @@
             },
             {
                 "types": [
-                    "iron"
+                    "material:iron"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Ingot",
                 "name": "Iron Ingot",
@@ -617,7 +662,7 @@
             },
             {
                 "types": [
-                    "gold"
+                    "material:gold"
                 ],
                 "wiki": "https://minecraft.wiki/w/Gold_Ingot",
                 "name": "Gold Ingot",

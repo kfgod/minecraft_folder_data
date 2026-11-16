@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Crimson",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Crimson",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Crimson",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Crimson",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Crimson",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Crimson",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Crimson",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Crimson",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Crimson",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Crimson",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Crimson",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Crimson",
@@ -133,7 +133,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Warped",
@@ -143,7 +143,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Warped",
@@ -153,7 +153,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -163,7 +163,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Warped",
@@ -173,7 +173,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Warped",
@@ -183,7 +183,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Warped",
@@ -193,7 +193,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Warped",
@@ -203,7 +203,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Warped",
@@ -213,7 +213,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Warped",
@@ -223,7 +223,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Warped",
@@ -233,7 +233,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Warped",
@@ -243,7 +243,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Warped",
@@ -253,7 +253,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Warped",
@@ -537,7 +537,10 @@
                 "imagePath": "/block/ancient_debris/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "wood:warped",
+                    "form:leaves"
+                ],
                 "wiki": "https://minecraft.wiki/w/Warped_Wart_Block",
                 "name": "Warped Wart Block",
                 "identifier": "warped_wart_block",
@@ -545,7 +548,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shroomlight",
                 "name": "Shroomlight",
@@ -554,7 +557,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Crimson_Fungus",
@@ -564,7 +567,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warped_Fungus",
@@ -574,7 +577,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Crimson_Roots",
                 "name": "Crimson Roots",
@@ -583,7 +586,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warped_Roots",
                 "name": "Warped Roots",
@@ -592,7 +595,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Sprouts",
                 "name": "Nether Sprouts",
@@ -601,7 +604,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Weeping_Vines",
                 "name": "Weeping Vines",
@@ -610,7 +613,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Twisting_Vines",
                 "name": "Twisting Vines",
@@ -647,7 +650,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Crimson",
@@ -657,7 +660,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Warped",
@@ -683,8 +686,9 @@
         "items": [
             {
                 "types": [
-                    "netherite/shovel",
-                    "tool"
+                    "material:netherite",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Shovel",
                 "name": "Netherite Shovel",
@@ -693,8 +697,9 @@
             },
             {
                 "types": [
-                    "netherite/pickaxe",
-                    "tool"
+                    "material:netherite",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Pickaxe",
                 "name": "Netherite Pickaxe",
@@ -703,9 +708,10 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "netherite/axe",
-                    "tool"
+                    "use:weapon",
+                    "material:netherite",
+                    "form:axe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Axe",
                 "name": "Netherite Axe",
@@ -714,8 +720,9 @@
             },
             {
                 "types": [
-                    "netherite/hoe",
-                    "tool"
+                    "material:netherite",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Hoe",
                 "name": "Netherite Hoe",
@@ -724,7 +731,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warped_Fungus_on_a_Stick",
                 "name": "Warped Fungus on a Stick",
@@ -733,7 +740,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Pigstep",
                 "name": "Music Disc Pigstep",
@@ -742,8 +749,9 @@
             },
             {
                 "types": [
-                    "netherite/sword",
-                    "weapon"
+                    "material:netherite",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Sword",
                 "name": "Netherite Sword",
@@ -752,8 +760,9 @@
             },
             {
                 "types": [
-                    "netherite/helmet",
-                    "armor"
+                    "material:netherite",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Helmet",
                 "name": "Netherite Helmet",
@@ -762,8 +771,9 @@
             },
             {
                 "types": [
-                    "netherite/chestplate",
-                    "armor"
+                    "material:netherite",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Chestplate",
                 "name": "Netherite Chestplate",
@@ -772,8 +782,9 @@
             },
             {
                 "types": [
-                    "netherite/leggings",
-                    "armor"
+                    "material:netherite",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Leggings",
                 "name": "Netherite Leggings",
@@ -782,8 +793,9 @@
             },
             {
                 "types": [
-                    "netherite/boots",
-                    "armor"
+                    "material:netherite",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Boots",
                 "name": "Netherite Boots",
@@ -806,7 +818,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snout_Banner_Pattern",
                 "name": "Snout Banner Pattern",
@@ -815,7 +827,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Hoglin Spawn Egg",
@@ -824,7 +836,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Piglin Spawn Egg",
@@ -833,7 +845,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Strider Spawn Egg",
@@ -842,7 +854,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zoglin Spawn Egg",

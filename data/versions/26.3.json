@@ -3,7 +3,8 @@
         "blocks": [
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#White",
                 "color": "white",
@@ -13,7 +14,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Light_Gray",
                 "color": "light_gray",
@@ -23,7 +25,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Gray",
                 "color": "gray",
@@ -33,7 +36,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Black",
                 "color": "black",
@@ -43,7 +47,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Brown",
                 "color": "brown",
@@ -53,7 +58,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Red",
                 "color": "red",
@@ -63,7 +69,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Orange",
                 "color": "orange",
@@ -73,7 +80,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Yellow",
                 "color": "yellow",
@@ -83,7 +91,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Lime",
                 "color": "lime",
@@ -93,7 +102,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Green",
                 "color": "green",
@@ -103,7 +113,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Cyan",
                 "color": "cyan",
@@ -113,7 +124,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Light_Blue",
                 "color": "light_blue",
@@ -123,7 +135,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Blue",
                 "color": "blue",
@@ -133,7 +146,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Purple",
                 "color": "purple",
@@ -143,7 +157,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Magenta",
                 "color": "magenta",
@@ -153,7 +168,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:cushion"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cushion#Pink",
                 "color": "pink",
@@ -163,7 +179,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#White",
                 "color": "white",
@@ -173,7 +190,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Gray",
                 "color": "light_gray",
@@ -183,7 +201,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Gray",
                 "color": "gray",
@@ -193,7 +212,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Black",
                 "color": "black",
@@ -203,7 +223,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Brown",
                 "color": "brown",
@@ -213,7 +234,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Red",
                 "color": "red",
@@ -223,7 +245,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Orange",
                 "color": "orange",
@@ -233,7 +256,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Yellow",
                 "color": "yellow",
@@ -243,7 +267,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Lime",
                 "color": "lime",
@@ -253,7 +278,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Green",
                 "color": "green",
@@ -263,7 +289,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Cyan",
                 "color": "cyan",
@@ -273,7 +300,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Light_Blue",
                 "color": "light_blue",
@@ -283,7 +311,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Blue",
                 "color": "blue",
@@ -293,7 +322,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Purple",
                 "color": "purple",
@@ -303,7 +333,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Magenta",
                 "color": "magenta",
@@ -313,7 +344,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:wool_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Slab#Pink",
                 "color": "pink",
@@ -323,7 +355,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#White",
                 "color": "white",
@@ -333,7 +366,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Gray",
                 "color": "light_gray",
@@ -343,7 +377,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Gray",
                 "color": "gray",
@@ -353,7 +388,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Black",
                 "color": "black",
@@ -363,7 +399,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Brown",
                 "color": "brown",
@@ -373,7 +410,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Red",
                 "color": "red",
@@ -383,7 +421,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Orange",
                 "color": "orange",
@@ -393,7 +432,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Yellow",
                 "color": "yellow",
@@ -403,7 +443,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Lime",
                 "color": "lime",
@@ -413,7 +454,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Green",
                 "color": "green",
@@ -423,7 +465,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Cyan",
                 "color": "cyan",
@@ -433,7 +476,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Light_Blue",
                 "color": "light_blue",
@@ -443,7 +487,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Blue",
                 "color": "blue",
@@ -453,7 +498,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Purple",
                 "color": "purple",
@@ -463,7 +509,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Magenta",
                 "color": "magenta",
@@ -473,7 +520,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:wool_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wool_Stairs#Pink",
                 "color": "pink",
@@ -483,7 +531,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#White",
                 "color": "white",
@@ -493,7 +542,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Gray",
                 "color": "light_gray",
@@ -503,7 +553,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Gray",
                 "color": "gray",
@@ -513,7 +564,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Black",
                 "color": "black",
@@ -523,7 +575,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Brown",
                 "color": "brown",
@@ -533,7 +586,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Red",
                 "color": "red",
@@ -543,7 +597,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Orange",
                 "color": "orange",
@@ -553,7 +608,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Yellow",
                 "color": "yellow",
@@ -563,7 +619,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Lime",
                 "color": "lime",
@@ -573,7 +630,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Green",
                 "color": "green",
@@ -583,7 +641,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Cyan",
                 "color": "cyan",
@@ -593,7 +652,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Light_Blue",
                 "color": "light_blue",
@@ -603,7 +663,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Blue",
                 "color": "blue",
@@ -613,7 +674,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Purple",
                 "color": "purple",
@@ -623,7 +685,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Magenta",
                 "color": "magenta",
@@ -633,7 +696,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:concrete_slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Slab#Pink",
                 "color": "pink",
@@ -643,7 +707,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#White",
                 "color": "white",
@@ -653,7 +718,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Gray",
                 "color": "light_gray",
@@ -663,7 +729,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Gray",
                 "color": "gray",
@@ -673,7 +740,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Black",
                 "color": "black",
@@ -683,7 +751,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Brown",
                 "color": "brown",
@@ -693,7 +762,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Red",
                 "color": "red",
@@ -703,7 +773,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Orange",
                 "color": "orange",
@@ -713,7 +784,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Yellow",
                 "color": "yellow",
@@ -723,7 +795,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Lime",
                 "color": "lime",
@@ -733,7 +806,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Green",
                 "color": "green",
@@ -743,7 +817,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Cyan",
                 "color": "cyan",
@@ -753,7 +828,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Light_Blue",
                 "color": "light_blue",
@@ -763,7 +839,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Blue",
                 "color": "blue",
@@ -773,7 +850,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Purple",
                 "color": "purple",
@@ -783,7 +861,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Magenta",
                 "color": "magenta",
@@ -793,7 +872,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:concrete_stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Concrete_Stairs#Pink",
                 "color": "pink",
@@ -803,7 +883,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Poplar",
@@ -813,7 +893,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Poplar",
@@ -823,7 +903,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:stripped_log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Log#Poplar",
@@ -833,7 +913,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Poplar",
@@ -843,7 +923,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Poplar",
@@ -853,7 +933,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Poplar",
@@ -863,7 +943,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Poplar",
@@ -873,7 +953,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Poplar",
@@ -883,7 +963,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Poplar",
@@ -893,7 +973,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Poplar",
@@ -903,7 +983,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Poplar",
@@ -913,7 +993,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Poplar",
@@ -923,7 +1003,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Poplar",
@@ -933,7 +1013,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Poplar",
@@ -943,7 +1023,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Poplar",
@@ -953,7 +1033,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Poplar",
@@ -963,7 +1043,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Yellow_Poplar",
@@ -973,7 +1053,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Red_Poplar",
@@ -983,7 +1063,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Orange_Poplar",
@@ -993,7 +1073,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Poplar",
@@ -1026,7 +1106,7 @@
         "items": [
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Poplar",
@@ -1036,7 +1116,7 @@
             },
             {
                 "types": [
-                    "family:poplar",
+                    "wood:poplar",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Poplar",

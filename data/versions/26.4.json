@@ -294,7 +294,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frostbite_spawn_egg",
                 "name": "Frostbite Spawn Egg",
@@ -303,7 +303,7 @@
             },
             {
                 "types": [
-                    "weapon"
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ice_Ball",
                 "name": "Ice Ball",
@@ -312,7 +312,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Flurry",
                 "name": "Music Disc Flurry",

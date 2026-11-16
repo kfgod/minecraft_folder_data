@@ -297,7 +297,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Oak",
@@ -307,7 +307,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Spruce",
@@ -317,7 +317,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Birch",
@@ -327,7 +327,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Jungle",
@@ -337,7 +337,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Acacia",
@@ -347,7 +347,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Dark_Oak",
@@ -357,7 +357,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Mangrove",
@@ -367,7 +367,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Cherry",
@@ -377,7 +377,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Pale_Oak",
@@ -387,7 +387,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Bamboo",
@@ -397,7 +397,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Crimson",
@@ -407,7 +407,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:shelf"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelf#Warped",
@@ -579,8 +579,9 @@
         "items": [
             {
                 "types": [
-                    "copper/shovel",
-                    "tool"
+                    "material:copper",
+                    "form:shovel",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Shovel",
                 "name": "Copper Shovel",
@@ -589,8 +590,9 @@
             },
             {
                 "types": [
-                    "copper/pickaxe",
-                    "tool"
+                    "material:copper",
+                    "form:pickaxe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Pickaxe",
                 "name": "Copper Pickaxe",
@@ -599,9 +601,10 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "copper/axe",
-                    "tool"
+                    "use:weapon",
+                    "material:copper",
+                    "form:axe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Axe",
                 "name": "Copper Axe",
@@ -610,8 +613,9 @@
             },
             {
                 "types": [
-                    "copper/hoe",
-                    "tool"
+                    "material:copper",
+                    "form:hoe",
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Hoe",
                 "name": "Copper Hoe",
@@ -620,8 +624,9 @@
             },
             {
                 "types": [
-                    "copper/sword",
-                    "weapon"
+                    "material:copper",
+                    "form:sword",
+                    "use:weapon"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Sword",
                 "name": "Copper Sword",
@@ -630,8 +635,9 @@
             },
             {
                 "types": [
-                    "copper/helmet",
-                    "armor"
+                    "material:copper",
+                    "form:helmet",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Helmet",
                 "name": "Copper Helmet",
@@ -640,8 +646,9 @@
             },
             {
                 "types": [
-                    "copper/chestplate",
-                    "armor"
+                    "material:copper",
+                    "form:chestplate",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chestplate",
                 "name": "Copper Chestplate",
@@ -650,8 +657,9 @@
             },
             {
                 "types": [
-                    "copper/leggings",
-                    "armor"
+                    "material:copper",
+                    "form:leggings",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Leggings",
                 "name": "Copper Leggings",
@@ -660,8 +668,9 @@
             },
             {
                 "types": [
-                    "copper/boots",
-                    "armor"
+                    "material:copper",
+                    "form:boots",
+                    "use:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Boots",
                 "name": "Copper Boots",
@@ -669,7 +678,11 @@
                 "imagePath": "/item/copper_boots/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:copper",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Horse_Armor",
                 "name": "Copper Horse Armor",
                 "identifier": "copper_horse_armor",

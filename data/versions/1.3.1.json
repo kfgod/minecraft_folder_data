@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Oak",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Oak",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Spruce",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Spruce",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Spruce",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Birch",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Birch",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Birch",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Jungle",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Jungle",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Jungle",
@@ -160,7 +160,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Enchanted_Golden_Apple",
                 "name": "Enchanted Golden Apple",

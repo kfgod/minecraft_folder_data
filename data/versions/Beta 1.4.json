@@ -3,7 +3,7 @@
         "items": [
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cookie",
                 "name": "Cookie",

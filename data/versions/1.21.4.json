@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Pale_Oak",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Pale_Oak",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:stripped_log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Log#Pale_Oak",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Pale_Oak",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Pale_Oak",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Pale_Oak",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Pale_Oak",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Pale_Oak",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Pale_Oak",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Pale_Oak",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Pale_Oak",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Pale_Oak",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Pale_Oak",
@@ -133,7 +133,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Pale_Oak",
@@ -143,7 +143,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Pale_Oak",
@@ -153,7 +153,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
@@ -163,7 +163,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak",
@@ -226,7 +226,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pale_Moss_Block",
                 "name": "Pale Moss Block",
@@ -235,7 +235,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pale_Moss_Carpet",
                 "name": "Pale Moss Carpet",
@@ -244,7 +244,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pale_Hanging_Moss",
                 "name": "Pale Hanging Moss",
@@ -253,8 +253,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eyeblossom#Closed",
                 "name": "Closed Eyeblossom",
@@ -263,8 +263,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eyeblossom#Open",
                 "name": "Open Eyeblossom",
@@ -291,7 +291,7 @@
         "items": [
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Pale_Oak",
@@ -301,7 +301,7 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
+                    "wood:pale_oak",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Pale_Oak",
@@ -325,7 +325,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Creaking Spawn Egg",

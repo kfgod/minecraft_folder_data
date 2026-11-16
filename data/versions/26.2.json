@@ -289,7 +289,7 @@
         "items": [
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Bounce",
                 "name": "Music Disc Bounce",
@@ -305,7 +305,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg#Sulfur_Cube_Spawn_Egg",
                 "name": "Sulfur Cube Spawn Egg",

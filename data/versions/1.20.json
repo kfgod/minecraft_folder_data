@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Cherry",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Cherry",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Cherry",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Cherry",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Cherry",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Cherry",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Cherry",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Cherry",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Cherry",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Cherry",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Cherry",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Cherry",
@@ -133,7 +133,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Cherry",
@@ -143,9 +143,9 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:leaves",
-                    "flower"
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
                 "name": "Cherry Leaves",
@@ -154,7 +154,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sapling#Cherry",
@@ -164,7 +164,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Bamboo",
@@ -174,7 +174,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:stripped_log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo",
@@ -184,7 +184,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Bamboo",
@@ -201,7 +201,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Bamboo",
@@ -218,7 +218,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Bamboo",
@@ -235,7 +235,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Bamboo",
@@ -245,7 +245,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Bamboo",
@@ -255,7 +255,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Bamboo",
@@ -265,7 +265,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Bamboo",
@@ -275,7 +275,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Bamboo",
@@ -285,7 +285,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Bamboo",
@@ -295,7 +295,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Bamboo",
@@ -305,8 +305,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Torchflower",
                 "name": "Torchflower",
@@ -315,8 +315,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pink_Petals",
                 "name": "Pink Petals",
@@ -325,8 +325,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pitcher_Plant",
                 "name": "Pitcher Plant",
@@ -370,7 +370,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Oak",
@@ -380,7 +380,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Spruce",
@@ -390,7 +390,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Birch",
@@ -400,7 +400,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Jungle",
@@ -410,7 +410,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Acacia",
@@ -420,7 +420,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Dark_Oak",
@@ -430,7 +430,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Mangrove",
@@ -440,7 +440,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Cherry",
@@ -450,7 +450,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Bamboo",
@@ -460,7 +460,7 @@
             },
             {
                 "types": [
-                    "family:crimson",
+                    "wood:crimson",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Crimson",
@@ -470,7 +470,7 @@
             },
             {
                 "types": [
-                    "family:warped",
+                    "wood:warped",
                     "form:hanging_sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Sign#Warped",
@@ -480,7 +480,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Piglin_Head",
                 "name": "Piglin Head",
@@ -498,8 +498,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Torchflower_Seeds",
                 "name": "Torchflower Seeds",
@@ -508,8 +508,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pitcher_Pod",
                 "name": "Pitcher Pod",
@@ -518,7 +518,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Bamboo",
@@ -528,7 +528,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Brush",
                 "name": "Brush",
@@ -537,7 +537,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Cherry",
@@ -547,7 +547,7 @@
             },
             {
                 "types": [
-                    "family:cherry",
+                    "wood:cherry",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Cherry",
@@ -557,7 +557,7 @@
             },
             {
                 "types": [
-                    "family:bamboo",
+                    "wood:bamboo",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Bamboo",
@@ -567,7 +567,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Relic",
                 "name": "Music Disc Relic",
@@ -576,7 +576,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Angler_Pottery_Sherd",
                 "name": "Angler Pottery Sherd",
@@ -585,7 +585,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Archer_Pottery_Sherd",
                 "name": "Archer Pottery Sherd",
@@ -594,7 +594,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Arms_Up_Pottery_Sherd",
                 "name": "Arms Up Pottery Sherd",
@@ -603,7 +603,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Blade_Pottery_Sherd",
                 "name": "Blade Pottery Sherd",
@@ -612,7 +612,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Brewer_Pottery_Sherd",
                 "name": "Brewer Pottery Sherd",
@@ -621,7 +621,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Burn_Pottery_Sherd",
                 "name": "Burn Pottery Sherd",
@@ -630,7 +630,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Danger_Pottery_Sherd",
                 "name": "Danger Pottery Sherd",
@@ -639,7 +639,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Pottery_Sherd",
                 "name": "Explorer Pottery Sherd",
@@ -648,7 +648,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Friend_Pottery_Sherd",
                 "name": "Friend Pottery Sherd",
@@ -657,7 +657,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Heart_Pottery_Sherd",
                 "name": "Heart Pottery Sherd",
@@ -666,7 +666,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Heartbreak_Pottery_Sherd",
                 "name": "Heartbreak Pottery Sherd",
@@ -675,7 +675,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Howl_Pottery_Sherd",
                 "name": "Howl Pottery Sherd",
@@ -684,7 +684,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Miner_Pottery_Sherd",
                 "name": "Miner Pottery Sherd",
@@ -693,7 +693,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mourner_Pottery_Sherd",
                 "name": "Mourner Pottery Sherd",
@@ -702,7 +702,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Plenty_Pottery_Sherd",
                 "name": "Plenty Pottery Sherd",
@@ -711,7 +711,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Prize_Pottery_Sherd",
                 "name": "Prize Pottery Sherd",
@@ -720,7 +720,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sheaf_Pottery_Sherd",
                 "name": "Sheaf Pottery Sherd",
@@ -729,7 +729,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shelter_Pottery_Sherd",
                 "name": "Shelter Pottery Sherd",
@@ -738,7 +738,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Skull_Pottery_Sherd",
                 "name": "Skull Pottery Sherd",
@@ -747,7 +747,7 @@
             },
             {
                 "types": [
-                    "pottery_sherd"
+                    "kind:pottery_sherd"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snort_Pottery_Sherd",
                 "name": "Snort Pottery Sherd",
@@ -756,7 +756,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Upgrade",
                 "name": "Netherite Upgrade",
@@ -765,7 +765,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sentry_Armor_Trim",
                 "name": "Sentry Armor Trim",
@@ -774,7 +774,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Vex_Armor_Trim",
                 "name": "Vex Armor Trim",
@@ -783,7 +783,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wild_Armor_Trim",
                 "name": "Wild Armor Trim",
@@ -792,7 +792,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Coast_Armor_Trim",
                 "name": "Coast Armor Trim",
@@ -801,7 +801,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dune_Armor_Trim",
                 "name": "Dune Armor Trim",
@@ -810,7 +810,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wayfinder_Armor_Trim",
                 "name": "Wayfinder Armor Trim",
@@ -819,7 +819,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raiser_Armor_Trim",
                 "name": "Raiser Armor Trim",
@@ -828,7 +828,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shaper_Armor_Trim",
                 "name": "Shaper Armor Trim",
@@ -837,7 +837,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Host_Armor_Trim",
                 "name": "Host Armor Trim",
@@ -846,7 +846,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ward_Armor_Trim",
                 "name": "Ward Armor Trim",
@@ -855,7 +855,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Silence_Armor_Trim",
                 "name": "Silence Armor Trim",
@@ -864,7 +864,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tide_Armor_Trim",
                 "name": "Tide Armor Trim",
@@ -873,7 +873,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snout_Armor_Trim",
                 "name": "Snout Armor Trim",
@@ -882,7 +882,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rib_Armor_Trim",
                 "name": "Rib Armor Trim",
@@ -891,7 +891,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eye_Armor_Trim",
                 "name": "Eye Armor Trim",
@@ -900,7 +900,7 @@
             },
             {
                 "types": [
-                    "smithing_template"
+                    "kind:smithing_template"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spire_Armor_Trim",
                 "name": "Spire Armor Trim",
@@ -909,7 +909,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Camel Spawn Egg",
@@ -918,7 +918,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Sniffer Spawn Egg",

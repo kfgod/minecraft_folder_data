@@ -589,7 +589,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:candle"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Candle#White",
@@ -599,7 +600,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:candle"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Candle#Light_Gray",
@@ -609,7 +611,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:candle"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Candle#Gray",
@@ -619,7 +622,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:candle"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Candle#Black",
@@ -629,7 +633,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:candle"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Candle#Brown",
@@ -639,7 +644,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:candle"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Candle#Red",
@@ -649,7 +655,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:candle"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Candle#Orange",
@@ -659,7 +666,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:candle"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Candle#Yellow",
@@ -669,7 +677,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:candle"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Candle#Lime",
@@ -679,7 +688,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:candle"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Candle#Green",
@@ -689,7 +699,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:candle"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Candle#Cyan",
@@ -699,7 +710,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:candle"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Candle#Light_Blue",
@@ -709,7 +721,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:candle"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Candle#Blue",
@@ -719,7 +732,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:candle"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Candle#Purple",
@@ -729,7 +743,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:candle"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Candle#Magenta",
@@ -739,7 +754,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:candle"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Candle#Pink",
@@ -756,7 +772,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Moss_Block",
                 "name": "Moss Block",
@@ -765,7 +781,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Moss_Carpet",
                 "name": "Moss Carpet",
@@ -916,7 +932,7 @@
             },
             {
                 "types": [
-                    "family:azalea",
+                    "wood:azalea",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Azalea",
@@ -926,9 +942,9 @@
             },
             {
                 "types": [
-                    "family:azalea",
+                    "wood:azalea",
                     "form:leaves",
-                    "flower"
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Flowering_Azalea",
                 "name": "Flowering Azalea Leaves",
@@ -937,7 +953,7 @@
             },
             {
                 "types": [
-                    "family:azalea",
+                    "wood:azalea",
                     "form:sapling"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azalea",
@@ -947,9 +963,9 @@
             },
             {
                 "types": [
-                    "family:azalea",
+                    "wood:azalea",
                     "form:sapling",
-                    "flower"
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flowering_Azalea",
                 "name": "Flowering Azalea",
@@ -958,8 +974,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spore_Blossom",
                 "name": "Spore Blossom",
@@ -968,7 +984,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Big_Dripleaf",
                 "name": "Big Dripleaf",
@@ -977,7 +993,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Small_Dripleaf",
                 "name": "Small Dripleaf",
@@ -986,7 +1002,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Glow_Lichen",
                 "name": "Glow Lichen",
@@ -995,7 +1011,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hanging_Roots",
                 "name": "Hanging Roots",
@@ -1041,8 +1057,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Glow_Berries",
                 "name": "Glow Berries",
@@ -1051,7 +1067,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Axolotl",
                 "name": "Bucket of Axolotl",
@@ -1060,7 +1076,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Powder_Snow_Bucket",
                 "name": "Powder Snow Bucket",
@@ -1125,7 +1141,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Goat Spawn Egg",
@@ -1134,7 +1150,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Axolotl Spawn Egg",
@@ -1143,7 +1159,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Glow Squid Spawn Egg",

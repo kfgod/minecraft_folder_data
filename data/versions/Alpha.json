@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Oak",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Oak",
@@ -225,7 +225,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Milk_Bucket",
                 "name": "Milk Bucket",
@@ -234,7 +234,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fishing_Rod",
                 "name": "Fishing Rod",
@@ -257,7 +257,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Oak",
@@ -267,7 +267,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_13",
                 "name": "Music Disc 13",
@@ -276,7 +276,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_cat",
                 "name": "Music Disc cat",
@@ -299,7 +299,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Cod",
                 "name": "Raw Cod",
@@ -308,7 +308,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Cod",
                 "name": "Cooked Cod",

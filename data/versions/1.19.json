@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Mangrove",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wood#Mangrove",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:stripped_log"
                 ],
                 "wiki": "",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:stripped_wood"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stripped_Wood#Mangrove",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:planks"
                 ],
                 "wiki": "https://minecraft.wiki/w/Planks#Mangrove",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:stairs"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Stairs#Mangrove",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:slab"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Slab#Mangrove",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Mangrove",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Mangrove",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Mangrove",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:trapdoor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Trapdoor#Mangrove",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:pressure_plate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Pressure_Plate#Mangrove",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Mangrove",
@@ -213,7 +213,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Mangrove",
@@ -223,9 +223,9 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:sapling",
-                    "flower"
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mangrove_Propagule",
                 "name": "Mangrove Propagule",
@@ -290,7 +290,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:sign"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sign#Mangrove",
@@ -338,7 +338,7 @@
         "items": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Oak",
@@ -348,7 +348,7 @@
             },
             {
                 "types": [
-                    "buckets"
+                    "kind:bucket"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Tadpole",
                 "name": "Bucket of Tadpole",
@@ -364,7 +364,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Spruce",
@@ -374,7 +374,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Birch",
@@ -384,7 +384,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Jungle",
@@ -394,7 +394,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Acacia",
@@ -404,7 +404,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Dark_Oak",
@@ -414,7 +414,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat#Mangrove",
@@ -424,7 +424,7 @@
             },
             {
                 "types": [
-                    "family:mangrove",
+                    "wood:mangrove",
                     "form:chest_boat"
                 ],
                 "wiki": "https://minecraft.wiki/w/Boat_with_Chest#Mangrove",
@@ -434,7 +434,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_5",
                 "name": "Music Disc 5",
@@ -464,7 +464,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Frog Spawn Egg",
@@ -473,7 +473,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Tadpole Spawn Egg",
@@ -482,7 +482,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Allay Spawn Egg",
@@ -491,7 +491,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Warden Spawn Egg",

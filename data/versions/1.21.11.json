@@ -3,8 +3,9 @@
         "items": [
             {
                 "types": [
-                    "weapon",
-                    "wood/spear"
+                    "use:weapon",
+                    "material:wood",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Wooden",
                 "name": "Wooden Spear",
@@ -13,8 +14,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "stone/spear"
+                    "use:weapon",
+                    "material:stone",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Stone",
                 "name": "Stone Spear",
@@ -23,8 +25,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "copper/spear"
+                    "use:weapon",
+                    "material:copper",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Copper",
                 "name": "Copper Spear",
@@ -33,8 +36,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "iron/spear"
+                    "use:weapon",
+                    "material:iron",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Iron",
                 "name": "Iron Spear",
@@ -43,8 +47,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "gold/spear"
+                    "use:weapon",
+                    "material:gold",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Golden",
                 "name": "Golden Spear",
@@ -53,8 +58,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "diamond/spear"
+                    "use:weapon",
+                    "material:diamond",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Diamond",
                 "name": "Diamond Spear",
@@ -63,8 +69,9 @@
             },
             {
                 "types": [
-                    "weapon",
-                    "netherite/spear"
+                    "use:weapon",
+                    "material:netherite",
+                    "form:spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spear#Netherite",
                 "name": "Netherite Spear",
@@ -72,42 +79,66 @@
                 "imagePath": "/item/netherite_spear/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:copper",
+                    "form:nautilus_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
                 "name": "Copper Nautilus Armor",
                 "identifier": "copper_nautilus_armor",
                 "imagePath": "/item/copper_nautilus_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:iron",
+                    "form:nautilus_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Iron_Nautilus_Armor",
                 "name": "Iron Nautilus Armor",
                 "identifier": "iron_nautilus_armor",
                 "imagePath": "/item/iron_nautilus_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:gold",
+                    "form:nautilus_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Golden_Nautilus_Armor",
                 "name": "Golden Nautilus Armor",
                 "identifier": "golden_nautilus_armor",
                 "imagePath": "/item/golden_nautilus_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:diamond",
+                    "form:nautilus_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Diamond_Nautilus_Armor",
                 "name": "Diamond Nautilus Armor",
                 "identifier": "diamond_nautilus_armor",
                 "imagePath": "/item/diamond_nautilus_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:netherite",
+                    "form:nautilus_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Nautilus_Armor",
                 "name": "Netherite Nautilus Armor",
                 "identifier": "netherite_nautilus_armor",
                 "imagePath": "/item/netherite_nautilus_armor/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "material:netherite",
+                    "form:horse_armor",
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
                 "name": "Netherite Horse Armor",
                 "identifier": "netherite_horse_armor",
@@ -115,7 +146,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Nautilus Spawn Egg",
@@ -124,7 +155,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Camel Husk Spawn Egg",
@@ -133,7 +164,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Parched Spawn Egg",
@@ -142,7 +173,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Zombie Nautilus Spawn Egg",

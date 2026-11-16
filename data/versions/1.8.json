@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Spruce",
@@ -13,7 +13,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Spruce",
@@ -23,7 +23,7 @@
             },
             {
                 "types": [
-                    "family:spruce",
+                    "wood:spruce",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Spruce",
@@ -33,7 +33,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Birch",
@@ -43,7 +43,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Birch",
@@ -53,7 +53,7 @@
             },
             {
                 "types": [
-                    "family:birch",
+                    "wood:birch",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Birch",
@@ -63,7 +63,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Jungle",
@@ -73,7 +73,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Jungle",
@@ -83,7 +83,7 @@
             },
             {
                 "types": [
-                    "family:jungle",
+                    "wood:jungle",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Jungle",
@@ -93,7 +93,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Acacia",
@@ -103,7 +103,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Acacia",
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "family:acacia",
+                    "wood:acacia",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Acacia",
@@ -123,7 +123,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:fence"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Fence#Dark_Oak",
@@ -133,7 +133,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Dark_Oak",
@@ -143,7 +143,7 @@
             },
             {
                 "types": [
-                    "family:dark_oak",
+                    "wood:dark_oak",
                     "form:door"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Door#Dark_Oak",
@@ -311,7 +311,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:banner"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Banner#White",
@@ -321,7 +322,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:banner"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Banner#Light_Gray",
@@ -331,7 +333,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:banner"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Banner#Gray",
@@ -341,7 +344,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:banner"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Banner#Black",
@@ -351,7 +355,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:banner"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Banner#Brown",
@@ -361,7 +366,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:banner"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Banner#Red",
@@ -371,7 +377,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:banner"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Banner#Orange",
@@ -381,7 +388,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:banner"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Banner#Yellow",
@@ -391,7 +399,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:banner"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Banner#Lime",
@@ -401,7 +410,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:banner"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Banner#Green",
@@ -411,7 +421,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:banner"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Banner#Cyan",
@@ -421,7 +432,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:banner"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Banner#Light_Blue",
@@ -431,7 +443,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:banner"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Banner#Blue",
@@ -441,7 +454,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:banner"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Banner#Purple",
@@ -451,7 +465,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:banner"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Banner#Magenta",
@@ -461,7 +476,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:banner"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Banner#Pink",
@@ -508,7 +524,7 @@
         "items": [
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Mutton",
                 "name": "Raw Mutton",
@@ -517,7 +533,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Mutton",
                 "name": "Cooked Mutton",
@@ -526,7 +542,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Rabbit",
                 "name": "Raw Rabbit",
@@ -535,7 +551,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Rabbit",
                 "name": "Cooked Rabbit",
@@ -544,7 +560,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rabbit_Stew",
                 "name": "Rabbit Stew",
@@ -581,7 +597,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Rabbit Spawn Egg",
@@ -590,7 +606,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Guardian Spawn Egg",
@@ -599,7 +615,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Endermite Spawn Egg",

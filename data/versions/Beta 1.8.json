@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:gate"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fence_Gate#Oak",
@@ -158,8 +158,8 @@
         "items": [
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pumpkin_Seeds",
                 "name": "Pumpkin Seeds",
@@ -168,8 +168,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "seeds"
+                    "kind:plant",
+                    "kind:seed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Melon_Seeds",
                 "name": "Melon Seeds",
@@ -185,8 +185,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Melon_Slice",
                 "name": "Melon Slice",
@@ -195,7 +195,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Beef",
                 "name": "Raw Beef",
@@ -204,7 +204,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Steak",
                 "name": "Steak",
@@ -213,7 +213,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raw_Chicken",
                 "name": "Raw Chicken",
@@ -222,7 +222,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cooked_Chicken",
                 "name": "Cooked Chicken",
@@ -231,7 +231,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rotten_Flesh",
                 "name": "Rotten Flesh",

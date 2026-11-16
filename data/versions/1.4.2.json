@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:button"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooden_Button#Oak",
@@ -76,7 +76,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Skeleton_Skull",
                 "name": "Skeleton Skull",
@@ -85,7 +85,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wither_Skeleton_Skull",
                 "name": "Wither Skeleton Skull",
@@ -101,7 +101,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombie_Head",
                 "name": "Zombie Head",
@@ -110,7 +110,7 @@
             },
             {
                 "types": [
-                    "heads"
+                    "kind:head"
                 ],
                 "wiki": "https://minecraft.wiki/w/Creeper_Head",
                 "name": "Creeper Head",
@@ -144,7 +144,7 @@
             },
             {
                 "types": [
-                    "tool"
+                    "use:tool"
                 ],
                 "wiki": "https://minecraft.wiki/w/Carrot_on_a_Stick",
                 "name": "Carrot on a Stick",
@@ -153,8 +153,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Carrot",
                 "name": "Carrot",
@@ -163,7 +163,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Golden_Carrot",
                 "name": "Golden Carrot",
@@ -172,8 +172,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "food"
+                    "kind:plant",
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potato",
                 "name": "Potato",
@@ -182,7 +182,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Baked_Potato",
                 "name": "Baked Potato",
@@ -191,7 +191,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Poisonous_Potato",
                 "name": "Poisonous Potato",
@@ -200,7 +200,7 @@
             },
             {
                 "types": [
-                    "food"
+                    "use:food"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pumpkin_Pie",
                 "name": "Pumpkin Pie",
@@ -216,7 +216,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Bat Spawn Egg",
@@ -225,7 +225,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Witch Spawn Egg",

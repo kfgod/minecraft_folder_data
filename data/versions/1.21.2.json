@@ -3,7 +3,8 @@
         "items": [
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#White",
                 "color": "white",
@@ -13,7 +14,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Light_Gray",
                 "color": "light_gray",
@@ -23,7 +25,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Gray",
                 "color": "gray",
@@ -33,7 +36,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Black",
                 "color": "black",
@@ -43,7 +47,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Brown",
                 "color": "brown",
@@ -53,7 +58,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Red",
                 "color": "red",
@@ -63,7 +69,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Orange",
                 "color": "orange",
@@ -73,7 +80,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Yellow",
                 "color": "yellow",
@@ -83,7 +91,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Lime",
                 "color": "lime",
@@ -93,7 +102,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Green",
                 "color": "green",
@@ -103,7 +113,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Cyan",
                 "color": "cyan",
@@ -113,7 +124,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Light_Blue",
                 "color": "light_blue",
@@ -123,7 +135,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Blue",
                 "color": "blue",
@@ -133,7 +146,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Purple",
                 "color": "purple",
@@ -143,7 +157,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Magenta",
                 "color": "magenta",
@@ -153,7 +168,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:bundle"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bundle#Pink",
                 "color": "pink",
@@ -163,7 +179,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
                 "name": "Field Masoned Banner Pattern",
@@ -172,7 +188,7 @@
             },
             {
                 "types": [
-                    "banner_pattern"
+                    "kind:banner_pattern"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern",
                 "name": "Bordure Indented Banner Pattern",

@@ -12,7 +12,8 @@
         "items": [
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#White",
                 "name": "White Harness",
@@ -21,7 +22,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Light_Gray",
                 "name": "Light Gray Harness",
@@ -30,7 +32,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Gray",
                 "name": "Gray Harness",
@@ -39,7 +42,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Black",
                 "name": "Black Harness",
@@ -48,7 +52,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Brown",
                 "name": "Brown Harness",
@@ -57,7 +62,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Red",
                 "name": "Red Harness",
@@ -66,7 +72,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Orange",
                 "name": "Orange Harness",
@@ -75,7 +82,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Yellow",
                 "name": "Yellow Harness",
@@ -84,7 +92,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Lime",
                 "name": "Lime Harness",
@@ -93,7 +102,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Green",
                 "name": "Green Harness",
@@ -102,7 +112,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Cyan",
                 "name": "Cyan Harness",
@@ -111,7 +122,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Light_Blue",
                 "name": "Light Blue Harness",
@@ -120,7 +132,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Blue",
                 "name": "Blue Harness",
@@ -129,7 +142,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Purple",
                 "name": "Purple Harness",
@@ -138,7 +152,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Magenta",
                 "name": "Magenta Harness",
@@ -147,7 +162,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:harness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Harness#Pink",
                 "name": "Pink Harness",
@@ -156,7 +172,7 @@
             },
             {
                 "types": [
-                    "music_disc"
+                    "kind:music_disc"
                 ],
                 "wiki": "https://minecraft.wiki/w/Music_Disc_Tears",
                 "name": "Music Disc - Tears",
@@ -165,7 +181,7 @@
             },
             {
                 "types": [
-                    "spawn_egg"
+                    "kind:spawn_egg"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spawn_Egg",
                 "name": "Happy Ghast Spawn Egg",

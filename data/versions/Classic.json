@@ -3,7 +3,7 @@
         "blocks": [
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:log"
                 ],
                 "wiki": "https://minecraft.wiki/w/Log#Oak",
@@ -57,7 +57,8 @@
             },
             {
                 "types": [
-                    "color:white"
+                    "color:white",
+                    "form:wool"
                 ],
                 "color": "white",
                 "wiki": "https://minecraft.wiki/w/Wool#White",
@@ -67,7 +68,8 @@
             },
             {
                 "types": [
-                    "color:light_gray"
+                    "color:light_gray",
+                    "form:wool"
                 ],
                 "color": "light_gray",
                 "wiki": "https://minecraft.wiki/w/Wool#Light_Gray",
@@ -77,7 +79,8 @@
             },
             {
                 "types": [
-                    "color:gray"
+                    "color:gray",
+                    "form:wool"
                 ],
                 "color": "gray",
                 "wiki": "https://minecraft.wiki/w/Wool#Gray",
@@ -87,7 +90,8 @@
             },
             {
                 "types": [
-                    "color:black"
+                    "color:black",
+                    "form:wool"
                 ],
                 "color": "black",
                 "wiki": "https://minecraft.wiki/w/Wool#Black",
@@ -97,7 +101,8 @@
             },
             {
                 "types": [
-                    "color:brown"
+                    "color:brown",
+                    "form:wool"
                 ],
                 "color": "brown",
                 "wiki": "https://minecraft.wiki/w/Wool#Brown",
@@ -107,7 +112,8 @@
             },
             {
                 "types": [
-                    "color:red"
+                    "color:red",
+                    "form:wool"
                 ],
                 "color": "red",
                 "wiki": "https://minecraft.wiki/w/Wool#Red",
@@ -117,7 +123,8 @@
             },
             {
                 "types": [
-                    "color:orange"
+                    "color:orange",
+                    "form:wool"
                 ],
                 "color": "orange",
                 "wiki": "https://minecraft.wiki/w/Wool#Orange",
@@ -127,7 +134,8 @@
             },
             {
                 "types": [
-                    "color:yellow"
+                    "color:yellow",
+                    "form:wool"
                 ],
                 "color": "yellow",
                 "wiki": "https://minecraft.wiki/w/Wool#Yellow",
@@ -137,7 +145,8 @@
             },
             {
                 "types": [
-                    "color:lime"
+                    "color:lime",
+                    "form:wool"
                 ],
                 "color": "lime",
                 "wiki": "https://minecraft.wiki/w/Wool#Lime",
@@ -147,7 +156,8 @@
             },
             {
                 "types": [
-                    "color:green"
+                    "color:green",
+                    "form:wool"
                 ],
                 "color": "green",
                 "wiki": "https://minecraft.wiki/w/Wool#Green",
@@ -157,7 +167,8 @@
             },
             {
                 "types": [
-                    "color:cyan"
+                    "color:cyan",
+                    "form:wool"
                 ],
                 "color": "cyan",
                 "wiki": "https://minecraft.wiki/w/Wool#Cyan",
@@ -167,7 +178,8 @@
             },
             {
                 "types": [
-                    "color:light_blue"
+                    "color:light_blue",
+                    "form:wool"
                 ],
                 "color": "light_blue",
                 "wiki": "https://minecraft.wiki/w/Wool#Light_Blue",
@@ -177,7 +189,8 @@
             },
             {
                 "types": [
-                    "color:blue"
+                    "color:blue",
+                    "form:wool"
                 ],
                 "color": "blue",
                 "wiki": "https://minecraft.wiki/w/Wool#Blue",
@@ -187,7 +200,8 @@
             },
             {
                 "types": [
-                    "color:purple"
+                    "color:purple",
+                    "form:wool"
                 ],
                 "color": "purple",
                 "wiki": "https://minecraft.wiki/w/Wool#Purple",
@@ -197,7 +211,8 @@
             },
             {
                 "types": [
-                    "color:magenta"
+                    "color:magenta",
+                    "form:wool"
                 ],
                 "color": "magenta",
                 "wiki": "https://minecraft.wiki/w/Wool#Magenta",
@@ -207,7 +222,8 @@
             },
             {
                 "types": [
-                    "color:pink"
+                    "color:pink",
+                    "form:wool"
                 ],
                 "color": "pink",
                 "wiki": "https://minecraft.wiki/w/Wool#Pink",
@@ -266,7 +282,7 @@
             },
             {
                 "types": [
-                    "family:oak",
+                    "wood:oak",
                     "form:leaves"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Oak",
@@ -276,7 +292,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mushroom",
                 "name": "Brown Mushroom",
@@ -285,7 +301,7 @@
             },
             {
                 "types": [
-                    "vegetation"
+                    "kind:plant"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mushroom",
                 "name": "Red Mushroom",
@@ -294,8 +310,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dandelion",
                 "name": "Dandelion",
@@ -304,8 +320,8 @@
             },
             {
                 "types": [
-                    "vegetation",
-                    "flower"
+                    "kind:plant",
+                    "kind:flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Poppy",
                 "name": "Poppy",
