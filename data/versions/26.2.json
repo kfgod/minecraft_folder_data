@@ -297,7 +297,9 @@
                 "imagePath": "/item/music_disc_bounce/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:bucket"
+                ],
                 "wiki": "https://minecraft.wiki/w/Bucket_of_Sulfur_Cube",
                 "name": "Bucket of Sulfur Cube",
                 "identifier": "sulfur_cube_bucket",
