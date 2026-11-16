@@ -1096,7 +1096,8 @@
                 "types": [],
                 "wiki": "https://minecraft.wiki/w/Abandoned_Camp",
                 "name": "Abandoned Camp",
-                "identifier": "abandoned_camp"
+                "identifier": "abandoned_camp",
+                "imagePath": "/structure/abandoned_camp/latest.webp"
             }
         ]
     },

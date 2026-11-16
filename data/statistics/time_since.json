@@ -128,7 +128,7 @@
       "name": "Abandoned Camp",
       "wiki": "https://minecraft.wiki/w/Abandoned_Camp",
       "identifier": "abandoned_camp",
-      "imagePath": null
+      "imagePath": "/structure/abandoned_camp/latest.webp"
     },
     "release_date": "2026-09-15T11:23:02+00:00",
     "versions_since": 0

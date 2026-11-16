@@ -323,7 +323,8 @@
                         "name": "Sulfur Cube Spawn Egg",
                         "wiki": "https://minecraft.wiki/w/Spawn_Egg#Sulfur_Cube_Spawn_Egg",
                         "imagePath": "/item/sulfur_cube_spawn_egg/latest.png"
-                    }
+                    },
+                    "babyImagePath": "/mob/sulfur_cube/baby/latest.webp"
                 },
                 "name": "Sulfur Cube",
                 "identifier": "sulfur_cube",
