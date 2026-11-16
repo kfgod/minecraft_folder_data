@@ -144,7 +144,8 @@
             {
                 "types": [
                     "family:cherry",
-                    "form:leaves"
+                    "form:leaves",
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Cherry",
                 "name": "Cherry Leaves",
@@ -305,7 +306,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Torchflower",
                 "name": "Torchflower",
@@ -315,7 +316,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tiny"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pink_Petals",
                 "name": "Pink Petals",
@@ -325,7 +326,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tall"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pitcher_Plant",
                 "name": "Pitcher Plant",

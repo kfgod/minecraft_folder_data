@@ -137,13 +137,6 @@
                 "imagePath": "/block/chiseled_cinnabar/latest.png"
             },
             {
-                "types": [],
-                "wiki": "https://minecraft.wiki/w/Potent_Sulfur",
-                "name": "Potent Sulfur",
-                "identifier": "potent_sulfur",
-                "imagePath": "/block/potent_sulfur/latest.png"
-            },
-            {
                 "types": [
                     "family:sulfur"
                 ],
@@ -277,6 +270,13 @@
                 "name": "Chiseled Sulfur",
                 "identifier": "chiseled_sulfur",
                 "imagePath": "/block/chiseled_sulfur/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Potent_Sulfur",
+                "name": "Potent Sulfur",
+                "identifier": "potent_sulfur",
+                "imagePath": "/block/potent_sulfur/latest.png"
             },
             {
                 "types": [],

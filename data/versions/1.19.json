@@ -224,7 +224,8 @@
             {
                 "types": [
                     "family:mangrove",
-                    "form:sapling"
+                    "form:sapling",
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mangrove_Propagule",
                 "name": "Mangrove Propagule",

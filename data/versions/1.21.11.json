@@ -73,13 +73,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
-                "name": "Netherite Horse Armor",
-                "identifier": "netherite_horse_armor",
-                "imagePath": "/item/netherite_horse_armor/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
                 "name": "Copper Nautilus Armor",
                 "identifier": "copper_nautilus_armor",
@@ -112,6 +105,13 @@
                 "name": "Netherite Nautilus Armor",
                 "identifier": "netherite_nautilus_armor",
                 "imagePath": "/item/netherite_nautilus_armor/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Netherite_Horse_Armor",
+                "name": "Netherite Horse Armor",
+                "identifier": "netherite_horse_armor",
+                "imagePath": "/item/netherite_horse_armor/latest.png"
             },
             {
                 "types": [

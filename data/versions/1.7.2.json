@@ -487,7 +487,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Blue_Orchid",
                 "name": "Blue Orchid",
@@ -497,7 +497,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Allium",
                 "name": "Allium",
@@ -507,7 +507,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Azure Bluet",
@@ -517,7 +517,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Red Tulip",
@@ -527,7 +527,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Orange Tulip",
@@ -537,7 +537,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "White Tulip",
@@ -547,7 +547,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tulip",
                 "name": "Pink Tulip",
@@ -557,7 +557,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Azure_Bluet",
                 "name": "Oxeye Daisy",
@@ -585,7 +585,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tall"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sunflower",
                 "name": "Sunflower",
@@ -595,7 +595,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tall"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lilac",
                 "name": "Lilac",
@@ -605,7 +605,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tall"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rose_Bush",
                 "name": "Rose Bush",
@@ -615,7 +615,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tall"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Peony",
                 "name": "Peony",

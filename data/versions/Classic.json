@@ -295,7 +295,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dandelion",
                 "name": "Dandelion",
@@ -305,7 +305,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Poppy",
                 "name": "Poppy",

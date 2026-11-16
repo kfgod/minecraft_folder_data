@@ -153,6 +153,26 @@
             },
             {
                 "types": [
+                    "family:pale_oak",
+                    "form:leaves"
+                ],
+                "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
+                "name": "Pale Oak Leaves",
+                "identifier": "pale_oak_leaves",
+                "imagePath": "/block/pale_oak_leaves/latest.png"
+            },
+            {
+                "types": [
+                    "family:pale_oak",
+                    "form:sapling"
+                ],
+                "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak",
+                "name": "Pale Oak Sapling",
+                "identifier": "pale_oak_sapling",
+                "imagePath": "/block/pale_oak_sapling/latest.png"
+            },
+            {
+                "types": [
                     "family:resin",
                     "family_type:brick"
                 ],
@@ -233,28 +253,8 @@
             },
             {
                 "types": [
-                    "family:pale_oak",
-                    "form:leaves"
-                ],
-                "wiki": "https://minecraft.wiki/w/Leaves#Pale_Oak",
-                "name": "Pale Oak Leaves",
-                "identifier": "pale_oak_leaves",
-                "imagePath": "/block/pale_oak_leaves/latest.png"
-            },
-            {
-                "types": [
-                    "family:pale_oak",
-                    "form:sapling"
-                ],
-                "wiki": "https://minecraft.wiki/w/Sapling#Pale_Oak",
-                "name": "Pale Oak Sapling",
-                "identifier": "pale_oak_sapling",
-                "imagePath": "/block/pale_oak_sapling/latest.png"
-            },
-            {
-                "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eyeblossom#Closed",
                 "name": "Closed Eyeblossom",
@@ -264,7 +264,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/normal"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eyeblossom#Open",
                 "name": "Open Eyeblossom",

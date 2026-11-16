@@ -22,7 +22,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/other"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cactus_Flower",
                 "name": "Cactus Flower",
@@ -32,7 +32,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/tiny"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wildflowers",
                 "name": "Wildflowers",

@@ -147,13 +147,6 @@
             },
             {
                 "types": [],
-                "wiki": "https://minecraft.wiki/w/Copper_Torch",
-                "name": "Copper Torch",
-                "identifier": "copper_torch",
-                "imagePath": "/block/copper_torch/latest.png"
-            },
-            {
-                "types": [],
                 "wiki": "https://minecraft.wiki/w/Copper_Lantern#Unoxidized",
                 "name": "Copper Lantern",
                 "identifier": "copper_lantern",
@@ -294,6 +287,13 @@
                 "name": "Waxed Oxidized Lightning Rod",
                 "identifier": "waxed_oxidized_lightning_rod",
                 "imagePath": "/block/waxed_oxidized_lightning_rod/latest.png"
+            },
+            {
+                "types": [],
+                "wiki": "https://minecraft.wiki/w/Copper_Torch",
+                "name": "Copper Torch",
+                "identifier": "copper_torch",
+                "imagePath": "/block/copper_torch/latest.png"
             },
             {
                 "types": [

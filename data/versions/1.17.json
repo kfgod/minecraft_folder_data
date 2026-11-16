@@ -927,7 +927,8 @@
             {
                 "types": [
                     "family:azalea",
-                    "form:leaves"
+                    "form:leaves",
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Leaves#Flowering_Azalea",
                 "name": "Flowering Azalea Leaves",
@@ -947,7 +948,8 @@
             {
                 "types": [
                     "family:azalea",
-                    "form:sapling"
+                    "form:sapling",
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flowering_Azalea",
                 "name": "Flowering Azalea",
@@ -957,7 +959,7 @@
             {
                 "types": [
                     "vegetation",
-                    "flower/other"
+                    "flower"
                 ],
                 "wiki": "https://minecraft.wiki/w/Spore_Blossom",
                 "name": "Spore Blossom",
