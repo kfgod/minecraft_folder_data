@@ -150,7 +150,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Unoxidized",
                 "name": "Copper Grate",
@@ -159,7 +159,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Unoxidized",
                 "name": "Copper Door",
@@ -168,7 +168,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Unoxidized",
                 "name": "Copper Trapdoor",
@@ -177,7 +177,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized",
                 "name": "Copper Bulb",
@@ -196,7 +196,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Exposed",
                 "name": "Exposed Copper Grate",
@@ -205,7 +205,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Exposed",
                 "name": "Exposed Copper Door",
@@ -214,7 +214,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Exposed",
                 "name": "Exposed Copper Trapdoor",
@@ -223,7 +223,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed",
                 "name": "Exposed Copper Bulb",
@@ -242,7 +242,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Weathered",
                 "name": "Weathered Copper Grate",
@@ -251,7 +251,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Weathered",
                 "name": "Weathered Copper Door",
@@ -260,7 +260,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Weathered",
                 "name": "Weathered Copper Trapdoor",
@@ -269,7 +269,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered",
                 "name": "Weathered Copper Bulb",
@@ -278,7 +278,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized",
                 "name": "Oxidized Chiseled Copper",
@@ -287,7 +287,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Oxidized",
                 "name": "Oxidized Copper Grate",
@@ -296,7 +296,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Oxidized",
                 "name": "Oxidized Copper Door",
@@ -305,7 +305,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Oxidized",
                 "name": "Oxidized Copper Trapdoor",
@@ -314,7 +314,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized",
                 "name": "Oxidized Copper Bulb",
@@ -323,8 +323,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Unoxidized",
@@ -334,8 +334,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Unoxidized",
@@ -345,8 +345,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Unoxidized",
@@ -356,8 +356,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Unoxidized",
@@ -367,8 +367,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Unoxidized",
@@ -378,8 +378,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Exposed",
@@ -389,8 +389,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Exposed",
@@ -400,8 +400,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Exposed",
@@ -411,8 +411,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Exposed",
@@ -422,8 +422,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Exposed",
@@ -433,8 +433,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Weathered",
@@ -444,8 +444,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Weathered",
@@ -455,8 +455,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Weathered",
@@ -466,8 +466,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Weathered",
@@ -477,8 +477,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Weathered",
@@ -488,8 +488,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chiseled_Copper#Oxidized",
@@ -499,8 +499,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Grate#Oxidized",
@@ -510,8 +510,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Door#Oxidized",
@@ -521,8 +521,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Trapdoor#Oxidized",
@@ -532,8 +532,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bulb#Oxidized",
@@ -575,7 +575,7 @@
             },
             {
                 "types": [
-                    "vault"
+                    "kind:vault"
                 ],
                 "wiki": "https://minecraft.wiki/w/Vault",
                 "name": "Vault",
@@ -584,7 +584,7 @@
             },
             {
                 "types": [
-                    "vault"
+                    "kind:vault"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ominous_Vault",
                 "name": "Ominous Vault",
@@ -901,7 +901,7 @@
             },
             {
                 "types": [
-                    "trial_key"
+                    "kind:trial_key"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trial_Key",
                 "name": "Trial Key",
@@ -910,7 +910,7 @@
             },
             {
                 "types": [
-                    "trial_key"
+                    "kind:trial_key"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ominous_Trial_Key",
                 "name": "Ominous Trial Key",
@@ -937,7 +937,7 @@
             },
             {
                 "types": [
-                    "effect/infested"
+                    "effect:infested"
                 ],
                 "image_identifier": "arrow_of_infestation",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -947,7 +947,7 @@
             },
             {
                 "types": [
-                    "effect/oozing"
+                    "effect:oozing"
                 ],
                 "image_identifier": "arrow_of_oozing",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -957,7 +957,7 @@
             },
             {
                 "types": [
-                    "effect/weaving"
+                    "effect:weaving"
                 ],
                 "image_identifier": "arrow_of_weaving",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -967,7 +967,7 @@
             },
             {
                 "types": [
-                    "effect/wind_charged"
+                    "effect:wind_charged"
                 ],
                 "image_identifier": "arrow_of_wind_charging",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -977,7 +977,7 @@
             },
             {
                 "types": [
-                    "effect/infested"
+                    "effect:infested"
                 ],
                 "image_identifier": "lingering_potion_of_infestation",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -987,7 +987,7 @@
             },
             {
                 "types": [
-                    "effect/oozing"
+                    "effect:oozing"
                 ],
                 "image_identifier": "lingering_potion_of_oozing",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -997,7 +997,7 @@
             },
             {
                 "types": [
-                    "effect/weaving"
+                    "effect:weaving"
                 ],
                 "image_identifier": "lingering_potion_of_weaving",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -1007,7 +1007,7 @@
             },
             {
                 "types": [
-                    "effect/wind_charged"
+                    "effect:wind_charged"
                 ],
                 "image_identifier": "lingering_potion_of_wind_charging",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -1017,7 +1017,7 @@
             },
             {
                 "types": [
-                    "effect/infested"
+                    "effect:infested"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Infestation",
@@ -1026,7 +1026,7 @@
             },
             {
                 "types": [
-                    "effect/oozing"
+                    "effect:oozing"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Oozing",
@@ -1035,7 +1035,7 @@
             },
             {
                 "types": [
-                    "effect/weaving"
+                    "effect:weaving"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Weaving",
@@ -1044,7 +1044,7 @@
             },
             {
                 "types": [
-                    "effect/wind_charged"
+                    "effect:wind_charged"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Wind Charging",
@@ -1053,7 +1053,7 @@
             },
             {
                 "types": [
-                    "effect/infested"
+                    "effect:infested"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Infestation",
@@ -1062,7 +1062,7 @@
             },
             {
                 "types": [
-                    "effect/oozing"
+                    "effect:oozing"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Oozing",
@@ -1071,7 +1071,7 @@
             },
             {
                 "types": [
-                    "effect/weaving"
+                    "effect:weaving"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Weaving",
@@ -1080,7 +1080,7 @@
             },
             {
                 "types": [
-                    "effect/wind_charged"
+                    "effect:wind_charged"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Wind Charging",
@@ -1116,7 +1116,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
                 "name": "Buried Trial Chambers Map",
@@ -1127,7 +1127,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bogged",
                 "meta": {
@@ -1145,7 +1145,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Breeze",
                 "meta": {
@@ -1165,7 +1165,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/spawns"
+                    "effect:spawns"
                 ],
                 "wiki": "https://minecraft.wiki/w/Oozing",
                 "name": "Oozing",
@@ -1174,7 +1174,7 @@
             },
             {
                 "types": [
-                    "effects/spawns"
+                    "effect:spawns"
                 ],
                 "wiki": "https://minecraft.wiki/w/Weaving",
                 "name": "Weaving",
@@ -1183,7 +1183,7 @@
             },
             {
                 "types": [
-                    "effects/ominous_events"
+                    "effect:ominous_events"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trial_Omen",
                 "name": "Trial Omen",
@@ -1192,7 +1192,7 @@
             },
             {
                 "types": [
-                    "effects/spawns"
+                    "effect:spawns"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wind_Charged",
                 "name": "Wind Charged",
@@ -1201,7 +1201,7 @@
             },
             {
                 "types": [
-                    "effects/ominous_events"
+                    "effect:ominous_events"
                 ],
                 "wiki": "https://minecraft.wiki/w/Raid_Omen",
                 "name": "Raid Omen",
@@ -1210,7 +1210,7 @@
             },
             {
                 "types": [
-                    "effects/spawns"
+                    "effect:spawns"
                 ],
                 "wiki": "https://minecraft.wiki/w/Infested",
                 "name": "Infested",
@@ -1221,7 +1221,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/melee/mace"
+                    "enchantment:melee/mace"
                 ],
                 "wiki": "https://minecraft.wiki/w/Density",
                 "name": "Density",
@@ -1229,7 +1229,7 @@
             },
             {
                 "types": [
-                    "enchantments/melee/mace"
+                    "enchantment:melee/mace"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wind_Burst",
                 "name": "Wind Burst",
@@ -1237,7 +1237,7 @@
             },
             {
                 "types": [
-                    "enchantments/melee/mace"
+                    "enchantment:melee/mace"
                 ],
                 "wiki": "https://minecraft.wiki/w/Breach",
                 "name": "Breach",
@@ -1247,7 +1247,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Tides – Kristoffer Zetterstrand",
@@ -1256,7 +1256,7 @@
             },
             {
                 "types": [
-                    "paintings/3x4"
+                    "painting:3x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Pond – Kristoffer Zetterstrand",
@@ -1265,7 +1265,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Cotán – Kristoffer Zetterstrand",
@@ -1274,7 +1274,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Sunflowers – Kristoffer Zetterstrand",
@@ -1283,7 +1283,7 @@
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "painting:4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Lowmist – Kristoffer Zetterstrand",
@@ -1292,7 +1292,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Owlemons – Kristoffer Zetterstrand",
@@ -1301,7 +1301,7 @@
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "painting:4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Changing – Kristoffer Zetterstrand",
@@ -1310,7 +1310,7 @@
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "painting:4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Finding – Kristoffer Zetterstrand",
@@ -1319,7 +1319,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Meditative – Sarah Boeving",
@@ -1328,7 +1328,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Endboss – Kristoffer Zetterstrand",
@@ -1337,7 +1337,7 @@
             },
             {
                 "types": [
-                    "paintings/3x4"
+                    "painting:3x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Backyard – Kristoffer Zetterstrand",
@@ -1346,7 +1346,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Cavebird – Kristoffer Zetterstrand",
@@ -1355,7 +1355,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Humble – Sarah Boeving",
@@ -1364,7 +1364,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Fern – Kristoffer Zetterstrand",
@@ -1373,7 +1373,7 @@
             },
             {
                 "types": [
-                    "paintings/4x4"
+                    "painting:4x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Unpacked – Sarah Boeving",
@@ -1382,7 +1382,7 @@
             },
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Bouquet – Kristoffer Zetterstrand",
@@ -1391,7 +1391,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Baroque – Sarah Boeving",
@@ -1400,7 +1400,7 @@
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "painting:4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Passage – Kristoffer Zetterstrand",
@@ -1409,7 +1409,7 @@
             },
             {
                 "types": [
-                    "paintings/4x4"
+                    "painting:4x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Orb – Kristoffer Zetterstrand",
@@ -1418,7 +1418,7 @@
             },
             {
                 "types": [
-                    "paintings/1x2"
+                    "painting:1x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Prairie Ride – Sarah Boeving",
@@ -1543,8 +1543,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/underground",
-                    "structure/overworld"
+                    "structure:underground",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trial_Chambers",
                 "name": "Trial Chambers",

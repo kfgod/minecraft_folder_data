@@ -59,18 +59,14 @@
                 "imagePath": "/block/lily_pad/latest.png"
             },
             {
-                "types": [
-                    "enchanting"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Enchanting_Table",
                 "name": "Enchanting Table",
                 "identifier": "enchanting_table",
                 "imagePath": "/block/enchanting_table/latest.png"
             },
             {
-                "types": [
-                    "brewing"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Brewing_Stand",
                 "name": "Brewing Stand",
                 "identifier": "brewing_stand",
@@ -84,18 +80,14 @@
                 "imagePath": "/block/cauldron/latest.png"
             },
             {
-                "types": [
-                    "end"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/Dragon_Egg",
                 "name": "Dragon Egg",
                 "identifier": "dragon_egg",
                 "imagePath": "/block/dragon_egg/latest.png"
             },
             {
-                "types": [
-                    "end"
-                ],
+                "types": [],
                 "wiki": "https://minecraft.wiki/w/End_Portal_Frame",
                 "name": "End Portal Frame",
                 "identifier": "end_portal_frame",
@@ -296,7 +288,7 @@
             },
             {
                 "types": [
-                    "effect/fire_resistance"
+                    "effect:fire_resistance"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Fire Resistance",
@@ -305,7 +297,7 @@
             },
             {
                 "types": [
-                    "effect/harming"
+                    "effect:harming"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Harming",
@@ -314,7 +306,7 @@
             },
             {
                 "types": [
-                    "effect/healing"
+                    "effect:healing"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Healing",
@@ -323,7 +315,7 @@
             },
             {
                 "types": [
-                    "effect/poison"
+                    "effect:poison"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Poison",
@@ -332,7 +324,7 @@
             },
             {
                 "types": [
-                    "effect/regeneration"
+                    "effect:regeneration"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Regeneration",
@@ -341,7 +333,7 @@
             },
             {
                 "types": [
-                    "effect/slowness"
+                    "effect:slowness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Slowness",
@@ -350,7 +342,7 @@
             },
             {
                 "types": [
-                    "effect/strength"
+                    "effect:strength"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Strength",
@@ -359,7 +351,7 @@
             },
             {
                 "types": [
-                    "effect/swiftness"
+                    "effect:swiftness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Swiftness",
@@ -368,7 +360,7 @@
             },
             {
                 "types": [
-                    "effect/weakness"
+                    "effect:weakness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Potion",
                 "name": "Potion of Weakness",
@@ -377,7 +369,7 @@
             },
             {
                 "types": [
-                    "effect/fire_resistance"
+                    "effect:fire_resistance"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Fire Resistance",
@@ -386,7 +378,7 @@
             },
             {
                 "types": [
-                    "effect/harming"
+                    "effect:harming"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Harming",
@@ -395,7 +387,7 @@
             },
             {
                 "types": [
-                    "effect/healing"
+                    "effect:healing"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Healing",
@@ -404,7 +396,7 @@
             },
             {
                 "types": [
-                    "effect/poison"
+                    "effect:poison"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Poison",
@@ -413,7 +405,7 @@
             },
             {
                 "types": [
-                    "effect/regeneration"
+                    "effect:regeneration"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Regeneration",
@@ -422,7 +414,7 @@
             },
             {
                 "types": [
-                    "effect/slowness"
+                    "effect:slowness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Slowness",
@@ -431,7 +423,7 @@
             },
             {
                 "types": [
-                    "effect/strength"
+                    "effect:strength"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Strength",
@@ -440,7 +432,7 @@
             },
             {
                 "types": [
-                    "effect/swiftness"
+                    "effect:swiftness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Swiftness",
@@ -449,7 +441,7 @@
             },
             {
                 "types": [
-                    "effect/weakness"
+                    "effect:weakness"
                 ],
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
                 "name": "Splash Potion of Weakness",
@@ -488,7 +480,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Blaze",
                 "meta": {
@@ -506,7 +498,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mooshroom#Red",
                 "meta": {
@@ -525,7 +517,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Magma_Cube",
                 "meta": {
@@ -542,7 +534,7 @@
             },
             {
                 "types": [
-                    "mobs/boss"
+                    "mob:boss"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ender_Dragon",
                 "meta": {
@@ -560,7 +552,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Villager",
                 "meta": {
@@ -579,7 +571,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snow_Golem",
                 "meta": {
@@ -599,7 +591,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantment:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Blast_Protection",
                 "name": "Blast Protection",
@@ -607,9 +599,9 @@
             },
             {
                 "types": [
-                    "enchantments/melee/sword",
-                    "enchantments/melee/axe",
-                    "enchantments/melee/spear"
+                    "enchantment:melee/sword",
+                    "enchantment:melee/axe",
+                    "enchantment:melee/spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sharpness",
                 "name": "Sharpness",
@@ -617,9 +609,9 @@
             },
             {
                 "types": [
-                    "enchantments/melee/sword",
-                    "enchantments/melee/mace",
-                    "enchantments/melee/spear"
+                    "enchantment:melee/sword",
+                    "enchantment:melee/mace",
+                    "enchantment:melee/spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fire_Aspect",
                 "name": "Fire Aspect",
@@ -627,7 +619,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantment:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fire_Protection",
                 "name": "Fire Protection",
@@ -635,7 +627,7 @@
             },
             {
                 "types": [
-                    "enchantments/block_breaking"
+                    "enchantment:block_breaking"
                 ],
                 "wiki": "https://minecraft.wiki/w/Efficiency",
                 "name": "Efficiency",
@@ -643,7 +635,7 @@
             },
             {
                 "types": [
-                    "enchantments/melee"
+                    "enchantment:melee"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bane_of_Arthropods",
                 "name": "Bane of Arthropods",
@@ -651,8 +643,8 @@
             },
             {
                 "types": [
-                    "enchantments/melee/sword",
-                    "enchantments/melee/spear"
+                    "enchantment:melee/sword",
+                    "enchantment:melee/spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Looting",
                 "name": "Looting",
@@ -660,7 +652,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor/helmet"
+                    "enchantment:armor/helmet"
                 ],
                 "wiki": "https://minecraft.wiki/w/Respiration",
                 "name": "Respiration",
@@ -668,7 +660,7 @@
             },
             {
                 "types": [
-                    "enchantments/block_breaking"
+                    "enchantment:block_breaking"
                 ],
                 "wiki": "https://minecraft.wiki/w/Silk_Touch",
                 "name": "Silk Touch",
@@ -676,7 +668,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor/boots"
+                    "enchantment:armor/boots"
                 ],
                 "wiki": "https://minecraft.wiki/w/Feather_Falling",
                 "name": "Feather Falling",
@@ -684,7 +676,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantment:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Protection",
                 "name": "Protection",
@@ -692,7 +684,7 @@
             },
             {
                 "types": [
-                    "enchantments/melee"
+                    "enchantment:melee"
                 ],
                 "wiki": "https://minecraft.wiki/w/Smite",
                 "name": "Smite",
@@ -700,7 +692,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor/helmet"
+                    "enchantment:armor/helmet"
                 ],
                 "wiki": "https://minecraft.wiki/w/Aqua_Affinity",
                 "name": "Aqua Affinity",
@@ -708,8 +700,8 @@
             },
             {
                 "types": [
-                    "enchantments/melee/sword",
-                    "enchantments/melee/spear"
+                    "enchantment:melee/sword",
+                    "enchantment:melee/spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Knockback",
                 "name": "Knockback",
@@ -717,7 +709,7 @@
             },
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantment:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Projectile_Protection",
                 "name": "Projectile Protection",
@@ -725,7 +717,7 @@
             },
             {
                 "types": [
-                    "enchantments/durability"
+                    "enchantment:durability"
                 ],
                 "wiki": "https://minecraft.wiki/w/Unbreaking",
                 "name": "Unbreaking",
@@ -733,7 +725,7 @@
             },
             {
                 "types": [
-                    "enchantments/block_breaking"
+                    "enchantment:block_breaking"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fortune",
                 "name": "Fortune",
@@ -743,7 +735,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mushroom_Fields",
                 "name": "Mushroom Fields",
@@ -752,7 +744,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frozen_Ocean",
                 "name": "Frozen Ocean",
@@ -761,7 +753,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frozen_River",
                 "name": "Frozen River",
@@ -770,7 +762,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snowy_Plains",
                 "name": "Snowy Plains",
@@ -779,7 +771,7 @@
             },
             {
                 "types": [
-                    "biome/end"
+                    "biome:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/The_End_(biome)",
                 "name": "The End",
@@ -790,7 +782,7 @@
         "structures": [
             {
                 "types": [
-                    "structure/nether"
+                    "structure:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Fortress",
                 "name": "Nether Fortress",

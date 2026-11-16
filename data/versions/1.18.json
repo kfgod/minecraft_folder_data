@@ -72,7 +72,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frozen_Peaks",
                 "name": "Frozen Peaks",
@@ -81,7 +81,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snowy_Slopes",
                 "name": "Snowy Slopes",
@@ -90,8 +90,8 @@
             },
             {
                 "types": [
-                    "biome/overworld",
-                    "biome/cave"
+                    "biome:overworld",
+                    "biome:cave"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lush_Caves",
                 "name": "Lush Caves",
@@ -100,7 +100,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Grove",
                 "name": "Grove",
@@ -109,8 +109,8 @@
             },
             {
                 "types": [
-                    "biome/overworld",
-                    "biome/cave"
+                    "biome:overworld",
+                    "biome:cave"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dripstone_Caves",
                 "name": "Dripstone Caves",
@@ -119,7 +119,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stony_Peaks",
                 "name": "Stony Peaks",
@@ -128,7 +128,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Meadow",
                 "name": "Meadow",
@@ -137,7 +137,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Jagged_Peaks",
                 "name": "Jagged Peaks",

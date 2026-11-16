@@ -708,7 +708,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Wasteland – Kristoffer Zetterstrand",
@@ -717,7 +717,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Skull and Roses – Kristoffer Zetterstrand",
@@ -726,7 +726,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Kebab med tre pepperoni – Kristoffer Zetterstrand",
@@ -735,7 +735,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Paradisträd – Kristoffer Zetterstrand",
@@ -744,7 +744,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Match – Kristoffer Zetterstrand",
@@ -753,7 +753,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Target Successfully Bombed – Kristoffer Zetterstrand",
@@ -762,7 +762,7 @@
             },
             {
                 "types": [
-                    "paintings/4x2"
+                    "painting:4x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Fighters – Kristoffer Zetterstrand",
@@ -771,7 +771,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "de_aztec – Kristoffer Zetterstrand",
@@ -780,7 +780,7 @@
             },
             {
                 "types": [
-                    "paintings/2x1"
+                    "painting:2x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "sunset_dense – Kristoffer Zetterstrand",
@@ -789,7 +789,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "The void – Kristoffer Zetterstrand",
@@ -798,7 +798,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "The Stage Is Set – Kristoffer Zetterstrand",
@@ -807,7 +807,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Albanian – Kristoffer Zetterstrand",
@@ -816,7 +816,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Bust – Kristoffer Zetterstrand",
@@ -825,7 +825,7 @@
             },
             {
                 "types": [
-                    "paintings/4x4"
+                    "painting:4x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Pointer – Kristoffer Zetterstrand",
@@ -834,7 +834,7 @@
             },
             {
                 "types": [
-                    "paintings/1x2"
+                    "painting:1x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Wanderer – Kristoffer Zetterstrand",
@@ -843,7 +843,7 @@
             },
             {
                 "types": [
-                    "paintings/2x1"
+                    "painting:2x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Seaside – Kristoffer Zetterstrand",
@@ -852,7 +852,7 @@
             },
             {
                 "types": [
-                    "paintings/1x1"
+                    "painting:1x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "de_aztec – Kristoffer Zetterstrand",
@@ -861,7 +861,7 @@
             },
             {
                 "types": [
-                    "paintings/2x1"
+                    "painting:2x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "The Pool – Kristoffer Zetterstrand",
@@ -870,7 +870,7 @@
             },
             {
                 "types": [
-                    "paintings/2x1"
+                    "painting:2x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Bonjour Monsieur Courbet – Kristoffer Zetterstrand",

@@ -25,7 +25,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/3x3"
+                    "painting:3x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Dennis – Sarah Boeving",

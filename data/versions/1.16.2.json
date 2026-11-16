@@ -14,7 +14,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Piglin_Brute",
                 "meta": {

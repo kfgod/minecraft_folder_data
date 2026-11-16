@@ -337,7 +337,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Ocean_Explorer",
                 "name": "Ocean Monument Map",
@@ -346,7 +346,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Woodland_Explorer",
                 "name": "Woodland Mansion Map",
@@ -357,7 +357,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Vindicator",
                 "meta": {
@@ -375,7 +375,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Evoker",
                 "meta": {
@@ -393,7 +393,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Vex",
                 "meta": {
@@ -411,7 +411,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Llama",
                 "meta": {
@@ -431,7 +431,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/curse"
+                    "enchantment:curse"
                 ],
                 "wiki": "https://minecraft.wiki/w/Curse_of_Vanishing",
                 "name": "Curse of Vanishing",
@@ -439,7 +439,7 @@
             },
             {
                 "types": [
-                    "enchantments/curse"
+                    "enchantment:curse"
                 ],
                 "wiki": "https://minecraft.wiki/w/Curse_of_Binding",
                 "name": "Curse of Binding",
@@ -449,8 +449,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/surface",
-                    "structure/overworld"
+                    "structure:surface",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Woodland_Mansion",
                 "name": "Woodland Mansion",

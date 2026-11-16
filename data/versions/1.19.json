@@ -500,7 +500,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Admire",
@@ -509,7 +509,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Call",
@@ -518,7 +518,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Dream",
@@ -527,7 +527,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Feel",
@@ -536,7 +536,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Ponder",
@@ -545,7 +545,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Seek",
@@ -554,7 +554,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Sing",
@@ -572,7 +572,7 @@
             },
             {
                 "types": [
-                    "horns"
+                    "kind:horn"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat_Horn",
                 "name": "Goat Horn – Yearn",
@@ -583,7 +583,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Allay",
                 "meta": {
@@ -601,7 +601,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frog",
                 "meta": {
@@ -619,7 +619,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tadpole",
                 "meta": {
@@ -637,7 +637,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warden",
                 "meta": {
@@ -657,7 +657,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/visibility"
+                    "effect:visibility"
                 ],
                 "wiki": "https://minecraft.wiki/w/Darkness",
                 "name": "Darkness",
@@ -668,7 +668,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor/leggings"
+                    "enchantment:armor/leggings"
                 ],
                 "wiki": "https://minecraft.wiki/w/Swift_Sneak",
                 "name": "Swift Sneak",
@@ -678,7 +678,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/2x2",
+                    "painting:2x2",
                     "unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
@@ -688,7 +688,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2",
+                    "painting:2x2",
                     "unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
@@ -698,7 +698,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2",
+                    "painting:2x2",
                     "unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
@@ -708,7 +708,7 @@
             },
             {
                 "types": [
-                    "paintings/2x2",
+                    "painting:2x2",
                     "unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
@@ -820,8 +820,8 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/warm"
+                    "mob:passive",
+                    "mob_variant:warm"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frog#Warm",
                 "meta": {
@@ -845,8 +845,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/cold"
+                    "mob:passive",
+                    "mob_variant:cold"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frog#Cold",
                 "meta": {
@@ -872,7 +872,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mangrove_Swamp",
                 "name": "Mangrove Swamp",
@@ -881,8 +881,8 @@
             },
             {
                 "types": [
-                    "biome/overworld",
-                    "biome/cave"
+                    "biome:overworld",
+                    "biome:cave"
                 ],
                 "wiki": "https://minecraft.wiki/w/Deep_Dark",
                 "name": "Deep Dark",
@@ -893,8 +893,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/underground",
-                    "structure/overworld"
+                    "structure:underground",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ancient_City",
                 "name": "Ancient City",

@@ -633,7 +633,7 @@
             },
             {
                 "types": [
-                    "effect/leaping"
+                    "effect:leaping"
                 ],
                 "image_identifier": "potion_of_leaping",
                 "wiki": "https://minecraft.wiki/w/Potion",
@@ -643,7 +643,7 @@
             },
             {
                 "types": [
-                    "effect/leaping"
+                    "effect:leaping"
                 ],
                 "image_identifier": "splash_potion_of_leaping",
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
@@ -655,7 +655,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Endermite",
                 "meta": {
@@ -673,7 +673,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Elder_Guardian",
                 "meta": {
@@ -691,7 +691,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Rabbit",
                 "meta": {
@@ -710,7 +710,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Guardian",
                 "meta": {
@@ -730,7 +730,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor/boots"
+                    "enchantment:armor/boots"
                 ],
                 "wiki": "https://minecraft.wiki/w/Depth_Strider",
                 "name": "Depth Strider",
@@ -740,8 +740,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/underwater",
-                    "structure/overworld"
+                    "structure:underwater",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ocean_Monument",
                 "name": "Ocean Monument",

@@ -336,7 +336,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Creaking",
                 "meta": {
@@ -355,7 +355,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pale_Garden",
                 "name": "Pale Garden",

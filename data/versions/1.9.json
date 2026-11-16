@@ -267,7 +267,7 @@
             },
             {
                 "types": [
-                    "effect/fire_resistance"
+                    "effect:fire_resistance"
                 ],
                 "image_identifier": "arrow_of_fire_resistance",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -277,7 +277,7 @@
             },
             {
                 "types": [
-                    "effect/harming"
+                    "effect:harming"
                 ],
                 "image_identifier": "arrow_of_harming",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -287,7 +287,7 @@
             },
             {
                 "types": [
-                    "effect/healing"
+                    "effect:healing"
                 ],
                 "image_identifier": "arrow_of_healing",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -297,7 +297,7 @@
             },
             {
                 "types": [
-                    "effect/invisibility"
+                    "effect:invisibility"
                 ],
                 "image_identifier": "arrow_of_invisibility",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -307,7 +307,7 @@
             },
             {
                 "types": [
-                    "effect/leaping"
+                    "effect:leaping"
                 ],
                 "image_identifier": "arrow_of_leaping",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -317,7 +317,7 @@
             },
             {
                 "types": [
-                    "effect/luck"
+                    "effect:luck"
                 ],
                 "image_identifier": "arrow_of_luck",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -327,7 +327,7 @@
             },
             {
                 "types": [
-                    "effect/night_vision"
+                    "effect:night_vision"
                 ],
                 "image_identifier": "arrow_of_night_vision",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -337,7 +337,7 @@
             },
             {
                 "types": [
-                    "effect/poison"
+                    "effect:poison"
                 ],
                 "image_identifier": "arrow_of_poison",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -347,7 +347,7 @@
             },
             {
                 "types": [
-                    "effect/regeneration"
+                    "effect:regeneration"
                 ],
                 "image_identifier": "arrow_of_regeneration",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -357,7 +357,7 @@
             },
             {
                 "types": [
-                    "effect/slowness"
+                    "effect:slowness"
                 ],
                 "image_identifier": "arrow_of_slowness",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -375,7 +375,7 @@
             },
             {
                 "types": [
-                    "effect/strength"
+                    "effect:strength"
                 ],
                 "image_identifier": "arrow_of_strength",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -385,7 +385,7 @@
             },
             {
                 "types": [
-                    "effect/swiftness"
+                    "effect:swiftness"
                 ],
                 "image_identifier": "arrow_of_swiftness",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -395,7 +395,7 @@
             },
             {
                 "types": [
-                    "effect/water_breathing"
+                    "effect:water_breathing"
                 ],
                 "image_identifier": "arrow_of_water_breathing",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -405,7 +405,7 @@
             },
             {
                 "types": [
-                    "effect/weakness"
+                    "effect:weakness"
                 ],
                 "image_identifier": "arrow_of_weakness",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -432,7 +432,7 @@
             },
             {
                 "types": [
-                    "effect/fire_resistance"
+                    "effect:fire_resistance"
                 ],
                 "image_identifier": "lingering_potion_of_fire_resistance",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -442,7 +442,7 @@
             },
             {
                 "types": [
-                    "effect/harming"
+                    "effect:harming"
                 ],
                 "image_identifier": "lingering_potion_of_harming",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -452,7 +452,7 @@
             },
             {
                 "types": [
-                    "effect/healing"
+                    "effect:healing"
                 ],
                 "image_identifier": "lingering_potion_of_healing",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -462,7 +462,7 @@
             },
             {
                 "types": [
-                    "effect/invisibility"
+                    "effect:invisibility"
                 ],
                 "image_identifier": "lingering_potion_of_invisibility",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -472,7 +472,7 @@
             },
             {
                 "types": [
-                    "effect/leaping"
+                    "effect:leaping"
                 ],
                 "image_identifier": "lingering_potion_of_leaping",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -482,7 +482,7 @@
             },
             {
                 "types": [
-                    "effect/luck"
+                    "effect:luck"
                 ],
                 "image_identifier": "lingering_potion_of_luck",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -492,7 +492,7 @@
             },
             {
                 "types": [
-                    "effect/night_vision"
+                    "effect:night_vision"
                 ],
                 "image_identifier": "lingering_potion_of_night_vision",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -502,7 +502,7 @@
             },
             {
                 "types": [
-                    "effect/poison"
+                    "effect:poison"
                 ],
                 "image_identifier": "lingering_potion_of_poison",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -512,7 +512,7 @@
             },
             {
                 "types": [
-                    "effect/regeneration"
+                    "effect:regeneration"
                 ],
                 "image_identifier": "lingering_potion_of_regeneration",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -522,7 +522,7 @@
             },
             {
                 "types": [
-                    "effect/slowness"
+                    "effect:slowness"
                 ],
                 "image_identifier": "lingering_potion_of_slowness",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -532,7 +532,7 @@
             },
             {
                 "types": [
-                    "effect/strength"
+                    "effect:strength"
                 ],
                 "image_identifier": "lingering_potion_of_strength",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -542,7 +542,7 @@
             },
             {
                 "types": [
-                    "effect/swiftness"
+                    "effect:swiftness"
                 ],
                 "image_identifier": "lingering_potion_of_swiftness",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -552,7 +552,7 @@
             },
             {
                 "types": [
-                    "effect/water_breathing"
+                    "effect:water_breathing"
                 ],
                 "image_identifier": "lingering_potion_of_water_breathing",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -562,7 +562,7 @@
             },
             {
                 "types": [
-                    "effect/weakness"
+                    "effect:weakness"
                 ],
                 "image_identifier": "lingering_potion_of_weakness",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -597,7 +597,7 @@
             },
             {
                 "types": [
-                    "effect/luck"
+                    "effect:luck"
                 ],
                 "image_identifier": "potion_of_luck",
                 "wiki": "https://minecraft.wiki/w/Potion",
@@ -607,7 +607,7 @@
             },
             {
                 "types": [
-                    "effect/luck"
+                    "effect:luck"
                 ],
                 "image_identifier": "splash_potion_of_luck",
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
@@ -627,7 +627,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shulker",
                 "meta": {
@@ -647,7 +647,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/movement"
+                    "effect:movement"
                 ],
                 "wiki": "https://minecraft.wiki/w/Levitation",
                 "name": "Levitation",
@@ -656,7 +656,7 @@
             },
             {
                 "types": [
-                    "effects/unused"
+                    "effect:unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bad_Luck",
                 "name": "Bad Luck",
@@ -665,7 +665,7 @@
             },
             {
                 "types": [
-                    "effects/unused"
+                    "effect:unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Luck",
                 "name": "Luck",
@@ -674,7 +674,7 @@
             },
             {
                 "types": [
-                    "effects/visibility"
+                    "effect:visibility"
                 ],
                 "wiki": "https://minecraft.wiki/w/Glowing",
                 "name": "Glowing",
@@ -685,7 +685,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor/boots"
+                    "enchantment:armor/boots"
                 ],
                 "wiki": "https://minecraft.wiki/w/Frost_Walker",
                 "name": "Frost Walker",
@@ -693,7 +693,7 @@
             },
             {
                 "types": [
-                    "enchantments/durability"
+                    "enchantment:durability"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mending",
                 "name": "Mending",
@@ -703,7 +703,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/end"
+                    "biome:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_Barrens",
                 "name": "End Barrens",
@@ -712,7 +712,7 @@
             },
             {
                 "types": [
-                    "biome/end"
+                    "biome:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_Highlands",
                 "name": "End Highlands",
@@ -721,7 +721,7 @@
             },
             {
                 "types": [
-                    "biome/end"
+                    "biome:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/Small_End_Islands",
                 "name": "Small End Islands",
@@ -730,7 +730,7 @@
             },
             {
                 "types": [
-                    "biome/end"
+                    "biome:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_Midlands",
                 "name": "End Midlands",
@@ -741,8 +741,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/surface",
-                    "structure/overworld"
+                    "structure:surface",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Igloo",
                 "name": "Igloo",
@@ -751,7 +751,7 @@
             },
             {
                 "types": [
-                    "structure/end"
+                    "structure:end"
                 ],
                 "wiki": "https://minecraft.wiki/w/End_City",
                 "name": "End City",

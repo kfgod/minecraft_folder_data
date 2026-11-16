@@ -234,7 +234,7 @@
             },
             {
                 "types": [
-                    "effect/invisibility"
+                    "effect:invisibility"
                 ],
                 "image_identifier": "potion_of_invisibility",
                 "wiki": "https://minecraft.wiki/w/Potion",
@@ -244,7 +244,7 @@
             },
             {
                 "types": [
-                    "effect/night_vision"
+                    "effect:night_vision"
                 ],
                 "image_identifier": "potion_of_night_vision",
                 "wiki": "https://minecraft.wiki/w/Potion",
@@ -254,7 +254,7 @@
             },
             {
                 "types": [
-                    "effect/invisibility"
+                    "effect:invisibility"
                 ],
                 "image_identifier": "splash_potion_of_invisibility",
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
@@ -264,7 +264,7 @@
             },
             {
                 "types": [
-                    "effect/night_vision"
+                    "effect:night_vision"
                 ],
                 "image_identifier": "splash_potion_of_night_vision",
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
@@ -276,7 +276,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Witch",
                 "meta": {
@@ -294,7 +294,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wither_Skeleton",
                 "meta": {
@@ -312,7 +312,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombie_Villager",
                 "meta": {
@@ -331,7 +331,7 @@
             },
             {
                 "types": [
-                    "mobs/boss"
+                    "mob:boss"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wither",
                 "meta": {
@@ -349,7 +349,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bat",
                 "meta": {
@@ -369,7 +369,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/health"
+                    "effect:health"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wither_(effect)",
                 "name": "Wither",
@@ -380,7 +380,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/2x2"
+                    "painting:2x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Wither – Jens Bergensten",
@@ -391,8 +391,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/surface",
-                    "structure/overworld"
+                    "structure:surface",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Swamp_Hut",
                 "name": "Swamp Hut",

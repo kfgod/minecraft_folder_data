@@ -57,7 +57,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Polar_Bear",
                 "meta": {
@@ -76,7 +76,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Husk",
                 "meta": {
@@ -95,7 +95,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stray",
                 "meta": {

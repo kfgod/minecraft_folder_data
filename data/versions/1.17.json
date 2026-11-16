@@ -399,8 +399,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Unoxidized",
@@ -410,8 +410,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Unoxidized",
@@ -421,8 +421,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Unoxidized",
@@ -432,8 +432,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Unoxidized",
@@ -443,8 +443,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Exposed",
@@ -454,8 +454,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Exposed",
@@ -465,8 +465,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Exposed",
@@ -476,8 +476,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Exposed",
@@ -487,8 +487,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Weathered",
@@ -498,8 +498,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Weathered",
@@ -509,8 +509,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Weathered",
@@ -520,8 +520,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Weathered",
@@ -531,8 +531,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Block_of_Copper#Oxidized",
@@ -542,8 +542,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper#Oxidized",
@@ -553,8 +553,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Stairs#Oxidized",
@@ -564,8 +564,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cut_Copper_Slab#Oxidized",
@@ -1170,7 +1170,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Glow_Squid",
                 "meta": {
@@ -1189,7 +1189,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Goat",
                 "meta": {
@@ -1208,7 +1208,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Axolotl",
                 "meta": {
@@ -1385,7 +1385,7 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Axolotl#Cyan",
                 "meta": {
@@ -1410,7 +1410,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Axolotl#Gold",
                 "meta": {
@@ -1435,7 +1435,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Axolotl#Wild",
                 "meta": {
@@ -1460,7 +1460,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Axolotl#Blue",
                 "meta": {

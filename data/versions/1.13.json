@@ -744,7 +744,7 @@
             },
             {
                 "types": [
-                    "effect/slow_falling"
+                    "effect:slow_falling"
                 ],
                 "image_identifier": "arrow_of_slow_falling",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -754,7 +754,7 @@
             },
             {
                 "types": [
-                    "effect/turle_master"
+                    "effect:turle_master"
                 ],
                 "image_identifier": "arrow_of_the_turtle_master",
                 "wiki": "https://minecraft.wiki/w/Tipped_Arrow",
@@ -764,7 +764,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Trial_Explorer",
                 "name": "Buried Treasure Map",
@@ -798,7 +798,7 @@
             },
             {
                 "types": [
-                    "effect/slow_falling"
+                    "effect:slow_falling"
                 ],
                 "image_identifier": "lingering_potion_of_slow_falling",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -808,7 +808,7 @@
             },
             {
                 "types": [
-                    "effect/turle_master"
+                    "effect:turle_master"
                 ],
                 "image_identifier": "lingering_potion_of_the_turtle_master",
                 "wiki": "https://minecraft.wiki/w/Lingering_Potion",
@@ -870,7 +870,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Turtle",
                 "meta": {
@@ -889,7 +889,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dolphin",
                 "meta": {
@@ -908,7 +908,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pufferfish",
                 "meta": {
@@ -926,7 +926,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Tropical_Fish",
                 "meta": {
@@ -944,7 +944,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Drowned",
                 "meta": {
@@ -963,7 +963,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cod",
                 "meta": {
@@ -981,7 +981,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Phantom",
                 "meta": {
@@ -999,7 +999,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Salmon",
                 "meta": {
@@ -1019,7 +1019,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/movement"
+                    "effect:movement"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dolphin%27s_Grace",
                 "name": "Dolphin's Grace",
@@ -1028,7 +1028,7 @@
             },
             {
                 "types": [
-                    "effects/movement"
+                    "effect:movement"
                 ],
                 "wiki": "https://minecraft.wiki/w/Slow_Falling",
                 "name": "Slow Falling",
@@ -1037,7 +1037,7 @@
             },
             {
                 "types": [
-                    "effects/underwater"
+                    "effect:underwater"
                 ],
                 "wiki": "https://minecraft.wiki/w/Conduit_Power",
                 "name": "Conduit Power",
@@ -1048,7 +1048,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/trident"
+                    "enchantment:trident"
                 ],
                 "wiki": "https://minecraft.wiki/w/Impaling",
                 "name": "Impaling",
@@ -1056,7 +1056,7 @@
             },
             {
                 "types": [
-                    "enchantments/trident"
+                    "enchantment:trident"
                 ],
                 "wiki": "https://minecraft.wiki/w/Riptide",
                 "name": "Riptide",
@@ -1064,7 +1064,7 @@
             },
             {
                 "types": [
-                    "enchantments/trident"
+                    "enchantment:trident"
                 ],
                 "wiki": "https://minecraft.wiki/w/Loyalty",
                 "name": "Loyalty",
@@ -1072,7 +1072,7 @@
             },
             {
                 "types": [
-                    "enchantments/trident"
+                    "enchantment:trident"
                 ],
                 "wiki": "https://minecraft.wiki/w/Channeling",
                 "name": "Channeling",
@@ -1140,7 +1140,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lukewarm_Ocean",
                 "name": "Lukewarm Ocean",
@@ -1149,7 +1149,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Deep_Frozen_Ocean",
                 "name": "Deep Frozen Ocean",
@@ -1158,7 +1158,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Deep_Lukewarm_Ocean",
                 "name": "Deep Lukewarm Ocean",
@@ -1167,7 +1167,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cold_Ocean",
                 "name": "Cold Ocean",
@@ -1176,7 +1176,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warm_Ocean",
                 "name": "Warm Ocean",
@@ -1185,7 +1185,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Deep_Cold_Ocean",
                 "name": "Deep Cold Ocean",
@@ -1196,8 +1196,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/underwater",
-                    "structure/overworld"
+                    "structure:underwater",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ocean_Ruins",
                 "name": "Ocean Ruins",
@@ -1206,8 +1206,8 @@
             },
             {
                 "types": [
-                    "structure/underground",
-                    "structure/overworld"
+                    "structure:underground",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Buried_Treasure",
                 "name": "Buried Treasure",
@@ -1216,8 +1216,8 @@
             },
             {
                 "types": [
-                    "structure/underwater",
-                    "structure/overworld"
+                    "structure:underwater",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Shipwreck",
                 "name": "Shipwreck",

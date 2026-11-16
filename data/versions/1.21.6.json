@@ -192,7 +192,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Happy_Ghast#Default",
                 "meta": {

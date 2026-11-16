@@ -185,7 +185,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/bow"
+                    "enchantment:bow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Power",
                 "name": "Power",
@@ -193,7 +193,7 @@
             },
             {
                 "types": [
-                    "enchantments/bow"
+                    "enchantment:bow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flame",
                 "name": "Flame",
@@ -201,7 +201,7 @@
             },
             {
                 "types": [
-                    "enchantments/bow"
+                    "enchantment:bow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Punch",
                 "name": "Punch",
@@ -209,7 +209,7 @@
             },
             {
                 "types": [
-                    "enchantments/bow"
+                    "enchantment:bow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Infinity",
                 "name": "Infinity",
@@ -219,7 +219,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Beach",
                 "name": "Beach",

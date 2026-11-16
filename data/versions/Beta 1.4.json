@@ -14,7 +14,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf",
                 "meta": {

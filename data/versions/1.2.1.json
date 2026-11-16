@@ -77,7 +77,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cat",
                 "meta": {
@@ -96,7 +96,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Iron_Golem",
                 "meta": {
@@ -113,7 +113,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ocelot",
                 "meta": {
@@ -134,7 +134,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Jungle",
                 "name": "Jungle",

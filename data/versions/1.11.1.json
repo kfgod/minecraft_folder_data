@@ -21,7 +21,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/melee/sword"
+                    "enchantment:melee/sword"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sweeping_Edge",
                 "name": "Sweeping Edge",

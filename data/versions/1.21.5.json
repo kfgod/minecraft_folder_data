@@ -125,7 +125,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Desert Village Map",
@@ -134,7 +134,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Plains Village Map",
@@ -143,7 +143,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Savanna Village Map",
@@ -152,7 +152,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Snowy Village Map",
@@ -161,7 +161,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Taiga Village Map",
@@ -170,7 +170,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Jungle Pyramid Map",
@@ -179,7 +179,7 @@
             },
             {
                 "types": [
-                    "maps"
+                    "kind:explorer_map"
                 ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map#Jungle,_Swamp_Explorer;_Village",
                 "name": "Swamp Hut Map",
@@ -190,8 +190,8 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/cold"
+                    "mob:passive",
+                    "mob_variant:cold"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pig#Cold",
                 "meta": {
@@ -216,8 +216,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/warm"
+                    "mob:passive",
+                    "mob_variant:warm"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chicken#Warm",
                 "meta": {
@@ -242,8 +242,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/warm"
+                    "mob:passive",
+                    "mob_variant:warm"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pig#Warm",
                 "meta": {
@@ -268,8 +268,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/warm"
+                    "mob:passive",
+                    "mob_variant:warm"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cow#Warm",
                 "meta": {
@@ -294,8 +294,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/cold"
+                    "mob:passive",
+                    "mob_variant:cold"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chicken#Cold",
                 "meta": {
@@ -320,8 +320,8 @@
             },
             {
                 "types": [
-                    "mobs/passive",
-                    "mob_variant/cold"
+                    "mob:passive",
+                    "mob_variant:cold"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cow#Cold",
                 "meta": {

@@ -193,7 +193,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nautilus",
                 "meta": {
@@ -212,7 +212,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Camel_Husk",
                 "meta": {
@@ -230,7 +230,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombie_Nautilus",
                 "meta": {
@@ -248,7 +248,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Parched",
                 "meta": {
@@ -268,7 +268,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/underwater"
+                    "effect:underwater"
                 ],
                 "wiki": "https://minecraft.wiki/w/Breath_of_the_Nautilus",
                 "name": "Breath of the Nautilus",
@@ -279,7 +279,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/melee/spear"
+                    "enchantment:melee/spear"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lunge",
                 "name": "Lunge",
@@ -305,7 +305,7 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombie_Nautilus#Coral",
                 "meta": {

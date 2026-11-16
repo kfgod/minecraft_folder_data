@@ -31,8 +31,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Unoxidized",
@@ -42,8 +42,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Exposed",
@@ -53,8 +53,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Weathered",
@@ -64,8 +64,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Bars#Oxidized",
@@ -103,8 +103,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Unoxidized",
@@ -114,8 +114,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Exposed",
@@ -125,8 +125,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Weathered",
@@ -136,8 +136,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chain#Oxidized",
@@ -175,8 +175,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Lantern#Unoxidized",
@@ -186,8 +186,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Lantern#Exposed",
@@ -197,8 +197,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Lantern#Weathered",
@@ -208,8 +208,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Lantern#Oxidized",
@@ -219,7 +219,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed",
                 "name": "Exposed Lightning Rod",
@@ -228,7 +228,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Weathered",
                 "name": "Weathered Lightning Rod",
@@ -237,7 +237,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Oxidized",
                 "name": "Oxidized Lightning Rod",
@@ -246,8 +246,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Unoxidized",
@@ -257,8 +257,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Exposed",
@@ -268,8 +268,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Weathered",
@@ -279,8 +279,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lightning_Rod#Oxidized",
@@ -417,7 +417,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized",
                 "name": "Copper Chest",
@@ -426,7 +426,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Exposed",
                 "name": "Exposed Copper Chest",
@@ -435,7 +435,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Weathered",
                 "name": "Weathered Copper Chest",
@@ -444,7 +444,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Oxidized",
                 "name": "Oxidized Copper Chest",
@@ -453,8 +453,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Unoxidized",
@@ -464,8 +464,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Exposed",
@@ -475,8 +475,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Weathered",
@@ -486,8 +486,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Chest#Oxidized",
@@ -497,7 +497,7 @@
             },
             {
                 "types": [
-                    "copper/unoxidized"
+                    "copper:unoxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Unoxidized",
                 "name": "Copper Golem Statue",
@@ -506,7 +506,7 @@
             },
             {
                 "types": [
-                    "copper/exposed"
+                    "copper:exposed"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Exposed",
                 "name": "Exposed Copper Golem Statue",
@@ -515,7 +515,7 @@
             },
             {
                 "types": [
-                    "copper/weathered"
+                    "copper:weathered"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered",
                 "name": "Weathered Copper Golem Statue",
@@ -524,7 +524,7 @@
             },
             {
                 "types": [
-                    "copper/oxidized"
+                    "copper:oxidized"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Oxidized",
                 "name": "Oxidized Copper Golem Statue",
@@ -533,8 +533,8 @@
             },
             {
                 "types": [
-                    "copper/unoxidized",
-                    "copper/waxed",
+                    "copper:unoxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Unoxidized",
@@ -544,8 +544,8 @@
             },
             {
                 "types": [
-                    "copper/exposed",
-                    "copper/waxed",
+                    "copper:exposed",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Exposed",
@@ -555,8 +555,8 @@
             },
             {
                 "types": [
-                    "copper/weathered",
-                    "copper/waxed",
+                    "copper:weathered",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Weathered",
@@ -566,8 +566,8 @@
             },
             {
                 "types": [
-                    "copper/oxidized",
-                    "copper/waxed",
+                    "copper:oxidized",
+                    "copper:waxed",
                     "hidden"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem_Statue#Oxidized",
@@ -706,7 +706,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Copper_Golem",
                 "meta": {

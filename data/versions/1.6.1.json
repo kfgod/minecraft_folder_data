@@ -436,7 +436,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Donkey",
                 "meta": {
@@ -454,7 +454,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Skeleton_Horse",
                 "meta": {
@@ -473,7 +473,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mule",
                 "meta": {
@@ -491,7 +491,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombie_Horse",
                 "meta": {
@@ -510,7 +510,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Horse",
                 "meta": {
@@ -530,7 +530,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/health"
+                    "effect:health"
                 ],
                 "wiki": "https://minecraft.wiki/w/Absorption",
                 "name": "Absorption",
@@ -539,7 +539,7 @@
             },
             {
                 "types": [
-                    "effects/unused"
+                    "effect:unused"
                 ],
                 "wiki": "https://minecraft.wiki/w/Health_Boost",
                 "name": "Health Boost",
@@ -548,7 +548,7 @@
             },
             {
                 "types": [
-                    "effects/hunger"
+                    "effect:hunger"
                 ],
                 "wiki": "https://minecraft.wiki/w/Saturation",
                 "name": "Saturation",

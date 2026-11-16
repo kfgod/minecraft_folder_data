@@ -929,7 +929,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sniffer",
                 "meta": {
@@ -948,7 +948,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Camel",
                 "meta": {
@@ -1083,7 +1083,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cherry_Grove",
                 "name": "Cherry Grove",
@@ -1094,8 +1094,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/underground",
-                    "structure/overworld"
+                    "structure:underground",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trail_Ruins",
                 "name": "Trail Ruins",

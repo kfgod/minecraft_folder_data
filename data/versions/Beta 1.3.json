@@ -69,7 +69,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/4x4"
+                    "painting:4x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Skull On Fire – Kristoffer Zetterstrand",

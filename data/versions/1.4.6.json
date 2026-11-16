@@ -32,7 +32,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor"
+                    "enchantment:armor"
                 ],
                 "wiki": "https://minecraft.wiki/w/Thorns",
                 "name": "Thorns",

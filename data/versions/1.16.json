@@ -874,7 +874,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zoglin",
                 "meta": {
@@ -893,7 +893,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Piglin",
                 "meta": {
@@ -912,7 +912,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hoglin",
                 "meta": {
@@ -931,7 +931,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Strider",
                 "meta": {
@@ -952,7 +952,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/armor/boots"
+                    "enchantment:armor/boots"
                 ],
                 "wiki": "https://minecraft.wiki/w/Soul_Speed",
                 "name": "Soul Speed",
@@ -1118,7 +1118,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/nether"
+                    "biome:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Warped_Forest",
                 "name": "Warped Forest",
@@ -1127,7 +1127,7 @@
             },
             {
                 "types": [
-                    "biome/nether"
+                    "biome:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Soul_Sand_Valley",
                 "name": "Soul Sand Valley",
@@ -1136,7 +1136,7 @@
             },
             {
                 "types": [
-                    "biome/nether"
+                    "biome:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Basalt_Deltas",
                 "name": "Basalt Deltas",
@@ -1145,7 +1145,7 @@
             },
             {
                 "types": [
-                    "biome/nether"
+                    "biome:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Crimson_Forest",
                 "name": "Crimson Forest",
@@ -1156,7 +1156,7 @@
         "structures": [
             {
                 "types": [
-                    "structure/nether"
+                    "structure:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bastion_Remnant",
                 "name": "Bastion Remnant",
@@ -1165,10 +1165,10 @@
             },
             {
                 "types": [
-                    "structure/surface",
-                    "structure/underground",
-                    "structure/overworld",
-                    "structure/nether"
+                    "structure:surface",
+                    "structure:underground",
+                    "structure:overworld",
+                    "structure:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ruined_Portal",
                 "name": "Ruined Portal",

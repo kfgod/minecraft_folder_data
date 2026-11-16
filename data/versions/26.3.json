@@ -1125,35 +1125,45 @@
                 "imagePath": "/item/poplar_chest_boat/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:explorer_map"
+                ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Desert Pyramid Map",
                 "identifier": "desert_pyramid_map",
                 "imagePath": "/item/desert_pyramid_map/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:explorer_map"
+                ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Warm Ocean Ruins Map",
                 "identifier": "warm_ocean_ruins_map",
                 "imagePath": "/item/warm_ocean_ruins_map/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:explorer_map"
+                ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Abandoned Camp Map",
                 "identifier": "abandoned_camp_map",
                 "imagePath": "/item/abandoned_camp_map/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:explorer_map"
+                ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Buried Ancient City Map",
                 "identifier": "buried_ancient_city_map",
                 "imagePath": "/item/buried_ancient_city_map/latest.png"
             },
             {
-                "types": [],
+                "types": [
+                    "kind:explorer_map"
+                ],
                 "wiki": "https://minecraft.wiki/w/Explorer_Map",
                 "name": "Buried Mineshaft Map",
                 "identifier": "buried_mineshaft_map",
@@ -1163,7 +1173,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dappled_Forest",
                 "name": "Dappled Forest",

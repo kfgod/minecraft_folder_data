@@ -2,7 +2,9 @@
     "added": {
         "items": [
             {
-                "types": [],
+                "types": [
+                    "use:companion_armor"
+                ],
                 "wiki": "https://minecraft.wiki/w/Wolf_Armor",
                 "name": "Wolf Armor",
                 "identifier": "wolf_armor",
@@ -28,7 +30,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Armadillo",
                 "meta": {
@@ -107,7 +109,7 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Chestnut",
                 "meta": {
@@ -132,7 +134,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Snowy",
                 "meta": {
@@ -157,7 +159,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Spotted",
                 "meta": {
@@ -182,7 +184,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Black",
                 "meta": {
@@ -207,7 +209,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Woods",
                 "meta": {
@@ -232,7 +234,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Rusty",
                 "meta": {
@@ -257,7 +259,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Ashen",
                 "meta": {
@@ -282,7 +284,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wolf#Stripped",
                 "meta": {

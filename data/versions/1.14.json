@@ -886,7 +886,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fox",
                 "meta": {
@@ -905,7 +905,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda",
                 "meta": {
@@ -924,7 +924,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ravager",
                 "meta": {
@@ -942,7 +942,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Trader_Llama",
                 "meta": {
@@ -960,7 +960,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pillager",
                 "meta": {
@@ -978,7 +978,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wandering_Trader",
                 "meta": {
@@ -996,7 +996,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Mooshroom#Brown",
                 "meta": {
@@ -1011,7 +1011,7 @@
         "effects": [
             {
                 "types": [
-                    "effects/ominous_events"
+                    "effect:ominous_events"
                 ],
                 "wiki": "https://minecraft.wiki/w/Hero_of_the_Village",
                 "name": "Hero of the Village",
@@ -1020,7 +1020,7 @@
             },
             {
                 "types": [
-                    "effects/ominous_events"
+                    "effect:ominous_events"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bad_Omen",
                 "name": "Bad Omen",
@@ -1031,7 +1031,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/crossbow"
+                    "enchantment:crossbow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Multishot",
                 "name": "Multishot",
@@ -1039,7 +1039,7 @@
             },
             {
                 "types": [
-                    "enchantments/crossbow"
+                    "enchantment:crossbow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Quick_Charge",
                 "name": "Quick Charge",
@@ -1047,7 +1047,7 @@
             },
             {
                 "types": [
-                    "enchantments/crossbow"
+                    "enchantment:crossbow"
                 ],
                 "wiki": "https://minecraft.wiki/w/Piercing",
                 "name": "Piercing",
@@ -1152,7 +1152,7 @@
         "mob_variants": [
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Brown",
                 "meta": {
@@ -1177,7 +1177,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Worried",
                 "meta": {
@@ -1202,7 +1202,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Playful",
                 "meta": {
@@ -1227,7 +1227,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Weak",
                 "meta": {
@@ -1253,7 +1253,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Lazy",
                 "meta": {
@@ -1278,7 +1278,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Fox#Snow",
                 "meta": {
@@ -1303,7 +1303,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Panda#Aggressive",
                 "meta": {
@@ -1330,7 +1330,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Bamboo_Jungle",
                 "name": "Bamboo Jungle",
@@ -1341,8 +1341,8 @@
         "structures": [
             {
                 "types": [
-                    "structure/surface",
-                    "structure/overworld"
+                    "structure:surface",
+                    "structure:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Pillager_Outpost",
                 "name": "Pillager Outpost",

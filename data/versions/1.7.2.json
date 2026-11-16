@@ -740,7 +740,7 @@
             },
             {
                 "types": [
-                    "effect/water_breathing"
+                    "effect:water_breathing"
                 ],
                 "image_identifier": "potion_of_water_breathing",
                 "wiki": "https://minecraft.wiki/w/Potion",
@@ -750,7 +750,7 @@
             },
             {
                 "types": [
-                    "effect/water_breathing"
+                    "effect:water_breathing"
                 ],
                 "image_identifier": "splash_potion_of_water_breathing",
                 "wiki": "https://minecraft.wiki/w/Splash_Potion",
@@ -762,7 +762,7 @@
         "enchantments": [
             {
                 "types": [
-                    "enchantments/fishing_rod"
+                    "enchantment:fishing_rod"
                 ],
                 "wiki": "https://minecraft.wiki/w/Luck_of_the_Sea",
                 "name": "Luck of the Sea",
@@ -770,7 +770,7 @@
             },
             {
                 "types": [
-                    "enchantments/fishing_rod"
+                    "enchantment:fishing_rod"
                 ],
                 "wiki": "https://minecraft.wiki/w/Lure",
                 "name": "Lure",
@@ -780,7 +780,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Badlands",
                 "name": "Badlands",
@@ -789,7 +789,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snowy_Beach",
                 "name": "Snowy Beach",
@@ -798,7 +798,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Flower_Forest",
                 "name": "Flower Forest",
@@ -807,7 +807,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Old_Growth_Spruce_Taiga",
                 "name": "Old Growth Spruce Taiga",
@@ -816,7 +816,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Savanna_Plateau",
                 "name": "Savanna Plateau",
@@ -825,7 +825,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Windswept_Forest",
                 "name": "Windswept Forest",
@@ -834,7 +834,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Birch_Forest",
                 "name": "Birch Forest",
@@ -843,7 +843,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Windswept_Savanna",
                 "name": "Windswept Savanna",
@@ -852,7 +852,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Eroded_Badlands",
                 "name": "Eroded Badlands",
@@ -861,7 +861,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Stony_Shore",
                 "name": "Stony Shore",
@@ -870,7 +870,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Old_Growth_Pine_Taiga",
                 "name": "Old Growth Pine Taiga",
@@ -879,7 +879,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sparse_Jungle",
                 "name": "Sparse Jungle",
@@ -888,7 +888,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Dark_Forest",
                 "name": "Dark Forest",
@@ -897,7 +897,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Wooded_Badlands",
                 "name": "Wooded Badlands",
@@ -906,7 +906,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Old_Growth_Birch_Forest",
                 "name": "Old Growth Birch Forest",
@@ -915,7 +915,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Savanna",
                 "name": "Savanna",
@@ -924,7 +924,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ice_Spikes",
                 "name": "Ice Spikes",
@@ -933,7 +933,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Deep_Ocean",
                 "name": "Deep Ocean",
@@ -942,7 +942,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Windswept_Gravelly_Hills",
                 "name": "Windswept Gravelly Hills",
@@ -951,7 +951,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Sunflower_Plains",
                 "name": "Sunflower Plains",
@@ -960,7 +960,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Snowy_Taiga",
                 "name": "Snowy Taiga",

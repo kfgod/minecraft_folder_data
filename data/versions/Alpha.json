@@ -368,7 +368,7 @@
         "mobs": [
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Slime",
                 "meta": {
@@ -385,7 +385,7 @@
             },
             {
                 "types": [
-                    "mobs/hostile"
+                    "mob:hostile"
                 ],
                 "wiki": "https://minecraft.wiki/w/Ghast",
                 "meta": {
@@ -403,7 +403,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Chicken",
                 "meta": {
@@ -422,7 +422,7 @@
             },
             {
                 "types": [
-                    "mobs/neutral"
+                    "mob:neutral"
                 ],
                 "wiki": "https://minecraft.wiki/w/Zombified_Piglin",
                 "meta": {
@@ -441,7 +441,7 @@
             },
             {
                 "types": [
-                    "mobs/passive"
+                    "mob:passive"
                 ],
                 "wiki": "https://minecraft.wiki/w/Cow",
                 "meta": {
@@ -462,7 +462,7 @@
         "paintings": [
             {
                 "types": [
-                    "paintings/4x4"
+                    "painting:4x4"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Pigscene – Kristoffer Zetterstrand",
@@ -471,7 +471,7 @@
             },
             {
                 "types": [
-                    "paintings/2x1"
+                    "painting:2x1"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Creebet – Kristoffer Zetterstrand",
@@ -480,7 +480,7 @@
             },
             {
                 "types": [
-                    "paintings/4x3"
+                    "painting:4x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Mortal Coil – Kristoffer Zetterstrand",
@@ -489,7 +489,7 @@
             },
             {
                 "types": [
-                    "paintings/1x2"
+                    "painting:1x2"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Graham – Kristoffer Zetterstrand",
@@ -498,7 +498,7 @@
             },
             {
                 "types": [
-                    "paintings/4x3"
+                    "painting:4x3"
                 ],
                 "wiki": "https://minecraft.wiki/w/Painting",
                 "name": "Kong – Kristoffer Zetterstrand",
@@ -509,7 +509,7 @@
         "biomes": [
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Forest",
                 "name": "Forest",
@@ -518,7 +518,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Taiga",
                 "name": "Taiga",
@@ -527,7 +527,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Plains",
                 "name": "Plains",
@@ -536,7 +536,7 @@
             },
             {
                 "types": [
-                    "biome/nether"
+                    "biome:nether"
                 ],
                 "wiki": "https://minecraft.wiki/w/Nether_Wastes",
                 "name": "Nether Wastes",
@@ -545,7 +545,7 @@
             },
             {
                 "types": [
-                    "biome/overworld"
+                    "biome:overworld"
                 ],
                 "wiki": "https://minecraft.wiki/w/Desert",
                 "name": "Desert",
